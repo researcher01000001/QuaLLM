@@ -204,6 +204,11 @@ When reading scores:
 
 The Step 2 comparison reports reflect Step 1 corrections. Later edits in the full review page appear in the Step 3 export. The [metrics guide](docs/metrics-and-rendering.md) explains the remaining workbook sheets, scoring rules and aggregation.
 
+##Known issues
+The human reference coding (HeadCT_ThinkAlouds_codes.xlsx) uses five code names from an earlier version of the coding scheme (333 of 5,169 codes). These are not mapped and count as disagreements in the reported metrics; see TA5.2 of the technical appendix
+Krippendorff’s α (Hayes and Krippendorff 2007) is currently not implemented
+The computation of standard deviations in the improvement run is currently not implemented
+
 ## Further Documentation
 
 - [Configuration Reference](docs/configuration.md) - all configuration constants, model fields, API connection and sampling settings.
