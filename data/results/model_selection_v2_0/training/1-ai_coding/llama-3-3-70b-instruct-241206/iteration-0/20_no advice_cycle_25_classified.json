@@ -1,0 +1,1829 @@
+[
+  {
+    "phrase": "Ich hab das Gefühl, ich sehe es nur, wenn es richtig deutlich ist.",
+    "context": "...Ich hab das Gefühl, ich sehe es nur, wenn es richtig deutlich ist. Irgendwie sehe ich schon wieder nichts…. ?",
+    "tags": [
+      "reflection: perceptual_doubt"
+    ],
+    "rationale": "The person is expressing doubt about their own perception, indicating that they only see things when they are very clear, implying uncertainty about their ability to detect less obvious abnormalities.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_no advice_cycle_25.txt",
+      "row": 9
+    },
+    "model": "meta-llama/llama-3.3-70b-instruct",
+    "provider": "Parasail",
+    "configuration_name": "llama-3-3-70b-instruct-241206"
+  },
+  {
+    "phrase": "Sehe ich auch nichts.",
+    "context": "... Sehe ich auch nichts. . Ups nein.",
+    "tags": [
+      "indicator: no_bleeding"
+    ],
+    "rationale": "The person explicitly states that they do not see anything, which implies that they do not notice any abnormalities or indicators of bleeding.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_no advice_cycle_25.txt",
+      "row": 8
+    },
+    "model": "meta-llama/llama-3.3-70b-instruct",
+    "provider": "AkashML",
+    "configuration_name": "llama-3-3-70b-instruct-241206"
+  },
+  {
+    "phrase": "Aber ich glaub, dass das keine ist.",
+    "context": "...Ja bin ich mir nicht so, geht so sicher. Aber ich glaub, dass das keine ist.",
+    "tags": [
+      "interpretation: no_bleeding",
+      "confidence_low: secondary"
+    ],
+    "rationale": "The phrase 'Aber ich glaub, dass das keine ist' translates to 'But I think that's not one', indicating the person's interpretation that there is no bleeding, which aligns with the 'interpretation: no_bleeding' tag. The use of 'glaub' (think/believe) implies a level of uncertainty, hence the 'confidence_low: secondary' tag is also applicable.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_no advice_cycle_25.txt",
+      "row": 7
+    },
+    "model": "meta-llama/llama-3.3-70b-instruct",
+    "provider": "Parasail",
+    "configuration_name": "llama-3-3-70b-instruct-241206"
+  },
+  {
+    "phrase": "Ich würde hier schon tendieren zu Blutung",
+    "context": "Ja, ne , ich glaube bei dem Bild hier sehe ich eher links, Hyperdense Strukturen und auch mittig. Ich würde hier schon tendieren zu Blutung, aber jetzt nicht Epidural oder Subdural, sehe ich da, hm, eher nicht... Aber mhm, ja.",
+    "tags": [
+      "interpretation: bleeding"
+    ],
+    "rationale": "The tag 'interpretation: bleeding' applies because the person is interpreting the abnormality in the image as a potential hemorrhage, although they are not entirely certain about its location or type.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_no advice_cycle_25.txt",
+      "row": 11
+    },
+    "model": "meta-llama/llama-3.3-70b-instruct",
+    "provider": "Parasail",
+    "configuration_name": "llama-3-3-70b-instruct-241206"
+  },
+  {
+    "phrase": "aber jetzt nicht Epidural oder Subdural, sehe ich da, hm, eher nicht",
+    "context": "Ja, ne , ich glaube bei dem Bild hier sehe ich eher links, Hyperdense Strukturen und auch mittig. Ich würde hier schon tendieren zu Blutung, aber jetzt nicht Epidural oder Subdural, sehe ich da, hm, eher nicht... Aber mhm, ja.",
+    "tags": [
+      "confidence_low: concrete"
+    ],
+    "rationale": "The tag 'confidence_low: concrete' applies because the person is expressing uncertainty about the specific type of hemorrhage, indicating a lack of confidence in their diagnosis.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_no advice_cycle_25.txt",
+      "row": 11
+    },
+    "model": "meta-llama/llama-3.3-70b-instruct",
+    "provider": "Parasail",
+    "configuration_name": "llama-3-3-70b-instruct-241206"
+  },
+  {
+    "phrase": "Bin ich mir nicht so sicher,… aber ich glaube schon dass hier eine Blutung ist.",
+    "context": "So hier sehe ich ?, also Mittellinie sieht gut aus, Schädelknochen auch. Hm, im Vergleich,… ja,… jetzt finde ich hier Occipital vielleicht. Da sind ja zwei Signalerhöhungen. Bin ich mir nicht so sicher,… aber ich glaube schon dass hier eine Blutung ist.",
+    "tags": [
+      "confidence_low: concrete",
+      "interpretation: bleeding"
+    ],
+    "rationale": "The phrase expresses low certainty with 'Bin ich mir nicht so sicher' and interprets the finding as a potential hemorrhage with 'dass hier eine Blutung ist'.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_no advice_cycle_25.txt",
+      "row": 6
+    },
+    "model": "meta-llama/llama-3.3-70b-instruct",
+    "provider": "AkashML",
+    "configuration_name": "llama-3-3-70b-instruct-241206"
+  },
+  {
+    "error": "JSONDecodeError",
+    "message": "Expecting ':' delimiter: line 1 column 261 (char 260)",
+    "raw_output": "{\"classifications\": [{\"phrase\": \"das ist eine Blutung\", \"context\": \"Ja gut aber jetzt frontal, ähm, links ist da, ähm, hyper-, sind das CTs? Jetzt gerade, ich sehe nur CTs. Dann sage ich hyperdens, ja... das ist eine Blutung\", \"tags: [interpretation: bleeding\"], \"rationale\": \"The tag 'interpretation: bleeding' applies because the person explicitly interprets the abnormality as a hemorrhage.\"}]}",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_no advice_cycle_25.txt",
+      "row": 2
+    },
+    "model": "meta-llama/llama-3.3-70b-instruct",
+    "provider": "Cloudflare",
+    "configuration_name": "llama-3-3-70b-instruct-241206"
+  },
+  {
+    "phrase": "Ich das Gefühl, dass bei der Größe, könnte ich vielleicht schon, hoffentlich eine Subdurale oder Epidurale Blutung oder so sehen",
+    "context": "Hier sehe ich tatsächlich auch nichts… Ich das Gefühl, dass bei der Größe, könnte ich vielleicht schon, hoffentlich eine Subdurale oder Epidurale Blutung oder so sehen, aber ähm, Subdural, wüsste ich jetzt nicht, ob man das bei der Größe sehen konnte, oder interessehalber, aber hier ist auch nichts.",
+    "tags": [
+      "interpretation: no_bleeding",
+      "confidence_low: concrete"
+    ],
+    "rationale": "The person is expressing uncertainty about seeing a subdural or epidural hemorrhage, and also mentions that they don't see anything, which suggests a lack of confidence in their interpretation.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_no advice_cycle_25.txt",
+      "row": 5
+    },
+    "model": "meta-llama/llama-3.3-70b-instruct",
+    "provider": "Parasail",
+    "configuration_name": "llama-3-3-70b-instruct-241206"
+  },
+  {
+    "phrase": "Subdural, wüsste ich jetzt nicht, ob man das bei der Größe sehen konnte",
+    "context": "Hier sehe ich tatsächlich auch nichts… Ich das Gefühl, dass bei der Größe, könnte ich vielleicht schon, hoffentlich eine Subdurale oder Epidurale Blutung oder so sehen, aber ähm, Subdural, wüsste ich jetzt nicht, ob man das bei der Größe sehen konnte, oder interessehalber, aber hier ist auch nichts.",
+    "tags": [
+      "reflection: diagnostic_uncertainty"
+    ],
+    "rationale": "The person is uncertain about whether a subdural hemorrhage could be seen at the given size, which indicates diagnostic uncertainty.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_no advice_cycle_25.txt",
+      "row": 5
+    },
+    "model": "meta-llama/llama-3.3-70b-instruct",
+    "provider": "Parasail",
+    "configuration_name": "llama-3-3-70b-instruct-241206"
+  },
+  {
+    "phrase": "hier ist auch nichts",
+    "context": "Hier sehe ich tatsächlich auch nichts… Ich das Gefühl, dass bei der Größe, könnte ich vielleicht schon, hoffentlich eine Subdurale oder Epidurale Blutung oder so sehen, aber ähm, Subdural, wüsste ich jetzt nicht, ob man das bei der Größe sehen konnte, oder interessehalber, aber hier ist auch nichts.",
+    "tags": [
+      "indicator: no_bleeding"
+    ],
+    "rationale": "The person explicitly states that they don't see anything, which suggests that they have not found any indicators of a hemorrhage.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_no advice_cycle_25.txt",
+      "row": 5
+    },
+    "model": "meta-llama/llama-3.3-70b-instruct",
+    "provider": "Parasail",
+    "configuration_name": "llama-3-3-70b-instruct-241206"
+  },
+  {
+    "phrase": "Hier sehe ich nichts",
+    "context": "… Hier sehe ich nichts.",
+    "tags": [
+      "indicator: no_bleeding"
+    ],
+    "rationale": "The person explicitly states that they do not see anything, which implies that they do not notice any abnormalities or indicators of bleeding in the current image area.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_no advice_cycle_25.txt",
+      "row": 16
+    },
+    "model": "meta-llama/llama-3.3-70b-instruct",
+    "provider": "DeepInfra",
+    "configuration_name": "llama-3-3-70b-instruct-241206"
+  },
+  {
+    "phrase": "ich weiß nicht ob ich mir das einbilde, dass ich die Gyri nicht mehr so gut sehen kann",
+    "context": "Auch hier habe ich das Gefühl, ich weiß nicht ob ich mir das einbilde, dass ich die Gyri nicht mehr so gut sehen kann…",
+    "tags": [
+      "reflection: perceptual_doubt",
+      "confidence_low: secondary"
+    ],
+    "rationale": "The person is doubting their own perception, questioning whether they are imagining things, which indicates perceptual doubt. Additionally, the phrase 'ich weiß nicht' (I don't know) implies low certainty, which is a secondary expression of low confidence.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_no advice_cycle_25.txt",
+      "row": 10
+    },
+    "model": "meta-llama/llama-3.3-70b-instruct",
+    "provider": "DeepInfra",
+    "configuration_name": "llama-3-3-70b-instruct-241206"
+  },
+  {
+    "phrase": "Das sieht für mich normal aus.",
+    "context": "Ich finde die Bilder ziemlich klein, auf meinem Bildschirm trotzdem, aber… Hmm, …, hier sehe ich auch nichts… Das sieht für mich normal aus.",
+    "tags": [
+      "interpretation: no_bleeding"
+    ],
+    "rationale": "The person states that the area they are looking at appears normal to them, which implies they do not see any signs of bleeding.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_no advice_cycle_25.txt",
+      "row": 4
+    },
+    "model": "meta-llama/llama-3.3-70b-instruct",
+    "provider": "DeepInfra",
+    "configuration_name": "llama-3-3-70b-instruct-241206"
+  },
+  {
+    "phrase": "Ich finde die Bilder ziemlich klein",
+    "context": "Ich finde die Bilder ziemlich klein, auf meinem Bildschirm trotzdem, aber… Hmm, …, hier sehe ich auch nichts… Das sieht für mich normal aus.",
+    "tags": [
+      "awareness_of_task: image_quality"
+    ],
+    "rationale": "The person explicitly complains about the image quality, stating that the pictures appear quite small on their screen.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_no advice_cycle_25.txt",
+      "row": 4
+    },
+    "model": "meta-llama/llama-3.3-70b-instruct",
+    "provider": "DeepInfra",
+    "configuration_name": "llama-3-3-70b-instruct-241206"
+  },
+  {
+    "phrase": "Ich glaub hier ist dann schon eine Blutung.",
+    "context": "Ja, da habe ich schon das Gefühl, dass die Mittellinie verlagert ist nach links vorallem. Ähm, Occipital, also…, da probiere ich dann, ähm, links sehe ich auch eine Signalerhöhung, äh quatsch, Hyperdense Struktur, occipital habe ich das Gefühl. Hmm, Ich glaub hier ist dann schon eine Blutung.",
+    "tags": [
+      "interpretation: bleeding"
+    ],
+    "rationale": "The speaker explicitly mentions a 'Blutung' (bleeding) which directly corresponds to the 'interpretation: bleeding' tag.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_no advice_cycle_25.txt",
+      "row": 12
+    },
+    "model": "meta-llama/llama-3.3-70b-instruct",
+    "provider": "DeepInfra",
+    "configuration_name": "llama-3-3-70b-instruct-241206"
+  },
+  {
+    "phrase": "links sehe ich auch eine Signalerhöhung, äh quatsch, Hyperdense Struktur, occipital habe ich das Gefühl",
+    "context": "Ja, da habe ich schon das Gefühl, dass die Mittellinie verlagert ist nach links vorallem. Ähm, Occipital, also…, da probiere ich dann, ähm, links sehe ich auch eine Signalerhöhung, äh quatsch, Hyperdense Struktur, occipital habe ich das Gefühl. Hmm, Ich glaub hier ist dann schon eine Blutung.",
+    "tags": [
+      "indicator: anomaly_detected"
+    ],
+    "rationale": "The speaker notices an abnormality (Signalerhöhung, Hyperdense Struktur) which indicates the detection of an anomaly.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_no advice_cycle_25.txt",
+      "row": 12
+    },
+    "model": "meta-llama/llama-3.3-70b-instruct",
+    "provider": "DeepInfra",
+    "configuration_name": "llama-3-3-70b-instruct-241206"
+  },
+  {
+    "phrase": "Im Parenchym sehe ich nichts besonderes",
+    "context": "Hier sieht der Schädel noch intakt aus, die Mittellinie in der Mitte. Im Parenchym sehe ich nichts besonderes…",
+    "tags": [
+      "indicator: no_bleeding"
+    ],
+    "rationale": "The person is explicitly stating that they do not see anything unusual in the brain parenchyma, which suggests that they are not detecting any signs of bleeding or other abnormalities.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_no advice_cycle_25.txt",
+      "row": 18
+    },
+    "model": "meta-llama/llama-3.3-70b-instruct",
+    "provider": "DeepInfra",
+    "configuration_name": "llama-3-3-70b-instruct-241206"
+  },
+  {
+    "phrase": "Ich habe das Gefühl, ich sehe generell nichts.",
+    "context": "...Hmm… Hier sehe ich auch nichts…. Ich habe das Gefühl, ich sehe generell nichts. Auch wenn, dass das… Hmm… Hm, das ist nicht.",
+    "tags": [
+      "reflection: perceptual_doubt"
+    ],
+    "rationale": "The person expresses doubt about their own perception, stating they don't see anything, which indicates uncertainty about their ability to identify abnormalities.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_no advice_cycle_25.txt",
+      "row": 19
+    },
+    "model": "meta-llama/llama-3.3-70b-instruct",
+    "provider": "DeepInfra",
+    "configuration_name": "llama-3-3-70b-instruct-241206"
+  },
+  {
+    "phrase": "eher glaube ich, konvex deswegen vielleicht eine kleine Durale Blutung",
+    "context": "Hmm, ja hier, glaub ich, links parietal, seh ich da was… Hmm…, eher glaube ich, konvex deswegen vielleicht eine kleine Durale Blutung… Aber doch ich glaube schon.",
+    "tags": [
+      "interpretation: bleeding",
+      "confidence_low: secondary"
+    ],
+    "rationale": "The phrase suggests a possible interpretation of a small dural hemorrhage, indicated by the word 'Blutung' (bleeding). The use of 'eher glaube ich' (I rather believe) and 'vielleicht' (maybe) implies low confidence, which is why 'confidence_low: secondary' is also applied.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_no advice_cycle_25.txt",
+      "row": 14
+    },
+    "model": "meta-llama/llama-3.3-70b-instruct",
+    "provider": "DeepInfra",
+    "configuration_name": "llama-3-3-70b-instruct-241206"
+  },
+  {
+    "phrase": "Sieht so aus würden die Gyri nach rechts gedrückt werden",
+    "context": "Aber doch ich glaube schon. Doch ich glaube schon. Sieht so aus würden die Gyri nach rechts gedrückt werden. Ich glaub ja.",
+    "tags": [
+      "interpretation: description_bleeding"
+    ],
+    "rationale": "This phrase describes the appearance of the brain, suggesting that the gyri are being pushed to the right, which is a description of the identified hemorrhage.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_no advice_cycle_25.txt",
+      "row": 14
+    },
+    "model": "meta-llama/llama-3.3-70b-instruct",
+    "provider": "DeepInfra",
+    "configuration_name": "llama-3-3-70b-instruct-241206"
+  },
+  {
+    "phrase": "Ich glaub ja",
+    "context": "Sieht so aus würden die Gyri nach rechts gedrückt werden. Ich glaub ja.",
+    "tags": [
+      "confidence_high: secondary"
+    ],
+    "rationale": "The phrase 'Ich glaub ja' (I believe yes) implies a high level of confidence, although it is not explicitly stated. The use of 'ja' (yes) reinforces the confidence in the previous statement.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_no advice_cycle_25.txt",
+      "row": 14
+    },
+    "model": "meta-llama/llama-3.3-70b-instruct",
+    "provider": "DeepInfra",
+    "configuration_name": "llama-3-3-70b-instruct-241206"
+  },
+  {
+    "phrase": "Da bin ich mir sehr sicher, eigentlich",
+    "context": "Also jetzt sehe ich hier das hier gerade deutlich, der Ventrikel wird, ähm, eingeengt. Und ja das ist ein deutliches Bild für eine Epidurale? Blutung. Da bin ich mir sehr sicher, eigentlich",
+    "tags": [
+      "confidence_high: concrete"
+    ],
+    "rationale": "The speaker explicitly states that they are very sure about their diagnosis, indicating high confidence in their conclusion.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_no advice_cycle_25.txt",
+      "row": 20
+    },
+    "model": "meta-llama/llama-3.3-70b-instruct",
+    "provider": "Parasail",
+    "configuration_name": "llama-3-3-70b-instruct-241206"
+  },
+  {
+    "phrase": "Das hilft natürlich, vielleicht mal, ähm, wenn es da steht, ja, die Lokalisation oder so oder Kopfschmerzen oder sowas",
+    "context": "Ah ich muss jetzt zugeben, ich sehe jetzt gerade, dass man Diagnosen da oben, oder Symptomatik, also Patienteninformationen. Das hilft natürlich, vielleicht mal, ähm, wenn es da steht, ja, die Lokalisation oder so oder Kopfschmerzen oder sowas",
+    "tags": [
+      "reasoning: mentioning_contextual_information"
+    ],
+    "rationale": "The speaker mentions the importance of patient information, such as localization or symptoms like headaches, in the diagnostic process.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_no advice_cycle_25.txt",
+      "row": 20
+    },
+    "model": "meta-llama/llama-3.3-70b-instruct",
+    "provider": "Parasail",
+    "configuration_name": "llama-3-3-70b-instruct-241206"
+  },
+  {
+    "phrase": "Und ja das ist ein deutliches Bild für eine Epidurale? Blutung",
+    "context": "Also jetzt sehe ich hier das hier gerade deutlich, der Ventrikel wird, ähm, eingeengt. Und ja das ist ein deutliches Bild für eine Epidurale? Blutung. Da bin ich mir sehr sicher, eigentlich",
+    "tags": [
+      "interpretation: bleeding"
+    ],
+    "rationale": "The speaker interprets the image as a clear sign of an epidural hemorrhage, indicating their diagnosis.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_no advice_cycle_25.txt",
+      "row": 20
+    },
+    "model": "meta-llama/llama-3.3-70b-instruct",
+    "provider": "Parasail",
+    "configuration_name": "llama-3-3-70b-instruct-241206"
+  },
+  {
+    "phrase": "Hm, ich glaub schon, dass da eine Blutung ist.",
+    "context": "Hmm. Hier sehe ich wieder, linksseitig sieht es nach einer Einengung vom Ventrikel aus, und im Unterschied zu der Gegenseite. Hmm… Und die Mittellinienverlagerung auch nach rechts. Hm, ich glaub schon, dass da eine Blutung ist.",
+    "tags": [
+      "interpretation: bleeding",
+      "confidence_high: secondary"
+    ],
+    "rationale": "The phrase 'ich glaub schon' implies a certain level of confidence, and the word 'Blutung' directly translates to 'bleeding', indicating that the person is interpreting the findings as a hemorrhage.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_no advice_cycle_25.txt",
+      "row": 22
+    },
+    "model": "meta-llama/llama-3.3-70b-instruct",
+    "provider": "AkashML",
+    "configuration_name": "llama-3-3-70b-instruct-241206"
+  },
+  {
+    "phrase": "Das Bild finde ich jetzt nicht so gut.",
+    "context": "Ja da sehe ich erstmal, dass die Person eine Migräne hat. Das ist wahrscheinlich dann eine Verschlussdiagnose? hier. Das Bild finde ich jetzt nicht so gut.",
+    "tags": [
+      "awareness_of_task: image_quality"
+    ],
+    "rationale": "The person explicitly complains about the image quality, which is the reason for their uncertainty.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_no advice_cycle_25.txt",
+      "row": 21
+    },
+    "model": "meta-llama/llama-3.3-70b-instruct",
+    "provider": "Parasail",
+    "configuration_name": "llama-3-3-70b-instruct-241206"
+  },
+  {
+    "phrase": "Ich habs jetzt ein bisschen schlecht eingestellt, aber ich sehe auch nichts.",
+    "context": "Mhm, ich hätte es lieber, wie es vorher war. Oh man. Das ist ja schlecht. Ja gut, das habe ich schlecht eingestellt. Ah, das ist besser. Ich habs jetzt ein bisschen schlecht eingestellt, aber ich sehe auch nichts.",
+    "tags": [
+      "awareness_of_task: image_quality",
+      "confidence_low: concrete"
+    ],
+    "rationale": "The person is uncertain about their diagnosis due to the poor image quality and explicitly states that they are not sure.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_no advice_cycle_25.txt",
+      "row": 21
+    },
+    "model": "meta-llama/llama-3.3-70b-instruct",
+    "provider": "Parasail",
+    "configuration_name": "llama-3-3-70b-instruct-241206"
+  },
+  {
+    "phrase": "Deswegen drücke ich auf nicht so sicher, weil vielleicht habe ich das jetzt schlecht eingestellt, aber ich sehe nichts.",
+    "context": "Oh man. Das ist ja schlecht. Ja gut, das habe ich schlecht eingestellt. Ah, das ist besser. Ich habs jetzt ein bisschen schlecht eingestellt, aber ich sehe auch nichts. Deswegen drücke ich auf nicht so sicher, weil vielleicht habe ich das jetzt schlecht eingestellt, aber ich sehe nichts.",
+    "tags": [
+      "confidence_low: concrete",
+      "control: control_strategies"
+    ],
+    "rationale": "The person is uncertain about their diagnosis and considers the possibility that the image quality is the reason for their uncertainty, which leads them to want to adjust the image settings.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_no advice_cycle_25.txt",
+      "row": 21
+    },
+    "model": "meta-llama/llama-3.3-70b-instruct",
+    "provider": "Parasail",
+    "configuration_name": "llama-3-3-70b-instruct-241206"
+  },
+  {
+    "phrase": "Ich habe das Gefühl was zu sehen, aber ich bin nicht so sicher.",
+    "context": "… Hm...Hier bin ich mir nicht so sicher. Ich habe das Gefühl was zu sehen, aber ich bin nicht so sicher.",
+    "tags": [
+      "confidence_low: concrete",
+      "reflection: diagnostic_uncertainty"
+    ],
+    "rationale": "The person expresses low certainty and uncertainty about their diagnosis, indicating a lack of confidence in their ability to interpret the findings.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_no advice_cycle_25.txt",
+      "row": 24
+    },
+    "model": "meta-llama/llama-3.3-70b-instruct",
+    "provider": "Parasail",
+    "configuration_name": "llama-3-3-70b-instruct-241206"
+  },
+  {
+    "phrase": "Das könnte jetzt auf eine chronische Blutung hindeuten.",
+    "context": "… Hm, jetzt bin ich mir sehr unsicher, aber hmm, eher frontal in Höhe der, ne warte Mal, bei den Ventrikeln sieht das so aus, als wären da hypodense Bereiche. Das könnte jetzt auf eine chronische Blutung hindeuten. Vielleicht was, äh, eine Hypertensive Erkrankung, oder so. Nur da bin ich mir sehr unsicher.",
+    "tags": [
+      "interpretation: bleeding",
+      "confidence_low: concrete"
+    ],
+    "rationale": "The phrase 'Das könnte jetzt auf eine chronische Blutung hindeuten' indicates that the person is interpreting the finding as a possible hemorrhage, which aligns with the 'interpretation: bleeding' tag. Additionally, the person expresses uncertainty with 'Nur da bin ich mir sehr unsicher', which corresponds to the 'confidence_low: concrete' tag.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_no advice_cycle_25.txt",
+      "row": 15
+    },
+    "model": "meta-llama/llama-3.3-70b-instruct",
+    "provider": "DeepInfra",
+    "configuration_name": "llama-3-3-70b-instruct-241206"
+  },
+  {
+    "phrase": "Vielleicht was, äh, eine Hypertensive Erkrankung, oder so.",
+    "context": "… Hm, jetzt bin ich mir sehr unsicher, aber hmm, eher frontal in Höhe der, ne warte Mal, bei den Ventrikeln sieht das so aus, als wären da hypodense Bereiche. Das könnte jetzt auf eine chronische Blutung hindeuten. Vielleicht was, äh, eine Hypertensive Erkrankung, oder so. Nur da bin ich mir sehr unsicher.",
+    "tags": [
+      "reasoning: alternative_medical_cause",
+      "confidence_low: secondary"
+    ],
+    "rationale": "The phrase 'Vielleicht was, äh, eine Hypertensive Erkrankung, oder so' suggests that the person is considering an alternative medical cause, which aligns with the 'reasoning: alternative_medical_cause' tag. The use of 'Vielleicht' implies low certainty, corresponding to the 'confidence_low: secondary' tag.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_no advice_cycle_25.txt",
+      "row": 15
+    },
+    "model": "meta-llama/llama-3.3-70b-instruct",
+    "provider": "DeepInfra",
+    "configuration_name": "llama-3-3-70b-instruct-241206"
+  },
+  {
+    "phrase": "Ich weiß nicht ob mir das einbilde, aber es sieht so aus als wären da ganz diffuse, kleine Blutungen.",
+    "context": "Okay, hmm. Ich weiß nicht ob mir das einbilde, aber es sieht so aus als wären da ganz diffuse, kleine Blutungen. Hmm…. Ist es richtig hier?... Ja ich bin mir nicht so sicher, aber ich glaub schon.",
+    "tags": [
+      "interpretation: bleeding",
+      "confidence_low: concrete"
+    ],
+    "rationale": "The tag 'interpretation: bleeding' applies because the person is interpreting the abnormality as a possible hemorrhage. The tag 'confidence_low: concrete' applies because the person explicitly expresses low certainty regarding their interpretation, stating 'Ich weiß nicht ob mir das einbilde' and 'Ich bin mir nicht so sicher'.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_no advice_cycle_25.txt",
+      "row": 17
+    },
+    "model": "meta-llama/llama-3.3-70b-instruct",
+    "provider": "DeepInfra",
+    "configuration_name": "llama-3-3-70b-instruct-241206"
+  },
+  {
+    "phrase": "Ja ich bin mir nicht so sicher, aber ich glaub schon.",
+    "context": "Okay, hmm. Ich weiß nicht ob mir das einbilde, aber es sieht so aus als wären da ganz diffuse, kleine Blutungen. Hmm…. Ist es richtig hier?... Ja ich bin mir nicht so sicher, aber ich glaub schon.",
+    "tags": [
+      "confidence_low: concrete",
+      "confidence_high: secondary"
+    ],
+    "rationale": "The tag 'confidence_low: concrete' applies because the person explicitly states 'Ich bin mir nicht so sicher'. The tag 'confidence_high: secondary' applies because the person also states 'aber ich glaub schon', which implies a degree of certainty, although it is not as strong as a concrete expression of high confidence.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_no advice_cycle_25.txt",
+      "row": 17
+    },
+    "model": "meta-llama/llama-3.3-70b-instruct",
+    "provider": "DeepInfra",
+    "configuration_name": "llama-3-3-70b-instruct-241206"
+  },
+  {
+    "phrase": "Ich glaube, hier auch.",
+    "context": "The provided text is too short to create a unique context window. However, based on the given text, it can be inferred that the person is expressing a belief or thought about something, possibly related to a medical image or diagnosis.",
+    "tags": [
+      "confidence_low: secondary"
+    ],
+    "rationale": "The phrase 'Ich glaube' translates to 'I believe' in English, which implies a level of uncertainty or doubt, hence the tag 'confidence_low: secondary'. The word 'auch' means 'also' in English, suggesting that the person is agreeing with something previously mentioned or adding to a previous thought.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_no advice_cycle_25.txt",
+      "row": 23
+    },
+    "model": "meta-llama/llama-3.3-70b-instruct",
+    "provider": "AkashML",
+    "configuration_name": "llama-3-3-70b-instruct-241206"
+  },
+  {
+    "phrase": "Das kann ich nicht so gut beurteilen.",
+    "context": "… Das kann ich nicht so gut beurteilen.",
+    "tags": [
+      "reflection: experience_limitation"
+    ],
+    "rationale": "The person is expressing uncertainty in their ability to evaluate something, indicating a limitation in their experience or knowledge.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_no advice_cycle_25.txt",
+      "row": 27
+    },
+    "model": "meta-llama/llama-3.3-70b-instruct",
+    "provider": "AkashML",
+    "configuration_name": "llama-3-3-70b-instruct-241206"
+  },
+  {
+    "phrase": "Ich sehe nichts besonderes.",
+    "context": "Ich glaub, hier ist es eher alles symmetrisch. Ich sehe nichts besonderes.",
+    "tags": [
+      "indicator: no_bleeding"
+    ],
+    "rationale": "The person states they don't see anything special, implying that there are no noticeable abnormalities or indicators of bleeding.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_no advice_cycle_25.txt",
+      "row": 25
+    },
+    "model": "meta-llama/llama-3.3-70b-instruct",
+    "provider": "DeepInfra",
+    "configuration_name": "llama-3-3-70b-instruct-241206"
+  },
+  {
+    "phrase": "Ich sag das sind keine Blutungen.",
+    "context": "Hmm, hier sehe ich jetzt so schnell keinen Unterschied, oder keine Signalerhöhung… Also Schädelknochen zeigt nicht auf irgendwelche Traumata. Aber Moment, … ja und ich finde das Parenchym auch beidseitig gleich. Ich sag das sind keine Blutungen.",
+    "tags": [
+      "interpretation: no_bleeding"
+    ],
+    "rationale": "The speaker explicitly states that they do not see any signs of bleeding, which aligns with the 'interpretation: no_bleeding' tag.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_no advice_cycle_25.txt",
+      "row": 3
+    },
+    "model": "meta-llama/llama-3.3-70b-instruct",
+    "provider": "DeepInfra",
+    "configuration_name": "llama-3-3-70b-instruct-241206"
+  },
+  {
+    "phrase": "Also Schädelknochen zeigt nicht auf irgendwelche Traumata.",
+    "context": "Hmm, hier sehe ich jetzt so schnell keinen Unterschied, oder keine Signalerhöhung… Also Schädelknochen zeigt nicht auf irgendwelche Traumata. Aber Moment, … ja und ich finde das Parenchym auch beidseitig gleich. Ich sag das sind keine Blutungen.",
+    "tags": [
+      "indicator: no_bleeding"
+    ],
+    "rationale": "The speaker mentions that the skull bones do not show any signs of trauma, which indicates that they have checked for potential abnormalities and found none, aligning with the 'indicator: no_bleeding' tag.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_no advice_cycle_25.txt",
+      "row": 3
+    },
+    "model": "meta-llama/llama-3.3-70b-instruct",
+    "provider": "DeepInfra",
+    "configuration_name": "llama-3-3-70b-instruct-241206"
+  },
+  {
+    "phrase": "ich finde das Parenchym auch beidseitig gleich",
+    "context": "Hmm, hier sehe ich jetzt so schnell keinen Unterschied, oder keine Signalerhöhung… Also Schädelknochen zeigt nicht auf irgendwelche Traumata. Aber Moment, … ja und ich finde das Parenchym auch beidseitig gleich. Ich sag das sind keine Blutungen.",
+    "tags": [
+      "visual_search: description_of_medical_image_features"
+    ],
+    "rationale": "The speaker describes the parenchyma as being equal on both sides, indicating that they are examining specific anatomical structures, which aligns with the 'visual_search: description_of_medical_image_features' tag.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_no advice_cycle_25.txt",
+      "row": 3
+    },
+    "model": "meta-llama/llama-3.3-70b-instruct",
+    "provider": "DeepInfra",
+    "configuration_name": "llama-3-3-70b-instruct-241206"
+  },
+  {
+    "phrase": "Ich bin mir aber unsicher, ob das schon im Knochen ist",
+    "context": "…Ähm, hier rechts ist eine Hyperdense Struktur. Und… ich bin mir aber unsicher, ob das schon im Knochen ist, gerade schon was man sieht.",
+    "tags": [
+      "reflection: diagnostic_uncertainty"
+    ],
+    "rationale": "The speaker expresses uncertainty about the location of the hyperdense structure, indicating diagnostic uncertainty.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_no advice_cycle_25.txt",
+      "row": 13
+    },
+    "model": "meta-llama/llama-3.3-70b-instruct",
+    "provider": "DeepInfra",
+    "configuration_name": "llama-3-3-70b-instruct-241206"
+  },
+  {
+    "phrase": "Könnte sein. Da bin ich mir jetzt grade sicher, unsicher.",
+    "context": "…Ähm, hier rechts ist eine Hyperdense Struktur. Und… ich bin mir aber unsicher, ob das schon im Knochen ist, gerade schon was man sieht. Könnte sein. Da bin ich mir jetzt grade sicher, unsicher.",
+    "tags": [
+      "confidence_low: concrete"
+    ],
+    "rationale": "The speaker explicitly expresses low certainty about their diagnosis, using phrases like 'Könnte sein' and 'unsicher'.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_no advice_cycle_25.txt",
+      "row": 13
+    },
+    "model": "meta-llama/llama-3.3-70b-instruct",
+    "provider": "DeepInfra",
+    "configuration_name": "llama-3-3-70b-instruct-241206"
+  },
+  {
+    "phrase": "Ist einfach nur der Schnitt gerade. Und das Artefakt für mich dann...",
+    "context": "…Ähm, hier rechts ist eine Hyperdense Struktur. Und… ich bin mir aber unsicher, ob das schon im Knochen ist, gerade schon was man sieht. Könnte sein. Da bin ich mir jetzt grade sicher, unsicher. Ist einfach nur der Schnitt gerade. Und das Artefakt für mich dann...",
+    "tags": [
+      "reasoning: artifact"
+    ],
+    "rationale": "The speaker attributes the abnormality to an artifact, suggesting that it may be an error in the imaging process rather than a real finding.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_no advice_cycle_25.txt",
+      "row": 13
+    },
+    "model": "meta-llama/llama-3.3-70b-instruct",
+    "provider": "DeepInfra",
+    "configuration_name": "llama-3-3-70b-instruct-241206"
+  },
+  {
+    "phrase": "Deswegen würd ich hier sagen eher nein, bin ich mir aber nicht so sicher, eigentlich.",
+    "context": "…Ähm, hier rechts ist eine Hyperdense Struktur. Und… ich bin mir aber unsicher, ob das schon im Knochen ist, gerade schon was man sieht. Könnte sein. Da bin ich mir jetzt grade sicher, unsicher. Ist einfach nur der Schnitt gerade. Und das Artefakt für mich dann... quasi, da ist so ein großer Fleck, könnte gut sein... Deswegen würd ich hier sagen eher nein, bin ich mir aber nicht so sicher, eigentlich.",
+    "tags": [
+      "confidence_low: concrete",
+      "interpretation: no_bleeding"
+    ],
+    "rationale": "The speaker explicitly expresses low certainty about their diagnosis and leans towards a 'no bleeding' interpretation, but is not confident in this assessment.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_no advice_cycle_25.txt",
+      "row": 13
+    },
+    "model": "meta-llama/llama-3.3-70b-instruct",
+    "provider": "DeepInfra",
+    "configuration_name": "llama-3-3-70b-instruct-241206"
+  },
+  {
+    "phrase": "Kann man das irgendwie größer machen? Das ist voll klein.",
+    "context": "Kann man das irgendwie größer machen? Das ist voll klein. EXPERIMENTER: Ähm, du kannstmal auf die drei Punkte oben rechts in dem Browser klicken und dann rauszoomen, weil dann wird das Interface kleiner.",
+    "tags": [
+      "technical_conversation"
+    ],
+    "rationale": "The participant is discussing technical difficulties with the display tool, specifically asking how to make the image larger.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_no advice_cycle_25.txt",
+      "row": 1
+    },
+    "model": "meta-llama/llama-3.3-70b-instruct",
+    "provider": "DeepInfra",
+    "configuration_name": "llama-3-3-70b-instruct-241206"
+  },
+  {
+    "phrase": "Okay,... so ich scrolle jetzt mal kurz runter und hoch.",
+    "context": "Okay,... so ich scrolle jetzt mal kurz runter und hoch. Ja, jetzt sehe ich hier rechts, ähm, so ein bisschen sichelförmige, also glaube ich zu meinen, als sichelförmige, wie heißt das, ja ich glaub Flüssigkeitsansammlungen.",
+    "tags": [
+      "visual_search: description_of_own_approach_without_external_help"
+    ],
+    "rationale": "The participant is explicitly commenting on their own search procedure, describing how they are scrolling through the image.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_no advice_cycle_25.txt",
+      "row": 1
+    },
+    "model": "meta-llama/llama-3.3-70b-instruct",
+    "provider": "DeepInfra",
+    "configuration_name": "llama-3-3-70b-instruct-241206"
+  },
+  {
+    "phrase": "Ja, jetzt sehe ich hier rechts, ähm, so ein bisschen sichelförmige, also glaube ich zu meinen, als sichelförmige, wie heißt das, ja ich glaub Flüssigkeitsansammlungen.",
+    "context": "Okay,... so ich scrolle jetzt mal kurz runter und hoch. Ja, jetzt sehe ich hier rechts, ähm, so ein bisschen sichelförmige, also glaube ich zu meinen, als sichelförmige, wie heißt das, ja ich glaub Flüssigkeitsansammlungen.",
+    "tags": [
+      "visual_search: description_of_medical_image_features"
+    ],
+    "rationale": "The participant is verbalizing which anatomical structures or image characteristics they are currently looking at or checking, describing a possible fluid accumulation.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_no advice_cycle_25.txt",
+      "row": 1
+    },
+    "model": "meta-llama/llama-3.3-70b-instruct",
+    "provider": "DeepInfra",
+    "configuration_name": "llama-3-3-70b-instruct-241206"
+  },
+  {
+    "phrase": "Ich bin eher, also ich denke das ich sicherer bin als davor... Naja doch.",
+    "context": "Hmm, ja also ganz dünn, aber ich würd schon sagen ja. Ich bin eher, also ich denke das ich sicherer bin als davor... Naja doch.",
+    "tags": [
+      "confidence_high: secondary",
+      "reflection: self-affirmation"
+    ],
+    "rationale": "The participant is expressing high certainty regarding their diagnosis, and also reaffirming themselves within the same statement or context.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_no advice_cycle_25.txt",
+      "row": 1
+    },
+    "model": "meta-llama/llama-3.3-70b-instruct",
+    "provider": "DeepInfra",
+    "configuration_name": "llama-3-3-70b-instruct-241206"
+  },
+  {
+    "phrase": "als wäre dazwischen eingeblutet, könnte ich mir vorstellen",
+    "context": "… Ähm, ja wonach ich hier achte, nochmal Kopf und Schädelbruch oder sowas, und probiere irgendwie  die Gyri anzugucken, ob man die gut begrenzen kann. Aber ich finde das hier, ab einem bestimmten Punkt, nicht so gut. Und irgendwie, als wäre dazwischen eingeblutet, könnte ich mir vorstellen. Deswegen, ich dachte es sind schon Blutungen, hmm, aber so sicher bin ich mir eigentlich doch nicht.",
+    "tags": [
+      "interpretation: bleeding",
+      "confidence_low: concrete"
+    ],
+    "rationale": "The phrase 'als wäre dazwischen eingeblutet, könnte ich mir vorstellen' indicates that the person is interpreting the abnormality as a possible hemorrhage. However, they express low certainty with 'aber so sicher bin ich mir eigentlich doch nicht', which translates to 'but I'm not really sure about that'.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_no advice_cycle_25.txt",
+      "row": 32
+    },
+    "model": "meta-llama/llama-3.3-70b-instruct",
+    "provider": "Parasail",
+    "configuration_name": "llama-3-3-70b-instruct-241206"
+  },
+  {
+    "phrase": "aber so sicher bin ich mir eigentlich doch nicht",
+    "context": "… Ähm, ja wonach ich hier achte, nochmal Kopf und Schädelbruch oder sowas, und probiere irgendwie  die Gyri anzugucken, ob man die gut begrenzen kann. Aber ich finde das hier, ab einem bestimmten Punkt, nicht so gut. Und irgendwie, als wäre dazwischen eingeblutet, könnte ich mir vorstellen. Deswegen, ich dachte es sind schon Blutungen, hmm, aber so sicher bin ich mir eigentlich doch nicht.",
+    "tags": [
+      "confidence_low: concrete"
+    ],
+    "rationale": "The phrase 'aber so sicher bin ich mir eigentlich doch nicht' explicitly expresses low certainty regarding the diagnostic process.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_no advice_cycle_25.txt",
+      "row": 32
+    },
+    "model": "meta-llama/llama-3.3-70b-instruct",
+    "provider": "Parasail",
+    "configuration_name": "llama-3-3-70b-instruct-241206"
+  },
+  {
+    "phrase": "wonach ich hier achte, nochmal Kopf und Schädelbruch oder sowas",
+    "context": "… Ähm, ja wonach ich hier achte, nochmal Kopf und Schädelbruch oder sowas, und probiere irgendwie  die Gyri anzugucken, ob man die gut begrenzen kann. Aber ich finde das hier, ab einem bestimmten Punkt, nicht so gut. Und irgendwie, als wäre dazwischen eingeblutet, könnte ich mir vorstellen. Deswegen, ich dachte es sind schon Blutungen, hmm, aber so sicher bin ich mir eigentlich doch nicht.",
+    "tags": [
+      "visual_search: description_of_own_approach_without_external_help"
+    ],
+    "rationale": "The phrase 'wonach ich hier achte, nochmal Kopf und Schädelbruch oder sowas' indicates that the person is explicitly commenting on their own search procedure.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_no advice_cycle_25.txt",
+      "row": 32
+    },
+    "model": "meta-llama/llama-3.3-70b-instruct",
+    "provider": "Parasail",
+    "configuration_name": "llama-3-3-70b-instruct-241206"
+  },
+  {
+    "phrase": "glaube da ist alles ok",
+    "context": "Hier sehe ich keinen weiteren Unterschied, glaube da ist alles ok.",
+    "tags": [
+      "interpretation: no_bleeding"
+    ],
+    "rationale": "The person states they believe everything is okay, implying they do not see any signs of bleeding or abnormalities, which aligns with the interpretation of no bleeding.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_no advice_cycle_25.txt",
+      "row": 35
+    },
+    "model": "meta-llama/llama-3.3-70b-instruct",
+    "provider": "DeepInfra",
+    "configuration_name": "llama-3-3-70b-instruct-241206"
+  },
+  {
+    "phrase": "Ob das hier eine Mittellinienverlagerung gibt oder nicht, weiß ich grad nicht.",
+    "context": "VPN: So, jetzt achte ich hier nochmal auf die Seitenunterschiede und Knochen, Mittellinie. Also direkt ist mir jetzt noch nichts aufgefallen. Ob das hier eine Mittellinienverlagerung gibt oder nicht, weiß ich grad nicht.",
+    "tags": [
+      "confidence_low: concrete"
+    ],
+    "rationale": "The speaker explicitly states that they are unsure about the presence of a midline shift, indicating low certainty.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_no advice_cycle_25.txt",
+      "row": 30
+    },
+    "model": "meta-llama/llama-3.3-70b-instruct",
+    "provider": "AkashML",
+    "configuration_name": "llama-3-3-70b-instruct-241206"
+  },
+  {
+    "phrase": "Ich bin mir aber nicht so sicher ob das Ventrikel hier so eingeengt ist, oder, also sieht so zumindest bei dem Anschnitt anders aus, als auf der Gegenseite.",
+    "context": "Ich bin mir aber nicht so sicher ob das Ventrikel hier so eingeengt ist, oder, also sieht so zumindest bei dem Anschnitt anders aus, als auf der Gegenseite. Eine Sichel sehe ich jetzt nicht grade, aber ich könnte einfach mal den Schnitt den ich hier sehe, also wenn ich hier scrolle, dann sieht das gleich aus.",
+    "tags": [
+      "confidence_low: concrete"
+    ],
+    "rationale": "The speaker expresses uncertainty about the ventricle being constricted, indicating low certainty.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_no advice_cycle_25.txt",
+      "row": 30
+    },
+    "model": "meta-llama/llama-3.3-70b-instruct",
+    "provider": "AkashML",
+    "configuration_name": "llama-3-3-70b-instruct-241206"
+  },
+  {
+    "phrase": "Deswegen sage ich mal jetzt nicht so confident, das ist nichts",
+    "context": "Eine Sichel sehe ich jetzt nicht grade, aber ich könnte einfach mal den Schnitt den ich hier sehe, also wenn ich hier scrolle, dann sieht das gleich aus. Deswegen sage ich mal jetzt nicht so confident, das ist nichts",
+    "tags": [
+      "confidence_low: concrete"
+    ],
+    "rationale": "The speaker explicitly states that they are not confident, indicating low certainty.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_no advice_cycle_25.txt",
+      "row": 30
+    },
+    "model": "meta-llama/llama-3.3-70b-instruct",
+    "provider": "AkashML",
+    "configuration_name": "llama-3-3-70b-instruct-241206"
+  },
+  {
+    "phrase": "Also, eine direkte Begrenzung gibt es nicht. Wir sind halbwegs gut in der Zeit.",
+    "context": "EXPERIMENTER: Also, eine direkte Begrenzung gibt es nicht. Wir sind halbwegs gut in der Zeit. Wir haben ja eine Stunde, wir haben eine Stunde, 15 vereinbart, das heißt die, also die enden in 25 Minuten.",
+    "tags": [
+      "technical_conversation"
+    ],
+    "rationale": "The experimenter discusses the time limit and schedule with the participant, which is a technical conversation.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_no advice_cycle_25.txt",
+      "row": 30
+    },
+    "model": "meta-llama/llama-3.3-70b-instruct",
+    "provider": "AkashML",
+    "configuration_name": "llama-3-3-70b-instruct-241206"
+  },
+  {
+    "phrase": "Ich könnte einfach mal den Schnitt den ich hier sehe, also wenn ich hier scrolle, dann sieht das gleich aus.",
+    "context": "Eine Sichel sehe ich jetzt nicht grade, aber ich könnte einfach mal den Schnitt den ich hier sehe, also wenn ich hier scrolle, dann sieht das gleich aus.",
+    "tags": [
+      "visual_search: description_of_own_approach_without_external_help"
+    ],
+    "rationale": "The speaker describes their own visual search approach, scrolling through the images to compare them.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_no advice_cycle_25.txt",
+      "row": 30
+    },
+    "model": "meta-llama/llama-3.3-70b-instruct",
+    "provider": "AkashML",
+    "configuration_name": "llama-3-3-70b-instruct-241206"
+  },
+  {
+    "phrase": "Also ich würde sagen ja, aber ich sehe jetzt keine sichelförmigen Muster oder auch nicht konvex, also Epidural, Subdural Blutungen, sehe ich jetzt nicht, deswegen bin ich mir unsicher.",
+    "context": "Ich probiere beidseitig zu schauen, also nach Unterschieden. Hmm, im Vergleich... sehe ich nicht, aber ich find das Parenchym, irgendwie unterschiedlich von rechts und links, aber da habe ich jetzt nicht so die Erfahrung. Ich finde diese Mittellinienverlagerung irgendwie komisch. Also ich würde sagen ja, aber ich sehe jetzt keine sichelförmigen Muster oder auch nicht konvex, also Epidural, Subdural Blutungen, sehe ich jetzt nicht, deswegen bin ich mir unsicher.",
+    "tags": [
+      "interpretation: bleeding",
+      "confidence_low: concrete"
+    ],
+    "rationale": "The participant is interpreting the finding as a potential hemorrhage (bleeding) but expresses low certainty due to the lack of specific patterns (sichelförmigen Muster) and the uncertainty in their own experience.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_no advice_cycle_25.txt",
+      "row": 0
+    },
+    "model": "meta-llama/llama-3.3-70b-instruct",
+    "provider": "DeepInfra",
+    "configuration_name": "llama-3-3-70b-instruct-241206"
+  },
+  {
+    "phrase": "Ich bin sehr unsicher, aber ich würde hier trotzdem ja sagen, einfach wegen der Mittellinienverlagerung.",
+    "context": "Also ich würde sagen ja, aber ich sehe jetzt keine sichelförmigen Muster oder auch nicht konvex, also Epidural, Subdural Blutungen, sehe ich jetzt nicht, deswegen bin ich mir unsicher. Aber könnte ja intraaxialer Bereich? sein. Also ich bin sehr unsicher, aber ich würde hier trotzdem ja sagen, einfach wegen der Mittellinienverlagerung.",
+    "tags": [
+      "confidence_low: concrete",
+      "interpretation: bleeding"
+    ],
+    "rationale": "The participant reiterates their low certainty but decides to say 'yes' to a hemorrhage due to the observed midline shift, further emphasizing their uncertainty.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_no advice_cycle_25.txt",
+      "row": 0
+    },
+    "model": "meta-llama/llama-3.3-70b-instruct",
+    "provider": "DeepInfra",
+    "configuration_name": "llama-3-3-70b-instruct-241206"
+  },
+  {
+    "phrase": "Aber ja, ich bin gar nicht sicher.",
+    "context": "Also ich bin sehr unsicher, aber ich würde hier trotzdem ja sagen, einfach wegen der Mittellinienverlagerung. Aber ja, ich bin gar nicht sicher.",
+    "tags": [
+      "confidence_low: concrete"
+    ],
+    "rationale": "The participant explicitly states their lack of certainty, reinforcing the previous expressions of doubt and uncertainty in their diagnosis.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_no advice_cycle_25.txt",
+      "row": 0
+    },
+    "model": "meta-llama/llama-3.3-70b-instruct",
+    "provider": "DeepInfra",
+    "configuration_name": "llama-3-3-70b-instruct-241206"
+  },
+  {
+    "phrase": "Ich probiere beidseitig zu schauen, also nach Unterschieden.",
+    "context": "Ähm..., also im Schädel..., irgendwie sehe ich das, glaube ich nicht. Ich probiere beidseitig zu schauen, also nach Unterschieden.",
+    "tags": [
+      "visual_search: description_of_own_approach_without_external_help"
+    ],
+    "rationale": "The participant describes their approach to examining the images, specifically looking for differences between the two sides, which indicates a self-directed visual search strategy.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_no advice_cycle_25.txt",
+      "row": 0
+    },
+    "model": "meta-llama/llama-3.3-70b-instruct",
+    "provider": "DeepInfra",
+    "configuration_name": "llama-3-3-70b-instruct-241206"
+  },
+  {
+    "phrase": "Ich finde diese Mittellinienverlagerung irgendwie komisch.",
+    "context": "Hmm, im Vergleich... sehe ich nicht, aber ich find das Parenchym, irgendwie unterschiedlich von rechts und links, aber da habe ich jetzt nicht so die Erfahrung. Ich finde diese Mittellinienverlagerung irgendwie komisch.",
+    "tags": [
+      "indicator: anomaly_detected"
+    ],
+    "rationale": "The participant identifies an anomaly (the midline shift) that they find unusual or noteworthy, indicating the detection of an atypical feature in the image.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_no advice_cycle_25.txt",
+      "row": 0
+    },
+    "model": "meta-llama/llama-3.3-70b-instruct",
+    "provider": "DeepInfra",
+    "configuration_name": "llama-3-3-70b-instruct-241206"
+  },
+  {
+    "phrase": "Ich bin mir nicht so sicher, aber ich glaub schon.",
+    "context": "Ich weiß nicht ob, ich hier etwas Occipitales sehe, ich glaube schon. Im Knochen ist nichts, ich finde trotzdem, dass das hier was ist. Ich bin mir nicht so sicher, aber ich glaub schon.",
+    "tags": [
+      "confidence_low: concrete",
+      "confidence_high: secondary"
+    ],
+    "rationale": "The speaker explicitly states they are not sure, indicating low confidence, but also implies a degree of certainty with 'ich glaub schon', suggesting a secondary expression of high confidence.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_no advice_cycle_25.txt",
+      "row": 37
+    },
+    "model": "meta-llama/llama-3.3-70b-instruct",
+    "provider": "AkashML",
+    "configuration_name": "llama-3-3-70b-instruct-241206"
+  },
+  {
+    "phrase": "Ich weiß nicht ob, ich hier etwas Occipitales sehe, ich glaube schon.",
+    "context": "Ich weiß nicht ob, ich hier etwas Occipitales sehe, ich glaube schon. Im Knochen ist nichts, ich finde trotzdem, dass das hier was ist. Ich bin mir nicht so sicher, aber ich glaub schon.",
+    "tags": [
+      "reflection: diagnostic_uncertainty"
+    ],
+    "rationale": "The speaker is uncertain about classifying a finding, indicating diagnostic uncertainty as they question their own perception of seeing something occipital.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_no advice_cycle_25.txt",
+      "row": 37
+    },
+    "model": "meta-llama/llama-3.3-70b-instruct",
+    "provider": "AkashML",
+    "configuration_name": "llama-3-3-70b-instruct-241206"
+  },
+  {
+    "phrase": "Da bin ich mir sehr sicher.",
+    "context": "… Okay, hier sieht man schon deutlich rechs hier, irgendwie Einblutungen. Weiter Frontalparetal, keine Ahnung, Frontaltemporal, wollte ich sagen. Hmm, die ist so, glaub ich konvex, also eher Epidural. Drückt auf den Ventrikel und denke mir da hinten auch noch. Da bin ich mir sehr sicher.",
+    "tags": [
+      "confidence_high: concrete"
+    ],
+    "rationale": "The speaker explicitly states 'Da bin ich mir sehr sicher' which translates to 'I am very sure about that', indicating high confidence in their diagnosis.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_no advice_cycle_25.txt",
+      "row": 34
+    },
+    "model": "meta-llama/llama-3.3-70b-instruct",
+    "provider": "AkashML",
+    "configuration_name": "llama-3-3-70b-instruct-241206"
+  },
+  {
+    "phrase": "irgendwie Einblutungen",
+    "context": "… Okay, hier sieht man schon deutlich rechs hier, irgendwie Einblutungen. Weiter Frontalparetal, keine Ahnung, Frontaltemporal, wollte ich sagen. Hmm, die ist so, glaub ich konvex, also eher Epidural. Drückt auf den Ventrikel und denke mir da hinten auch noch. Da bin ich mir sehr sicher.",
+    "tags": [
+      "interpretation: bleeding"
+    ],
+    "rationale": "The speaker mentions 'Einblutungen' which translates to 'bleedings', indicating an interpretation of a hemorrhage.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_no advice_cycle_25.txt",
+      "row": 34
+    },
+    "model": "meta-llama/llama-3.3-70b-instruct",
+    "provider": "AkashML",
+    "configuration_name": "llama-3-3-70b-instruct-241206"
+  },
+  {
+    "phrase": "Hmm, die ist so, glaub ich konvex, also eher Epidural",
+    "context": "… Okay, hier sieht man schon deutlich rechs hier, irgendwie Einblutungen. Weiter Frontalparetal, keine Ahnung, Frontaltemporal, wollte ich sagen. Hmm, die ist so, glaub ich konvex, also eher Epidural. Drückt auf den Ventrikel und denke mir da hinten auch noch. Da bin ich mir sehr sicher.",
+    "tags": [
+      "interpretation: description_bleeding"
+    ],
+    "rationale": "The speaker describes the characteristics of the bleeding, mentioning it is 'konvex' and 'eher Epidural', providing more details about the identified hemorrhage.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_no advice_cycle_25.txt",
+      "row": 34
+    },
+    "model": "meta-llama/llama-3.3-70b-instruct",
+    "provider": "AkashML",
+    "configuration_name": "llama-3-3-70b-instruct-241206"
+  },
+  {
+    "phrase": "eine hyperdense, glaube ich, Blutung da ist",
+    "context": "Hmm. Hier sehe ich schon direkt, dass im Seitenvergleich, recht, äh, so eine, nicht so stark, aber eine hyperdense, glaube ich, Blutung da ist.",
+    "tags": [
+      "interpretation: bleeding"
+    ],
+    "rationale": "The speaker explicitly mentions a 'Blutung' (bleeding) which indicates that they interpret the abnormality as a hemorrhage.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_no advice_cycle_25.txt",
+      "row": 29
+    },
+    "model": "meta-llama/llama-3.3-70b-instruct",
+    "provider": "DeepInfra",
+    "configuration_name": "llama-3-3-70b-instruct-241206"
+  },
+  {
+    "phrase": "Ich kann nicht so genau erkennen, ob das jetzt Epi- oder Subdural ist",
+    "context": "Ich kann nicht so genau erkennen, ob das jetzt Epi- oder Subdural ist. Ähm, oder gar diffus.",
+    "tags": [
+      "reflection: diagnostic_uncertainty"
+    ],
+    "rationale": "The speaker is uncertain about classifying the finding, specifically the type of hemorrhage, which indicates diagnostic uncertainty.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_no advice_cycle_25.txt",
+      "row": 29
+    },
+    "model": "meta-llama/llama-3.3-70b-instruct",
+    "provider": "DeepInfra",
+    "configuration_name": "llama-3-3-70b-instruct-241206"
+  },
+  {
+    "phrase": "Ich weiß es nicht genau, aber ich schon, dass das nicht symmetrisch aussieht",
+    "context": "Ich weiß es nicht genau, aber ich schon, dass das nicht symmetrisch aussieht. Vorallem hier hinten, Occipital.",
+    "tags": [
+      "indicator: anomaly_detected"
+    ],
+    "rationale": "The speaker notices an abnormality, specifically the asymmetry of the Gyri, which indicates the detection of an anomaly.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_no advice_cycle_25.txt",
+      "row": 29
+    },
+    "model": "meta-llama/llama-3.3-70b-instruct",
+    "provider": "DeepInfra",
+    "configuration_name": "llama-3-3-70b-instruct-241206"
+  },
+  {
+    "phrase": "Ich denke schon dass hier was ist, wenn man so guckt",
+    "context": "Ich denke schon dass hier was ist, wenn man so guckt.",
+    "tags": [
+      "confidence_low: concrete"
+    ],
+    "rationale": "The speaker explicitly expresses low certainty regarding the diagnostic process, indicating that they are not entirely sure about their findings.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_no advice_cycle_25.txt",
+      "row": 29
+    },
+    "model": "meta-llama/llama-3.3-70b-instruct",
+    "provider": "DeepInfra",
+    "configuration_name": "llama-3-3-70b-instruct-241206"
+  },
+  {
+    "phrase": "Hier sehe ich im Schädel? keinen Defekt… Und die Mittellinie ist nicht verlagert.",
+    "context": "... Hmm… Hier sehe ich im Schädel? keinen Defekt… Und die Mittellinie ist nicht verlagert. Komisch... Bei einem Autounfall, glaube ich, wäre dann, ah Moment… Jetzt bin ich mir unsicher.",
+    "tags": [
+      "indicator: no_bleeding"
+    ],
+    "rationale": "The person is indicating that they do not see any defect in the skull and the midline is not shifted, which suggests that they are not seeing any obvious signs of bleeding.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_no advice_cycle_25.txt",
+      "row": 26
+    },
+    "model": "meta-llama/llama-3.3-70b-instruct",
+    "provider": "DeepInfra",
+    "configuration_name": "llama-3-3-70b-instruct-241206"
+  },
+  {
+    "phrase": "Ob es jetzt weiter Caudal… in den Liquorraum eingeblutet ist, da bin ich mir nicht so sicher.",
+    "context": "Komisch... Bei einem Autounfall, glaube ich, wäre dann, ah Moment… Jetzt bin ich mir unsicher. Ob es jetzt weiter Caudal… in den Liquorraum eingeblutet ist, da bin ich mir nicht so sicher.",
+    "tags": [
+      "reflection: diagnostic_uncertainty"
+    ],
+    "rationale": "The person is expressing uncertainty about whether there might be further bleeding in the liquor space, indicating diagnostic uncertainty.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_no advice_cycle_25.txt",
+      "row": 26
+    },
+    "model": "meta-llama/llama-3.3-70b-instruct",
+    "provider": "DeepInfra",
+    "configuration_name": "llama-3-3-70b-instruct-241206"
+  },
+  {
+    "phrase": "Und Subarachnoidal irgendwas ist bin ich mir auch unsicher.",
+    "context": "Ob es jetzt weiter Caudal… in den Liquorraum eingeblutet ist, da bin ich mir nicht so sicher. Und Subarachnoidal irgendwas ist bin ich mir auch unsicher.",
+    "tags": [
+      "reflection: diagnostic_uncertainty"
+    ],
+    "rationale": "The person is again expressing uncertainty, this time about the possibility of a subarachnoidal issue, further indicating diagnostic uncertainty.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_no advice_cycle_25.txt",
+      "row": 26
+    },
+    "model": "meta-llama/llama-3.3-70b-instruct",
+    "provider": "DeepInfra",
+    "configuration_name": "llama-3-3-70b-instruct-241206"
+  },
+  {
+    "phrase": "Ich glaube ja, aber nicht so einfach.",
+    "context": "Und Subarachnoidal irgendwas ist bin ich mir auch unsicher. Ich glaube ja, aber nicht so einfach.",
+    "tags": [
+      "confidence_low: concrete"
+    ],
+    "rationale": "The person is explicitly expressing low certainty about their diagnosis, stating that they believe something might be the case, but not in a straightforward manner.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_no advice_cycle_25.txt",
+      "row": 26
+    },
+    "model": "meta-llama/llama-3.3-70b-instruct",
+    "provider": "DeepInfra",
+    "configuration_name": "llama-3-3-70b-instruct-241206"
+  },
+  {
+    "phrase": "Hier sehe ich, glaube ich, nichts auffälliges.",
+    "context": "Hier sehe ich, glaube ich, nichts auffälliges. Ich hab sowieso das Gefühl, das wir in der Uni, nur diese typischen Bilder von Epi- und Subduraler Blutung, sich einprägen kann. Ja das ist nichts.",
+    "tags": [
+      "indicator: no_bleeding",
+      "confidence_low: secondary"
+    ],
+    "rationale": "The phrase indicates that the person does not see anything unusual, which aligns with 'indicator: no_bleeding'. The use of 'glaube ich' implies some uncertainty, hence 'confidence_low: secondary'.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_no advice_cycle_25.txt",
+      "row": 33
+    },
+    "model": "meta-llama/llama-3.3-70b-instruct",
+    "provider": "DeepInfra",
+    "configuration_name": "llama-3-3-70b-instruct-241206"
+  },
+  {
+    "phrase": "Ich hab sowieso das Gefühl, das wir in der Uni, nur diese typischen Bilder von Epi- und Subduraler Blutung, sich einprägen kann.",
+    "context": "Hier sehe ich, glaube ich, nichts auffälliges. Ich hab sowieso das Gefühl, das wir in der Uni, nur diese typischen Bilder von Epi- und Subduraler Blutung, sich einprägen kann. Ja das ist nichts.",
+    "tags": [
+      "reflection: experience_limitation"
+    ],
+    "rationale": "The person reflects on their experience and education, mentioning that they mostly remember typical images of certain conditions from university, indicating 'reflection: experience_limitation'.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_no advice_cycle_25.txt",
+      "row": 33
+    },
+    "model": "meta-llama/llama-3.3-70b-instruct",
+    "provider": "DeepInfra",
+    "configuration_name": "llama-3-3-70b-instruct-241206"
+  },
+  {
+    "phrase": "Ja das ist nichts.",
+    "context": "Hier sehe ich, glaube ich, nichts auffälliges. Ich hab sowieso das Gefühl, das wir in der Uni, nur diese typischen Bilder von Epi- und Subduraler Blutung, sich einprägen kann. Ja das ist nichts.",
+    "tags": [
+      "interpretation: no_bleeding"
+    ],
+    "rationale": "The person concludes that there is nothing unusual, reinforcing the 'interpretation: no_bleeding' tag.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_no advice_cycle_25.txt",
+      "row": 33
+    },
+    "model": "meta-llama/llama-3.3-70b-instruct",
+    "provider": "DeepInfra",
+    "configuration_name": "llama-3-3-70b-instruct-241206"
+  },
+  {
+    "phrase": "Ich bin mir da nicht so sicher",
+    "context": "Und jetzt steht da Hypertension und Kopfschmerzen. Ich bin mir da nicht so sicher ob ich was interessantes sehen würde.",
+    "tags": [
+      "confidence_low: concrete"
+    ],
+    "rationale": "The person explicitly expresses low certainty regarding their ability to find something interesting.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_no advice_cycle_25.txt",
+      "row": 39
+    },
+    "model": "meta-llama/llama-3.3-70b-instruct",
+    "provider": "AkashML",
+    "configuration_name": "llama-3-3-70b-instruct-241206"
+  },
+  {
+    "phrase": "sehr ungewiss",
+    "context": "Weil es so klein ist. Könnte sein. Ich weiß nicht genau, sehr ungewiss?",
+    "tags": [
+      "confidence_low: concrete"
+    ],
+    "rationale": "The person explicitly states that they are very uncertain.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_no advice_cycle_25.txt",
+      "row": 39
+    },
+    "model": "meta-llama/llama-3.3-70b-instruct",
+    "provider": "AkashML",
+    "configuration_name": "llama-3-3-70b-instruct-241206"
+  },
+  {
+    "phrase": "Hm, das finde ich hier schwer zu beurteilen",
+    "context": "Hm, das finde ich hier schwer zu beurteilen. Das hier vielleicht.",
+    "tags": [
+      "reflection: diagnostic_uncertainty"
+    ],
+    "rationale": "The person is uncertain about classifying a finding and cannot justify or assign it.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_no advice_cycle_25.txt",
+      "row": 39
+    },
+    "model": "meta-llama/llama-3.3-70b-instruct",
+    "provider": "AkashML",
+    "configuration_name": "llama-3-3-70b-instruct-241206"
+  },
+  {
+    "phrase": "Ich bin sehr unsicher, ob ja oder nein",
+    "context": "Okay, ich bin sehr unsicher, ob ja oder nein. Hm, ich weiß nicht ob das ein Artefakt ist oder so.",
+    "tags": [
+      "confidence_low: concrete"
+    ],
+    "rationale": "The person explicitly expresses low certainty regarding their diagnosis.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_no advice_cycle_25.txt",
+      "row": 39
+    },
+    "model": "meta-llama/llama-3.3-70b-instruct",
+    "provider": "AkashML",
+    "configuration_name": "llama-3-3-70b-instruct-241206"
+  },
+  {
+    "phrase": "Ich weiß nicht ob das ein Artefakt ist oder so",
+    "context": "Okay, ich bin sehr unsicher, ob ja oder nein. Hm, ich weiß nicht ob das ein Artefakt ist oder so.",
+    "tags": [
+      "reasoning: artifact"
+    ],
+    "rationale": "The person considers the possibility that the finding might be an artifact.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_no advice_cycle_25.txt",
+      "row": 39
+    },
+    "model": "meta-llama/llama-3.3-70b-instruct",
+    "provider": "AkashML",
+    "configuration_name": "llama-3-3-70b-instruct-241206"
+  },
+  {
+    "phrase": "Aber ich glaub schon, dass das was ist.",
+    "context": "So, das sieht schon, anders aus, also ja. Der rechte sieht da anders aus. Hmm, das sieht auffällig aus… Aber ansonsten sehe ich eigentlich nichts. Hm, ne ich weiß nicht genau. Aber ich glaub schon, dass das was ist. Obwohl hier schon wieder normal aussieht, aber ich glaub schon.",
+    "tags": [
+      "confidence_low: secondary",
+      "indicator: anomaly_detected"
+    ],
+    "rationale": "The phrase 'Aber ich glaub schon, dass das was ist' implies low certainty, as the person is not entirely sure about their finding, hence 'confidence_low: secondary'. The phrase 'das sieht auffällig aus' indicates that the person has detected an anomaly, hence 'indicator: anomaly_detected'.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_no advice_cycle_25.txt",
+      "row": 40
+    },
+    "model": "meta-llama/llama-3.3-70b-instruct",
+    "provider": "AkashML",
+    "configuration_name": "llama-3-3-70b-instruct-241206"
+  },
+  {
+    "phrase": "Hmm, das sieht auffällig aus…",
+    "context": "So, das sieht schon, anders aus, also ja. Der rechte sieht da anders aus. Hmm, das sieht auffällig aus… Aber ansonsten sehe ich eigentlich nichts. Hm, ne ich weiß nicht genau. Aber ich glaub schon, dass das was ist. Obwohl hier schon wieder normal aussieht, aber ich glaub schon.",
+    "tags": [
+      "indicator: anomaly_detected"
+    ],
+    "rationale": "The phrase 'Hmm, das sieht auffällig aus' indicates that the person has detected an anomaly, hence 'indicator: anomaly_detected'.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_no advice_cycle_25.txt",
+      "row": 40
+    },
+    "model": "meta-llama/llama-3.3-70b-instruct",
+    "provider": "AkashML",
+    "configuration_name": "llama-3-3-70b-instruct-241206"
+  },
+  {
+    "phrase": "Hm, ne ich weiß nicht genau.",
+    "context": "So, das sieht schon, anders aus, also ja. Der rechte sieht da anders aus. Hmm, das sieht auffällig aus… Aber ansonsten sehe ich eigentlich nichts. Hm, ne ich weiß nicht genau. Aber ich glaub schon, dass das was ist. Obwohl hier schon wieder normal aussieht, aber ich glaub schon.",
+    "tags": [
+      "confidence_low: secondary",
+      "reflection: diagnostic_uncertainty"
+    ],
+    "rationale": "The phrase 'Hm, ne ich weiß nicht genau' implies low certainty and diagnostic uncertainty, as the person is unsure about their finding, hence 'confidence_low: secondary' and 'reflection: diagnostic_uncertainty'.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_no advice_cycle_25.txt",
+      "row": 40
+    },
+    "model": "meta-llama/llama-3.3-70b-instruct",
+    "provider": "AkashML",
+    "configuration_name": "llama-3-3-70b-instruct-241206"
+  },
+  {
+    "phrase": "glaube ist nichts",
+    "context": "Hmm, glaube ist nichts.",
+    "tags": [
+      "interpretation: no_bleeding"
+    ],
+    "rationale": "The person expresses their belief that there is nothing, implying that they do not see any signs of bleeding or abnormalities, which aligns with the 'no_bleeding' interpretation tag.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_no advice_cycle_25.txt",
+      "row": 44
+    },
+    "model": "meta-llama/llama-3.3-70b-instruct",
+    "provider": "DeepInfra",
+    "configuration_name": "llama-3-3-70b-instruct-241206"
+  },
+  {
+    "phrase": "ich achte erstmal auf den Schädelknochen und Mittellinienventrikeln, ob es irgendwie symmetrisch ist oder nicht.",
+    "context": "EXPERIMENTER: Du kannst gerne noch ein bisschen ausführen, worauf du achtest, was dir auffällt. VPN: Ah ja, Entschuldigung. Ähm, ja, von vorne… achte ich erstmal auf den Schädelknochen und Mittellinienventrikeln, ob es irgendwie symmetrisch ist oder nicht.",
+    "tags": [
+      "visual_search: description_of_medical_image_features"
+    ],
+    "rationale": "The participant is describing the anatomical structures they are currently examining, which are the skull bone and the midline ventricles, to check for symmetry.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_no advice_cycle_25.txt",
+      "row": 28
+    },
+    "model": "meta-llama/llama-3.3-70b-instruct",
+    "provider": "DeepInfra",
+    "configuration_name": "llama-3-3-70b-instruct-241206"
+  },
+  {
+    "phrase": "Hier sieht es nicht so aus. Hm, also ich finde es sieht auffällig aus.",
+    "context": "Ähm, ja, von vorne… achte ich erstmal auf den Schädelknochen und Mittellinienventrikeln, ob es irgendwie symmetrisch ist oder nicht. Hier sieht es nicht so aus. Hm, also ich finde es sieht auffällig aus.",
+    "tags": [
+      "indicator: anomaly_detected"
+    ],
+    "rationale": "The participant notices an abnormality, stating that it doesn't look symmetrical and appears remarkable.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_no advice_cycle_25.txt",
+      "row": 28
+    },
+    "model": "meta-llama/llama-3.3-70b-instruct",
+    "provider": "DeepInfra",
+    "configuration_name": "llama-3-3-70b-instruct-241206"
+  },
+  {
+    "phrase": "Ich schaue nach, ob ich irgendwelche sichelförmigen oder konvexe Blutungen sehe.",
+    "context": "Hm, Moment. Ich schaue nach, ob ich irgendwelche sichelförmigen oder konvexe Blutungen sehe. Also ja in der Schädel?, sehe ich die nicht,",
+    "tags": [
+      "visual_search: triggered_by_finding"
+    ],
+    "rationale": "The participant is searching for specific types of hemorrhages (sichelförmigen or konvexe Blutungen) based on the previously found anomaly.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_no advice_cycle_25.txt",
+      "row": 28
+    },
+    "model": "meta-llama/llama-3.3-70b-instruct",
+    "provider": "DeepInfra",
+    "configuration_name": "llama-3-3-70b-instruct-241206"
+  },
+  {
+    "phrase": "ich finde die Mittellinie schon ein bisschen nach rechts verlagert, und die Ventrikel sind da auch nicht symmetrisch.",
+    "context": "Also ja in der Schädel?, sehe ich die nicht, aber ich finde die Mittellinie schon ein bisschen nach rechts verlagert, und die Ventrikel sind da auch nicht symmetrisch.",
+    "tags": [
+      "indicator: anomaly_detected"
+    ],
+    "rationale": "The participant identifies another abnormality, noting that the midline is slightly shifted to the right and the ventricles are not symmetrical.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_no advice_cycle_25.txt",
+      "row": 28
+    },
+    "model": "meta-llama/llama-3.3-70b-instruct",
+    "provider": "DeepInfra",
+    "configuration_name": "llama-3-3-70b-instruct-241206"
+  },
+  {
+    "phrase": "Deswegen entscheide ich mich für eine Blutung.",
+    "context": "Deswegen entscheide ich mich für eine Blutung.",
+    "tags": [
+      "interpretation: bleeding"
+    ],
+    "rationale": "The participant decides that there is a hemorrhage based on the anomalies they have detected.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_no advice_cycle_25.txt",
+      "row": 28
+    },
+    "model": "meta-llama/llama-3.3-70b-instruct",
+    "provider": "DeepInfra",
+    "configuration_name": "llama-3-3-70b-instruct-241206"
+  },
+  {
+    "phrase": "Da bin ich mir unsicher, wieder ob das vom Knochen ist oder nicht.",
+    "context": "Da bin ich mir unsicher, wieder ob das vom Knochen ist oder nicht. Das…Gefäß… Ich glaube nicht.",
+    "tags": [
+      "reflection: diagnostic_uncertainty",
+      "reasoning: alternative_medical_structure"
+    ],
+    "rationale": "The speaker expresses uncertainty about the origin of the finding, considering the possibility that it might be related to the bone, which indicates diagnostic uncertainty and the consideration of an alternative medical structure.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_no advice_cycle_25.txt",
+      "row": 42
+    },
+    "model": "meta-llama/llama-3.3-70b-instruct",
+    "provider": "DeepInfra",
+    "configuration_name": "llama-3-3-70b-instruct-241206"
+  },
+  {
+    "phrase": "Ich glaube nicht.",
+    "context": "Da bin ich mir unsicher, wieder ob das vom Knochen ist oder nicht. Das…Gefäß… Ich glaube nicht.",
+    "tags": [
+      "confidence_low: concrete"
+    ],
+    "rationale": "The speaker explicitly expresses low certainty regarding their interpretation, indicating a lack of confidence in their conclusion.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_no advice_cycle_25.txt",
+      "row": 42
+    },
+    "model": "meta-llama/llama-3.3-70b-instruct",
+    "provider": "DeepInfra",
+    "configuration_name": "llama-3-3-70b-instruct-241206"
+  },
+  {
+    "phrase": "Ich weiß nicht ob ich mir das einbilde, aber das sieht so ein bisschen Hyperdens aus hier.",
+    "context": "Hier ist die Mittellinie ein bisschen gebogen, sieht so aus zumindest. Ist aber normal, hm…, Ich weiß nicht ob ich mir das einbilde, aber das sieht so ein bisschen Hyperdens aus hier. Ja schon. Ich sag ja.",
+    "tags": [
+      "reflection: perceptual_doubt",
+      "indicator: anomaly_detected"
+    ],
+    "rationale": "The speaker expresses doubt about their perception ('Ich weiß nicht ob ich mir das einbilde') which aligns with 'reflection: perceptual_doubt'. Additionally, they notice an abnormality ('das sieht so ein bisschen Hyperdens aus hier') which corresponds to 'indicator: anomaly_detected'.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_no advice_cycle_25.txt",
+      "row": 41
+    },
+    "model": "meta-llama/llama-3.3-70b-instruct",
+    "provider": "DeepInfra",
+    "configuration_name": "llama-3-3-70b-instruct-241206"
+  },
+  {
+    "phrase": "deswegen, ich glaube nicht",
+    "context": "... Mhm, also ich denke gerade, dass ähm, bei der, also bei der?, dass das irgendeine traumatische,… traumatische Muster sein sollte, aber das sehe ich nicht. Deswegen, ich glaube nicht.",
+    "tags": [
+      "confidence_low: concrete"
+    ],
+    "rationale": "The speaker explicitly expresses low certainty regarding their diagnostic process by stating 'ich glaube nicht' (I don't believe), indicating a lack of confidence in their initial thought about a traumatic pattern.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_no advice_cycle_25.txt",
+      "row": 38
+    },
+    "model": "meta-llama/llama-3.3-70b-instruct",
+    "provider": "DeepInfra",
+    "configuration_name": "llama-3-3-70b-instruct-241206"
+  },
+  {
+    "phrase": "dass das irgendeine traumatische,… traumatische Muster sein sollte, aber das sehe ich nicht",
+    "context": "... Mhm, also ich denke gerade, dass ähm, bei der, also bei der?, dass das irgendeine traumatische,… traumatische Muster sein sollte, aber das sehe ich nicht. Deswegen, ich glaube nicht.",
+    "tags": [
+      "reflection: diagnostic_uncertainty"
+    ],
+    "rationale": "The speaker is uncertain about classifying a finding, as they mention a potential traumatic pattern but then state they cannot see it, indicating uncertainty in their diagnosis.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_no advice_cycle_25.txt",
+      "row": 38
+    },
+    "model": "meta-llama/llama-3.3-70b-instruct",
+    "provider": "DeepInfra",
+    "configuration_name": "llama-3-3-70b-instruct-241206"
+  },
+  {
+    "phrase": "Hier sehe ich auch keine Auffälligkeiten",
+    "context": "… Hier sehe ich auch keine Auffälligkeiten, aber warte. Doch, manchmal bin ich mir unsicher, ob das einfach so angeschnittene Gefäße, oder ob das irgendwie Hyperdense Strukturen sind im Parenchym.",
+    "tags": [
+      "indicator: no_bleeding"
+    ],
+    "rationale": "The speaker explicitly states that they do not see any abnormalities, which aligns with the 'no_bleeding' tag.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_no advice_cycle_25.txt",
+      "row": 31
+    },
+    "model": "meta-llama/llama-3.3-70b-instruct",
+    "provider": "DeepInfra",
+    "configuration_name": "llama-3-3-70b-instruct-241206"
+  },
+  {
+    "phrase": "manchmal bin ich mir unsicher, ob das einfach so angeschnittene Gefäße, oder ob das irgendwie Hyperdense Strukturen sind im Parenchym",
+    "context": "… Hier sehe ich auch keine Auffälligkeiten, aber warte. Doch, manchmal bin ich mir unsicher, ob das einfach so angeschnittene Gefäße, oder ob das irgendwie Hyperdense Strukturen sind im Parenchym. Das könnten einfach nur Gefäße und Kontrastmittel sein.",
+    "tags": [
+      "reflection: diagnostic_uncertainty"
+    ],
+    "rationale": "The speaker expresses uncertainty about whether the observed structures are blood vessels or hyperdense structures, indicating diagnostic uncertainty.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_no advice_cycle_25.txt",
+      "row": 31
+    },
+    "model": "meta-llama/llama-3.3-70b-instruct",
+    "provider": "DeepInfra",
+    "configuration_name": "llama-3-3-70b-instruct-241206"
+  },
+  {
+    "phrase": "Das könnten einfach nur Gefäße und Kontrastmittel sein. Glaube ich, ist es auch.",
+    "context": "… Hier sehe ich auch keine Auffälligkeiten, aber warte. Doch, manchmal bin ich mir unsicher, ob das einfach so angeschnittene Gefäße, oder ob das irgendwie Hyperdense Strukturen sind im Parenchym. Das könnten einfach nur Gefäße und Kontrastmittel sein. Glaube ich, ist es auch.",
+    "tags": [
+      "interpretation: no_bleeding_explanation"
+    ],
+    "rationale": "The speaker provides an explanation for why the observed structures are likely not a hemorrhage, suggesting that they could be blood vessels and contrast medium.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_no advice_cycle_25.txt",
+      "row": 31
+    },
+    "model": "meta-llama/llama-3.3-70b-instruct",
+    "provider": "DeepInfra",
+    "configuration_name": "llama-3-3-70b-instruct-241206"
+  },
+  {
+    "phrase": "Finde ich, mit meiner wenigen Erfahrung, bisschen kompliziert, aber ich glaube es ist nichts",
+    "context": "… Hier sehe ich auch keine Auffälligkeiten, aber warte. Doch, manchmal bin ich mir unsicher, ob das einfach so angeschnittene Gefäße, oder ob das irgendwie Hyperdense Strukturen sind im Parenchym. Das könnten einfach nur Gefäße und Kontrastmittel sein. Glaube ich, ist es auch. Finde ich, mit meiner wenigen Erfahrung, bisschen kompliziert, aber ich glaube es ist nichts",
+    "tags": [
+      "reflection: experience_limitation",
+      "confidence_low: concrete"
+    ],
+    "rationale": "The speaker mentions their limited experience and finds the case a bit complicated, but still believes that there is no hemorrhage, indicating a low confidence level in their diagnosis due to their limited experience.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_no advice_cycle_25.txt",
+      "row": 31
+    },
+    "model": "meta-llama/llama-3.3-70b-instruct",
+    "provider": "DeepInfra",
+    "configuration_name": "llama-3-3-70b-instruct-241206"
+  },
+  {
+    "phrase": "Da sehe ich nichts auffälliges.",
+    "context": "… Da sehe ich nichts auffälliges.",
+    "tags": [
+      "indicator: no_bleeding"
+    ],
+    "rationale": "The person states they don't see anything unusual, which aligns with the 'no_bleeding' tag as it indicates a lack of identifiable anomalies or issues in the image.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_no advice_cycle_25.txt",
+      "row": 47
+    },
+    "model": "meta-llama/llama-3.3-70b-instruct",
+    "provider": "DeepInfra",
+    "configuration_name": "llama-3-3-70b-instruct-241206"
+  },
+  {
+    "phrase": "Ich finde hier die Ventrikel, irgendwie schlecht zu erkennen",
+    "context": "… Ich finde hier die Ventrikel, irgendwie schlecht zu erkennen, ich weiß nicht, ob das bei Kindern normal ist.",
+    "tags": [
+      "awareness_of_task: image_quality"
+    ],
+    "rationale": "The person is explicitly complaining about the image quality, specifically stating that the ventricles are hard to recognize.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_no advice_cycle_25.txt",
+      "row": 45
+    },
+    "model": "meta-llama/llama-3.3-70b-instruct",
+    "provider": "AkashML",
+    "configuration_name": "llama-3-3-70b-instruct-241206"
+  },
+  {
+    "phrase": "ich weiß nicht, ob das bei Kindern normal ist",
+    "context": "… Ich finde hier die Ventrikel, irgendwie schlecht zu erkennen, ich weiß nicht, ob das bei Kindern normal ist.",
+    "tags": [
+      "reflection: diagnostic_uncertainty"
+    ],
+    "rationale": "The person is uncertain about whether the appearance of the ventricles is normal in children, indicating diagnostic uncertainty.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_no advice_cycle_25.txt",
+      "row": 45
+    },
+    "model": "meta-llama/llama-3.3-70b-instruct",
+    "provider": "AkashML",
+    "configuration_name": "llama-3-3-70b-instruct-241206"
+  },
+  {
+    "phrase": "Das sieht so eng aus, irgendwie",
+    "context": "… Ich finde hier die Ventrikel, irgendwie schlecht zu erkennen, ich weiß nicht, ob das bei Kindern normal ist. Das sieht so eng aus, irgendwie.",
+    "tags": [
+      "visual_search: description_of_medical_image_features"
+    ],
+    "rationale": "The person is describing the appearance of the ventricles, specifically stating that they look narrow.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_no advice_cycle_25.txt",
+      "row": 45
+    },
+    "model": "meta-llama/llama-3.3-70b-instruct",
+    "provider": "AkashML",
+    "configuration_name": "llama-3-3-70b-instruct-241206"
+  },
+  {
+    "phrase": "Ansonsten, sehe ich sonst keine Epi- oder Subdurale Blutung",
+    "context": "Ansonsten, sehe ich sonst keine Epi- oder Subdurale Blutung, aber ich finde das schon komisch.",
+    "tags": [
+      "interpretation: no_bleeding"
+    ],
+    "rationale": "The person is stating that they do not see any evidence of epidural or subdural hemorrhage.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_no advice_cycle_25.txt",
+      "row": 45
+    },
+    "model": "meta-llama/llama-3.3-70b-instruct",
+    "provider": "AkashML",
+    "configuration_name": "llama-3-3-70b-instruct-241206"
+  },
+  {
+    "phrase": "aber ich finde das schon komisch",
+    "context": "Ansonsten, sehe ich sonst keine Epi- oder Subdurale Blutung, aber ich finde das schon komisch.",
+    "tags": [
+      "reflection: perceptual_doubt"
+    ],
+    "rationale": "The person is expressing doubt about their perception, finding something unusual or suspicious.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_no advice_cycle_25.txt",
+      "row": 45
+    },
+    "model": "meta-llama/llama-3.3-70b-instruct",
+    "provider": "AkashML",
+    "configuration_name": "llama-3-3-70b-instruct-241206"
+  },
+  {
+    "phrase": "Ich glaube schon, ich bin mir  nicht so sicher, glaube ja",
+    "context": "Ich glaube schon, ich bin mir  nicht so sicher, glaube ja.",
+    "tags": [
+      "confidence_low: concrete",
+      "confidence_high: secondary"
+    ],
+    "rationale": "The person is expressing low certainty about their diagnosis, but also using the phrase 'glube ja' which implies a degree of confidence.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_no advice_cycle_25.txt",
+      "row": 45
+    },
+    "model": "meta-llama/llama-3.3-70b-instruct",
+    "provider": "AkashML",
+    "configuration_name": "llama-3-3-70b-instruct-241206"
+  },
+  {
+    "phrase": "Ja rechts, weiß ich nicht ob ich was sehe, oder nicht.",
+    "context": "… Ja rechts, weiß ich nicht ob ich was sehe, oder nicht. Ob das irgendwie normal ist oder nicht. Ob das einfach ein Gyri, die grade angeschnitten wurde. Das sieht für mich so aus wie etwas Hyperdenses, aber ich vermute ist nichts. Bin ich mir nicht so sicher, aber ich glaube nicht.",
+    "tags": [
+      "reflection: diagnostic_uncertainty"
+    ],
+    "rationale": "The speaker is uncertain about what they are seeing and whether it is normal or not, indicating diagnostic uncertainty.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_no advice_cycle_25.txt",
+      "row": 36
+    },
+    "model": "meta-llama/llama-3.3-70b-instruct",
+    "provider": "DeepInfra",
+    "configuration_name": "llama-3-3-70b-instruct-241206"
+  },
+  {
+    "phrase": "Ob das einfach ein Gyri, die grade angeschnitten wurde.",
+    "context": "… Ja rechts, weiß ich nicht ob ich was sehe, oder nicht. Ob das irgendwie normal ist oder nicht. Ob das einfach ein Gyri, die grade angeschnitten wurde. Das sieht für mich so aus wie etwas Hyperdenses, aber ich vermute ist nichts. Bin ich mir nicht so sicher, aber ich glaube nicht.",
+    "tags": [
+      "reasoning: alternative_medical_structure"
+    ],
+    "rationale": "The speaker is considering the possibility that what they see is a normal anatomical structure (Gyri) that has been cut, which is an alternative medical explanation.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_no advice_cycle_25.txt",
+      "row": 36
+    },
+    "model": "meta-llama/llama-3.3-70b-instruct",
+    "provider": "DeepInfra",
+    "configuration_name": "llama-3-3-70b-instruct-241206"
+  },
+  {
+    "phrase": "Das sieht für mich so aus wie etwas Hyperdenses, aber ich vermute ist nichts.",
+    "context": "… Ja rechts, weiß ich nicht ob ich was sehe, oder nicht. Ob das irgendwie normal ist oder nicht. Ob das einfach ein Gyri, die grade angeschnitten wurde. Das sieht für mich so aus wie etwas Hyperdenses, aber ich vermute ist nichts. Bin ich mir nicht so sicher, aber ich glaube nicht.",
+    "tags": [
+      "confidence_low: concrete"
+    ],
+    "rationale": "The speaker explicitly expresses low certainty about their observation, stating that they think what they see might be nothing, despite it appearing as something hyperdense.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_no advice_cycle_25.txt",
+      "row": 36
+    },
+    "model": "meta-llama/llama-3.3-70b-instruct",
+    "provider": "DeepInfra",
+    "configuration_name": "llama-3-3-70b-instruct-241206"
+  },
+  {
+    "phrase": "Bin ich mir nicht so sicher, aber ich glaube nicht.",
+    "context": "… Ja rechts, weiß ich nicht ob ich was sehe, oder nicht. Ob das irgendwie normal ist oder nicht. Ob das einfach ein Gyri, die grade angeschnitten wurde. Das sieht für mich so aus wie etwas Hyperdenses, aber ich vermute ist nichts. Bin ich mir nicht so sicher, aber ich glaube nicht.",
+    "tags": [
+      "confidence_low: concrete",
+      "interpretation: no_bleeding"
+    ],
+    "rationale": "The speaker reiterates their uncertainty and leans towards the interpretation that there is no bleeding, further emphasizing their low confidence in the diagnosis.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_no advice_cycle_25.txt",
+      "row": 36
+    },
+    "model": "meta-llama/llama-3.3-70b-instruct",
+    "provider": "DeepInfra",
+    "configuration_name": "llama-3-3-70b-instruct-241206"
+  },
+  {
+    "phrase": "Hm, da sehe ich jetzt keinen Unterschied zur linken Seite, außer… Ne…, Hm.",
+    "context": "… Hm, da sehe ich jetzt keinen Unterschied zur linken Seite, außer… Ne…, Hm.",
+    "tags": [
+      "indicator: no_bleeding",
+      "paused_in_process"
+    ],
+    "rationale": "The person is expressing uncertainty and hesitation, indicated by filler words like 'Hm' and 'Ne…', and also mentions not seeing a difference, which could imply that they do not see any abnormality or bleeding, hence the 'indicator: no_bleeding' tag.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_no advice_cycle_25.txt",
+      "row": 48
+    },
+    "model": "meta-llama/llama-3.3-70b-instruct",
+    "provider": "DeepInfra",
+    "configuration_name": "llama-3-3-70b-instruct-241206"
+  },
+  {
+    "phrase": "Als wäre dazwischen eingeblutet",
+    "context": "Ähm, hier finde wieder, irgendwie, die Gyri nicht mehr so deutlich. Aber eigentlich beidseitig, Als wäre dazwischen eingeblutet.",
+    "tags": [
+      "interpretation: bleeding"
+    ],
+    "rationale": "The phrase 'Als wäre dazwischen eingeblutet' translates to 'As if something had bled in between', which implies that the person is interpreting the abnormality as a possible hemorrhage.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_no advice_cycle_25.txt",
+      "row": 43
+    },
+    "model": "meta-llama/llama-3.3-70b-instruct",
+    "provider": "DeepInfra",
+    "configuration_name": "llama-3-3-70b-instruct-241206"
+  },
+  {
+    "phrase": "Hier ist es besser, aber… Hier in der Ventrikel, ist es auch nicht symmetrisch zur Gegenseite",
+    "context": "Ähm, hier finde wieder, irgendwie, die Gyri nicht mehr so deutlich. Aber eigentlich beidseitig, Als wäre dazwischen eingeblutet. Hier ist es besser, aber… Hier in der Ventrikel, ist es auch nicht symmetrisch zur Gegenseite.",
+    "tags": [
+      "indicator: anomaly_detected"
+    ],
+    "rationale": "The person notices an abnormality in the ventricle, specifically that it is not symmetrical to the other side, which indicates that they have detected an anomaly.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_no advice_cycle_25.txt",
+      "row": 43
+    },
+    "model": "meta-llama/llama-3.3-70b-instruct",
+    "provider": "DeepInfra",
+    "configuration_name": "llama-3-3-70b-instruct-241206"
+  },
+  {
+    "phrase": "Ich glaub schon",
+    "context": "Ähm, hier finde wieder, irgendwie, die Gyri nicht mehr so deutlich. Aber eigentlich beidseitig, Als wäre dazwischen eingeblutet. Hier ist es besser, aber… Hier in der Ventrikel, ist es auch nicht symmetrisch zur Gegenseite. Ziemlich eng da alles. Ich glaub schon.",
+    "tags": [
+      "confidence_high: secondary"
+    ],
+    "rationale": "The phrase 'Ich glaub schon' translates to 'I think so' or 'I believe so', which implies a certain level of confidence in the person's interpretation, although it is not explicitly stated as high certainty.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_no advice_cycle_25.txt",
+      "row": 43
+    },
+    "model": "meta-llama/llama-3.3-70b-instruct",
+    "provider": "DeepInfra",
+    "configuration_name": "llama-3-3-70b-instruct-241206"
+  },
+  {
+    "phrase": "Hm, das finde ich schon ein bisschen auffällig da.",
+    "context": "Hm, das finde ich schon ein bisschen auffällig da. Mhm, würde auch zu plötzlichen Kopfschmerzen passen. Man muss gucken, ob die Person Nackensteifigkeit? hat. Aber ich glaube schon, dass das da eine Blutung ist. Ja, hier.",
+    "tags": [
+      "indicator: anomaly_detected"
+    ],
+    "rationale": "The person notices an abnormality and finds it 'auffällig' (remarkable), indicating the detection of an anomaly.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_no advice_cycle_25.txt",
+      "row": 49
+    },
+    "model": "meta-llama/llama-3.3-70b-instruct",
+    "provider": "AkashML",
+    "configuration_name": "llama-3-3-70b-instruct-241206"
+  },
+  {
+    "phrase": "Mhm, würde auch zu plötzlichen Kopfschmerzen passen.",
+    "context": "Hm, das finde ich schon ein bisschen auffällig da. Mhm, würde auch zu plötzlichen Kopfschmerzen passen. Man muss gucken, ob die Person Nackensteifigkeit? hat. Aber ich glaube schon, dass das da eine Blutung ist. Ja, hier.",
+    "tags": [
+      "reasoning: conclusion_contextual_information"
+    ],
+    "rationale": "The person connects the medical finding with a possible symptom (plötzlichen Kopfschmerzen), drawing a conclusion based on contextual information.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_no advice_cycle_25.txt",
+      "row": 49
+    },
+    "model": "meta-llama/llama-3.3-70b-instruct",
+    "provider": "AkashML",
+    "configuration_name": "llama-3-3-70b-instruct-241206"
+  },
+  {
+    "phrase": "Aber ich glaube schon, dass das da eine Blutung ist.",
+    "context": "Hm, das finde ich schon ein bisschen auffällig da. Mhm, würde auch zu plötzlichen Kopfschmerzen passen. Man muss gucken, ob die Person Nackensteifigkeit? hat. Aber ich glaube schon, dass das da eine Blutung ist. Ja, hier.",
+    "tags": [
+      "interpretation: bleeding"
+    ],
+    "rationale": "The person explicitly interprets the abnormality as a hemorrhage (Blutung).",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_no advice_cycle_25.txt",
+      "row": 49
+    },
+    "model": "meta-llama/llama-3.3-70b-instruct",
+    "provider": "AkashML",
+    "configuration_name": "llama-3-3-70b-instruct-241206"
+  },
+  {
+    "phrase": "Nicht so sicher, aber hier so.",
+    "context": "Hmm, ich finde, hier hm. Dieses Gefühl das ich da, rechts die Gyri besser eingrenzen kann, besser sehen kann als links. Nicht so sicher, aber hier so. Das macht… Ich sag sehr unsicher, ja.",
+    "tags": [
+      "confidence_low: concrete",
+      "reflection: diagnostic_uncertainty"
+    ],
+    "rationale": "The speaker expresses low certainty by saying 'Nicht so sicher' (not so sure) and 'sehr unsicher' (very unsure), indicating a concrete expression of low confidence. Additionally, the speaker is uncertain about their diagnosis, reflecting on their own diagnostic uncertainty.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_no advice_cycle_25.txt",
+      "row": 46
+    },
+    "model": "meta-llama/llama-3.3-70b-instruct",
+    "provider": "DeepInfra",
+    "configuration_name": "llama-3-3-70b-instruct-241206"
+  },
+  {
+    "phrase": "Ich sag sehr unsicher, ja.",
+    "context": "Hmm, ich finde, hier hm. Dieses Gefähl das ich da, rechts die Gyri besser eingrenzen kann, besser sehen kann als links. Nicht so sicher, aber hier so. Das macht… Ich sag sehr unsicher, ja.",
+    "tags": [
+      "confidence_low: concrete",
+      "reflection: diagnostic_uncertainty"
+    ],
+    "rationale": "The speaker explicitly states their uncertainty, reinforcing the low confidence and diagnostic uncertainty tags.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_no advice_cycle_25.txt",
+      "row": 46
+    },
+    "model": "meta-llama/llama-3.3-70b-instruct",
+    "provider": "DeepInfra",
+    "configuration_name": "llama-3-3-70b-instruct-241206"
+  }
+]

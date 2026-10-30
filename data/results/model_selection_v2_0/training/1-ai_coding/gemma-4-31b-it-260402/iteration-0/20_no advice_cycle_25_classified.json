@@ -1,0 +1,3467 @@
+[
+  {
+    "phrase": "Sehe ich auch nichts.",
+    "context": "… Sehe ich auch nichts. . Ups nein.",
+    "tags": [
+      "indicator: no_bleeding"
+    ],
+    "rationale": "The person states they see nothing, classifying the current image area as unremarkable.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_no advice_cycle_25.txt",
+      "row": 8
+    },
+    "model": "google/gemma-4-31b-it",
+    "provider": "DeepInfra",
+    "configuration_name": "gemma-4-31b-it-260402"
+  },
+  {
+    "phrase": "Ups nein.",
+    "context": "… Sehe ich auch nichts. . Ups nein.",
+    "tags": [
+      "reflection: self-correction"
+    ],
+    "rationale": "The person uses 'Ups nein' (Oops no) to immediately correct or contradict their previous statement that they saw nothing.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_no advice_cycle_25.txt",
+      "row": 8
+    },
+    "model": "google/gemma-4-31b-it",
+    "provider": "DeepInfra",
+    "configuration_name": "gemma-4-31b-it-260402"
+  },
+  {
+    "phrase": "Ja bin ich mir nicht so, geht so sicher.",
+    "context": "…Ja bin ich mir nicht so, geht so sicher. Aber ich glaub, dass das keine ist.",
+    "tags": [
+      "confidence_low: concrete"
+    ],
+    "rationale": "The speaker explicitly expresses a lack of certainty regarding their assessment.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_no advice_cycle_25.txt",
+      "row": 7
+    },
+    "model": "google/gemma-4-31b-it",
+    "provider": "CoreWeave",
+    "configuration_name": "gemma-4-31b-it-260402"
+  },
+  {
+    "phrase": "Aber ich glaub, dass das keine ist.",
+    "context": "…Ja bin ich mir nicht so, geht so sicher. Aber ich glaub, dass das keine ist.",
+    "tags": [
+      "interpretation: no_bleeding"
+    ],
+    "rationale": "The speaker interprets the finding as not being a hemorrhage ('keine' referring to the bleeding discussed in the context of the task).",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_no advice_cycle_25.txt",
+      "row": 7
+    },
+    "model": "google/gemma-4-31b-it",
+    "provider": "CoreWeave",
+    "configuration_name": "gemma-4-31b-it-260402"
+  },
+  {
+    "phrase": "Ich hab das Gefühl, ich sehe es nur, wenn es richtig deutlich ist.",
+    "context": "Ich hab das Gefühl, ich sehe es nur, wenn es richtig deutlich ist. Irgendwie sehe ich schon wieder nichts…. ?",
+    "tags": [
+      "reflection: recurring_perceptual_pattern"
+    ],
+    "rationale": "The person reflects on a recurring pattern in their own perception (only seeing things when they are very obvious).",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_no advice_cycle_25.txt",
+      "row": 9
+    },
+    "model": "google/gemma-4-31b-it",
+    "provider": "DeepInfra",
+    "configuration_name": "gemma-4-31b-it-260402"
+  },
+  {
+    "phrase": "Irgendwie sehe ich schon wieder nichts…. ?",
+    "context": "Ich hab das Gefühl, ich sehe es nur, wenn es richtig deutlich ist. Irgendwie sehe ich schon wieder nichts…. ?",
+    "tags": [
+      "reflection: perceptual_doubt"
+    ],
+    "rationale": "The person expresses doubt about their current perception, stating they cannot see anything.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_no advice_cycle_25.txt",
+      "row": 9
+    },
+    "model": "google/gemma-4-31b-it",
+    "provider": "DeepInfra",
+    "configuration_name": "gemma-4-31b-it-260402"
+  },
+  {
+    "phrase": "Ich finde die Bilder ziemlich klein, auf meinem Bildschirm trotzdem, aber…",
+    "context": "Ich finde die Bilder ziemlich klein, auf meinem Bildschirm trotzdem, aber… Hmm, …, hier sehe ich auch nichts…",
+    "tags": [
+      "awareness_of_task: image_quality"
+    ],
+    "rationale": "The person explicitly complains about the size of the images on their screen, attributing a potential issue to the image acquisition/display quality.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_no advice_cycle_25.txt",
+      "row": 4
+    },
+    "model": "google/gemma-4-31b-it",
+    "provider": "CoreWeave",
+    "configuration_name": "gemma-4-31b-it-260402"
+  },
+  {
+    "phrase": "Hmm, …",
+    "context": "trotzdem, aber… Hmm, …, hier sehe ich auch nichts…",
+    "tags": [
+      "paused_in_process"
+    ],
+    "rationale": "The person uses a filler word ('Hmm') indicating a pause in the thought process.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_no advice_cycle_25.txt",
+      "row": 4
+    },
+    "model": "google/gemma-4-31b-it",
+    "provider": "CoreWeave",
+    "configuration_name": "gemma-4-31b-it-260402"
+  },
+  {
+    "phrase": "hier sehe ich auch nichts… Das sieht für mich normal aus.",
+    "context": "Hmm, …, hier sehe ich auch nichts… Das sieht für mich normal aus.",
+    "tags": [
+      "interpretation: no_bleeding"
+    ],
+    "rationale": "The person interprets the image area as normal and devoid of any findings, which in this task context corresponds to 'no hemorrhage'.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_no advice_cycle_25.txt",
+      "row": 4
+    },
+    "model": "google/gemma-4-31b-it",
+    "provider": "CoreWeave",
+    "configuration_name": "gemma-4-31b-it-260402"
+  },
+  {
+    "phrase": "ich weiß nicht ob ich mir das einbilde, dass ich die Gyri nicht mehr so gut sehen kann",
+    "context": "… Auch hier habe ich das Gefühl, ich weiß nicht ob ich mir das einbilde, dass ich die Gyri nicht mehr so gut sehen kann…",
+    "tags": [
+      "reflection: perceptual_doubt"
+    ],
+    "rationale": "The speaker expresses doubt about their own perception ('ich weiß nicht ob ich mir das einbilde'), specifically regarding the visibility of the gyri.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_no advice_cycle_25.txt",
+      "row": 10
+    },
+    "model": "google/gemma-4-31b-it",
+    "provider": "DeepInfra",
+    "configuration_name": "gemma-4-31b-it-260402"
+  },
+  {
+    "phrase": "Hmm, hier sehe ich jetzt so schnell keinen Unterschied, oder keine Signalerhöhung…",
+    "context": "Hmm, hier sehe ich jetzt so schnell keinen Unterschied, oder keine Signalerhöhung… Also Schädelknochen zeigt nicht auf irgendwelche Traumata.",
+    "tags": [
+      "visual_search: description_of_medical_image_features"
+    ],
+    "rationale": "The person is describing the image characteristics (signal increase/difference) they are currently looking for.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_no advice_cycle_25.txt",
+      "row": 3
+    },
+    "model": "google/gemma-4-31b-it",
+    "provider": "CoreWeave",
+    "configuration_name": "gemma-4-31b-it-260402"
+  },
+  {
+    "phrase": "Also Schädelknochen zeigt nicht auf irgendwelche Traumata.",
+    "context": "keine Signalerhöhung… Also Schädelknochen zeigt nicht auf irgendwelche Traumata. Aber Moment, …",
+    "tags": [
+      "indicator: no_bleeding"
+    ],
+    "rationale": "The person classifies the skull bone area as unremarkable/without trauma.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_no advice_cycle_25.txt",
+      "row": 3
+    },
+    "model": "google/gemma-4-31b-it",
+    "provider": "CoreWeave",
+    "configuration_name": "gemma-4-31b-it-260402"
+  },
+  {
+    "phrase": "Aber Moment, …",
+    "context": "auf irgendwelche Traumata. Aber Moment, … ja und ich finde das Parenchym",
+    "tags": [
+      "paused_in_process"
+    ],
+    "rationale": "Filler phrase indicating a pause or transition in thought.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_no advice_cycle_25.txt",
+      "row": 3
+    },
+    "model": "google/gemma-4-31b-it",
+    "provider": "CoreWeave",
+    "configuration_name": "gemma-4-31b-it-260402"
+  },
+  {
+    "phrase": "ja und ich finde das Parenchym auch beidseitig gleich.",
+    "context": "Aber Moment, … ja und ich finde das Parenchym auch beidseitig gleich. Ich sag das sind keine Blutungen.",
+    "tags": [
+      "visual_search: description_of_medical_image_features"
+    ],
+    "rationale": "The person is verbalizing the anatomical structure (parenchyma) they are checking and comparing.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_no advice_cycle_25.txt",
+      "row": 3
+    },
+    "model": "google/gemma-4-31b-it",
+    "provider": "CoreWeave",
+    "configuration_name": "gemma-4-31b-it-260402"
+  },
+  {
+    "phrase": "Ich sag das sind keine Blutungen.",
+    "context": "ich finde das Parenchym auch beidseitig gleich. Ich sag das sind keine Blutungen.",
+    "tags": [
+      "interpretation: no_bleeding"
+    ],
+    "rationale": "The person explicitly interprets the findings as 'no hemorrhage'.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_no advice_cycle_25.txt",
+      "row": 3
+    },
+    "model": "google/gemma-4-31b-it",
+    "provider": "CoreWeave",
+    "configuration_name": "gemma-4-31b-it-260402"
+  },
+  {
+    "phrase": "Hier sehe ich tatsächlich auch nichts…",
+    "context": "… Hier sehe ich tatsächlich auch nichts… Ich das Gefühl, dass bei der Größe",
+    "tags": [
+      "indicator: no_bleeding"
+    ],
+    "rationale": "The person states they see nothing in the current image area, classifying it as unremarkable.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_no advice_cycle_25.txt",
+      "row": 5
+    },
+    "model": "google/gemma-4-31b-it",
+    "provider": "DeepInfra",
+    "configuration_name": "gemma-4-31b-it-260402"
+  },
+  {
+    "phrase": "Ich das Gefühl, dass bei der Größe, könnte ich vielleicht schon, hoffentlich eine Subdurale oder Epidurale Blutung oder so sehen",
+    "context": "Hier sehe ich tatsächlich auch nichts… Ich das Gefühl, dass bei der Größe, könnte ich vielleicht schon, hoffentlich eine Subdurale oder Epidurale Blutung oder so sehen, aber ähm",
+    "tags": [
+      "confidence_low: secondary",
+      "reflection: diagnostic_uncertainty"
+    ],
+    "rationale": "The use of 'vielleicht' (perhaps) indicates low secondary confidence, and the person is reflecting on whether a hemorrhage should be visible given the size.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_no advice_cycle_25.txt",
+      "row": 5
+    },
+    "model": "google/gemma-4-31b-it",
+    "provider": "DeepInfra",
+    "configuration_name": "gemma-4-31b-it-260402"
+  },
+  {
+    "phrase": "Subdural, wüsste ich jetzt nicht, ob man das bei der Größe sehen konnte, oder interessehalber",
+    "context": "aber ähm, Subdural, wüsste ich jetzt nicht, ob man das bei der Größe sehen konnte, oder interessehalber, aber hier ist auch nichts.",
+    "tags": [
+      "reflection: experience_limitation"
+    ],
+    "rationale": "The person expresses uncertainty about their own knowledge regarding whether a subdural hemorrhage would be visible at this size.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_no advice_cycle_25.txt",
+      "row": 5
+    },
+    "model": "google/gemma-4-31b-it",
+    "provider": "DeepInfra",
+    "configuration_name": "gemma-4-31b-it-260402"
+  },
+  {
+    "phrase": "aber hier ist auch nichts.",
+    "context": "oder interessehalber, aber hier ist auch nichts.",
+    "tags": [
+      "interpretation: no_bleeding"
+    ],
+    "rationale": "The person concludes that there is no hemorrhage present in the viewed area.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_no advice_cycle_25.txt",
+      "row": 5
+    },
+    "model": "google/gemma-4-31b-it",
+    "provider": "DeepInfra",
+    "configuration_name": "gemma-4-31b-it-260402"
+  },
+  {
+    "phrase": "Kann man das irgendwie größer machen? Das ist voll klein.",
+    "context": "Kann man das irgendwie größer machen? Das ist voll klein. EXPERIMENTER: Ähm, du kannstmal auf die drei Punkte oben rechts",
+    "tags": [
+      "technical_conversation"
+    ],
+    "rationale": "The person is discussing technical difficulties with the display tool/interface size with the experimenter.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_no advice_cycle_25.txt",
+      "row": 1
+    },
+    "model": "google/gemma-4-31b-it",
+    "provider": "CoreWeave",
+    "configuration_name": "gemma-4-31b-it-260402"
+  },
+  {
+    "phrase": "Also hier?",
+    "context": "dann rauszoomen, weil dann wird das Interface kleiner. VPN: Also hier? EXPERIMENTER: Ja, genau.",
+    "tags": [
+      "technical_conversation"
+    ],
+    "rationale": "The person is continuing the technical conversation regarding the browser settings.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_no advice_cycle_25.txt",
+      "row": 1
+    },
+    "model": "google/gemma-4-31b-it",
+    "provider": "CoreWeave",
+    "configuration_name": "gemma-4-31b-it-260402"
+  },
+  {
+    "phrase": "Okay, dann sehe ich das hier nicht so gut.",
+    "context": "EXPERIMENTER: Ja, genau. VPN: Okay, dann sehe ich das hier nicht so gut. EXPERIMENTER: Ja nee, also auf Minus beim Zoomen",
+    "tags": [
+      "technical_conversation"
+    ],
+    "rationale": "The person is commenting on the visibility/display of the interface.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_no advice_cycle_25.txt",
+      "row": 1
+    },
+    "model": "google/gemma-4-31b-it",
+    "provider": "CoreWeave",
+    "configuration_name": "gemma-4-31b-it-260402"
+  },
+  {
+    "phrase": "Okay,... so ich scrolle jetzt mal kurz runter und hoch.",
+    "context": "dann wird das Interface ein bisschen kleiner. VPN: Okay,... so ich scrolle jetzt mal kurz runter und hoch. Ja, jetzt sehe ich hier rechts",
+    "tags": [
+      "visual_search"
+    ],
+    "rationale": "The person is describing their action of scrolling to navigate the image.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_no advice_cycle_25.txt",
+      "row": 1
+    },
+    "model": "google/gemma-4-31b-it",
+    "provider": "CoreWeave",
+    "configuration_name": "gemma-4-31b-it-260402"
+  },
+  {
+    "phrase": "Ja, jetzt sehe ich hier rechts, ähm, so ein bisschen sichelförmige, also glaube ich zu meinen, als sichelförmige, wie heißt das, ja ich glaub Flüssigkeitsansammlungen.",
+    "context": "scrolle jetzt mal kurz runter und hoch. Ja, jetzt sehe ich hier rechts, ähm, so ein bisschen sichelförmige, also glaube ich zu meinen, als sichelförmige, wie heißt das, ja ich glaub Flüssigkeitsansammlungen. Ähm, ja eher Frontoparietal",
+    "tags": [
+      "indicator: anomaly_detected",
+      "confidence_low: secondary"
+    ],
+    "rationale": "The person notices an abnormality (crescent-shaped fluid collections) and uses uncertain phrasing ('glaube ich', 'ich glaub').",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_no advice_cycle_25.txt",
+      "row": 1
+    },
+    "model": "google/gemma-4-31b-it",
+    "provider": "CoreWeave",
+    "configuration_name": "gemma-4-31b-it-260402"
+  },
+  {
+    "phrase": "Ähm, ja eher Frontoparietal, oder so, meine ich.",
+    "context": "ich glaub Flüssigkeitsansammlungen. Ähm, ja eher Frontoparietal, oder so, meine ich. Hmm, ja also ganz dünn",
+    "tags": [
+      "interpretation: description_bleeding"
+    ],
+    "rationale": "The person is describing the location and characteristics of the previously identified abnormality.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_no advice_cycle_25.txt",
+      "row": 1
+    },
+    "model": "google/gemma-4-31b-it",
+    "provider": "CoreWeave",
+    "configuration_name": "gemma-4-31b-it-260402"
+  },
+  {
+    "phrase": "Hmm, ja also ganz dünn, aber ich würd schon sagen ja.",
+    "context": "oder so, meine ich. Hmm, ja also ganz dünn, aber ich würd schon sagen ja. Ich bin eher, also ich denke das ich sicherer bin als davor",
+    "tags": [
+      "confidence_high: secondary"
+    ],
+    "rationale": "The phrase 'ich würd schon sagen ja' indicates a level of implicit certainty about the finding.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_no advice_cycle_25.txt",
+      "row": 1
+    },
+    "model": "google/gemma-4-31b-it",
+    "provider": "CoreWeave",
+    "configuration_name": "gemma-4-31b-it-260402"
+  },
+  {
+    "phrase": "Ich bin eher, also ich denke das ich sicherer bin als davor... Naja doch.",
+    "context": "aber ich würd schon sagen ja. Ich bin eher, also ich denke das ich sicherer bin als davor... Naja doch.",
+    "tags": [
+      "reflection: self-monitoring",
+      "reflection: self-correction"
+    ],
+    "rationale": "The person is commenting on their own level of certainty (self-monitoring) and then immediately qualifies or corrects that statement ('Naja doch').",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_no advice_cycle_25.txt",
+      "row": 1
+    },
+    "model": "google/gemma-4-31b-it",
+    "provider": "CoreWeave",
+    "configuration_name": "gemma-4-31b-it-260402"
+  },
+  {
+    "phrase": "Hm, jetzt bin ich mir sehr unsicher",
+    "context": "… Hm, jetzt bin ich mir sehr unsicher, aber hmm, eher frontal in Höhe der",
+    "tags": [
+      "confidence_low: concrete"
+    ],
+    "rationale": "The person explicitly expresses low certainty about their current assessment.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_no advice_cycle_25.txt",
+      "row": 15
+    },
+    "model": "google/gemma-4-31b-it",
+    "provider": "CoreWeave",
+    "configuration_name": "gemma-4-31b-it-260402"
+  },
+  {
+    "phrase": "bei den Ventrikeln sieht das so aus, als wären da hypodense Bereiche",
+    "context": "ne warte Mal, bei den Ventrikeln sieht das so aus, als wären da hypodense Bereiche. Das könnte jetzt auf eine chronische Blutung hindeuten.",
+    "tags": [
+      "indicator: anomaly_detected"
+    ],
+    "rationale": "The person notices hypodense areas, which are atypical for a healthy skull/brain.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_no advice_cycle_25.txt",
+      "row": 15
+    },
+    "model": "google/gemma-4-31b-it",
+    "provider": "CoreWeave",
+    "configuration_name": "gemma-4-31b-it-260402"
+  },
+  {
+    "phrase": "Das könnte jetzt auf eine chronische Blutung hindeuten.",
+    "context": "als wären da hypodense Bereiche. Das könnte jetzt auf eine chronische Blutung hindeuten. Vielleicht was, äh",
+    "tags": [
+      "interpretation: bleeding"
+    ],
+    "rationale": "The person interprets the detected abnormality as a (chronic) hemorrhage.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_no advice_cycle_25.txt",
+      "row": 15
+    },
+    "model": "google/gemma-4-31b-it",
+    "provider": "CoreWeave",
+    "configuration_name": "gemma-4-31b-it-260402"
+  },
+  {
+    "phrase": "Vielleicht was, äh, eine Hypertensive Erkrankung, oder so.",
+    "context": "chronische Blutung hindeuten. Vielleicht was, äh, eine Hypertensive Erkrankung, oder so. Nur da bin ich mir sehr unsicher.",
+    "tags": [
+      "reasoning: alternative_medical_cause"
+    ],
+    "rationale": "The person suggests hypertensive disease as a possible medical cause for the findings.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_no advice_cycle_25.txt",
+      "row": 15
+    },
+    "model": "google/gemma-4-31b-it",
+    "provider": "CoreWeave",
+    "configuration_name": "gemma-4-31b-it-260402"
+  },
+  {
+    "phrase": "Nur da bin ich mir sehr unsicher.",
+    "context": "Hypertensive Erkrankung, oder so. Nur da bin ich mir sehr unsicher.",
+    "tags": [
+      "confidence_low: concrete"
+    ],
+    "rationale": "The person explicitly reiterates their lack of certainty regarding the diagnosis.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_no advice_cycle_25.txt",
+      "row": 15
+    },
+    "model": "google/gemma-4-31b-it",
+    "provider": "CoreWeave",
+    "configuration_name": "gemma-4-31b-it-260402"
+  },
+  {
+    "phrase": "Hier sehe ich nichts.",
+    "context": "… Hier sehe ich nichts.",
+    "tags": [
+      "indicator: no_bleeding"
+    ],
+    "rationale": "The person states they see nothing in the current image area, classifying it as unremarkable.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_no advice_cycle_25.txt",
+      "row": 16
+    },
+    "model": "google/gemma-4-31b-it",
+    "provider": "CoreWeave",
+    "configuration_name": "gemma-4-31b-it-260402"
+  },
+  {
+    "phrase": "Hier sieht der Schädel noch intakt aus",
+    "context": "… Hier sieht der Schädel noch intakt aus, die Mittellinie in der Mitte.",
+    "tags": [
+      "indicator: no_bleeding"
+    ],
+    "rationale": "The person classifies the skull area as intact/unremarkable.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_no advice_cycle_25.txt",
+      "row": 18
+    },
+    "model": "google/gemma-4-31b-it",
+    "provider": "CoreWeave",
+    "configuration_name": "gemma-4-31b-it-260402"
+  },
+  {
+    "phrase": "die Mittellinie in der Mitte",
+    "context": "Hier sieht der Schädel noch intakt aus, die Mittellinie in der Mitte. Im Parenchym sehe ich nichts besonderes…",
+    "tags": [
+      "indicator: no_bleeding"
+    ],
+    "rationale": "The person notes the midline is centered, indicating no shift or abnormality in that specific area.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_no advice_cycle_25.txt",
+      "row": 18
+    },
+    "model": "google/gemma-4-31b-it",
+    "provider": "CoreWeave",
+    "configuration_name": "gemma-4-31b-it-260402"
+  },
+  {
+    "phrase": "Im Parenchym sehe ich nichts besonderes",
+    "context": "die Mittellinie in der Mitte. Im Parenchym sehe ich nichts besonderes…",
+    "tags": [
+      "indicator: no_bleeding"
+    ],
+    "rationale": "The person explicitly states they see nothing special/abnormal in the parenchyma.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_no advice_cycle_25.txt",
+      "row": 18
+    },
+    "model": "google/gemma-4-31b-it",
+    "provider": "CoreWeave",
+    "configuration_name": "gemma-4-31b-it-260402"
+  },
+  {
+    "phrase": "Mittellinie sieht gut aus, Schädelknochen auch",
+    "context": "So hier sehe ich ?, also Mittellinie sieht gut aus, Schädelknochen auch. Hm, im Vergleich",
+    "tags": [
+      "visual_search: description_of_medical_image_features"
+    ],
+    "rationale": "The person is verbalizing which anatomical structures (midline, skull bone) they are currently checking.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_no advice_cycle_25.txt",
+      "row": 6
+    },
+    "model": "google/gemma-4-31b-it",
+    "provider": "CoreWeave",
+    "configuration_name": "gemma-4-31b-it-260402"
+  },
+  {
+    "phrase": "jetzt finde ich hier Occipital vielleicht",
+    "context": "Hm, im Vergleich,… ja,… jetzt finde ich hier Occipital vielleicht. Da sind ja zwei Signalerhöhungen.",
+    "tags": [
+      "visual_search: description_of_medical_image_features"
+    ],
+    "rationale": "The person is identifying the anatomical region (occipital) they are looking at.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_no advice_cycle_25.txt",
+      "row": 6
+    },
+    "model": "google/gemma-4-31b-it",
+    "provider": "CoreWeave",
+    "configuration_name": "gemma-4-31b-it-260402"
+  },
+  {
+    "phrase": "Da sind ja zwei Signalerhöhungen",
+    "context": "jetzt finde ich hier Occipital vielleicht. Da sind ja zwei Signalerhöhungen. Bin ich mir nicht so sicher",
+    "tags": [
+      "indicator: anomaly_detected"
+    ],
+    "rationale": "The person notices signal increases, which are atypical for a healthy skull/brain.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_no advice_cycle_25.txt",
+      "row": 6
+    },
+    "model": "google/gemma-4-31b-it",
+    "provider": "CoreWeave",
+    "configuration_name": "gemma-4-31b-it-260402"
+  },
+  {
+    "phrase": "Bin ich mir nicht so sicher",
+    "context": "Da sind ja zwei Signalerhöhungen. Bin ich mir nicht so sicher,… aber ich glaube schon dass hier eine Blutung ist.",
+    "tags": [
+      "confidence_low: concrete"
+    ],
+    "rationale": "The person explicitly expresses low certainty regarding the diagnostic process.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_no advice_cycle_25.txt",
+      "row": 6
+    },
+    "model": "google/gemma-4-31b-it",
+    "provider": "CoreWeave",
+    "configuration_name": "gemma-4-31b-it-260402"
+  },
+  {
+    "phrase": "ich glaube schon dass hier eine Blutung ist",
+    "context": "Bin ich mir nicht so sicher,… aber ich glaube schon dass hier eine Blutung ist.",
+    "tags": [
+      "interpretation: bleeding"
+    ],
+    "rationale": "The person interprets the detected abnormality as a hemorrhage.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_no advice_cycle_25.txt",
+      "row": 6
+    },
+    "model": "google/gemma-4-31b-it",
+    "provider": "CoreWeave",
+    "configuration_name": "gemma-4-31b-it-260402"
+  },
+  {
+    "phrase": "Ich weiß nicht ob mir das einbilde",
+    "context": "… Okay, hmm. Ich weiß nicht ob mir das einbilde, aber es sieht so aus als wären da ganz diffuse, kleine Blutungen.",
+    "tags": [
+      "reflection: perceptual_doubt"
+    ],
+    "rationale": "The person expresses doubt about whether they are actually seeing something or just imagining it.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_no advice_cycle_25.txt",
+      "row": 17
+    },
+    "model": "google/gemma-4-31b-it",
+    "provider": "CoreWeave",
+    "configuration_name": "gemma-4-31b-it-260402"
+  },
+  {
+    "phrase": "es sieht so aus als wären da ganz diffuse, kleine Blutungen",
+    "context": "Ich weiß nicht ob mir das einbilde, aber es sieht so aus als wären da ganz diffuse, kleine Blutungen. Hmm….",
+    "tags": [
+      "interpretation: bleeding"
+    ],
+    "rationale": "The person interprets the visual findings as small hemorrhages (Blutungen).",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_no advice_cycle_25.txt",
+      "row": 17
+    },
+    "model": "google/gemma-4-31b-it",
+    "provider": "CoreWeave",
+    "configuration_name": "gemma-4-31b-it-260402"
+  },
+  {
+    "phrase": "Ist es richtig hier?",
+    "context": "ganz diffuse, kleine Blutungen. Hmm…. Ist es richtig hier? ... Ja ich bin mir nicht so sicher",
+    "tags": [
+      "control: reflective_question"
+    ],
+    "rationale": "The person asks themselves a question to verify their current focus or thought process.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_no advice_cycle_25.txt",
+      "row": 17
+    },
+    "model": "google/gemma-4-31b-it",
+    "provider": "CoreWeave",
+    "configuration_name": "gemma-4-31b-it-260402"
+  },
+  {
+    "phrase": "ich bin mir nicht so sicher",
+    "context": "Ist es richtig hier? ... Ja ich bin mir nicht so sicher, aber ich glaub schon.",
+    "tags": [
+      "confidence_low: concrete"
+    ],
+    "rationale": "The person explicitly states their lack of certainty regarding the diagnostic process.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_no advice_cycle_25.txt",
+      "row": 17
+    },
+    "model": "google/gemma-4-31b-it",
+    "provider": "CoreWeave",
+    "configuration_name": "gemma-4-31b-it-260402"
+  },
+  {
+    "phrase": "Hier sehe ich auch nichts….",
+    "context": "Hmm… Hier sehe ich auch nichts…. Ich habe das Gefühl",
+    "tags": [
+      "indicator: no_bleeding"
+    ],
+    "rationale": "The person is classifying the current image area as unremarkable/empty.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_no advice_cycle_25.txt",
+      "row": 19
+    },
+    "model": "google/gemma-4-31b-it",
+    "provider": "CoreWeave",
+    "configuration_name": "gemma-4-31b-it-260402"
+  },
+  {
+    "phrase": "Ich habe das Gefühl, ich sehe generell nichts.",
+    "context": "Hier sehe ich auch nichts…. Ich habe das Gefühl, ich sehe generell nichts. Auch wenn",
+    "tags": [
+      "interpretation: no_bleeding"
+    ],
+    "rationale": "The person interprets the overall findings as a lack of hemorrhage.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_no advice_cycle_25.txt",
+      "row": 19
+    },
+    "model": "google/gemma-4-31b-it",
+    "provider": "CoreWeave",
+    "configuration_name": "gemma-4-31b-it-260402"
+  },
+  {
+    "phrase": "Auch wenn, dass das… Hmm… Hm, das ist nicht.",
+    "context": "ich sehe generell nichts. Auch wenn, dass das… Hmm… Hm, das ist nicht.",
+    "tags": [
+      "paused_in_process"
+    ],
+    "rationale": "The phrase consists of fragmented thoughts and filler words without a completed diagnostic statement.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_no advice_cycle_25.txt",
+      "row": 19
+    },
+    "model": "google/gemma-4-31b-it",
+    "provider": "CoreWeave",
+    "configuration_name": "gemma-4-31b-it-260402"
+  },
+  {
+    "phrase": "So, ich guck einfach immer beidseitig im Vergleich.",
+    "context": "So, ich guck einfach immer beidseitig im Vergleich. Die Mittellinie sieht eigentlich ganz normal aus",
+    "tags": [
+      "visual_search: description_of_own_approach_without_external_help"
+    ],
+    "rationale": "The person is explicitly describing their search strategy of comparing both sides.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_no advice_cycle_25.txt",
+      "row": 2
+    },
+    "model": "google/gemma-4-31b-it",
+    "provider": "CoreWeave",
+    "configuration_name": "gemma-4-31b-it-260402"
+  },
+  {
+    "phrase": "Die Mittellinie sieht eigentlich ganz normal aus, in der Mitte, ….,",
+    "context": "Die Mittellinie sieht eigentlich ganz normal aus, in der Mitte, …., Knochen sehe ich auch keine Beschädigung.",
+    "tags": [
+      "indicator: no_bleeding"
+    ],
+    "rationale": "The person classifies the midline area as normal/unremarkable.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_no advice_cycle_25.txt",
+      "row": 2
+    },
+    "model": "google/gemma-4-31b-it",
+    "provider": "CoreWeave",
+    "configuration_name": "gemma-4-31b-it-260402"
+  },
+  {
+    "phrase": "Knochen sehe ich auch keine Beschädigung.",
+    "context": "in der Mitte, …., Knochen sehe ich auch keine Beschädigung. Ja gut aber jetzt frontal",
+    "tags": [
+      "indicator: no_bleeding"
+    ],
+    "rationale": "The person classifies the bone as unremarkable/undamaged.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_no advice_cycle_25.txt",
+      "row": 2
+    },
+    "model": "google/gemma-4-31b-it",
+    "provider": "CoreWeave",
+    "configuration_name": "gemma-4-31b-it-260402"
+  },
+  {
+    "phrase": "Ja gut aber jetzt frontal, ähm, links ist da, ähm, hyper-",
+    "context": "Knochen sehe ich auch keine Beschädigung. Ja gut aber jetzt frontal, ähm, links ist da, ähm, hyper-, sind das CTs?",
+    "tags": [
+      "indicator: anomaly_detected"
+    ],
+    "rationale": "The person notices a hyperdense area on the left side, which is an abnormality.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_no advice_cycle_25.txt",
+      "row": 2
+    },
+    "model": "google/gemma-4-31b-it",
+    "provider": "CoreWeave",
+    "configuration_name": "gemma-4-31b-it-260402"
+  },
+  {
+    "phrase": "sind das CTs? Jetzt gerade, ich sehe nur CTs.",
+    "context": "links ist da, ähm, hyper-, sind das CTs? Jetzt gerade, ich sehe nur CTs. Dann sage ich hyperdens",
+    "tags": [
+      "control: reflective_question"
+    ],
+    "rationale": "The person asks themselves a question to verify the image modality to ensure their interpretation is correct.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_no advice_cycle_25.txt",
+      "row": 2
+    },
+    "model": "google/gemma-4-31b-it",
+    "provider": "CoreWeave",
+    "configuration_name": "gemma-4-31b-it-260402"
+  },
+  {
+    "phrase": "Dann sage ich hyperdens, ja... das ist eine Blutung.",
+    "context": "Jetzt gerade, ich sehe nur CTs. Dann sage ich hyperdens, ja... das ist eine Blutung.",
+    "tags": [
+      "interpretation: bleeding"
+    ],
+    "rationale": "The person explicitly interprets the hyperdense finding as a hemorrhage (Blutung).",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_no advice_cycle_25.txt",
+      "row": 2
+    },
+    "model": "google/gemma-4-31b-it",
+    "provider": "CoreWeave",
+    "configuration_name": "gemma-4-31b-it-260402"
+  },
+  {
+    "phrase": "da habe ich schon das Gefühl, dass die Mittellinie verlagert ist nach links vorallem",
+    "context": "… Ja, da habe ich schon das Gefühl, dass die Mittellinie verlagert ist nach links vorallem. Ähm, Occipital",
+    "tags": [
+      "indicator: anomaly_detected"
+    ],
+    "rationale": "The person notices a midline shift, which is an abnormality atypical for a healthy skull.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_no advice_cycle_25.txt",
+      "row": 12
+    },
+    "model": "google/gemma-4-31b-it",
+    "provider": "DeepInfra",
+    "configuration_name": "gemma-4-31b-it-260402"
+  },
+  {
+    "phrase": "Ähm, Occipital, also…, da probiere ich dann, ähm, links sehe ich auch eine Signalerhöhung, äh quatsch, Hyperdense Struktur, occipital habe ich das Gefühl.",
+    "context": "vorallem. Ähm, Occipital, also…, da probiere ich dann, ähm, links sehe ich auch eine Signalerhöhung, äh quatsch, Hyperdense Struktur, occipital habe ich das Gefühl. Hmm,",
+    "tags": [
+      "visual_search: description_of_medical_image_features"
+    ],
+    "rationale": "The person is verbalizing the anatomical structures (occipital) and image characteristics (hyperdense structure) they are currently looking at.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_no advice_cycle_25.txt",
+      "row": 12
+    },
+    "model": "google/gemma-4-31b-it",
+    "provider": "DeepInfra",
+    "configuration_name": "gemma-4-31b-it-260402"
+  },
+  {
+    "phrase": "äh quatsch",
+    "context": "links sehe ich auch eine Signalerhöhung, äh quatsch, Hyperdense Struktur",
+    "tags": [
+      "reflection: self-correction"
+    ],
+    "rationale": "The person corrects their terminology from 'Signalerhöhung' to 'Hyperdense Struktur'.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_no advice_cycle_25.txt",
+      "row": 12
+    },
+    "model": "google/gemma-4-31b-it",
+    "provider": "DeepInfra",
+    "configuration_name": "gemma-4-31b-it-260402"
+  },
+  {
+    "phrase": "Ich glaub hier ist dann schon eine Blutung.",
+    "context": "occipital habe ich das Gefühl. Hmm, Ich glaub hier ist dann schon eine Blutung.",
+    "tags": [
+      "interpretation: bleeding",
+      "confidence_low: secondary"
+    ],
+    "rationale": "The person interprets the finding as a hemorrhage ('Blutung'). The use of 'Ich glaub' (I believe/think) indicates implicit low certainty.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_no advice_cycle_25.txt",
+      "row": 12
+    },
+    "model": "google/gemma-4-31b-it",
+    "provider": "DeepInfra",
+    "configuration_name": "gemma-4-31b-it-260402"
+  },
+  {
+    "phrase": "Ja, ähm…",
+    "context": "VPN: Ja, ähm… EXPERIMENTER: Vielleicht auch was dir fehlt",
+    "tags": [
+      "paused_in_process"
+    ],
+    "rationale": "The speaker is using filler words ('ähm') and pausing.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_no advice_cycle_25.txt",
+      "row": 11
+    },
+    "model": "google/gemma-4-31b-it",
+    "provider": "DeepInfra",
+    "configuration_name": "gemma-4-31b-it-260402"
+  },
+  {
+    "phrase": "ich glaube bei dem Bild hier sehe ich eher links, Hyperdense Strukturen und auch mittig.",
+    "context": "VPN: Ja, ne , ich glaube bei dem Bild hier sehe ich eher links, Hyperdense Strukturen und auch mittig. Ich würde hier schon tendieren zu Blutung",
+    "tags": [
+      "indicator: anomaly_detected"
+    ],
+    "rationale": "The person identifies hyperdense structures, which are atypical for a healthy skull/brain.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_no advice_cycle_25.txt",
+      "row": 11
+    },
+    "model": "google/gemma-4-31b-it",
+    "provider": "DeepInfra",
+    "configuration_name": "gemma-4-31b-it-260402"
+  },
+  {
+    "phrase": "Ich würde hier schon tendieren zu Blutung",
+    "context": "Hyperdense Strukturen und auch mittig. Ich würde hier schon tendieren zu Blutung, aber jetzt nicht Epidural",
+    "tags": [
+      "interpretation: bleeding",
+      "confidence_low: secondary"
+    ],
+    "rationale": "The person interprets the finding as a hemorrhage ('Blutung') but uses the word 'tendieren' (tend to), indicating a lack of absolute certainty.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_no advice_cycle_25.txt",
+      "row": 11
+    },
+    "model": "google/gemma-4-31b-it",
+    "provider": "DeepInfra",
+    "configuration_name": "gemma-4-31b-it-260402"
+  },
+  {
+    "phrase": "aber jetzt nicht Epidural oder Subdural, sehe ich da, hm, eher nicht...",
+    "context": "Ich würde hier schon tendieren zu Blutung, aber jetzt nicht Epidural oder Subdural, sehe ich da, hm, eher nicht... Aber mhm, ja.",
+    "tags": [
+      "interpretation: description_bleeding"
+    ],
+    "rationale": "The person is further specifying the type of bleeding by ruling out epidural or subdural locations.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_no advice_cycle_25.txt",
+      "row": 11
+    },
+    "model": "google/gemma-4-31b-it",
+    "provider": "DeepInfra",
+    "configuration_name": "gemma-4-31b-it-260402"
+  },
+  {
+    "phrase": "Aber mhm, ja.",
+    "context": "sehe ich da, hm, eher nicht... Aber mhm, ja.",
+    "tags": [
+      "paused_in_process"
+    ],
+    "rationale": "Pure filler words at the end of the statement.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_no advice_cycle_25.txt",
+      "row": 11
+    },
+    "model": "google/gemma-4-31b-it",
+    "provider": "DeepInfra",
+    "configuration_name": "gemma-4-31b-it-260402"
+  },
+  {
+    "phrase": "Ich glaube, hier auch.",
+    "context": "… Ich glaube, hier auch.",
+    "tags": [
+      "indicator: anomaly_detected",
+      "confidence_low: secondary"
+    ],
+    "rationale": "The speaker indicates they have found another area of interest/abnormality ('hier auch') while expressing uncertainty through the phrase 'Ich glaube' (I believe/think).",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_no advice_cycle_25.txt",
+      "row": 23
+    },
+    "model": "google/gemma-4-31b-it",
+    "provider": "DeepInfra",
+    "configuration_name": "gemma-4-31b-it-260402"
+  },
+  {
+    "phrase": "Ah ich muss jetzt zugeben, ich sehe jetzt gerade, dass man Diagnosen da oben, oder Symptomatik, also Patienteninformationen.",
+    "context": "… Ah ich muss jetzt zugeben, ich sehe jetzt gerade, dass man Diagnosen da oben, oder Symptomatik, also Patienteninformationen. Das hilft natürlich",
+    "tags": [
+      "reasoning: mentioning_contextual_information"
+    ],
+    "rationale": "The person notices and mentions the availability of patient information/symptoms.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_no advice_cycle_25.txt",
+      "row": 20
+    },
+    "model": "google/gemma-4-31b-it",
+    "provider": "CoreWeave",
+    "configuration_name": "gemma-4-31b-it-260402"
+  },
+  {
+    "phrase": "Das hilft natürlich, vielleicht mal, ähm, wenn es da steht, ja, die Lokalisation oder so oder Kopfschmerzen oder sowas. Vielleicht hilft, das ja ein bisschen.",
+    "context": "Patienteninformationen. Das hilft natürlich, vielleicht mal, ähm, wenn es da steht, ja, die Lokalisation oder so oder Kopfschmerzen oder sowas. Vielleicht hilft, das ja ein bisschen. Also jetzt sehe ich",
+    "tags": [
+      "control: missing_information"
+    ],
+    "rationale": "The person expresses that having more specific information (localization, symptoms) would be helpful for the process.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_no advice_cycle_25.txt",
+      "row": 20
+    },
+    "model": "google/gemma-4-31b-it",
+    "provider": "CoreWeave",
+    "configuration_name": "gemma-4-31b-it-260402"
+  },
+  {
+    "phrase": "Also jetzt sehe ich hier das hier gerade deutlich, der Ventrikel wird, ähm, eingeengt.",
+    "context": "Vielleicht hilft, das ja ein bisschen. Also jetzt sehe ich hier das hier gerade deutlich, der Ventrikel wird, ähm, eingeengt. Und ja das ist",
+    "tags": [
+      "indicator: anomaly_detected"
+    ],
+    "rationale": "The person identifies an abnormality (narrowing of the ventricle).",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_no advice_cycle_25.txt",
+      "row": 20
+    },
+    "model": "google/gemma-4-31b-it",
+    "provider": "CoreWeave",
+    "configuration_name": "gemma-4-31b-it-260402"
+  },
+  {
+    "phrase": "Und ja das ist ein deutliches Bild für eine Epidurale? Blutung.",
+    "context": "der Ventrikel wird, ähm, eingeengt. Und ja das ist ein deutliches Bild für eine Epidurale? Blutung. Da bin ich mir sehr sicher",
+    "tags": [
+      "interpretation: bleeding"
+    ],
+    "rationale": "The person interprets the finding as an epidural hemorrhage.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_no advice_cycle_25.txt",
+      "row": 20
+    },
+    "model": "google/gemma-4-31b-it",
+    "provider": "CoreWeave",
+    "configuration_name": "gemma-4-31b-it-260402"
+  },
+  {
+    "phrase": "Da bin ich mir sehr sicher, eigentlich",
+    "context": "Epidurale? Blutung. Da bin ich mir sehr sicher, eigentlich",
+    "tags": [
+      "confidence_high: concrete"
+    ],
+    "rationale": "The person explicitly expresses high certainty regarding their diagnosis.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_no advice_cycle_25.txt",
+      "row": 20
+    },
+    "model": "google/gemma-4-31b-it",
+    "provider": "CoreWeave",
+    "configuration_name": "gemma-4-31b-it-260402"
+  },
+  {
+    "phrase": "hier rechts ist eine Hyperdense Struktur",
+    "context": "…Ähm, hier rechts ist eine Hyperdense Struktur. Und… ich bin mir aber unsicher",
+    "tags": [
+      "indicator: anomaly_detected"
+    ],
+    "rationale": "The person identifies a hyperdense structure, which is an abnormality atypical for a healthy skull.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_no advice_cycle_25.txt",
+      "row": 13
+    },
+    "model": "google/gemma-4-31b-it",
+    "provider": "CoreWeave",
+    "configuration_name": "gemma-4-31b-it-260402"
+  },
+  {
+    "phrase": "ich bin mir aber unsicher, ob das schon im Knochen ist, gerade schon was man sieht",
+    "context": "Und… ich bin mir aber unsicher, ob das schon im Knochen ist, gerade schon was man sieht. Könnte sein.",
+    "tags": [
+      "reflection: diagnostic_uncertainty"
+    ],
+    "rationale": "The person is uncertain about classifying the finding and whether it is located in the bone.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_no advice_cycle_25.txt",
+      "row": 13
+    },
+    "model": "google/gemma-4-31b-it",
+    "provider": "CoreWeave",
+    "configuration_name": "gemma-4-31b-it-260402"
+  },
+  {
+    "phrase": "Könnte sein",
+    "context": "gerade schon was man sieht. Könnte sein. Da bin ich mir jetzt grade sicher",
+    "tags": [
+      "confidence_low: secondary"
+    ],
+    "rationale": "The phrase 'could be' indicates low certainty implicitly.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_no advice_cycle_25.txt",
+      "row": 13
+    },
+    "model": "google/gemma-4-31b-it",
+    "provider": "CoreWeave",
+    "configuration_name": "gemma-4-31b-it-260402"
+  },
+  {
+    "phrase": "Da bin ich mir jetzt grade sicher, unsicher",
+    "context": "Könnte sein. Da bin ich mir jetzt grade sicher, unsicher. Ist einfach nur der Schnitt gerade.",
+    "tags": [
+      "reflection: self-correction"
+    ],
+    "rationale": "The person corrects their statement from 'sicher' (sure) to 'unsicher' (unsure) immediately.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_no advice_cycle_25.txt",
+      "row": 13
+    },
+    "model": "google/gemma-4-31b-it",
+    "provider": "CoreWeave",
+    "configuration_name": "gemma-4-31b-it-260402"
+  },
+  {
+    "phrase": "Ist einfach nur der Schnitt gerade",
+    "context": "Da bin ich mir jetzt grade sicher, unsicher. Ist einfach nur der Schnitt gerade. Und das Artefakt für mich dann",
+    "tags": [
+      "other"
+    ],
+    "rationale": "The person is commenting on the image slice, which doesn't fit specifically into the other categories.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_no advice_cycle_25.txt",
+      "row": 13
+    },
+    "model": "google/gemma-4-31b-it",
+    "provider": "CoreWeave",
+    "configuration_name": "gemma-4-31b-it-260402"
+  },
+  {
+    "phrase": "das Artefakt für mich dann",
+    "context": "Ist einfach nur der Schnitt gerade. Und das Artefakt für mich dann... quasi, da ist so ein großer Fleck",
+    "tags": [
+      "reasoning: artifact"
+    ],
+    "rationale": "The person explicitly refers to the finding as an artifact.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_no advice_cycle_25.txt",
+      "row": 13
+    },
+    "model": "google/gemma-4-31b-it",
+    "provider": "CoreWeave",
+    "configuration_name": "gemma-4-31b-it-260402"
+  },
+  {
+    "phrase": "da ist so ein großer Fleck, könnte gut sein",
+    "context": "quasi, da ist so ein großer Fleck, könnte gut sein... Deswegen würd ich hier sagen eher nein",
+    "tags": [
+      "confidence_low: secondary"
+    ],
+    "rationale": "The phrase 'could well be' indicates implicit uncertainty.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_no advice_cycle_25.txt",
+      "row": 13
+    },
+    "model": "google/gemma-4-31b-it",
+    "provider": "CoreWeave",
+    "configuration_name": "gemma-4-31b-it-260402"
+  },
+  {
+    "phrase": "Deswegen würd ich hier sagen eher nein",
+    "context": "könnte gut sein... Deswegen würd ich hier sagen eher nein, bin ich mir aber nicht so sicher, eigentlich.",
+    "tags": [
+      "interpretation: no_bleeding"
+    ],
+    "rationale": "The person concludes that there is no hemorrhage ('nein') based on the previous observation of an artifact.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_no advice_cycle_25.txt",
+      "row": 13
+    },
+    "model": "google/gemma-4-31b-it",
+    "provider": "CoreWeave",
+    "configuration_name": "gemma-4-31b-it-260402"
+  },
+  {
+    "phrase": "bin ich mir aber nicht so sicher, eigentlich",
+    "context": "Deswegen würd ich hier sagen eher nein, bin ich mir aber nicht so sicher, eigentlich.",
+    "tags": [
+      "confidence_low: concrete"
+    ],
+    "rationale": "The person explicitly expresses low certainty regarding their diagnostic conclusion.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_no advice_cycle_25.txt",
+      "row": 13
+    },
+    "model": "google/gemma-4-31b-it",
+    "provider": "CoreWeave",
+    "configuration_name": "gemma-4-31b-it-260402"
+  },
+  {
+    "phrase": "Das kann ich nicht so gut beurteilen.",
+    "context": "… Das kann ich nicht so gut beurteilen.",
+    "tags": [
+      "reflection: diagnostic_uncertainty"
+    ],
+    "rationale": "The person explicitly states that they cannot well assess or judge the finding, which indicates uncertainty about classifying the finding.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_no advice_cycle_25.txt",
+      "row": 27
+    },
+    "model": "google/gemma-4-31b-it",
+    "provider": "CoreWeave",
+    "configuration_name": "gemma-4-31b-it-260402"
+  },
+  {
+    "phrase": "Hmm, ja hier, glaub ich, links parietal, seh ich da was…",
+    "context": "… Hmm, ja hier, glaub ich, links parietal, seh ich da was… Hmm…, eher glaube ich",
+    "tags": [
+      "indicator: anomaly_detected",
+      "confidence_low: secondary"
+    ],
+    "rationale": "The person notices something unusual ('seh ich da was') and expresses uncertainty using 'glaub ich'.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_no advice_cycle_25.txt",
+      "row": 14
+    },
+    "model": "google/gemma-4-31b-it",
+    "provider": "DeepInfra",
+    "configuration_name": "gemma-4-31b-it-260402"
+  },
+  {
+    "phrase": "eher glaube ich, konvex deswegen vielleicht eine kleine Durale Blutung…",
+    "context": "… Hmm…, eher glaube ich, konvex deswegen vielleicht eine kleine Durale Blutung… Aber doch ich glaube schon.",
+    "tags": [
+      "interpretation: bleeding",
+      "confidence_low: secondary"
+    ],
+    "rationale": "The person interprets the finding as a dural bleed and uses 'vielleicht' and 'glaube ich' to indicate low certainty.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_no advice_cycle_25.txt",
+      "row": 14
+    },
+    "model": "google/gemma-4-31b-it",
+    "provider": "DeepInfra",
+    "configuration_name": "gemma-4-31b-it-260402"
+  },
+  {
+    "phrase": "Aber doch ich glaube schon. Doch ich glaube schon.",
+    "context": "… kleine Durale Blutung… Aber doch ich glaube schon. Doch ich glaube schon. Sieht so aus würden die Gyri nach rechts gedrückt werden.",
+    "tags": [
+      "reflection: self-affirmation"
+    ],
+    "rationale": "The person is reaffirming their previous observation/conclusion.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_no advice_cycle_25.txt",
+      "row": 14
+    },
+    "model": "google/gemma-4-31b-it",
+    "provider": "DeepInfra",
+    "configuration_name": "gemma-4-31b-it-260402"
+  },
+  {
+    "phrase": "Sieht so aus würden die Gyri nach rechts gedrückt werden.",
+    "context": "Doch ich glaube schon. Sieht so aus würden die Gyri nach rechts gedrückt werden. Ich glaub ja.",
+    "tags": [
+      "reasoning: conclusion_findings"
+    ],
+    "rationale": "The person draws a conclusion based on the visual evidence (mass effect/displacement of gyri).",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_no advice_cycle_25.txt",
+      "row": 14
+    },
+    "model": "google/gemma-4-31b-it",
+    "provider": "DeepInfra",
+    "configuration_name": "gemma-4-31b-it-260402"
+  },
+  {
+    "phrase": "Ich glaub ja.",
+    "context": "Sieht so aus würden die Gyri nach rechts gedrückt werden. Ich glaub ja.",
+    "tags": [
+      "confidence_low: secondary"
+    ],
+    "rationale": "The use of 'glaub' indicates a lack of absolute certainty.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_no advice_cycle_25.txt",
+      "row": 14
+    },
+    "model": "google/gemma-4-31b-it",
+    "provider": "DeepInfra",
+    "configuration_name": "gemma-4-31b-it-260402"
+  },
+  {
+    "phrase": "Ich glaub, hier ist es eher alles symmetrisch.",
+    "context": "… Ich glaub, hier ist es eher alles symmetrisch. Ich sehe nichts besonderes.",
+    "tags": [
+      "confidence_low: secondary"
+    ],
+    "rationale": "The use of 'Ich glaub' (I believe/think) indicates a level of uncertainty or a tentative assessment.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_no advice_cycle_25.txt",
+      "row": 25
+    },
+    "model": "google/gemma-4-31b-it",
+    "provider": "DeepInfra",
+    "configuration_name": "gemma-4-31b-it-260402"
+  },
+  {
+    "phrase": "Ich sehe nichts besonderes.",
+    "context": "… Ich glaub, hier ist es eher alles symmetrisch. Ich sehe nichts besonderes.",
+    "tags": [
+      "indicator: no_bleeding"
+    ],
+    "rationale": "The person states they see nothing special/unusual, classifying the image area as unremarkable.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_no advice_cycle_25.txt",
+      "row": 25
+    },
+    "model": "google/gemma-4-31b-it",
+    "provider": "DeepInfra",
+    "configuration_name": "gemma-4-31b-it-260402"
+  },
+  {
+    "phrase": "Hm...",
+    "context": "… Hm...Hier bin ich mir nicht so sicher.",
+    "tags": [
+      "paused_in_process"
+    ],
+    "rationale": "The word 'Hm' is a filler word indicating a pause in the thought process.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_no advice_cycle_25.txt",
+      "row": 24
+    },
+    "model": "google/gemma-4-31b-it",
+    "provider": "DeepInfra",
+    "configuration_name": "gemma-4-31b-it-260402"
+  },
+  {
+    "phrase": "Hier bin ich mir nicht so sicher.",
+    "context": "Hm...Hier bin ich mir nicht so sicher. Ich habe das Gefühl was zu sehen",
+    "tags": [
+      "confidence_low: concrete"
+    ],
+    "rationale": "The person explicitly expresses low certainty regarding the current observation.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_no advice_cycle_25.txt",
+      "row": 24
+    },
+    "model": "google/gemma-4-31b-it",
+    "provider": "DeepInfra",
+    "configuration_name": "gemma-4-31b-it-260402"
+  },
+  {
+    "phrase": "Ich habe das Gefühl was zu sehen, aber ich bin nicht so sicher.",
+    "context": "Hier bin ich mir nicht so sicher. Ich habe das Gefühl was zu sehen, aber ich bin nicht so sicher.",
+    "tags": [
+      "reflection: diagnostic_uncertainty"
+    ],
+    "rationale": "The person is assessing whether a finding is actually present or just a perception, reflecting uncertainty about classifying the finding.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_no advice_cycle_25.txt",
+      "row": 24
+    },
+    "model": "google/gemma-4-31b-it",
+    "provider": "DeepInfra",
+    "configuration_name": "gemma-4-31b-it-260402"
+  },
+  {
+    "phrase": "Ja da sehe ich erstmal, dass die Person eine Migräne hat.",
+    "context": "… Ja da sehe ich erstmal, dass die Person eine Migräne hat. Das ist wahrscheinlich dann eine Verschlussdiagnose?",
+    "tags": [
+      "reasoning: mentioning_contextual_information"
+    ],
+    "rationale": "The person mentions the patient's medical history (migraine).",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_no advice_cycle_25.txt",
+      "row": 21
+    },
+    "model": "google/gemma-4-31b-it",
+    "provider": "CoreWeave",
+    "configuration_name": "gemma-4-31b-it-260402"
+  },
+  {
+    "phrase": "Das ist wahrscheinlich dann eine Verschlussdiagnose?",
+    "context": "Ja da sehe ich erstmal, dass die Person eine Migräne hat. Das ist wahrscheinlich dann eine Verschlussdiagnose? hier.",
+    "tags": [
+      "confidence_low: secondary",
+      "control: reflective_question"
+    ],
+    "rationale": "The use of 'wahrscheinlich' indicates low certainty, and the phrasing as a question shows the person is verifying their own thought process.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_no advice_cycle_25.txt",
+      "row": 21
+    },
+    "model": "google/gemma-4-31b-it",
+    "provider": "CoreWeave",
+    "configuration_name": "gemma-4-31b-it-260402"
+  },
+  {
+    "phrase": "Das Bild finde ich jetzt nicht so gut.",
+    "context": "Verschlussdiagnose? hier. Das Bild finde ich jetzt nicht so gut. EXPERIMENTER: Du kannst den Kontrast noch einstellen.",
+    "tags": [
+      "awareness_of_task: image_quality"
+    ],
+    "rationale": "The person explicitly complains about the quality of the image.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_no advice_cycle_25.txt",
+      "row": 21
+    },
+    "model": "google/gemma-4-31b-it",
+    "provider": "CoreWeave",
+    "configuration_name": "gemma-4-31b-it-260402"
+  },
+  {
+    "phrase": "Was?",
+    "context": "Das Bild finde ich jetzt nicht so gut. EXPERIMENTER: Du kannst den Kontrast noch einstellen. VPN: Was?",
+    "tags": [
+      "paused_in_process"
+    ],
+    "rationale": "Filler/short reaction word during a conversation.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_no advice_cycle_25.txt",
+      "row": 21
+    },
+    "model": "google/gemma-4-31b-it",
+    "provider": "CoreWeave",
+    "configuration_name": "gemma-4-31b-it-260402"
+  },
+  {
+    "phrase": "Ah, warte mal. Ja.",
+    "context": "das zweite von links. VPN: Ah, warte mal. Ja. EXPERIMENTER: Jetzt hast du es invertiert.",
+    "tags": [
+      "paused_in_process"
+    ],
+    "rationale": "Filler words and reactions.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_no advice_cycle_25.txt",
+      "row": 21
+    },
+    "model": "google/gemma-4-31b-it",
+    "provider": "CoreWeave",
+    "configuration_name": "gemma-4-31b-it-260402"
+  },
+  {
+    "phrase": "Ja, so?",
+    "context": "Jetzt hast du es invertiert. VPN: Ja, so? EXPERIMENTER: Ähm, ja du kannst jetzt einmal",
+    "tags": [
+      "paused_in_process"
+    ],
+    "rationale": "Filler word/question during technical interaction.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_no advice_cycle_25.txt",
+      "row": 21
+    },
+    "model": "google/gemma-4-31b-it",
+    "provider": "CoreWeave",
+    "configuration_name": "gemma-4-31b-it-260402"
+  },
+  {
+    "phrase": "Mhm, ich hätte es lieber, wie es vorher war.",
+    "context": "auf den Mauszeiger nochmal klicken. Und dann kannst du in das Bild reinklicken und ziehen, nach außen oder innen, je nachdem und dann stellst du den Kontrast ein. VPN: Mhm, ich hätte es lieber, wie es vorher war.",
+    "tags": [
+      "technical_conversation"
+    ],
+    "rationale": "The person is discussing the display tool settings with the experimenter.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_no advice_cycle_25.txt",
+      "row": 21
+    },
+    "model": "google/gemma-4-31b-it",
+    "provider": "CoreWeave",
+    "configuration_name": "gemma-4-31b-it-260402"
+  },
+  {
+    "phrase": "Oh man. Das ist ja schlecht. Ja gut, das habe ich schlecht eingestellt.",
+    "context": "ich hätte es lieber, wie es vorher war. Oh man. Das ist ja schlecht. Ja gut, das habe ich schlecht eingestellt. Ah, das ist besser.",
+    "tags": [
+      "technical_conversation"
+    ],
+    "rationale": "The person is commenting on the technical adjustment of the image contrast.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_no advice_cycle_25.txt",
+      "row": 21
+    },
+    "model": "google/gemma-4-31b-it",
+    "provider": "CoreWeave",
+    "configuration_name": "gemma-4-31b-it-260402"
+  },
+  {
+    "phrase": "Ah, das ist besser.",
+    "context": "Ja gut, das habe ich schlecht eingestellt. Ah, das ist besser. Ich habs jetzt ein bisschen schlecht eingestellt",
+    "tags": [
+      "technical_conversation"
+    ],
+    "rationale": "The person is commenting on the technical adjustment of the image contrast.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_no advice_cycle_25.txt",
+      "row": 21
+    },
+    "model": "google/gemma-4-31b-it",
+    "provider": "CoreWeave",
+    "configuration_name": "gemma-4-31b-it-260402"
+  },
+  {
+    "phrase": "Ich habs jetzt ein bisschen schlecht eingestellt, aber ich sehe auch nichts.",
+    "context": "Ah, das ist besser. Ich habs jetzt ein bisschen schlecht eingestellt, aber ich sehe auch nichts. Deswegen drücke ich auf nicht so sicher",
+    "tags": [
+      "interpretation: no_bleeding"
+    ],
+    "rationale": "The person states they see nothing (no abnormality/hemorrhage).",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_no advice_cycle_25.txt",
+      "row": 21
+    },
+    "model": "google/gemma-4-31b-it",
+    "provider": "CoreWeave",
+    "configuration_name": "gemma-4-31b-it-260402"
+  },
+  {
+    "phrase": "Deswegen drücke ich auf nicht so sicher, weil vielleicht habe ich das jetzt schlecht eingestellt, aber ich sehe nichts.",
+    "context": "aber ich sehe auch nichts. Deswegen drücke ich auf nicht so sicher, weil vielleicht habe ich das jetzt schlecht eingestellt, aber ich sehe nichts.",
+    "tags": [
+      "confidence_low: concrete",
+      "awareness_of_task: image_quality"
+    ],
+    "rationale": "The person explicitly expresses low certainty ('nicht so sicher') and attributes this uncertainty to the image quality/settings.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_no advice_cycle_25.txt",
+      "row": 21
+    },
+    "model": "google/gemma-4-31b-it",
+    "provider": "CoreWeave",
+    "configuration_name": "gemma-4-31b-it-260402"
+  },
+  {
+    "phrase": "Okay.",
+    "context": "EXPERIMENTER: Gut, dann kannst du gerne anfangen, benutzt gerne Fachbegriffe, einfach drauf losreden, was für dich interessant ist, was auffällt. VPN: Okay.",
+    "tags": [
+      "other"
+    ],
+    "rationale": "Simple acknowledgment, no diagnostic or procedural content.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_no advice_cycle_25.txt",
+      "row": 0
+    },
+    "model": "google/gemma-4-31b-it",
+    "provider": "CoreWeave",
+    "configuration_name": "gemma-4-31b-it-260402"
+  },
+  {
+    "phrase": "Okay, ähm..., also, was ich sehe, ist, dass da eine Mittellinienverlagerung nach rechts, ... und generell ... einen Unterschied in den temporalen Lappen von rechts und links.",
+    "context": "VPN: Okay, ähm..., also, was ich sehe, ist, dass da eine Mittellinienverlagerung nach rechts, ... und generell ... einen Unterschied in den temporalen Lappen von rechts und links. Also was soll ich jetzt hier antworten?",
+    "tags": [
+      "indicator: anomaly_detected",
+      "paused_in_process"
+    ],
+    "rationale": "The person identifies a midline shift and differences in temporal lobes, which are abnormalities. 'Ähm' indicates a pause.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_no advice_cycle_25.txt",
+      "row": 0
+    },
+    "model": "google/gemma-4-31b-it",
+    "provider": "CoreWeave",
+    "configuration_name": "gemma-4-31b-it-260402"
+  },
+  {
+    "phrase": "Also was soll ich jetzt hier antworten? Ob das eine Blutung ist oder nicht?",
+    "context": "und generell ... einen Unterschied in den temporalen Lappen von rechts und links. Also was soll ich jetzt hier antworten? Ob das eine Blutung ist oder nicht? EXPERIMENTER: Genau",
+    "tags": [
+      "control: missing_information"
+    ],
+    "rationale": "The person is asking for clarification on the task/question they need to answer.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_no advice_cycle_25.txt",
+      "row": 0
+    },
+    "model": "google/gemma-4-31b-it",
+    "provider": "CoreWeave",
+    "configuration_name": "gemma-4-31b-it-260402"
+  },
+  {
+    "phrase": "Ok,... ich sehe von außen irgendwie,... Moment...",
+    "context": "EXPERIMENTER: Da sollst du dich auch nocheinmal einschätzen. VPN: Ok,... ich sehe von außen irgendwie,... Moment..., ich guck mal",
+    "tags": [
+      "paused_in_process"
+    ],
+    "rationale": "Filler words and hesitation.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_no advice_cycle_25.txt",
+      "row": 0
+    },
+    "model": "google/gemma-4-31b-it",
+    "provider": "CoreWeave",
+    "configuration_name": "gemma-4-31b-it-260402"
+  },
+  {
+    "phrase": "ich guck mal, ob ich irgendwelche Knochenschädigungen sehe, erstmal.",
+    "context": "Moment..., ich guck mal, ob ich irgendwelche Knochenschädigungen sehe, erstmal. Ähm..., also im Schädel",
+    "tags": [
+      "visual_search: description_of_medical_image_features"
+    ],
+    "rationale": "The person explicitly states they are checking for bone damage.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_no advice_cycle_25.txt",
+      "row": 0
+    },
+    "model": "google/gemma-4-31b-it",
+    "provider": "CoreWeave",
+    "configuration_name": "gemma-4-31b-it-260402"
+  },
+  {
+    "phrase": "Ähm..., also im Schädel..., irgendwie sehe ich das, glaube ich nicht.",
+    "context": "erstmal. Ähm..., also im Schädel..., irgendwie sehe ich das, glaube ich nicht. Ich probiere beidseitig zu schauen",
+    "tags": [
+      "indicator: no_bleeding",
+      "paused_in_process"
+    ],
+    "rationale": "The person classifies the bone area as unremarkable (no damage seen). 'Ähm' is a filler.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_no advice_cycle_25.txt",
+      "row": 0
+    },
+    "model": "google/gemma-4-31b-it",
+    "provider": "CoreWeave",
+    "configuration_name": "gemma-4-31b-it-260402"
+  },
+  {
+    "phrase": "Ich probiere beidseitig zu schauen, also nach Unterschieden.",
+    "context": "glaube ich nicht. Ich probiere beidseitig zu schauen, also nach Unterschieden. Hmm, im Vergleich",
+    "tags": [
+      "visual_search: description_of_own_approach_without_external_help"
+    ],
+    "rationale": "The person describes their search strategy (comparing both sides).",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_no advice_cycle_25.txt",
+      "row": 0
+    },
+    "model": "google/gemma-4-31b-it",
+    "provider": "CoreWeave",
+    "configuration_name": "gemma-4-31b-it-260402"
+  },
+  {
+    "phrase": "Hmm, im Vergleich... sehe ich nicht, aber ich find das Parenchym, irgendwie unterschiedlich von rechts und links, aber da habe ich jetzt nicht so die Erfahrung.",
+    "context": "nach Unterschieden. Hmm, im Vergleich... sehe ich nicht, aber ich find das Parenchym, irgendwie unterschiedlich von rechts und links, aber da habe ich jetzt nicht so die Erfahrung. Ich finde diese",
+    "tags": [
+      "indicator: anomaly_detected",
+      "reflection: experience_limitation"
+    ],
+    "rationale": "The person notices an abnormality in the parenchyma and explicitly mentions their lack of experience in this area.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_no advice_cycle_25.txt",
+      "row": 0
+    },
+    "model": "google/gemma-4-31b-it",
+    "provider": "CoreWeave",
+    "configuration_name": "gemma-4-31b-it-260402"
+  },
+  {
+    "phrase": "Ich finde diese Mittellinienverlagerung irgendwie komisch.",
+    "context": "nicht so die Erfahrung. Ich finde diese Mittellinienverlagerung irgendwie komisch. Also ich würde sagen ja",
+    "tags": [
+      "indicator: anomaly_detected"
+    ],
+    "rationale": "The person identifies the midline shift as an abnormality.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_no advice_cycle_25.txt",
+      "row": 0
+    },
+    "model": "google/gemma-4-31b-it",
+    "provider": "CoreWeave",
+    "configuration_name": "gemma-4-31b-it-260402"
+  },
+  {
+    "phrase": "Also ich würde sagen ja, aber ich sehe jetzt keine sichelförmigen Muster oder auch nicht konvex, also Epidural, Subdural Blutungen, sehe ich jetzt nicht, deswegen bin ich mir unsicher.",
+    "context": "irgendwie komisch. Also ich würde sagen ja, aber ich sehe jetzt keine sichelförmigen Muster oder auch nicht konvex, also Epidural, Subdural Blutungen, sehe ich jetzt nicht, deswegen bin ich mir unsicher. Aber könnte ja",
+    "tags": [
+      "interpretation: bleeding",
+      "interpretation: no_bleeding",
+      "confidence_low: secondary"
+    ],
+    "rationale": "The person suggests a hemorrhage ('ja'), but then notes the absence of typical patterns for specific types (EDH/SDH), leading to uncertainty.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_no advice_cycle_25.txt",
+      "row": 0
+    },
+    "model": "google/gemma-4-31b-it",
+    "provider": "CoreWeave",
+    "configuration_name": "gemma-4-31b-it-260402"
+  },
+  {
+    "phrase": "Aber könnte ja intraaxialer Bereich? sein.",
+    "context": "deswegen bin ich mir unsicher. Aber könnte ja intraaxialer Bereich? sein. Also ich bin sehr unsicher",
+    "tags": [
+      "reasoning: alternative_medical_cause",
+      "confidence_low: secondary"
+    ],
+    "rationale": "The person suggests an alternative location (intra-axial) for the bleeding, expressed with uncertainty ('könnte').",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_no advice_cycle_25.txt",
+      "row": 0
+    },
+    "model": "google/gemma-4-31b-it",
+    "provider": "CoreWeave",
+    "configuration_name": "gemma-4-31b-it-260402"
+  },
+  {
+    "phrase": "Also ich bin sehr unsicher, aber ich würde hier trotzdem ja sagen, einfach wegen der Mittellinienverlagerung.",
+    "context": "intraaxialer Bereich? sein. Also ich bin sehr unsicher, aber ich würde hier trotzdem ja sagen, einfach wegen der Mittellinienverlagerung. Aber ja",
+    "tags": [
+      "confidence_low: concrete",
+      "interpretation: bleeding",
+      "reasoning: conclusion_findings"
+    ],
+    "rationale": "The person explicitly states they are very uncertain, concludes there is a hemorrhage ('ja'), and bases this conclusion on the finding of the midline shift.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_no advice_cycle_25.txt",
+      "row": 0
+    },
+    "model": "google/gemma-4-31b-it",
+    "provider": "CoreWeave",
+    "configuration_name": "gemma-4-31b-it-260402"
+  },
+  {
+    "phrase": "Aber ja, ich bin gar nicht sicher.",
+    "context": "wegen der Mittellinienverlagerung. Aber ja, ich bin gar nicht sicher.",
+    "tags": [
+      "confidence_low: concrete"
+    ],
+    "rationale": "Explicit expression of low certainty.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_no advice_cycle_25.txt",
+      "row": 0
+    },
+    "model": "google/gemma-4-31b-it",
+    "provider": "CoreWeave",
+    "configuration_name": "gemma-4-31b-it-260402"
+  },
+  {
+    "phrase": "Hier sehe ich wieder, linksseitig sieht es nach einer Einengung vom Ventrikel aus, und im Unterschied zu der Gegenseite.",
+    "context": "… Hmm. Hier sehe ich wieder, linksseitig sieht es nach einer Einengung vom Ventrikel aus, und im Unterschied zu der Gegenseite.",
+    "tags": [
+      "indicator: anomaly_detected"
+    ],
+    "rationale": "The person notices an abnormality (ventricle narrowing) compared to the opposite side.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_no advice_cycle_25.txt",
+      "row": 22
+    },
+    "model": "google/gemma-4-31b-it",
+    "provider": "DeepInfra",
+    "configuration_name": "gemma-4-31b-it-260402"
+  },
+  {
+    "phrase": "Und die Mittellinienverlagerung auch nach rechts.",
+    "context": "Und im Unterschied zu der Gegenseite. Hmm… Und die Mittellinienverlagerung auch nach rechts. Hm, ich glaub schon",
+    "tags": [
+      "indicator: anomaly_detected"
+    ],
+    "rationale": "The person identifies a midline shift, which is an abnormality atypical for a healthy skull.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_no advice_cycle_25.txt",
+      "row": 22
+    },
+    "model": "google/gemma-4-31b-it",
+    "provider": "DeepInfra",
+    "configuration_name": "gemma-4-31b-it-260402"
+  },
+  {
+    "phrase": "Hm, ich glaub schon, dass da eine Blutung ist.",
+    "context": "Und die Mittellinienverlagerung auch nach rechts. Hm, ich glaub schon, dass da eine Blutung ist.",
+    "tags": [
+      "interpretation: bleeding",
+      "confidence_low: secondary"
+    ],
+    "rationale": "The person interprets the findings as a hemorrhage ('Blutung') and uses 'ich glaub schon' (I think so), indicating implicit low certainty.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_no advice_cycle_25.txt",
+      "row": 22
+    },
+    "model": "google/gemma-4-31b-it",
+    "provider": "DeepInfra",
+    "configuration_name": "gemma-4-31b-it-260402"
+  },
+  {
+    "phrase": "Hier sehe ich keinen weiteren Unterschied, glaube da ist alles ok.",
+    "context": "… Hier sehe ich keinen weiteren Unterschied, glaube da ist alles ok.",
+    "tags": [
+      "interpretation: no_bleeding"
+    ],
+    "rationale": "The person states that everything is 'ok' and they see no difference, interpreting the image area as having no hemorrhage.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_no advice_cycle_25.txt",
+      "row": 35
+    },
+    "model": "google/gemma-4-31b-it",
+    "provider": "CoreWeave",
+    "configuration_name": "gemma-4-31b-it-260402"
+  },
+  {
+    "phrase": "Hier sehe ich, glaube ich, nichts auffälliges.",
+    "context": "… Hier sehe ich, glaube ich, nichts auffälliges. Ich hab sowieso das Gefühl",
+    "tags": [
+      "indicator: no_bleeding",
+      "confidence_low: secondary"
+    ],
+    "rationale": "The person classifies the current image area as unremarkable ('nichts auffälliges') and uses 'glaube ich' (I believe/think), which indicates low secondary confidence.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_no advice_cycle_25.txt",
+      "row": 33
+    },
+    "model": "google/gemma-4-31b-it",
+    "provider": "CoreWeave",
+    "configuration_name": "gemma-4-31b-it-260402"
+  },
+  {
+    "phrase": "Ich hab sowieso das Gefühl, das wir in der Uni, nur diese typischen Bilder von Epi- und Subduraler Blutung, sich einprägen kann.",
+    "context": "nichts auffälliges. Ich hab sowieso das Gefühl, das wir in der Uni, nur diese typischen Bilder von Epi- und Subduraler Blutung, sich einprägen kann. Ja das ist nichts.",
+    "tags": [
+      "reflection: experience_limitation"
+    ],
+    "rationale": "The person refers to the limitations of their university training, suggesting they were only taught to recognize 'typical' images of hemorrhages.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_no advice_cycle_25.txt",
+      "row": 33
+    },
+    "model": "google/gemma-4-31b-it",
+    "provider": "CoreWeave",
+    "configuration_name": "gemma-4-31b-it-260402"
+  },
+  {
+    "phrase": "Ja das ist nichts.",
+    "context": "sich einprägen kann. Ja das ist nichts.",
+    "tags": [
+      "interpretation: no_bleeding"
+    ],
+    "rationale": "The person concludes that there is no hemorrhage/abnormality in the viewed area.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_no advice_cycle_25.txt",
+      "row": 33
+    },
+    "model": "google/gemma-4-31b-it",
+    "provider": "CoreWeave",
+    "configuration_name": "gemma-4-31b-it-260402"
+  },
+  {
+    "phrase": "Okay, hier sieht man schon deutlich rechs hier, irgendwie Einblutungen.",
+    "context": "… Okay, hier sieht man schon deutlich rechs hier, irgendwie Einblutungen. Weiter Frontalparetal",
+    "tags": [
+      "interpretation: bleeding"
+    ],
+    "rationale": "The person explicitly identifies 'Einblutungen' (hemorrhages) in the image.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_no advice_cycle_25.txt",
+      "row": 34
+    },
+    "model": "google/gemma-4-31b-it",
+    "provider": "CoreWeave",
+    "configuration_name": "gemma-4-31b-it-260402"
+  },
+  {
+    "phrase": "Weiter Frontalparetal, keine Ahnung, Frontaltemporal, wollte ich sagen.",
+    "context": "Einblutungen. Weiter Frontalparetal, keine Ahnung, Frontaltemporal, wollte ich sagen. Hmm, die ist so",
+    "tags": [
+      "interpretation: description_bleeding",
+      "reflection: self-correction"
+    ],
+    "rationale": "The person is describing the location of the bleeding and corrects their anatomical terminology from 'Frontalparetal' to 'Frontaltemporal'.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_no advice_cycle_25.txt",
+      "row": 34
+    },
+    "model": "google/gemma-4-31b-it",
+    "provider": "CoreWeave",
+    "configuration_name": "gemma-4-31b-it-260402"
+  },
+  {
+    "phrase": "Hmm, die ist so, glaub ich konvex, also eher Epidural.",
+    "context": "wollte ich sagen. Hmm, die ist so, glaub ich konvex, also eher Epidural. Drückt auf den Ventrikel",
+    "tags": [
+      "interpretation: description_bleeding",
+      "confidence_low: secondary"
+    ],
+    "rationale": "The person describes the shape (convex) and type (epidural) of the bleeding, using 'glaub ich' (I believe) which indicates secondary low confidence.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_no advice_cycle_25.txt",
+      "row": 34
+    },
+    "model": "google/gemma-4-31b-it",
+    "provider": "CoreWeave",
+    "configuration_name": "gemma-4-31b-it-260402"
+  },
+  {
+    "phrase": "Drückt auf den Ventrikel und denke mir da hinten auch noch.",
+    "context": "eher Epidural. Drückt auf den Ventrikel und denke mir da hinten auch noch. Da bin ich mir sehr sicher.",
+    "tags": [
+      "interpretation: description_bleeding",
+      "indicator: anomaly_detected"
+    ],
+    "rationale": "The person describes the effect of the bleeding (pressure on the ventricle) and notices another potential abnormality in the back.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_no advice_cycle_25.txt",
+      "row": 34
+    },
+    "model": "google/gemma-4-31b-it",
+    "provider": "CoreWeave",
+    "configuration_name": "gemma-4-31b-it-260402"
+  },
+  {
+    "phrase": "Da bin ich mir sehr sicher.",
+    "context": "denke mir da hinten auch noch. Da bin ich mir sehr sicher.",
+    "tags": [
+      "confidence_high: concrete"
+    ],
+    "rationale": "The person explicitly expresses high certainty regarding their finding.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_no advice_cycle_25.txt",
+      "row": 34
+    },
+    "model": "google/gemma-4-31b-it",
+    "provider": "CoreWeave",
+    "configuration_name": "gemma-4-31b-it-260402"
+  },
+  {
+    "phrase": "Hier sehe ich auch keine Auffälligkeiten",
+    "context": "… Hier sehe ich auch keine Auffälligkeiten, aber warte.",
+    "tags": [
+      "indicator: no_bleeding"
+    ],
+    "rationale": "The person states they see no abnormalities in the current area.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_no advice_cycle_25.txt",
+      "row": 31
+    },
+    "model": "google/gemma-4-31b-it",
+    "provider": "CoreWeave",
+    "configuration_name": "gemma-4-31b-it-260402"
+  },
+  {
+    "phrase": "doch, manchmal bin ich mir unsicher, ob das einfach so angeschnittene Gefäße, oder ob das irgendwie Hyperdense Strukturen sind im Parenchym",
+    "context": "aber warte. Doch, manchmal bin ich mir unsicher, ob das einfach so angeschnittene Gefäße, oder ob das irgendwie Hyperdense Strukturen sind im Parenchym.",
+    "tags": [
+      "reflection: diagnostic_uncertainty"
+    ],
+    "rationale": "The person is uncertain whether the finding is a normal vessel or a hyperdense structure (abnormality).",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_no advice_cycle_25.txt",
+      "row": 31
+    },
+    "model": "google/gemma-4-31b-it",
+    "provider": "CoreWeave",
+    "configuration_name": "gemma-4-31b-it-260402"
+  },
+  {
+    "phrase": "Das könnten einfach nur Gefäße und Kontrastmittel sein.",
+    "context": "im Parenchym. Das könnten einfach nur Gefäße und Kontrastmittel sein. Glaube ich, ist es auch.",
+    "tags": [
+      "reasoning: alternative_medical_structure"
+    ],
+    "rationale": "The person attributes the observed finding to normal anatomical structures (vessels) and contrast agent.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_no advice_cycle_25.txt",
+      "row": 31
+    },
+    "model": "google/gemma-4-31b-it",
+    "provider": "CoreWeave",
+    "configuration_name": "gemma-4-31b-it-260402"
+  },
+  {
+    "phrase": "Glaube ich, ist es auch.",
+    "context": "Kontrastmittel sein. Glaube ich, ist es auch. Finde ich, mit meiner wenigen Erfahrung",
+    "tags": [
+      "confidence_low: secondary"
+    ],
+    "rationale": "The use of 'Glaube ich' (I believe/think) indicates a lack of high certainty.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_no advice_cycle_25.txt",
+      "row": 31
+    },
+    "model": "google/gemma-4-31b-it",
+    "provider": "CoreWeave",
+    "configuration_name": "gemma-4-31b-it-260402"
+  },
+  {
+    "phrase": "Finde ich, mit meiner wenigen Erfahrung, bisschen kompliziert",
+    "context": "ist es auch. Finde ich, mit meiner wenigen Erfahrung, bisschen kompliziert, aber ich glaube es ist nichts.",
+    "tags": [
+      "reflection: experience_limitation"
+    ],
+    "rationale": "The person explicitly refers to their limited experience.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_no advice_cycle_25.txt",
+      "row": 31
+    },
+    "model": "google/gemma-4-31b-it",
+    "provider": "CoreWeave",
+    "configuration_name": "gemma-4-31b-it-260402"
+  },
+  {
+    "phrase": "aber ich glaube es ist nichts.",
+    "context": "bisschen kompliziert, aber ich glaube es ist nichts.",
+    "tags": [
+      "interpretation: no_bleeding"
+    ],
+    "rationale": "The person concludes that there is no hemorrhage/abnormality.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_no advice_cycle_25.txt",
+      "row": 31
+    },
+    "model": "google/gemma-4-31b-it",
+    "provider": "CoreWeave",
+    "configuration_name": "gemma-4-31b-it-260402"
+  },
+  {
+    "phrase": "Ähm, ja, von vorne… achte ich erstmal auf den Schädelknochen und Mittellinienventrikeln, ob es irgendwie symmetrisch ist oder nicht.",
+    "context": "Ah ja, Entschuldigung. Ähm, ja, von vorne… achte ich erstmal auf den Schädelknochen und Mittellinienventrikeln, ob es irgendwie symmetrisch ist oder nicht. Hier sieht es nicht so aus.",
+    "tags": [
+      "visual_search: description_of_medical_image_features"
+    ],
+    "rationale": "The person describes the specific anatomical structures (skull bone, midline ventricles) they are checking.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_no advice_cycle_25.txt",
+      "row": 28
+    },
+    "model": "google/gemma-4-31b-it",
+    "provider": "CoreWeave",
+    "configuration_name": "gemma-4-31b-it-260402"
+  },
+  {
+    "phrase": "Hier sieht es nicht so aus.",
+    "context": "ob es irgendwie symmetrisch ist oder nicht. Hier sieht es nicht so aus. Hm, also ich finde es sieht auffällig aus.",
+    "tags": [
+      "indicator: anomaly_detected"
+    ],
+    "rationale": "The person notices that the symmetry is lacking, indicating an abnormality.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_no advice_cycle_25.txt",
+      "row": 28
+    },
+    "model": "google/gemma-4-31b-it",
+    "provider": "CoreWeave",
+    "configuration_name": "gemma-4-31b-it-260402"
+  },
+  {
+    "phrase": "Hm, also ich finde es sieht auffällig aus.",
+    "context": "Hier sieht es nicht so aus. Hm, also ich finde es sieht auffällig aus. Hm, Moment.",
+    "tags": [
+      "indicator: anomaly_detected"
+    ],
+    "rationale": "The person explicitly states that the image looks conspicuous/abnormal.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_no advice_cycle_25.txt",
+      "row": 28
+    },
+    "model": "google/gemma-4-31b-it",
+    "provider": "CoreWeave",
+    "configuration_name": "gemma-4-31b-it-260402"
+  },
+  {
+    "phrase": "Hm, Moment.",
+    "context": "ich finde es sieht auffällig aus. Hm, Moment. Ich schaue nach",
+    "tags": [
+      "paused_in_process"
+    ],
+    "rationale": "Filler phrase indicating a pause in the thought process.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_no advice_cycle_25.txt",
+      "row": 28
+    },
+    "model": "google/gemma-4-31b-it",
+    "provider": "CoreWeave",
+    "configuration_name": "gemma-4-31b-it-260402"
+  },
+  {
+    "phrase": "Ich schaue nach, ob ich irgendwelche sichelförmigen oder konvexe Blutungen sehe.",
+    "context": "Hm, Moment. Ich schaue nach, ob ich irgendwelche sichelförmigen oder konvexe Blutungen sehe. Also ja in der Schädel?",
+    "tags": [
+      "visual_search: description_of_own_approach_without_external_help"
+    ],
+    "rationale": "The person describes their specific search strategy (looking for crescent or convex shapes).",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_no advice_cycle_25.txt",
+      "row": 28
+    },
+    "model": "google/gemma-4-31b-it",
+    "provider": "CoreWeave",
+    "configuration_name": "gemma-4-31b-it-260402"
+  },
+  {
+    "phrase": "Also ja in der Schädel?, sehe ich die nicht,",
+    "context": "konvexe Blutungen sehe. Also ja in der Schädel?, sehe ich die nicht, aber ich finde die Mittellinie schon ein bisschen nach rechts verlagert",
+    "tags": [
+      "interpretation: no_bleeding"
+    ],
+    "rationale": "The person states they do not see the specific types of bleeding they were searching for in that area.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_no advice_cycle_25.txt",
+      "row": 28
+    },
+    "model": "google/gemma-4-31b-it",
+    "provider": "CoreWeave",
+    "configuration_name": "gemma-4-31b-it-260402"
+  },
+  {
+    "phrase": "aber ich finde die Mittellinie schon ein bisschen nach rechts verlagert, und die Ventrikel sind da auch nicht symmetrisch.",
+    "context": "sehe ich die nicht, aber ich finde die Mittellinie schon ein bisschen nach rechts verlagert, und die Ventrikel sind da auch nicht symmetrisch. Deswegen entscheide ich mich für eine Blutung.",
+    "tags": [
+      "indicator: anomaly_detected"
+    ],
+    "rationale": "The person identifies a midline shift and asymmetrical ventricles as abnormal findings.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_no advice_cycle_25.txt",
+      "row": 28
+    },
+    "model": "google/gemma-4-31b-it",
+    "provider": "CoreWeave",
+    "configuration_name": "gemma-4-31b-it-260402"
+  },
+  {
+    "phrase": "Deswegen entscheide ich mich für eine Blutung.",
+    "context": "Ventrikel sind da auch nicht symmetrisch. Deswegen entscheide ich mich für eine Blutung.",
+    "tags": [
+      "reasoning: conclusion_findings"
+    ],
+    "rationale": "The person draws a diagnostic conclusion (bleeding) based on the observed indicators (midline shift, asymmetry).",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_no advice_cycle_25.txt",
+      "row": 28
+    },
+    "model": "google/gemma-4-31b-it",
+    "provider": "CoreWeave",
+    "configuration_name": "gemma-4-31b-it-260402"
+  },
+  {
+    "phrase": "Ich weiß nicht ob, ich hier etwas Occipitales sehe, ich glaube schon.",
+    "context": "… Ich weiß nicht ob, ich hier etwas Occipitales sehe, ich glaube schon. Im Knochen ist nichts",
+    "tags": [
+      "reflection: diagnostic_uncertainty"
+    ],
+    "rationale": "The person is uncertain whether they are seeing something in the occipital region, reflecting on whether a finding is present.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_no advice_cycle_25.txt",
+      "row": 37
+    },
+    "model": "google/gemma-4-31b-it",
+    "provider": "CoreWeave",
+    "configuration_name": "gemma-4-31b-it-260402"
+  },
+  {
+    "phrase": "Im Knochen ist nichts",
+    "context": "ich glaube schon. Im Knochen ist nichts, ich finde trotzdem",
+    "tags": [
+      "indicator: no_bleeding"
+    ],
+    "rationale": "The person classifies the bone area as unremarkable/normal.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_no advice_cycle_25.txt",
+      "row": 37
+    },
+    "model": "google/gemma-4-31b-it",
+    "provider": "CoreWeave",
+    "configuration_name": "gemma-4-31b-it-260402"
+  },
+  {
+    "phrase": "ich finde trotzdem, dass das hier was ist.",
+    "context": "Im Knochen ist nichts, ich finde trotzdem, dass das hier was ist. Ich bin mir nicht so sicher",
+    "tags": [
+      "indicator: anomaly_detected"
+    ],
+    "rationale": "The person notices an abnormality ('das hier was ist') despite the bone being clear.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_no advice_cycle_25.txt",
+      "row": 37
+    },
+    "model": "google/gemma-4-31b-it",
+    "provider": "CoreWeave",
+    "configuration_name": "gemma-4-31b-it-260402"
+  },
+  {
+    "phrase": "Ich bin mir nicht so sicher, aber ich glaub schon.",
+    "context": "dass das hier was ist. Ich bin mir nicht so sicher, aber ich glaub schon.",
+    "tags": [
+      "confidence_low: concrete"
+    ],
+    "rationale": "The person explicitly expresses low certainty regarding their diagnostic process ('Ich bin mir nicht so sicher').",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_no advice_cycle_25.txt",
+      "row": 37
+    },
+    "model": "google/gemma-4-31b-it",
+    "provider": "CoreWeave",
+    "configuration_name": "gemma-4-31b-it-260402"
+  },
+  {
+    "phrase": "Ja rechts, weiß ich nicht ob ich was sehe, oder nicht.",
+    "context": "… Ja rechts, weiß ich nicht ob ich was sehe, oder nicht. Ob das irgendwie normal ist oder nicht.",
+    "tags": [
+      "reflection: perceptual_doubt"
+    ],
+    "rationale": "The person is doubting their own perception of whether they are seeing something or not.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_no advice_cycle_25.txt",
+      "row": 36
+    },
+    "model": "google/gemma-4-31b-it",
+    "provider": "CoreWeave",
+    "configuration_name": "gemma-4-31b-it-260402"
+  },
+  {
+    "phrase": "Ob das irgendwie normal ist oder nicht.",
+    "context": "weiß ich nicht ob ich was sehe, oder nicht. Ob das irgendwie normal ist oder nicht. Ob das einfach ein Gyri",
+    "tags": [
+      "reflection: diagnostic_uncertainty"
+    ],
+    "rationale": "The person is assessing whether a finding is normal or abnormal.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_no advice_cycle_25.txt",
+      "row": 36
+    },
+    "model": "google/gemma-4-31b-it",
+    "provider": "CoreWeave",
+    "configuration_name": "gemma-4-31b-it-260402"
+  },
+  {
+    "phrase": "Ob das einfach ein Gyri, die grade angeschnitten wurde.",
+    "context": "Ob das irgendwie normal ist oder nicht. Ob das einfach ein Gyri, die grade angeschnitten wurde. Das sieht für mich",
+    "tags": [
+      "reasoning: alternative_medical_structure"
+    ],
+    "rationale": "The person attributes the perceived abnormality to a healthy anatomical structure (a gyrus).",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_no advice_cycle_25.txt",
+      "row": 36
+    },
+    "model": "google/gemma-4-31b-it",
+    "provider": "CoreWeave",
+    "configuration_name": "gemma-4-31b-it-260402"
+  },
+  {
+    "phrase": "Das sieht für mich so aus wie etwas Hyperdenses",
+    "context": "die grade angeschnitten wurde. Das sieht für mich so aus wie etwas Hyperdenses, aber ich vermute ist nichts.",
+    "tags": [
+      "indicator: anomaly_detected"
+    ],
+    "rationale": "The person notices a hyperdense area, which is atypical for a healthy skull/brain image.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_no advice_cycle_25.txt",
+      "row": 36
+    },
+    "model": "google/gemma-4-31b-it",
+    "provider": "CoreWeave",
+    "configuration_name": "gemma-4-31b-it-260402"
+  },
+  {
+    "phrase": "aber ich vermute ist nichts.",
+    "context": "Das sieht für mich so aus wie etwas Hyperdenses, aber ich vermute ist nichts. Bin ich mir nicht so sicher",
+    "tags": [
+      "interpretation: no_bleeding"
+    ],
+    "rationale": "The person concludes that despite the appearance, there is no hemorrhage.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_no advice_cycle_25.txt",
+      "row": 36
+    },
+    "model": "google/gemma-4-31b-it",
+    "provider": "CoreWeave",
+    "configuration_name": "gemma-4-31b-it-260402"
+  },
+  {
+    "phrase": "Bin ich mir nicht so sicher, aber ich glaube nicht.",
+    "context": "aber ich vermute ist nichts. Bin ich mir nicht so sicher, aber ich glaube nicht.",
+    "tags": [
+      "confidence_low: concrete"
+    ],
+    "rationale": "The person explicitly expresses low certainty regarding their diagnostic conclusion.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_no advice_cycle_25.txt",
+      "row": 36
+    },
+    "model": "google/gemma-4-31b-it",
+    "provider": "CoreWeave",
+    "configuration_name": "gemma-4-31b-it-260402"
+  },
+  {
+    "phrase": "Ähm, ja wonach ich hier achte, nochmal Kopf und Schädelbruch oder sowas, und probiere irgendwie die Gyri anzugucken, ob man die gut begrenzen kann.",
+    "context": "… Ähm, ja wonach ich hier achte, nochmal Kopf und Schädelbruch oder sowas, und probiere irgendwie die Gyri anzugucken, ob man die gut begrenzen kann. Aber ich finde das hier",
+    "tags": [
+      "visual_search: description_of_medical_image_features"
+    ],
+    "rationale": "The person is describing the specific anatomical structures (skull, gyri) they are currently examining.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_no advice_cycle_25.txt",
+      "row": 32
+    },
+    "model": "google/gemma-4-31b-it",
+    "provider": "DeepInfra",
+    "configuration_name": "gemma-4-31b-it-260402"
+  },
+  {
+    "phrase": "Aber ich finde das hier, ab einem bestimmten Punkt, nicht so gut.",
+    "context": "ob man die gut begrenzen kann. Aber ich finde das hier, ab einem bestimmten Punkt, nicht so gut. Und irgendwie, als wäre",
+    "tags": [
+      "awareness_of_task: image_quality"
+    ],
+    "rationale": "The person expresses dissatisfaction with the image quality/visibility ('nicht so gut'), attributing the difficulty to the image itself.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_no advice_cycle_25.txt",
+      "row": 32
+    },
+    "model": "google/gemma-4-31b-it",
+    "provider": "DeepInfra",
+    "configuration_name": "gemma-4-31b-it-260402"
+  },
+  {
+    "phrase": "Und irgendwie, als wäre dazwischen eingeblutet, könnte ich mir vorstellen.",
+    "context": "nicht so gut. Und irgendwie, als wäre dazwischen eingeblutet, könnte ich mir vorstellen. Deswegen, ich dachte",
+    "tags": [
+      "interpretation: bleeding",
+      "confidence_low: secondary"
+    ],
+    "rationale": "The person interprets the finding as bleeding ('eingeblutet') but uses hedging language ('irgendwie', 'könnte ich mir vorstellen') indicating low secondary confidence.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_no advice_cycle_25.txt",
+      "row": 32
+    },
+    "model": "google/gemma-4-31b-it",
+    "provider": "DeepInfra",
+    "configuration_name": "gemma-4-31b-it-260402"
+  },
+  {
+    "phrase": "Deswegen, ich dachte es sind schon Blutungen, hmm, aber so sicher bin ich mir eigentlich doch nicht.",
+    "context": "könnte ich mir vorstellen. Deswegen, ich dachte es sind schon Blutungen, hmm, aber so sicher bin ich mir eigentlich doch nicht.",
+    "tags": [
+      "confidence_low: concrete"
+    ],
+    "rationale": "The person explicitly states they are not sure ('so sicher bin ich mir eigentlich doch nicht') about the diagnostic process.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_no advice_cycle_25.txt",
+      "row": 32
+    },
+    "model": "google/gemma-4-31b-it",
+    "provider": "DeepInfra",
+    "configuration_name": "gemma-4-31b-it-260402"
+  },
+  {
+    "phrase": "Mhm, also ich denke gerade, dass ähm, bei der, also bei der ?",
+    "context": "… Mhm, also ich denke gerade, dass ähm, bei der, also bei der ?, dass das irgendeine traumatische,…",
+    "tags": [
+      "paused_in_process",
+      "other"
+    ],
+    "rationale": "The speaker is using filler words ('Mhm', 'ähm') and hesitating, indicating a pause in the cognitive process.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_no advice_cycle_25.txt",
+      "row": 38
+    },
+    "model": "google/gemma-4-31b-it",
+    "provider": "CoreWeave",
+    "configuration_name": "gemma-4-31b-it-260402"
+  },
+  {
+    "phrase": "dass das irgendeine traumatische,… traumatische Muster sein sollte, aber das sehe ich nicht.",
+    "context": "also bei der ?, dass das irgendeine traumatische,… traumatische Muster sein sollte, aber das sehe ich nicht. Deswegen, ich glaube nicht.",
+    "tags": [
+      "visual_search: based_on_contextual_information"
+    ],
+    "rationale": "The speaker is looking for a 'traumatic pattern', implying they are searching for findings based on the expected clinical context of trauma.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_no advice_cycle_25.txt",
+      "row": 38
+    },
+    "model": "google/gemma-4-31b-it",
+    "provider": "CoreWeave",
+    "configuration_name": "gemma-4-31b-it-260402"
+  },
+  {
+    "phrase": "Deswegen, ich glaube nicht.",
+    "context": "traumatische Muster sein sollte, aber das sehe ich nicht. Deswegen, ich glaube nicht.",
+    "tags": [
+      "interpretation: no_bleeding"
+    ],
+    "rationale": "Based on the lack of visible traumatic patterns, the speaker concludes that there is no hemorrhage/abnormality.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_no advice_cycle_25.txt",
+      "row": 38
+    },
+    "model": "google/gemma-4-31b-it",
+    "provider": "CoreWeave",
+    "configuration_name": "gemma-4-31b-it-260402"
+  },
+  {
+    "phrase": "Hmm.",
+    "context": "… Hmm. Hier sehe ich schon direkt",
+    "tags": [
+      "paused_in_process"
+    ],
+    "rationale": "The word 'Hmm' is a filler word indicating a pause in the thought process.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_no advice_cycle_25.txt",
+      "row": 29
+    },
+    "model": "google/gemma-4-31b-it",
+    "provider": "CoreWeave",
+    "configuration_name": "gemma-4-31b-it-260402"
+  },
+  {
+    "phrase": "Hier sehe ich schon direkt, dass im Seitenvergleich, recht, äh, so eine, nicht so stark, aber eine hyperdense, glaube ich, Blutung da ist.",
+    "context": "Hmm. Hier sehe ich schon direkt, dass im Seitenvergleich, recht, äh, so eine, nicht so stark, aber eine hyperdense, glaube ich, Blutung da ist. Die Gyri sind auch nicht symmetrisch",
+    "tags": [
+      "interpretation: bleeding",
+      "confidence_low: secondary"
+    ],
+    "rationale": "The person identifies a hemorrhage ('Blutung') and uses 'glaube ich' (I believe), which indicates secondary low confidence.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_no advice_cycle_25.txt",
+      "row": 29
+    },
+    "model": "google/gemma-4-31b-it",
+    "provider": "CoreWeave",
+    "configuration_name": "gemma-4-31b-it-260402"
+  },
+  {
+    "phrase": "Die Gyri sind auch nicht symmetrisch auf der Gegenseite.",
+    "context": "Blutung da ist. Die Gyri sind auch nicht symmetrisch auf der Gegenseite. Ich kann nicht so genau erkennen",
+    "tags": [
+      "indicator: anomaly_detected"
+    ],
+    "rationale": "The person notices an abnormality (asymmetry of the gyri) atypical for a healthy skull.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_no advice_cycle_25.txt",
+      "row": 29
+    },
+    "model": "google/gemma-4-31b-it",
+    "provider": "CoreWeave",
+    "configuration_name": "gemma-4-31b-it-260402"
+  },
+  {
+    "phrase": "Ich kann nicht so genau erkennen, ob das jetzt Epi- oder Subdural ist. Ähm, oder gar diffus.",
+    "context": "Gegenseite. Ich kann nicht so genau erkennen, ob das jetzt Epi- oder Subdural ist. Ähm, oder gar diffus. Ich weiß es nicht genau",
+    "tags": [
+      "interpretation: description_bleeding"
+    ],
+    "rationale": "The person is attempting to further describe and localize the already identified hemorrhage.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_no advice_cycle_25.txt",
+      "row": 29
+    },
+    "model": "google/gemma-4-31b-it",
+    "provider": "CoreWeave",
+    "configuration_name": "gemma-4-31b-it-260402"
+  },
+  {
+    "phrase": "Ich weiß es nicht genau",
+    "context": "oder gar diffus. Ich weiß es nicht genau, aber ich schon, dass das nicht symmetrisch aussieht.",
+    "tags": [
+      "confidence_low: concrete"
+    ],
+    "rationale": "The person explicitly expresses low certainty regarding the diagnostic process.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_no advice_cycle_25.txt",
+      "row": 29
+    },
+    "model": "google/gemma-4-31b-it",
+    "provider": "CoreWeave",
+    "configuration_name": "gemma-4-31b-it-260402"
+  },
+  {
+    "phrase": "aber ich schon, dass das nicht symmetrisch aussieht.",
+    "context": "Ich weiß es nicht genau, aber ich schon, dass das nicht symmetrisch aussieht. Vorallem hier hinten",
+    "tags": [
+      "indicator: anomaly_detected"
+    ],
+    "rationale": "The person reiterates the observation of asymmetry, which is an anomaly.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_no advice_cycle_25.txt",
+      "row": 29
+    },
+    "model": "google/gemma-4-31b-it",
+    "provider": "CoreWeave",
+    "configuration_name": "gemma-4-31b-it-260402"
+  },
+  {
+    "phrase": "Vorallem hier hinten, Occipital.",
+    "context": "nicht symmetrisch aussieht. Vorallem hier hinten, Occipital. Das könnte sogar, ?",
+    "tags": [
+      "visual_search: description_of_medical_image_features"
+    ],
+    "rationale": "The person is verbalizing the specific anatomical area (Occipital) they are currently looking at.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_no advice_cycle_25.txt",
+      "row": 29
+    },
+    "model": "google/gemma-4-31b-it",
+    "provider": "CoreWeave",
+    "configuration_name": "gemma-4-31b-it-260402"
+  },
+  {
+    "phrase": "Das könnte sogar, ?",
+    "context": "Occipital. Das könnte sogar, ?. Ich weiß nicht so genau",
+    "tags": [
+      "reflection: diagnostic_uncertainty"
+    ],
+    "rationale": "The person is hesitating and uncertain about how to classify the finding.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_no advice_cycle_25.txt",
+      "row": 29
+    },
+    "model": "google/gemma-4-31b-it",
+    "provider": "CoreWeave",
+    "configuration_name": "gemma-4-31b-it-260402"
+  },
+  {
+    "phrase": "Ich weiß nicht so genau, jetzt der Unterschied.",
+    "context": "Das könnte sogar, ?. Ich weiß nicht so genau, jetzt der Unterschied. Ist nicht so deutlich finde ich",
+    "tags": [
+      "reflection: experience_limitation"
+    ],
+    "rationale": "The person refers to their inability to distinguish between types of bleeding, indicating a limit in their knowledge/experience.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_no advice_cycle_25.txt",
+      "row": 29
+    },
+    "model": "google/gemma-4-31b-it",
+    "provider": "CoreWeave",
+    "configuration_name": "gemma-4-31b-it-260402"
+  },
+  {
+    "phrase": "Ist nicht so deutlich finde ich",
+    "context": "jetzt der Unterschied. Ist nicht so deutlich finde ich, aber ich denke schon dass hier was ist",
+    "tags": [
+      "awareness_of_task: image_quality"
+    ],
+    "rationale": "The person attributes the uncertainty to the image not being 'clear' (deutlich).",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_no advice_cycle_25.txt",
+      "row": 29
+    },
+    "model": "google/gemma-4-31b-it",
+    "provider": "CoreWeave",
+    "configuration_name": "gemma-4-31b-it-260402"
+  },
+  {
+    "phrase": "aber ich denke schon dass hier was ist, wenn man so guckt.",
+    "context": "Ist nicht so deutlich finde ich, aber ich denke schon dass hier was ist, wenn man so guckt.",
+    "tags": [
+      "indicator: anomaly_detected"
+    ],
+    "rationale": "The person concludes that there is an abnormality present.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_no advice_cycle_25.txt",
+      "row": 29
+    },
+    "model": "google/gemma-4-31b-it",
+    "provider": "CoreWeave",
+    "configuration_name": "gemma-4-31b-it-260402"
+  },
+  {
+    "phrase": "Da bin ich mir unsicher, wieder ob das vom Knochen ist oder nicht.",
+    "context": "… Da bin ich mir unsicher, wieder ob das vom Knochen ist oder nicht. Das…Gefäß… Ich glaube nicht.",
+    "tags": [
+      "reflection: diagnostic_uncertainty"
+    ],
+    "rationale": "The person explicitly expresses uncertainty about whether a finding is an abnormality or a normal anatomical structure (bone).",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_no advice_cycle_25.txt",
+      "row": 42
+    },
+    "model": "google/gemma-4-31b-it",
+    "provider": "CoreWeave",
+    "configuration_name": "gemma-4-31b-it-260402"
+  },
+  {
+    "phrase": "Das…Gefäß…",
+    "context": "… Da bin ich mir unsicher, wieder ob das vom Knochen ist oder nicht. Das…Gefäß… Ich glaube nicht.",
+    "tags": [
+      "reasoning: alternative_medical_structure"
+    ],
+    "rationale": "The person suggests that the observed feature might be a blood vessel, which is a normal anatomical structure.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_no advice_cycle_25.txt",
+      "row": 42
+    },
+    "model": "google/gemma-4-31b-it",
+    "provider": "CoreWeave",
+    "configuration_name": "gemma-4-31b-it-260402"
+  },
+  {
+    "phrase": "Ich glaube nicht.",
+    "context": "… Da bin ich mir unsicher, wieder ob das vom Knochen ist oder nicht. Das…Gefäß… Ich glaube nicht.",
+    "tags": [
+      "confidence_low: secondary"
+    ],
+    "rationale": "The phrase 'I don't think so' implicitly indicates low certainty regarding the previous hypothesis.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_no advice_cycle_25.txt",
+      "row": 42
+    },
+    "model": "google/gemma-4-31b-it",
+    "provider": "CoreWeave",
+    "configuration_name": "gemma-4-31b-it-260402"
+  },
+  {
+    "phrase": "Hmm, glaube ist nichts.",
+    "context": "… Hmm, glaube ist nichts.",
+    "tags": [
+      "interpretation: no_bleeding"
+    ],
+    "rationale": "The person expresses their interpretation that there is nothing (no abnormality/bleeding) present in the image.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_no advice_cycle_25.txt",
+      "row": 44
+    },
+    "model": "google/gemma-4-31b-it",
+    "provider": "CoreWeave",
+    "configuration_name": "gemma-4-31b-it-260402"
+  },
+  {
+    "phrase": "Hier ist die Mittellinie ein bisschen gebogen, sieht so aus zumindest.",
+    "context": "… Hier ist die Mittellinie ein bisschen gebogen, sieht so aus zumindest. Ist aber normal, hm…",
+    "tags": [
+      "visual_search: description_of_medical_image_features"
+    ],
+    "rationale": "The person is describing a specific anatomical feature (the midline) and its appearance.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_no advice_cycle_25.txt",
+      "row": 41
+    },
+    "model": "google/gemma-4-31b-it",
+    "provider": "CoreWeave",
+    "configuration_name": "gemma-4-31b-it-260402"
+  },
+  {
+    "phrase": "Ist aber normal, hm…",
+    "context": "sieht so aus zumindest. Ist aber normal, hm…, Ich weiß nicht ob ich mir das einbilde",
+    "tags": [
+      "indicator: no_bleeding"
+    ],
+    "rationale": "The person classifies the observed curvature of the midline as normal/unremarkable.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_no advice_cycle_25.txt",
+      "row": 41
+    },
+    "model": "google/gemma-4-31b-it",
+    "provider": "CoreWeave",
+    "configuration_name": "gemma-4-31b-it-260402"
+  },
+  {
+    "phrase": "Ich weiß nicht ob ich mir das einbilde, aber das sieht so ein bisschen Hyperdens aus hier.",
+    "context": "Ist aber normal, hm…, Ich weiß nicht ob ich mir das einbilde, aber das sieht so ein bisschen Hyperdens aus hier. Ja schon.",
+    "tags": [
+      "reflection: perceptual_doubt",
+      "indicator: anomaly_detected"
+    ],
+    "rationale": "The person expresses doubt about their own perception ('Ich weiß nicht ob ich mir das einbilde') while simultaneously noticing an abnormality ('Hyperdens').",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_no advice_cycle_25.txt",
+      "row": 41
+    },
+    "model": "google/gemma-4-31b-it",
+    "provider": "CoreWeave",
+    "configuration_name": "gemma-4-31b-it-260402"
+  },
+  {
+    "phrase": "Ja schon. Ich sag ja.",
+    "context": "das sieht so ein bisschen Hyperdens aus hier. Ja schon. Ich sag ja.",
+    "tags": [
+      "reflection: self-affirmation"
+    ],
+    "rationale": "The person is reaffirming their previous observation of hyperdensity.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_no advice_cycle_25.txt",
+      "row": 41
+    },
+    "model": "google/gemma-4-31b-it",
+    "provider": "CoreWeave",
+    "configuration_name": "gemma-4-31b-it-260402"
+  },
+  {
+    "phrase": "Der rechte sieht da anders aus. Hmm, das sieht auffällig aus…",
+    "context": "So, das sieht schon, anders aus, also ja. Der rechte sieht da anders aus. Hmm, das sieht auffällig aus… Aber ansonsten sehe ich eigentlich nichts.",
+    "tags": [
+      "indicator: anomaly_detected"
+    ],
+    "rationale": "The person notices that the right side looks different and describes it as 'auffällig' (conspicuous/striking), indicating the detection of an abnormality.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_no advice_cycle_25.txt",
+      "row": 40
+    },
+    "model": "google/gemma-4-31b-it",
+    "provider": "CoreWeave",
+    "configuration_name": "gemma-4-31b-it-260402"
+  },
+  {
+    "phrase": "Aber ansonsten sehe ich eigentlich nichts.",
+    "context": "Hmm, das sieht auffällig aus… Aber ansonsten sehe ich eigentlich nichts. Hm, ne ich weiß nicht genau.",
+    "tags": [
+      "indicator: no_bleeding"
+    ],
+    "rationale": "The person states they see nothing else, classifying the rest of the image area as unremarkable.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_no advice_cycle_25.txt",
+      "row": 40
+    },
+    "model": "google/gemma-4-31b-it",
+    "provider": "CoreWeave",
+    "configuration_name": "gemma-4-31b-it-260402"
+  },
+  {
+    "phrase": "Hm, ne ich weiß nicht genau.",
+    "context": "Aber ansonsten sehe ich eigentlich nichts. Hm, ne ich weiß nicht genau. Aber ich glaub schon, dass das was ist.",
+    "tags": [
+      "confidence_low: concrete"
+    ],
+    "rationale": "The person explicitly expresses uncertainty about their current assessment.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_no advice_cycle_25.txt",
+      "row": 40
+    },
+    "model": "google/gemma-4-31b-it",
+    "provider": "CoreWeave",
+    "configuration_name": "gemma-4-31b-it-260402"
+  },
+  {
+    "phrase": "Aber ich glaub schon, dass das was ist.",
+    "context": "Hm, ne ich weiß nicht genau. Aber ich glaub schon, dass das was ist. Obwohl hier schon wieder normal aussieht",
+    "tags": [
+      "confidence_high: secondary"
+    ],
+    "rationale": "The phrase 'ich glaub schon' (I think so) indicates a level of implicit certainty that there is a finding.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_no advice_cycle_25.txt",
+      "row": 40
+    },
+    "model": "google/gemma-4-31b-it",
+    "provider": "CoreWeave",
+    "configuration_name": "gemma-4-31b-it-260402"
+  },
+  {
+    "phrase": "Obwohl hier schon wieder normal aussieht, aber ich glaub schon.",
+    "context": "Aber ich glaub schon, dass das was ist. Obwohl hier schon wieder normal aussieht, aber ich glaub schon.",
+    "tags": [
+      "reflection: self-affirmation"
+    ],
+    "rationale": "The person acknowledges a contradictory perception (it looks normal) but immediately reaffirms their initial belief that there is an abnormality.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_no advice_cycle_25.txt",
+      "row": 40
+    },
+    "model": "google/gemma-4-31b-it",
+    "provider": "CoreWeave",
+    "configuration_name": "gemma-4-31b-it-260402"
+  },
+  {
+    "phrase": "Hmm…",
+    "context": "Hmm… Hier sehe ich im Schädel?",
+    "tags": [
+      "paused_in_process"
+    ],
+    "rationale": "The word 'Hmm' is a filler word indicating a pause in the thought process.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_no advice_cycle_25.txt",
+      "row": 26
+    },
+    "model": "google/gemma-4-31b-it",
+    "provider": "DeepInfra",
+    "configuration_name": "gemma-4-31b-it-260402"
+  },
+  {
+    "phrase": "Hier sehe ich im Schädel? keinen Defekt…",
+    "context": "Hmm… Hier sehe ich im Schädel? keinen Defekt… Und die Mittellinie ist nicht verlagert.",
+    "tags": [
+      "indicator: no_bleeding"
+    ],
+    "rationale": "The person is classifying the area as having no defect/abnormality.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_no advice_cycle_25.txt",
+      "row": 26
+    },
+    "model": "google/gemma-4-31b-it",
+    "provider": "DeepInfra",
+    "configuration_name": "gemma-4-31b-it-260402"
+  },
+  {
+    "phrase": "Und die Mittellinie ist nicht verlagert.",
+    "context": "keinen Defekt… Und die Mittellinie ist nicht verlagert. Komisch...",
+    "tags": [
+      "visual_search: description_of_medical_image_features"
+    ],
+    "rationale": "The person is verbalizing the check of a specific anatomical feature (midline shift).",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_no advice_cycle_25.txt",
+      "row": 26
+    },
+    "model": "google/gemma-4-31b-it",
+    "provider": "DeepInfra",
+    "configuration_name": "gemma-4-31b-it-260402"
+  },
+  {
+    "phrase": "Komisch...",
+    "context": "Und die Mittellinie ist nicht verlagert. Komisch... Bei einem Autounfall",
+    "tags": [
+      "reflection: diagnostic_uncertainty"
+    ],
+    "rationale": "The person expresses a sense of incongruity or uncertainty about the findings.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_no advice_cycle_25.txt",
+      "row": 26
+    },
+    "model": "google/gemma-4-31b-it",
+    "provider": "DeepInfra",
+    "configuration_name": "gemma-4-31b-it-260402"
+  },
+  {
+    "phrase": "Bei einem Autounfall, glaube ich, wäre dann,",
+    "context": "Komisch... Bei einem Autounfall, glaube ich, wäre dann, ah Moment…",
+    "tags": [
+      "reasoning: mentioning_contextual_information"
+    ],
+    "rationale": "The person mentions the cause of the accident (car accident) as part of their reasoning.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_no advice_cycle_25.txt",
+      "row": 26
+    },
+    "model": "google/gemma-4-31b-it",
+    "provider": "DeepInfra",
+    "configuration_name": "gemma-4-31b-it-260402"
+  },
+  {
+    "phrase": "ah Moment…",
+    "context": "glaube ich, wäre dann, ah Moment… Jetzt bin ich mir unsicher.",
+    "tags": [
+      "paused_in_process"
+    ],
+    "rationale": "Filler phrase indicating a momentary pause or shift in thought.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_no advice_cycle_25.txt",
+      "row": 26
+    },
+    "model": "google/gemma-4-31b-it",
+    "provider": "DeepInfra",
+    "configuration_name": "gemma-4-31b-it-260402"
+  },
+  {
+    "phrase": "Jetzt bin ich mir unsicher.",
+    "context": "ah Moment… Jetzt bin ich mir unsicher. Ob es jetzt weiter Caudal…",
+    "tags": [
+      "confidence_low: concrete"
+    ],
+    "rationale": "The person explicitly expresses low certainty regarding the diagnostic process.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_no advice_cycle_25.txt",
+      "row": 26
+    },
+    "model": "google/gemma-4-31b-it",
+    "provider": "DeepInfra",
+    "configuration_name": "gemma-4-31b-it-260402"
+  },
+  {
+    "phrase": "Ob es jetzt weiter Caudal… in den Liquorraum eingeblutet ist, da bin ich mir nicht so sicher.",
+    "context": "Jetzt bin ich mir unsicher. Ob es jetzt weiter Caudal… in den Liquorraum eingeblutet ist, da bin ich mir nicht so sicher.",
+    "tags": [
+      "interpretation: bleeding",
+      "confidence_low: secondary"
+    ],
+    "rationale": "The person considers the possibility of bleeding (hemorrhage) but expresses uncertainty using 'nicht so sicher'.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_no advice_cycle_25.txt",
+      "row": 26
+    },
+    "model": "google/gemma-4-31b-it",
+    "provider": "DeepInfra",
+    "configuration_name": "gemma-4-31b-it-260402"
+  },
+  {
+    "phrase": "Und Subarachnoidal irgendwas ist bin ich mir auch unsicher.",
+    "context": "da bin ich mir nicht so sicher. Und Subarachnoidal irgendwas ist bin ich mir auch unsicher.",
+    "tags": [
+      "reflection: diagnostic_uncertainty"
+    ],
+    "rationale": "The person is uncertain about whether a finding in the subarachnoid space is abnormal or not.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_no advice_cycle_25.txt",
+      "row": 26
+    },
+    "model": "google/gemma-4-31b-it",
+    "provider": "DeepInfra",
+    "configuration_name": "gemma-4-31b-it-260402"
+  },
+  {
+    "phrase": "Ich glaube ja, aber nicht so einfach.",
+    "context": "bin ich mir auch unsicher. Ich glaube ja, aber nicht so einfach.",
+    "tags": [
+      "confidence_low: secondary"
+    ],
+    "rationale": "The phrase 'Ich glaube ja' combined with 'nicht so einfach' indicates low implicit certainty.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_no advice_cycle_25.txt",
+      "row": 26
+    },
+    "model": "google/gemma-4-31b-it",
+    "provider": "DeepInfra",
+    "configuration_name": "gemma-4-31b-it-260402"
+  },
+  {
+    "phrase": "Hm, da sehe ich jetzt keinen Unterschied zur linken Seite, außer… Ne…, Hm.",
+    "context": "… Hm, da sehe ich jetzt keinen Unterschied zur linken Seite, außer… Ne…, Hm.",
+    "tags": [
+      "indicator: no_bleeding"
+    ],
+    "rationale": "The person is comparing sides and concludes there is no difference/abnormality visible in the area being examined.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_no advice_cycle_25.txt",
+      "row": 48
+    },
+    "model": "google/gemma-4-31b-it",
+    "provider": "CoreWeave",
+    "configuration_name": "gemma-4-31b-it-260402"
+  },
+  {
+    "phrase": "Da sehe ich nichts auffälliges.",
+    "context": "… Da sehe ich nichts auffälliges.",
+    "tags": [
+      "indicator: no_bleeding"
+    ],
+    "rationale": "The person explicitly states that they see nothing unusual/conspicuous in the current image area, which corresponds to classifying the area as unremarkable.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_no advice_cycle_25.txt",
+      "row": 47
+    },
+    "model": "google/gemma-4-31b-it",
+    "provider": "DeepInfra",
+    "configuration_name": "gemma-4-31b-it-260402"
+  },
+  {
+    "phrase": "Und jetzt steht da Hypertension und Kopfschmerzen.",
+    "context": "… Und jetzt steht da Hypertension und Kopfschmerzen. Ich bin mir da nicht so sicher",
+    "tags": [
+      "reasoning: mentioning_contextual_information"
+    ],
+    "rationale": "The person is mentioning the patient's medical history (hypertension and headache).",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_no advice_cycle_25.txt",
+      "row": 39
+    },
+    "model": "google/gemma-4-31b-it",
+    "provider": "CoreWeave",
+    "configuration_name": "gemma-4-31b-it-260402"
+  },
+  {
+    "phrase": "Ich bin mir da nicht so sicher ob ich was interessantes sehen würde.",
+    "context": "Hypertension und Kopfschmerzen. Ich bin mir da nicht so sicher ob ich was interessantes sehen würde. ?. Weil es so klein ist.",
+    "tags": [
+      "confidence_low: concrete"
+    ],
+    "rationale": "The person explicitly expresses uncertainty about whether they will find anything significant.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_no advice_cycle_25.txt",
+      "row": 39
+    },
+    "model": "google/gemma-4-31b-it",
+    "provider": "CoreWeave",
+    "configuration_name": "gemma-4-31b-it-260402"
+  },
+  {
+    "phrase": "Ich weiß nicht genau, sehr ungewiss?",
+    "context": "Weil es so klein ist. Könnte sein. Ich weiß nicht genau, sehr ungewiss?. Hm, das finde ich hier schwer zu beurteilen.",
+    "tags": [
+      "confidence_low: concrete"
+    ],
+    "rationale": "The person explicitly states they are very uncertain.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_no advice_cycle_25.txt",
+      "row": 39
+    },
+    "model": "google/gemma-4-31b-it",
+    "provider": "CoreWeave",
+    "configuration_name": "gemma-4-31b-it-260402"
+  },
+  {
+    "phrase": "Hm, das finde ich hier schwer zu beurteilen.",
+    "context": "sehr ungewiss?. Hm, das finde ich hier schwer zu beurteilen. Das hier vielleicht.",
+    "tags": [
+      "awareness_of_task: difficult"
+    ],
+    "rationale": "The person perceives the current assessment task as difficult.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_no advice_cycle_25.txt",
+      "row": 39
+    },
+    "model": "google/gemma-4-31b-it",
+    "provider": "CoreWeave",
+    "configuration_name": "gemma-4-31b-it-260402"
+  },
+  {
+    "phrase": "Okay, ich bin sehr unsicher, ob ja oder nein.",
+    "context": "Das hier vielleicht. Okay, ich bin sehr unsicher, ob ja oder nein. Hm, ich weiß nicht",
+    "tags": [
+      "confidence_low: concrete"
+    ],
+    "rationale": "The person explicitly expresses high uncertainty regarding the decision.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_no advice_cycle_25.txt",
+      "row": 39
+    },
+    "model": "google/gemma-4-31b-it",
+    "provider": "CoreWeave",
+    "configuration_name": "gemma-4-31b-it-260402"
+  },
+  {
+    "phrase": "Hm, ich weiß nicht ob das ein Artefakt ist oder so.",
+    "context": "ob ja oder nein. Hm, ich weiß nicht ob das ein Artefakt ist oder so. Ich glaube schon, oder.",
+    "tags": [
+      "reasoning: artifact"
+    ],
+    "rationale": "The person considers that the observed abnormality might be an artifact.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_no advice_cycle_25.txt",
+      "row": 39
+    },
+    "model": "google/gemma-4-31b-it",
+    "provider": "CoreWeave",
+    "configuration_name": "gemma-4-31b-it-260402"
+  },
+  {
+    "phrase": "Ich glaube schon, oder. Ich enter? das, aber ich weiß nicht.",
+    "context": "Artefakt ist oder so. Ich glaube schon, oder. Ich enter? das, aber ich weiß nicht.",
+    "tags": [
+      "confidence_low: secondary"
+    ],
+    "rationale": "The use of 'oder' and 'ich weiß nicht' at the end indicates implicit low certainty.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_no advice_cycle_25.txt",
+      "row": 39
+    },
+    "model": "google/gemma-4-31b-it",
+    "provider": "CoreWeave",
+    "configuration_name": "gemma-4-31b-it-260402"
+  },
+  {
+    "phrase": "Ähm, hier finde wieder, irgendwie, die Gyri nicht mehr so deutlich.",
+    "context": "… Ähm, hier finde wieder, irgendwie, die Gyri nicht mehr so deutlich. Aber eigentlich beidseitig",
+    "tags": [
+      "indicator: anomaly_detected"
+    ],
+    "rationale": "The person notices that the gyri are not clearly visible, which is an abnormality in the brain image.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_no advice_cycle_25.txt",
+      "row": 43
+    },
+    "model": "google/gemma-4-31b-it",
+    "provider": "CoreWeave",
+    "configuration_name": "gemma-4-31b-it-260402"
+  },
+  {
+    "phrase": "Aber eigentlich beidseitig, Als wäre dazwischen eingeblutet.",
+    "context": "die Gyri nicht mehr so deutlich. Aber eigentlich beidseitig, Als wäre dazwischen eingeblutet. Hier ist es besser",
+    "tags": [
+      "interpretation: bleeding"
+    ],
+    "rationale": "The person interprets the finding as blood having leaked/bled between the structures ('eingeblutet').",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_no advice_cycle_25.txt",
+      "row": 43
+    },
+    "model": "google/gemma-4-31b-it",
+    "provider": "CoreWeave",
+    "configuration_name": "gemma-4-31b-it-260402"
+  },
+  {
+    "phrase": "Hier ist es besser, aber…",
+    "context": "Als wäre dazwischen eingeblutet. Hier ist es besser, aber… Hier in der Ventrikel",
+    "tags": [
+      "paused_in_process"
+    ],
+    "rationale": "The phrase contains a filler/hesitation ('aber…') and is an incomplete thought.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_no advice_cycle_25.txt",
+      "row": 43
+    },
+    "model": "google/gemma-4-31b-it",
+    "provider": "CoreWeave",
+    "configuration_name": "gemma-4-31b-it-260402"
+  },
+  {
+    "phrase": "Hier in der Ventrikel, ist es auch nicht symmetrisch zur Gegenseite.",
+    "context": "aber… Hier in der Ventrikel, ist es auch nicht symmetrisch zur Gegenseite. Ziemlich eng da alles.",
+    "tags": [
+      "indicator: anomaly_detected"
+    ],
+    "rationale": "The person identifies a lack of symmetry in the ventricles, which is an atypical finding.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_no advice_cycle_25.txt",
+      "row": 43
+    },
+    "model": "google/gemma-4-31b-it",
+    "provider": "CoreWeave",
+    "configuration_name": "gemma-4-31b-it-260402"
+  },
+  {
+    "phrase": "Ziemlich eng da alles.",
+    "context": "nicht symmetrisch zur Gegenseite. Ziemlich eng da alles. Ich glaub schon.",
+    "tags": [
+      "interpretation: description_bleeding"
+    ],
+    "rationale": "The person is describing the appearance (tightness/compression) of the area where they previously suspected bleeding.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_no advice_cycle_25.txt",
+      "row": 43
+    },
+    "model": "google/gemma-4-31b-it",
+    "provider": "CoreWeave",
+    "configuration_name": "gemma-4-31b-it-260402"
+  },
+  {
+    "phrase": "Ich glaub schon.",
+    "context": "Ziemlich eng da alles. Ich glaub schon.",
+    "tags": [
+      "confidence_high: secondary"
+    ],
+    "rationale": "The phrase 'Ich glaub schon' (I think so) expresses a level of implicit certainty regarding their conclusion.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_no advice_cycle_25.txt",
+      "row": 43
+    },
+    "model": "google/gemma-4-31b-it",
+    "provider": "CoreWeave",
+    "configuration_name": "gemma-4-31b-it-260402"
+  },
+  {
+    "phrase": "Wieviel Zeit habe ich nochmal?",
+    "context": "Wieviel Zeit habe ich nochmal? EXPERIMENTER: Also, eine direkte Begrenzung gibt es nicht.",
+    "tags": [
+      "technical_conversation"
+    ],
+    "rationale": "The person is asking about the time constraints of the experiment/task.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_no advice_cycle_25.txt",
+      "row": 30
+    },
+    "model": "google/gemma-4-31b-it",
+    "provider": "DeepInfra",
+    "configuration_name": "gemma-4-31b-it-260402"
+  },
+  {
+    "phrase": "So, jetzt achte ich hier nochmal auf die Seitenunterschiede und Knochen, Mittellinie.",
+    "context": "VPN: So, jetzt achte ich hier nochmal auf die Seitenunterschiede und Knochen, Mittellinie. Also direkt ist mir jetzt noch nichts aufgefallen.",
+    "tags": [
+      "visual_search: description_of_medical_image_features"
+    ],
+    "rationale": "The person is verbalizing the specific anatomical structures (bone, midline) they are currently checking.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_no advice_cycle_25.txt",
+      "row": 30
+    },
+    "model": "google/gemma-4-31b-it",
+    "provider": "DeepInfra",
+    "configuration_name": "gemma-4-31b-it-260402"
+  },
+  {
+    "phrase": "Also direkt ist mir jetzt noch nichts aufgefallen.",
+    "context": "So, jetzt achte ich hier nochmal auf die Seitenunterschiede und Knochen, Mittellinie. Also direkt ist mir jetzt noch nichts aufgefallen. Ob das hier eine Mittellinienverlagerung gibt oder nicht, weiß ich grad nicht.",
+    "tags": [
+      "indicator: no_bleeding"
+    ],
+    "rationale": "The person states that they haven't noticed any abnormalities yet in the area they are searching.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_no advice_cycle_25.txt",
+      "row": 30
+    },
+    "model": "google/gemma-4-31b-it",
+    "provider": "DeepInfra",
+    "configuration_name": "gemma-4-31b-it-260402"
+  },
+  {
+    "phrase": "Ob das hier eine Mittellinienverlagerung gibt oder nicht, weiß ich grad nicht.",
+    "context": "Also direkt ist mir jetzt noch nichts aufgefallen. Ob das hier eine Mittellinienverlagerung gibt oder nicht, weiß ich grad nicht. Hinten... hm, ich glaub nicht.",
+    "tags": [
+      "reflection: diagnostic_uncertainty"
+    ],
+    "rationale": "The person is uncertain whether a specific finding (midline shift) is present.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_no advice_cycle_25.txt",
+      "row": 30
+    },
+    "model": "google/gemma-4-31b-it",
+    "provider": "DeepInfra",
+    "configuration_name": "gemma-4-31b-it-260402"
+  },
+  {
+    "phrase": "Hinten... hm, ich glaub nicht.",
+    "context": "Ob das hier eine Mittellinienverlagerung gibt oder nicht, weiß ich grad nicht. Hinten... hm, ich glaub nicht. Ich bin mir aber nicht so sicher ob das Ventrikel hier so eingeengt ist",
+    "tags": [
+      "interpretation: no_bleeding"
+    ],
+    "rationale": "The person concludes that there is no abnormality in the posterior region.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_no advice_cycle_25.txt",
+      "row": 30
+    },
+    "model": "google/gemma-4-31b-it",
+    "provider": "DeepInfra",
+    "configuration_name": "gemma-4-31b-it-260402"
+  },
+  {
+    "phrase": "Ich bin mir aber nicht so sicher ob das Ventrikel hier so eingeengt ist, oder, also sieht so zumindest bei dem Anschnitt anders aus, als auf der Gegenseite.",
+    "context": "Hinten... hm, ich glaub nicht. Ich bin mir aber nicht so sicher ob das Ventrikel hier so eingeengt ist, oder, also sieht so zumindest bei dem Anschnitt anders aus, als auf der Gegenseite. Eine Sichel sehe ich jetzt nicht grade",
+    "tags": [
+      "reflection: diagnostic_uncertainty"
+    ],
+    "rationale": "The person is assessing whether the ventricle is narrowed and comparing it to the opposite side, expressing uncertainty.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_no advice_cycle_25.txt",
+      "row": 30
+    },
+    "model": "google/gemma-4-31b-it",
+    "provider": "DeepInfra",
+    "configuration_name": "gemma-4-31b-it-260402"
+  },
+  {
+    "phrase": "Eine Sichel sehe ich jetzt nicht grade",
+    "context": "also sieht so zumindest bei dem Anschnitt anders aus, als auf der Gegenseite. Eine Sichel sehe ich jetzt nicht grade, aber ich könnte einfach mal den Schnitt den ich hier sehe",
+    "tags": [
+      "interpretation: no_bleeding"
+    ],
+    "rationale": "The person explicitly states they do not see a 'crescent' (typical for subdural hemorrhage).",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_no advice_cycle_25.txt",
+      "row": 30
+    },
+    "model": "google/gemma-4-31b-it",
+    "provider": "DeepInfra",
+    "configuration_name": "gemma-4-31b-it-260402"
+  },
+  {
+    "phrase": "aber ich könnte einfach mal den Schnitt den ich hier sehe, also wenn ich hier scrolle, dann sieht das gleich aus.",
+    "context": "Eine Sichel sehe ich jetzt nicht grade, aber ich könnte einfach mal den Schnitt den ich hier sehe, also wenn ich hier scrolle, dann sieht das gleich aus. Deswegen sage ich mal jetzt nicht so confident",
+    "tags": [
+      "control: control_repeat"
+    ],
+    "rationale": "The person is scrolling through slices to re-examine the area and verify their observation.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_no advice_cycle_25.txt",
+      "row": 30
+    },
+    "model": "google/gemma-4-31b-it",
+    "provider": "DeepInfra",
+    "configuration_name": "gemma-4-31b-it-260402"
+  },
+  {
+    "phrase": "Deswegen sage ich mal jetzt nicht so confident, das ist nichts",
+    "context": "also wenn ich hier scrolle, dann sieht das gleich aus. Deswegen sage ich mal jetzt nicht so confident, das ist nichts",
+    "tags": [
+      "confidence_low: concrete",
+      "interpretation: no_bleeding"
+    ],
+    "rationale": "The person explicitly expresses low confidence ('not so confident') and concludes there is no hemorrhage ('das ist nichts').",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_no advice_cycle_25.txt",
+      "row": 30
+    },
+    "model": "google/gemma-4-31b-it",
+    "provider": "DeepInfra",
+    "configuration_name": "gemma-4-31b-it-260402"
+  },
+  {
+    "phrase": "Hmm, ich finde, hier hm.",
+    "context": "… Hmm, ich finde, hier hm. Dieses Gefühl das ich da",
+    "tags": [
+      "paused_in_process"
+    ],
+    "rationale": "The speaker is using filler words ('Hmm', 'hm') while processing the image.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_no advice_cycle_25.txt",
+      "row": 46
+    },
+    "model": "google/gemma-4-31b-it",
+    "provider": "CoreWeave",
+    "configuration_name": "gemma-4-31b-it-260402"
+  },
+  {
+    "phrase": "Dieses Gefühl das ich da, rechts die Gyri besser eingrenzen kann, besser sehen kann als links.",
+    "context": "hier hm. Dieses Gefühl das ich da, rechts die Gyri besser eingrenzen kann, besser sehen kann als links. Nicht so sicher",
+    "tags": [
+      "visual_search: description_of_medical_image_features"
+    ],
+    "rationale": "The person is verbalizing the anatomical structures (Gyri) they are currently observing and comparing.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_no advice_cycle_25.txt",
+      "row": 46
+    },
+    "model": "google/gemma-4-31b-it",
+    "provider": "CoreWeave",
+    "configuration_name": "gemma-4-31b-it-260402"
+  },
+  {
+    "phrase": "Nicht so sicher, aber hier so.",
+    "context": "besser sehen kann als links. Nicht so sicher, aber hier so. Das macht…",
+    "tags": [
+      "confidence_low: secondary"
+    ],
+    "rationale": "The phrase 'Nicht so sicher' (not so sure) implicitly expresses low certainty.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_no advice_cycle_25.txt",
+      "row": 46
+    },
+    "model": "google/gemma-4-31b-it",
+    "provider": "CoreWeave",
+    "configuration_name": "gemma-4-31b-it-260402"
+  },
+  {
+    "phrase": "Das macht…",
+    "context": "aber hier so. Das macht… Ich sag sehr unsicher, ja.",
+    "tags": [
+      "paused_in_process"
+    ],
+    "rationale": "The speaker trails off, indicating a pause in the thought process.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_no advice_cycle_25.txt",
+      "row": 46
+    },
+    "model": "google/gemma-4-31b-it",
+    "provider": "CoreWeave",
+    "configuration_name": "gemma-4-31b-it-260402"
+  },
+  {
+    "phrase": "Ich sag sehr unsicher, ja.",
+    "context": "Das macht… Ich sag sehr unsicher, ja.",
+    "tags": [
+      "confidence_low: concrete"
+    ],
+    "rationale": "The person explicitly states they are 'very unsure' regarding their diagnostic process/observation.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_no advice_cycle_25.txt",
+      "row": 46
+    },
+    "model": "google/gemma-4-31b-it",
+    "provider": "CoreWeave",
+    "configuration_name": "gemma-4-31b-it-260402"
+  },
+  {
+    "phrase": "Ich finde hier die Ventrikel, irgendwie schlecht zu erkennen, ich weiß nicht, ob das bei Kindern normal ist.",
+    "context": "… Ich finde hier die Ventrikel, irgendwie schlecht zu erkennen, ich weiß nicht, ob das bei Kindern normal ist. Das sieht so eng aus, irgendwie.",
+    "tags": [
+      "visual_search: description_of_medical_image_features"
+    ],
+    "rationale": "The person is verbalizing which anatomical structures (ventricles) they are currently looking at.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_no advice_cycle_25.txt",
+      "row": 45
+    },
+    "model": "google/gemma-4-31b-it",
+    "provider": "CoreWeave",
+    "configuration_name": "gemma-4-31b-it-260402"
+  },
+  {
+    "phrase": "Das sieht so eng aus, irgendwie.",
+    "context": "ich weiß nicht, ob das bei Kindern normal ist. Das sieht so eng aus, irgendwie. Ansonsten, sehe ich sonst keine",
+    "tags": [
+      "indicator: anomaly_detected"
+    ],
+    "rationale": "The person notices that the area looks 'narrow', which they perceive as an abnormality or something unusual.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_no advice_cycle_25.txt",
+      "row": 45
+    },
+    "model": "google/gemma-4-31b-it",
+    "provider": "CoreWeave",
+    "configuration_name": "gemma-4-31b-it-260402"
+  },
+  {
+    "phrase": "Ansonsten, sehe ich sonst keine Epi- oder Subdurale Blutung",
+    "context": "Das sieht so eng aus, irgendwie. Ansonsten, sehe ich sonst keine Epi- oder Subdurale Blutung, aber ich finde das schon komisch.",
+    "tags": [
+      "interpretation: no_bleeding"
+    ],
+    "rationale": "The person explicitly states that they do not see any epidural or subdural hemorrhage.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_no advice_cycle_25.txt",
+      "row": 45
+    },
+    "model": "google/gemma-4-31b-it",
+    "provider": "CoreWeave",
+    "configuration_name": "gemma-4-31b-it-260402"
+  },
+  {
+    "phrase": "aber ich finde das schon komisch.",
+    "context": "Ansonsten, sehe ich sonst keine Epi- oder Subdurale Blutung, aber ich finde das schon komisch. Ich glaube schon",
+    "tags": [
+      "reflection: diagnostic_uncertainty"
+    ],
+    "rationale": "The person is assessing whether the finding is normal or abnormal, expressing a sense of uncertainty ('komisch').",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_no advice_cycle_25.txt",
+      "row": 45
+    },
+    "model": "google/gemma-4-31b-it",
+    "provider": "CoreWeave",
+    "configuration_name": "gemma-4-31b-it-260402"
+  },
+  {
+    "phrase": "Ich glaube schon, ich bin mir nicht so sicher, glaube ja.",
+    "context": "aber ich finde das schon komisch. Ich glaube schon, ich bin mir nicht so sicher, glaube ja.",
+    "tags": [
+      "confidence_low: concrete"
+    ],
+    "rationale": "The person explicitly expresses low certainty regarding their diagnostic process ('ich bin mir nicht so sicher').",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_no advice_cycle_25.txt",
+      "row": 45
+    },
+    "model": "google/gemma-4-31b-it",
+    "provider": "CoreWeave",
+    "configuration_name": "gemma-4-31b-it-260402"
+  },
+  {
+    "phrase": "Hm, das finde ich schon ein bisschen auffällig da.",
+    "context": "Hm, das finde ich schon ein bisschen auffällig da. Mhm, würde auch zu plötzlichen Kopfschmerzen passen.",
+    "tags": [
+      "indicator: anomaly_detected"
+    ],
+    "rationale": "The person notices something 'auffällig' (conspicuous/striking), which indicates the detection of an abnormality.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_no advice_cycle_25.txt",
+      "row": 49
+    },
+    "model": "google/gemma-4-31b-it",
+    "provider": "CoreWeave",
+    "configuration_name": "gemma-4-31b-it-260402"
+  },
+  {
+    "phrase": "Mhm, würde auch zu plötzlichen Kopfschmerzen passen.",
+    "context": "Hm, das finde ich schon ein bisschen auffällig da. Mhm, würde auch zu plötzlichen Kopfschmerzen passen. Man muss gucken",
+    "tags": [
+      "reasoning: conclusion_contextual_information"
+    ],
+    "rationale": "The person connects the visual finding with the medical symptom (sudden headache) to draw a conclusion.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_no advice_cycle_25.txt",
+      "row": 49
+    },
+    "model": "google/gemma-4-31b-it",
+    "provider": "CoreWeave",
+    "configuration_name": "gemma-4-31b-it-260402"
+  },
+  {
+    "phrase": "Man muss gucken, ob die Person Nackensteifigkeit? hat.",
+    "context": "würde auch zu plötzlichen Kopfschmerzen passen. Man muss gucken, ob die Person Nackensteifigkeit? hat. Aber ich glaube schon",
+    "tags": [
+      "control: missing_information"
+    ],
+    "rationale": "The person expresses a need for more clinical information (nuchal rigidity) to further the diagnosis.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_no advice_cycle_25.txt",
+      "row": 49
+    },
+    "model": "google/gemma-4-31b-it",
+    "provider": "CoreWeave",
+    "configuration_name": "gemma-4-31b-it-260402"
+  },
+  {
+    "phrase": "Aber ich glaube schon, dass das da eine Blutung ist.",
+    "context": "ob die Person Nackensteifigkeit? hat. Aber ich glaube schon, dass das da eine Blutung ist. Ja, hier.",
+    "tags": [
+      "interpretation: bleeding",
+      "confidence_low: secondary"
+    ],
+    "rationale": "The person interprets the finding as a hemorrhage ('Blutung'). The phrase 'ich glaube schon' (I believe/think so) indicates a level of implicit uncertainty.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_no advice_cycle_25.txt",
+      "row": 49
+    },
+    "model": "google/gemma-4-31b-it",
+    "provider": "CoreWeave",
+    "configuration_name": "gemma-4-31b-it-260402"
+  },
+  {
+    "phrase": "Ja, hier.",
+    "context": "dass das da eine Blutung ist. Ja, hier.",
+    "tags": [
+      "other"
+    ],
+    "rationale": "This is a spatial reference/confirmation that does not fit into the specific diagnostic or reasoning categories provided.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_no advice_cycle_25.txt",
+      "row": 49
+    },
+    "model": "google/gemma-4-31b-it",
+    "provider": "CoreWeave",
+    "configuration_name": "gemma-4-31b-it-260402"
+  }
+]

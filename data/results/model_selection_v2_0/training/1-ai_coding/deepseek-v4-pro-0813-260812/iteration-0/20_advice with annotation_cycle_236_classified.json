@@ -1,0 +1,2831 @@
+[
+  {
+    "phrase": "Auch hier ist es symetrisch … und …",
+    "context": "Auch hier ist es symetrisch … und …",
+    "tags": [
+      "visual_search: description_of_medical_image_features"
+    ],
+    "rationale": "The person describes a feature of the medical image (symmetry), indicating they are currently examining anatomical structures or image characteristics.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 9
+    },
+    "model": "deepseek/deepseek-v4-pro-0813",
+    "provider": "Sail Research",
+    "configuration_name": "deepseek-v4-pro-0813-260812"
+  },
+  {
+    "phrase": "Kein Zeichen für eine Blutung",
+    "context": "Man sieht hier auch keine Knochen, ähm Defekt … Kein Zeichen für eine Blutung.",
+    "tags": [
+      "interpretation: no_bleeding"
+    ],
+    "rationale": "The person explicitly states that there is no sign of a hemorrhage, which directly corresponds to the interpretation of 'no bleeding'.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 10
+    },
+    "model": "deepseek/deepseek-v4-pro-0813",
+    "provider": "Sail Research",
+    "configuration_name": "deepseek-v4-pro-0813-260812"
+  },
+  {
+    "phrase": "Fang ich wieder von vorne an und schau auf die Mittellinie.",
+    "context": "Fang ich wieder von vorne an und schau auf die Mittellinie. Und auf die Ränder vom Knochen, es sind aber keine Unterschiede zu sehen.",
+    "tags": [
+      "visual_search: description_of_own_approach_without_external_help",
+      "visual_search: description_of_medical_image_features"
+    ],
+    "rationale": "The person explicitly describes their own search procedure ('Fang ich wieder von vorne an') and states which anatomical structures they are looking at ('Mittellinie', 'Ränder vom Knochen').",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 8
+    },
+    "model": "deepseek/deepseek-v4-pro-0813",
+    "provider": "Sail Research",
+    "configuration_name": "deepseek-v4-pro-0813-260812"
+  },
+  {
+    "phrase": "es sind aber keine Unterschiede zu sehen.",
+    "context": "Und auf die Ränder vom Knochen, es sind aber keine Unterschiede zu sehen.",
+    "tags": [
+      "indicator: no_bleeding"
+    ],
+    "rationale": "The person classifies the examined image area as unremarkable, indicating no abnormality or bleeding.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 8
+    },
+    "model": "deepseek/deepseek-v4-pro-0813",
+    "provider": "Sail Research",
+    "configuration_name": "deepseek-v4-pro-0813-260812"
+  },
+  {
+    "phrase": "So, Mittellienie mitte wir habe hir alles symetrich und keine Signalverstärkung, ja",
+    "context": "So, Mittellienie mitte wir habe hir alles symetrich und keine Signalverstärkung, ja",
+    "tags": [
+      "indicator: no_bleeding"
+    ],
+    "rationale": "The person describes the image area as symmetric and without signal enhancement, classifying it as unremarkable.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 5
+    },
+    "model": "deepseek/deepseek-v4-pro-0813",
+    "provider": "Sail Research",
+    "configuration_name": "deepseek-v4-pro-0813-260812"
+  },
+  {
+    "phrase": "Das hilft einem sowohl beim Ausschluss, das man ein bisschen eher auf der sichern Seite, dass man nichts verpasst hat",
+    "context": "Das hilft einem sowohl beim Ausschluss, das man ein bisschen eher auf der sichern Seite, dass man nichts verpasst hat, auf jeden Fall schneller vorbei hier.",
+    "tags": [
+      "reflection_of_ai: helpful"
+    ],
+    "rationale": "The person describes the AI as helpful because it provides a safety net, ensuring nothing is missed during the diagnostic process.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 11
+    },
+    "model": "deepseek/deepseek-v4-pro-0813",
+    "provider": "Wafer",
+    "configuration_name": "deepseek-v4-pro-0813-260812"
+  },
+  {
+    "phrase": "auf jeden Fall schneller vorbei hier",
+    "context": "dass man nichts verpasst hat, auf jeden Fall schneller vorbei hier. Ja wann da was dabei ist, dass man ein bisschen besser drauf achtet.",
+    "tags": [
+      "reflection_of_ai: helpful"
+    ],
+    "rationale": "The person states that the process is faster with the AI, indicating they perceive the AI as helpful in improving efficiency.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 11
+    },
+    "model": "deepseek/deepseek-v4-pro-0813",
+    "provider": "Wafer",
+    "configuration_name": "deepseek-v4-pro-0813-260812"
+  },
+  {
+    "phrase": "Ja wann da was dabei ist, dass man ein bisschen besser drauf achtet.",
+    "context": "auf jeden Fall schneller vorbei hier. Ja wann da was dabei ist, dass man ein bisschen besser drauf achtet.",
+    "tags": [
+      "reflection_of_ai: helpful"
+    ],
+    "rationale": "The person notes that the AI helps them pay better attention when something is present, again indicating the AI is perceived as helpful.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 11
+    },
+    "model": "deepseek/deepseek-v4-pro-0813",
+    "provider": "Wafer",
+    "configuration_name": "deepseek-v4-pro-0813-260812"
+  },
+  {
+    "phrase": "Achso ich muss das immer so machen dann.",
+    "context": "VPN: Achso ich muss das immer so machen dann. EXPERIMENTER: Ja du kannst das leider nicht übernehmen, also du musst bei jedem Fall das neu einstellen.",
+    "tags": [
+      "technical_conversation"
+    ],
+    "rationale": "The person is discussing a technical aspect of the display tool/task with the experimenter.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 1
+    },
+    "model": "deepseek/deepseek-v4-pro-0813",
+    "provider": "Sail Research",
+    "configuration_name": "deepseek-v4-pro-0813-260812"
+  },
+  {
+    "phrase": "scroll ich jetzt systematsich von oben nach untern oder unten nach oben und gucke immer auf beiden Seiten auf Knochen, auf irgenwelche Defekte da sind, die dann wo. ich dann eine Blutung vermuten könnte.",
+    "context": "VPN: Mhm alles gut, scroll ich jetzt systematsich von oben nach untern oder unten nach oben und gucke immer auf beiden Seiten auf Knochen, auf irgenwelche Defekte da sind, die dann wo. ich dann eine Blutung vermuten könnte.",
+    "tags": [
+      "visual_search: description_of_own_approach_without_external_help"
+    ],
+    "rationale": "The person explicitly describes their own systematic search procedure (scrolling from top to bottom, checking both sides for bone defects) without external help.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 1
+    },
+    "model": "deepseek/deepseek-v4-pro-0813",
+    "provider": "Sail Research",
+    "configuration_name": "deepseek-v4-pro-0813-260812"
+  },
+  {
+    "phrase": "Aber hier sieht das alles, alles symetrisch und keine Aufhellung oder so, deswegen mhm das hilft mir wirklich zu sagen, das das wirklich keiner ist",
+    "context": "Aber hier sieht das alles, alles symetrisch und keine Aufhellung oder so, deswegen mhm das hilft mir wirklich zu sagen, das das wirklich keiner ist Ich würde schneller einfach durchgehen.",
+    "tags": [
+      "indicator: no_bleeding",
+      "interpretation: no_bleeding",
+      "confidence_high: secondary"
+    ],
+    "rationale": "The person classifies the image area as unremarkable (symmetrical, no brightening), interprets this as no hemorrhage, and expresses high certainty implicitly through 'wirklich'.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 1
+    },
+    "model": "deepseek/deepseek-v4-pro-0813",
+    "provider": "Sail Research",
+    "configuration_name": "deepseek-v4-pro-0813-260812"
+  },
+  {
+    "phrase": "Ich würde schneller einfach durchgehen.",
+    "context": "deswegen mhm das hilft mir wirklich zu sagen, das das wirklich keiner ist Ich würde schneller einfach durchgehen.",
+    "tags": [
+      "visual_search: description_of_own_approach_without_external_help"
+    ],
+    "rationale": "The person comments on their own search procedure, stating they would go through the images faster.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 1
+    },
+    "model": "deepseek/deepseek-v4-pro-0813",
+    "provider": "Sail Research",
+    "configuration_name": "deepseek-v4-pro-0813-260812"
+  },
+  {
+    "phrase": "oben in der Mittellinie sieht man ein Aufhellung",
+    "context": "Oh, oh no … mhm … oben in der Mittellinie sieht man ein Aufhellung. ??? Oben ist aber schon nichts mehr, aber da ist was auffälliges dran",
+    "tags": [
+      "indicator: anomaly_detected"
+    ],
+    "rationale": "The person notices an abnormality ('Aufhellung') in the midline, which is atypical for a healthy skull.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 12
+    },
+    "model": "deepseek/deepseek-v4-pro-0813",
+    "provider": "Sail Research",
+    "configuration_name": "deepseek-v4-pro-0813-260812"
+  },
+  {
+    "phrase": "da ist was auffälliges dran",
+    "context": "Oben ist aber schon nichts mehr, aber da ist was auffälliges dran",
+    "tags": [
+      "indicator: anomaly_detected"
+    ],
+    "rationale": "The person explicitly states that something conspicuous is present, indicating the detection of an anomaly.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 12
+    },
+    "model": "deepseek/deepseek-v4-pro-0813",
+    "provider": "Sail Research",
+    "configuration_name": "deepseek-v4-pro-0813-260812"
+  },
+  {
+    "phrase": "So, fangen wir wieder oben an",
+    "context": "So, fangen wir wieder oben an … und hier sieht man auch erstmal, mhm keine Veränderung.",
+    "tags": [
+      "visual_search: description_of_own_approach_without_external_help"
+    ],
+    "rationale": "The person explicitly comments on their own search procedure by stating they are starting at the top again.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 7
+    },
+    "model": "deepseek/deepseek-v4-pro-0813",
+    "provider": "Sail Research",
+    "configuration_name": "deepseek-v4-pro-0813-260812"
+  },
+  {
+    "phrase": "hier sieht man auch erstmal, mhm keine Veränderung",
+    "context": "So, fangen wir wieder oben an … und hier sieht man auch erstmal, mhm keine Veränderung. Ich gucke mal, beidseitig",
+    "tags": [
+      "indicator: no_bleeding"
+    ],
+    "rationale": "The person classifies a specific image area as unremarkable ('keine Veränderung').",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 7
+    },
+    "model": "deepseek/deepseek-v4-pro-0813",
+    "provider": "Sail Research",
+    "configuration_name": "deepseek-v4-pro-0813-260812"
+  },
+  {
+    "phrase": "Ich gucke mal, beidseitig",
+    "context": "und hier sieht man auch erstmal, mhm keine Veränderung. Ich gucke mal, beidseitig, aber … ah ja, da ist der",
+    "tags": [
+      "visual_search: description_of_own_approach_without_external_help"
+    ],
+    "rationale": "The person explicitly comments on their own search procedure by stating they are looking at both sides.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 7
+    },
+    "model": "deepseek/deepseek-v4-pro-0813",
+    "provider": "Sail Research",
+    "configuration_name": "deepseek-v4-pro-0813-260812"
+  },
+  {
+    "phrase": "ah ja, da ist der, auf der Seite ist ein Saum",
+    "context": "Ich gucke mal, beidseitig, aber … ah ja, da ist der, auf der Seite ist ein Saum, was auf eine Blutung hindeuten könnte",
+    "tags": [
+      "indicator: anomaly_detected"
+    ],
+    "rationale": "The person notices an abnormality ('ein Saum') atypical for a healthy skull.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 7
+    },
+    "model": "deepseek/deepseek-v4-pro-0813",
+    "provider": "Sail Research",
+    "configuration_name": "deepseek-v4-pro-0813-260812"
+  },
+  {
+    "phrase": "was auf eine Blutung hindeuten könnte, oder bestimmt hindeutet",
+    "context": "ah ja, da ist der, auf der Seite ist ein Saum, was auf eine Blutung hindeuten könnte, oder bestimmt hindeutet.",
+    "tags": [
+      "interpretation: bleeding",
+      "confidence_high: secondary"
+    ],
+    "rationale": "The person interprets the abnormality as a hemorrhage, and the self-correction to 'bestimmt hindeutet' implicitly shows high certainty.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 7
+    },
+    "model": "deepseek/deepseek-v4-pro-0813",
+    "provider": "Sail Research",
+    "configuration_name": "deepseek-v4-pro-0813-260812"
+  },
+  {
+    "phrase": "Ja schau ich wieder auf die Mittellinie und auf den Schädelknochen",
+    "context": "… Ja schau ich wieder auf die Mittellinie und auf den Schädelknochen … ich guck mir schon auf der anderen Seite vom AI an, ob ich irgendwas verpasst hab.",
+    "tags": [
+      "visual_search: description_of_medical_image_features"
+    ],
+    "rationale": "The person verbalizes which anatomical structures they are currently looking at (midline and skull bone).",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 6
+    },
+    "model": "deepseek/deepseek-v4-pro-0813",
+    "provider": "Sail Research",
+    "configuration_name": "deepseek-v4-pro-0813-260812"
+  },
+  {
+    "phrase": "ich guck mir schon auf der anderen Seite vom AI an, ob ich irgendwas verpasst hab",
+    "context": "… ich guck mir schon auf der anderen Seite vom AI an, ob ich irgendwas verpasst hab. Aber hier wird mir nicht angezeigt, wo das ist ha?",
+    "tags": [
+      "visual_search: triggered_by_ai"
+    ],
+    "rationale": "The person aligns their visual approach with the AI information by checking the side indicated by the AI for missed findings.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 6
+    },
+    "model": "deepseek/deepseek-v4-pro-0813",
+    "provider": "Sail Research",
+    "configuration_name": "deepseek-v4-pro-0813-260812"
+  },
+  {
+    "phrase": "Aber hier wird mir nicht angezeigt, wo das ist ha? Also dieses Viereck ist jetzt nicht da. Wo die Blutung sein sollte, jetzt als Frage.",
+    "context": "Aber hier wird mir nicht angezeigt, wo das ist ha? Also dieses Viereck ist jetzt nicht da. Wo die Blutung sein sollte, jetzt als Frage. Tschuldigung.",
+    "tags": [
+      "technical_conversation"
+    ],
+    "rationale": "The person discusses a technical issue with the display tool, specifically that the AI marking box is not shown.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 6
+    },
+    "model": "deepseek/deepseek-v4-pro-0813",
+    "provider": "Sail Research",
+    "configuration_name": "deepseek-v4-pro-0813-260812"
+  },
+  {
+    "phrase": "Achso, ja also bei diesem Bild zeigt mir das jetzt nicht an, wo das ist, ist das richtig? Ist das nur manchmal, oder?",
+    "context": "Achso, ja also bei diesem Bild zeigt mir das jetzt nicht an, wo das ist, ist das richtig? Ist das nur manchmal, oder?",
+    "tags": [
+      "technical_conversation"
+    ],
+    "rationale": "The person asks the experimenter about the technical behavior of the AI display, indicating a technical difficulty with the tool.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 6
+    },
+    "model": "deepseek/deepseek-v4-pro-0813",
+    "provider": "Sail Research",
+    "configuration_name": "deepseek-v4-pro-0813-260812"
+  },
+  {
+    "phrase": "Ah da, ja dankeschön, aber auch das hätte ich gar nicht gesehen.",
+    "context": "Ah da, ja dankeschön, aber auch das hätte ich gar nicht gesehen. Mhm ohne AI hätte ich gedacht, dass ist irgendwie einen Artefakt, hätte ich nicht gesehen",
+    "tags": [
+      "reflection_of_ai: ich_not_recognized_without_ai"
+    ],
+    "rationale": "The person states they would not have recognized the hemorrhage without the AI.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 6
+    },
+    "model": "deepseek/deepseek-v4-pro-0813",
+    "provider": "Sail Research",
+    "configuration_name": "deepseek-v4-pro-0813-260812"
+  },
+  {
+    "phrase": "ohne AI hätte ich gedacht, dass ist irgendwie einen Artefakt, hätte ich nicht gesehen",
+    "context": "Mhm ohne AI hätte ich gedacht, dass ist irgendwie einen Artefakt, hätte ich nicht gesehen, finde es immernich schwer, so es sieht so aus, wie ein Artefakt irgendwie",
+    "tags": [
+      "reasoning: artifact",
+      "reflection_of_ai: ich_not_recognized_without_ai"
+    ],
+    "rationale": "The person says they would have interpreted the finding as an artifact without the AI, and again states they would not have seen it without AI.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 6
+    },
+    "model": "deepseek/deepseek-v4-pro-0813",
+    "provider": "Sail Research",
+    "configuration_name": "deepseek-v4-pro-0813-260812"
+  },
+  {
+    "phrase": "finde es immernich schwer, so es sieht so aus, wie ein Artefakt irgendwie",
+    "context": "hätte ich nicht gesehen, finde es immernich schwer, so es sieht so aus, wie ein Artefakt irgendwie",
+    "tags": [
+      "awareness_of_task: difficult",
+      "reasoning: artifact"
+    ],
+    "rationale": "The person perceives the task as difficult and again attributes the appearance to an artifact.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 6
+    },
+    "model": "deepseek/deepseek-v4-pro-0813",
+    "provider": "Sail Research",
+    "configuration_name": "deepseek-v4-pro-0813-260812"
+  },
+  {
+    "phrase": "Hier kann ich aber, ich will ja wissen, dass ich nichts verpasst habe.",
+    "context": "Hier kann ich aber, ich will ja wissen, dass ich nichts verpasst habe.",
+    "tags": [
+      "control: reflective_question"
+    ],
+    "rationale": "The person expresses a need to verify that nothing has been missed, which is a self-checking or controlling thought process.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 15
+    },
+    "model": "deepseek/deepseek-v4-pro-0813",
+    "provider": "Sail Research",
+    "configuration_name": "deepseek-v4-pro-0813-260812"
+  },
+  {
+    "phrase": "So, hier fange ich auch wieder von vorne an.",
+    "context": "So, hier fange ich auch wieder von vorne an. Sieht bis jetzt alles symmetrisch aus und ich sehe noch keine Blutung.",
+    "tags": [
+      "visual_search: description_of_own_approach_without_external_help"
+    ],
+    "rationale": "The person explicitly comments on their own search procedure by stating they are starting from the beginning again.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 3
+    },
+    "model": "deepseek/deepseek-v4-pro-0813",
+    "provider": "Sail Research",
+    "configuration_name": "deepseek-v4-pro-0813-260812"
+  },
+  {
+    "phrase": "Sieht bis jetzt alles symmetrisch aus",
+    "context": "So, hier fange ich auch wieder von vorne an. Sieht bis jetzt alles symmetrisch aus und ich sehe noch keine Blutung.",
+    "tags": [
+      "visual_search: description_of_medical_image_features"
+    ],
+    "rationale": "The person verbalizes which image characteristics they are currently checking, namely symmetry.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 3
+    },
+    "model": "deepseek/deepseek-v4-pro-0813",
+    "provider": "Sail Research",
+    "configuration_name": "deepseek-v4-pro-0813-260812"
+  },
+  {
+    "phrase": "ich sehe noch keine Blutung",
+    "context": "Sieht bis jetzt alles symmetrisch aus und ich sehe noch keine Blutung. Hier wird mir, ach ja, diese Punkte angezeigt, diese Aufhellung.",
+    "tags": [
+      "interpretation: no_bleeding"
+    ],
+    "rationale": "The person interprets the current findings as 'no hemorrhage'.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 3
+    },
+    "model": "deepseek/deepseek-v4-pro-0813",
+    "provider": "Sail Research",
+    "configuration_name": "deepseek-v4-pro-0813-260812"
+  },
+  {
+    "phrase": "Hier wird mir, ach ja, diese Punkte angezeigt, diese Aufhellung.",
+    "context": "ich sehe noch keine Blutung. Hier wird mir, ach ja, diese Punkte angezeigt, diese Aufhellung. Das, es verschwindet danach aber auf der anderen Seite ist auch nichts, ja.",
+    "tags": [
+      "indicator: anomaly_detected"
+    ],
+    "rationale": "The person notices an abnormality (bright spots) that is atypical for a healthy skull.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 3
+    },
+    "model": "deepseek/deepseek-v4-pro-0813",
+    "provider": "Sail Research",
+    "configuration_name": "deepseek-v4-pro-0813-260812"
+  },
+  {
+    "phrase": "Das, es verschwindet danach aber auf der anderen Seite ist auch nichts, ja.",
+    "context": "Hier wird mir, ach ja, diese Punkte angezeigt, diese Aufhellung. Das, es verschwindet danach aber auf der anderen Seite ist auch nichts, ja.",
+    "tags": [
+      "indicator: no_bleeding"
+    ],
+    "rationale": "The person classifies the specific image area as unremarkable after the bright spot disappears and the other side shows nothing.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 3
+    },
+    "model": "deepseek/deepseek-v4-pro-0813",
+    "provider": "Sail Research",
+    "configuration_name": "deepseek-v4-pro-0813-260812"
+  },
+  {
+    "phrase": "Ich hätte jetzt persönlich nicht erkannt, dass es jetzt unbedingt eine Blutung da ist, weil auf der anderen Seite sieht es also von der Hemisphäre sieht es auch so ähnlich aus und es wurde halt von der AI nicht erkannt.",
+    "context": "Ähm! Ich hätte jetzt persönlich nicht erkannt, dass es jetzt unbedingt eine Blutung da ist, weil auf der anderen Seite sieht es also von der Hemisphäre sieht es auch so ähnlich aus und es wurde halt von der AI nicht erkannt.",
+    "tags": [
+      "confidence_low: concrete",
+      "reflection: diagnostic_uncertainty",
+      "ai_report: no_ich"
+    ],
+    "rationale": "The person explicitly expresses low certainty about recognizing a hemorrhage and reflects on the uncertainty of the finding, noting the AI did not detect it.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 0
+    },
+    "model": "deepseek/deepseek-v4-pro-0813",
+    "provider": "Sail Research",
+    "configuration_name": "deepseek-v4-pro-0813-260812"
+  },
+  {
+    "phrase": "Ich habe da nicht so Erfahrung mit, aber ich hätte gedacht, vielleicht ist es irgendwie normal, wenn es irgendwie beidseitig ist.",
+    "context": "Ich habe da nicht so Erfahrung mit, aber ich hätte gedacht, vielleicht ist es irgendwie normal, wenn es irgendwie beidseitig ist. Deswegen...",
+    "tags": [
+      "reflection: experience_limitation",
+      "reasoning: alternative_medical_structure",
+      "confidence_low: secondary"
+    ],
+    "rationale": "The person refers to their own lack of experience and considers the possibility that the finding is normal due to bilateral symmetry, implicitly expressing uncertainty.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 0
+    },
+    "model": "deepseek/deepseek-v4-pro-0813",
+    "provider": "Sail Research",
+    "configuration_name": "deepseek-v4-pro-0813-260812"
+  },
+  {
+    "phrase": "Ich muss trotzdem selber erkennen, ob das also das ist, jetzt nicht.",
+    "context": "Ich muss trotzdem selber erkennen, ob das also das ist, jetzt nicht. Wenn das AI sagt, dass es, dass es eine Blutung da ist, muss es nicht unbedingt sein, oder?",
+    "tags": [
+      "control: make_own_judgement",
+      "reflection: self-monitoring"
+    ],
+    "rationale": "The person emphasizes the need to make their own judgment independent of the AI, while also commenting on their own diagnostic process.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 0
+    },
+    "model": "deepseek/deepseek-v4-pro-0813",
+    "provider": "Sail Research",
+    "configuration_name": "deepseek-v4-pro-0813-260812"
+  },
+  {
+    "phrase": "Wenn das AI sagt, dass es, dass es eine Blutung da ist, muss es nicht unbedingt sein, oder?",
+    "context": "Ich muss trotzdem selber erkennen, ob das also das ist, jetzt nicht. Wenn das AI sagt, dass es, dass es eine Blutung da ist, muss es nicht unbedingt sein, oder?",
+    "tags": [
+      "reflection_of_ai: distrust_in_ai",
+      "control: reflective_question"
+    ],
+    "rationale": "The person questions the reliability of the AI's positive finding, indicating distrust, and asks themselves a reflective question to verify their thought process.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 0
+    },
+    "model": "deepseek/deepseek-v4-pro-0813",
+    "provider": "Sail Research",
+    "configuration_name": "deepseek-v4-pro-0813-260812"
+  },
+  {
+    "phrase": "Okay, ich gehe schon davon aus, dass es ist.",
+    "context": "Okay, ich gehe schon davon aus, dass es ist. Hm! Ja, aber gut, ich sage einfach ja, und ich bin nicht so kompetent, eben weil die andere Seite nicht detektiert wurde, und das sieht sehr ähnlich aus.",
+    "tags": [
+      "decision_with_ai: implicitly_agreeing_with_ai",
+      "confidence_high: secondary"
+    ],
+    "rationale": "The person implicitly agrees with the AI's assessment by assuming the hemorrhage is present, and the phrase 'gehe schon davon aus' indicates a degree of certainty.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 0
+    },
+    "model": "deepseek/deepseek-v4-pro-0813",
+    "provider": "Sail Research",
+    "configuration_name": "deepseek-v4-pro-0813-260812"
+  },
+  {
+    "phrase": "ich bin nicht so kompetent, eben weil die andere Seite nicht detektiert wurde, und das sieht sehr ähnlich aus.",
+    "context": "Ja, aber gut, ich sage einfach ja, und ich bin nicht so kompetent, eben weil die andere Seite nicht detektiert wurde, und das sieht sehr ähnlich aus. Aber keine Ahnung.",
+    "tags": [
+      "reflection: experience_limitation",
+      "confidence_low: concrete",
+      "ai_report: no_ich"
+    ],
+    "rationale": "The person explicitly states their lack of competence and low confidence, attributing it to the AI not detecting a similar finding on the other side.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 0
+    },
+    "model": "deepseek/deepseek-v4-pro-0813",
+    "provider": "Sail Research",
+    "configuration_name": "deepseek-v4-pro-0813-260812"
+  },
+  {
+    "phrase": "Aber keine Ahnung.",
+    "context": "Ja, aber gut, ich sage einfach ja, und ich bin nicht so kompetent, eben weil die andere Seite nicht detektiert wurde, und das sieht sehr ähnlich aus. Aber keine Ahnung.",
+    "tags": [
+      "confidence_low: concrete"
+    ],
+    "rationale": "The person explicitly expresses low certainty with the phrase 'keine Ahnung'.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 0
+    },
+    "model": "deepseek/deepseek-v4-pro-0813",
+    "provider": "Sail Research",
+    "configuration_name": "deepseek-v4-pro-0813-260812"
+  },
+  {
+    "phrase": "So ich guck erstmal ohne AI.",
+    "context": "So ich guck erstmal ohne AI. Ich schau auf Mittellinie und auf Knochendefekte.",
+    "tags": [
+      "visual_search: description_of_own_approach_without_external_help"
+    ],
+    "rationale": "The person explicitly states their approach of first looking without AI assistance, describing their own search procedure.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 21
+    },
+    "model": "deepseek/deepseek-v4-pro-0813",
+    "provider": "Sail Research",
+    "configuration_name": "deepseek-v4-pro-0813-260812"
+  },
+  {
+    "phrase": "Ich schau auf Mittellinie und auf Knochendefekte.",
+    "context": "So ich guck erstmal ohne AI. Ich schau auf Mittellinie und auf Knochendefekte. … Auf Unterschiede auf beiden Seiten",
+    "tags": [
+      "visual_search: description_of_medical_image_features"
+    ],
+    "rationale": "The person verbalizes which anatomical structures (midline, bone defects) they are currently examining.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 21
+    },
+    "model": "deepseek/deepseek-v4-pro-0813",
+    "provider": "Sail Research",
+    "configuration_name": "deepseek-v4-pro-0813-260812"
+  },
+  {
+    "phrase": "Auf Unterschiede auf beiden Seiten, ist mir nichts aufgefallen",
+    "context": "Ich schau auf Mittellinie und auf Knochendefekte. … Auf Unterschiede auf beiden Seiten, ist mir nichts aufgefallen, aber sollte da was sein?",
+    "tags": [
+      "indicator: no_bleeding"
+    ],
+    "rationale": "The person classifies the examined areas as unremarkable, noting no differences were noticed.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 21
+    },
+    "model": "deepseek/deepseek-v4-pro-0813",
+    "provider": "Sail Research",
+    "configuration_name": "deepseek-v4-pro-0813-260812"
+  },
+  {
+    "phrase": "aber sollte da was sein?",
+    "context": "Auf Unterschiede auf beiden Seiten, ist mir nichts aufgefallen, aber sollte da was sein? Ich guck jetzt auf der AI Seite",
+    "tags": [
+      "control: reflective_question"
+    ],
+    "rationale": "The person asks themselves a question to verify their own thought process, reflecting on whether something should be present.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 21
+    },
+    "model": "deepseek/deepseek-v4-pro-0813",
+    "provider": "Sail Research",
+    "configuration_name": "deepseek-v4-pro-0813-260812"
+  },
+  {
+    "phrase": "Ich guck jetzt auf der AI Seite",
+    "context": "aber sollte da was sein? Ich guck jetzt auf der AI Seite, da ist schon ah, da ist schon angeblich unter deer Schädelkalotte was was ich nicht gesehen hätte unbedingt.",
+    "tags": [
+      "visual_search: triggered_by_ai"
+    ],
+    "rationale": "The person aligns their visual approach with the AI information, now looking at the AI side.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 21
+    },
+    "model": "deepseek/deepseek-v4-pro-0813",
+    "provider": "Sail Research",
+    "configuration_name": "deepseek-v4-pro-0813-260812"
+  },
+  {
+    "phrase": "da ist schon angeblich unter deer Schädelkalotte was was ich nicht gesehen hätte unbedingt.",
+    "context": "Ich guck jetzt auf der AI Seite, da ist schon ah, da ist schon angeblich unter deer Schädelkalotte was was ich nicht gesehen hätte unbedingt.",
+    "tags": [
+      "ai_report: ich_localization"
+    ],
+    "rationale": "The person describes where the AI locates the hemorrhage (under the skull cap).",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 21
+    },
+    "model": "deepseek/deepseek-v4-pro-0813",
+    "provider": "Sail Research",
+    "configuration_name": "deepseek-v4-pro-0813-260812"
+  },
+  {
+    "phrase": "was ich nicht gesehen hätte unbedingt.",
+    "context": "da ist schon angeblich unter deer Schädelkalotte was was ich nicht gesehen hätte unbedingt.",
+    "tags": [
+      "reflection_of_ai: ich_not_recognized_without_ai"
+    ],
+    "rationale": "The person indicates they would not have necessarily recognized the hemorrhage without the AI.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 21
+    },
+    "model": "deepseek/deepseek-v4-pro-0813",
+    "provider": "Sail Research",
+    "configuration_name": "deepseek-v4-pro-0813-260812"
+  },
+  {
+    "phrase": "normal fange ich immer irgwendwie von oben oder von untern an, dass ich nichts verpasse",
+    "context": "Mhm, ja normal fange ich immer irgwendwie von oben oder von untern an, dass ich nichts verpasse. Mhm Mittellinie ist in der Mitte",
+    "tags": [
+      "visual_search: description_of_own_approach_without_external_help"
+    ],
+    "rationale": "The person explicitly describes their own systematic search procedure to avoid missing anything.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 2
+    },
+    "model": "deepseek/deepseek-v4-pro-0813",
+    "provider": "Sail Research",
+    "configuration_name": "deepseek-v4-pro-0813-260812"
+  },
+  {
+    "phrase": "Mittellinie ist in der Mitte, sehe keine Knochen ähm Brüche",
+    "context": "dass ich nichts verpasse. Mhm Mittellinie ist in der Mitte, sehe keine Knochen ähm Brüche, mhm hier zeigt der mir gerade ne Blutung",
+    "tags": [
+      "visual_search: description_of_medical_image_features"
+    ],
+    "rationale": "The person verbalizes which anatomical structures they are currently checking, such as the midline and bones.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 2
+    },
+    "model": "deepseek/deepseek-v4-pro-0813",
+    "provider": "Sail Research",
+    "configuration_name": "deepseek-v4-pro-0813-260812"
+  },
+  {
+    "phrase": "hier zeigt der mir gerade ne Blutung in dem Bereich",
+    "context": "sehe keine Knochen ähm Brüche, mhm hier zeigt der mir gerade ne Blutung in dem Bereich, das ist sehr sehr dezent",
+    "tags": [
+      "ai_report: ich",
+      "ai_report: ich_localization"
+    ],
+    "rationale": "The person states that the AI is showing a hemorrhage in a specific area, which reports both the AI finding and its localization.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 2
+    },
+    "model": "deepseek/deepseek-v4-pro-0813",
+    "provider": "Sail Research",
+    "configuration_name": "deepseek-v4-pro-0813-260812"
+  },
+  {
+    "phrase": "das ist sehr sehr dezent, zumindest in meinem Bildschirm hätte ich das auf jeden Fall nicht erkannt sonnst",
+    "context": "hier zeigt der mir gerade ne Blutung in dem Bereich, das ist sehr sehr dezent, zumindest in meinem Bildschirm hätte ich das auf jeden Fall nicht erkannt sonnst, deswegen",
+    "tags": [
+      "reflection_of_ai: ich_not_recognized_without_ai"
+    ],
+    "rationale": "The person explicitly states that they would not have recognized the hemorrhage without the AI.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 2
+    },
+    "model": "deepseek/deepseek-v4-pro-0813",
+    "provider": "Sail Research",
+    "configuration_name": "deepseek-v4-pro-0813-260812"
+  },
+  {
+    "phrase": "wo war das nochmal?",
+    "context": "hätte ich das auf jeden Fall nicht erkannt sonnst, deswegen, ist nicht, wo war das nochmal? ... Da angeblich",
+    "tags": [
+      "control: reflective_question"
+    ],
+    "rationale": "The person asks themselves a question to verify or control their own thought process regarding the location of the finding.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 2
+    },
+    "model": "deepseek/deepseek-v4-pro-0813",
+    "provider": "Sail Research",
+    "configuration_name": "deepseek-v4-pro-0813-260812"
+  },
+  {
+    "phrase": "Da angeblich, ja ich hätte das nicht gesehen",
+    "context": "wo war das nochmal? ... Da angeblich, ja ich hätte das nicht gesehen.",
+    "tags": [
+      "reflection_of_ai: ich_not_recognized_without_ai"
+    ],
+    "rationale": "The person repeats that they would not have seen the hemorrhage without the AI, reinforcing the previous statement.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 2
+    },
+    "model": "deepseek/deepseek-v4-pro-0813",
+    "provider": "Sail Research",
+    "configuration_name": "deepseek-v4-pro-0813-260812"
+  },
+  {
+    "phrase": "Jetzt wieder schneller, weil ich gesagt bekomme, dass da nichts da ist, und mir fällt auch nichts auf.",
+    "context": "Okay. Jetzt wieder schneller, weil ich gesagt bekomme, dass da nichts da ist, und mir fällt auch nichts auf.",
+    "tags": [
+      "ai_report: no_ich",
+      "control: relying_on_ai",
+      "interpretation: no_bleeding"
+    ],
+    "rationale": "The person states that the AI reported no hemorrhage ('gesagt bekomme, dass da nichts da ist') and that they themselves do not notice anything ('mir fällt auch nichts auf'), which corresponds to the AI reporting no ICH and the person interpreting the image as showing no bleeding. The person also indicates that they are proceeding faster because of the AI's information, which shows reliance on the AI.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 24
+    },
+    "model": "deepseek/deepseek-v4-pro-0813",
+    "provider": "Sail Research",
+    "configuration_name": "deepseek-v4-pro-0813-260812"
+  },
+  {
+    "phrase": "Ich seh keine Unterschied",
+    "context": "Schau erstmal wieder auf meine Seite … Ich seh keine Unterschied",
+    "tags": [
+      "interpretation: no_bleeding"
+    ],
+    "rationale": "The person states they see no difference, implying no hemorrhage or abnormality is detected.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 25
+    },
+    "model": "deepseek/deepseek-v4-pro-0813",
+    "provider": "Sail Research",
+    "configuration_name": "deepseek-v4-pro-0813-260812"
+  },
+  {
+    "phrase": "Mhm hier wieder Mittelinie und Schädelkalotte und da drunter auch kein Saum, ist alles ok",
+    "context": "Mhm hier wieder Mittelinie und Schädelkalotte und da drunter auch kein Saum, ist alles ok",
+    "tags": [
+      "visual_search: description_of_medical_image_features",
+      "indicator: no_bleeding",
+      "interpretation: no_bleeding"
+    ],
+    "rationale": "The person describes anatomical structures (Mittellinie, Schädelkalotte) they are checking, classifies the area as unremarkable ('kein Saum'), and concludes that everything is okay, indicating no hemorrhage.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 26
+    },
+    "model": "deepseek/deepseek-v4-pro-0813",
+    "provider": "Sail Research",
+    "configuration_name": "deepseek-v4-pro-0813-260812"
+  },
+  {
+    "phrase": "nichts was auffällig aussieht",
+    "context": "Genau so hier mhm nichts was auffällig aussieht",
+    "tags": [
+      "indicator: no_bleeding"
+    ],
+    "rationale": "The person classifies the image area as unremarkable, stating that nothing looks abnormal.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 27
+    },
+    "model": "deepseek/deepseek-v4-pro-0813",
+    "provider": "Sail Research",
+    "configuration_name": "deepseek-v4-pro-0813-260812"
+  },
+  {
+    "phrase": "sieht man nichts",
+    "context": "Ja hier, sieht man nichts und AI sagt auch es ist nichts da",
+    "tags": [
+      "indicator: no_bleeding"
+    ],
+    "rationale": "The person classifies the image area as unremarkable, stating that nothing is visible.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 18
+    },
+    "model": "deepseek/deepseek-v4-pro-0813",
+    "provider": "Sail Research",
+    "configuration_name": "deepseek-v4-pro-0813-260812"
+  },
+  {
+    "phrase": "AI sagt auch es ist nichts da",
+    "context": "Ja hier, sieht man nichts und AI sagt auch es ist nichts da",
+    "tags": [
+      "ai_report: no_ich"
+    ],
+    "rationale": "The person verbalizes that the AI has not found a hemorrhage.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 18
+    },
+    "model": "deepseek/deepseek-v4-pro-0813",
+    "provider": "Sail Research",
+    "configuration_name": "deepseek-v4-pro-0813-260812"
+  },
+  {
+    "phrase": "Hier ist jetzt alles wieder, unaufällig aus, beiden Sieten",
+    "context": "Hier ist jetzt alles wieder, unaufällig aus, beiden Sieten und AI sagt auch nichts da",
+    "tags": [
+      "indicator: no_bleeding"
+    ],
+    "rationale": "The person classifies the image areas on both sides as unremarkable, indicating no bleeding.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 22
+    },
+    "model": "deepseek/deepseek-v4-pro-0813",
+    "provider": "CoreWeave",
+    "configuration_name": "deepseek-v4-pro-0813-260812"
+  },
+  {
+    "phrase": "AI sagt auch nichts da",
+    "context": "Hier ist jetzt alles wieder, unaufällig aus, beiden Sieten und AI sagt auch nichts da",
+    "tags": [
+      "ai_report: no_ich",
+      "decision_with_ai: implicitly_agreeing_with_ai"
+    ],
+    "rationale": "The person reports that the AI has not found a hemorrhage and implicitly agrees with the AI's assessment by using 'auch' (also).",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 22
+    },
+    "model": "deepseek/deepseek-v4-pro-0813",
+    "provider": "CoreWeave",
+    "configuration_name": "deepseek-v4-pro-0813-260812"
+  },
+  {
+    "phrase": "Hier soll nichts sein und ich sehe auch nichts",
+    "context": "Ok mhm … Hier soll nichts sein und ich sehe auch nichts  und ist beides symetrisch und Ventrikel frei. Unterhalb des Schädelknochen ist alles frei",
+    "tags": [
+      "interpretation: no_bleeding"
+    ],
+    "rationale": "The person states that there should be nothing and they see nothing, interpreting the area as having no hemorrhage.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 20
+    },
+    "model": "deepseek/deepseek-v4-pro-0813",
+    "provider": "Sail Research",
+    "configuration_name": "deepseek-v4-pro-0813-260812"
+  },
+  {
+    "phrase": "ist beides symetrisch und Ventrikel frei",
+    "context": "Hier soll nichts sein und ich sehe auch nichts  und ist beides symetrisch und Ventrikel frei. Unterhalb des Schädelknochen ist alles frei",
+    "tags": [
+      "indicator: no_bleeding"
+    ],
+    "rationale": "The person classifies specific image areas (symmetrical structures and ventricles) as unremarkable.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 20
+    },
+    "model": "deepseek/deepseek-v4-pro-0813",
+    "provider": "Sail Research",
+    "configuration_name": "deepseek-v4-pro-0813-260812"
+  },
+  {
+    "phrase": "Unterhalb des Schädelknochen ist alles frei",
+    "context": "und ist beides symetrisch und Ventrikel frei. Unterhalb des Schädelknochen ist alles frei",
+    "tags": [
+      "indicator: no_bleeding"
+    ],
+    "rationale": "The person classifies the area below the skull bone as unremarkable, indicating no bleeding.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 20
+    },
+    "model": "deepseek/deepseek-v4-pro-0813",
+    "provider": "Sail Research",
+    "configuration_name": "deepseek-v4-pro-0813-260812"
+  },
+  {
+    "phrase": "Bis jetzt auch alles symetrisch und Mittellinie ist nicht verschoben",
+    "context": "Mhm da … Bis jetzt auch alles symetrisch und Mittellinie ist nicht verschoben … Ist mir so noch nicht so direkt mhm ja, das wär ja, …",
+    "tags": [
+      "visual_search: description_of_medical_image_features"
+    ],
+    "rationale": "The person describes anatomical image features (symmetry, midline) they are currently checking.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 19
+    },
+    "model": "deepseek/deepseek-v4-pro-0813",
+    "provider": "Sail Research",
+    "configuration_name": "deepseek-v4-pro-0813-260812"
+  },
+  {
+    "phrase": "auf der Seite sieht das irgendwie die Gyri ander aus als auf dieser Seite",
+    "context": "das wär ja, … auf der Seite sieht das irgendwie die Gyri ander aus als auf dieser Seite und auf der AI Seite zeigt, wird mir auch angezeigt, dass hier was ist, ja",
+    "tags": [
+      "indicator: anomaly_detected"
+    ],
+    "rationale": "The person notices an abnormality: the gyri look different on one side compared to the other.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 19
+    },
+    "model": "deepseek/deepseek-v4-pro-0813",
+    "provider": "Sail Research",
+    "configuration_name": "deepseek-v4-pro-0813-260812"
+  },
+  {
+    "phrase": "auf der AI Seite zeigt, wird mir auch angezeigt, dass hier was ist",
+    "context": "auf der Seite sieht das irgendwie die Gyri ander aus als auf dieser Seite und auf der AI Seite zeigt, wird mir auch angezeigt, dass hier was ist, ja",
+    "tags": [
+      "ai_report: ich"
+    ],
+    "rationale": "The person verbalizes that the AI has indicated/displayed that something is present here, i.e., the AI has found a hemorrhage.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 19
+    },
+    "model": "deepseek/deepseek-v4-pro-0813",
+    "provider": "Sail Research",
+    "configuration_name": "deepseek-v4-pro-0813-260812"
+  },
+  {
+    "phrase": "hier ist der Saum schon zu sehen",
+    "context": "Und hier sieht man schon auch, ich guck trotzdem von oben nach untern und hier ist der Saum schon zu sehen, also AI zeigt mir das erst später, aber man sieht schon ne Blutung",
+    "tags": [
+      "indicator: anomaly_detected"
+    ],
+    "rationale": "The person notices an abnormality ('Saum') in the image, which is atypical for a healthy skull.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 29
+    },
+    "model": "deepseek/deepseek-v4-pro-0813",
+    "provider": "Sail Research",
+    "configuration_name": "deepseek-v4-pro-0813-260812"
+  },
+  {
+    "phrase": "man sieht schon ne Blutung",
+    "context": "hier ist der Saum schon zu sehen, also AI zeigt mir das erst später, aber man sieht schon ne Blutung und da brauchte ich jetzt das nicht so.",
+    "tags": [
+      "interpretation: bleeding"
+    ],
+    "rationale": "The person interprets the abnormality as a hemorrhage ('Blutung').",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 29
+    },
+    "model": "deepseek/deepseek-v4-pro-0813",
+    "provider": "Sail Research",
+    "configuration_name": "deepseek-v4-pro-0813-260812"
+  },
+  {
+    "phrase": "AI zeigt mir das erst später",
+    "context": "hier ist der Saum schon zu sehen, also AI zeigt mir das erst später, aber man sieht schon ne Blutung",
+    "tags": [
+      "reflection_of_ai: ich_recognized_without_ai"
+    ],
+    "rationale": "The person states that they recognized the hemorrhage before the AI showed it, implying they would have recognized it without the AI.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 29
+    },
+    "model": "deepseek/deepseek-v4-pro-0813",
+    "provider": "Sail Research",
+    "configuration_name": "deepseek-v4-pro-0813-260812"
+  },
+  {
+    "phrase": "da brauchte ich jetzt das nicht so",
+    "context": "aber man sieht schon ne Blutung und da brauchte ich jetzt das nicht so.",
+    "tags": [
+      "reflection_of_ai: unhelpful/unnecessary"
+    ],
+    "rationale": "The person indicates that the AI's input was not needed in this case, perceiving it as unnecessary.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 29
+    },
+    "model": "deepseek/deepseek-v4-pro-0813",
+    "provider": "Sail Research",
+    "configuration_name": "deepseek-v4-pro-0813-260812"
+  },
+  {
+    "phrase": "Sehe wieder auf meine Seite alleine",
+    "context": "Sehe wieder auf meine Seite alleine … Und hier soll eine Blutung sein …",
+    "tags": [
+      "visual_search: description_of_own_approach_without_external_help"
+    ],
+    "rationale": "The person explicitly comments on their own search procedure, stating they are looking at their own side alone.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 33
+    },
+    "model": "deepseek/deepseek-v4-pro-0813",
+    "provider": "Sail Research",
+    "configuration_name": "deepseek-v4-pro-0813-260812"
+  },
+  {
+    "phrase": "Und hier soll eine Blutung sein",
+    "context": "Sehe wieder auf meine Seite alleine … Und hier soll eine Blutung sein … Ich hab die jetzt nicht so bemerkt",
+    "tags": [
+      "ai_report: ich"
+    ],
+    "rationale": "The person verbalizes that the AI has found a hemorrhage ('hier soll eine Blutung sein').",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 33
+    },
+    "model": "deepseek/deepseek-v4-pro-0813",
+    "provider": "Sail Research",
+    "configuration_name": "deepseek-v4-pro-0813-260812"
+  },
+  {
+    "phrase": "Ich hab die jetzt nicht so bemerkt",
+    "context": "Und hier soll eine Blutung sein … Ich hab die jetzt nicht so bemerkt, deswegen schau ich jetzt auf der anderen Seite",
+    "tags": [
+      "reflection_of_ai: ich_not_recognized_without_ai"
+    ],
+    "rationale": "The person states they did not notice the hemorrhage without the AI, implying they would not have recognized it without AI assistance.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 33
+    },
+    "model": "deepseek/deepseek-v4-pro-0813",
+    "provider": "Sail Research",
+    "configuration_name": "deepseek-v4-pro-0813-260812"
+  },
+  {
+    "phrase": "deswegen schau ich jetzt auf der anderen Seite, auf der AI Seite wo das sein soll",
+    "context": "Ich hab die jetzt nicht so bemerkt, deswegen schau ich jetzt auf der anderen Seite, auf der AI Seite wo das sein soll.",
+    "tags": [
+      "visual_search: triggered_by_ai"
+    ],
+    "rationale": "The person aligns their visual approach with the AI information and searches for the hemorrhage location indicated by the AI.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 33
+    },
+    "model": "deepseek/deepseek-v4-pro-0813",
+    "provider": "Sail Research",
+    "configuration_name": "deepseek-v4-pro-0813-260812"
+  },
+  {
+    "phrase": "Ah, da oben, eigentlich ist das eindeutig.",
+    "context": "auf der AI Seite wo das sein soll. Ah, da oben, eigentlich ist das eindeutig. Ah, ja eigentlich eindeutig",
+    "tags": [
+      "confidence_high: secondary"
+    ],
+    "rationale": "High certainty is implicitly shown through the expression 'eigentlich ist das eindeutig'.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 33
+    },
+    "model": "deepseek/deepseek-v4-pro-0813",
+    "provider": "Sail Research",
+    "configuration_name": "deepseek-v4-pro-0813-260812"
+  },
+  {
+    "phrase": "Ah, ja eigentlich eindeutig, ich habe mehr auf die Mitte geguckt und jetzt nicht gesehen.",
+    "context": "Ah, da oben, eigentlich ist das eindeutig. Ah, ja eigentlich eindeutig, ich habe mehr auf die Mitte geguckt und jetzt nicht gesehen. Das hat jetzt geholfen",
+    "tags": [
+      "reflection: self-monitoring"
+    ],
+    "rationale": "The person explicitly observes and comments on their own diagnostic process, noting they looked more at the middle and did not see it.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 33
+    },
+    "model": "deepseek/deepseek-v4-pro-0813",
+    "provider": "Sail Research",
+    "configuration_name": "deepseek-v4-pro-0813-260812"
+  },
+  {
+    "phrase": "Das hat jetzt geholfen",
+    "context": "ich habe mehr auf die Mitte geguckt und jetzt nicht gesehen. Das hat jetzt geholfen",
+    "tags": [
+      "reflection_of_ai: helpful"
+    ],
+    "rationale": "The person perceives the AI as helpful, stating 'Das hat jetzt geholfen'.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 33
+    },
+    "model": "deepseek/deepseek-v4-pro-0813",
+    "provider": "Sail Research",
+    "configuration_name": "deepseek-v4-pro-0813-260812"
+  },
+  {
+    "phrase": "Und bis jetzt ist mir nichts aufgefallen.",
+    "context": "So, soll aber auch was da sein, schau auf meine Seite erstmal. Und bis jetzt ist mir nichts aufgefallen. Aber das sieht so ein bisschen auffällig aus, überhaupt mhm das alles so gefüllt ist.",
+    "tags": [
+      "indicator: no_bleeding"
+    ],
+    "rationale": "The person states that nothing has caught their attention so far, classifying the viewed area as unremarkable.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 34
+    },
+    "model": "deepseek/deepseek-v4-pro-0813",
+    "provider": "Sail Research",
+    "configuration_name": "deepseek-v4-pro-0813-260812"
+  },
+  {
+    "phrase": "Aber das sieht so ein bisschen auffällig aus, überhaupt mhm das alles so gefüllt ist.",
+    "context": "So, soll aber auch was da sein, schau auf meine Seite erstmal. Und bis jetzt ist mir nichts aufgefallen. Aber das sieht so ein bisschen auffällig aus, überhaupt mhm das alles so gefüllt ist.",
+    "tags": [
+      "indicator: anomaly_detected"
+    ],
+    "rationale": "The person notices something that looks a bit conspicuous, indicating the detection of an abnormality.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 34
+    },
+    "model": "deepseek/deepseek-v4-pro-0813",
+    "provider": "Sail Research",
+    "configuration_name": "deepseek-v4-pro-0813-260812"
+  },
+  {
+    "phrase": "Hier ist wieder keine Blutung",
+    "context": "Hier ist wieder keine Blutung, ich gucke alleine und dann auf der anderen Seite, der AI Seite.",
+    "tags": [
+      "interpretation: no_bleeding"
+    ],
+    "rationale": "The person explicitly states that there is no hemorrhage in the current image.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 35
+    },
+    "model": "deepseek/deepseek-v4-pro-0813",
+    "provider": "Sail Research",
+    "configuration_name": "deepseek-v4-pro-0813-260812"
+  },
+  {
+    "phrase": "ich gucke alleine und dann auf der anderen Seite, der AI Seite",
+    "context": "Hier ist wieder keine Blutung, ich gucke alleine und dann auf der anderen Seite, der AI Seite. Es wird nichts angezeigt, und ich kann weiter machen.",
+    "tags": [
+      "visual_search: description_of_own_approach_without_external_help"
+    ],
+    "rationale": "The person describes their own search procedure, mentioning that they first look alone and then at the AI side.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 35
+    },
+    "model": "deepseek/deepseek-v4-pro-0813",
+    "provider": "Sail Research",
+    "configuration_name": "deepseek-v4-pro-0813-260812"
+  },
+  {
+    "phrase": "Es wird nichts angezeigt",
+    "context": "ich gucke alleine und dann auf der anderen Seite, der AI Seite. Es wird nichts angezeigt, und ich kann weiter machen.",
+    "tags": [
+      "ai_report: no_ich"
+    ],
+    "rationale": "The person verbalizes that the AI has not found a hemorrhage, as nothing is displayed.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 35
+    },
+    "model": "deepseek/deepseek-v4-pro-0813",
+    "provider": "Sail Research",
+    "configuration_name": "deepseek-v4-pro-0813-260812"
+  },
+  {
+    "phrase": "und ich kann weiter machen",
+    "context": "Es wird nichts angezeigt, und ich kann weiter machen.",
+    "tags": [
+      "paused_in_process"
+    ],
+    "rationale": "This is a filler phrase indicating the person is moving on, with no clear diagnostic content.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 35
+    },
+    "model": "deepseek/deepseek-v4-pro-0813",
+    "provider": "Sail Research",
+    "configuration_name": "deepseek-v4-pro-0813-260812"
+  },
+  {
+    "phrase": "Ich fange so an, dass ich das alles einmal gesehen habe",
+    "context": "Ich fange so an, dass ich das alles einmal gesehen habe und schue mir die Ventrikel und die Mittellinie an",
+    "tags": [
+      "visual_search: description_of_own_approach_without_external_help"
+    ],
+    "rationale": "The person explicitly comments on their own search procedure at the start of the case.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 14
+    },
+    "model": "deepseek/deepseek-v4-pro-0813",
+    "provider": "StreamLake",
+    "configuration_name": "deepseek-v4-pro-0813-260812"
+  },
+  {
+    "phrase": "schue mir die Ventrikel und die Mittellinie an, Schädelknochen und direkt dadrunter [?] Konvex oder konkav",
+    "context": "Ich fange so an, dass ich das alles einmal gesehen habe und schue mir die Ventrikel und die Mittellinie an, Schädelknochen und direkt dadrunter [?] Konvex oder konkav.",
+    "tags": [
+      "visual_search: description_of_medical_image_features"
+    ],
+    "rationale": "The person names anatomical structures and image characteristics they are currently checking.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 14
+    },
+    "model": "deepseek/deepseek-v4-pro-0813",
+    "provider": "StreamLake",
+    "configuration_name": "deepseek-v4-pro-0813-260812"
+  },
+  {
+    "phrase": "Hier, hätte ich das verpasst",
+    "context": "Hier, hätte ich das verpasst, ich habe erst mal auf der nicht AI Seite gesehen, und jetzt hier wird mir aber was angezeigt.",
+    "tags": [
+      "reflection_of_ai: ich_not_recognized_without_ai"
+    ],
+    "rationale": "The person states they would have missed the AI-indicated finding without the AI.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 14
+    },
+    "model": "deepseek/deepseek-v4-pro-0813",
+    "provider": "StreamLake",
+    "configuration_name": "deepseek-v4-pro-0813-260812"
+  },
+  {
+    "phrase": "ich habe erst mal auf der nicht AI Seite gesehen",
+    "context": "Hier, hätte ich das verpasst, ich habe erst mal auf der nicht AI Seite gesehen, und jetzt hier wird mir aber was angezeigt.",
+    "tags": [
+      "visual_search: description_of_own_approach_without_external_help"
+    ],
+    "rationale": "The person describes their own search sequence, noting they first looked at the non-AI side.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 14
+    },
+    "model": "deepseek/deepseek-v4-pro-0813",
+    "provider": "StreamLake",
+    "configuration_name": "deepseek-v4-pro-0813-260812"
+  },
+  {
+    "phrase": "und jetzt hier wird mir aber was angezeigt",
+    "context": "ich habe erst mal auf der nicht AI Seite gesehen, und jetzt hier wird mir aber was angezeigt. Ja, das hätte ich nicht ohne AI gemerkt.",
+    "tags": [
+      "visual_search: triggered_by_ai"
+    ],
+    "rationale": "The person shifts their visual attention to the location indicated by the AI.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 14
+    },
+    "model": "deepseek/deepseek-v4-pro-0813",
+    "provider": "StreamLake",
+    "configuration_name": "deepseek-v4-pro-0813-260812"
+  },
+  {
+    "phrase": "Ja, das hätte ich nicht ohne AI gemerkt.",
+    "context": "und jetzt hier wird mir aber was angezeigt. Ja, das hätte ich nicht ohne AI gemerkt.",
+    "tags": [
+      "reflection_of_ai: ich_not_recognized_without_ai"
+    ],
+    "rationale": "The person explicitly states that they would not have noticed the finding without the AI.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 14
+    },
+    "model": "deepseek/deepseek-v4-pro-0813",
+    "provider": "StreamLake",
+    "configuration_name": "deepseek-v4-pro-0813-260812"
+  },
+  {
+    "phrase": "So, hier ist wieder ne extra Sicherheit da, dass AI sagt, dass da nichts ist.",
+    "context": "So, hier ist wieder ne extra Sicherheit da, dass AI sagt, dass da nichts ist. Deswegen kann ich ein bisschen schneller gehen, das hilf mir schon.",
+    "tags": [
+      "ai_report: no_ich"
+    ],
+    "rationale": "The person explicitly reports that the AI has said there is no hemorrhage.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 30
+    },
+    "model": "deepseek/deepseek-v4-pro-0813",
+    "provider": "Baidu",
+    "configuration_name": "deepseek-v4-pro-0813-260812"
+  },
+  {
+    "phrase": "Deswegen kann ich ein bisschen schneller gehen, das hilf mir schon.",
+    "context": "So, hier ist wieder ne extra Sicherheit da, dass AI sagt, dass da nichts ist. Deswegen kann ich ein bisschen schneller gehen, das hilf mir schon.",
+    "tags": [
+      "reflection_of_ai: helpful"
+    ],
+    "rationale": "The person states that the AI information helps them proceed faster and explicitly evaluates the AI as helpful.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 30
+    },
+    "model": "deepseek/deepseek-v4-pro-0813",
+    "provider": "Baidu",
+    "configuration_name": "deepseek-v4-pro-0813-260812"
+  },
+  {
+    "phrase": "Hier sieht man schon eine Raumforderung",
+    "context": "Mhm. Hier sieht man schon eine Raumforderung, weiß jetzt nicht, ob es deswegen dann...",
+    "tags": [
+      "indicator: anomaly_detected"
+    ],
+    "rationale": "The person notices an abnormality (Raumforderung) atypical for a healthy skull.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 36
+    },
+    "model": "deepseek/deepseek-v4-pro-0813",
+    "provider": "Sail Research",
+    "configuration_name": "deepseek-v4-pro-0813-260812"
+  },
+  {
+    "phrase": "Also jetzt wird keine Blutung angezeigt.",
+    "context": "weiß jetzt nicht, ob es deswegen dann... Also jetzt wird keine Blutung angezeigt.",
+    "tags": [
+      "ai_report: no_ich"
+    ],
+    "rationale": "The person verbalizes that the AI has not found a hemorrhage.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 36
+    },
+    "model": "deepseek/deepseek-v4-pro-0813",
+    "provider": "Sail Research",
+    "configuration_name": "deepseek-v4-pro-0813-260812"
+  },
+  {
+    "phrase": "Ich bin mir einfach unsicher",
+    "context": "Also jetzt wird keine Blutung angezeigt. Ich bin mir einfach unsicher, ob es einfach nur eine Raumforderung ist",
+    "tags": [
+      "confidence_low: concrete"
+    ],
+    "rationale": "The person explicitly expresses low certainty regarding the diagnostic process.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 36
+    },
+    "model": "deepseek/deepseek-v4-pro-0813",
+    "provider": "Sail Research",
+    "configuration_name": "deepseek-v4-pro-0813-260812"
+  },
+  {
+    "phrase": "ob es einfach nur eine Raumforderung ist, die nicht blutet",
+    "context": "Ich bin mir einfach unsicher, ob es einfach nur eine Raumforderung ist, die nicht blutet und deswegen denke ich",
+    "tags": [
+      "reflection: diagnostic_uncertainty"
+    ],
+    "rationale": "The person is uncertain about classifying the finding and reflects on whether another diagnosis would be considered.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 36
+    },
+    "model": "deepseek/deepseek-v4-pro-0813",
+    "provider": "Sail Research",
+    "configuration_name": "deepseek-v4-pro-0813-260812"
+  },
+  {
+    "phrase": "wahrscheinlich dann eher ein Tumor",
+    "context": "die nicht blutet und deswegen denke ich, wahrscheinlich dann also das wahrscheinlich dann eher ein Tumor.",
+    "tags": [
+      "reasoning: alternative_medical_cause"
+    ],
+    "rationale": "The person names another possible medical cause (tumor) for the abnormality.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 36
+    },
+    "model": "deepseek/deepseek-v4-pro-0813",
+    "provider": "Sail Research",
+    "configuration_name": "deepseek-v4-pro-0813-260812"
+  },
+  {
+    "phrase": "Das ist auch ein inhomogen.",
+    "context": "wahrscheinlich dann eher ein Tumor. Das ist auch ein inhomogen. Ja, gehen wir davon aus",
+    "tags": [
+      "interpretation: description_bleeding"
+    ],
+    "rationale": "The person describes the already identified abnormality in more detail, though the term bleeding is not explicitly used here; the description refers to the lesion.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 36
+    },
+    "model": "deepseek/deepseek-v4-pro-0813",
+    "provider": "Sail Research",
+    "configuration_name": "deepseek-v4-pro-0813-260812"
+  },
+  {
+    "phrase": "gehen wir davon aus, dass deswegen das nicht als Blutung gezeigt wird",
+    "context": "Das ist auch ein inhomogen. Ja, gehen wir davon aus, dass deswegen das nicht als Blutung gezeigt wird.",
+    "tags": [
+      "interpretation: no_bleeding"
+    ],
+    "rationale": "The person interprets the finding as 'no hemorrhage' based on the AI display and the lesion characteristics.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 36
+    },
+    "model": "deepseek/deepseek-v4-pro-0813",
+    "provider": "Sail Research",
+    "configuration_name": "deepseek-v4-pro-0813-260812"
+  },
+  {
+    "phrase": "Hier soll nichts sein.",
+    "context": "Hier soll nichts sein. Gucke auf meine Seite und dann auf die AI Siete und kann weiter machen",
+    "tags": [
+      "indicator: no_bleeding"
+    ],
+    "rationale": "The person classifies a specific image area as unremarkable, indicating no bleeding.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 38
+    },
+    "model": "deepseek/deepseek-v4-pro-0813",
+    "provider": "Sail Research",
+    "configuration_name": "deepseek-v4-pro-0813-260812"
+  },
+  {
+    "phrase": "Gucke auf meine Seite und dann auf die AI Siete und kann weiter machen",
+    "context": "Hier soll nichts sein. Gucke auf meine Seite und dann auf die AI Siete und kann weiter machen",
+    "tags": [
+      "control: relying_on_ai"
+    ],
+    "rationale": "The person describes checking the AI side, indicating reliance on the AI during the visual search.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 38
+    },
+    "model": "deepseek/deepseek-v4-pro-0813",
+    "provider": "Sail Research",
+    "configuration_name": "deepseek-v4-pro-0813-260812"
+  },
+  {
+    "phrase": "Wieder auf meiner nicht AI Seite, kuck mir das alleine an",
+    "context": "Wieder auf meiner nicht AI Seite, kuck mir das alleine an, Mittellinie, Schädelknochen, Unterschiede und merke alleine nichts.",
+    "tags": [
+      "visual_search: description_of_own_approach_without_external_help"
+    ],
+    "rationale": "The person explicitly comments on their own search procedure, stating they are looking at the non-AI side alone.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 37
+    },
+    "model": "deepseek/deepseek-v4-pro-0813",
+    "provider": "Sail Research",
+    "configuration_name": "deepseek-v4-pro-0813-260812"
+  },
+  {
+    "phrase": "Mittellinie, Schädelknochen, Unterschiede",
+    "context": "Wieder auf meiner nicht AI Seite, kuck mir das alleine an, Mittellinie, Schädelknochen, Unterschiede und merke alleine nichts.",
+    "tags": [
+      "visual_search: description_of_medical_image_features"
+    ],
+    "rationale": "The person verbalizes which anatomical structures or image characteristics they are currently looking at or checking.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 37
+    },
+    "model": "deepseek/deepseek-v4-pro-0813",
+    "provider": "Sail Research",
+    "configuration_name": "deepseek-v4-pro-0813-260812"
+  },
+  {
+    "phrase": "merke alleine nichts",
+    "context": "Wieder auf meiner nicht AI Seite, kuck mir das alleine an, Mittellinie, Schädelknochen, Unterschiede und merke alleine nichts.",
+    "tags": [
+      "interpretation: no_bleeding"
+    ],
+    "rationale": "The person states they notice nothing, implying no hemorrhage was found on the non-AI side.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 37
+    },
+    "model": "deepseek/deepseek-v4-pro-0813",
+    "provider": "Sail Research",
+    "configuration_name": "deepseek-v4-pro-0813-260812"
+  },
+  {
+    "phrase": "Ich gucke auf der AI Seite und da wird mir was angezeigt, was ich nicht gesehen hatte",
+    "context": "Ich gucke auf der AI Seite und da wird mir was angezeigt, was ich nicht gesehen hatte, deswegen hat mir das auf jeden Fall sehr geholfen",
+    "tags": [
+      "visual_search: triggered_by_ai"
+    ],
+    "rationale": "The person aligns their visual approach with the AI information, looking at the AI side where something is indicated.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 37
+    },
+    "model": "deepseek/deepseek-v4-pro-0813",
+    "provider": "Sail Research",
+    "configuration_name": "deepseek-v4-pro-0813-260812"
+  },
+  {
+    "phrase": "was ich nicht gesehen hatte",
+    "context": "Ich gucke auf der AI Seite und da wird mir was angezeigt, was ich nicht gesehen hatte, deswegen hat mir das auf jeden Fall sehr geholfen",
+    "tags": [
+      "reflection_of_ai: ich_not_recognized_without_ai"
+    ],
+    "rationale": "The person states they had not seen the finding without the AI, implying they would not have recognized it without AI assistance.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 37
+    },
+    "model": "deepseek/deepseek-v4-pro-0813",
+    "provider": "Sail Research",
+    "configuration_name": "deepseek-v4-pro-0813-260812"
+  },
+  {
+    "phrase": "deswegen hat mir das auf jeden Fall sehr geholfen",
+    "context": "Ich gucke auf der AI Seite und da wird mir was angezeigt, was ich nicht gesehen hatte, deswegen hat mir das auf jeden Fall sehr geholfen",
+    "tags": [
+      "reflection_of_ai: helpful"
+    ],
+    "rationale": "The person explicitly states the AI helped them a lot.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 37
+    },
+    "model": "deepseek/deepseek-v4-pro-0813",
+    "provider": "Sail Research",
+    "configuration_name": "deepseek-v4-pro-0813-260812"
+  },
+  {
+    "phrase": "Hier sollte nichts sein",
+    "context": "Hier sollte nichts sein, ich finde es sehr schwer, dieses Bild zu interpretieren",
+    "tags": [
+      "interpretation: no_bleeding"
+    ],
+    "rationale": "The person states that there should be nothing (no hemorrhage) in this area.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 40
+    },
+    "model": "deepseek/deepseek-v4-pro-0813",
+    "provider": "Sail Research",
+    "configuration_name": "deepseek-v4-pro-0813-260812"
+  },
+  {
+    "phrase": "ich finde es sehr schwer, dieses Bild zu interpretieren",
+    "context": "Hier sollte nichts sein, ich finde es sehr schwer, dieses Bild zu interpretieren, aber deswegen hoffentlich mit der AI die richtige Entscheidung getroffen",
+    "tags": [
+      "awareness_of_task: difficult"
+    ],
+    "rationale": "The person explicitly states that they find it very difficult to interpret this image.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 40
+    },
+    "model": "deepseek/deepseek-v4-pro-0813",
+    "provider": "Sail Research",
+    "configuration_name": "deepseek-v4-pro-0813-260812"
+  },
+  {
+    "phrase": "aber deswegen hoffentlich mit der AI die richtige Entscheidung getroffen",
+    "context": "ich finde es sehr schwer, dieses Bild zu interpretieren, aber deswegen hoffentlich mit der AI die richtige Entscheidung getroffen",
+    "tags": [
+      "control: relying_on_ai"
+    ],
+    "rationale": "The person expresses hope that the AI helped them make the right decision, indicating reliance on the AI.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 40
+    },
+    "model": "deepseek/deepseek-v4-pro-0813",
+    "provider": "Sail Research",
+    "configuration_name": "deepseek-v4-pro-0813-260812"
+  },
+  {
+    "phrase": "Probier ich auch selber erstmal zu gucken",
+    "context": "Probier ich auch selber erstmal zu gucken und seh das die, sieht so aus, alswäre die Mittellinie verschoben",
+    "tags": [
+      "visual_search: description_of_own_approach_without_external_help"
+    ],
+    "rationale": "The person explicitly comments on their own search procedure, stating they will first look themselves.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 39
+    },
+    "model": "deepseek/deepseek-v4-pro-0813",
+    "provider": "Sail Research",
+    "configuration_name": "deepseek-v4-pro-0813-260812"
+  },
+  {
+    "phrase": "sieht so aus, alswäre die Mittellinie verschoben",
+    "context": "Probier ich auch selber erstmal zu gucken und seh das die, sieht so aus, alswäre die Mittellinie verschoben, aber …",
+    "tags": [
+      "indicator: anomaly_detected"
+    ],
+    "rationale": "The person notices an abnormality (shifted midline) atypical for a healthy skull.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 39
+    },
+    "model": "deepseek/deepseek-v4-pro-0813",
+    "provider": "Sail Research",
+    "configuration_name": "deepseek-v4-pro-0813-260812"
+  },
+  {
+    "phrase": "ich finde der ventrikel sieht auch nicht so ähm weiß ich nicht, gleich aus",
+    "context": "sieht so aus, alswäre die Mittellinie verschoben, aber … ich finde der ventrikel sieht auch nicht so ähm weiß ich nicht, gleich aus.",
+    "tags": [
+      "reflection: diagnostic_uncertainty"
+    ],
+    "rationale": "The person is uncertain about classifying the finding regarding the ventricle, expressing doubt about whether it looks normal.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 39
+    },
+    "model": "deepseek/deepseek-v4-pro-0813",
+    "provider": "Sail Research",
+    "configuration_name": "deepseek-v4-pro-0813-260812"
+  },
+  {
+    "phrase": "Ich hätte die Blutung nicht gefunden",
+    "context": "Ich hätte die Blutung nicht gefunden, gucke ich auf der AI Siete und da wird mir das hier angezeigt, das hätte ich jetzt nicht gesehen",
+    "tags": [
+      "reflection_of_ai: ich_not_recognized_without_ai"
+    ],
+    "rationale": "The person states they would not have found the hemorrhage without the AI.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 39
+    },
+    "model": "deepseek/deepseek-v4-pro-0813",
+    "provider": "Sail Research",
+    "configuration_name": "deepseek-v4-pro-0813-260812"
+  },
+  {
+    "phrase": "gucke ich auf der AI Siete und da wird mir das hier angezeigt",
+    "context": "Ich hätte die Blutung nicht gefunden, gucke ich auf der AI Siete und da wird mir das hier angezeigt, das hätte ich jetzt nicht gesehen",
+    "tags": [
+      "visual_search: triggered_by_ai"
+    ],
+    "rationale": "The person aligns their visual approach with the AI information, looking at the AI side where the hemorrhage is indicated.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 39
+    },
+    "model": "deepseek/deepseek-v4-pro-0813",
+    "provider": "Sail Research",
+    "configuration_name": "deepseek-v4-pro-0813-260812"
+  },
+  {
+    "phrase": "das hätte ich jetzt nicht gesehen",
+    "context": "gucke ich auf der AI Siete und da wird mir das hier angezeigt, das hätte ich jetzt nicht gesehen, deswegen",
+    "tags": [
+      "reflection_of_ai: ich_not_recognized_without_ai"
+    ],
+    "rationale": "The person reiterates that they would not have seen the hemorrhage without the AI.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 39
+    },
+    "model": "deepseek/deepseek-v4-pro-0813",
+    "provider": "Sail Research",
+    "configuration_name": "deepseek-v4-pro-0813-260812"
+  },
+  {
+    "phrase": "So hier sieht man schon einen Unterschied zu der Gegenseite",
+    "context": "So hier sieht man schon einen Unterschied zu der Gegenseite, ich schau mal weiter, ob das irgendwie sonst wonaders irgendwas auffälliges aussieht",
+    "tags": [
+      "indicator: anomaly_detected"
+    ],
+    "rationale": "The person notices an abnormality ('Unterschied zu der Gegenseite') atypical for a healthy skull.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 41
+    },
+    "model": "deepseek/deepseek-v4-pro-0813",
+    "provider": "Sail Research",
+    "configuration_name": "deepseek-v4-pro-0813-260812"
+  },
+  {
+    "phrase": "ich schau mal weiter, ob das irgendwie sonst wonaders irgendwas auffälliges aussieht",
+    "context": "So hier sieht man schon einen Unterschied zu der Gegenseite, ich schau mal weiter, ob das irgendwie sonst wonaders irgendwas auffälliges aussieht … Ne, ich gucke mal jetzt auf der AI Seite",
+    "tags": [
+      "visual_search: triggered_by_finding"
+    ],
+    "rationale": "The person aligns their visual approach with the already found indicator and continues searching for other abnormalities.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 41
+    },
+    "model": "deepseek/deepseek-v4-pro-0813",
+    "provider": "Sail Research",
+    "configuration_name": "deepseek-v4-pro-0813-260812"
+  },
+  {
+    "phrase": "Ne, ich gucke mal jetzt auf der AI Seite, das wird mir hier auch angezeigt",
+    "context": "… Ne, ich gucke mal jetzt auf der AI Seite, das wird mir hier auch angezeigt",
+    "tags": [
+      "visual_search: triggered_by_ai"
+    ],
+    "rationale": "The person aligns their visual approach with the AI information and looks at the AI-indicated side.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 41
+    },
+    "model": "deepseek/deepseek-v4-pro-0813",
+    "provider": "Sail Research",
+    "configuration_name": "deepseek-v4-pro-0813-260812"
+  },
+  {
+    "phrase": "Mal wieder, help wie geht das nochmal?",
+    "context": "VPN: ??? Mal wieder, help wie geht das nochmal? Nein.",
+    "tags": [
+      "technical_conversation"
+    ],
+    "rationale": "The person is asking for help with operating the display tool, which is a technical difficulty with the task.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 43
+    },
+    "model": "deepseek/deepseek-v4-pro-0813",
+    "provider": "Sail Research",
+    "configuration_name": "deepseek-v4-pro-0813-260812"
+  },
+  {
+    "phrase": "ist ein bisschen besser, aber naja es ist sowieso hier schon die Blutung zu sehen",
+    "context": "VPN: Ja, danke, ist ein bisschen besser, aber naja es ist sowieso hier schon die Blutung zu sehen.",
+    "tags": [
+      "interpretation: bleeding"
+    ],
+    "rationale": "The person explicitly states that a hemorrhage ('Blutung') is visible.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 43
+    },
+    "model": "deepseek/deepseek-v4-pro-0813",
+    "provider": "Sail Research",
+    "configuration_name": "deepseek-v4-pro-0813-260812"
+  },
+  {
+    "phrase": "da ist ein Saum, irgendwie kann grieg ich das nicht so super gut eingestellt, aber das war da zu sehen",
+    "context": "Ist jetzt egal, aber da ist ein Saum, irgendwie kann grieg ich das nicht so super gut eingestellt, aber das war da zu sehen",
+    "tags": [
+      "awareness_of_task: image_quality"
+    ],
+    "rationale": "The person complains about not being able to adjust the image well, attributing uncertainty to the display/image quality rather than their own competence.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 43
+    },
+    "model": "deepseek/deepseek-v4-pro-0813",
+    "provider": "Sail Research",
+    "configuration_name": "deepseek-v4-pro-0813-260812"
+  },
+  {
+    "phrase": "hier soll keine Blutung sein",
+    "context": "So, fangen wieder von vorne an und hier soll keine Blutung sein. Guck direkt schon mit der AI Seite und es wird mir nichts angezeigt, sieht auch unauffällig aus.",
+    "tags": [
+      "interpretation: no_bleeding"
+    ],
+    "rationale": "The person states that there should be no bleeding in this area, which is an interpretation of the finding as 'no hemorrhage'.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 44
+    },
+    "model": "deepseek/deepseek-v4-pro-0813",
+    "provider": "Sail Research",
+    "configuration_name": "deepseek-v4-pro-0813-260812"
+  },
+  {
+    "phrase": "es wird mir nichts angezeigt",
+    "context": "Guck direkt schon mit der AI Seite und es wird mir nichts angezeigt, sieht auch unauffällig aus.",
+    "tags": [
+      "ai_report: no_ich"
+    ],
+    "rationale": "The person verbalizes that the AI has not indicated a hemorrhage.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 44
+    },
+    "model": "deepseek/deepseek-v4-pro-0813",
+    "provider": "Sail Research",
+    "configuration_name": "deepseek-v4-pro-0813-260812"
+  },
+  {
+    "phrase": "sieht auch unauffällig aus",
+    "context": "Guck direkt schon mit der AI Seite und es wird mir nichts angezeigt, sieht auch unauffällig aus.",
+    "tags": [
+      "indicator: no_bleeding"
+    ],
+    "rationale": "The person classifies the image area as unremarkable, indicating no abnormality.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 44
+    },
+    "model": "deepseek/deepseek-v4-pro-0813",
+    "provider": "Sail Research",
+    "configuration_name": "deepseek-v4-pro-0813-260812"
+  },
+  {
+    "phrase": "Guck direkt schon mit der AI Seite",
+    "context": "So, fangen wieder von vorne an und hier soll keine Blutung sein. Guck direkt schon mit der AI Seite und es wird mir nichts angezeigt, sieht auch unauffällig aus.",
+    "tags": [
+      "visual_search: triggered_by_ai"
+    ],
+    "rationale": "The person aligns their visual approach with the AI information by looking directly at the AI side.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 44
+    },
+    "model": "deepseek/deepseek-v4-pro-0813",
+    "provider": "Sail Research",
+    "configuration_name": "deepseek-v4-pro-0813-260812"
+  },
+  {
+    "phrase": "hier ist alles anscheined auch unaufällig",
+    "context": "So, hier ist alles anscheined auch unaufällig und ich sehe auch nichts",
+    "tags": [
+      "indicator: no_bleeding"
+    ],
+    "rationale": "The person classifies the image area as unremarkable.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 45
+    },
+    "model": "deepseek/deepseek-v4-pro-0813",
+    "provider": "Sail Research",
+    "configuration_name": "deepseek-v4-pro-0813-260812"
+  },
+  {
+    "phrase": "ich sehe auch nichts",
+    "context": "hier ist alles anscheined auch unaufällig und ich sehe auch nichts und AI sagt auch ist nichts",
+    "tags": [
+      "interpretation: no_bleeding"
+    ],
+    "rationale": "The person interprets the lack of findings as no hemorrhage.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 45
+    },
+    "model": "deepseek/deepseek-v4-pro-0813",
+    "provider": "Sail Research",
+    "configuration_name": "deepseek-v4-pro-0813-260812"
+  },
+  {
+    "phrase": "AI sagt auch ist nichts",
+    "context": "ich sehe auch nichts und AI sagt auch ist nichts und ich fühle mich da bestätigt",
+    "tags": [
+      "ai_report: no_ich"
+    ],
+    "rationale": "The person verbalizes that the AI has not found a hemorrhage.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 45
+    },
+    "model": "deepseek/deepseek-v4-pro-0813",
+    "provider": "Sail Research",
+    "configuration_name": "deepseek-v4-pro-0813-260812"
+  },
+  {
+    "phrase": "ich fühle mich da bestätigt",
+    "context": "AI sagt auch ist nichts und ich fühle mich da bestätigt",
+    "tags": [
+      "reflection_of_ai: confirmed_by_ai"
+    ],
+    "rationale": "The person feels confirmed in their assessment by the AI.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 45
+    },
+    "model": "deepseek/deepseek-v4-pro-0813",
+    "provider": "Sail Research",
+    "configuration_name": "deepseek-v4-pro-0813-260812"
+  },
+  {
+    "phrase": "AI sagt, dass ist keine Blutung",
+    "context": "Ich weiß nicht, was dieser Unterschied zu der anderen Seiten mit den Ventrikeln ist, AI sagt, dass ist keine Blutung, ich weiß es nicht.",
+    "tags": [
+      "ai_report: no_ich"
+    ],
+    "rationale": "The person verbalizes that the AI has not found a hemorrhage.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 46
+    },
+    "model": "deepseek/deepseek-v4-pro-0813",
+    "provider": "Together",
+    "configuration_name": "deepseek-v4-pro-0813-260812"
+  },
+  {
+    "phrase": "ich weiß es nicht",
+    "context": "AI sagt, dass ist keine Blutung, ich weiß es nicht. Ich sag mal keine Blutung, aber ich bin mir nicht so sicher",
+    "tags": [
+      "confidence_low: concrete"
+    ],
+    "rationale": "The person explicitly expresses low certainty regarding the diagnostic process.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 46
+    },
+    "model": "deepseek/deepseek-v4-pro-0813",
+    "provider": "Together",
+    "configuration_name": "deepseek-v4-pro-0813-260812"
+  },
+  {
+    "phrase": "Ich sag mal keine Blutung",
+    "context": "ich weiß es nicht. Ich sag mal keine Blutung, aber ich bin mir nicht so sicher",
+    "tags": [
+      "interpretation: no_bleeding"
+    ],
+    "rationale": "The person interprets the finding as 'no hemorrhage'.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 46
+    },
+    "model": "deepseek/deepseek-v4-pro-0813",
+    "provider": "Together",
+    "configuration_name": "deepseek-v4-pro-0813-260812"
+  },
+  {
+    "phrase": "aber ich bin mir nicht so sicher",
+    "context": "Ich sag mal keine Blutung, aber ich bin mir nicht so sicher",
+    "tags": [
+      "confidence_low: concrete"
+    ],
+    "rationale": "The person explicitly expresses low certainty regarding the diagnostic process.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 46
+    },
+    "model": "deepseek/deepseek-v4-pro-0813",
+    "provider": "Together",
+    "configuration_name": "deepseek-v4-pro-0813-260812"
+  },
+  {
+    "phrase": "Ich weiß nicht, was dieser Unterschied zu der anderen Seiten mit den Ventrikeln ist",
+    "context": "Ja und hier … Ich weiß nicht, was dieser Unterschied zu der anderen Seiten mit den Ventrikeln ist, AI sagt, dass ist keine Blutung, ich weiß es nicht.",
+    "tags": [
+      "reflection: diagnostic_uncertainty"
+    ],
+    "rationale": "The person is uncertain about classifying a finding and reflects on whether it is normal or abnormal.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 46
+    },
+    "model": "deepseek/deepseek-v4-pro-0813",
+    "provider": "Together",
+    "configuration_name": "deepseek-v4-pro-0813-260812"
+  },
+  {
+    "phrase": "So ich guck erstmal wieder auf meine Seite, ohne AI erstmal und ob mir irgendwas auffällt.",
+    "context": "So ich guck erstmal wieder auf meine Seite, ohne AI erstmal und ob mir irgendwas auffällt. Beidseiten …",
+    "tags": [
+      "visual_search: description_of_own_approach_without_external_help"
+    ],
+    "rationale": "The person explicitly describes their own search procedure, stating they will first look at their side without AI to see if anything stands out.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 47
+    },
+    "model": "deepseek/deepseek-v4-pro-0813",
+    "provider": "Sail Research",
+    "configuration_name": "deepseek-v4-pro-0813-260812"
+  },
+  {
+    "phrase": "Beidseiten …",
+    "context": "ohne AI erstmal und ob mir irgendwas auffällt. Beidseiten … Das war es noch nicht …",
+    "tags": [
+      "visual_search: description_of_medical_image_features"
+    ],
+    "rationale": "The person verbalizes which anatomical structures or image characteristics they are currently looking at, namely both sides.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 47
+    },
+    "model": "deepseek/deepseek-v4-pro-0813",
+    "provider": "Sail Research",
+    "configuration_name": "deepseek-v4-pro-0813-260812"
+  },
+  {
+    "phrase": "Das war es noch nicht …",
+    "context": "Beidseiten … Das war es noch nicht … Vielleicht das hier …",
+    "tags": [
+      "indicator: no_bleeding"
+    ],
+    "rationale": "The person classifies a specific image area as unremarkable, indicating that what they have seen so far is not the finding.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 47
+    },
+    "model": "deepseek/deepseek-v4-pro-0813",
+    "provider": "Sail Research",
+    "configuration_name": "deepseek-v4-pro-0813-260812"
+  },
+  {
+    "phrase": "Vielleicht das hier …",
+    "context": "Das war es noch nicht … Vielleicht das hier … Ich guck mal auf der AI Seite, ob mir das hier mit angezeigt wird …",
+    "tags": [
+      "indicator: anomaly_detected",
+      "confidence_low: secondary"
+    ],
+    "rationale": "The person notices a potential abnormality ('Vielleicht das hier'), with low certainty implicitly shown through 'vielleicht'.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 47
+    },
+    "model": "deepseek/deepseek-v4-pro-0813",
+    "provider": "Sail Research",
+    "configuration_name": "deepseek-v4-pro-0813-260812"
+  },
+  {
+    "phrase": "Ich guck mal auf der AI Seite, ob mir das hier mit angezeigt wird …",
+    "context": "Vielleicht das hier … Ich guck mal auf der AI Seite, ob mir das hier mit angezeigt wird … Ist bei der AI einfach nicht, ah da ja, dass könnte fast",
+    "tags": [
+      "control: relying_on_ai"
+    ],
+    "rationale": "The person explicitly states they will check the AI side to see if the finding is indicated there, showing reliance on the AI during the visual search.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 47
+    },
+    "model": "deepseek/deepseek-v4-pro-0813",
+    "provider": "Sail Research",
+    "configuration_name": "deepseek-v4-pro-0813-260812"
+  },
+  {
+    "phrase": "Ist bei der AI einfach nicht, ah da ja, dass könnte fast",
+    "context": "Ich guck mal auf der AI Seite, ob mir das hier mit angezeigt wird … Ist bei der AI einfach nicht, ah da ja, dass könnte fast",
+    "tags": [
+      "visual_search: triggered_by_ai"
+    ],
+    "rationale": "The person aligns their visual approach with the AI information, searching for the location indicated by the AI and reacting to its display.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 47
+    },
+    "model": "deepseek/deepseek-v4-pro-0813",
+    "provider": "Sail Research",
+    "configuration_name": "deepseek-v4-pro-0813-260812"
+  },
+  {
+    "phrase": "Hier sieht man schon ein Ventrikel und überhaupt hier eine große Blutung",
+    "context": "Hier sieht man schon ein Ventrikel und überhaupt hier eine große Blutung, ich bräuchte jetzt, muss schau trotzdem von vorne an",
+    "tags": [
+      "interpretation: bleeding",
+      "visual_search: description_of_medical_image_features"
+    ],
+    "rationale": "The person identifies a large hemorrhage and mentions the ventricle as an anatomical structure they are looking at.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 49
+    },
+    "model": "deepseek/deepseek-v4-pro-0813",
+    "provider": "Ionstream",
+    "configuration_name": "deepseek-v4-pro-0813-260812"
+  },
+  {
+    "phrase": "ich bräuchte jetzt, muss schau trotzdem von vorne an",
+    "context": "Hier sieht man schon ein Ventrikel und überhaupt hier eine große Blutung, ich bräuchte jetzt, muss schau trotzdem von vorne an, mal das der Ventrikel da auffällig aussieht",
+    "tags": [
+      "control: control_repeat",
+      "visual_search: description_of_own_approach_without_external_help"
+    ],
+    "rationale": "The person decides to go back and look at the image from the beginning, indicating a repeated viewing and describing their own search procedure.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 49
+    },
+    "model": "deepseek/deepseek-v4-pro-0813",
+    "provider": "Ionstream",
+    "configuration_name": "deepseek-v4-pro-0813-260812"
+  },
+  {
+    "phrase": "mal das der Ventrikel da auffällig aussieht, also da eineengt",
+    "context": "muss schau trotzdem von vorne an, mal das der Ventrikel da auffällig aussieht, also da eineengt und die Blutung hat man hier gesehen.",
+    "tags": [
+      "indicator: anomaly_detected",
+      "interpretation: description_bleeding"
+    ],
+    "rationale": "The person notices the ventricle looks abnormal/narrowed and describes the already identified hemorrhage in more detail.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 49
+    },
+    "model": "deepseek/deepseek-v4-pro-0813",
+    "provider": "Ionstream",
+    "configuration_name": "deepseek-v4-pro-0813-260812"
+  },
+  {
+    "phrase": "Ich hab das jetzt nicht gebraucht und fertig.",
+    "context": "und die Blutung hat man hier gesehen. Ich hab das jetzt nicht gebraucht und fertig.",
+    "tags": [
+      "reflection_of_ai: unhelpful/unnecessary"
+    ],
+    "rationale": "The person states they did not need 'that' (likely the AI), implying the AI was unnecessary for this case.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 49
+    },
+    "model": "deepseek/deepseek-v4-pro-0813",
+    "provider": "Ionstream",
+    "configuration_name": "deepseek-v4-pro-0813-260812"
+  },
+  {
+    "phrase": "So, ich probiere auf der Siete ohne AI erstmal nach was zu schauen.",
+    "context": "… So, ich probiere auf der Siete ohne AI erstmal nach was zu schauen. Und auf symetrie schauen, auf Knochendefekte und dann auf der AI Seite, ob ich irgendwas verpasst habe, sieht nicht so aus",
+    "tags": [
+      "visual_search: description_of_own_approach_without_external_help"
+    ],
+    "rationale": "The speaker explicitly describes their own search procedure and states they will first look without AI.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 13
+    },
+    "model": "deepseek/deepseek-v4-pro-0813",
+    "provider": "Baidu",
+    "configuration_name": "deepseek-v4-pro-0813-260812"
+  },
+  {
+    "phrase": "Und auf symetrie schauen, auf Knochendefekte",
+    "context": "So, ich probiere auf der Siete ohne AI erstmal nach was zu schauen. Und auf symetrie schauen, auf Knochendefekte und dann auf der AI Seite, ob ich irgendwas verpasst habe, sieht nicht so aus",
+    "tags": [
+      "visual_search: description_of_medical_image_features"
+    ],
+    "rationale": "The speaker verbalizes which image features they are checking, namely symmetry and bone defects.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 13
+    },
+    "model": "deepseek/deepseek-v4-pro-0813",
+    "provider": "Baidu",
+    "configuration_name": "deepseek-v4-pro-0813-260812"
+  },
+  {
+    "phrase": "und dann auf der AI Seite, ob ich irgendwas verpasst habe",
+    "context": "Und auf symetrie schauen, auf Knochendefekte und dann auf der AI Seite, ob ich irgendwas verpasst habe, sieht nicht so aus",
+    "tags": [
+      "control: relying_on_ai"
+    ],
+    "rationale": "The speaker says they will use the AI side to check whether they missed anything, indicating reliance on the AI during the search.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 13
+    },
+    "model": "deepseek/deepseek-v4-pro-0813",
+    "provider": "Baidu",
+    "configuration_name": "deepseek-v4-pro-0813-260812"
+  },
+  {
+    "phrase": "sieht nicht so aus",
+    "context": "und dann auf der AI Seite, ob ich irgendwas verpasst habe, sieht nicht so aus",
+    "tags": [
+      "other"
+    ],
+    "rationale": "This brief assessment after looking at the AI side does not clearly fit any specified tag.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 13
+    },
+    "model": "deepseek/deepseek-v4-pro-0813",
+    "provider": "Baidu",
+    "configuration_name": "deepseek-v4-pro-0813-260812"
+  },
+  {
+    "phrase": "Jetzt wird mir schon angezeigt, dass eine Blutung da ist",
+    "context": "Jetzt wird mir schon angezeigt, dass eine Blutung da ist und mir erstmal selber zu schauen. Die Mittellinie ist nicht verschoben, aber jetzt sieht man aber direkt hier schon einen Saun un dem Knochen … Das ist dann schon eindeutiger",
+    "tags": [
+      "ai_report: ich"
+    ],
+    "rationale": "The person states that the AI has indicated a hemorrhage.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 28
+    },
+    "model": "deepseek/deepseek-v4-pro-0813",
+    "provider": "StreamLake",
+    "configuration_name": "deepseek-v4-pro-0813-260812"
+  },
+  {
+    "phrase": "und mir erstmal selber zu schauen",
+    "context": "Jetzt wird mir schon angezeigt, dass eine Blutung da ist und mir erstmal selber zu schauen. Die Mittellinie ist nicht verschoben, aber jetzt sieht man aber direkt hier schon einen Saun un dem Knochen … Das ist dann schon eindeutiger",
+    "tags": [
+      "visual_search: description_of_own_approach_without_external_help"
+    ],
+    "rationale": "The person explicitly says they want to look at the images themselves first, describing their own search procedure.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 28
+    },
+    "model": "deepseek/deepseek-v4-pro-0813",
+    "provider": "StreamLake",
+    "configuration_name": "deepseek-v4-pro-0813-260812"
+  },
+  {
+    "phrase": "Die Mittellinie ist nicht verschoben",
+    "context": "Jetzt wird mir schon angezeigt, dass eine Blutung da ist und mir erstmal selber zu schauen. Die Mittellinie ist nicht verschoben, aber jetzt sieht man aber direkt hier schon einen Saun un dem Knochen … Das ist dann schon eindeutiger",
+    "tags": [
+      "visual_search: description_of_medical_image_features"
+    ],
+    "rationale": "The person verbalizes an anatomical/image feature, the midline shift status, while checking the image.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 28
+    },
+    "model": "deepseek/deepseek-v4-pro-0813",
+    "provider": "StreamLake",
+    "configuration_name": "deepseek-v4-pro-0813-260812"
+  },
+  {
+    "phrase": "aber jetzt sieht man aber direkt hier schon einen Saun un dem Knochen …",
+    "context": "Jetzt wird mir schon angezeigt, dass eine Blutung da ist und mir erstmal selber zu schauen. Die Mittellinie ist nicht verschoben, aber jetzt sieht man aber direkt hier schon einen Saun un dem Knochen … Das ist dann schon eindeutiger",
+    "tags": [
+      "interpretation: description_bleeding"
+    ],
+    "rationale": "The person describes the appearance and location of the already reported hemorrhage as a rim along the bone.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 28
+    },
+    "model": "deepseek/deepseek-v4-pro-0813",
+    "provider": "StreamLake",
+    "configuration_name": "deepseek-v4-pro-0813-260812"
+  },
+  {
+    "phrase": "Das ist dann schon eindeutiger",
+    "context": "Jetzt wird mir schon angezeigt, dass eine Blutung da ist und mir erstmal selber zu schauen. Die Mittellinie ist nicht verschoben, aber jetzt sieht man aber direkt hier schon einen Saun un dem Knochen … Das ist dann schon eindeutiger",
+    "tags": [
+      "confidence_high: secondary"
+    ],
+    "rationale": "The word 'eindeutiger' implicitly expresses high diagnostic certainty.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 28
+    },
+    "model": "deepseek/deepseek-v4-pro-0813",
+    "provider": "StreamLake",
+    "configuration_name": "deepseek-v4-pro-0813-260812"
+  },
+  {
+    "phrase": "Gucke ich erst mal auf meine Seite.",
+    "context": "Gucke ich erst mal auf meine Seite. Habe noch nichts gemerkt, wo eine Blutung sein soll.",
+    "tags": [
+      "visual_search: description_of_own_approach_without_external_help"
+    ],
+    "rationale": "The person explicitly comments on their own search procedure, stating they will first look at their side.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 42
+    },
+    "model": "deepseek/deepseek-v4-pro-0813",
+    "provider": "Baidu",
+    "configuration_name": "deepseek-v4-pro-0813-260812"
+  },
+  {
+    "phrase": "Habe noch nichts gemerkt, wo eine Blutung sein soll.",
+    "context": "Gucke ich erst mal auf meine Seite. Habe noch nichts gemerkt, wo eine Blutung sein soll. Was?",
+    "tags": [
+      "interpretation: no_bleeding"
+    ],
+    "rationale": "The person verbalizes that they have not noticed any hemorrhage, interpreting the lack of a finding as no bleeding so far.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 42
+    },
+    "model": "deepseek/deepseek-v4-pro-0813",
+    "provider": "Baidu",
+    "configuration_name": "deepseek-v4-pro-0813-260812"
+  },
+  {
+    "phrase": "Was?",
+    "context": "Habe noch nichts gemerkt, wo eine Blutung sein soll. Was? Hier wird mir dann von AI gezeigt, dass wäre eine Blutung",
+    "tags": [
+      "other"
+    ],
+    "rationale": "The interjection 'Was?' is ambiguous and cannot be clearly assigned to a specific category with the given information.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 42
+    },
+    "model": "deepseek/deepseek-v4-pro-0813",
+    "provider": "Baidu",
+    "configuration_name": "deepseek-v4-pro-0813-260812"
+  },
+  {
+    "phrase": "Hier wird mir dann von AI gezeigt, dass wäre eine Blutung",
+    "context": "Was? Hier wird mir dann von AI gezeigt, dass wäre eine Blutung, das hätte ich auf keinen Fall erkannt.",
+    "tags": [
+      "ai_report: ich"
+    ],
+    "rationale": "The person verbalizes that the AI has shown them a hemorrhage.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 42
+    },
+    "model": "deepseek/deepseek-v4-pro-0813",
+    "provider": "Baidu",
+    "configuration_name": "deepseek-v4-pro-0813-260812"
+  },
+  {
+    "phrase": "das hätte ich auf keinen Fall erkannt.",
+    "context": "Hier wird mir dann von AI gezeigt, dass wäre eine Blutung, das hätte ich auf keinen Fall erkannt.",
+    "tags": [
+      "reflection_of_ai: ich_not_recognized_without_ai"
+    ],
+    "rationale": "The person states that they would not have recognized the hemorrhage without the AI.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 42
+    },
+    "model": "deepseek/deepseek-v4-pro-0813",
+    "provider": "Baidu",
+    "configuration_name": "deepseek-v4-pro-0813-260812"
+  },
+  {
+    "phrase": "Und ich geh von oben und guck allein erstmal",
+    "context": "Und ich geh von oben und guck allein erstmal, noch sehe keine Unterschied mhm …",
+    "tags": [
+      "visual_search: description_of_own_approach_without_external_help"
+    ],
+    "rationale": "The person explicitly describes their own visual search approach: starting from the top and first looking alone without AI.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 31
+    },
+    "model": "deepseek/deepseek-v4-pro-0813",
+    "provider": "StreamLake",
+    "configuration_name": "deepseek-v4-pro-0813-260812"
+  },
+  {
+    "phrase": "noch sehe keine Unterschied",
+    "context": "Und ich geh von oben und guck allein erstmal, noch sehe keine Unterschied mhm …",
+    "tags": [
+      "indicator: no_bleeding"
+    ],
+    "rationale": "The person states that they currently see no difference, classifying the inspected area as unremarkable/no hemorrhage.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 31
+    },
+    "model": "deepseek/deepseek-v4-pro-0813",
+    "provider": "StreamLake",
+    "configuration_name": "deepseek-v4-pro-0813-260812"
+  },
+  {
+    "phrase": "mhm",
+    "context": "noch sehe keine Unterschied mhm … Ich bin noch nicht so viel was aufgefallen",
+    "tags": [
+      "paused_in_process"
+    ],
+    "rationale": "Pure filler word without diagnostic content.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 31
+    },
+    "model": "deepseek/deepseek-v4-pro-0813",
+    "provider": "StreamLake",
+    "configuration_name": "deepseek-v4-pro-0813-260812"
+  },
+  {
+    "phrase": "Ich bin noch nicht so viel was aufgefallen",
+    "context": "mhm … Ich bin noch nicht so viel was aufgefallen, vielleicht gucke ich auf der AI Seite erstmal.",
+    "tags": [
+      "reflection: self_monitoring"
+    ],
+    "rationale": "The person explicitly observes and comments on their own diagnostic process, noting that little has caught their attention so far.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 31
+    },
+    "model": "deepseek/deepseek-v4-pro-0813",
+    "provider": "StreamLake",
+    "configuration_name": "deepseek-v4-pro-0813-260812"
+  },
+  {
+    "phrase": "vielleicht gucke ich auf der AI Seite erstmal.",
+    "context": "Ich bin noch nicht so viel was aufgefallen, vielleicht gucke ich auf der AI Seite erstmal. Ah, je das hatte ich nicht gesehn.",
+    "tags": [
+      "control: relying_on_ai"
+    ],
+    "rationale": "The person decides to consult the AI side, indicating reliance on the AI for the visual search.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 31
+    },
+    "model": "deepseek/deepseek-v4-pro-0813",
+    "provider": "StreamLake",
+    "configuration_name": "deepseek-v4-pro-0813-260812"
+  },
+  {
+    "phrase": "Ah, je das hatte ich nicht gesehn.",
+    "context": "vielleicht gucke ich auf der AI Seite erstmal. Ah, je das hatte ich nicht gesehn. Aber wenn mans weis, dann ja.",
+    "tags": [
+      "reflection_of_ai: ich_not_recognized_without_ai",
+      "reflection: self_correction"
+    ],
+    "rationale": "After looking at the AI side, the person admits they had not seen the finding themselves, implying the AI revealed a hemorrhage that they would have missed; this corrects their previous statement that nothing differed.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 31
+    },
+    "model": "deepseek/deepseek-v4-pro-0813",
+    "provider": "StreamLake",
+    "configuration_name": "deepseek-v4-pro-0813-260812"
+  },
+  {
+    "phrase": "Aber wenn mans weis, dann ja.",
+    "context": "Ah, je das hatte ich nicht gesehn. Aber wenn mans weis, dann ja. Das hilft da",
+    "tags": [
+      "confidence_high: secondary"
+    ],
+    "rationale": "The person implicitly expresses high certainty: once the information is known, the finding is clearly confirmable.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 31
+    },
+    "model": "deepseek/deepseek-v4-pro-0813",
+    "provider": "StreamLake",
+    "configuration_name": "deepseek-v4-pro-0813-260812"
+  },
+  {
+    "phrase": "Das hilft da",
+    "context": "Aber wenn mans weis, dann ja. Das hilft da",
+    "tags": [
+      "reflection_of_ai: helpful"
+    ],
+    "rationale": "The person explicitly evaluates the AI as helpful.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 31
+    },
+    "model": "deepseek/deepseek-v4-pro-0813",
+    "provider": "StreamLake",
+    "configuration_name": "deepseek-v4-pro-0813-260812"
+  },
+  {
+    "phrase": "ich guck erstmal auf meine Seite ohne AI, ob irgendwelche Auffälligkeite",
+    "context": "Hier soll was sein, ich guck erstmal auf meine Seite ohne AI, ob irgendwelche Auffälligkeite, bis jetzt ist die Mittellinie in der Mitte nicht vershcoben",
+    "tags": [
+      "visual_search: description_of_own_approach_without_external_help"
+    ],
+    "rationale": "The person explicitly describes their own search procedure: first looking without AI for abnormalities.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 23
+    },
+    "model": "deepseek/deepseek-v4-pro-0813",
+    "provider": "Baidu",
+    "configuration_name": "deepseek-v4-pro-0813-260812"
+  },
+  {
+    "phrase": "bis jetzt ist die Mittellinie in der Mitte nicht vershcoben, Knochendefekte sehe ich nicht, Unterschiede zwischen den beiden hemisphären kann ich auch auf die Schnelle nicht gesehen.",
+    "context": "ich guck erstmal auf meine Seite ohne AI, ob irgendwelche Auffälligkeite, bis jetzt ist die Mittellinie in der Mitte nicht vershcoben, Knochendefekte sehe ich nicht, Unterschiede zwischen den beiden hemisphären kann ich auch auf die Schnelle nicht gesehen. Geh nochmal durch nochmal",
+    "tags": [
+      "visual_search: description_of_medical_image_features"
+    ],
+    "rationale": "The person verbalizes checking specific image features: midline shift, bone defects, and hemispheric differences.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 23
+    },
+    "model": "deepseek/deepseek-v4-pro-0813",
+    "provider": "Baidu",
+    "configuration_name": "deepseek-v4-pro-0813-260812"
+  },
+  {
+    "phrase": "Geh nochmal durch nochmal",
+    "context": "Unterschiede zwischen den beiden hemisphären kann ich auch auf die Schnelle nicht gesehen. Geh nochmal durch nochmal ... ja da ist was, da war was helles da",
+    "tags": [
+      "control: control_repeat"
+    ],
+    "rationale": "The person repeats the scan of the image.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 23
+    },
+    "model": "deepseek/deepseek-v4-pro-0813",
+    "provider": "Baidu",
+    "configuration_name": "deepseek-v4-pro-0813-260812"
+  },
+  {
+    "phrase": "ja da ist was, da war was helles da",
+    "context": "Geh nochmal durch nochmal ... ja da ist was, da war was helles da und bekomm ich auch gesagt von der AI, dass da was ist.",
+    "tags": [
+      "indicator: anomaly_detected"
+    ],
+    "rationale": "The person notices a bright abnormality atypical for a healthy skull.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 23
+    },
+    "model": "deepseek/deepseek-v4-pro-0813",
+    "provider": "Baidu",
+    "configuration_name": "deepseek-v4-pro-0813-260812"
+  },
+  {
+    "phrase": "und bekomm ich auch gesagt von der AI, dass da was ist.",
+    "context": "ja da ist was, da war was helles da und bekomm ich auch gesagt von der AI, dass da was ist.",
+    "tags": [
+      "ai_report: ich"
+    ],
+    "rationale": "The person reports that the AI has also indicated a finding, in this context a hemorrhage.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 23
+    },
+    "model": "deepseek/deepseek-v4-pro-0813",
+    "provider": "Baidu",
+    "configuration_name": "deepseek-v4-pro-0813-260812"
+  },
+  {
+    "phrase": "erst mal auf der Seite ohne AI",
+    "context": "Ja. Genaue, erst mal auf der Seite ohne AI, auf Unterschiede beidseitig bei den Hemisphären, und hier hab ich nichts direkt gesehen",
+    "tags": [
+      "visual_search: description_of_own_approach_without_external_help"
+    ],
+    "rationale": "The person explicitly describes their own search procedure, starting on the side without AI.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 17
+    },
+    "model": "deepseek/deepseek-v4-pro-0813",
+    "provider": "Baidu",
+    "configuration_name": "deepseek-v4-pro-0813-260812"
+  },
+  {
+    "phrase": "auf Unterschiede beidseitig bei den Hemisphären",
+    "context": "Ja. Genaue, erst mal auf der Seite ohne AI, auf Unterschiede beidseitig bei den Hemisphären, und hier hab ich nichts direkt gesehen",
+    "tags": [
+      "visual_search: description_of_medical_image_features"
+    ],
+    "rationale": "The person verbalizes which anatomical structures they are checking, namely bilateral hemispheric differences.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 17
+    },
+    "model": "deepseek/deepseek-v4-pro-0813",
+    "provider": "Baidu",
+    "configuration_name": "deepseek-v4-pro-0813-260812"
+  },
+  {
+    "phrase": "hier hab ich nichts direkt gesehen",
+    "context": "und hier hab ich nichts direkt gesehen und auf der Seite mir aber was angezeigt.",
+    "tags": [
+      "indicator: no_bleeding"
+    ],
+    "rationale": "The person classifies the inspected area as unremarkable, reporting no directly visible abnormality.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 17
+    },
+    "model": "deepseek/deepseek-v4-pro-0813",
+    "provider": "Baidu",
+    "configuration_name": "deepseek-v4-pro-0813-260812"
+  },
+  {
+    "phrase": "auf der Seite mir aber was angezeigt",
+    "context": "und hier hab ich nichts direkt gesehen und auf der Seite mir aber was angezeigt.",
+    "tags": [
+      "ai_report: ich"
+    ],
+    "rationale": "The person reports that something was shown to them on the AI side, indicating that the AI found a hemorrhage.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 17
+    },
+    "model": "deepseek/deepseek-v4-pro-0813",
+    "provider": "Baidu",
+    "configuration_name": "deepseek-v4-pro-0813-260812"
+  },
+  {
+    "phrase": "Das hätte ich ohne so ohne so große Erfahrung nicht gemerkt.",
+    "context": "und auf der Seite mir aber was angezeigt. Das hätte ich ohne so ohne so große Erfahrung nicht gemerkt. Aber wenn man das weiß, dann sieht man es da auch doch.",
+    "tags": [
+      "reflection: experience_limitation"
+    ],
+    "rationale": "The person refers to their own experience limitations by saying they would not have noticed the finding without sufficient experience.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 17
+    },
+    "model": "deepseek/deepseek-v4-pro-0813",
+    "provider": "Baidu",
+    "configuration_name": "deepseek-v4-pro-0813-260812"
+  },
+  {
+    "phrase": "Aber wenn man das weiß, dann sieht man es da auch doch",
+    "context": "Das hätte ich ohne so ohne so große Erfahrung nicht gemerkt. Aber wenn man das weiß, dann sieht man es da auch doch.",
+    "tags": [
+      "visual_search: triggered_by_ai",
+      "confidence_high: secondary"
+    ],
+    "rationale": "Knowing the AI-indicated location guides the visual search, and 'doch' expresses implicit certainty in seeing the finding.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 17
+    },
+    "model": "deepseek/deepseek-v4-pro-0813",
+    "provider": "Baidu",
+    "configuration_name": "deepseek-v4-pro-0813-260812"
+  },
+  {
+    "phrase": "Und hier soll auch nichts sein",
+    "context": "Und hier soll auch nichts sein, schau auf meine Seite ohne AI an, ich seh auch keine Asymetrien, Unterschiede und dann",
+    "tags": [
+      "indicator: no_bleeding"
+    ],
+    "rationale": "The speaker refers to a specific image area as showing no abnormality/no hemorrhage, classifying it as unremarkable.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 48
+    },
+    "model": "deepseek/deepseek-v4-pro-0813",
+    "provider": "Baidu",
+    "configuration_name": "deepseek-v4-pro-0813-260812"
+  },
+  {
+    "phrase": "schau auf meine Seite ohne AI an",
+    "context": "Und hier soll auch nichts sein, schau auf meine Seite ohne AI an, ich seh auch keine Asymetrien, Unterschiede und dann",
+    "tags": [
+      "visual_search: description_of_own_approach_without_external_help"
+    ],
+    "rationale": "The speaker explicitly comments on viewing the image without AI assistance, describing their own search procedure.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 48
+    },
+    "model": "deepseek/deepseek-v4-pro-0813",
+    "provider": "Baidu",
+    "configuration_name": "deepseek-v4-pro-0813-260812"
+  },
+  {
+    "phrase": "ich seh auch keine Asymetrien, Unterschiede",
+    "context": "Und hier soll auch nichts sein, schau auf meine Seite ohne AI an, ich seh auch keine Asymetrien, Unterschiede und dann",
+    "tags": [
+      "visual_search: description_of_medical_image_features"
+    ],
+    "rationale": "The speaker verbalizes image characteristics they are checking, specifically the absence of asymmetries or differences.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 48
+    },
+    "model": "deepseek/deepseek-v4-pro-0813",
+    "provider": "Baidu",
+    "configuration_name": "deepseek-v4-pro-0813-260812"
+  },
+  {
+    "phrase": "und dann",
+    "context": "Und hier soll auch nichts sein, schau auf meine Seite ohne AI an, ich seh auch keine Asymetrien, Unterschiede und dann",
+    "tags": [
+      "paused_in_process"
+    ],
+    "rationale": "Incomplete filler phrase with no clear diagnostic content.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 48
+    },
+    "model": "deepseek/deepseek-v4-pro-0813",
+    "provider": "Baidu",
+    "configuration_name": "deepseek-v4-pro-0813-260812"
+  },
+  {
+    "phrase": "Mhm",
+    "context": "Mhm hier ist wieder angeblich keine Blutung",
+    "tags": [
+      "paused_in_process"
+    ],
+    "rationale": "Pure filler word at the beginning of the utterance.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 32
+    },
+    "model": "deepseek/deepseek-v4-pro-0813",
+    "provider": "Alibaba",
+    "configuration_name": "deepseek-v4-pro-0813-260812"
+  },
+  {
+    "phrase": "hier ist wieder angeblich keine Blutung",
+    "context": "Mhm hier ist wieder angeblich keine Blutung und ich kann ein bisschen schneller scrollen.",
+    "tags": [
+      "ai_report: no_ich"
+    ],
+    "rationale": "The person verbalizes that the AI has not found a hemorrhage.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 32
+    },
+    "model": "deepseek/deepseek-v4-pro-0813",
+    "provider": "Alibaba",
+    "configuration_name": "deepseek-v4-pro-0813-260812"
+  },
+  {
+    "phrase": "ich kann ein bisschen schneller scrollen",
+    "context": "hier ist wieder angeblich keine Blutung und ich kann ein bisschen schneller scrollen. Und sehe dass ich keine Unterschied merke",
+    "tags": [
+      "visual_search: description_of_own_approach_without_external_help"
+    ],
+    "rationale": "The person explicitly comments on their own search procedure by saying they can scroll faster.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 32
+    },
+    "model": "deepseek/deepseek-v4-pro-0813",
+    "provider": "Alibaba",
+    "configuration_name": "deepseek-v4-pro-0813-260812"
+  },
+  {
+    "phrase": "Und sehe dass ich keine Unterschied merke",
+    "context": "ich kann ein bisschen schneller scrollen. Und sehe dass ich keine Unterschied merke und auf der anderen Seite wird auch keine Blututng angezeigt.",
+    "tags": [
+      "visual_search: description_of_medical_image_features"
+    ],
+    "rationale": "The person verbalizes a current image characteristic, namely that they perceive no difference.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 32
+    },
+    "model": "deepseek/deepseek-v4-pro-0813",
+    "provider": "Alibaba",
+    "configuration_name": "deepseek-v4-pro-0813-260812"
+  },
+  {
+    "phrase": "auf der anderen Seite wird auch keine Blututng angezeigt",
+    "context": "Und sehe dass ich keine Unterschied merke und auf der anderen Seite wird auch keine Blututng angezeigt.",
+    "tags": [
+      "ai_report: no_ich"
+    ],
+    "rationale": "The person again verbalizes that the AI indicates no hemorrhage on the other side.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 32
+    },
+    "model": "deepseek/deepseek-v4-pro-0813",
+    "provider": "Alibaba",
+    "configuration_name": "deepseek-v4-pro-0813-260812"
+  },
+  {
+    "error": "JSONDecodeError",
+    "message": "Expecting value: line 1 column 1 (char 0)",
+    "raw_output": "",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 4
+    },
+    "model": "deepseek/deepseek-v4-pro-0813",
+    "provider": "CoreWeave",
+    "configuration_name": "deepseek-v4-pro-0813-260812"
+  }
+]

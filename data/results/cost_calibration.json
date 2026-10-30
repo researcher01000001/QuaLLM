@@ -1,0 +1,119 @@
+{
+  "google/gemini-3.8-flash": {
+    "none": {
+      "completion_token_factor": 24.423219337363797,
+      "reasoning_token_factor": 0.7434988309151245,
+      "sample_calls": 5666,
+      "last_updated": "2026-10-25T23:37:02.957493+00:00",
+      "last_prefix": "scaling"
+    }
+  },
+  "mistralai/mistral-small-2603": {
+    "none": {
+      "completion_token_factor": 2.759489302967564,
+      "reasoning_token_factor": 0.0,
+      "sample_calls": 9,
+      "last_updated": "2026-10-22T17:53:35.773853+00:00",
+      "last_prefix": "test"
+    }
+  },
+  "mistralai/mistral-large-4-0": {
+    "none": {
+      "completion_token_factor": 25.95272601794341,
+      "reasoning_token_factor": 0.85246838893247,
+      "sample_calls": 9,
+      "last_updated": "2026-10-22T17:53:35.787272+00:00",
+      "last_prefix": "test"
+    }
+  },
+  "qwen/qwen3.8-27b": {
+    "none": {
+      "completion_token_factor": 7.153899240855763,
+      "reasoning_token_factor": 4.733600231526143,
+      "sample_calls": 9,
+      "last_updated": "2026-10-22T17:53:35.796560+00:00",
+      "last_prefix": "test"
+    }
+  },
+  "qwen/qwen3.8-max-prime": {
+    "none": {
+      "completion_token_factor": 54.51000690131125,
+      "reasoning_token_factor": 0.9077736279040324,
+      "sample_calls": 9,
+      "last_updated": "2026-10-22T17:53:35.809369+00:00",
+      "last_prefix": "test"
+    }
+  },
+  "z-ai/glm-5.3": {
+    "none": {
+      "completion_token_factor": 2.652173913043478,
+      "reasoning_token_factor": 0.0,
+      "sample_calls": 9,
+      "last_updated": "2026-10-22T17:53:35.816877+00:00",
+      "last_prefix": "test"
+    }
+  },
+  "openai/gpt-6-sol": {
+    "none": {
+      "completion_token_factor": 4.867149758454106,
+      "reasoning_token_factor": 0.31166253101736974,
+      "sample_calls": 9,
+      "last_updated": "2026-10-22T17:53:35.826072+00:00",
+      "last_prefix": "test"
+    }
+  },
+  "openai/gpt-6-luna": {
+    "none": {
+      "completion_token_factor": 8.0351966873706,
+      "reasoning_token_factor": 0.6308940994589023,
+      "sample_calls": 9,
+      "last_updated": "2026-10-22T17:53:35.839713+00:00",
+      "last_prefix": "test"
+    }
+  },
+  "deepseek/deepseek-v4-pro-0813": {
+    "none": {
+      "completion_token_factor": 2.674258109040718,
+      "reasoning_token_factor": 0.0,
+      "sample_calls": 9,
+      "last_updated": "2026-10-22T17:53:35.851209+00:00",
+      "last_prefix": "test"
+    }
+  },
+  "google/gemma-4-31b-it": {
+    "none": {
+      "completion_token_factor": 3.380952380952381,
+      "reasoning_token_factor": 0.0,
+      "sample_calls": 9,
+      "last_updated": "2026-10-22T17:53:35.867643+00:00",
+      "last_prefix": "test"
+    }
+  },
+  "anthropic/claude-sonnet-5.5": {
+    "none": {
+      "completion_token_factor": 4.813319530710835,
+      "reasoning_token_factor": 0.0,
+      "sample_calls": 9,
+      "last_updated": "2026-10-22T17:53:35.877503+00:00",
+      "last_prefix": "test"
+    }
+  },
+  "meta-llama/llama-3.3-70b-instruct": {
+    "none": {
+      "completion_token_factor": 1.8364389233954452,
+      "reasoning_token_factor": 0.0,
+      "sample_calls": 9,
+      "last_updated": "2026-10-22T17:53:35.887828+00:00",
+      "last_prefix": "test"
+    }
+  },
+  "meta-llama/llama-3.2-3b-instruct": {
+    "none": {
+      "completion_token_factor": 2.3178053830227743,
+      "reasoning_token_factor": 0.0,
+      "sample_calls": 9,
+      "last_updated": "2026-10-22T17:53:35.897300+00:00",
+      "last_prefix": "test"
+    }
+  }
+}

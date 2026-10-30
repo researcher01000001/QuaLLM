@@ -1,0 +1,4638 @@
+[
+  {
+    "phrase": "Mhm, ja normal fange ich immer irgwendwie von oben oder von untern an, dass ich nichts verpasse.",
+    "tags": [
+      "control: missing_information"
+    ],
+    "source": {
+      "source_name": "20_advice with annotation_cycle_236",
+      "row": 2
+    },
+    "start": 3194,
+    "end": 3290,
+    "source_iterations": 1
+  },
+  {
+    "phrase": "Kein Zeichen für eine Blutung",
+    "tags": [
+      "indicator: no_bleeding"
+    ],
+    "source": {
+      "source_name": "20_advice with annotation_cycle_236",
+      "row": 10
+    },
+    "start": 5465,
+    "end": 5494,
+    "source_iterations": 1
+  },
+  {
+    "phrase": "Mittellienie mitte wir habe hir alles symetrich und keine Signalverstärkung, ja",
+    "tags": [
+      "indicator: no_bleeding"
+    ],
+    "source": {
+      "source_name": "20_advice with annotation_cycle_236",
+      "row": 5
+    },
+    "start": 4115,
+    "end": 4194,
+    "source_iterations": 1
+  },
+  {
+    "phrase": "Auch hier ist es symetrisch … und …",
+    "tags": [
+      "indicator: anomaly_detected",
+      "interpretation: bleeding"
+    ],
+    "source": {
+      "source_name": "20_advice with annotation_cycle_236",
+      "row": 9
+    },
+    "start": 5381,
+    "end": 5416,
+    "source_iterations": 1
+  },
+  {
+    "phrase": "Ich würde schneller einfach durchgehen.",
+    "tags": [
+      "control: missing_information",
+      "interpretation: no_bleeding"
+    ],
+    "source": {
+      "source_name": "20_advice with annotation_cycle_236",
+      "row": 1
+    },
+    "start": 3154,
+    "end": 3193,
+    "source_iterations": 1
+  },
+  {
+    "phrase": "Fang ich wieder von vorne an und schau auf die Mittellinie.",
+    "tags": [
+      "control: control_repeat"
+    ],
+    "source": {
+      "source_name": "20_advice with annotation_cycle_236",
+      "row": 8
+    },
+    "start": 5247,
+    "end": 5306,
+    "source_iterations": 1
+  },
+  {
+    "phrase": "Mittellinien ist in der Mitte, es sind keine Verschiebungen, Ventrikel sehen auch gleich aus …",
+    "tags": [
+      "control: make_own_judgement",
+      "control: missing_information",
+      "interpretation: bleeding"
+    ],
+    "source": {
+      "source_name": "20_advice with annotation_cycle_236",
+      "row": 4
+    },
+    "start": 3892,
+    "end": 3986,
+    "source_iterations": 1
+  },
+  {
+    "phrase": "Und auf symetrie schauen, auf Knochendefekte",
+    "tags": [
+      "control: control_repeat",
+      "indicator: anomaly_detected"
+    ],
+    "source": {
+      "source_name": "20_advice with annotation_cycle_236",
+      "row": 13
+    },
+    "start": 5930,
+    "end": 5974,
+    "source_iterations": 1
+  },
+  {
+    "phrase": "Hier kann ich aber, ich will ja wissen, dass ich nichts verpasst habe.",
+    "tags": [
+      "control: missing_information"
+    ],
+    "source": {
+      "source_name": "20_advice with annotation_cycle_236",
+      "row": 15
+    },
+    "start": 6386,
+    "end": 6456,
+    "source_iterations": 1
+  },
+  {
+    "phrase": "Ja hier, sieht man nichts und AI sagt auch es ist nichts da",
+    "tags": [
+      "other",
+      "ai_report: no_ich"
+    ],
+    "source": {
+      "source_name": "20_advice with annotation_cycle_236",
+      "row": 18
+    },
+    "start": 6917,
+    "end": 6976,
+    "source_iterations": 1
+  },
+  {
+    "phrase": "Das hätte ich ohne so ohne so große Erfahrung nicht gemerkt.",
+    "tags": [
+      "control: make_own_judgement",
+      "confidence_high: secondary"
+    ],
+    "source": {
+      "source_name": "20_advice with annotation_cycle_236",
+      "row": 17
+    },
+    "start": 6800,
+    "end": 6860,
+    "source_iterations": 1
+  },
+  {
+    "phrase": "Ja, gut",
+    "tags": [
+      "control: control_repeat"
+    ],
+    "source": {
+      "source_name": "20_advice with annotation_cycle_236",
+      "row": 16
+    },
+    "start": 6618,
+    "end": 6625,
+    "source_iterations": 1
+  },
+  {
+    "phrase": "Das hätte ich nicht ohne AI gemerkt.",
+    "tags": [
+      "control: relying_on_ai",
+      "interpretation: bleeding",
+      "indicator: anomaly_detected"
+    ],
+    "source": {
+      "source_name": "20_advice with annotation_cycle_236",
+      "row": 14
+    },
+    "start": 6349,
+    "end": 6385,
+    "source_iterations": 1
+  },
+  {
+    "phrase": "was auf eine Blutung hindeuten könnte, oder bestimmt hindeutet",
+    "tags": [
+      "indicator: anomaly_detected",
+      "interpretation: bleeding"
+    ],
+    "source": {
+      "source_name": "20_advice with annotation_cycle_236",
+      "row": 7
+    },
+    "start": 5183,
+    "end": 5245,
+    "source_iterations": 1
+  },
+  {
+    "phrase": "auf der Seite ist ein Saum",
+    "tags": [
+      "indicator: anomaly_detected",
+      "interpretation: bleeding"
+    ],
+    "source": {
+      "source_name": "20_advice with annotation_cycle_236",
+      "row": 7
+    },
+    "start": 5155,
+    "end": 5181,
+    "source_iterations": 1
+  },
+  {
+    "phrase": "Das hilft einem sowohl beim Ausschluss, das man ein bisschen eher auf der sichern Seite, dass man nichts verpasst hat, auf jeden Fall schneller vorbei hier.",
+    "tags": [
+      "control: control_repeat",
+      "control: control_strategies",
+      "other"
+    ],
+    "source": {
+      "source_name": "20_advice with annotation_cycle_236",
+      "row": 11
+    },
+    "start": 5496,
+    "end": 5652,
+    "source_iterations": 1
+  },
+  {
+    "phrase": "Hier soll was sein, ich guck erstmal auf meine Seite ohne AI, ob irgendwelche Auffälligkeite",
+    "tags": [
+      "control: relying_on_ai",
+      "indicator: anomaly_detected",
+      "interpretation: bleeding"
+    ],
+    "source": {
+      "source_name": "20_advice with annotation_cycle_236",
+      "row": 23
+    },
+    "start": 7807,
+    "end": 7899,
+    "source_iterations": 1
+  },
+  {
+    "phrase": "Überprüfe ich meine Seite noch einmal.",
+    "tags": [
+      "control: control_repeat"
+    ],
+    "source": {
+      "source_name": "20_advice with annotation_cycle_236",
+      "row": 25
+    },
+    "start": null,
+    "end": null,
+    "source_iterations": 1
+  },
+  {
+    "phrase": "Ich guck erstmal ohne AI.",
+    "tags": [
+      "control: relying_on_ai",
+      "interpretation: bleeding"
+    ],
+    "source": {
+      "source_name": "20_advice with annotation_cycle_236",
+      "row": 21
+    },
+    "start": 7412,
+    "end": 7437,
+    "source_iterations": 1
+  },
+  {
+    "phrase": "Genau so hier mhm nichts auffällig aussieht",
+    "tags": [
+      "control: relying_on_ai"
+    ],
+    "source": {
+      "source_name": "20_advice with annotation_cycle_236",
+      "row": 27
+    },
+    "start": null,
+    "end": null,
+    "source_iterations": 1
+  },
+  {
+    "phrase": "So, hier ist wieder ne extra Sicherheit da, dass AI sagt, dass da nichts ist.",
+    "tags": [
+      "ai_report: no_ich"
+    ],
+    "source": {
+      "source_name": "20_advice with annotation_cycle_236",
+      "row": 30
+    },
+    "start": 8968,
+    "end": 9045,
+    "source_iterations": 1
+  },
+  {
+    "phrase": "man sieht schon ne Blutung",
+    "tags": [
+      "indicator: anomaly_detected",
+      "interpretation: bleeding",
+      "control: make_own_judgement"
+    ],
+    "source": {
+      "source_name": "20_advice with annotation_cycle_236",
+      "row": 29
+    },
+    "start": 8901,
+    "end": 8927,
+    "source_iterations": 1
+  },
+  {
+    "phrase": "Das hat jetzt geholfen",
+    "tags": [
+      "control: relying_on_ai",
+      "interpretation: bleeding"
+    ],
+    "source": {
+      "source_name": "20_advice with annotation_cycle_236",
+      "row": 33
+    },
+    "start": 9881,
+    "end": 9903,
+    "source_iterations": 1
+  },
+  {
+    "phrase": "Mhm hier wieder Mittelinie und Schädelkalotte und da drunter auch kein Saum, ist alles ok",
+    "tags": [
+      "control: control_repeat",
+      "other"
+    ],
+    "source": {
+      "source_name": "20_advice with annotation_cycle_236",
+      "row": 26
+    },
+    "start": 8382,
+    "end": 8471,
+    "source_iterations": 1
+  },
+  {
+    "phrase": "Okay. Jetzt wieder schneller, weil ich gesagt bekomme, dass da nichts da ist, und mir fällt auch nichts auf.",
+    "tags": [
+      "control: missing_information",
+      "ai_report: no_ich"
+    ],
+    "source": {
+      "source_name": "20_advice with annotation_cycle_236",
+      "row": 24
+    },
+    "start": 8206,
+    "end": 8314,
+    "source_iterations": 1
+  },
+  {
+    "phrase": "Hier ist wieder keine Blutung, ich gucke alleine und dann auf der anderen Seite, der AI Seite.",
+    "tags": [
+      "ai_report: no_ich",
+      "control: control_repeat"
+    ],
+    "source": {
+      "source_name": "20_advice with annotation_cycle_236",
+      "row": 35
+    },
+    "start": 10095,
+    "end": 10189,
+    "source_iterations": 1
+  },
+  {
+    "phrase": "Das ist dann schon eindeutiger",
+    "tags": [
+      "interpretation: bleeding",
+      "indicator: anomaly_detected"
+    ],
+    "source": {
+      "source_name": "20_advice with annotation_cycle_236",
+      "row": 28
+    },
+    "start": 8722,
+    "end": 8752,
+    "source_iterations": 1
+  },
+  {
+    "phrase": "Ich bin noch nicht so viel was aufgefallen",
+    "tags": [
+      "control: control_repeat, confidence_low: secondary"
+    ],
+    "source": {
+      "source_name": "20_advice with annotation_cycle_236",
+      "row": 31
+    },
+    "start": 9194,
+    "end": 9236,
+    "source_iterations": 1
+  },
+  {
+    "phrase": "Das hilft da",
+    "tags": [
+      "indicator: anomaly_detected",
+      "interpretation: bleeding"
+    ],
+    "source": {
+      "source_name": "20_advice with annotation_cycle_236",
+      "row": 31
+    },
+    "start": 9350,
+    "end": 9362,
+    "source_iterations": 1
+  },
+  {
+    "phrase": "Überhaupt mhm das alles so gefüllt ist.",
+    "tags": [
+      "control: missing_information"
+    ],
+    "source": {
+      "source_name": "20_advice with annotation_cycle_236",
+      "row": 34
+    },
+    "start": 10055,
+    "end": 10094,
+    "source_iterations": 1
+  },
+  {
+    "phrase": "Hier sollte nichts sein, ich finde es sehr schwer, dieses Bild zu interpretieren, aber deswegen hoffentlich mit der AI die richtige Entscheidung getroffen",
+    "tags": [
+      "control: relying_on_ai",
+      "interpretation: bleeding",
+      "awareness_of_task: difficult"
+    ],
+    "source": {
+      "source_name": "20_advice with annotation_cycle_236",
+      "row": 40
+    },
+    "start": 11348,
+    "end": 11502,
+    "source_iterations": 1
+  },
+  {
+    "phrase": "Ich gucke auf der AI Seite und da wird mir was angezeigt, was ich nicht gesehen hatte, deswegen hat mir das auf jeden Fall sehr geholfen",
+    "tags": [
+      "control: relying_on_ai",
+      "decision_with_ai: implicitly_agreeing_with_ai",
+      "reflection_of_ai: trust_in_ai"
+    ],
+    "source": {
+      "source_name": "20_advice with annotation_cycle_236",
+      "row": 37
+    },
+    "start": 10780,
+    "end": 10916,
+    "source_iterations": 1
+  },
+  {
+    "phrase": "Das könnte für mich eine Blutung sein.",
+    "tags": [
+      "interpretation: bleeding"
+    ],
+    "source": {
+      "source_name": "20_advice with annotation_cycle_236",
+      "row": 6
+    },
+    "start": null,
+    "end": null,
+    "source_iterations": 1
+  },
+  {
+    "phrase": "Ich guck mir schon auf der anderen Seite vom AI an, ob ich irgendwas verpasst hab.",
+    "tags": [
+      "control: relying_on_ai"
+    ],
+    "source": {
+      "source_name": "20_advice with annotation_cycle_236",
+      "row": 6
+    },
+    "start": 4271,
+    "end": 4353,
+    "source_iterations": 1
+  },
+  {
+    "phrase": "Also dieses Viereck ist jetzt nicht da. Wo die Blutung sein sollte, jetzt als Frage.",
+    "tags": [
+      "indicator: no_bleeding"
+    ],
+    "source": {
+      "source_name": "20_advice with annotation_cycle_236",
+      "row": 6
+    },
+    "start": 4405,
+    "end": 4489,
+    "source_iterations": 1
+  },
+  {
+    "phrase": "Achso, ja also bei diesem Bild zeigt mir das jetzt nicht an, wo das ist, ist das richtig?",
+    "tags": [
+      "control: control_repeat"
+    ],
+    "source": {
+      "source_name": "20_advice with annotation_cycle_236",
+      "row": 6
+    },
+    "start": 4532,
+    "end": 4621,
+    "source_iterations": 1
+  },
+  {
+    "phrase": "Also du kannst Bild für Bild durchgehen, ja da oben wars, ganz klein oben.",
+    "tags": [
+      "control: control_strategies"
+    ],
+    "source": {
+      "source_name": "20_advice with annotation_cycle_236",
+      "row": 6
+    },
+    "start": 4704,
+    "end": 4778,
+    "source_iterations": 1
+  },
+  {
+    "phrase": "Aber auch das hätte ich gar nicht gesehen.",
+    "tags": [
+      "confidence_low: secondary"
+    ],
+    "source": {
+      "source_name": "20_advice with annotation_cycle_236",
+      "row": 6
+    },
+    "start": 4806,
+    "end": 4848,
+    "source_iterations": 1
+  },
+  {
+    "phrase": "Mhm ohne AI hätte ich gedacht, dass ist irgendwie einen Artefakt, hätte ich nicht gesehen, finde es immernich schwer, so es sieht so aus, wie ein Artefakt irgendwie",
+    "tags": [
+      "reasoning: alternative_medical_cause"
+    ],
+    "source": {
+      "source_name": "20_advice with annotation_cycle_236",
+      "row": 6
+    },
+    "start": 4849,
+    "end": 5013,
+    "source_iterations": 1
+  },
+  {
+    "phrase": "Hier soll nichts sein.",
+    "tags": [
+      "control: control_repeat"
+    ],
+    "source": {
+      "source_name": "20_advice with annotation_cycle_236",
+      "row": 38
+    },
+    "start": 10917,
+    "end": 10939,
+    "source_iterations": 1
+  },
+  {
+    "phrase": "Ich bin mir einfach unsicher, ob es einfach nur eine Raumforderung ist, die nicht blutet",
+    "tags": [
+      "interpretation: no_bleeding",
+      "interpretation: uncertainty"
+    ],
+    "source": {
+      "source_name": "20_advice with annotation_cycle_236",
+      "row": 36
+    },
+    "start": 10372,
+    "end": 10460,
+    "source_iterations": 1
+  },
+  {
+    "phrase": "So hier sieht man schon einen Unterschied zu der Gegenseite",
+    "tags": [
+      "control: control_repeat",
+      "indicator: anomaly_detected"
+    ],
+    "source": {
+      "source_name": "20_advice with annotation_cycle_236",
+      "row": 41
+    },
+    "start": 11503,
+    "end": 11562,
+    "source_iterations": 1
+  },
+  {
+    "phrase": "Ne, ich gucke mal jetzt auf der AI Seite",
+    "tags": [
+      "control: relying_on_ai",
+      "interpretation: bleeding_localization_unclear"
+    ],
+    "source": {
+      "source_name": "20_advice with annotation_cycle_236",
+      "row": 41
+    },
+    "start": 11651,
+    "end": 11691,
+    "source_iterations": 1
+  },
+  {
+    "phrase": "schau auf meine Seite ohne AI an",
+    "tags": [
+      "control: relying_on_ai"
+    ],
+    "source": {
+      "source_name": "20_advice with annotation_cycle_236",
+      "row": 48
+    },
+    "start": 13069,
+    "end": 13101,
+    "source_iterations": 1
+  },
+  {
+    "phrase": "So, fangen wieder von vorne an und hier soll keine Blutung sein.",
+    "tags": [
+      "ai_report: no_ich"
+    ],
+    "source": {
+      "source_name": "20_advice with annotation_cycle_236",
+      "row": 44
+    },
+    "start": 12258,
+    "end": 12322,
+    "source_iterations": 1
+  },
+  {
+    "phrase": "Habe noch nichts gemerkt, wo eine Blutung sein soll.",
+    "tags": [
+      "control: relying_on_ai",
+      "interpretation: bleeding",
+      "ai_report: ich_localization"
+    ],
+    "source": {
+      "source_name": "20_advice with annotation_cycle_236",
+      "row": 42
+    },
+    "start": 11762,
+    "end": 11814,
+    "source_iterations": 1
+  },
+  {
+    "phrase": "Ich guck mal auf der AI Seite, ob mir das hier mit angezeigt wird …",
+    "tags": [
+      "control: relying_on_ai",
+      "visual_search: triggered_by_ai"
+    ],
+    "source": {
+      "source_name": "20_advice with annotation_cycle_236",
+      "row": 47
+    },
+    "start": 12912,
+    "end": 12979,
+    "source_iterations": 1
+  },
+  {
+    "phrase": "Hmm, hier sehe ich jetzt so schnell keinen Unterschied, oder keine Signalerhöhung…",
+    "tags": [
+      "control: missing_information"
+    ],
+    "source": {
+      "source_name": "20_no advice_cycle_25",
+      "row": 3
+    },
+    "start": 2899,
+    "end": 2981,
+    "source_iterations": 1
+  },
+  {
+    "phrase": "Also Schädelknochen zeigt nicht auf irgendwelche Traumata.",
+    "tags": [
+      "indicator: no_bleeding"
+    ],
+    "source": {
+      "source_name": "20_no advice_cycle_25",
+      "row": 3
+    },
+    "start": 2982,
+    "end": 3040,
+    "source_iterations": 1
+  },
+  {
+    "phrase": "Im Parenchym sehe ich nichts besonderes…",
+    "tags": [
+      "indicator: no_bleeding"
+    ],
+    "source": {
+      "source_name": "20_no advice_cycle_25",
+      "row": 18
+    },
+    "start": 6201,
+    "end": 6241,
+    "source_iterations": 1
+  },
+  {
+    "phrase": "… Hier sehe ich nichts.",
+    "tags": [
+      "indicator: no_bleeding"
+    ],
+    "source": {
+      "source_name": "20_no advice_cycle_25",
+      "row": 16
+    },
+    "start": 5905,
+    "end": 5928,
+    "source_iterations": 1
+  },
+  {
+    "phrase": "Ich würde hier schon tendieren zu Blutung, aber jetzt nicht Epidural oder Subdural",
+    "tags": [
+      "interpretation: bleeding",
+      "interpretation: no_bleeding"
+    ],
+    "source": {
+      "source_name": "20_no advice_cycle_25",
+      "row": 11
+    },
+    "start": 4507,
+    "end": 4589,
+    "source_iterations": 1
+  },
+  {
+    "phrase": "mhm, ja",
+    "tags": [
+      "control: control_repeat"
+    ],
+    "source": {
+      "source_name": "20_no advice_cycle_25",
+      "row": 11
+    },
+    "start": 4627,
+    "end": 4634,
+    "source_iterations": 1
+  },
+  {
+    "phrase": "Hmm… Hier sehe ich auch nichts…. Ich habe das Gefühl, ich sehe generell nichts.",
+    "tags": [
+      "reflection: perceptual_doubt",
+      "reflection: experience_limitation"
+    ],
+    "source": {
+      "source_name": "20_no advice_cycle_25",
+      "row": 19
+    },
+    "start": 6245,
+    "end": 6324,
+    "source_iterations": 1
+  },
+  {
+    "phrase": "Üblich, hier ist es eher alles symmetrisch. Üblich, ich sehe nichts besonderes.",
+    "tags": [
+      "control: missing_information, confidence_low: secondary"
+    ],
+    "source": {
+      "source_name": "20_no advice_cycle_25",
+      "row": 25
+    },
+    "start": null,
+    "end": null,
+    "source_iterations": 1
+  },
+  {
+    "phrase": "… Das kann ich nicht so gut beurteilen.",
+    "tags": [
+      "awareness_of_task: easy"
+    ],
+    "source": {
+      "source_name": "20_no advice_cycle_25",
+      "row": 27
+    },
+    "start": 8640,
+    "end": 8679,
+    "source_iterations": 1
+  },
+  {
+    "phrase": "Üch glaube, hier auch.",
+    "tags": [
+      "interpretation: bleeding",
+      "confidence_high: concrete"
+    ],
+    "source": {
+      "source_name": "20_no advice_cycle_25",
+      "row": 23
+    },
+    "start": null,
+    "end": null,
+    "source_iterations": 1
+  },
+  {
+    "phrase": "Das ist voll klein.",
+    "tags": [
+      "awareness_of_task: easy"
+    ],
+    "source": {
+      "source_name": "20_no advice_cycle_25",
+      "row": 1
+    },
+    "start": 1784,
+    "end": 1803,
+    "source_iterations": 1
+  },
+  {
+    "phrase": "Ich bin eher, also ich denke das ich sicherer bin als davor...",
+    "tags": [
+      "confidence_high: secondary"
+    ],
+    "source": {
+      "source_name": "20_no advice_cycle_25",
+      "row": 1
+    },
+    "start": 2505,
+    "end": 2567,
+    "source_iterations": 1
+  },
+  {
+    "phrase": "Über die linke Seite im Gehirn. glaube da ist alles ok.",
+    "tags": [
+      "indicator: no_bleeding"
+    ],
+    "source": {
+      "source_name": "20_no advice_cycle_25",
+      "row": 35
+    },
+    "start": null,
+    "end": null,
+    "source_iterations": 1
+  },
+  {
+    "phrase": "Ich hab sowieso das Gefühl, das wir in der Uni, nur diese typischen Bilder von Epi- und Subduraler Blutung, sich einprägen kann.",
+    "tags": [
+      "confidence_low: secondary",
+      "reflection: experience_limitation"
+    ],
+    "source": {
+      "source_name": "20_no advice_cycle_25",
+      "row": 33
+    },
+    "start": 11847,
+    "end": 11975,
+    "source_iterations": 1
+  },
+  {
+    "phrase": "… Da sehe ich nichts auffälliges.",
+    "tags": [
+      "indicator: no_bleeding",
+      "interpretation: bleeding_localization_unclear"
+    ],
+    "source": {
+      "source_name": "20_no advice_cycle_25",
+      "row": 47
+    },
+    "start": 14801,
+    "end": 14834,
+    "source_iterations": 1
+  },
+  {
+    "phrase": "Ich finde hier die Ventrikel, irgendwie schlecht zu erkennen, ich weiß nicht, ob das bei Kindern normal ist.",
+    "tags": [
+      "awareness_of_task: image_quality",
+      "interpretation: bleeding",
+      "reflection: diagnostic_uncertainty"
+    ],
+    "source": {
+      "source_name": "20_no advice_cycle_25",
+      "row": 45
+    },
+    "start": 14314,
+    "end": 14422,
+    "source_iterations": 1
+  },
+  {
+    "phrase": "Ansonsten, sehe ich sonst keine Epi- oder Subdurale Blutung, aber ich finde das schon komisch.",
+    "tags": [
+      "indicator: no_bleeding"
+    ],
+    "source": {
+      "source_name": "20_no advice_cycle_25",
+      "row": 45
+    },
+    "start": 14456,
+    "end": 14550,
+    "source_iterations": 1
+  },
+  {
+    "phrase": "Hm, da sehe ich jetzt keinen Unterschied zur linken Seite, außer… Ne…, Hm.",
+    "tags": [
+      "control: missing_information"
+    ],
+    "source": {
+      "source_name": "20_no advice_cycle_25",
+      "row": 48
+    },
+    "start": 14837,
+    "end": 14911,
+    "source_iterations": 1
+  },
+  {
+    "phrase": "Okay, hier sieht man schon deutlich rechs hier, irgendwie Einblutungen.",
+    "tags": [
+      "indicator: anomaly_detected",
+      "interpretation: bleeding"
+    ],
+    "source": {
+      "source_name": "20_no advice_cycle_25",
+      "row": 34
+    },
+    "start": 11997,
+    "end": 12068,
+    "source_iterations": 1
+  },
+  {
+    "phrase": "Weiter Frontalparetal, keine Ahnung, Frontaltemporal, wollte ich sagen.",
+    "tags": [
+      "control: missing_information"
+    ],
+    "source": {
+      "source_name": "20_no advice_cycle_25",
+      "row": 34
+    },
+    "start": 12069,
+    "end": 12140,
+    "source_iterations": 1
+  },
+  {
+    "phrase": "Hmm, die ist so, glaub ich konvex, also eher Epidural.",
+    "tags": [
+      "interpretation: bleeding",
+      "confidence_high: secondary"
+    ],
+    "source": {
+      "source_name": "20_no advice_cycle_25",
+      "row": 34
+    },
+    "start": 12141,
+    "end": 12195,
+    "source_iterations": 1
+  },
+  {
+    "phrase": "Drückt auf den Ventrikel und denke mir da hinten auch noch.",
+    "tags": [
+      "interpretation: bleeding",
+      "confidence_high: secondary"
+    ],
+    "source": {
+      "source_name": "20_no advice_cycle_25",
+      "row": 34
+    },
+    "start": 12196,
+    "end": 12255,
+    "source_iterations": 1
+  },
+  {
+    "phrase": "Da bin ich mir sehr sicher.",
+    "tags": [
+      "confidence_high: concrete"
+    ],
+    "source": {
+      "source_name": "20_no advice_cycle_25",
+      "row": 34
+    },
+    "start": 12256,
+    "end": 12283,
+    "source_iterations": 1
+  },
+  {
+    "phrase": "Ich bin mir da nicht so sicher ob ich was interessantes sehen würde.",
+    "tags": [
+      "reflection: diagnostic_uncertainty",
+      "confidence_low: secondary"
+    ],
+    "source": {
+      "source_name": "20_no advice_cycle_25",
+      "row": 39
+    },
+    "start": 13064,
+    "end": 13132,
+    "source_iterations": 1
+  },
+  {
+    "phrase": "Ich weiß nicht genau, sehr ungewiss?",
+    "tags": [
+      "confidence_low: secondary"
+    ],
+    "source": {
+      "source_name": "20_no advice_cycle_25",
+      "row": 39
+    },
+    "start": 13171,
+    "end": 13207,
+    "source_iterations": 1
+  },
+  {
+    "phrase": "Das hier vielleicht.",
+    "tags": [
+      "control: reflective_question"
+    ],
+    "source": {
+      "source_name": "20_no advice_cycle_25",
+      "row": 39
+    },
+    "start": 13254,
+    "end": 13274,
+    "source_iterations": 1
+  },
+  {
+    "phrase": "Ich bin sehr unsicher, ob ja oder nein.",
+    "tags": [
+      "reflection: diagnostic_uncertainty",
+      "confidence_low: secondary"
+    ],
+    "source": {
+      "source_name": "20_no advice_cycle_25",
+      "row": 39
+    },
+    "start": 13281,
+    "end": 13320,
+    "source_iterations": 1
+  },
+  {
+    "phrase": "Ich weiß nicht ob das ein Artefakt ist oder so.",
+    "tags": [
+      "confidence_low: secondary"
+    ],
+    "source": {
+      "source_name": "20_no advice_cycle_25",
+      "row": 39
+    },
+    "start": 13325,
+    "end": 13372,
+    "source_iterations": 1
+  },
+  {
+    "phrase": "Ich glaube schon, oder.",
+    "tags": [
+      "confidence_high: secondary"
+    ],
+    "source": {
+      "source_name": "20_no advice_cycle_25",
+      "row": 39
+    },
+    "start": 13373,
+    "end": 13396,
+    "source_iterations": 1
+  },
+  {
+    "phrase": "Ich enter?",
+    "tags": [
+      "control: reflective_question"
+    ],
+    "source": {
+      "source_name": "20_no advice_cycle_25",
+      "row": 39
+    },
+    "start": 13397,
+    "end": 13407,
+    "source_iterations": 1
+  },
+  {
+    "phrase": "Ja rechts, weiß ich nicht ob ich was sehe, oder nicht.",
+    "tags": [
+      "control: missing_information",
+      "interpretation: bleeding"
+    ],
+    "source": {
+      "source_name": "20_no advice_cycle_25",
+      "row": 36
+    },
+    "start": 12355,
+    "end": 12409,
+    "source_iterations": 1
+  },
+  {
+    "phrase": "Ob das irgendwie normal ist oder nicht.",
+    "tags": [
+      "control: missing_information",
+      "interpretation: bleeding"
+    ],
+    "source": {
+      "source_name": "20_no advice_cycle_25",
+      "row": 36
+    },
+    "start": 12410,
+    "end": 12449,
+    "source_iterations": 1
+  },
+  {
+    "phrase": "Ob das einfach ein Gyri, die grade angeschnitten wurde.",
+    "tags": [
+      "control: missing_information",
+      "interpretation: bleeding"
+    ],
+    "source": {
+      "source_name": "20_no advice_cycle_25",
+      "row": 36
+    },
+    "start": 12450,
+    "end": 12505,
+    "source_iterations": 1
+  },
+  {
+    "phrase": "Das sieht für mich so aus wie etwas Hyperdenses,",
+    "tags": [
+      "interpretation: bleeding"
+    ],
+    "source": {
+      "source_name": "20_no advice_cycle_25",
+      "row": 36
+    },
+    "start": 12506,
+    "end": 12554,
+    "source_iterations": 1
+  },
+  {
+    "phrase": "aber ich vermute ist nichts.",
+    "tags": [
+      "control: missing_information",
+      "interpretation: bleeding"
+    ],
+    "source": {
+      "source_name": "20_no advice_cycle_25",
+      "row": 36
+    },
+    "start": 12555,
+    "end": 12583,
+    "source_iterations": 1
+  },
+  {
+    "phrase": "Bin ich mir nicht so sicher,",
+    "tags": [
+      "control: missing_information",
+      "interpretation: bleeding"
+    ],
+    "source": {
+      "source_name": "20_no advice_cycle_25",
+      "row": 36
+    },
+    "start": 12584,
+    "end": 12612,
+    "source_iterations": 1
+  },
+  {
+    "phrase": "aber ich glaube nicht.",
+    "tags": [
+      "control: missing_information",
+      "interpretation: bleeding"
+    ],
+    "source": {
+      "source_name": "20_no advice_cycle_25",
+      "row": 36
+    },
+    "start": 12613,
+    "end": 12635,
+    "source_iterations": 1
+  },
+  {
+    "phrase": "Ich gehe wieder von oben durch.",
+    "tags": [
+      "control: make_own_judgement",
+      "interpretation: no_bleeding",
+      "interpretation: bleeding_localization_unclear"
+    ],
+    "source": {
+      "source_name": "42_advice with annotation_cycle_117",
+      "row": 6
+    },
+    "start": 10510,
+    "end": 10541,
+    "source_iterations": 1
+  },
+  {
+    "phrase": "nein, keine Blutung",
+    "tags": [
+      "ai_report: no_ich",
+      "interpretation: no_bleeding",
+      "decision_with_ai: explicitly_agreeing_with_ai"
+    ],
+    "source": {
+      "source_name": "42_advice with annotation_cycle_117",
+      "row": 13
+    },
+    "start": null,
+    "end": null,
+    "source_iterations": 1
+  },
+  {
+    "phrase": "Ich weiß nicht, was es sonst sein soll, deswegen sage ich, das ist eine Blutung.",
+    "tags": [
+      "interpretation: bleeding",
+      "reflection: diagnostic_uncertainty"
+    ],
+    "source": {
+      "source_name": "42_advice with annotation_cycle_117",
+      "row": 12
+    },
+    "start": 14772,
+    "end": 14852,
+    "source_iterations": 1
+  },
+  {
+    "phrase": "Ich sehe keine Mittelinienverlagerung, die Seitenventrikel sind recht offen, hier ist eine leichte Aufhellung da, wo die Blutung angeblich sein soll, das wäre eben eher temporal, aber eher so bei Basalganglien.",
+    "tags": [
+      "interpretation: bleeding",
+      "indicator: no_bleeding"
+    ],
+    "source": {
+      "source_name": "42_advice with annotation_cycle_117",
+      "row": 5
+    },
+    "start": 9838,
+    "end": 10048,
+    "source_iterations": 1
+  },
+  {
+    "phrase": "Das heißt, es wäre eine Aufhellung da, und deswegen würde ich sagen, vielleicht ist da so eine diffuse Blutung neben dem, neben dem Gefäßzyklus zu sehen.",
+    "tags": [
+      "interpretation: bleeding"
+    ],
+    "source": {
+      "source_name": "42_advice with annotation_cycle_117",
+      "row": 5
+    },
+    "start": 10108,
+    "end": 10261,
+    "source_iterations": 1
+  },
+  {
+    "phrase": "Hier ist eine Blutung entdeckt worden, und zwar frontal und das ist auch recht eindeutig.",
+    "tags": [
+      "indicator: anomaly_detected",
+      "interpretation: bleeding",
+      "control: relying_on_ai"
+    ],
+    "source": {
+      "source_name": "42_advice with annotation_cycle_117",
+      "row": 24
+    },
+    "start": 19762,
+    "end": 19851,
+    "source_iterations": 1
+  },
+  {
+    "phrase": "Das heißt, ich stimme zu und bin mir relativ sicher, dass es eine Blutung ist.",
+    "tags": [
+      "interpretation: bleeding",
+      "confidence_high: concrete"
+    ],
+    "source": {
+      "source_name": "42_advice with annotation_cycle_117",
+      "row": 19
+    },
+    "start": 17806,
+    "end": 17884,
+    "source_iterations": 1
+  },
+  {
+    "phrase": "Ich würde jetzt denken, dass da keine Blutung ist, weil es eben auch nicht hell ist, also nicht sehr kontrastreich ist, und deswegen würde ich sagen, es ist keine akute Blutung.",
+    "tags": [
+      "interpretation: no_bleeding"
+    ],
+    "source": {
+      "source_name": "42_advice with annotation_cycle_117",
+      "row": 0
+    },
+    "start": 3705,
+    "end": 3882,
+    "source_iterations": 1
+  },
+  {
+    "phrase": "Das sieht man hier auch, wenn man das Bild ein bisschen heller hat, dass da auf jeden Fall so eine Hyperdense Struktur ist, es könnte eher vielleicht eine epidurale Blutung sein.",
+    "tags": [
+      "indicator: anomaly_detected",
+      "interpretation: bleeding",
+      "confidence_high: secondary"
+    ],
+    "source": {
+      "source_name": "42_advice with annotation_cycle_117",
+      "row": 31
+    },
+    "start": null,
+    "end": null,
+    "source_iterations": 1
+  },
+  {
+    "phrase": "Hier wurde jetzt keine Blutung entdeckt, nach einem Autounfall von einer Frau.",
+    "tags": [
+      "ai_report: no_ich"
+    ],
+    "source": {
+      "source_name": "42_advice with annotation_cycle_117",
+      "row": 38
+    },
+    "start": 27070,
+    "end": 27148,
+    "source_iterations": 1
+  },
+  {
+    "phrase": "Die hatte ja auch keine Symptome hier angegeben.",
+    "tags": [
+      "indicator: no_bleeding"
+    ],
+    "source": {
+      "source_name": "42_advice with annotation_cycle_117",
+      "row": 38
+    },
+    "start": 27391,
+    "end": 27439,
+    "source_iterations": 1
+  },
+  {
+    "phrase": "hier ist keine Blutung entdeckt worden, nach einem Fall.",
+    "tags": [
+      "ai_report: no_ich"
+    ],
+    "source": {
+      "source_name": "42_advice with annotation_cycle_117",
+      "row": 41
+    },
+    "start": 28239,
+    "end": 28295,
+    "source_iterations": 1
+  },
+  {
+    "phrase": "Wieder ein E-Scooter accident keine Blutung entdeckt.",
+    "tags": [
+      "ai_report: no_ich"
+    ],
+    "source": {
+      "source_name": "42_advice with annotation_cycle_117",
+      "row": 39
+    },
+    "start": 27440,
+    "end": 27493,
+    "source_iterations": 1
+  },
+  {
+    "phrase": "Die Mittellinie sieht sehr bei kranial so ein bisschen nach rechts verschoben aus,",
+    "tags": [
+      "control: make_own_judgement"
+    ],
+    "source": {
+      "source_name": "42_advice with annotation_cycle_117",
+      "row": 39
+    },
+    "start": 27609,
+    "end": 27691,
+    "source_iterations": 1
+  },
+  {
+    "phrase": "also stimme ich zu.",
+    "tags": [
+      "decision_with_ai: explicitly_agreeing_with_ai"
+    ],
+    "source": {
+      "source_name": "42_advice with annotation_cycle_117",
+      "row": 39
+    },
+    "start": 27797,
+    "end": 27816,
+    "source_iterations": 1
+  },
+  {
+    "phrase": "Da hier wurde eine Blutung entdeckt nach einem Fahrradunfall, und zwar im Temporallappen, und ich schau grad, ob da jetzt gerne Verbiegung der Herrlichkeit die ich sehen kann, das.",
+    "tags": [
+      "indicator: anomaly_detected",
+      "interpretation: bleeding",
+      "control: make_own_judgement"
+    ],
+    "source": {
+      "source_name": "42_advice with annotation_cycle_117",
+      "row": 47
+    },
+    "start": 31640,
+    "end": 31820,
+    "source_iterations": 1
+  },
+  {
+    "phrase": "Das sieht mir auf jeden Fall sehr, ein bisschen asymmetrisch aus, hier so im Bereich des unteren Temporallappens und so kurz vorm vom Hirnstamm eigentlich schon.",
+    "tags": [
+      "indicator: anomaly_detected",
+      "interpretation: bleeding",
+      "control: missing_information"
+    ],
+    "source": {
+      "source_name": "42_advice with annotation_cycle_117",
+      "row": 48
+    },
+    "start": 32118,
+    "end": 32279,
+    "source_iterations": 1
+  },
+  {
+    "phrase": "Das könnte für mich eine Blutung sein.",
+    "tags": [
+      "interpretation: bleeding"
+    ],
+    "source": {
+      "source_name": "42_advice with annotation_cycle_117",
+      "row": 40
+    },
+    "start": null,
+    "end": null,
+    "source_iterations": 1
+  },
+  {
+    "phrase": "Es sieht so aus, als ob es eine Ausbuchtung oder eine subdurale Blutung sein könnte.",
+    "tags": [
+      "indicator: anomaly_detected",
+      "interpretation: bleeding_localization_unclear"
+    ],
+    "source": {
+      "source_name": "42_advice with annotation_cycle_117",
+      "row": 40
+    },
+    "start": null,
+    "end": null,
+    "source_iterations": 1
+  },
+  {
+    "phrase": "Ich sehe im Hirngewebe an sich keinerlei Blutung.",
+    "tags": [
+      "interpretation: no_bleeding"
+    ],
+    "source": {
+      "source_name": "42_advice with annotation_cycle_117",
+      "row": 40
+    },
+    "start": null,
+    "end": null,
+    "source_iterations": 1
+  },
+  {
+    "phrase": "Eine Blutung wurde gefunden.",
+    "tags": [
+      "indicator: anomaly_detected",
+      "interpretation: bleeding"
+    ],
+    "source": {
+      "source_name": "42_advice with annotation_cycle_117",
+      "row": 8
+    },
+    "start": 11546,
+    "end": 11574,
+    "source_iterations": 1
+  },
+  {
+    "phrase": "Das sieht so ein bisschen asymmetrisch aus von der von den Hemisphären",
+    "tags": [
+      "interpretation: bleeding_localization_unclear"
+    ],
+    "source": {
+      "source_name": "42_advice with annotation_cycle_117",
+      "row": 8
+    },
+    "start": 11575,
+    "end": 11645,
+    "source_iterations": 1
+  },
+  {
+    "phrase": "Das könnte auch sein, dass das der Schnitt ist",
+    "tags": [
+      "interpretation: bleeding_localization_unclear"
+    ],
+    "source": {
+      "source_name": "42_advice with annotation_cycle_117",
+      "row": 8
+    },
+    "start": null,
+    "end": null,
+    "source_iterations": 1
+  },
+  {
+    "phrase": "Das Kleinhirn sieht in Ordnung aus",
+    "tags": [
+      "interpretation: bleeding_localization_unclear"
+    ],
+    "source": {
+      "source_name": "42_advice with annotation_cycle_117",
+      "row": 8
+    },
+    "start": 11769,
+    "end": 11803,
+    "source_iterations": 1
+  },
+  {
+    "phrase": "Ich würde sagen, er hat auf jeden Fall entweder eine Liquorabflussstörung",
+    "tags": [
+      "interpretation: bleeding_localization_unclear",
+      "reasoning: alternative_medical_cause"
+    ],
+    "source": {
+      "source_name": "42_advice with annotation_cycle_117",
+      "row": 8
+    },
+    "start": 11878,
+    "end": 11951,
+    "source_iterations": 1
+  },
+  {
+    "phrase": "Und hier könnte es irgendwie sein, dass die Ventrikel, also dass der Abfluss ein bisschen verlegt ist",
+    "tags": [
+      "interpretation: bleeding_localization_unclear",
+      "reasoning: alternative_medical_cause"
+    ],
+    "source": {
+      "source_name": "42_advice with annotation_cycle_117",
+      "row": 8
+    },
+    "start": 11953,
+    "end": 12054,
+    "source_iterations": 1
+  },
+  {
+    "phrase": "Aber es sieht mir auch nicht nach Blutung aus",
+    "tags": [
+      "interpretation: bleeding_localization_unclear",
+      "interpretation: no_bleeding"
+    ],
+    "source": {
+      "source_name": "42_advice with annotation_cycle_117",
+      "row": 8
+    },
+    "start": 12056,
+    "end": 12101,
+    "source_iterations": 1
+  },
+  {
+    "phrase": "Deswegen würde ich sagen, er hat einen anderen Grund für seinen, für seine Liquorabflussstörung",
+    "tags": [
+      "interpretation: bleeding_localization_unclear",
+      "reasoning: alternative_medical_cause"
+    ],
+    "source": {
+      "source_name": "42_advice with annotation_cycle_117",
+      "row": 8
+    },
+    "start": 12103,
+    "end": 12198,
+    "source_iterations": 1
+  },
+  {
+    "phrase": "Und da würde mich die AI wieder unterstützen",
+    "tags": [
+      "interpretation: bleeding_localization_unclear",
+      "decision_with_ai: explicitly_agreeing_with_ai"
+    ],
+    "source": {
+      "source_name": "42_advice with annotation_cycle_117",
+      "row": 8
+    },
+    "start": 12200,
+    "end": 12244,
+    "source_iterations": 1
+  },
+  {
+    "phrase": "Ich gucke jetzt gerade den Circulus an, als wäre da eine Subarachnoidalblutung, hier ist so eine leichte Aufhellung, aber das könnte auch einfach die Arterie sein.",
+    "tags": [
+      "indicator: no_bleeding",
+      "interpretation: no_bleeding_explanation",
+      "control: control_strategies",
+      "reasoning: alternative_medical_cause"
+    ],
+    "source": {
+      "source_name": "42_no advice_cycle_188",
+      "row": 9
+    },
+    "start": 6526,
+    "end": 6689,
+    "source_iterations": 1
+  },
+  {
+    "phrase": "Ähm, schaue ich mir den Thalamus an, ist recht in Ordnung.",
+    "tags": [
+      "control: control_repeat",
+      "confidence_high: secondary",
+      "reflection: diagnostic_uncertainty",
+      "other"
+    ],
+    "source": {
+      "source_name": "42_no advice_cycle_188",
+      "row": 5
+    },
+    "start": 4471,
+    "end": 4529,
+    "source_iterations": 1
+  },
+  {
+    "phrase": "Ähm, hier, äh, ist das Kleinhirn, äh okay allerdings sieht es hier so aus, als wäre hinte die Mittellinie nach rechts verlagert.",
+    "tags": [
+      "control: missing_information",
+      "interpretation: no_bleeding"
+    ],
+    "source": {
+      "source_name": "42_no advice_cycle_188",
+      "row": 13
+    },
+    "start": 7646,
+    "end": 7774,
+    "source_iterations": 1
+  },
+  {
+    "phrase": "Ich sehe hier eine leichte Hyperdense Struktur links in der Hemisphäre, beim Mittelhirn, aber ich kann mir eventuell vorstellen, dass das eher die Epiphyse ist und gar nicht eine Blutung.",
+    "tags": [
+      "interpretation: bleeding",
+      "interpretation: no_bleeding"
+    ],
+    "source": {
+      "source_name": "42_no advice_cycle_188",
+      "row": 0
+    },
+    "start": 1073,
+    "end": 1260,
+    "source_iterations": 1
+  },
+  {
+    "phrase": "Ich bin mit temporalen Lappen aber nicht so sicher.",
+    "tags": [
+      "interpretation: bleeding",
+      "interpretation: no_bleeding"
+    ],
+    "source": {
+      "source_name": "42_no advice_cycle_188",
+      "row": 0
+    },
+    "start": 1728,
+    "end": 1779,
+    "source_iterations": 1
+  },
+  {
+    "phrase": "Ähm, ich schaue wieder nach Hyperdensen Strukturen im Gewebe.",
+    "tags": [
+      "control: missing_information"
+    ],
+    "source": {
+      "source_name": "42_no advice_cycle_188",
+      "row": 2
+    },
+    "start": 2871,
+    "end": 2932,
+    "source_iterations": 1
+  },
+  {
+    "phrase": "Ähm, daher würde ich hier keine Blutung diagnostizieren.",
+    "tags": [
+      "interpretation: no_bleeding"
+    ],
+    "source": {
+      "source_name": "42_no advice_cycle_188",
+      "row": 2
+    },
+    "start": 3124,
+    "end": 3180,
+    "source_iterations": 1
+  },
+  {
+    "phrase": "Ich bin mir hier vorne nicht sicher, deswegen.",
+    "tags": [
+      "reflection: diagnostic_uncertainty"
+    ],
+    "source": {
+      "source_name": "42_no advice_cycle_188",
+      "row": 12
+    },
+    "start": 7561,
+    "end": 7607,
+    "source_iterations": 1
+  },
+  {
+    "phrase": "Das ist keine Blutung.",
+    "tags": [
+      "interpretation: no_bleeding"
+    ],
+    "source": {
+      "source_name": "42_no advice_cycle_188",
+      "row": 12
+    },
+    "start": 7538,
+    "end": 7560,
+    "source_iterations": 1
+  },
+  {
+    "phrase": "Ich bin mir hier vorne nicht sicher, deswegen.",
+    "tags": [
+      "reflection: diagnostic_uncertainty"
+    ],
+    "source": {
+      "source_name": "42_no advice_cycle_188",
+      "row": 12
+    },
+    "start": 7561,
+    "end": 7607,
+    "source_iterations": 1
+  },
+  {
+    "phrase": "Dass das da eventuell eine Verletzung ist, und da würde ich sagen, da ist eine Blutung.",
+    "tags": [
+      "interpretation: bleeding"
+    ],
+    "source": {
+      "source_name": "42_no advice_cycle_188",
+      "row": 26
+    },
+    "start": 12571,
+    "end": 12658,
+    "source_iterations": 1
+  },
+  {
+    "phrase": "An den Schädelwänden sehe ich jetzt keine Blutungen, aber ja, es wäre auch eine recht untypische Stelle, wenn er jetzt gefallen ist, dass er da die Blutung hätte, deswegen würde ich sagen hier ist keine Blutung.",
+    "tags": [
+      "indicator: no_bleeding"
+    ],
+    "source": {
+      "source_name": "42_no advice_cycle_188",
+      "row": 24
+    },
+    "start": 11654,
+    "end": 11865,
+    "source_iterations": 1
+  },
+  {
+    "phrase": "Das könnte für mich eine Blutung sein.",
+    "tags": [
+      "interpretation: bleeding"
+    ],
+    "source": {
+      "source_name": "42_no advice_cycle_188",
+      "row": 24
+    },
+    "start": null,
+    "end": null,
+    "source_iterations": 1
+  },
+  {
+    "phrase": "Ich bin relativ sicher, dass eine vorliegt.",
+    "tags": [
+      "confidence_high: secondary"
+    ],
+    "source": {
+      "source_name": "42_no advice_cycle_188",
+      "row": 1
+    },
+    "start": 2617,
+    "end": 2660,
+    "source_iterations": 1
+  },
+  {
+    "phrase": "Ich glaube das ist einfach das CT.",
+    "tags": [
+      "confidence_low: secondary"
+    ],
+    "source": {
+      "source_name": "42_no advice_cycle_188",
+      "row": 1
+    },
+    "start": 1966,
+    "end": 2000,
+    "source_iterations": 1
+  },
+  {
+    "phrase": "Ich könnte mir vorstellen, dass das einfach ein Sinus ist.",
+    "tags": [
+      "confidence_low: secondary"
+    ],
+    "source": {
+      "source_name": "42_no advice_cycle_188",
+      "row": 1
+    },
+    "start": 2145,
+    "end": 2203,
+    "source_iterations": 1
+  },
+  {
+    "phrase": "Ich bin relativ sicher, dass eine vorliegt.",
+    "tags": [
+      "confidence_high: concrete"
+    ],
+    "source": {
+      "source_name": "42_no advice_cycle_188",
+      "row": 1
+    },
+    "start": 2617,
+    "end": 2660,
+    "source_iterations": 1
+  },
+  {
+    "phrase": "Ich könnte mir vorstellen, dass es eine Blutung ist.",
+    "tags": [
+      "confidence_low: secondary"
+    ],
+    "source": {
+      "source_name": "42_no advice_cycle_188",
+      "row": 1
+    },
+    "start": 2374,
+    "end": 2426,
+    "source_iterations": 1
+  },
+  {
+    "phrase": "Ich bin relativ sicher, dass eine vorliegt.",
+    "tags": [
+      "confidence_high: concrete"
+    ],
+    "source": {
+      "source_name": "42_no advice_cycle_188",
+      "row": 1
+    },
+    "start": 2617,
+    "end": 2660,
+    "source_iterations": 1
+  },
+  {
+    "phrase": "Ich bin relativ sicher, dass eine vorliegt.",
+    "tags": [
+      "confidence_high: secondary"
+    ],
+    "source": {
+      "source_name": "42_no advice_cycle_188",
+      "row": 1
+    },
+    "start": 2617,
+    "end": 2660,
+    "source_iterations": 1
+  },
+  {
+    "phrase": "Es könnte natürlich jetzt sein, dass sie gefallen ist oder dass sie schon eine Blutung hatte und deswegen gefallen ist.",
+    "tags": [
+      "indicator: anomaly_detected",
+      "interpretation: bleeding",
+      "control: control_repeat"
+    ],
+    "source": {
+      "source_name": "42_no advice_cycle_188",
+      "row": 16
+    },
+    "start": 8727,
+    "end": 8846,
+    "source_iterations": 1
+  },
+  {
+    "phrase": "Die hat hier ocipital auf jeden Fall, hm, sieht so aus als hätte sie eine leichte Mittellinienverlagerung.",
+    "tags": [
+      "control: control_repeat"
+    ],
+    "source": {
+      "source_name": "42_no advice_cycle_188",
+      "row": 16
+    },
+    "start": 8847,
+    "end": 8953,
+    "source_iterations": 1
+  },
+  {
+    "phrase": "Und gucke mir das Kleinhirn an. Hm, deswegen.",
+    "tags": [
+      "control: control_repeat"
+    ],
+    "source": {
+      "source_name": "42_no advice_cycle_188",
+      "row": 16
+    },
+    "start": 8954,
+    "end": 8999,
+    "source_iterations": 1
+  },
+  {
+    "phrase": "Wenn man sich das hier im Vergleich, sieht es hier auch sehr hyperdens aus, deswegen würde ich sagen sie hat rechts ocipital eine Blutung, das würde auch mit der Mittellinie passen.",
+    "tags": [
+      "interpretation: bleeding",
+      "control: control_repeat"
+    ],
+    "source": {
+      "source_name": "42_no advice_cycle_188",
+      "row": 16
+    },
+    "start": 9000,
+    "end": 9181,
+    "source_iterations": 1
+  },
+  {
+    "phrase": "Ähm,45mit Autounfall.",
+    "tags": [
+      "control: missing_information",
+      "interpretation: bleeding"
+    ],
+    "source": {
+      "source_name": "42_no advice_cycle_188",
+      "row": 46
+    },
+    "start": null,
+    "end": null,
+    "source_iterations": 1
+  },
+  {
+    "phrase": "Das heiß ich könnte mir vorstellen, dass das eine Subarachnoidalblutung ist, was irgendwo aus dem Circulus Willsii kommen müsste.",
+    "tags": [
+      "interpretation: bleeding",
+      "indicator: anomaly_detected",
+      "reasoning: alternative_medical_cause"
+    ],
+    "source": {
+      "source_name": "42_no advice_cycle_188",
+      "row": 40
+    },
+    "start": 17877,
+    "end": 18006,
+    "source_iterations": 1
+  },
+  {
+    "phrase": "Ähm, da wäre es dann eher logisch, wenn da temporal oder frontal was wäre.",
+    "tags": [
+      "control: missing_information",
+      "interpretation: no_bleeding"
+    ],
+    "source": {
+      "source_name": "42_no advice_cycle_188",
+      "row": 45
+    },
+    "start": 20243,
+    "end": 20317,
+    "source_iterations": 1
+  },
+  {
+    "phrase": "Das könnte für mich eine Blutung sein.",
+    "tags": [
+      "interpretation: bleeding"
+    ],
+    "source": {
+      "source_name": "42_no advice_cycle_188",
+      "row": 48
+    },
+    "start": null,
+    "end": null,
+    "source_iterations": 1
+  },
+  {
+    "phrase": "Hier könnte frontal beidseits eine Hyperdense Struktur sein",
+    "tags": [
+      "indicator: anomaly_detected",
+      "interpretation: bleeding"
+    ],
+    "source": {
+      "source_name": "42_no advice_cycle_188",
+      "row": 48
+    },
+    "start": 21029,
+    "end": 21088,
+    "source_iterations": 1
+  },
+  {
+    "phrase": "Das könnte für mich eine Blutung sein.",
+    "tags": [
+      "interpretation: bleeding"
+    ],
+    "source": {
+      "source_name": "42_no advice_cycle_188",
+      "row": 43
+    },
+    "start": null,
+    "end": null,
+    "source_iterations": 1
+  },
+  {
+    "phrase": "ocipital, im Kleinhirn, ja was ist das.",
+    "tags": [
+      "indicator: no_bleeding"
+    ],
+    "source": {
+      "source_name": "42_no advice_cycle_188",
+      "row": 43
+    },
+    "start": 19266,
+    "end": 19305,
+    "source_iterations": 1
+  },
+  {
+    "phrase": "Gar nicht in den kleinen Hemisphären, sondern sieht mir fast aus wie irgendeine Art Blisterabzess oder so.",
+    "tags": [
+      "indicator: anomaly_detected"
+    ],
+    "source": {
+      "source_name": "42_no advice_cycle_188",
+      "row": 43
+    },
+    "start": 19306,
+    "end": 19412,
+    "source_iterations": 1
+  },
+  {
+    "phrase": "Aber hier ist eindeutig eine Spiegelbildung und deswegen würde ich sagen das ist eine Blutung.",
+    "tags": [
+      "interpretation: bleeding"
+    ],
+    "source": {
+      "source_name": "42_no advice_cycle_188",
+      "row": 43
+    },
+    "start": 19413,
+    "end": 19507,
+    "source_iterations": 1
+  },
+  {
+    "phrase": "Die ist auch Hyperdens im Vergleich zum Gewebe und geht auch ins Großhirn mit rein.",
+    "tags": [
+      "interpretation: bleeding"
+    ],
+    "source": {
+      "source_name": "42_no advice_cycle_188",
+      "row": 43
+    },
+    "start": 19508,
+    "end": 19591,
+    "source_iterations": 1
+  },
+  {
+    "phrase": "gibt's keine Blutung",
+    "tags": [
+      "ai_report: no_ich",
+      "interpretation: no_bleeding"
+    ],
+    "source": {
+      "source_name": "45_advice with annotation_cycle_224",
+      "row": 8
+    },
+    "start": 6914,
+    "end": 6934,
+    "source_iterations": 1
+  },
+  {
+    "phrase": "Ich würde sagen, ich sehe da keine Blutung, aber gerade aufgrund der KI fühle ich mich da nicht wirklich sicher in der Entscheidung.",
+    "tags": [
+      "interpretation: no_bleeding",
+      "reflection: diagnostic_uncertainty"
+    ],
+    "source": {
+      "source_name": "45_advice with annotation_cycle_224",
+      "row": 6
+    },
+    "start": 5793,
+    "end": 5925,
+    "source_iterations": 1
+  },
+  {
+    "phrase": "Hier gibt es laut KI keine Blutung.",
+    "tags": [
+      "ai_report: no_ich"
+    ],
+    "source": {
+      "source_name": "45_advice with annotation_cycle_224",
+      "row": 5
+    },
+    "start": 4649,
+    "end": 4684,
+    "source_iterations": 1
+  },
+  {
+    "phrase": "Ich bin relativ sicher und hab mich dadurch durch die KI noch mal unterstützt gefühlt.",
+    "tags": [
+      "confidence_high: secondary"
+    ],
+    "source": {
+      "source_name": "45_advice with annotation_cycle_224",
+      "row": 5
+    },
+    "start": 5147,
+    "end": 5233,
+    "source_iterations": 1
+  },
+  {
+    "phrase": "Da ist wieder eine Blutung erkannt worden.",
+    "tags": [
+      "indicator: anomaly_detected",
+      "interpretation: bleeding"
+    ],
+    "source": {
+      "source_name": "45_advice with annotation_cycle_224",
+      "row": 1
+    },
+    "start": 2174,
+    "end": 2216,
+    "source_iterations": 1
+  },
+  {
+    "phrase": "Das hätte ich ohne die KI vielleicht nicht gesehen.",
+    "tags": [
+      "confidence_high: increased_through_ai",
+      "interpretation: bleeding"
+    ],
+    "source": {
+      "source_name": "45_advice with annotation_cycle_224",
+      "row": 1
+    },
+    "start": 2687,
+    "end": 2738,
+    "source_iterations": 1
+  },
+  {
+    "phrase": "Ich achte vor allem auf die Symmetrie.",
+    "tags": [
+      "control: relying_on_ai",
+      "interpretation: bleeding_localization_unclear"
+    ],
+    "source": {
+      "source_name": "45_advice with annotation_cycle_224",
+      "row": 27
+    },
+    "start": 16934,
+    "end": 16972,
+    "source_iterations": 1
+  },
+  {
+    "phrase": "Ich bin mir da wirklich nicht sicher.",
+    "tags": [
+      "reflection: diagnostic_uncertainty",
+      "interpretation: bleeding_localization_unclear"
+    ],
+    "source": {
+      "source_name": "45_advice with annotation_cycle_224",
+      "row": 24
+    },
+    "start": 15173,
+    "end": 15210,
+    "source_iterations": 1
+  },
+  {
+    "phrase": "EXPERIMENTER: Könntest du vielleicht mein Bild da oben weg machen, dann sieht man, in welchem Fall du gerade bist.",
+    "tags": [
+      "control: control_repeat"
+    ],
+    "source": {
+      "source_name": "45_advice with annotation_cycle_224",
+      "row": 20
+    },
+    "start": 12943,
+    "end": 13057,
+    "source_iterations": 1
+  },
+  {
+    "phrase": "VPN: Ah es geht hier sogar ganz weg.",
+    "tags": [
+      "control: control_repeat"
+    ],
+    "source": {
+      "source_name": "45_advice with annotation_cycle_224",
+      "row": 20
+    },
+    "start": 13058,
+    "end": 13094,
+    "source_iterations": 1
+  },
+  {
+    "phrase": "So hier soll nichts gefunden worden sein.",
+    "tags": [
+      "control: control_repeat"
+    ],
+    "source": {
+      "source_name": "45_advice with annotation_cycle_224",
+      "row": 20
+    },
+    "start": 13095,
+    "end": 13136,
+    "source_iterations": 1
+  },
+  {
+    "phrase": "Auch wieder hier auf die Ventrikel und auf die Gyri.",
+    "tags": [
+      "control: control_repeat"
+    ],
+    "source": {
+      "source_name": "45_advice with annotation_cycle_224",
+      "row": 20
+    },
+    "start": 13137,
+    "end": 13189,
+    "source_iterations": 1
+  },
+  {
+    "phrase": "Soweit finde das hier relativ unauffällig aussieht, alles und auch hier bisher.",
+    "tags": [
+      "control: control_repeat"
+    ],
+    "source": {
+      "source_name": "45_advice with annotation_cycle_224",
+      "row": 20
+    },
+    "start": 13190,
+    "end": 13269,
+    "source_iterations": 1
+  },
+  {
+    "phrase": "Auch wieder im Vergleich zu dem Bild davor sehr symmetrisch.",
+    "tags": [
+      "control: control_repeat"
+    ],
+    "source": {
+      "source_name": "45_advice with annotation_cycle_224",
+      "row": 20
+    },
+    "start": 13270,
+    "end": 13330,
+    "source_iterations": 1
+  },
+  {
+    "phrase": "Da sehe ich nichts Auffälliges.",
+    "tags": [
+      "control: control_repeat"
+    ],
+    "source": {
+      "source_name": "45_advice with annotation_cycle_224",
+      "row": 20
+    },
+    "start": 13331,
+    "end": 13362,
+    "source_iterations": 1
+  },
+  {
+    "phrase": "Ich bin mir dadurch relativ sicher, und hier war die AI auf jeden Fall hilfreich.",
+    "tags": [
+      "interpretation: bleeding",
+      "confidence_high: concrete"
+    ],
+    "source": {
+      "source_name": "45_advice with annotation_cycle_224",
+      "row": 29
+    },
+    "start": 17923,
+    "end": 18004,
+    "source_iterations": 1
+  },
+  {
+    "phrase": "Ich habe auch keine Frakturzeichen gesehen, da würde ich auch eben der AI Recht geben.",
+    "tags": [
+      "control: relying_on_ai",
+      "indicator: no_bleeding"
+    ],
+    "source": {
+      "source_name": "45_advice with annotation_cycle_224",
+      "row": 31
+    },
+    "start": 18905,
+    "end": 18991,
+    "source_iterations": 1
+  },
+  {
+    "phrase": "Das könnte für mich eine Blutung sein.",
+    "tags": [
+      "interpretation: bleeding"
+    ],
+    "source": {
+      "source_name": "45_advice with annotation_cycle_224",
+      "row": 19
+    },
+    "start": null,
+    "end": null,
+    "source_iterations": 1
+  },
+  {
+    "phrase": "Ich muss sagen, dass ich das generell, das Bild schon ziemlich auffällig finde, weil ich da weniger Symmetrie drin erkenne, und auch hier die Seitenventrikel sehr groß und die Stelle, die die KI erkannt hat, das könnte durchaus eine Blutung sein, weil es relativ aufgehellt ist, würde ich sagen, ja.",
+    "tags": [
+      "interpretation: bleeding",
+      "indicator: anomaly_detected"
+    ],
+    "source": {
+      "source_name": "45_advice with annotation_cycle_224",
+      "row": 19
+    },
+    "start": 12619,
+    "end": 12918,
+    "source_iterations": 1
+  },
+  {
+    "phrase": "Ich finde das Bild ein bisschen unscharf, ist aber sehr symmetrisch.",
+    "tags": [
+      "awareness_of_task: image_quality"
+    ],
+    "source": {
+      "source_name": "45_advice with annotation_cycle_224",
+      "row": 10
+    },
+    "start": 7921,
+    "end": 7989,
+    "source_iterations": 1
+  },
+  {
+    "phrase": "Ich kann die Mittellinie gut erkennen, hier auch die kleinen Strukturen.",
+    "tags": [
+      "interpretation: bleeding_localization_unclear"
+    ],
+    "source": {
+      "source_name": "45_advice with annotation_cycle_224",
+      "row": 10
+    },
+    "start": 7990,
+    "end": 8062,
+    "source_iterations": 1
+  },
+  {
+    "phrase": "Das sieht für mich soweit unauffällig aus, die Gyri sind relativ gut zu erkennen auf dem Bild.",
+    "tags": [
+      "interpretation: bleeding"
+    ],
+    "source": {
+      "source_name": "45_advice with annotation_cycle_224",
+      "row": 10
+    },
+    "start": 8063,
+    "end": 8157,
+    "source_iterations": 1
+  },
+  {
+    "phrase": "Ich sehe da keine Auffälligkeiten bisher.",
+    "tags": [
+      "indicator: no_bleeding"
+    ],
+    "source": {
+      "source_name": "45_advice with annotation_cycle_224",
+      "row": 10
+    },
+    "start": 8158,
+    "end": 8199,
+    "source_iterations": 1
+  },
+  {
+    "phrase": "Ja auch kranial sehr symmetrisch, das gleiche auch hier.",
+    "tags": [
+      "control: control_repeat"
+    ],
+    "source": {
+      "source_name": "45_advice with annotation_cycle_224",
+      "row": 10
+    },
+    "start": 8199,
+    "end": 8255,
+    "source_iterations": 1
+  },
+  {
+    "phrase": "Da finde ich die Hirnstruktur nochmal besser zu erkennen, aber da sehe ich auch keine Auffälligkeiten, das heißt keine Blutung, und ich bin mir relativ sicher.",
+    "tags": [
+      "interpretation: bleeding"
+    ],
+    "source": {
+      "source_name": "45_advice with annotation_cycle_224",
+      "row": 10
+    },
+    "start": null,
+    "end": null,
+    "source_iterations": 1
+  },
+  {
+    "phrase": "Ich sehe keine Frakturzeichen",
+    "tags": [
+      "indicator: no_bleeding"
+    ],
+    "source": {
+      "source_name": "45_advice with annotation_cycle_224",
+      "row": 36
+    },
+    "start": 20580,
+    "end": 20609,
+    "source_iterations": 1
+  },
+  {
+    "phrase": "Ich erkenne die Seitenventrikel, die Gyri und auch keine Seitenunterschiede, bisher.",
+    "tags": [
+      "interpretation: no_bleeding"
+    ],
+    "source": {
+      "source_name": "45_advice with annotation_cycle_224",
+      "row": 28
+    },
+    "start": 17326,
+    "end": 17410,
+    "source_iterations": 1
+  },
+  {
+    "phrase": "Ich erkenne eine sehr markannte Mittellinie hier, aber das ist ja per se nicht schlimm.",
+    "tags": [
+      "indicator: no_bleeding"
+    ],
+    "source": {
+      "source_name": "45_advice with annotation_cycle_224",
+      "row": 28
+    },
+    "start": 17411,
+    "end": 17498,
+    "source_iterations": 1
+  },
+  {
+    "phrase": "Ich sehe symmetrische Strukturen ohne Aufhellungen kann die Gyri soweit alle gut voneinander abgrenzen.",
+    "tags": [
+      "control: relying_on_ai",
+      "interpretation: no_bleeding"
+    ],
+    "source": {
+      "source_name": "45_advice with annotation_cycle_224",
+      "row": 35
+    },
+    "start": 20260,
+    "end": 20363,
+    "source_iterations": 1
+  },
+  {
+    "phrase": "Ich weiß es nicht, also es könnte durchaus was sein, wenn was ziemlich klein ist, was ich ohne KI nicht gesehen hätte.",
+    "tags": [
+      "control: relying_on_ai",
+      "interpretation: bleeding",
+      "other"
+    ],
+    "source": {
+      "source_name": "45_advice with annotation_cycle_224",
+      "row": 37
+    },
+    "start": 20950,
+    "end": 21068,
+    "source_iterations": 1
+  },
+  {
+    "phrase": "Hier wurde wieder eine Blutung gefunden.",
+    "tags": [
+      "indicator: anomaly_detected",
+      "interpretation: bleeding"
+    ],
+    "source": {
+      "source_name": "45_advice with annotation_cycle_224",
+      "row": 34
+    },
+    "start": 19698,
+    "end": 19738,
+    "source_iterations": 1
+  },
+  {
+    "phrase": "Ich schaue mir das hier auch nochmal an, ja das sieht man auch noch vor allem jetzt gut im Verlauf bei den beiden Bildern.",
+    "tags": [
+      "visual_search: description_of_medical_image_features"
+    ],
+    "source": {
+      "source_name": "45_advice with annotation_cycle_224",
+      "row": 34
+    },
+    "start": null,
+    "end": null,
+    "source_iterations": 1
+  },
+  {
+    "phrase": "Da würde ich sagen, ja, das ist eine Blutung.",
+    "tags": [
+      "interpretation: bleeding",
+      "confidence_high: concrete"
+    ],
+    "source": {
+      "source_name": "45_advice with annotation_cycle_224",
+      "row": 34
+    },
+    "start": 20117,
+    "end": 20162,
+    "source_iterations": 1
+  },
+  {
+    "phrase": "Sehe ein sehr symmetrisches Gehirn mit relativ schmalen Ventrikeln, die ich hier nicht gut erkennen kann.",
+    "tags": [
+      "visual_search: description_of_medical_image_features"
+    ],
+    "source": {
+      "source_name": "45_advice with annotation_cycle_224",
+      "row": 43
+    },
+    "start": 22891,
+    "end": 22996,
+    "source_iterations": 1
+  },
+  {
+    "phrase": "Das wundert mich ein bisschen, aber ich sehe keine Blutungszeichen soweit.",
+    "tags": [
+      "indicator: no_bleeding"
+    ],
+    "source": {
+      "source_name": "45_advice with annotation_cycle_224",
+      "row": 43
+    },
+    "start": 22997,
+    "end": 23071,
+    "source_iterations": 1
+  },
+  {
+    "phrase": "Das schaue ich mir auch mal auf beiden Bildern nochmal an.",
+    "tags": [
+      "control: control_repeat"
+    ],
+    "source": {
+      "source_name": "45_advice with annotation_cycle_224",
+      "row": 18
+    },
+    "start": 11863,
+    "end": 11921,
+    "source_iterations": 1
+  },
+  {
+    "phrase": "Da bin ich mir auch wieder nicht ganz sicher, ob es eine Blutung ist oder ob's ne andere Erkrankung ist.",
+    "tags": [
+      "interpretation: bleeding",
+      "interpretation: uncertainty"
+    ],
+    "source": {
+      "source_name": "45_advice with annotation_cycle_224",
+      "row": 18
+    },
+    "start": 12011,
+    "end": 12115,
+    "source_iterations": 1
+  },
+  {
+    "phrase": "Aber es könnte durchaus eine Blutung sein.",
+    "tags": [
+      "interpretation: bleeding"
+    ],
+    "source": {
+      "source_name": "45_advice with annotation_cycle_224",
+      "row": 18
+    },
+    "start": 12116,
+    "end": 12158,
+    "source_iterations": 1
+  },
+  {
+    "phrase": "Da würde ich der KI erstmal zustimmen.",
+    "tags": [
+      "decision_with_ai: explicitly_agreeing_with_ai"
+    ],
+    "source": {
+      "source_name": "45_advice with annotation_cycle_224",
+      "row": 18
+    },
+    "start": 12159,
+    "end": 12197,
+    "source_iterations": 1
+  },
+  {
+    "phrase": "Ansonsten sieht es für mich soweit gut aus.",
+    "tags": [
+      "control: control_repeat"
+    ],
+    "source": {
+      "source_name": "45_advice with annotation_cycle_224",
+      "row": 18
+    },
+    "start": 12198,
+    "end": 12241,
+    "source_iterations": 1
+  },
+  {
+    "phrase": "Da bin ich mir aber nicht ganz so sicher.",
+    "tags": [
+      "interpretation: uncertainty"
+    ],
+    "source": {
+      "source_name": "45_advice with annotation_cycle_224",
+      "row": 18
+    },
+    "start": 12242,
+    "end": 12283,
+    "source_iterations": 1
+  },
+  {
+    "phrase": "Das könnte eine Subarachnoidalblutung sein, eine ganz kleine, aber ich bin mir da nicht sicher.",
+    "tags": [
+      "indicator: anomaly_detected",
+      "interpretation: bleeding",
+      "interpretation: bleeding_localization_unclear"
+    ],
+    "source": {
+      "source_name": "45_advice with annotation_cycle_224",
+      "row": 44
+    },
+    "start": 23276,
+    "end": 23371,
+    "source_iterations": 1
+  },
+  {
+    "phrase": "Also keine Blutung",
+    "tags": [
+      "interpretation: no_bleeding"
+    ],
+    "source": {
+      "source_name": "45_advice with annotation_cycle_224",
+      "row": 48
+    },
+    "start": 24698,
+    "end": 24716,
+    "source_iterations": 1
+  },
+  {
+    "phrase": "Das hätte ich vielleicht auch ohne nicht so gut erkannt, aber da sieht man schon einen Unterschied auf den beiden Seiten.",
+    "tags": [
+      "control: relying_on_ai",
+      "interpretation: bleeding"
+    ],
+    "source": {
+      "source_name": "45_advice with annotation_cycle_224",
+      "row": 41
+    },
+    "start": 22257,
+    "end": 22378,
+    "source_iterations": 1
+  },
+  {
+    "phrase": "Da würde ich auch sagen, dass es sich da um eine Blutung handelt, würde das aber nochmal überprüfen.",
+    "tags": [
+      "interpretation: bleeding"
+    ],
+    "source": {
+      "source_name": "45_advice with annotation_cycle_224",
+      "row": 41
+    },
+    "start": null,
+    "end": null,
+    "source_iterations": 1
+  },
+  {
+    "phrase": "Das könnte für mich eine Blutung sein.",
+    "tags": [
+      "interpretation: bleeding"
+    ],
+    "source": {
+      "source_name": "45_advice with annotation_cycle_224",
+      "row": 22
+    },
+    "start": null,
+    "end": null,
+    "source_iterations": 1
+  },
+  {
+    "phrase": "Ich gehe dann einmal erst mal durch um mir mögliche Blutung anzeigen zu lassen.",
+    "tags": [
+      "control: control_repeat"
+    ],
+    "source": {
+      "source_name": "45_advice with annotation_cycle_224",
+      "row": 22
+    },
+    "start": 13951,
+    "end": 14030,
+    "source_iterations": 1
+  },
+  {
+    "phrase": "Hier schon eine Seitenverschiebung.",
+    "tags": [
+      "indicator: anomaly_detected"
+    ],
+    "source": {
+      "source_name": "45_advice with annotation_cycle_224",
+      "row": 22
+    },
+    "start": 14031,
+    "end": 14066,
+    "source_iterations": 1
+  },
+  {
+    "phrase": "Da wird eine relativ große Blutung dargestellt.",
+    "tags": [
+      "indicator: anomaly_detected"
+    ],
+    "source": {
+      "source_name": "45_advice with annotation_cycle_224",
+      "row": 22
+    },
+    "start": 14067,
+    "end": 14114,
+    "source_iterations": 1
+  },
+  {
+    "phrase": "Man erkennt auf jeden Fall nur einen unterschiedlichen Kontrast.",
+    "tags": [
+      "indicator: anomaly_detected"
+    ],
+    "source": {
+      "source_name": "45_advice with annotation_cycle_224",
+      "row": 22
+    },
+    "start": null,
+    "end": null,
+    "source_iterations": 1
+  },
+  {
+    "phrase": "Und eben auch der Ventrikel, ist da deutlich schwächer ausgeprägt.",
+    "tags": [
+      "indicator: anomaly_detected"
+    ],
+    "source": {
+      "source_name": "45_advice with annotation_cycle_224",
+      "row": 22
+    },
+    "start": 14180,
+    "end": 14246,
+    "source_iterations": 1
+  },
+  {
+    "phrase": "Hier auf der Seite auch.",
+    "tags": [
+      "indicator: anomaly_detected"
+    ],
+    "source": {
+      "source_name": "45_advice with annotation_cycle_224",
+      "row": 22
+    },
+    "start": 14247,
+    "end": 14271,
+    "source_iterations": 1
+  },
+  {
+    "phrase": "Ja, da würde ich auch sagen, dass es eine Blutung ist.",
+    "tags": [
+      "interpretation: bleeding"
+    ],
+    "source": {
+      "source_name": "45_advice with annotation_cycle_224",
+      "row": 22
+    },
+    "start": null,
+    "end": null,
+    "source_iterations": 1
+  },
+  {
+    "phrase": "Aber vielleicht auch eher eine Subarachnoidalblutung.",
+    "tags": [
+      "interpretation: bleeding"
+    ],
+    "source": {
+      "source_name": "45_advice with annotation_cycle_224",
+      "row": 22
+    },
+    "start": null,
+    "end": null,
+    "source_iterations": 1
+  },
+  {
+    "phrase": "Aber ja, auf jeden Fall was Auffälliges.",
+    "tags": [
+      "indicator: anomaly_detected"
+    ],
+    "source": {
+      "source_name": "45_advice with annotation_cycle_224",
+      "row": 22
+    },
+    "start": 14380,
+    "end": 14420,
+    "source_iterations": 1
+  },
+  {
+    "phrase": "Ich habe keine auffälligen Stellen gesehen, bisher.",
+    "tags": [
+      "indicator: no_bleeding",
+      "confidence_high: secondary"
+    ],
+    "source": {
+      "source_name": "45_no advice_cycle_63",
+      "row": 4
+    },
+    "start": 2472,
+    "end": 2523,
+    "source_iterations": 1
+  },
+  {
+    "phrase": "Das sieht für mich soweit symmetrisch aus.",
+    "tags": [
+      "control: control_repeat"
+    ],
+    "source": {
+      "source_name": "45_no advice_cycle_63",
+      "row": 4
+    },
+    "start": 2429,
+    "end": 2471,
+    "source_iterations": 1
+  },
+  {
+    "phrase": "Es könnte aber auch noch der Knochen sein.",
+    "tags": [
+      "interpretation: bleeding",
+      "interpretation: no_bleeding"
+    ],
+    "source": {
+      "source_name": "45_no advice_cycle_63",
+      "row": 3
+    },
+    "start": 1937,
+    "end": 1979,
+    "source_iterations": 1
+  },
+  {
+    "phrase": "Ich würde das aber nicht als Intrakranielle Blutung bezeichnen.",
+    "tags": [
+      "interpretation: bleeding",
+      "interpretation: no_bleeding"
+    ],
+    "source": {
+      "source_name": "45_no advice_cycle_63",
+      "row": 3
+    },
+    "start": 2230,
+    "end": 2293,
+    "source_iterations": 1
+  },
+  {
+    "phrase": "Das könnte für mich eine Blutung sein.",
+    "tags": [
+      "interpretation: bleeding"
+    ],
+    "source": {
+      "source_name": "45_no advice_cycle_63",
+      "row": 6
+    },
+    "start": null,
+    "end": null,
+    "source_iterations": 1
+  },
+  {
+    "phrase": "Ich denke, das ist noch Knochen.",
+    "tags": [
+      "indicator: no_bleeding"
+    ],
+    "source": {
+      "source_name": "45_no advice_cycle_63",
+      "row": 6
+    },
+    "start": 3841,
+    "end": 3873,
+    "source_iterations": 1
+  },
+  {
+    "phrase": "Ich bin mir relativ sicher.",
+    "tags": [
+      "confidence_high: concrete"
+    ],
+    "source": {
+      "source_name": "45_no advice_cycle_63",
+      "row": 6
+    },
+    "start": null,
+    "end": null,
+    "source_iterations": 1
+  },
+  {
+    "phrase": "Das nächste Bild. Und da habe ich jetzt vorne im Frontalhirn etwas. Ich finde es immer relativ schwierig, ob das noch zum Knochen gehört, aber ich glaube schon. Das sieht soweit symmetrisch aus. Die beiden Seitenventrikel und auch weiter oben alles, ja, ich glaube  da ist keine Blutung.",
+    "tags": [
+      "awareness_of_task: easy",
+      "indicator: no_bleeding",
+      "interpretation: no_bleeding"
+    ],
+    "source": {
+      "source_name": "45_no advice_cycle_63",
+      "row": 15
+    },
+    "start": 8645,
+    "end": 8932,
+    "source_iterations": 1
+  },
+  {
+    "phrase": "Das sieht für mich bisher symmetrisch aus.",
+    "tags": [
+      "control: control_repeat",
+      "confidence_high: secondary"
+    ],
+    "source": {
+      "source_name": "45_no advice_cycle_63",
+      "row": 7
+    },
+    "start": 4368,
+    "end": 4410,
+    "source_iterations": 1
+  },
+  {
+    "phrase": "Ähm, das sieht für mich bisher symmetrisch aus.",
+    "tags": [
+      "control: control_repeat",
+      "confidence_low: secondary"
+    ],
+    "source": {
+      "source_name": "45_no advice_cycle_63",
+      "row": 7
+    },
+    "start": 4363,
+    "end": 4410,
+    "source_iterations": 1
+  },
+  {
+    "phrase": "Ähm, das ist auch Knochen soweit.",
+    "tags": [
+      "control: control_repeat",
+      "confidence_low: secondary"
+    ],
+    "source": {
+      "source_name": "45_no advice_cycle_63",
+      "row": 7
+    },
+    "start": null,
+    "end": null,
+    "source_iterations": 1
+  },
+  {
+    "phrase": "Ich finde, das sieht ziemlich symmetrisch aus.",
+    "tags": [
+      "reflection: diagnostic_uncertainty",
+      "interpretation: no_bleeding"
+    ],
+    "source": {
+      "source_name": "45_no advice_cycle_63",
+      "row": 16
+    },
+    "start": 9020,
+    "end": 9066,
+    "source_iterations": 1
+  },
+  {
+    "phrase": "Das könnte für mich eine Blutung sein.",
+    "tags": [
+      "interpretation: bleeding"
+    ],
+    "source": {
+      "source_name": "45_no advice_cycle_63",
+      "row": 1
+    },
+    "start": null,
+    "end": null,
+    "source_iterations": 1
+  },
+  {
+    "phrase": "Ich würde das als Verkalkung deuten, was da im hinteren Seitenventrikel ist.",
+    "tags": [
+      "interpretation: bleeding",
+      "interpretation: no_bleeding"
+    ],
+    "source": {
+      "source_name": "45_no advice_cycle_63",
+      "row": 1
+    },
+    "start": 1038,
+    "end": 1114,
+    "source_iterations": 1
+  },
+  {
+    "phrase": "Sieht für mich nicht nach einer Blutung aus, weil es auch symmetrisch ist und in beiden Seitenventrikeln.",
+    "tags": [
+      "interpretation: no_bleeding"
+    ],
+    "source": {
+      "source_name": "45_no advice_cycle_63",
+      "row": 1
+    },
+    "start": 1115,
+    "end": 1220,
+    "source_iterations": 1
+  },
+  {
+    "phrase": "Das könnte für mich schon eine, ähm, eine Blutung sein.",
+    "tags": [
+      "interpretation: bleeding"
+    ],
+    "source": {
+      "source_name": "45_no advice_cycle_63",
+      "row": 1
+    },
+    "start": 1323,
+    "end": 1378,
+    "source_iterations": 1
+  },
+  {
+    "phrase": "Ich habe hier eine Stelle, eine Hyperdense im Hinter-",
+    "tags": [
+      "indicator: anomaly_detected",
+      "interpretation: bleeding"
+    ],
+    "source": {
+      "source_name": "45_no advice_cycle_63",
+      "row": 32
+    },
+    "start": 14906,
+    "end": 14959,
+    "source_iterations": 1
+  },
+  {
+    "phrase": "Ich würde aber trotzdem Ja sagen",
+    "tags": [
+      "control: control_repeat, confidence_low: secondary"
+    ],
+    "source": {
+      "source_name": "45_no advice_cycle_63",
+      "row": 32
+    },
+    "start": 15095,
+    "end": 15127,
+    "source_iterations": 1
+  },
+  {
+    "phrase": "Dann das nächste Bild.",
+    "tags": [
+      "control: missing_information",
+      "interpretation: no_bleeding"
+    ],
+    "source": {
+      "source_name": "45_no advice_cycle_63",
+      "row": 36
+    },
+    "start": 16675,
+    "end": 16697,
+    "source_iterations": 1
+  },
+  {
+    "phrase": "Ich finde, hier sind die Sulci relativ deutlich zu sehen.",
+    "tags": [
+      "control: control_strategies",
+      "confidence_high: secondary"
+    ],
+    "source": {
+      "source_name": "45_no advice_cycle_63",
+      "row": 22
+    },
+    "start": 11005,
+    "end": 11062,
+    "source_iterations": 1
+  },
+  {
+    "phrase": "Aber es sieht für mich soweit symmetrisch aus.",
+    "tags": [
+      "confidence_high: secondary"
+    ],
+    "source": {
+      "source_name": "45_no advice_cycle_63",
+      "row": 22
+    },
+    "start": 11063,
+    "end": 11109,
+    "source_iterations": 1
+  },
+  {
+    "phrase": "Und da habe ich jetzt in dem Bild nichts gesehen, bin mir aber nicht ganz sicher.",
+    "tags": [
+      "reflection: diagnostic_uncertainty"
+    ],
+    "source": {
+      "source_name": "45_no advice_cycle_63",
+      "row": 22
+    },
+    "start": 11172,
+    "end": 11253,
+    "source_iterations": 1
+  },
+  {
+    "phrase": "Ich würde es mal, als kleine Blutung zumindest verdächtigen, bin mir aber nicht sicher.",
+    "tags": [
+      "interpretation: bleeding",
+      "confidence_low: secondary"
+    ],
+    "source": {
+      "source_name": "45_no advice_cycle_63",
+      "row": 33
+    },
+    "start": 15506,
+    "end": 15593,
+    "source_iterations": 1
+  },
+  {
+    "phrase": "Das sieht aber soweit relativ symmetrisch aus.",
+    "tags": [
+      "indicator: no_bleeding"
+    ],
+    "source": {
+      "source_name": "45_no advice_cycle_63",
+      "row": 33
+    },
+    "start": 15353,
+    "end": 15399,
+    "source_iterations": 1
+  },
+  {
+    "phrase": "Dann das nächste Bild. Bisher unauffällig, symmetrisch, gut die Strukturen zu erkennen. Und auch die Mittellinie ist gerade. Da würde ich sagen gibt es nichts.",
+    "tags": [
+      "control: missing_information",
+      "interpretation: no_bleeding"
+    ],
+    "source": {
+      "source_name": "45_no advice_cycle_63",
+      "row": 42
+    },
+    "start": 18660,
+    "end": 18819,
+    "source_iterations": 1
+  },
+  {
+    "phrase": "Das sieht für mich gut aus, soweit.",
+    "tags": [
+      "control: control_repeat"
+    ],
+    "source": {
+      "source_name": "45_no advice_cycle_63",
+      "row": 20
+    },
+    "start": 10430,
+    "end": 10465,
+    "source_iterations": 1
+  },
+  {
+    "phrase": "Hier gibt es so eine Stelle in der rechten Seite, die ein bisschen Hyperdens ist",
+    "tags": [
+      "indicator: anomaly_detected"
+    ],
+    "source": {
+      "source_name": "45_no advice_cycle_63",
+      "row": 20
+    },
+    "start": 10466,
+    "end": 10546,
+    "source_iterations": 1
+  },
+  {
+    "phrase": "Und auch hier am Seitenventrikel, hier vorne.",
+    "tags": [
+      "visual_search: triggered_by_finding"
+    ],
+    "source": {
+      "source_name": "45_no advice_cycle_63",
+      "row": 20
+    },
+    "start": 10547,
+    "end": 10592,
+    "source_iterations": 1
+  },
+  {
+    "phrase": "Und auch hier hinten nochmal, mehrere Stellen.",
+    "tags": [
+      "indicator: anomaly_detected"
+    ],
+    "source": {
+      "source_name": "45_no advice_cycle_63",
+      "row": 20
+    },
+    "start": 10593,
+    "end": 10639,
+    "source_iterations": 1
+  },
+  {
+    "phrase": "Ich würd mir schon vorstellen, dass da mehrere kleine Blutungen gewesen sind.",
+    "tags": [
+      "interpretation: bleeding"
+    ],
+    "source": {
+      "source_name": "45_no advice_cycle_63",
+      "row": 20
+    },
+    "start": 10640,
+    "end": 10717,
+    "source_iterations": 1
+  },
+  {
+    "phrase": "Deswegen würde ich da ja sagen.",
+    "tags": [
+      "reflection: diagnostic_uncertainty"
+    ],
+    "source": {
+      "source_name": "45_no advice_cycle_63",
+      "row": 20
+    },
+    "start": 10718,
+    "end": 10749,
+    "source_iterations": 1
+  },
+  {
+    "phrase": "Ich würde das auf jeden Fall mal als Blutung deuten.",
+    "tags": [
+      "interpretation: bleeding",
+      "confidence_high: secondary"
+    ],
+    "source": {
+      "source_name": "45_no advice_cycle_63",
+      "row": 34
+    },
+    "start": 15854,
+    "end": 15906,
+    "source_iterations": 1
+  },
+  {
+    "phrase": "Das sieht auch soweit symmetrisch aus.",
+    "tags": [
+      "control: control_repeat",
+      "interpretation: bleeding"
+    ],
+    "source": {
+      "source_name": "45_no advice_cycle_63",
+      "row": 34
+    },
+    "start": 15708,
+    "end": 15746,
+    "source_iterations": 1
+  },
+  {
+    "phrase": "Ich denke, es sieht aus wie eine Blutung.",
+    "tags": [
+      "confidence_low: secondary",
+      "interpretation: bleeding"
+    ],
+    "source": {
+      "source_name": "45_no advice_cycle_63",
+      "row": 34
+    },
+    "start": null,
+    "end": null,
+    "source_iterations": 1
+  },
+  {
+    "phrase": "Finde ich von der Belichtung, etwas schwierig zu erkennen.",
+    "tags": [
+      "awareness_of_task: image_quality"
+    ],
+    "source": {
+      "source_name": "45_no advice_cycle_63",
+      "row": 43
+    },
+    "start": 18838,
+    "end": 18896,
+    "source_iterations": 1
+  },
+  {
+    "phrase": "Ich sehe da keine Auffälligkeiten.",
+    "tags": [
+      "indicator: no_bleeding"
+    ],
+    "source": {
+      "source_name": "45_no advice_cycle_63",
+      "row": 43
+    },
+    "start": 18959,
+    "end": 18993,
+    "source_iterations": 1
+  },
+  {
+    "phrase": "Und das sieht für mich gut aus, keine Blutung.",
+    "tags": [
+      "interpretation: no_bleeding"
+    ],
+    "source": {
+      "source_name": "45_no advice_cycle_63",
+      "row": 43
+    },
+    "start": 19034,
+    "end": 19080,
+    "source_iterations": 1
+  },
+  {
+    "phrase": "Ich finde hier die Stell auf der rechten Seite ein bisschen auffällig.",
+    "tags": [
+      "indicator: anomaly_detected",
+      "control: control_repeat",
+      "visual_search: triggered_by_finding"
+    ],
+    "source": {
+      "source_name": "45_no advice_cycle_63",
+      "row": 46
+    },
+    "start": 19845,
+    "end": 19915,
+    "source_iterations": 1
+  },
+  {
+    "phrase": "Da würde ich sagen, das könnte etwas sein.",
+    "tags": [
+      "interpretation: bleeding",
+      "reflection: diagnostic_uncertainty"
+    ],
+    "source": {
+      "source_name": "45_no advice_cycle_63",
+      "row": 46
+    },
+    "start": 20046,
+    "end": 20088,
+    "source_iterations": 1
+  },
+  {
+    "phrase": "Ich finde es sieht alles ein bisschen verwaschen aus aufgrund der Aufnahme.",
+    "tags": [
+      "indicator: no_bleeding",
+      "interpretation: no_bleeding_explanation"
+    ],
+    "source": {
+      "source_name": "50_advice with annotation_cycle_225",
+      "row": 8
+    },
+    "start": 4732,
+    "end": 4807,
+    "source_iterations": 1
+  },
+  {
+    "phrase": "Ich finde es sieht alles ein bisschen verwaschen aus aufgrund der Aufnahme.",
+    "tags": [
+      "indicator: no_bleeding",
+      "interpretation: no_bleeding_explanation"
+    ],
+    "source": {
+      "source_name": "50_advice with annotation_cycle_225",
+      "row": 8
+    },
+    "start": 4732,
+    "end": 4807,
+    "source_iterations": 1
+  },
+  {
+    "phrase": "Er hätte dann wahrscheinlich eher irgendwie ein epidurales Problem.",
+    "tags": [
+      "indicator: no_bleeding",
+      "interpretation: no_bleeding_explanation"
+    ],
+    "source": {
+      "source_name": "50_advice with annotation_cycle_225",
+      "row": 8
+    },
+    "start": 4930,
+    "end": 4997,
+    "source_iterations": 1
+  },
+  {
+    "phrase": "Ja ich muss sagen auf der linken Seite hier könnte eine Blutung sein, auch wenn die jetzt hier nicht irgendwie markiert ist.",
+    "tags": [
+      "interpretation: bleeding",
+      "indicator: anomaly_detected"
+    ],
+    "source": {
+      "source_name": "50_advice with annotation_cycle_225",
+      "row": 9
+    },
+    "start": 5646,
+    "end": 5770,
+    "source_iterations": 1
+  },
+  {
+    "phrase": "37 ist ja noch nicht so alt.",
+    "tags": [
+      "decision_with_ai: implicitly_agreeing_with_ai"
+    ],
+    "source": {
+      "source_name": "50_advice with annotation_cycle_225",
+      "row": 9
+    },
+    "start": 5536,
+    "end": 5564,
+    "source_iterations": 1
+  },
+  {
+    "phrase": "starke plötzliche Kopfschmerzen spricht ja eher für ein Sab.",
+    "tags": [
+      "indicator: anomaly_detected",
+      "interpretation: bleeding",
+      "decision_with_ai: explicitly_agreeing_with_ai"
+    ],
+    "source": {
+      "source_name": "50_advice with annotation_cycle_225",
+      "row": 3
+    },
+    "start": 2028,
+    "end": 2088,
+    "source_iterations": 1
+  },
+  {
+    "phrase": "Ich glaube, die hat keins.",
+    "tags": [
+      "indicator: no_bleeding"
+    ],
+    "source": {
+      "source_name": "50_advice with annotation_cycle_225",
+      "row": 7
+    },
+    "start": 4237,
+    "end": 4263,
+    "source_iterations": 1
+  },
+  {
+    "phrase": "Ich glaube, die hat keins.",
+    "tags": [
+      "interpretation: no_bleeding"
+    ],
+    "source": {
+      "source_name": "50_advice with annotation_cycle_225",
+      "row": 7
+    },
+    "start": 4237,
+    "end": 4263,
+    "source_iterations": 1
+  },
+  {
+    "phrase": "Wir haben keine Mittellinienverschiebung, nee, haben wir nicht.",
+    "tags": [
+      "indicator: no_bleeding"
+    ],
+    "source": {
+      "source_name": "50_advice with annotation_cycle_225",
+      "row": 11
+    },
+    "start": 6753,
+    "end": 6816,
+    "source_iterations": 1
+  },
+  {
+    "phrase": "Gehe um Ventrikel rum die Stammganglinien rum sehe keine hyperdensen Ariale.",
+    "tags": [
+      "indicator: no_bleeding"
+    ],
+    "source": {
+      "source_name": "50_advice with annotation_cycle_225",
+      "row": 11
+    },
+    "start": null,
+    "end": null,
+    "source_iterations": 1
+  },
+  {
+    "phrase": "Weiß nicht, ob das sonst so gesehen hätte, aber so sieht man sie natürlich war sehr hilfreich.",
+    "tags": [
+      "control: relying_on_ai"
+    ],
+    "source": {
+      "source_name": "50_advice with annotation_cycle_225",
+      "row": 26
+    },
+    "start": 14963,
+    "end": 15057,
+    "source_iterations": 1
+  },
+  {
+    "phrase": "Hier sehe ich irgendwo anders noch etwas.",
+    "tags": [
+      "visual_search: triggered_by_finding"
+    ],
+    "source": {
+      "source_name": "50_advice with annotation_cycle_225",
+      "row": 26
+    },
+    "start": 14921,
+    "end": 14962,
+    "source_iterations": 1
+  },
+  {
+    "phrase": "Okay, so ein bisschen dunkler synchronisieren und achten auf die Mittellinie ist irgendwie alles keine superschöne Aufnahme",
+    "tags": [
+      "awareness_of_task: image_quality"
+    ],
+    "source": {
+      "source_name": "50_advice with annotation_cycle_225",
+      "row": 26
+    },
+    "start": 14668,
+    "end": 14791,
+    "source_iterations": 1
+  },
+  {
+    "phrase": "81 mögliche Medikamentenüberdosis, nicht bei Bewusstsein gefunden.",
+    "tags": [
+      "ai_report: no_ich"
+    ],
+    "source": {
+      "source_name": "50_advice with annotation_cycle_225",
+      "row": 19
+    },
+    "start": 10984,
+    "end": 11050,
+    "source_iterations": 1
+  },
+  {
+    "phrase": "Ich sehe auch keine epiduralen Verletzungen durch den Sturz.",
+    "tags": [
+      "ai_report: no_ich"
+    ],
+    "source": {
+      "source_name": "50_advice with annotation_cycle_225",
+      "row": 19
+    },
+    "start": 11094,
+    "end": 11154,
+    "source_iterations": 1
+  },
+  {
+    "phrase": "Hier vielleicht so ein bisschen hyperintens superarachnoidal kann auch sein, dass man da hier ? anschneidet.",
+    "tags": [
+      "indicator: anomaly_detected"
+    ],
+    "source": {
+      "source_name": "50_advice with annotation_cycle_225",
+      "row": 19
+    },
+    "start": 11246,
+    "end": 11354,
+    "source_iterations": 1
+  },
+  {
+    "phrase": "Ansonsten bisschen Verkalkungen, Gefäße, aber keine Blutung.",
+    "tags": [
+      "indicator: no_bleeding"
+    ],
+    "source": {
+      "source_name": "50_advice with annotation_cycle_225",
+      "row": 19
+    },
+    "start": 11355,
+    "end": 11415,
+    "source_iterations": 1
+  },
+  {
+    "phrase": "Ich glaube die hat keine Blutung.",
+    "tags": [
+      "interpretation: no_bleeding"
+    ],
+    "source": {
+      "source_name": "50_advice with annotation_cycle_225",
+      "row": 32
+    },
+    "start": 17882,
+    "end": 17915,
+    "source_iterations": 1
+  },
+  {
+    "phrase": "Das könnte für mich eine Blutung sein.",
+    "tags": [
+      "interpretation: bleeding"
+    ],
+    "source": {
+      "source_name": "50_advice with annotation_cycle_225",
+      "row": 32
+    },
+    "start": null,
+    "end": null,
+    "source_iterations": 1
+  },
+  {
+    "phrase": "46 wurde nicht bei Bewusstsein gefunden.",
+    "tags": [
+      "ai_report: no_ich"
+    ],
+    "source": {
+      "source_name": "50_advice with annotation_cycle_225",
+      "row": 29
+    },
+    "start": 16010,
+    "end": 16050,
+    "source_iterations": 1
+  },
+  {
+    "phrase": "hyperdenser ist als auf der anderen Seite.",
+    "tags": [
+      "indicator: no_bleeding"
+    ],
+    "source": {
+      "source_name": "50_advice with annotation_cycle_225",
+      "row": 29
+    },
+    "start": 16112,
+    "end": 16154,
+    "source_iterations": 1
+  },
+  {
+    "phrase": "ist noch irgendwas auffällig?",
+    "tags": [
+      "control: control_repeat"
+    ],
+    "source": {
+      "source_name": "50_advice with annotation_cycle_225",
+      "row": 29
+    },
+    "start": 16155,
+    "end": 16184,
+    "source_iterations": 1
+  },
+  {
+    "phrase": "Auch da?",
+    "tags": [
+      "control: control_repeat"
+    ],
+    "source": {
+      "source_name": "50_advice with annotation_cycle_225",
+      "row": 29
+    },
+    "start": 16262,
+    "end": 16270,
+    "source_iterations": 1
+  },
+  {
+    "phrase": "Okay gut, da sind wir uns da einig.",
+    "tags": [
+      "control: control_strategies"
+    ],
+    "source": {
+      "source_name": "50_advice with annotation_cycle_225",
+      "row": 29
+    },
+    "start": 16271,
+    "end": 16306,
+    "source_iterations": 1
+  },
+  {
+    "phrase": "Okay, 45 Fahrrerin in einem Autounfall und GCS um 2 Punkte verringert.",
+    "tags": [
+      "indicator: anomaly_detected",
+      "interpretation: bleeding"
+    ],
+    "source": {
+      "source_name": "50_advice with annotation_cycle_225",
+      "row": 33
+    },
+    "start": 17916,
+    "end": 17986,
+    "source_iterations": 1
+  },
+  {
+    "phrase": "Man sieht hier auch die hyperdensen Einblutungen, geht alles hier oben rum hier entlanglang der rechten Hemisphäre hier auch hier vorne.",
+    "tags": [
+      "indicator: anomaly_detected",
+      "interpretation: bleeding"
+    ],
+    "source": {
+      "source_name": "50_advice with annotation_cycle_225",
+      "row": 33
+    },
+    "start": 18046,
+    "end": 18182,
+    "source_iterations": 1
+  },
+  {
+    "phrase": "Ich achte jetzt vor allem außenrum, ob ich da irgendwie epidurale Einblutungen sehe.",
+    "tags": [
+      "control: missing_information"
+    ],
+    "source": {
+      "source_name": "50_advice with annotation_cycle_225",
+      "row": 37
+    },
+    "start": 20296,
+    "end": 20380,
+    "source_iterations": 1
+  },
+  {
+    "phrase": "Hier das sieht auch ein bisschen auffällig aus vor allem hier.",
+    "tags": [
+      "indicator: anomaly_detected"
+    ],
+    "source": {
+      "source_name": "50_advice with annotation_cycle_225",
+      "row": 37
+    },
+    "start": 20381,
+    "end": 20443,
+    "source_iterations": 1
+  },
+  {
+    "phrase": "Ich gehe mal synchronisiert durch.",
+    "tags": [
+      "control: control_repeat"
+    ],
+    "source": {
+      "source_name": "50_advice with annotation_cycle_225",
+      "row": 37
+    },
+    "start": 20444,
+    "end": 20478,
+    "source_iterations": 1
+  },
+  {
+    "phrase": "hat nh Blutung",
+    "tags": [
+      "indicator: no_bleeding",
+      "interpretation: no_bleeding_explanation"
+    ],
+    "source": {
+      "source_name": "50_advice with annotation_cycle_225",
+      "row": 44
+    },
+    "start": 25582,
+    "end": 25596,
+    "source_iterations": 1
+  },
+  {
+    "phrase": "hier vorne vielleicht mal synchronisiert durchgehen",
+    "tags": [
+      "control: control_repeat"
+    ],
+    "source": {
+      "source_name": "50_advice with annotation_cycle_225",
+      "row": 44
+    },
+    "start": 25474,
+    "end": 25525,
+    "source_iterations": 1
+  },
+  {
+    "phrase": "Ich sehe jetzt keine linsenförmige hyperdense Einblutung.",
+    "tags": [
+      "indicator: no_bleeding"
+    ],
+    "source": {
+      "source_name": "50_advice with annotation_cycle_225",
+      "row": 45
+    },
+    "start": 25713,
+    "end": 25770,
+    "source_iterations": 1
+  },
+  {
+    "phrase": "Kopfschmerzen und60würde eher auf irgendwie auf eine Subarachnoidalblutung schließen.",
+    "tags": [
+      "indicator: anomaly_detected",
+      "interpretation: bleeding"
+    ],
+    "source": {
+      "source_name": "50_advice with annotation_cycle_225",
+      "row": 46
+    },
+    "start": null,
+    "end": null,
+    "source_iterations": 1
+  },
+  {
+    "phrase": "wurde keine Blutung detektiert",
+    "tags": [
+      "ai_report: no_ich"
+    ],
+    "source": {
+      "source_name": "50_advice with annotation_cycle_225",
+      "row": 28
+    },
+    "start": 15481,
+    "end": 15511,
+    "source_iterations": 1
+  },
+  {
+    "phrase": "Fahrradunfall",
+    "tags": [
+      "indicator: anomaly_detected"
+    ],
+    "source": {
+      "source_name": "50_advice with annotation_cycle_225",
+      "row": 28
+    },
+    "start": 15529,
+    "end": 15542,
+    "source_iterations": 1
+  },
+  {
+    "phrase": "relativ alt",
+    "tags": [
+      "awareness_of_task: image_quality"
+    ],
+    "source": {
+      "source_name": "50_advice with annotation_cycle_225",
+      "row": 28
+    },
+    "start": 15580,
+    "end": 15591,
+    "source_iterations": 1
+  },
+  {
+    "phrase": "kann auch subarachnoidal sein",
+    "tags": [
+      "reasoning: alternative_medical_cause"
+    ],
+    "source": {
+      "source_name": "50_advice with annotation_cycle_225",
+      "row": 28
+    },
+    "start": 15593,
+    "end": 15622,
+    "source_iterations": 1
+  },
+  {
+    "phrase": "kann auch epidural sein",
+    "tags": [
+      "reasoning: alternative_medical_cause"
+    ],
+    "source": {
+      "source_name": "50_advice with annotation_cycle_225",
+      "row": 28
+    },
+    "start": null,
+    "end": null,
+    "source_iterations": 1
+  },
+  {
+    "phrase": "Nichts, hier so ein bisschen Verschiebung",
+    "tags": [
+      "interpretation: bleeding_localization_unclear"
+    ],
+    "source": {
+      "source_name": "50_advice with annotation_cycle_225",
+      "row": 28
+    },
+    "start": 15649,
+    "end": 15690,
+    "source_iterations": 1
+  },
+  {
+    "phrase": "Weiß nicht, ob ich da hinten was sehe",
+    "tags": [
+      "reflection: perceptual_doubt"
+    ],
+    "source": {
+      "source_name": "50_advice with annotation_cycle_225",
+      "row": 28
+    },
+    "start": 15692,
+    "end": 15729,
+    "source_iterations": 1
+  },
+  {
+    "phrase": "nicht, auf jeden Fall außen sieht so ein bisschen verwaschen aus",
+    "tags": [
+      "interpretation: bleeding"
+    ],
+    "source": {
+      "source_name": "50_advice with annotation_cycle_225",
+      "row": 28
+    },
+    "start": null,
+    "end": null,
+    "source_iterations": 1
+  },
+  {
+    "phrase": "Auch nicht",
+    "tags": [
+      "reflection: perceptual_doubt"
+    ],
+    "source": {
+      "source_name": "50_advice with annotation_cycle_225",
+      "row": 28
+    },
+    "start": 15802,
+    "end": 15812,
+    "source_iterations": 1
+  },
+  {
+    "phrase": "Und hier hinten ist das Knochen?",
+    "tags": [
+      "reflection: perceptual_doubt"
+    ],
+    "source": {
+      "source_name": "50_advice with annotation_cycle_225",
+      "row": 28
+    },
+    "start": 15814,
+    "end": 15846,
+    "source_iterations": 1
+  },
+  {
+    "phrase": "Oder ist das die Blutung?",
+    "tags": [
+      "reflection: perceptual_doubt"
+    ],
+    "source": {
+      "source_name": "50_advice with annotation_cycle_225",
+      "row": 28
+    },
+    "start": 15847,
+    "end": 15872,
+    "source_iterations": 1
+  },
+  {
+    "phrase": "Es könnte schon auch eine kleine Blutung sein",
+    "tags": [
+      "indicator: anomaly_detected"
+    ],
+    "source": {
+      "source_name": "50_advice with annotation_cycle_225",
+      "row": 28
+    },
+    "start": 15873,
+    "end": 15918,
+    "source_iterations": 1
+  },
+  {
+    "phrase": "Ich hab das Gefühl, die hat auch eine kleine Blutung",
+    "tags": [
+      "reflection: perceptual_doubt"
+    ],
+    "source": {
+      "source_name": "50_advice with annotation_cycle_225",
+      "row": 28
+    },
+    "start": 15925,
+    "end": 15977,
+    "source_iterations": 1
+  },
+  {
+    "phrase": "War nicht hilfreich",
+    "tags": [
+      "control: missing_information"
+    ],
+    "source": {
+      "source_name": "50_advice with annotation_cycle_225",
+      "row": 28
+    },
+    "start": 15979,
+    "end": 15998,
+    "source_iterations": 1
+  },
+  {
+    "phrase": "Ähm 26 Fahrradunfall und hier soll eine Blutung sein.",
+    "tags": [
+      "indicator: anomaly_detected",
+      "interpretation: bleeding",
+      "awareness_of_task: difficult"
+    ],
+    "source": {
+      "source_name": "50_advice with annotation_cycle_225",
+      "row": 49
+    },
+    "start": 26847,
+    "end": 26900,
+    "source_iterations": 1
+  },
+  {
+    "phrase": "Dann gucken wir bei der linken Hemisphäre nach epiduralen hyperdensen Einblutungen.",
+    "tags": [
+      "control: control_repeat",
+      "interpretation: bleeding_localization_unclear"
+    ],
+    "source": {
+      "source_name": "50_advice with annotation_cycle_225",
+      "row": 49
+    },
+    "start": 26969,
+    "end": 27052,
+    "source_iterations": 1
+  },
+  {
+    "phrase": "Ich schau noch einmal auf die rechte Seite.",
+    "tags": [
+      "control: control_repeat"
+    ],
+    "source": {
+      "source_name": "50_advice with annotation_cycle_225",
+      "row": 49
+    },
+    "start": 27161,
+    "end": 27204,
+    "source_iterations": 1
+  },
+  {
+    "phrase": "schon eine Blutung",
+    "tags": [
+      "indicator: anomaly_detected",
+      "interpretation: bleeding"
+    ],
+    "source": {
+      "source_name": "50_no advice_cycle_162",
+      "row": 2
+    },
+    "start": 1152,
+    "end": 1170,
+    "source_iterations": 1
+  },
+  {
+    "phrase": "Ähm, okay, älterer Mann, Trauma.",
+    "tags": [
+      "awareness_of_task: easy",
+      "control: missing_information",
+      "interpretation: bleeding"
+    ],
+    "source": {
+      "source_name": "50_no advice_cycle_162",
+      "row": 3
+    },
+    "start": 1259,
+    "end": 1291,
+    "source_iterations": 1
+  },
+  {
+    "phrase": "Ich sehe jetzt keine irgendwie Eindrückungen, auch nicht in die, den Subarachnoidalraum, oder so.",
+    "tags": [
+      "indicator: no_bleeding"
+    ],
+    "source": {
+      "source_name": "50_no advice_cycle_162",
+      "row": 6
+    },
+    "start": null,
+    "end": null,
+    "source_iterations": 1
+  },
+  {
+    "phrase": "Ich kann jetzt hier keine akute Blutung sehen.",
+    "tags": [
+      "indicator: no_bleeding"
+    ],
+    "source": {
+      "source_name": "50_no advice_cycle_162",
+      "row": 6
+    },
+    "start": 2537,
+    "end": 2583,
+    "source_iterations": 1
+  },
+  {
+    "phrase": "Ähm, 62, männlich, Kopfschmerzen.",
+    "tags": [
+      "control: missing_information"
+    ],
+    "source": {
+      "source_name": "50_no advice_cycle_162",
+      "row": 7
+    },
+    "start": 2584,
+    "end": 2617,
+    "source_iterations": 1
+  },
+  {
+    "phrase": "Ja okay, hier haben wir, zum Beispiel an der Mittellinie eher ocipital und dann auf Ventrikelebene nichts.",
+    "tags": [
+      "interpretation: bleeding"
+    ],
+    "source": {
+      "source_name": "50_no advice_cycle_162",
+      "row": 7
+    },
+    "start": 2672,
+    "end": 2778,
+    "source_iterations": 1
+  },
+  {
+    "phrase": "Infarkt?",
+    "tags": [
+      "indicator: anomaly_detected",
+      "interpretation: bleeding"
+    ],
+    "source": {
+      "source_name": "50_no advice_cycle_162",
+      "row": 5
+    },
+    "start": 1984,
+    "end": 1992,
+    "source_iterations": 1
+  },
+  {
+    "phrase": "oder jetzt hier hinten, vielleicht ocipital",
+    "tags": [
+      "control: control_repeat",
+      "interpretation: bleeding"
+    ],
+    "source": {
+      "source_name": "50_no advice_cycle_162",
+      "row": 5
+    },
+    "start": 1994,
+    "end": 2037,
+    "source_iterations": 1
+  },
+  {
+    "phrase": "Ich schaue wieder auf unterschiedliche, auffällige Densitäten.",
+    "tags": [
+      "visual_search: description_of_own_approach_without_external_help"
+    ],
+    "source": {
+      "source_name": "50_no advice_cycle_162",
+      "row": 0
+    },
+    "start": 154,
+    "end": 216,
+    "source_iterations": 1
+  },
+  {
+    "phrase": "Ich habe eine Verschiebung der ?.",
+    "tags": [
+      "interpretation: bleeding"
+    ],
+    "source": {
+      "source_name": "50_no advice_cycle_162",
+      "row": 0
+    },
+    "start": null,
+    "end": null,
+    "source_iterations": 1
+  },
+  {
+    "phrase": "Ich find hier hinten ein bisschen auffällig, also ocipital.",
+    "tags": [
+      "interpretation: bleeding",
+      "interpretation: no_bleeding",
+      "reflection: diagnostic_uncertainty"
+    ],
+    "source": {
+      "source_name": "50_no advice_cycle_162",
+      "row": 11
+    },
+    "start": 4756,
+    "end": 4815,
+    "source_iterations": 1
+  },
+  {
+    "phrase": "Ich kann es mir vorstellen, aber hier bin ich mir auch nicht sicher.",
+    "tags": [
+      "reflection: diagnostic_uncertainty"
+    ],
+    "source": {
+      "source_name": "50_no advice_cycle_162",
+      "row": 11
+    },
+    "start": 4839,
+    "end": 4907,
+    "source_iterations": 1
+  },
+  {
+    "phrase": "Hm, ich glaub da hat definitiv eine Blutung stattgefunden.",
+    "tags": [
+      "interpretation: bleeding",
+      "confidence_high: secondary"
+    ],
+    "source": {
+      "source_name": "50_no advice_cycle_162",
+      "row": 20
+    },
+    "start": 9340,
+    "end": 9398,
+    "source_iterations": 1
+  },
+  {
+    "phrase": "Das könnte für mich eine Blutung sein.",
+    "tags": [
+      "interpretation: bleeding"
+    ],
+    "source": {
+      "source_name": "50_no advice_cycle_162",
+      "row": 20
+    },
+    "start": null,
+    "end": null,
+    "source_iterations": 1
+  },
+  {
+    "phrase": "51, weiblich, verschwommenes Sehen und Kopfschmerzen.",
+    "tags": [
+      "indicator: anomaly_detected",
+      "other"
+    ],
+    "source": {
+      "source_name": "50_no advice_cycle_162",
+      "row": 15
+    },
+    "start": 6769,
+    "end": 6822,
+    "source_iterations": 1
+  },
+  {
+    "phrase": "Könnte ja eher eine SAB sein.",
+    "tags": [
+      "confidence_low: secondary"
+    ],
+    "source": {
+      "source_name": "50_no advice_cycle_162",
+      "row": 15
+    },
+    "start": 6829,
+    "end": 6858,
+    "source_iterations": 1
+  },
+  {
+    "phrase": "subarachnoidal sehe ich.",
+    "tags": [
+      "interpretation: bleeding"
+    ],
+    "source": {
+      "source_name": "50_no advice_cycle_162",
+      "row": 15
+    },
+    "start": 6869,
+    "end": 6893,
+    "source_iterations": 1
+  },
+  {
+    "phrase": "Ja ich meine das ist immer auf beiden Seiten, jetzt hier, das würde ich nicht als eine Blutung sehen.",
+    "tags": [
+      "interpretation: bleeding_localization_unclear"
+    ],
+    "source": {
+      "source_name": "50_no advice_cycle_162",
+      "row": 15
+    },
+    "start": 6894,
+    "end": 6995,
+    "source_iterations": 1
+  },
+  {
+    "phrase": "Hier sind sichtbar, so kleine, kleine Probleme?",
+    "tags": [
+      "interpretation: bleeding"
+    ],
+    "source": {
+      "source_name": "50_no advice_cycle_162",
+      "row": 15
+    },
+    "start": 6996,
+    "end": 7043,
+    "source_iterations": 1
+  },
+  {
+    "phrase": "Hm, und hier an der Mittellinie, da wäre es möglich.",
+    "tags": [
+      "interpretation: bleeding"
+    ],
+    "source": {
+      "source_name": "50_no advice_cycle_162",
+      "row": 15
+    },
+    "start": 7044,
+    "end": 7096,
+    "source_iterations": 1
+  },
+  {
+    "phrase": "Ja, vielleicht, aber bin ich mir nicht so sicher.",
+    "tags": [
+      "confidence_low: secondary"
+    ],
+    "source": {
+      "source_name": "50_no advice_cycle_162",
+      "row": 15
+    },
+    "start": 7097,
+    "end": 7146,
+    "source_iterations": 1
+  },
+  {
+    "phrase": "Bin mir bei allen irgendwie, nicht so sicher.",
+    "tags": [
+      "confidence_low: secondary"
+    ],
+    "source": {
+      "source_name": "50_no advice_cycle_162",
+      "row": 15
+    },
+    "start": 7147,
+    "end": 7192,
+    "source_iterations": 1
+  },
+  {
+    "phrase": "Das sieht nicht so gut aus.",
+    "tags": [
+      "indicator: anomaly_detected",
+      "interpretation: bleeding"
+    ],
+    "source": {
+      "source_name": "50_no advice_cycle_162",
+      "row": 24
+    },
+    "start": 11330,
+    "end": 11357,
+    "source_iterations": 1
+  },
+  {
+    "phrase": "Ich glaube da hat sich es schon die Venen zerissen.",
+    "tags": [
+      "indicator: anomaly_detected",
+      "interpretation: bleeding",
+      "confidence_high: concrete"
+    ],
+    "source": {
+      "source_name": "50_no advice_cycle_162",
+      "row": 27
+    },
+    "start": 12789,
+    "end": 12840,
+    "source_iterations": 1
+  },
+  {
+    "phrase": "Ich glaube da hat sich es schon die Venen zerissen.",
+    "tags": [
+      "confidence_high: concrete"
+    ],
+    "source": {
+      "source_name": "50_no advice_cycle_162",
+      "row": 27
+    },
+    "start": 12789,
+    "end": 12840,
+    "source_iterations": 1
+  },
+  {
+    "phrase": "Fahrradunfall, könnte ja auch irgendwie typisch sein, irgendwie dass da die Meningea Media reisst.",
+    "tags": [
+      "indicator: anomaly_detected",
+      "reasoning: alternative_medical_cause"
+    ],
+    "source": {
+      "source_name": "50_no advice_cycle_162",
+      "row": 16
+    },
+    "start": 7468,
+    "end": 7566,
+    "source_iterations": 1
+  },
+  {
+    "phrase": "Hier verwaschen, hinten. Gefäße gut sichtbar.",
+    "tags": [
+      "indicator: no_bleeding"
+    ],
+    "source": {
+      "source_name": "50_no advice_cycle_162",
+      "row": 16
+    },
+    "start": 7623,
+    "end": 7668,
+    "source_iterations": 1
+  },
+  {
+    "phrase": "Hier so ein bisschen unterschiedliche Densitäten von außen.",
+    "tags": [
+      "indicator: anomaly_detected"
+    ],
+    "source": {
+      "source_name": "50_no advice_cycle_162",
+      "row": 16
+    },
+    "start": 7408,
+    "end": 7467,
+    "source_iterations": 1
+  },
+  {
+    "phrase": "Hier so ein bisschen unterschiedliche Densitäten von außen. Fahrradunfall, könnte ja auch irgendwie typisch sein, irgendwie dass da die Meningea Media reisst.",
+    "tags": [
+      "indicator: anomaly_detected",
+      "reasoning: alternative_medical_cause"
+    ],
+    "source": {
+      "source_name": "50_no advice_cycle_162",
+      "row": 16
+    },
+    "start": 7408,
+    "end": 7566,
+    "source_iterations": 1
+  },
+  {
+    "phrase": "Das ist alles sehr verwaschen, ich finde das hier super schwer Gyri und Sulci abzugrenzen.",
+    "tags": [
+      "awareness_of_task: image_quality"
+    ],
+    "source": {
+      "source_name": "50_no advice_cycle_162",
+      "row": 31
+    },
+    "start": 14584,
+    "end": 14674,
+    "source_iterations": 1
+  },
+  {
+    "phrase": "Bisschen nervig, wird hier ein bisschen besser, aber es ist irgendwie eine sehr schlechte Aufnahmen oder es ist jetzt wirklich verwaschen, aufgrund von Einblutungen.",
+    "tags": [
+      "awareness_of_task: image_quality"
+    ],
+    "source": {
+      "source_name": "50_no advice_cycle_162",
+      "row": 31
+    },
+    "start": 14675,
+    "end": 14840,
+    "source_iterations": 1
+  },
+  {
+    "phrase": "Zum Beispiel hier ist auffällig. Da könnte man an dem Punkt auch gucken, ob das von außen auch auffällig ist.",
+    "tags": [
+      "indicator: anomaly_detected"
+    ],
+    "source": {
+      "source_name": "50_no advice_cycle_162",
+      "row": 31
+    },
+    "start": 14841,
+    "end": 14950,
+    "source_iterations": 1
+  },
+  {
+    "phrase": "Hier vielleicht so ein bisschen.",
+    "tags": [
+      "indicator: anomaly_detected"
+    ],
+    "source": {
+      "source_name": "50_no advice_cycle_162",
+      "row": 31
+    },
+    "start": 14951,
+    "end": 14983,
+    "source_iterations": 1
+  },
+  {
+    "phrase": "Die Gyri hier links, vor allem links parietal-ocipital schwierig abzugrenzen, die Zeichnung ist nicht so allgemein.",
+    "tags": [
+      "control: control_strategies",
+      "interpretation: bleeding_localization_unclear"
+    ],
+    "source": {
+      "source_name": "50_no advice_cycle_162",
+      "row": 33
+    },
+    "start": null,
+    "end": null,
+    "source_iterations": 1
+  },
+  {
+    "phrase": "Das gefällt mir nicht.",
+    "tags": [
+      "control: control_repeat",
+      "interpretation: bleeding"
+    ],
+    "source": {
+      "source_name": "50_no advice_cycle_162",
+      "row": 33
+    },
+    "start": 15844,
+    "end": 15866,
+    "source_iterations": 1
+  },
+  {
+    "phrase": "Ich bin mir sehr unsicher.",
+    "tags": [
+      "reflection: diagnostic_uncertainty",
+      "interpretation: bleeding",
+      "other"
+    ],
+    "source": {
+      "source_name": "50_no advice_cycle_162",
+      "row": 36
+    },
+    "start": null,
+    "end": null,
+    "source_iterations": 1
+  },
+  {
+    "phrase": "Ich sehe noch kein Defekt bis jetzt, kortikal.",
+    "tags": [
+      "indicator: no_bleeding"
+    ],
+    "source": {
+      "source_name": "50_no advice_cycle_162",
+      "row": 36
+    },
+    "start": 17432,
+    "end": 17478,
+    "source_iterations": 1
+  },
+  {
+    "phrase": "Ich kann die Ventrikel, kann die Gefäße einsehen.",
+    "tags": [
+      "indicator: no_bleeding"
+    ],
+    "source": {
+      "source_name": "50_no advice_cycle_162",
+      "row": 36
+    },
+    "start": 17561,
+    "end": 17610,
+    "source_iterations": 1
+  },
+  {
+    "phrase": "Das finde ich ein bisschen auffällig hier.",
+    "tags": [
+      "indicator: anomaly_detected",
+      "interpretation: bleeding",
+      "control: missing_information"
+    ],
+    "source": {
+      "source_name": "50_no advice_cycle_162",
+      "row": 48
+    },
+    "start": 23923,
+    "end": 23965,
+    "source_iterations": 1
+  },
+  {
+    "phrase": "Ich finde es hier auch nicht so schön, hier irgendwie die Gyri zu sehen?",
+    "tags": [
+      "other"
+    ],
+    "source": {
+      "source_name": "50_no advice_cycle_162",
+      "row": 35
+    },
+    "start": 16720,
+    "end": 16792,
+    "source_iterations": 1
+  },
+  {
+    "phrase": "Ich weiß ja nicht, wie viel davon, irgendwie an dem Bild liegt.",
+    "tags": [
+      "interpretation: no_bleeding"
+    ],
+    "source": {
+      "source_name": "50_no advice_cycle_162",
+      "row": 35
+    },
+    "start": 16794,
+    "end": 16857,
+    "source_iterations": 1
+  },
+  {
+    "phrase": "Das könnte für mich eine Blutung sein.",
+    "tags": [
+      "interpretation: bleeding"
+    ],
+    "source": {
+      "source_name": "50_no advice_cycle_162",
+      "row": 46
+    },
+    "start": null,
+    "end": null,
+    "source_iterations": 1
+  },
+  {
+    "phrase": "Ocipital ein bisschen auffällig ist.",
+    "tags": [
+      "indicator: anomaly_detected",
+      "interpretation: bleeding"
+    ],
+    "source": {
+      "source_name": "50_no advice_cycle_162",
+      "row": 46
+    },
+    "start": 22617,
+    "end": 22653,
+    "source_iterations": 1
+  },
+  {
+    "phrase": "Ich weiß nicht, wie ich das hier einschätzen soll, hier hinten.",
+    "tags": [
+      "reflection: diagnostic_uncertainty"
+    ],
+    "source": {
+      "source_name": "50_no advice_cycle_162",
+      "row": 46
+    },
+    "start": 22719,
+    "end": 22782,
+    "source_iterations": 1
+  },
+  {
+    "phrase": "Hier finde ich irgendwie alles sehr auff-merkwürdig.",
+    "tags": [
+      "control: missing_information"
+    ],
+    "source": {
+      "source_name": "50_no advice_cycle_162",
+      "row": 28
+    },
+    "start": null,
+    "end": null,
+    "source_iterations": 1
+  },
+  {
+    "phrase": "Aber das ist ja eher hart.",
+    "tags": [
+      "control: missing_information"
+    ],
+    "source": {
+      "source_name": "50_no advice_cycle_162",
+      "row": 28
+    },
+    "start": 13106,
+    "end": 13132,
+    "source_iterations": 1
+  },
+  {
+    "phrase": "Finde ich jetzt irgendwie merkwürdig, was der hat.",
+    "tags": [
+      "interpretation: bleeding"
+    ],
+    "source": {
+      "source_name": "50_no advice_cycle_162",
+      "row": 28
+    },
+    "start": 13133,
+    "end": 13183,
+    "source_iterations": 1
+  },
+  {
+    "phrase": "Ist das jetzt Nasennebenhölen bedingt?",
+    "tags": [
+      "interpretation: bleeding"
+    ],
+    "source": {
+      "source_name": "50_no advice_cycle_162",
+      "row": 28
+    },
+    "start": 13184,
+    "end": 13222,
+    "source_iterations": 1
+  },
+  {
+    "phrase": "Ah, jetzt habe ich gar nicht so krass aufs Gehirn geschaut.",
+    "tags": [
+      "control: missing_information"
+    ],
+    "source": {
+      "source_name": "50_no advice_cycle_162",
+      "row": 28
+    },
+    "start": 13223,
+    "end": 13282,
+    "source_iterations": 1
+  },
+  {
+    "phrase": "Die Frage ist ja, habe ich einen kortikalen Defekt.",
+    "tags": [
+      "interpretation: bleeding"
+    ],
+    "source": {
+      "source_name": "50_no advice_cycle_162",
+      "row": 28
+    },
+    "start": 13283,
+    "end": 13334,
+    "source_iterations": 1
+  },
+  {
+    "phrase": "Was wahrscheinlich auch das hier bedingen kann.",
+    "tags": [
+      "interpretation: bleeding"
+    ],
+    "source": {
+      "source_name": "50_no advice_cycle_162",
+      "row": 28
+    },
+    "start": 13335,
+    "end": 13382,
+    "source_iterations": 1
+  },
+  {
+    "phrase": "Der Mittellinie hier.",
+    "tags": [
+      "interpretation: bleeding"
+    ],
+    "source": {
+      "source_name": "50_no advice_cycle_162",
+      "row": 28
+    },
+    "start": 13383,
+    "end": 13404,
+    "source_iterations": 1
+  },
+  {
+    "phrase": "Auf jeden Fall merkwürdig, vorne.",
+    "tags": [
+      "interpretation: bleeding"
+    ],
+    "source": {
+      "source_name": "50_no advice_cycle_162",
+      "row": 28
+    },
+    "start": 13405,
+    "end": 13438,
+    "source_iterations": 1
+  }
+]

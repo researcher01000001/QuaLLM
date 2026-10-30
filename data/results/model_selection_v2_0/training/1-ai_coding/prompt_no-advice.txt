@@ -1,0 +1,73 @@
+============================================================
+Configuration(s): mistral-small-4-2603-260316, mistral-large-4-0-261006, qwen3-8-27b-260814, z-ai-glm-5-3-260818, gpt-6-sol-260922, gpt-6-luna-260922, deepseek-v4-pro-0813-260812, gemini-3-8-flash-260902, gemma-4-31b-it-260402, claude-sonnet-5-5-260928, llama-3-3-70b-instruct-241206, llama-3-2-3b-instruct-240925
+============================================================
+
+SYSTEM MESSAGE
+----------------------------------------
+Please label the following texts segment-wise with the given codes.
+Give the exact quote with the corresponding labels. Also give a context window that is unique and has the quote uniquely in it.
+Use the given response format.
+
+Here are the ALLOWED TAGS:
+<tag>awareness_of_task: difficult</tag>: Person perceives the current task as difficult.; Cannot co-occur with other tags that also cannot co-occur.
+<tag>awareness_of_task: easy</tag>: Person perceives the current task as easy.; Cannot co-occur with other tags that also cannot co-occur.
+<tag>awareness_of_task: image_quality</tag>: Person explicitly complains about image quality or acquisition method. Resulting uncertainty is attributed to the acquisition or image quality, not to their own competence.; Cannot co-occur with other tags that also cannot co-occur.
+<tag>confidence_high: concrete</tag>: Person explicitly expresses high certainty regarding the diagnostic process.; Cannot co-occur with other tags that also cannot co-occur.
+<tag>confidence_high: secondary</tag>: High certainty is implicitly shown through expressions like 'definitely', 'probably'.; Can co-occur with other tags
+<tag>confidence_low: concrete</tag>: Person explicitly expresses low certainty regarding the diagnostic process.; Cannot co-occur with other tags that also cannot co-occur.
+<tag>confidence_low: secondary</tag>: Low certainty is implicitly shown through adverbs like 'perhaps'.; Can co-occur with other tags
+<tag>control: control_repeat</tag>: Person returns to a previously viewed image area.; Cannot co-occur with other tags that also cannot co-occur.
+<tag>control: control_strategies</tag>: Person wants to discuss the case with others or get a second opinion.; Cannot co-occur with other tags that also cannot co-occur.
+<tag>control: missing_information</tag>: Person wants or needs more information about the case.; Cannot co-occur with other tags that also cannot co-occur.
+<tag>control: reflective_question</tag>: Person asks themselves a question to control or verify their own thought process.; Cannot co-occur with other tags that also cannot co-occur.
+<tag>indicator: anomaly_detected</tag>: Person notices an abnormality atypical for a healthy skull.; Cannot co-occur with other tags that also cannot co-occur.
+<tag>indicator: no_bleeding</tag>: Person classifies a specific image area as unremarkable.; Cannot co-occur with other tags that also cannot co-occur.
+<tag>interpretation: bleeding</tag>: Person interprets the abnormality as a hemorrhage (term 'hemorrhage' or ICH or ICB is mentioned or inferable from context).; Cannot co-occur with other tags that also cannot co-occur.
+<tag>interpretation: bleeding_localization_unclear</tag>: Person considers a hemorrhage likely but cannot find the exact location.; Cannot co-occur with other tags that also cannot co-occur.
+<tag>interpretation: description_bleeding</tag>: Person describes an already identified hemorrhage in more detail.; Cannot co-occur with other tags that also cannot co-occur.
+<tag>interpretation: no_bleeding</tag>: Person interprets the finding or lack thereof as 'no hemorrhage'.; Cannot co-occur with other tags that also cannot co-occur.
+<tag>interpretation: no_bleeding_explanation</tag>: Person explains why the abnormality cannot be a hemorrhage.; Cannot co-occur with other tags that also cannot co-occur.
+<tag>other</tag>: This code states that no clear code can be assigned with the given information. Used when the coding system has high uncertainty.; Cannot co-occur with other tags that also cannot co-occur.
+<tag>paused_in_process</tag>: The code is assigned when pure filler words or sentences are spoken.; Can co-occur with other tags
+<tag>reasoning: alternative_medical_cause</tag>: Person names another possible medical cause or explanation.; Cannot co-occur with other tags that also cannot co-occur.
+<tag>reasoning: alternative_medical_structure</tag>: Person attributes the abnormality to a healthy anatomical structure (e.g. bone).; Cannot co-occur with other tags that also cannot co-occur.
+<tag>reasoning: artifact</tag>: Person refers to an abnormality as an artifact.; Cannot co-occur with other tags that also cannot co-occur.
+<tag>reasoning: conclusion_contextual_information</tag>: Person connects the medical history with found indicators or draws conclusions from it.; Cannot co-occur with other tags that also cannot co-occur.
+<tag>reasoning: conclusion_findings</tag>: Person draws conclusions from the found indicators.; Cannot co-occur with other tags that also cannot co-occur.
+<tag>reasoning: mentioning_contextual_information</tag>: Person mentions cause of accident or patient-related information (medical history).; Cannot co-occur with other tags that also cannot co-occur.
+<tag>reasoning: not_matching_contextual_information</tag>: Findings and/or diagnosis do not match the provided medical history.; Cannot co-occur with other tags that also cannot co-occur.
+<tag>reference: past_case</tag>: Person refers to a previous case.; Can co-occur with other tags
+<tag>reference: past_trial</tag>: Person refers to a previous trial or run.; Can co-occur with other tags
+<tag>reflection: diagnostic_uncertainty</tag>: Person is uncertain about classifying a finding (cannot justify or assign)., Person assesses whether a finding is normal, unremarkable, or abnormal., Person reflects whether another diagnosis would be considered.; Cannot co-occur with other tags that also cannot co-occur.
+<tag>reflection: experience_limitation</tag>: Person refers to their own limits of experience or knowledge.; Cannot co-occur with other tags that also cannot co-occur.
+<tag>reflection: perceptual_doubt</tag>: Person doubts their own perception.; Cannot co-occur with other tags that also cannot co-occur.
+<tag>reflection: prior_experiences</tag>: Person explicitly draws on their own prior experience.; Cannot co-occur with other tags that also cannot co-occur.
+<tag>reflection: recurring_perceptual_pattern</tag>: Person reflects on a recurring, case-independent perceptual or judgmental pattern in themselves.; Cannot co-occur with other tags that also cannot co-occur.
+<tag>reflection: self-affirmation</tag>: Person reaffirms themselves within the same statement or context.; Cannot co-occur with other tags that also cannot co-occur.
+<tag>reflection: self-correction</tag>: Person corrects or improves their own previous statement.; Can co-occur with other tags
+<tag>reflection: self-monitoring</tag>: Person explicitly observes or comments on their own diagnostic process as it unfolds.; Cannot co-occur with other tags that also cannot co-occur.
+<tag>technical_conversation</tag>: Person discusses technical difficulties with the display tool or task with the experimenter.; Cannot co-occur with other tags that also cannot co-occur.
+<tag>visual_search: based_on_contextual_information</tag>: Person specifically searches for abnormalities or clues based on the medical history.; Cannot co-occur with other tags that also cannot co-occur.
+<tag>visual_search: triggered_by_finding</tag>: Person aligns their visual approach with an already found indicator.; Cannot co-occur with other tags that also cannot co-occur.
+<tag>visual_search: description_of_medical_image_features</tag>: Person verbalizes which anatomical structures or image characteristics they are currently looking at or checking.; Cannot co-occur with other tags that also cannot co-occur.
+<tag>visual_search: description_of_own_approach_without_external_help</tag>: Person explicitly comments on their own search procedure.; Cannot co-occur with other tags that also cannot co-occur.
+<tag>visual_search</tag>: Cannot co-occur with other tags that also cannot co-occur.
+
+EXPECTED JSON FORMAT:
+{
+  "classifications": [
+    {
+      "phrase": "Das könnte für mich eine Blutung sein.",
+      "context": "linken Seite im Gehirn. Das könnte für mich eine Blutung sein. Ja. Genau.",
+      "tags": ["interpretation: bleeding"],
+      "rationale": "Brief explanation of why this tag applies."
+    }
+  ]
+}
+
+
+USER MESSAGE
+----------------------------------------
+Text to analyze:
+
+[paragraph text]

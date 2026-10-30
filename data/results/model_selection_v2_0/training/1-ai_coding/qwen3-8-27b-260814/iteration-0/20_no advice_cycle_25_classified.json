@@ -1,0 +1,4184 @@
+[
+  {
+    "phrase": "Ich finde die Bilder ziemlich klein, auf meinem Bildschirm trotzdem, aber…",
+    "context": "Ich finde die Bilder ziemlich klein, auf meinem Bildschirm trotzdem, aber… Hmm",
+    "tags": [
+      "awareness_of_task: image_quality"
+    ],
+    "rationale": "The speaker explicitly complains that the images are small on their screen, attributing the issue to image/display quality.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_no advice_cycle_25.txt",
+      "row": 4
+    },
+    "model": "qwen/qwen3.8-27b",
+    "provider": "Modal",
+    "configuration_name": "qwen3-8-27b-260814"
+  },
+  {
+    "phrase": "Hmm, …,",
+    "context": "aber… Hmm, …, hier",
+    "tags": [
+      "paused_in_process"
+    ],
+    "rationale": "This is a filler/pause without diagnostic content.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_no advice_cycle_25.txt",
+      "row": 4
+    },
+    "model": "qwen/qwen3.8-27b",
+    "provider": "Modal",
+    "configuration_name": "qwen3-8-27b-260814"
+  },
+  {
+    "phrase": "hier sehe ich auch nichts…",
+    "context": "… Hmm, …, hier sehe ich auch nichts… Das",
+    "tags": [
+      "indicator: no_bleeding"
+    ],
+    "rationale": "The speaker classifies the current image area as unremarkable by saying they see nothing there.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_no advice_cycle_25.txt",
+      "row": 4
+    },
+    "model": "qwen/qwen3.8-27b",
+    "provider": "Modal",
+    "configuration_name": "qwen3-8-27b-260814"
+  },
+  {
+    "phrase": "Das sieht für mich normal aus.",
+    "context": "hier sehe ich auch nichts… Das sieht für mich normal aus.",
+    "tags": [
+      "interpretation: no_bleeding"
+    ],
+    "rationale": "The speaker interprets the overall appearance as normal, i.e., no hemorrhage is identified.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_no advice_cycle_25.txt",
+      "row": 4
+    },
+    "model": "qwen/qwen3.8-27b",
+    "provider": "Modal",
+    "configuration_name": "qwen3-8-27b-260814"
+  },
+  {
+    "phrase": "Auch hier habe ich das Gefühl, ich weiß nicht ob ich mir das einbilde, dass ich die Gyri nicht mehr so gut sehen kann…",
+    "context": "… Auch hier habe ich das Gefühl, ich weiß nicht ob ich mir das einbilde, dass ich die Gyri nicht mehr so gut sehen kann…",
+    "tags": [
+      "reflection: perceptual_doubt"
+    ],
+    "rationale": "The speaker explicitly doubts whether they are imagining that the gyri are less visible, which indicates uncertainty about their own perception.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_no advice_cycle_25.txt",
+      "row": 10
+    },
+    "model": "qwen/qwen3.8-27b",
+    "provider": "Modal",
+    "configuration_name": "qwen3-8-27b-260814"
+  },
+  {
+    "phrase": "… Sehe ich auch nichts.",
+    "context": "… Sehe ich auch nichts.",
+    "tags": [
+      "interpretation: no_bleeding"
+    ],
+    "rationale": "The speaker states that they see nothing, which in the diagnostic context is interpreted as no hemorrhage.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_no advice_cycle_25.txt",
+      "row": 8
+    },
+    "model": "qwen/qwen3.8-27b",
+    "provider": "Near AI",
+    "configuration_name": "qwen3-8-27b-260814"
+  },
+  {
+    "phrase": "Ups nein.",
+    "context": "Sehe ich auch nichts. . Ups nein.",
+    "tags": [
+      "other"
+    ],
+    "rationale": "The short interjection/negation is too ambiguous to assign a specific diagnostic or process tag.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_no advice_cycle_25.txt",
+      "row": 8
+    },
+    "model": "qwen/qwen3.8-27b",
+    "provider": "Near AI",
+    "configuration_name": "qwen3-8-27b-260814"
+  },
+  {
+    "phrase": "Hmm",
+    "context": "Hmm, hier sehe ich jetzt so schnell keinen Unterschied",
+    "tags": [
+      "paused_in_process"
+    ],
+    "rationale": "The utterance is a pure filler word marking a pause in the diagnostic process.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_no advice_cycle_25.txt",
+      "row": 3
+    },
+    "model": "qwen/qwen3.8-27b",
+    "provider": "Parasail",
+    "configuration_name": "qwen3-8-27b-260814"
+  },
+  {
+    "phrase": "hier sehe ich jetzt so schnell keinen Unterschied, oder keine Signalerhöhung…",
+    "context": "Hmm, hier sehe ich jetzt so schnell keinen Unterschied, oder keine Signalerhöhung… Also",
+    "tags": [
+      "visual_search: description_of_medical_image_features"
+    ],
+    "rationale": "The person verbalizes the image characteristics currently being checked, namely absence of difference or signal increase.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_no advice_cycle_25.txt",
+      "row": 3
+    },
+    "model": "qwen/qwen3.8-27b",
+    "provider": "Parasail",
+    "configuration_name": "qwen3-8-27b-260814"
+  },
+  {
+    "phrase": "Also Schädelknochen zeigt nicht auf irgendwelche Traumata.",
+    "context": "… Also Schädelknochen zeigt nicht auf irgendwelche Traumata. Aber",
+    "tags": [
+      "indicator: no_bleeding"
+    ],
+    "rationale": "The skull is explicitly classified as unremarkable because no trauma is seen.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_no advice_cycle_25.txt",
+      "row": 3
+    },
+    "model": "qwen/qwen3.8-27b",
+    "provider": "Parasail",
+    "configuration_name": "qwen3-8-27b-260814"
+  },
+  {
+    "phrase": "Aber Moment, …",
+    "context": "Traumata. Aber Moment, … ja",
+    "tags": [
+      "paused_in_process"
+    ],
+    "rationale": "This is a filler-like pause indicating a momentary interruption in the process.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_no advice_cycle_25.txt",
+      "row": 3
+    },
+    "model": "qwen/qwen3.8-27b",
+    "provider": "Parasail",
+    "configuration_name": "qwen3-8-27b-260814"
+  },
+  {
+    "phrase": "ja und ich finde das Parenchym auch beidseitig gleich.",
+    "context": "… ja und ich finde das Parenchym auch beidseitig gleich. Ich",
+    "tags": [
+      "indicator: no_bleeding"
+    ],
+    "rationale": "The parenchyma is classified as unremarkable by describing it as bilaterally equal.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_no advice_cycle_25.txt",
+      "row": 3
+    },
+    "model": "qwen/qwen3.8-27b",
+    "provider": "Parasail",
+    "configuration_name": "qwen3-8-27b-260814"
+  },
+  {
+    "phrase": "Ich sag das sind keine Blutungen.",
+    "context": "gleich. Ich sag das sind keine Blutungen.",
+    "tags": [
+      "interpretation: no_bleeding"
+    ],
+    "rationale": "The person explicitly interprets the findings as no hemorrhage.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_no advice_cycle_25.txt",
+      "row": 3
+    },
+    "model": "qwen/qwen3.8-27b",
+    "provider": "Parasail",
+    "configuration_name": "qwen3-8-27b-260814"
+  },
+  {
+    "phrase": "…Ja bin ich mir nicht so, geht so sicher.",
+    "context": "…Ja bin ich mir nicht so, geht so sicher.",
+    "tags": [
+      "confidence_low: concrete"
+    ],
+    "rationale": "The speaker explicitly expresses uncertainty about the diagnostic judgment.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_no advice_cycle_25.txt",
+      "row": 7
+    },
+    "model": "qwen/qwen3.8-27b",
+    "provider": "Modal",
+    "configuration_name": "qwen3-8-27b-260814"
+  },
+  {
+    "phrase": "Aber ich glaub, dass das keine ist.",
+    "context": "Aber ich glaub, dass das keine ist.",
+    "tags": [
+      "interpretation: no_bleeding",
+      "confidence_low: secondary"
+    ],
+    "rationale": "The speaker interprets the finding as not being a hemorrhage, while 'ich glaub' signals tentative, lower certainty.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_no advice_cycle_25.txt",
+      "row": 7
+    },
+    "model": "qwen/qwen3.8-27b",
+    "provider": "Modal",
+    "configuration_name": "qwen3-8-27b-260814"
+  },
+  {
+    "phrase": "So, ich guck einfach immer beidseitig im Vergleich.",
+    "context": "So, ich guck einfach immer beidseitig im Vergleich. Die Mittellinie sieht eigentlich ganz normal aus",
+    "tags": [
+      "visual_search: description_of_own_approach_without_external_help"
+    ],
+    "rationale": "The speaker explicitly describes their own bilateral comparative search strategy.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_no advice_cycle_25.txt",
+      "row": 2
+    },
+    "model": "qwen/qwen3.8-27b",
+    "provider": "DekaLLM",
+    "configuration_name": "qwen3-8-27b-260814"
+  },
+  {
+    "phrase": "Die Mittellinie sieht eigentlich ganz normal aus",
+    "context": "Die Mittellinie sieht eigentlich ganz normal aus, in der Mitte, …., Knochen sehe ich auch keine Beschädigung.",
+    "tags": [
+      "indicator: no_bleeding"
+    ],
+    "rationale": "The speaker classifies the midline area as unremarkable.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_no advice_cycle_25.txt",
+      "row": 2
+    },
+    "model": "qwen/qwen3.8-27b",
+    "provider": "DekaLLM",
+    "configuration_name": "qwen3-8-27b-260814"
+  },
+  {
+    "phrase": "Knochen sehe ich auch keine Beschädigung.",
+    "context": "in der Mitte, …., Knochen sehe ich auch keine Beschädigung. Ja gut aber jetzt frontal",
+    "tags": [
+      "indicator: no_bleeding"
+    ],
+    "rationale": "The speaker classifies the bone as unremarkable.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_no advice_cycle_25.txt",
+      "row": 2
+    },
+    "model": "qwen/qwen3.8-27b",
+    "provider": "DekaLLM",
+    "configuration_name": "qwen3-8-27b-260814"
+  },
+  {
+    "phrase": "Ja gut aber jetzt frontal",
+    "context": "Knochen sehe ich auch keine Beschädigung. Ja gut aber jetzt frontal, ähm, links ist da",
+    "tags": [
+      "visual_search: description_of_medical_image_features"
+    ],
+    "rationale": "The speaker verbalizes the current image region they are checking.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_no advice_cycle_25.txt",
+      "row": 2
+    },
+    "model": "qwen/qwen3.8-27b",
+    "provider": "DekaLLM",
+    "configuration_name": "qwen3-8-27b-260814"
+  },
+  {
+    "phrase": "links ist da, ähm, hyper-",
+    "context": "Ja gut aber jetzt frontal, ähm, links ist da, ähm, hyper-, sind das CTs?",
+    "tags": [
+      "indicator: anomaly_detected"
+    ],
+    "rationale": "The speaker notices a left-sided hyperdense abnormality.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_no advice_cycle_25.txt",
+      "row": 2
+    },
+    "model": "qwen/qwen3.8-27b",
+    "provider": "DekaLLM",
+    "configuration_name": "qwen3-8-27b-260814"
+  },
+  {
+    "phrase": "sind das CTs? Jetzt gerade, ich sehe nur CTs.",
+    "context": "links ist da, ähm, hyper-, sind das CTs? Jetzt gerade, ich sehe nur CTs. Dann sage ich hyperdens",
+    "tags": [
+      "control: reflective_question"
+    ],
+    "rationale": "The speaker asks a self-directed question to verify the image modality before continuing.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_no advice_cycle_25.txt",
+      "row": 2
+    },
+    "model": "qwen/qwen3.8-27b",
+    "provider": "DekaLLM",
+    "configuration_name": "qwen3-8-27b-260814"
+  },
+  {
+    "phrase": "Dann sage ich hyperdens, ja...",
+    "context": "Jetzt gerade, ich sehe nur CTs. Dann sage ich hyperdens, ja... das ist eine Blutung.",
+    "tags": [
+      "reflection: self-monitoring"
+    ],
+    "rationale": "The speaker explicitly comments on their own diagnostic labeling process.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_no advice_cycle_25.txt",
+      "row": 2
+    },
+    "model": "qwen/qwen3.8-27b",
+    "provider": "DekaLLM",
+    "configuration_name": "qwen3-8-27b-260814"
+  },
+  {
+    "phrase": "das ist eine Blutung.",
+    "context": "Dann sage ich hyperdens, ja... das ist eine Blutung.",
+    "tags": [
+      "interpretation: bleeding"
+    ],
+    "rationale": "The speaker interprets the finding as a hemorrhage.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_no advice_cycle_25.txt",
+      "row": 2
+    },
+    "model": "qwen/qwen3.8-27b",
+    "provider": "DekaLLM",
+    "configuration_name": "qwen3-8-27b-260814"
+  },
+  {
+    "phrase": "So hier sehe ich ?",
+    "context": "… So hier sehe ich ?, also Mittellinie sieht gut aus, Schädelknochen auch.",
+    "tags": [
+      "other"
+    ],
+    "rationale": "Incomplete self-question without a clear diagnostic or procedural code.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_no advice_cycle_25.txt",
+      "row": 6
+    },
+    "model": "qwen/qwen3.8-27b",
+    "provider": "Parasail",
+    "configuration_name": "qwen3-8-27b-260814"
+  },
+  {
+    "phrase": "Mittellinie sieht gut aus, Schädelknochen auch.",
+    "context": "So hier sehe ich ?, also Mittellinie sieht gut aus, Schädelknochen auch. Hm, im Vergleich,…",
+    "tags": [
+      "indicator: no_bleeding"
+    ],
+    "rationale": "The speaker classifies the midline and skull bone as unremarkable.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_no advice_cycle_25.txt",
+      "row": 6
+    },
+    "model": "qwen/qwen3.8-27b",
+    "provider": "Parasail",
+    "configuration_name": "qwen3-8-27b-260814"
+  },
+  {
+    "phrase": "Hm, im Vergleich,… ja,…",
+    "context": "Schädelknochen auch. Hm, im Vergleich,… ja,… jetzt finde ich hier Occipital vielleicht.",
+    "tags": [
+      "paused_in_process"
+    ],
+    "rationale": "Filler words and an incomplete pause in the diagnostic process.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_no advice_cycle_25.txt",
+      "row": 6
+    },
+    "model": "qwen/qwen3.8-27b",
+    "provider": "Parasail",
+    "configuration_name": "qwen3-8-27b-260814"
+  },
+  {
+    "phrase": "jetzt finde ich hier Occipital vielleicht.",
+    "context": "Hm, im Vergleich,… ja,… jetzt finde ich hier Occipital vielleicht. Da sind ja zwei Signalerhöhungen.",
+    "tags": [
+      "visual_search: description_of_medical_image_features"
+    ],
+    "rationale": "The speaker verbalizes the anatomical region currently being checked.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_no advice_cycle_25.txt",
+      "row": 6
+    },
+    "model": "qwen/qwen3.8-27b",
+    "provider": "Parasail",
+    "configuration_name": "qwen3-8-27b-260814"
+  },
+  {
+    "phrase": "Da sind ja zwei Signalerhöhungen.",
+    "context": "jetzt finde ich hier Occipital vielleicht. Da sind ja zwei Signalerhöhungen. Bin ich mir nicht so sicher,…",
+    "tags": [
+      "indicator: anomaly_detected"
+    ],
+    "rationale": "The speaker notices abnormal signal elevations.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_no advice_cycle_25.txt",
+      "row": 6
+    },
+    "model": "qwen/qwen3.8-27b",
+    "provider": "Parasail",
+    "configuration_name": "qwen3-8-27b-260814"
+  },
+  {
+    "phrase": "Bin ich mir nicht so sicher,…",
+    "context": "Da sind ja zwei Signalerhöhungen. Bin ich mir nicht so sicher,… aber ich glaube schon dass hier eine Blutung ist.",
+    "tags": [
+      "confidence_low: concrete"
+    ],
+    "rationale": "The speaker explicitly expresses low certainty about the diagnostic interpretation.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_no advice_cycle_25.txt",
+      "row": 6
+    },
+    "model": "qwen/qwen3.8-27b",
+    "provider": "Parasail",
+    "configuration_name": "qwen3-8-27b-260814"
+  },
+  {
+    "phrase": "aber ich glaube schon dass hier eine Blutung ist.",
+    "context": "Bin ich mir nicht so sicher,… aber ich glaube schon dass hier eine Blutung ist.",
+    "tags": [
+      "interpretation: bleeding"
+    ],
+    "rationale": "The speaker interprets the finding as a hemorrhage.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_no advice_cycle_25.txt",
+      "row": 6
+    },
+    "model": "qwen/qwen3.8-27b",
+    "provider": "Parasail",
+    "configuration_name": "qwen3-8-27b-260814"
+  },
+  {
+    "phrase": "Hier sehe ich nichts.",
+    "context": "… Hier sehe ich nichts.",
+    "tags": [
+      "indicator: no_bleeding"
+    ],
+    "rationale": "The speaker classifies a specific image area as unremarkable by stating that they see nothing in it.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_no advice_cycle_25.txt",
+      "row": 16
+    },
+    "model": "qwen/qwen3.8-27b",
+    "provider": "DeepInfra",
+    "configuration_name": "qwen3-8-27b-260814"
+  },
+  {
+    "phrase": "Mhm…",
+    "context": "… Mhm… EXPERIMENTER: Kannst auch gerne sagen, was dir aufällt und warum du zu einer Entscheidung kommst.",
+    "tags": [
+      "paused_in_process"
+    ],
+    "rationale": "Pure filler sound indicating a pause.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_no advice_cycle_25.txt",
+      "row": 11
+    },
+    "model": "qwen/qwen3.8-27b",
+    "provider": "Parasail",
+    "configuration_name": "qwen3-8-27b-260814"
+  },
+  {
+    "phrase": "Ja, ähm…",
+    "context": "EXPERIMENTER: Kannst auch gerne sagen, was dir aufällt und warum du zu einer Entscheidung kommst. VPN: Ja, ähm… EXPERIMENTER: Vielleicht auch was dir fehlt, um zu sagen, dass da eine Blutung vorliegt.",
+    "tags": [
+      "paused_in_process"
+    ],
+    "rationale": "Filler-like hesitation without diagnostic content.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_no advice_cycle_25.txt",
+      "row": 11
+    },
+    "model": "qwen/qwen3.8-27b",
+    "provider": "Parasail",
+    "configuration_name": "qwen3-8-27b-260814"
+  },
+  {
+    "phrase": "Ja, ne , ich glaube bei dem Bild hier sehe ich eher links, Hyperdense Strukturen und auch mittig.",
+    "context": "VPN: Ja, ne , ich glaube bei dem Bild hier sehe ich eher links, Hyperdense Strukturen und auch mittig. Ich würde hier schon tendieren zu Blutung",
+    "tags": [
+      "indicator: anomaly_detected",
+      "confidence_low: secondary"
+    ],
+    "rationale": "The participant notices hyperdense structures in the left and middle areas, an atypical finding, while 'ich glaube' signals low certainty.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_no advice_cycle_25.txt",
+      "row": 11
+    },
+    "model": "qwen/qwen3.8-27b",
+    "provider": "Parasail",
+    "configuration_name": "qwen3-8-27b-260814"
+  },
+  {
+    "phrase": "Ich würde hier schon tendieren zu Blutung",
+    "context": "Hyperdense Strukturen und auch mittig. Ich würde hier schon tendieren zu Blutung, aber jetzt nicht Epidural oder Subdural",
+    "tags": [
+      "interpretation: bleeding",
+      "confidence_low: secondary"
+    ],
+    "rationale": "The participant interprets the finding as a hemorrhage, but 'würde ... tendieren' makes the interpretation tentative.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_no advice_cycle_25.txt",
+      "row": 11
+    },
+    "model": "qwen/qwen3.8-27b",
+    "provider": "Parasail",
+    "configuration_name": "qwen3-8-27b-260814"
+  },
+  {
+    "phrase": "aber jetzt nicht Epidural oder Subdural, sehe ich da, hm, eher nicht...",
+    "context": "Ich würde hier schon tendieren zu Blutung, aber jetzt nicht Epidural oder Subdural, sehe ich da, hm, eher nicht... Aber mhm, ja.",
+    "tags": [
+      "reflection: diagnostic_uncertainty",
+      "confidence_low: secondary"
+    ],
+    "rationale": "The participant is uncertain whether the finding corresponds to epidural or subdural bleeding, and 'eher nicht' signals low certainty.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_no advice_cycle_25.txt",
+      "row": 11
+    },
+    "model": "qwen/qwen3.8-27b",
+    "provider": "Parasail",
+    "configuration_name": "qwen3-8-27b-260814"
+  },
+  {
+    "phrase": "Aber mhm, ja.",
+    "context": "sehe ich da, hm, eher nicht... Aber mhm, ja.",
+    "tags": [
+      "paused_in_process"
+    ],
+    "rationale": "Filler-like closing utterance without clear diagnostic content.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_no advice_cycle_25.txt",
+      "row": 11
+    },
+    "model": "qwen/qwen3.8-27b",
+    "provider": "Parasail",
+    "configuration_name": "qwen3-8-27b-260814"
+  },
+  {
+    "phrase": "Okay, hmm.",
+    "context": "… Okay, hmm. Ich weiß nicht ob mir das einbilde",
+    "tags": [
+      "paused_in_process"
+    ],
+    "rationale": "The utterance consists of hesitation/filler and marks a pause in the diagnostic process.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_no advice_cycle_25.txt",
+      "row": 17
+    },
+    "model": "qwen/qwen3.8-27b",
+    "provider": "Near AI",
+    "configuration_name": "qwen3-8-27b-260814"
+  },
+  {
+    "phrase": "Ich weiß nicht ob mir das einbilde",
+    "context": "… Okay, hmm. Ich weiß nicht ob mir das einbilde, aber es sieht",
+    "tags": [
+      "reflection: perceptual_doubt"
+    ],
+    "rationale": "The person explicitly doubts whether the perceived finding is real or imagined.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_no advice_cycle_25.txt",
+      "row": 17
+    },
+    "model": "qwen/qwen3.8-27b",
+    "provider": "Near AI",
+    "configuration_name": "qwen3-8-27b-260814"
+  },
+  {
+    "phrase": "aber es sieht so aus als wären da ganz diffuse, kleine Blutungen.",
+    "context": "Ich weiß nicht ob mir das einbilde, aber es sieht so aus als wären da ganz diffuse, kleine Blutungen. Hmm….",
+    "tags": [
+      "interpretation: bleeding"
+    ],
+    "rationale": "The person interprets the visual finding as diffuse, small hemorrhages.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_no advice_cycle_25.txt",
+      "row": 17
+    },
+    "model": "qwen/qwen3.8-27b",
+    "provider": "Near AI",
+    "configuration_name": "qwen3-8-27b-260814"
+  },
+  {
+    "phrase": "Ist es richtig hier?",
+    "context": "kleine Blutungen. Hmm…. Ist es richtig hier? ... Ja",
+    "tags": [
+      "control: reflective_question"
+    ],
+    "rationale": "The person asks themselves a question to verify whether the current interpretation is correct.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_no advice_cycle_25.txt",
+      "row": 17
+    },
+    "model": "qwen/qwen3.8-27b",
+    "provider": "Near AI",
+    "configuration_name": "qwen3-8-27b-260814"
+  },
+  {
+    "phrase": "Ja ich bin mir nicht so sicher, aber ich glaub schon.",
+    "context": "Ist es richtig hier? ... Ja ich bin mir nicht so sicher, aber ich glaub schon.",
+    "tags": [
+      "confidence_low: concrete"
+    ],
+    "rationale": "The person explicitly states that they are not very sure about the interpretation.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_no advice_cycle_25.txt",
+      "row": 17
+    },
+    "model": "qwen/qwen3.8-27b",
+    "provider": "Near AI",
+    "configuration_name": "qwen3-8-27b-260814"
+  },
+  {
+    "phrase": "Ich hab das Gefühl, ich sehe es nur, wenn es richtig deutlich ist.",
+    "context": "...Ich hab das Gefühl, ich sehe es nur, wenn es richtig deutlich ist. Irgendwie sehe ich schon wieder nichts…. ?",
+    "tags": [
+      "reflection: self-monitoring"
+    ],
+    "rationale": "The speaker explicitly comments on their own perceptual process during the diagnostic task, noting that they only detect something when it is clearly visible.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_no advice_cycle_25.txt",
+      "row": 9
+    },
+    "model": "qwen/qwen3.8-27b",
+    "provider": "DeepInfra",
+    "configuration_name": "qwen3-8-27b-260814"
+  },
+  {
+    "phrase": "Irgendwie sehe ich schon wieder nichts…. ?",
+    "context": "...Ich hab das Gefühl, ich sehe es nur, wenn es richtig deutlich ist. Irgendwie sehe ich schon wieder nichts…. ?",
+    "tags": [
+      "reflection: perceptual_doubt"
+    ],
+    "rationale": "The speaker expresses uncertainty about their own perception by stating that they are again not seeing anything.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_no advice_cycle_25.txt",
+      "row": 9
+    },
+    "model": "qwen/qwen3.8-27b",
+    "provider": "DeepInfra",
+    "configuration_name": "qwen3-8-27b-260814"
+  },
+  {
+    "phrase": "Gut, dann kannst du gerne anfangen, benutzt gerne Fachbegriffe, einfach drauf losreden, was für dich interessant ist, was auffällt.",
+    "context": "EXPERIMENTER: Gut, dann kannst du gerne anfangen, benutzt gerne Fachbegriffe, einfach drauf losreden, was für dich interessant ist, was auffällt. VPN: Okay.",
+    "tags": [
+      "other"
+    ],
+    "rationale": "Experimenter instruction with no diagnostic content.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_no advice_cycle_25.txt",
+      "row": 0
+    },
+    "model": "qwen/qwen3.8-27b",
+    "provider": "DekaLLM",
+    "configuration_name": "qwen3-8-27b-260814"
+  },
+  {
+    "phrase": "Okay.",
+    "context": "VPN: Okay. EXPERIMENTER: Also, du hast jetzt circa eine Stunde Zeit",
+    "tags": [
+      "paused_in_process"
+    ],
+    "rationale": "Short filler acknowledgment.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_no advice_cycle_25.txt",
+      "row": 0
+    },
+    "model": "qwen/qwen3.8-27b",
+    "provider": "DekaLLM",
+    "configuration_name": "qwen3-8-27b-260814"
+  },
+  {
+    "phrase": "Also, du hast jetzt circa eine Stunde Zeit, um diese 50 Fälle zu bearbeiten. Da oben siehst du halt den Fortschritt, du siehst oben den Fortschritt genau, und dann habe ich zum Abschluss noch mal ein paar Fragen an dich.",
+    "context": "EXPERIMENTER: Also, du hast jetzt circa eine Stunde Zeit, um diese 50 Fälle zu bearbeiten. Da oben siehst du halt den Fortschritt, du siehst oben den Fortschritt genau, und dann habe ich zum Abschluss noch mal ein paar Fragen an dich. VPN: Okay, ähm...",
+    "tags": [
+      "other"
+    ],
+    "rationale": "Task instruction from the experimenter, not a diagnostic process code.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_no advice_cycle_25.txt",
+      "row": 0
+    },
+    "model": "qwen/qwen3.8-27b",
+    "provider": "DekaLLM",
+    "configuration_name": "qwen3-8-27b-260814"
+  },
+  {
+    "phrase": "Okay, ähm...",
+    "context": "VPN: Okay, ähm..., also, was ich sehe, ist, dass da eine Mittellinienverlagerung nach rechts",
+    "tags": [
+      "paused_in_process"
+    ],
+    "rationale": "Filler words before the substantive observation.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_no advice_cycle_25.txt",
+      "row": 0
+    },
+    "model": "qwen/qwen3.8-27b",
+    "provider": "DekaLLM",
+    "configuration_name": "qwen3-8-27b-260814"
+  },
+  {
+    "phrase": "also, was ich sehe, ist, dass da eine Mittellinienverlagerung nach rechts, ... und generell ... einen Unterschied in den temporalen Lappen von rechts und links.",
+    "context": "VPN: Okay, ähm..., also, was ich sehe, ist, dass da eine Mittellinienverlagerung nach rechts, ... und generell ... einen Unterschied in den temporalen Lappen von rechts und links. Also was soll ich jetzt hier antworten?",
+    "tags": [
+      "indicator: anomaly_detected"
+    ],
+    "rationale": "Notices midline shift and temporal-lobe asymmetry as abnormal findings.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_no advice_cycle_25.txt",
+      "row": 0
+    },
+    "model": "qwen/qwen3.8-27b",
+    "provider": "DekaLLM",
+    "configuration_name": "qwen3-8-27b-260814"
+  },
+  {
+    "phrase": "Also was soll ich jetzt hier antworten? Ob das eine Blutung ist oder nicht?",
+    "context": "temporalen Lappen von rechts und links. Also was soll ich jetzt hier antworten? Ob das eine Blutung ist oder nicht? EXPERIMENTER: Genau, ob eine Intrakranielle Blutung vorliegt",
+    "tags": [
+      "reflection: diagnostic_uncertainty"
+    ],
+    "rationale": "Expresses uncertainty about whether the finding represents a hemorrhage.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_no advice_cycle_25.txt",
+      "row": 0
+    },
+    "model": "qwen/qwen3.8-27b",
+    "provider": "DekaLLM",
+    "configuration_name": "qwen3-8-27b-260814"
+  },
+  {
+    "phrase": "Genau, ob eine Intrakranielle Blutung vorliegt, ja oder nein. Also du hast halt unten ja oder nein, und dann hast du daneben noch mal die Frage, wie sicher du dir bei deiner Entscheidung. Da sollst du dich auch nocheinmal einschätzen.",
+    "context": "EXPERIMENTER: Genau, ob eine Intrakranielle Blutung vorliegt, ja oder nein. Also du hast halt unten ja oder nein, und dann hast du daneben noch mal die Frage, wie sicher du dir bei deiner Entscheidung. Da sollst du dich auch nocheinmal einschätzen. VPN: Ok,...",
+    "tags": [
+      "other"
+    ],
+    "rationale": "Experimenter clarifies the response task.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_no advice_cycle_25.txt",
+      "row": 0
+    },
+    "model": "qwen/qwen3.8-27b",
+    "provider": "DekaLLM",
+    "configuration_name": "qwen3-8-27b-260814"
+  },
+  {
+    "phrase": "Ok,...",
+    "context": "VPN: Ok,... ich sehe von außen irgendwie,...",
+    "tags": [
+      "paused_in_process"
+    ],
+    "rationale": "Filler word.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_no advice_cycle_25.txt",
+      "row": 0
+    },
+    "model": "qwen/qwen3.8-27b",
+    "provider": "DekaLLM",
+    "configuration_name": "qwen3-8-27b-260814"
+  },
+  {
+    "phrase": "ich sehe von außen irgendwie,...",
+    "context": "Ok,... ich sehe von außen irgendwie,... Moment..., ich guck mal",
+    "tags": [
+      "visual_search: description_of_medical_image_features"
+    ],
+    "rationale": "Verbalizes current visual focus on the external view.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_no advice_cycle_25.txt",
+      "row": 0
+    },
+    "model": "qwen/qwen3.8-27b",
+    "provider": "DekaLLM",
+    "configuration_name": "qwen3-8-27b-260814"
+  },
+  {
+    "phrase": "Moment...",
+    "context": "ich sehe von außen irgendwie,... Moment..., ich guck mal",
+    "tags": [
+      "paused_in_process"
+    ],
+    "rationale": "Filler word indicating a pause.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_no advice_cycle_25.txt",
+      "row": 0
+    },
+    "model": "qwen/qwen3.8-27b",
+    "provider": "DekaLLM",
+    "configuration_name": "qwen3-8-27b-260814"
+  },
+  {
+    "phrase": "ich guck mal, ob ich irgendwelche Knochenschädigungen sehe, erstmal.",
+    "context": "Moment..., ich guck mal, ob ich irgendwelche Knochenschädigungen sehe, erstmal. Ähm...",
+    "tags": [
+      "visual_search: description_of_own_approach_without_external_help"
+    ],
+    "rationale": "Explicitly states the self-directed search for bone damage.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_no advice_cycle_25.txt",
+      "row": 0
+    },
+    "model": "qwen/qwen3.8-27b",
+    "provider": "DekaLLM",
+    "configuration_name": "qwen3-8-27b-260814"
+  },
+  {
+    "phrase": "Ähm...",
+    "context": "ich guck mal, ob ich irgendwelche Knochenschädigungen sehe, erstmal. Ähm..., also im Schädel...",
+    "tags": [
+      "paused_in_process"
+    ],
+    "rationale": "Filler word.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_no advice_cycle_25.txt",
+      "row": 0
+    },
+    "model": "qwen/qwen3.8-27b",
+    "provider": "DekaLLM",
+    "configuration_name": "qwen3-8-27b-260814"
+  },
+  {
+    "phrase": "also im Schädel..., irgendwie sehe ich das, glaube ich nicht.",
+    "context": "Ähm..., also im Schädel..., irgendwie sehe ich das, glaube ich nicht. Ich probiere beidseitig zu schauen",
+    "tags": [
+      "indicator: no_bleeding",
+      "confidence_low: secondary"
+    ],
+    "rationale": "Classifies the skull area as unremarkable while implicitly expressing low certainty.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_no advice_cycle_25.txt",
+      "row": 0
+    },
+    "model": "qwen/qwen3.8-27b",
+    "provider": "DekaLLM",
+    "configuration_name": "qwen3-8-27b-260814"
+  },
+  {
+    "phrase": "Ich probiere beidseitig zu schauen, also nach Unterschieden.",
+    "context": "glaube ich nicht. Ich probiere beidseitig zu schauen, also nach Unterschieden. Hmm, im Vergleich...",
+    "tags": [
+      "visual_search: description_of_own_approach_without_external_help"
+    ],
+    "rationale": "Comments on using bilateral comparison as a search strategy.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_no advice_cycle_25.txt",
+      "row": 0
+    },
+    "model": "qwen/qwen3.8-27b",
+    "provider": "DekaLLM",
+    "configuration_name": "qwen3-8-27b-260814"
+  },
+  {
+    "phrase": "Hmm, im Vergleich... sehe ich nicht,",
+    "context": "Ich probiere beidseitig zu schauen, also nach Unterschieden. Hmm, im Vergleich... sehe ich nicht, aber ich find das Parenchym",
+    "tags": [
+      "indicator: no_bleeding"
+    ],
+    "rationale": "Classifies the compared area as unremarkable.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_no advice_cycle_25.txt",
+      "row": 0
+    },
+    "model": "qwen/qwen3.8-27b",
+    "provider": "DekaLLM",
+    "configuration_name": "qwen3-8-27b-260814"
+  },
+  {
+    "phrase": "aber ich find das Parenchym, irgendwie unterschiedlich von rechts und links,",
+    "context": "Hmm, im Vergleich... sehe ich nicht, aber ich find das Parenchym, irgendwie unterschiedlich von rechts und links, aber da habe ich jetzt nicht so die Erfahrung.",
+    "tags": [
+      "indicator: anomaly_detected"
+    ],
+    "rationale": "Notices parenchymal asymmetry as an abnormality.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_no advice_cycle_25.txt",
+      "row": 0
+    },
+    "model": "qwen/qwen3.8-27b",
+    "provider": "DekaLLM",
+    "configuration_name": "qwen3-8-27b-260814"
+  },
+  {
+    "phrase": "aber da habe ich jetzt nicht so die Erfahrung.",
+    "context": "irgendwie unterschiedlich von rechts und links, aber da habe ich jetzt nicht so die Erfahrung. Ich finde diese Mittellinienverlagerung irgendwie komisch.",
+    "tags": [
+      "reflection: experience_limitation"
+    ],
+    "rationale": "Refers to own limited experience with this finding.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_no advice_cycle_25.txt",
+      "row": 0
+    },
+    "model": "qwen/qwen3.8-27b",
+    "provider": "DekaLLM",
+    "configuration_name": "qwen3-8-27b-260814"
+  },
+  {
+    "phrase": "Ich finde diese Mittellinienverlagerung irgendwie komisch.",
+    "context": "aber da habe ich jetzt nicht so die Erfahrung. Ich finde diese Mittellinienverlagerung irgendwie komisch. Also ich würde sagen ja,",
+    "tags": [
+      "indicator: anomaly_detected"
+    ],
+    "rationale": "Perceives the midline shift as abnormal.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_no advice_cycle_25.txt",
+      "row": 0
+    },
+    "model": "qwen/qwen3.8-27b",
+    "provider": "DekaLLM",
+    "configuration_name": "qwen3-8-27b-260814"
+  },
+  {
+    "phrase": "Also ich würde sagen ja,",
+    "context": "Ich finde diese Mittellinienverlagerung irgendwie komisch. Also ich würde sagen ja, aber ich sehe jetzt keine sichelförmigen Muster",
+    "tags": [
+      "interpretation: bleeding"
+    ],
+    "rationale": "In context, 'ja' answers the question about intracranial bleeding.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_no advice_cycle_25.txt",
+      "row": 0
+    },
+    "model": "qwen/qwen3.8-27b",
+    "provider": "DekaLLM",
+    "configuration_name": "qwen3-8-27b-260814"
+  },
+  {
+    "phrase": "aber ich sehe jetzt keine sichelförmigen Muster oder auch nicht konvex, also Epidural, Subdural Blutungen, sehe ich jetzt nicht,",
+    "context": "Also ich würde sagen ja, aber ich sehe jetzt keine sichelförmigen Muster oder auch nicht konvex, also Epidural, Subdural Blutungen, sehe ich jetzt nicht, deswegen bin ich mir unsicher.",
+    "tags": [
+      "interpretation: no_bleeding"
+    ],
+    "rationale": "Interprets absence of typical patterns as no epidural or subdural hemorrhage.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_no advice_cycle_25.txt",
+      "row": 0
+    },
+    "model": "qwen/qwen3.8-27b",
+    "provider": "DekaLLM",
+    "configuration_name": "qwen3-8-27b-260814"
+  },
+  {
+    "phrase": "deswegen bin ich mir unsicher.",
+    "context": "Subdural Blutungen, sehe ich jetzt nicht, deswegen bin ich mir unsicher. Aber könnte ja intraaxialer Bereich? sein.",
+    "tags": [
+      "confidence_low: concrete"
+    ],
+    "rationale": "Explicitly states low certainty.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_no advice_cycle_25.txt",
+      "row": 0
+    },
+    "model": "qwen/qwen3.8-27b",
+    "provider": "DekaLLM",
+    "configuration_name": "qwen3-8-27b-260814"
+  },
+  {
+    "phrase": "Aber könnte ja intraaxialer Bereich? sein.",
+    "context": "deswegen bin ich mir unsicher. Aber könnte ja intraaxialer Bereich? sein. Also ich bin sehr unsicher,",
+    "tags": [
+      "interpretation: bleeding_localization_unclear"
+    ],
+    "rationale": "Considers a possible intraaxial location while the exact hemorrhage location remains unclear.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_no advice_cycle_25.txt",
+      "row": 0
+    },
+    "model": "qwen/qwen3.8-27b",
+    "provider": "DekaLLM",
+    "configuration_name": "qwen3-8-27b-260814"
+  },
+  {
+    "phrase": "Also ich bin sehr unsicher,",
+    "context": "Aber könnte ja intraaxialer Bereich? sein. Also ich bin sehr unsicher, aber ich würde hier trotzdem ja sagen,",
+    "tags": [
+      "confidence_low: concrete"
+    ],
+    "rationale": "Explicitly states strong uncertainty.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_no advice_cycle_25.txt",
+      "row": 0
+    },
+    "model": "qwen/qwen3.8-27b",
+    "provider": "DekaLLM",
+    "configuration_name": "qwen3-8-27b-260814"
+  },
+  {
+    "phrase": "aber ich würde hier trotzdem ja sagen,",
+    "context": "Also ich bin sehr unsicher, aber ich würde hier trotzdem ja sagen, einfach wegen der Mittellinienverlagerung.",
+    "tags": [
+      "interpretation: bleeding"
+    ],
+    "rationale": "Still answers yes to the presence of bleeding.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_no advice_cycle_25.txt",
+      "row": 0
+    },
+    "model": "qwen/qwen3.8-27b",
+    "provider": "DekaLLM",
+    "configuration_name": "qwen3-8-27b-260814"
+  },
+  {
+    "phrase": "einfach wegen der Mittellinienverlagerung.",
+    "context": "aber ich würde hier trotzdem ja sagen, einfach wegen der Mittellinienverlagerung. Aber ja, ich bin gar nicht sicher.",
+    "tags": [
+      "reasoning: conclusion_findings"
+    ],
+    "rationale": "Bases the conclusion on the observed midline shift.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_no advice_cycle_25.txt",
+      "row": 0
+    },
+    "model": "qwen/qwen3.8-27b",
+    "provider": "DekaLLM",
+    "configuration_name": "qwen3-8-27b-260814"
+  },
+  {
+    "phrase": "Aber ja, ich bin gar nicht sicher.",
+    "context": "einfach wegen der Mittellinienverlagerung. Aber ja, ich bin gar nicht sicher.",
+    "tags": [
+      "confidence_low: concrete"
+    ],
+    "rationale": "Explicitly states low certainty.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_no advice_cycle_25.txt",
+      "row": 0
+    },
+    "model": "qwen/qwen3.8-27b",
+    "provider": "DekaLLM",
+    "configuration_name": "qwen3-8-27b-260814"
+  },
+  {
+    "phrase": "Hier sieht der Schädel noch intakt aus, die Mittellinie in der Mitte.",
+    "context": "… Hier sieht der Schädel noch intakt aus, die Mittellinie in der Mitte.",
+    "tags": [
+      "indicator: no_bleeding"
+    ],
+    "rationale": "The speaker classifies the skull and midline as intact/normal, i.e., an unremarkable image area.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_no advice_cycle_25.txt",
+      "row": 18
+    },
+    "model": "qwen/qwen3.8-27b",
+    "provider": "Reka",
+    "configuration_name": "qwen3-8-27b-260814"
+  },
+  {
+    "phrase": "Im Parenchym sehe ich nichts besonderes…",
+    "context": "Im Parenchym sehe ich nichts besonderes…",
+    "tags": [
+      "indicator: no_bleeding"
+    ],
+    "rationale": "The speaker classifies the parenchyma as unremarkable by stating that nothing special is seen.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_no advice_cycle_25.txt",
+      "row": 18
+    },
+    "model": "qwen/qwen3.8-27b",
+    "provider": "Reka",
+    "configuration_name": "qwen3-8-27b-260814"
+  },
+  {
+    "phrase": "… Hmm.",
+    "context": "… Hmm. Hier sehe ich wieder",
+    "tags": [
+      "paused_in_process"
+    ],
+    "rationale": "The segment is a pure filler utterance without diagnostic content.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_no advice_cycle_25.txt",
+      "row": 22
+    },
+    "model": "qwen/qwen3.8-27b",
+    "provider": "DekaLLM",
+    "configuration_name": "qwen3-8-27b-260814"
+  },
+  {
+    "phrase": "Hier sehe ich wieder, linksseitig sieht es nach einer Einengung vom Ventrikel aus, und im Unterschied zu der Gegenseite.",
+    "context": "… Hmm. Hier sehe ich wieder, linksseitig sieht es nach einer Einengung vom Ventrikel aus, und im Unterschied zu der Gegenseite. Hmm…",
+    "tags": [
+      "indicator: anomaly_detected"
+    ],
+    "rationale": "The speaker notices a left-sided ventricular compression as an abnormal finding compared with the contralateral side.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_no advice_cycle_25.txt",
+      "row": 22
+    },
+    "model": "qwen/qwen3.8-27b",
+    "provider": "DekaLLM",
+    "configuration_name": "qwen3-8-27b-260814"
+  },
+  {
+    "phrase": "Hmm…",
+    "context": "Gegenseite. Hmm… Und die Mittellinienverlagerung",
+    "tags": [
+      "paused_in_process"
+    ],
+    "rationale": "This is a pure filler pause.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_no advice_cycle_25.txt",
+      "row": 22
+    },
+    "model": "qwen/qwen3.8-27b",
+    "provider": "DekaLLM",
+    "configuration_name": "qwen3-8-27b-260814"
+  },
+  {
+    "phrase": "Und die Mittellinienverlagerung auch nach rechts.",
+    "context": "Hmm… Und die Mittellinienverlagerung auch nach rechts. Hm,",
+    "tags": [
+      "indicator: anomaly_detected"
+    ],
+    "rationale": "The speaker identifies a rightward midline shift as another abnormal finding.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_no advice_cycle_25.txt",
+      "row": 22
+    },
+    "model": "qwen/qwen3.8-27b",
+    "provider": "DekaLLM",
+    "configuration_name": "qwen3-8-27b-260814"
+  },
+  {
+    "phrase": "Hm, ich glaub schon, dass da eine Blutung ist.",
+    "context": "rechts. Hm, ich glaub schon, dass da eine Blutung ist.",
+    "tags": [
+      "interpretation: bleeding"
+    ],
+    "rationale": "The speaker explicitly interprets the findings as a hemorrhage.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_no advice_cycle_25.txt",
+      "row": 22
+    },
+    "model": "qwen/qwen3.8-27b",
+    "provider": "DekaLLM",
+    "configuration_name": "qwen3-8-27b-260814"
+  },
+  {
+    "phrase": "Ich glaube, hier auch.",
+    "context": "… Ich glaube, hier auch.",
+    "tags": [
+      "confidence_low: secondary"
+    ],
+    "rationale": "The expression 'Ich glaube' implicitly signals reduced certainty about the indicated finding.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_no advice_cycle_25.txt",
+      "row": 23
+    },
+    "model": "qwen/qwen3.8-27b",
+    "provider": "Modal",
+    "configuration_name": "qwen3-8-27b-260814"
+  },
+  {
+    "phrase": "ja hier, glaub ich, links parietal, seh ich da was",
+    "context": "… Hmm, ja hier, glaub ich, links parietal, seh ich da was… Hmm",
+    "tags": [
+      "indicator: anomaly_detected",
+      "confidence_low: secondary"
+    ],
+    "rationale": "The speaker points to the left parietal area and uncertainly notices something there, indicating a detected abnormality with low certainty.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_no advice_cycle_25.txt",
+      "row": 14
+    },
+    "model": "qwen/qwen3.8-27b",
+    "provider": "Near AI",
+    "configuration_name": "qwen3-8-27b-260814"
+  },
+  {
+    "phrase": "eher glaube ich, konvex deswegen vielleicht eine kleine Durale Blutung",
+    "context": "was… Hmm…, eher glaube ich, konvex deswegen vielleicht eine kleine Durale Blutung… Aber",
+    "tags": [
+      "interpretation: bleeding",
+      "confidence_low: secondary"
+    ],
+    "rationale": "The speaker interprets the finding as a small dural hemorrhage, using hedging terms that show low certainty.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_no advice_cycle_25.txt",
+      "row": 14
+    },
+    "model": "qwen/qwen3.8-27b",
+    "provider": "Near AI",
+    "configuration_name": "qwen3-8-27b-260814"
+  },
+  {
+    "phrase": "Aber doch ich glaube schon. Doch ich glaube schon.",
+    "context": "Blutung… Aber doch ich glaube schon. Doch ich glaube schon. Sieht",
+    "tags": [
+      "reflection: self-affirmation"
+    ],
+    "rationale": "The speaker reaffirms their own judgment after initial hesitation.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_no advice_cycle_25.txt",
+      "row": 14
+    },
+    "model": "qwen/qwen3.8-27b",
+    "provider": "Near AI",
+    "configuration_name": "qwen3-8-27b-260814"
+  },
+  {
+    "phrase": "Sieht so aus würden die Gyri nach rechts gedrückt werden.",
+    "context": "Doch ich glaube schon. Sieht so aus würden die Gyri nach rechts gedrückt werden. Ich",
+    "tags": [
+      "interpretation: description_bleeding"
+    ],
+    "rationale": "The speaker describes a mass effect associated with the already identified bleeding.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_no advice_cycle_25.txt",
+      "row": 14
+    },
+    "model": "qwen/qwen3.8-27b",
+    "provider": "Near AI",
+    "configuration_name": "qwen3-8-27b-260814"
+  },
+  {
+    "phrase": "Ich glaub ja.",
+    "context": "gedrückt werden. Ich glaub ja.",
+    "tags": [
+      "reflection: self-affirmation"
+    ],
+    "rationale": "The speaker reaffirms their interpretation.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_no advice_cycle_25.txt",
+      "row": 14
+    },
+    "model": "qwen/qwen3.8-27b",
+    "provider": "Near AI",
+    "configuration_name": "qwen3-8-27b-260814"
+  },
+  {
+    "phrase": "Hm...",
+    "context": "… Hm...Hier",
+    "tags": [
+      "paused_in_process"
+    ],
+    "rationale": "The utterance is a filler sound indicating a pause.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_no advice_cycle_25.txt",
+      "row": 24
+    },
+    "model": "qwen/qwen3.8-27b",
+    "provider": "Modal",
+    "configuration_name": "qwen3-8-27b-260814"
+  },
+  {
+    "phrase": "Hier bin ich mir nicht so sicher.",
+    "context": "Hm...Hier bin ich mir nicht so sicher. Ich habe",
+    "tags": [
+      "confidence_low: concrete"
+    ],
+    "rationale": "The speaker explicitly states low certainty about the current diagnostic impression.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_no advice_cycle_25.txt",
+      "row": 24
+    },
+    "model": "qwen/qwen3.8-27b",
+    "provider": "Modal",
+    "configuration_name": "qwen3-8-27b-260814"
+  },
+  {
+    "phrase": "Ich habe das Gefühl was zu sehen, aber ich bin nicht so sicher.",
+    "context": "Ich habe das Gefühl was zu sehen, aber ich bin nicht so sicher.",
+    "tags": [
+      "confidence_low: concrete"
+    ],
+    "rationale": "The speaker explicitly expresses uncertainty despite a vague perceptual impression.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_no advice_cycle_25.txt",
+      "row": 24
+    },
+    "model": "qwen/qwen3.8-27b",
+    "provider": "Modal",
+    "configuration_name": "qwen3-8-27b-260814"
+  },
+  {
+    "phrase": "Ähm",
+    "context": "…Ähm, hier rechts ist eine Hyperdense Struktur.",
+    "tags": [
+      "paused_in_process"
+    ],
+    "rationale": "Pure filler word at the start of the utterance.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_no advice_cycle_25.txt",
+      "row": 13
+    },
+    "model": "qwen/qwen3.8-27b",
+    "provider": "AkashML",
+    "configuration_name": "qwen3-8-27b-260814"
+  },
+  {
+    "phrase": "hier rechts ist eine Hyperdense Struktur.",
+    "context": "…Ähm, hier rechts ist eine Hyperdense Struktur. Und…",
+    "tags": [
+      "indicator: anomaly_detected"
+    ],
+    "rationale": "The speaker notices a hyperdense structure as an abnormal finding.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_no advice_cycle_25.txt",
+      "row": 13
+    },
+    "model": "qwen/qwen3.8-27b",
+    "provider": "AkashML",
+    "configuration_name": "qwen3-8-27b-260814"
+  },
+  {
+    "phrase": "Und…",
+    "context": "Struktur. Und… ich bin mir aber unsicher",
+    "tags": [
+      "paused_in_process"
+    ],
+    "rationale": "Filler word indicating a pause in the thought process.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_no advice_cycle_25.txt",
+      "row": 13
+    },
+    "model": "qwen/qwen3.8-27b",
+    "provider": "AkashML",
+    "configuration_name": "qwen3-8-27b-260814"
+  },
+  {
+    "phrase": "ich bin mir aber unsicher",
+    "context": "Und… ich bin mir aber unsicher, ob das schon im Knochen ist",
+    "tags": [
+      "confidence_low: concrete"
+    ],
+    "rationale": "Explicit expression of low certainty about the finding.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_no advice_cycle_25.txt",
+      "row": 13
+    },
+    "model": "qwen/qwen3.8-27b",
+    "provider": "AkashML",
+    "configuration_name": "qwen3-8-27b-260814"
+  },
+  {
+    "phrase": "ob das schon im Knochen ist",
+    "context": "ich bin mir aber unsicher, ob das schon im Knochen ist, gerade schon was man sieht.",
+    "tags": [
+      "reasoning: alternative_medical_structure"
+    ],
+    "rationale": "The speaker considers whether the finding is located in bone.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_no advice_cycle_25.txt",
+      "row": 13
+    },
+    "model": "qwen/qwen3.8-27b",
+    "provider": "AkashML",
+    "configuration_name": "qwen3-8-27b-260814"
+  },
+  {
+    "phrase": "gerade schon was man sieht",
+    "context": "ob das schon im Knochen ist, gerade schon was man sieht. Könnte sein.",
+    "tags": [
+      "other"
+    ],
+    "rationale": "Vague comment on the current visual appearance without a clear diagnostic code.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_no advice_cycle_25.txt",
+      "row": 13
+    },
+    "model": "qwen/qwen3.8-27b",
+    "provider": "AkashML",
+    "configuration_name": "qwen3-8-27b-260814"
+  },
+  {
+    "phrase": "Könnte sein.",
+    "context": "gerade schon was man sieht. Könnte sein. Da bin ich mir jetzt grade sicher, unsicher.",
+    "tags": [
+      "confidence_low: secondary"
+    ],
+    "rationale": "Implicit low certainty expressed by 'could be'.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_no advice_cycle_25.txt",
+      "row": 13
+    },
+    "model": "qwen/qwen3.8-27b",
+    "provider": "AkashML",
+    "configuration_name": "qwen3-8-27b-260814"
+  },
+  {
+    "phrase": "Da bin ich mir jetzt grade sicher, unsicher.",
+    "context": "Könnte sein. Da bin ich mir jetzt grade sicher, unsicher. Ist einfach nur der Schnitt gerade.",
+    "tags": [
+      "reflection: self-correction",
+      "confidence_low: concrete"
+    ],
+    "rationale": "The speaker corrects initial certainty into explicit uncertainty.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_no advice_cycle_25.txt",
+      "row": 13
+    },
+    "model": "qwen/qwen3.8-27b",
+    "provider": "AkashML",
+    "configuration_name": "qwen3-8-27b-260814"
+  },
+  {
+    "phrase": "Ist einfach nur der Schnitt gerade.",
+    "context": "Da bin ich mir jetzt grade sicher, unsicher. Ist einfach nur der Schnitt gerade. Und das Artefakt",
+    "tags": [
+      "other"
+    ],
+    "rationale": "Comment on the current slice without a clear assigned diagnostic or reasoning code.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_no advice_cycle_25.txt",
+      "row": 13
+    },
+    "model": "qwen/qwen3.8-27b",
+    "provider": "AkashML",
+    "configuration_name": "qwen3-8-27b-260814"
+  },
+  {
+    "phrase": "Und das Artefakt für mich dann... quasi, da ist so ein großer Fleck, könnte gut sein...",
+    "context": "Ist einfach nur der Schnitt gerade. Und das Artefakt für mich dann... quasi, da ist so ein großer Fleck, könnte gut sein... Deswegen",
+    "tags": [
+      "reasoning: artifact",
+      "confidence_low: secondary"
+    ],
+    "rationale": "The speaker attributes the finding to an artifact and expresses implicit uncertainty.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_no advice_cycle_25.txt",
+      "row": 13
+    },
+    "model": "qwen/qwen3.8-27b",
+    "provider": "AkashML",
+    "configuration_name": "qwen3-8-27b-260814"
+  },
+  {
+    "phrase": "Deswegen würd ich hier sagen eher nein",
+    "context": "könnte gut sein... Deswegen würd ich hier sagen eher nein, bin ich mir aber nicht so sicher",
+    "tags": [
+      "interpretation: no_bleeding",
+      "confidence_low: secondary"
+    ],
+    "rationale": "The speaker concludes 'rather no' for hemorrhage, with implicit low certainty.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_no advice_cycle_25.txt",
+      "row": 13
+    },
+    "model": "qwen/qwen3.8-27b",
+    "provider": "AkashML",
+    "configuration_name": "qwen3-8-27b-260814"
+  },
+  {
+    "phrase": "bin ich mir aber nicht so sicher, eigentlich.",
+    "context": "Deswegen würd ich hier sagen eher nein, bin ich mir aber nicht so sicher, eigentlich.",
+    "tags": [
+      "confidence_low: concrete"
+    ],
+    "rationale": "Explicit expression of remaining uncertainty about the conclusion.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_no advice_cycle_25.txt",
+      "row": 13
+    },
+    "model": "qwen/qwen3.8-27b",
+    "provider": "AkashML",
+    "configuration_name": "qwen3-8-27b-260814"
+  },
+  {
+    "phrase": "Hmm…",
+    "context": "...Hmm… Hier sehe ich auch nichts….",
+    "tags": [
+      "paused_in_process"
+    ],
+    "rationale": "The utterance is a filler pause without a clear diagnostic content.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_no advice_cycle_25.txt",
+      "row": 19
+    },
+    "model": "qwen/qwen3.8-27b",
+    "provider": "Reka",
+    "configuration_name": "qwen3-8-27b-260814"
+  },
+  {
+    "phrase": "Hier sehe ich auch nichts….",
+    "context": "Hier sehe ich auch nichts…. Ich habe das Gefühl, ich sehe generell nichts.",
+    "tags": [
+      "indicator: no_bleeding"
+    ],
+    "rationale": "The speaker classifies the current image area as unremarkable by saying they see nothing there.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_no advice_cycle_25.txt",
+      "row": 19
+    },
+    "model": "qwen/qwen3.8-27b",
+    "provider": "Reka",
+    "configuration_name": "qwen3-8-27b-260814"
+  },
+  {
+    "phrase": "Ich habe das Gefühl, ich sehe generell nichts.",
+    "context": "Hier sehe ich auch nichts…. Ich habe das Gefühl, ich sehe generell nichts. Auch wenn",
+    "tags": [
+      "reflection: perceptual_doubt"
+    ],
+    "rationale": "The speaker doubts their own perception by stating they generally see nothing.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_no advice_cycle_25.txt",
+      "row": 19
+    },
+    "model": "qwen/qwen3.8-27b",
+    "provider": "Reka",
+    "configuration_name": "qwen3-8-27b-260814"
+  },
+  {
+    "phrase": "Auch wenn, dass das… Hmm… Hm, das ist nicht.",
+    "context": "Ich habe das Gefühl, ich sehe generell nichts. Auch wenn, dass das… Hmm… Hm, das ist nicht.",
+    "tags": [
+      "paused_in_process"
+    ],
+    "rationale": "The segment consists of filler words and an incomplete sentence, indicating a pause in the process.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_no advice_cycle_25.txt",
+      "row": 19
+    },
+    "model": "qwen/qwen3.8-27b",
+    "provider": "Reka",
+    "configuration_name": "qwen3-8-27b-260814"
+  },
+  {
+    "phrase": "Ich glaub, hier ist es eher alles symmetrisch.",
+    "context": "… Ich glaub, hier ist es eher alles symmetrisch. Ich sehe nichts besonderes.",
+    "tags": [
+      "indicator: no_bleeding",
+      "confidence_low: secondary"
+    ],
+    "rationale": "The speaker classifies the current image area as unremarkable by noting symmetry; 'glaub' and 'eher' implicitly lower certainty.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_no advice_cycle_25.txt",
+      "row": 25
+    },
+    "model": "qwen/qwen3.8-27b",
+    "provider": "Parasail",
+    "configuration_name": "qwen3-8-27b-260814"
+  },
+  {
+    "phrase": "Ich sehe nichts besonderes.",
+    "context": "… Ich glaub, hier ist es eher alles symmetrisch. Ich sehe nichts besonderes.",
+    "tags": [
+      "interpretation: no_bleeding"
+    ],
+    "rationale": "The speaker interprets the absence of special findings as no hemorrhage.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_no advice_cycle_25.txt",
+      "row": 25
+    },
+    "model": "qwen/qwen3.8-27b",
+    "provider": "Parasail",
+    "configuration_name": "qwen3-8-27b-260814"
+  },
+  {
+    "phrase": "Das kann ich nicht so gut beurteilen.",
+    "context": "… Das kann ich nicht so gut beurteilen.",
+    "tags": [
+      "reflection: experience_limitation"
+    ],
+    "rationale": "The speaker explicitly states their inability to judge or assess the situation well, which reflects a self-assessed limitation in their capability or experience.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_no advice_cycle_25.txt",
+      "row": 27
+    },
+    "model": "qwen/qwen3.8-27b",
+    "provider": "Alibaba",
+    "configuration_name": "qwen3-8-27b-260814"
+  },
+  {
+    "phrase": "Ah ich muss jetzt zugeben",
+    "context": "… Ah ich muss jetzt zugeben, ich sehe jetzt gerade, dass man Diagnosen da oben",
+    "tags": [
+      "other"
+    ],
+    "rationale": "This is a transitional self-admission/filler-like utterance without a clear diagnostic code.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_no advice_cycle_25.txt",
+      "row": 20
+    },
+    "model": "qwen/qwen3.8-27b",
+    "provider": "AkashML",
+    "configuration_name": "qwen3-8-27b-260814"
+  },
+  {
+    "phrase": "ich sehe jetzt gerade, dass man Diagnosen da oben, oder Symptomatik, also Patienteninformationen. Das hilft natürlich, vielleicht mal, ähm, wenn es da steht, ja, die Lokalisation oder so oder Kopfschmerzen oder sowas. Vielleicht hilft, das ja ein bisschen.",
+    "context": "… Ah ich muss jetzt zugeben, ich sehe jetzt gerade, dass man Diagnosen da oben, oder Symptomatik, also Patienteninformationen. Das hilft natürlich, vielleicht mal, ähm, wenn es da steht, ja, die Lokalisation oder so oder Kopfschmerzen oder sowas. Vielleicht hilft, das ja ein bisschen. Also jetzt",
+    "tags": [
+      "reasoning: mentioning_contextual_information"
+    ],
+    "rationale": "The person mentions available patient-related information such as diagnoses, symptoms, localization, or headaches.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_no advice_cycle_25.txt",
+      "row": 20
+    },
+    "model": "qwen/qwen3.8-27b",
+    "provider": "AkashML",
+    "configuration_name": "qwen3-8-27b-260814"
+  },
+  {
+    "phrase": "Also jetzt sehe ich hier das hier gerade deutlich, der Ventrikel wird, ähm, eingeengt.",
+    "context": "… ein bisschen. Also jetzt sehe ich hier das hier gerade deutlich, der Ventrikel wird, ähm, eingeengt. Und ja das",
+    "tags": [
+      "visual_search: description_of_medical_image_features"
+    ],
+    "rationale": "The person describes the visible anatomical/image feature, namely a compressed ventricle.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_no advice_cycle_25.txt",
+      "row": 20
+    },
+    "model": "qwen/qwen3.8-27b",
+    "provider": "AkashML",
+    "configuration_name": "qwen3-8-27b-260814"
+  },
+  {
+    "phrase": "Und ja das ist ein deutliches Bild für eine Epidurale? Blutung.",
+    "context": "… eingeengt. Und ja das ist ein deutliches Bild für eine Epidurale? Blutung. Da bin ich",
+    "tags": [
+      "interpretation: bleeding"
+    ],
+    "rationale": "The person interprets the finding as an epidural hemorrhage.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_no advice_cycle_25.txt",
+      "row": 20
+    },
+    "model": "qwen/qwen3.8-27b",
+    "provider": "AkashML",
+    "configuration_name": "qwen3-8-27b-260814"
+  },
+  {
+    "phrase": "Da bin ich mir sehr sicher, eigentlich",
+    "context": "… Epidurale? Blutung. Da bin ich mir sehr sicher, eigentlich",
+    "tags": [
+      "confidence_high: concrete"
+    ],
+    "rationale": "The person explicitly states high certainty about the diagnostic interpretation.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_no advice_cycle_25.txt",
+      "row": 20
+    },
+    "model": "qwen/qwen3.8-27b",
+    "provider": "AkashML",
+    "configuration_name": "qwen3-8-27b-260814"
+  },
+  {
+    "phrase": "Hm, jetzt bin ich mir sehr unsicher",
+    "context": "… Hm, jetzt bin ich mir sehr unsicher, aber hmm",
+    "tags": [
+      "confidence_low: concrete"
+    ],
+    "rationale": "The speaker explicitly states being very uncertain about the current diagnostic assessment.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_no advice_cycle_25.txt",
+      "row": 15
+    },
+    "model": "qwen/qwen3.8-27b",
+    "provider": "Ionstream",
+    "configuration_name": "qwen3-8-27b-260814"
+  },
+  {
+    "phrase": "eher frontal in Höhe der, ne warte Mal, bei den Ventrikeln sieht das so aus, als wären da hypodense Bereiche.",
+    "context": "aber hmm, eher frontal in Höhe der, ne warte Mal, bei den Ventrikeln sieht das so aus, als wären da hypodense Bereiche. Das könnte",
+    "tags": [
+      "indicator: anomaly_detected"
+    ],
+    "rationale": "The speaker notices hypodense areas near the ventricles, an abnormal image finding.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_no advice_cycle_25.txt",
+      "row": 15
+    },
+    "model": "qwen/qwen3.8-27b",
+    "provider": "Ionstream",
+    "configuration_name": "qwen3-8-27b-260814"
+  },
+  {
+    "phrase": "Das könnte jetzt auf eine chronische Blutung hindeuten.",
+    "context": "Bereiche. Das könnte jetzt auf eine chronische Blutung hindeuten. Vielleicht",
+    "tags": [
+      "interpretation: bleeding",
+      "confidence_low: secondary"
+    ],
+    "rationale": "The finding is interpreted as a possible chronic hemorrhage, with tentative wording indicating low certainty.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_no advice_cycle_25.txt",
+      "row": 15
+    },
+    "model": "qwen/qwen3.8-27b",
+    "provider": "Ionstream",
+    "configuration_name": "qwen3-8-27b-260814"
+  },
+  {
+    "phrase": "Vielleicht was, äh, eine Hypertensive Erkrankung, oder so.",
+    "context": "hindeuten. Vielleicht was, äh, eine Hypertensive Erkrankung, oder so. Nur",
+    "tags": [
+      "reasoning: alternative_medical_cause",
+      "confidence_low: secondary"
+    ],
+    "rationale": "The speaker names a possible medical cause, hypertensive disease, while using tentative language.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_no advice_cycle_25.txt",
+      "row": 15
+    },
+    "model": "qwen/qwen3.8-27b",
+    "provider": "Ionstream",
+    "configuration_name": "qwen3-8-27b-260814"
+  },
+  {
+    "phrase": "Nur da bin ich mir sehr unsicher.",
+    "context": "Erkrankung, oder so. Nur da bin ich mir sehr unsicher.",
+    "tags": [
+      "confidence_low: concrete"
+    ],
+    "rationale": "The speaker explicitly expresses strong uncertainty about the interpretation.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_no advice_cycle_25.txt",
+      "row": 15
+    },
+    "model": "qwen/qwen3.8-27b",
+    "provider": "Ionstream",
+    "configuration_name": "qwen3-8-27b-260814"
+  },
+  {
+    "phrase": "Ich kann nicht so genau erkennen, ob das jetzt Epi- oder Subdural ist. Ähm, oder gar diffus. Ich weiß es nicht genau, aber ich schon, dass das nicht symmetrisch aussieht.",
+    "context": "Ich kann nicht so genau erkennen, ob das jetzt Epi- oder Subdural ist. Ähm, oder gar diffus. Ich weiß es nicht genau, aber ich schon, dass das nicht symmetrisch aussieht.",
+    "tags": [
+      "reflection: diagnostic_uncertainty"
+    ],
+    "rationale": "The person explicitly states they cannot precisely determine the type or exact nature of the finding, reflecting uncertainty in classifying the abnormality.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_no advice_cycle_25.txt",
+      "row": 29
+    },
+    "model": "qwen/qwen3.8-27b",
+    "provider": "Alibaba",
+    "configuration_name": "qwen3-8-27b-260814"
+  },
+  {
+    "phrase": "Das könnte sogar, ?. Ich weiß nicht so genau, jetzt der Unterschied. Ist nicht so deutlich finde ich, aber ich denke schon dass hier was ist, wenn man so guckt.",
+    "context": "Das könnte sogar, ?. Ich weiß nicht so genau, jetzt der Unterschied. Ist nicht so deutlich finde ich, aber ich denke schon dass hier was ist, wenn man so guckt.",
+    "tags": [
+      "reflection: diagnostic_uncertainty"
+    ],
+    "rationale": "The person expresses uncertainty about the specific difference or nature of the finding, stating it is not clear, which indicates diagnostic uncertainty.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_no advice_cycle_25.txt",
+      "row": 29
+    },
+    "model": "qwen/qwen3.8-27b",
+    "provider": "Alibaba",
+    "configuration_name": "qwen3-8-27b-260814"
+  },
+  {
+    "phrase": "Hmm…",
+    "context": "... Hmm… Hier sehe ich im Schädel? keinen Defekt…",
+    "tags": [
+      "paused_in_process"
+    ],
+    "rationale": "Pure filler word indicating a pause in the diagnostic process.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_no advice_cycle_25.txt",
+      "row": 26
+    },
+    "model": "qwen/qwen3.8-27b",
+    "provider": "Near AI",
+    "configuration_name": "qwen3-8-27b-260814"
+  },
+  {
+    "phrase": "Hier sehe ich im Schädel?",
+    "context": "Hmm… Hier sehe ich im Schädel? keinen Defekt… Und die Mittellinie ist nicht verlagert.",
+    "tags": [
+      "visual_search: description_of_medical_image_features"
+    ],
+    "rationale": "The person verbalizes that they are currently looking at the skull.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_no advice_cycle_25.txt",
+      "row": 26
+    },
+    "model": "qwen/qwen3.8-27b",
+    "provider": "Near AI",
+    "configuration_name": "qwen3-8-27b-260814"
+  },
+  {
+    "phrase": "keinen Defekt…",
+    "context": "Hier sehe ich im Schädel? keinen Defekt… Und die Mittellinie ist nicht verlagert.",
+    "tags": [
+      "indicator: no_bleeding"
+    ],
+    "rationale": "The person classifies the examined skull area as unremarkable by stating there is no defect.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_no advice_cycle_25.txt",
+      "row": 26
+    },
+    "model": "qwen/qwen3.8-27b",
+    "provider": "Near AI",
+    "configuration_name": "qwen3-8-27b-260814"
+  },
+  {
+    "phrase": "Und die Mittellinie ist nicht verlagert.",
+    "context": "keinen Defekt… Und die Mittellinie ist nicht verlagert. Komisch...",
+    "tags": [
+      "indicator: no_bleeding"
+    ],
+    "rationale": "The person classifies the midline as unremarkable because it is not shifted.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_no advice_cycle_25.txt",
+      "row": 26
+    },
+    "model": "qwen/qwen3.8-27b",
+    "provider": "Near AI",
+    "configuration_name": "qwen3-8-27b-260814"
+  },
+  {
+    "phrase": "Komisch...",
+    "context": "Und die Mittellinie ist nicht verlagert. Komisch... Bei einem Autounfall, glaube ich, wäre dann, ah Moment…",
+    "tags": [
+      "reflection: diagnostic_uncertainty"
+    ],
+    "rationale": "The person reflects that the current impression is odd, indicating uncertainty about whether the findings are normal or abnormal.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_no advice_cycle_25.txt",
+      "row": 26
+    },
+    "model": "qwen/qwen3.8-27b",
+    "provider": "Near AI",
+    "configuration_name": "qwen3-8-27b-260814"
+  },
+  {
+    "phrase": "Bei einem Autounfall, glaube ich, wäre dann",
+    "context": "Komisch... Bei einem Autounfall, glaube ich, wäre dann, ah Moment… Jetzt bin ich mir unsicher.",
+    "tags": [
+      "reasoning: mentioning_contextual_information"
+    ],
+    "rationale": "The person mentions the car accident as case-related contextual information.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_no advice_cycle_25.txt",
+      "row": 26
+    },
+    "model": "qwen/qwen3.8-27b",
+    "provider": "Near AI",
+    "configuration_name": "qwen3-8-27b-260814"
+  },
+  {
+    "phrase": "ah Moment…",
+    "context": "wäre dann, ah Moment… Jetzt bin ich mir unsicher.",
+    "tags": [
+      "paused_in_process"
+    ],
+    "rationale": "Filler expression indicating a pause or interruption in the thought process.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_no advice_cycle_25.txt",
+      "row": 26
+    },
+    "model": "qwen/qwen3.8-27b",
+    "provider": "Near AI",
+    "configuration_name": "qwen3-8-27b-260814"
+  },
+  {
+    "phrase": "Jetzt bin ich mir unsicher.",
+    "context": "ah Moment… Jetzt bin ich mir unsicher. Ob es jetzt weiter Caudal… in den Liquorraum eingeblutet ist, da bin ich mir nicht so sicher.",
+    "tags": [
+      "confidence_low: concrete"
+    ],
+    "rationale": "The person explicitly states that they are currently uncertain.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_no advice_cycle_25.txt",
+      "row": 26
+    },
+    "model": "qwen/qwen3.8-27b",
+    "provider": "Near AI",
+    "configuration_name": "qwen3-8-27b-260814"
+  },
+  {
+    "phrase": "Ob es jetzt weiter Caudal… in den Liquorraum eingeblutet ist",
+    "context": "Jetzt bin ich mir unsicher. Ob es jetzt weiter Caudal… in den Liquorraum eingeblutet ist, da bin ich mir nicht so sicher.",
+    "tags": [
+      "interpretation: bleeding_localization_unclear"
+    ],
+    "rationale": "The person considers bleeding but is uncertain about its exact location, specifically whether it extends further caudal into the CSF space.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_no advice_cycle_25.txt",
+      "row": 26
+    },
+    "model": "qwen/qwen3.8-27b",
+    "provider": "Near AI",
+    "configuration_name": "qwen3-8-27b-260814"
+  },
+  {
+    "phrase": "da bin ich mir nicht so sicher.",
+    "context": "Ob es jetzt weiter Caudal… in den Liquorraum eingeblutet ist, da bin ich mir nicht so sicher. Und Subarachnoidal irgendwas ist bin ich mir auch unsicher.",
+    "tags": [
+      "confidence_low: concrete"
+    ],
+    "rationale": "The person explicitly expresses low certainty about the diagnostic interpretation.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_no advice_cycle_25.txt",
+      "row": 26
+    },
+    "model": "qwen/qwen3.8-27b",
+    "provider": "Near AI",
+    "configuration_name": "qwen3-8-27b-260814"
+  },
+  {
+    "phrase": "Und Subarachnoidal irgendwas ist bin ich mir auch unsicher.",
+    "context": "da bin ich mir nicht so sicher. Und Subarachnoidal irgendwas ist bin ich mir auch unsicher. Ich glaube ja, aber nicht so einfach.",
+    "tags": [
+      "confidence_low: concrete"
+    ],
+    "rationale": "The person explicitly states uncertainty about a possible subarachnoid finding.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_no advice_cycle_25.txt",
+      "row": 26
+    },
+    "model": "qwen/qwen3.8-27b",
+    "provider": "Near AI",
+    "configuration_name": "qwen3-8-27b-260814"
+  },
+  {
+    "phrase": "Ich glaube ja, aber nicht so einfach.",
+    "context": "Und Subarachnoidal irgendwas ist bin ich mir auch unsicher. Ich glaube ja, aber nicht so einfach.",
+    "tags": [
+      "reflection: diagnostic_uncertainty"
+    ],
+    "rationale": "The person gives a tentative yes but qualifies it as not straightforward, reflecting uncertainty in the diagnostic judgment.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_no advice_cycle_25.txt",
+      "row": 26
+    },
+    "model": "qwen/qwen3.8-27b",
+    "provider": "Near AI",
+    "configuration_name": "qwen3-8-27b-260814"
+  },
+  {
+    "phrase": "Ja, da habe ich schon das Gefühl, dass die Mittellinie verlagert ist nach links vorallem.",
+    "context": "… Ja, da habe ich schon das Gefühl, dass die Mittellinie verlagert ist nach links vorallem. Ähm, Occipital, also…, da probiere ich dann, ähm, links",
+    "tags": [
+      "indicator: anomaly_detected"
+    ],
+    "rationale": "The speaker reports a leftward midline shift as an abnormal finding.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_no advice_cycle_25.txt",
+      "row": 12
+    },
+    "model": "qwen/qwen3.8-27b",
+    "provider": "DeepInfra",
+    "configuration_name": "qwen3-8-27b-260814"
+  },
+  {
+    "phrase": "Occipital, also…, da probiere ich dann",
+    "context": "Ähm, Occipital, also…, da probiere ich dann, ähm, links sehe ich auch eine Signalerhöhung",
+    "tags": [
+      "visual_search: description_of_medical_image_features"
+    ],
+    "rationale": "The speaker verbalizes the anatomical region being inspected and an attempt to check it.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_no advice_cycle_25.txt",
+      "row": 12
+    },
+    "model": "qwen/qwen3.8-27b",
+    "provider": "DeepInfra",
+    "configuration_name": "qwen3-8-27b-260814"
+  },
+  {
+    "phrase": "links sehe ich auch eine Signalerhöhung, äh quatsch, Hyperdense Struktur, occipital habe ich das Gefühl.",
+    "context": "… da probiere ich dann, ähm, links sehe ich auch eine Signalerhöhung, äh quatsch, Hyperdense Struktur, occipital habe ich das Gefühl. Hmm, Ich glaub hier ist dann schon eine Blutung.",
+    "tags": [
+      "indicator: anomaly_detected",
+      "reflection: self-correction"
+    ],
+    "rationale": "The speaker notes a hyperdense structure as an abnormality and corrects the initial wording.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_no advice_cycle_25.txt",
+      "row": 12
+    },
+    "model": "qwen/qwen3.8-27b",
+    "provider": "DeepInfra",
+    "configuration_name": "qwen3-8-27b-260814"
+  },
+  {
+    "phrase": "Ich glaub hier ist dann schon eine Blutung.",
+    "context": "… occipital habe ich das Gefühl. Hmm, Ich glaub hier ist dann schon eine Blutung.",
+    "tags": [
+      "interpretation: bleeding",
+      "confidence_low: secondary"
+    ],
+    "rationale": "The speaker interprets the finding as a hemorrhage, with implicit lower certainty expressed by 'Ich glaub'.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_no advice_cycle_25.txt",
+      "row": 12
+    },
+    "model": "qwen/qwen3.8-27b",
+    "provider": "DeepInfra",
+    "configuration_name": "qwen3-8-27b-260814"
+  },
+  {
+    "phrase": "Hier sehe ich keinen weiteren Unterschied, glaube da ist alles ok.",
+    "context": "… Hier sehe ich keinen weiteren Unterschied, glaube da ist alles ok.",
+    "tags": [
+      "indicator: no_bleeding",
+      "confidence_low: secondary"
+    ],
+    "rationale": "The speaker classifies the current image area as unremarkable by stating that no further difference is seen and that everything is ok. The word 'glaube' implicitly signals mild uncertainty.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_no advice_cycle_25.txt",
+      "row": 35
+    },
+    "model": "qwen/qwen3.8-27b",
+    "provider": "DekaLLM",
+    "configuration_name": "qwen3-8-27b-260814"
+  },
+  {
+    "phrase": "Ja da sehe ich erstmal, dass die Person eine Migräne hat.",
+    "context": "… Ja da sehe ich erstmal, dass die Person eine Migräne hat. Das ist wahrscheinlich dann eine Verschlussdiagnose? hier.",
+    "tags": [
+      "reasoning: mentioning_contextual_information"
+    ],
+    "rationale": "The participant mentions the patient's migraine as relevant medical history.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_no advice_cycle_25.txt",
+      "row": 21
+    },
+    "model": "qwen/qwen3.8-27b",
+    "provider": "Near AI",
+    "configuration_name": "qwen3-8-27b-260814"
+  },
+  {
+    "phrase": "Das ist wahrscheinlich dann eine Verschlussdiagnose?",
+    "context": "Migräne hat. Das ist wahrscheinlich dann eine Verschlussdiagnose? hier. Das Bild finde ich jetzt nicht so gut.",
+    "tags": [
+      "confidence_high: secondary"
+    ],
+    "rationale": "The word 'wahrscheinlich' implicitly indicates a relatively confident diagnostic conclusion.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_no advice_cycle_25.txt",
+      "row": 21
+    },
+    "model": "qwen/qwen3.8-27b",
+    "provider": "Near AI",
+    "configuration_name": "qwen3-8-27b-260814"
+  },
+  {
+    "phrase": "hier.",
+    "context": "Verschlussdiagnose? hier. Das Bild finde ich jetzt nicht so gut.",
+    "tags": [
+      "paused_in_process"
+    ],
+    "rationale": "This is a filler word without diagnostic content.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_no advice_cycle_25.txt",
+      "row": 21
+    },
+    "model": "qwen/qwen3.8-27b",
+    "provider": "Near AI",
+    "configuration_name": "qwen3-8-27b-260814"
+  },
+  {
+    "phrase": "Das Bild finde ich jetzt nicht so gut.",
+    "context": "hier. Das Bild finde ich jetzt nicht so gut. EXPERIMENTER: Du kannst den Kontrast noch einstellen.",
+    "tags": [
+      "awareness_of_task: image_quality"
+    ],
+    "rationale": "The participant explicitly complains about the image quality.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_no advice_cycle_25.txt",
+      "row": 21
+    },
+    "model": "qwen/qwen3.8-27b",
+    "provider": "Near AI",
+    "configuration_name": "qwen3-8-27b-260814"
+  },
+  {
+    "phrase": "Was?",
+    "context": "EXPERIMENTER: Du kannst den Kontrast noch einstellen. VPN: Was? EXPERIMENTER: Du kannst den Kontrast noch einstellen.",
+    "tags": [
+      "technical_conversation"
+    ],
+    "rationale": "The participant asks for clarification about the technical display adjustment.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_no advice_cycle_25.txt",
+      "row": 21
+    },
+    "model": "qwen/qwen3.8-27b",
+    "provider": "Near AI",
+    "configuration_name": "qwen3-8-27b-260814"
+  },
+  {
+    "phrase": "Ah, warte mal. Ja.",
+    "context": "VPN: Ah, warte mal. Ja. EXPERIMENTER: Jetzt hast du es invertiert.",
+    "tags": [
+      "paused_in_process"
+    ],
+    "rationale": "This is a filler-like pause while the participant waits or processes the instruction.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_no advice_cycle_25.txt",
+      "row": 21
+    },
+    "model": "qwen/qwen3.8-27b",
+    "provider": "Near AI",
+    "configuration_name": "qwen3-8-27b-260814"
+  },
+  {
+    "phrase": "Ja, so?",
+    "context": "EXPERIMENTER: Jetzt hast du es invertiert. VPN: Ja, so? EXPERIMENTER: Ähm, ja du kannst jetzt einmal",
+    "tags": [
+      "technical_conversation"
+    ],
+    "rationale": "The participant checks whether the display has been adjusted correctly.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_no advice_cycle_25.txt",
+      "row": 21
+    },
+    "model": "qwen/qwen3.8-27b",
+    "provider": "Near AI",
+    "configuration_name": "qwen3-8-27b-260814"
+  },
+  {
+    "phrase": "Mhm, ich hätte es lieber, wie es vorher war.",
+    "context": "VPN: Mhm, ich hätte es lieber, wie es vorher war. Oh man. Das ist ja schlecht.",
+    "tags": [
+      "technical_conversation"
+    ],
+    "rationale": "The participant comments on the current display setting and prefers the previous state.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_no advice_cycle_25.txt",
+      "row": 21
+    },
+    "model": "qwen/qwen3.8-27b",
+    "provider": "Near AI",
+    "configuration_name": "qwen3-8-27b-260814"
+  },
+  {
+    "phrase": "Oh man. Das ist ja schlecht.",
+    "context": "Mhm, ich hätte es lieber, wie es vorher war. Oh man. Das ist ja schlecht. Ja gut, das habe ich schlecht eingestellt.",
+    "tags": [
+      "technical_conversation"
+    ],
+    "rationale": "The participant reacts to the technical display problem.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_no advice_cycle_25.txt",
+      "row": 21
+    },
+    "model": "qwen/qwen3.8-27b",
+    "provider": "Near AI",
+    "configuration_name": "qwen3-8-27b-260814"
+  },
+  {
+    "phrase": "Ja gut, das habe ich schlecht eingestellt.",
+    "context": "Oh man. Das ist ja schlecht. Ja gut, das habe ich schlecht eingestellt. Ah, das ist besser.",
+    "tags": [
+      "technical_conversation"
+    ],
+    "rationale": "The participant acknowledges that the display setting was adjusted incorrectly.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_no advice_cycle_25.txt",
+      "row": 21
+    },
+    "model": "qwen/qwen3.8-27b",
+    "provider": "Near AI",
+    "configuration_name": "qwen3-8-27b-260814"
+  },
+  {
+    "phrase": "Ah, das ist besser.",
+    "context": "Ja gut, das habe ich schlecht eingestellt. Ah, das ist besser. Ich habs jetzt ein bisschen schlecht eingestellt",
+    "tags": [
+      "technical_conversation"
+    ],
+    "rationale": "The participant evaluates the improved display setting.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_no advice_cycle_25.txt",
+      "row": 21
+    },
+    "model": "qwen/qwen3.8-27b",
+    "provider": "Near AI",
+    "configuration_name": "qwen3-8-27b-260814"
+  },
+  {
+    "phrase": "Ich habs jetzt ein bisschen schlecht eingestellt, aber ich sehe auch nichts.",
+    "context": "Ah, das ist besser. Ich habs jetzt ein bisschen schlecht eingestellt, aber ich sehe auch nichts. Deswegen drücke ich auf nicht so sicher",
+    "tags": [
+      "awareness_of_task: image_quality"
+    ],
+    "rationale": "The participant attributes the lack of visible findings to the display setting rather than to their own diagnostic competence.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_no advice_cycle_25.txt",
+      "row": 21
+    },
+    "model": "qwen/qwen3.8-27b",
+    "provider": "Near AI",
+    "configuration_name": "qwen3-8-27b-260814"
+  },
+  {
+    "phrase": "Deswegen drücke ich auf nicht so sicher, weil vielleicht habe ich das jetzt schlecht eingestellt, aber ich sehe nichts.",
+    "context": "Ich habs jetzt ein bisschen schlecht eingestellt, aber ich sehe auch nichts. Deswegen drücke ich auf nicht so sicher, weil vielleicht habe ich das jetzt schlecht eingestellt, aber ich sehe nichts.",
+    "tags": [
+      "confidence_low: concrete"
+    ],
+    "rationale": "The participant explicitly states that they are not so sure about the diagnostic result.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_no advice_cycle_25.txt",
+      "row": 21
+    },
+    "model": "qwen/qwen3.8-27b",
+    "provider": "Near AI",
+    "configuration_name": "qwen3-8-27b-260814"
+  },
+  {
+    "phrase": "Hier sehe ich tatsächlich auch nichts",
+    "context": "… Hier sehe ich tatsächlich auch nichts… Ich",
+    "tags": [
+      "interpretation: no_bleeding"
+    ],
+    "rationale": "The speaker states that nothing is visible in this area, which in the bleeding-detection context is interpreted as no hemorrhage.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_no advice_cycle_25.txt",
+      "row": 5
+    },
+    "model": "qwen/qwen3.8-27b",
+    "provider": "DeepInfra",
+    "configuration_name": "qwen3-8-27b-260814"
+  },
+  {
+    "phrase": "Ich das Gefühl, dass bei der Größe, könnte ich vielleicht schon, hoffentlich eine Subdurale oder Epidurale Blutung oder so sehen",
+    "context": "… Ich das Gefühl, dass bei der Größe, könnte ich vielleicht schon, hoffentlich eine Subdurale oder Epidurale Blutung oder so sehen, aber",
+    "tags": [
+      "confidence_low: secondary"
+    ],
+    "rationale": "Hedging expressions such as 'könnte' and 'vielleicht' implicitly show low certainty about detecting a subdural or epidural hemorrhage.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_no advice_cycle_25.txt",
+      "row": 5
+    },
+    "model": "qwen/qwen3.8-27b",
+    "provider": "DeepInfra",
+    "configuration_name": "qwen3-8-27b-260814"
+  },
+  {
+    "phrase": "ähm",
+    "context": "Blutung oder so sehen, aber ähm, Subdural",
+    "tags": [
+      "paused_in_process"
+    ],
+    "rationale": "This is a pure filler word with no diagnostic content.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_no advice_cycle_25.txt",
+      "row": 5
+    },
+    "model": "qwen/qwen3.8-27b",
+    "provider": "DeepInfra",
+    "configuration_name": "qwen3-8-27b-260814"
+  },
+  {
+    "phrase": "Subdural, wüsste ich jetzt not, ob man das bei der Größe sehen konnte",
+    "context": "aber ähm, Subdural, wüsste ich jetzt not, ob man das bei der Größe sehen konnte, oder",
+    "tags": [
+      "confidence_low: concrete"
+    ],
+    "rationale": "The formulation 'wüsste ich jetzt not' explicitly expresses low certainty or lack of knowledge about whether a subdural finding would be visible.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_no advice_cycle_25.txt",
+      "row": 5
+    },
+    "model": "qwen/qwen3.8-27b",
+    "provider": "DeepInfra",
+    "configuration_name": "qwen3-8-27b-260814"
+  },
+  {
+    "phrase": "oder interessehalber",
+    "context": "ob man das bei der Größe sehen konnte, oder interessehalber, aber",
+    "tags": [
+      "other"
+    ],
+    "rationale": "This discourse fragment does not map clearly onto any diagnostic or process code.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_no advice_cycle_25.txt",
+      "row": 5
+    },
+    "model": "qwen/qwen3.8-27b",
+    "provider": "DeepInfra",
+    "configuration_name": "qwen3-8-27b-260814"
+  },
+  {
+    "phrase": "hier ist auch nichts",
+    "context": "oder interessehalber, aber hier ist auch nichts.",
+    "tags": [
+      "interpretation: no_bleeding"
+    ],
+    "rationale": "The speaker reiterates that the inspected area is unremarkable, i.e., no hemorrhage is seen.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_no advice_cycle_25.txt",
+      "row": 5
+    },
+    "model": "qwen/qwen3.8-27b",
+    "provider": "DeepInfra",
+    "configuration_name": "qwen3-8-27b-260814"
+  },
+  {
+    "phrase": "Hier sehe ich auch keine Auffälligkeiten",
+    "context": "Hier sehe ich auch keine Auffälligkeiten, aber warte.",
+    "tags": [
+      "indicator: no_bleeding"
+    ],
+    "rationale": "The speaker classifies the current image area as unremarkable.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_no advice_cycle_25.txt",
+      "row": 31
+    },
+    "model": "qwen/qwen3.8-27b",
+    "provider": "Near AI",
+    "configuration_name": "qwen3-8-27b-260814"
+  },
+  {
+    "phrase": "warte.",
+    "context": "aber warte. Doch",
+    "tags": [
+      "paused_in_process"
+    ],
+    "rationale": "This is a filler/pause while the speaker continues inspecting the image.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_no advice_cycle_25.txt",
+      "row": 31
+    },
+    "model": "qwen/qwen3.8-27b",
+    "provider": "Near AI",
+    "configuration_name": "qwen3-8-27b-260814"
+  },
+  {
+    "phrase": "Doch",
+    "context": "aber warte. Doch, manchmal bin ich mir unsicher",
+    "tags": [
+      "reflection: self-correction"
+    ],
+    "rationale": "The word marks a correction or revision of the previous statement that no abnormalities were seen.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_no advice_cycle_25.txt",
+      "row": 31
+    },
+    "model": "qwen/qwen3.8-27b",
+    "provider": "Near AI",
+    "configuration_name": "qwen3-8-27b-260814"
+  },
+  {
+    "phrase": "manchmal bin ich mir unsicher, ob das einfach so angeschnittene Gefäße, oder ob das irgendwie Hyperdense Strukturen sind im Parenchym.",
+    "context": "Doch, manchmal bin ich mir unsicher, ob das einfach so angeschnittene Gefäße, oder ob das irgendwie Hyperdense Strukturen sind im Parenchym.",
+    "tags": [
+      "reflection: diagnostic_uncertainty"
+    ],
+    "rationale": "The speaker explicitly expresses uncertainty about whether the finding is normal vessels or hyperdense parenchymal structures.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_no advice_cycle_25.txt",
+      "row": 31
+    },
+    "model": "qwen/qwen3.8-27b",
+    "provider": "Near AI",
+    "configuration_name": "qwen3-8-27b-260814"
+  },
+  {
+    "phrase": "Das könnten einfach nur Gefäße und Kontrastmittel sein.",
+    "context": "im Parenchym. Das könnten einfach nur Gefäße und Kontrastmittel sein. Glaube ich",
+    "tags": [
+      "reasoning: alternative_medical_structure",
+      "confidence_low: secondary"
+    ],
+    "rationale": "The finding is attributed to vessels/contrast as a non-pathological explanation, and 'könnten' indicates low certainty.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_no advice_cycle_25.txt",
+      "row": 31
+    },
+    "model": "qwen/qwen3.8-27b",
+    "provider": "Near AI",
+    "configuration_name": "qwen3-8-27b-260814"
+  },
+  {
+    "phrase": "Glaube ich, ist es auch.",
+    "context": "Kontrastmittel sein. Glaube ich, ist es auch. Finde ich",
+    "tags": [
+      "reflection: self-affirmation"
+    ],
+    "rationale": "The speaker reaffirms the just stated interpretation.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_no advice_cycle_25.txt",
+      "row": 31
+    },
+    "model": "qwen/qwen3.8-27b",
+    "provider": "Near AI",
+    "configuration_name": "qwen3-8-27b-260814"
+  },
+  {
+    "phrase": "mit meiner wenigen Erfahrung",
+    "context": "Finde ich, mit meiner wenigen Erfahrung, bisschen kompliziert",
+    "tags": [
+      "reflection: experience_limitation"
+    ],
+    "rationale": "The speaker explicitly refers to their own limited experience.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_no advice_cycle_25.txt",
+      "row": 31
+    },
+    "model": "qwen/qwen3.8-27b",
+    "provider": "Near AI",
+    "configuration_name": "qwen3-8-27b-260814"
+  },
+  {
+    "phrase": "bisschen kompliziert",
+    "context": "mit meiner wenigen Erfahrung, bisschen kompliziert, aber",
+    "tags": [
+      "awareness_of_task: difficult"
+    ],
+    "rationale": "The speaker perceives the current task as somewhat complicated.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_no advice_cycle_25.txt",
+      "row": 31
+    },
+    "model": "qwen/qwen3.8-27b",
+    "provider": "Near AI",
+    "configuration_name": "qwen3-8-27b-260814"
+  },
+  {
+    "phrase": "aber ich glaube es ist nichts.",
+    "context": "bisschen kompliziert, aber ich glaube es ist nichts.",
+    "tags": [
+      "interpretation: no_bleeding",
+      "confidence_low: secondary"
+    ],
+    "rationale": "The speaker concludes that there is no hemorrhage, with 'glaube' indicating low certainty.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_no advice_cycle_25.txt",
+      "row": 31
+    },
+    "model": "qwen/qwen3.8-27b",
+    "provider": "Near AI",
+    "configuration_name": "qwen3-8-27b-260814"
+  },
+  {
+    "phrase": "Du kannst gerne noch ein bisschen ausführen, worauf du achtest, was dir auffällt.",
+    "context": "EXPERIMENTER: Du kannst gerne noch ein bisschen ausführen, worauf du achtest, was dir auffällt. VPN: Ah ja, Entschuldigung.",
+    "tags": [
+      "other"
+    ],
+    "rationale": "This is an experimenter instruction, not a participant diagnostic process, so no specific diagnostic code applies.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_no advice_cycle_25.txt",
+      "row": 28
+    },
+    "model": "qwen/qwen3.8-27b",
+    "provider": "AkashML",
+    "configuration_name": "qwen3-8-27b-260814"
+  },
+  {
+    "phrase": "Ah ja, Entschuldigung.",
+    "context": "VPN: Ah ja, Entschuldigung. Ähm, ja, von vorne…",
+    "tags": [
+      "paused_in_process"
+    ],
+    "rationale": "The utterance is a filler/apology without diagnostic content.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_no advice_cycle_25.txt",
+      "row": 28
+    },
+    "model": "qwen/qwen3.8-27b",
+    "provider": "AkashML",
+    "configuration_name": "qwen3-8-27b-260814"
+  },
+  {
+    "phrase": "Ähm, ja, von vorne…",
+    "context": "Entschuldigung. Ähm, ja, von vorne… achte ich erstmal auf den Schädelknochen",
+    "tags": [
+      "paused_in_process"
+    ],
+    "rationale": "The utterance is a filler-like restart of the description.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_no advice_cycle_25.txt",
+      "row": 28
+    },
+    "model": "qwen/qwen3.8-27b",
+    "provider": "AkashML",
+    "configuration_name": "qwen3-8-27b-260814"
+  },
+  {
+    "phrase": "achte ich erstmal auf den Schädelknochen und Mittellinienventrikeln, ob es irgendwie symmetrisch ist oder nicht.",
+    "context": "von vorne… achte ich erstmal auf den Schädelknochen und Mittellinienventrikeln, ob es irgendwie symmetrisch ist oder nicht. Hier sieht es nicht so aus.",
+    "tags": [
+      "visual_search: description_of_medical_image_features"
+    ],
+    "rationale": "The participant verbalizes which anatomical structures and image characteristics they are checking.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_no advice_cycle_25.txt",
+      "row": 28
+    },
+    "model": "qwen/qwen3.8-27b",
+    "provider": "AkashML",
+    "configuration_name": "qwen3-8-27b-260814"
+  },
+  {
+    "phrase": "Hier sieht es nicht so aus.",
+    "context": "symmetrisch ist oder nicht. Hier sieht es nicht so aus. Hm, also ich finde es sieht auffällig aus.",
+    "tags": [
+      "indicator: anomaly_detected"
+    ],
+    "rationale": "The participant notices that the image does not look as expected, indicating an abnormality.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_no advice_cycle_25.txt",
+      "row": 28
+    },
+    "model": "qwen/qwen3.8-27b",
+    "provider": "AkashML",
+    "configuration_name": "qwen3-8-27b-260814"
+  },
+  {
+    "phrase": "Hm, also ich finde es sieht auffällig aus.",
+    "context": "Hier sieht es nicht so aus. Hm, also ich finde es sieht auffällig aus. Hm, Moment.",
+    "tags": [
+      "indicator: anomaly_detected"
+    ],
+    "rationale": "The participant explicitly describes the appearance as conspicuous/abnormal.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_no advice_cycle_25.txt",
+      "row": 28
+    },
+    "model": "qwen/qwen3.8-27b",
+    "provider": "AkashML",
+    "configuration_name": "qwen3-8-27b-260814"
+  },
+  {
+    "phrase": "Hm, Moment.",
+    "context": "auffällig aus. Hm, Moment. Ich schaue nach",
+    "tags": [
+      "paused_in_process"
+    ],
+    "rationale": "This is a filler pause without diagnostic content.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_no advice_cycle_25.txt",
+      "row": 28
+    },
+    "model": "qwen/qwen3.8-27b",
+    "provider": "AkashML",
+    "configuration_name": "qwen3-8-27b-260814"
+  },
+  {
+    "phrase": "Ich schaue nach, ob ich irgendwelche sichelförmigen oder konvexe Blutungen sehe.",
+    "context": "Hm, Moment. Ich schaue nach, ob ich irgendwelche sichelförmigen oder konvexe Blutungen sehe. Also ja in der Schädel?",
+    "tags": [
+      "visual_search: description_of_medical_image_features"
+    ],
+    "rationale": "The participant verbalizes the specific image patterns they are currently searching for.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_no advice_cycle_25.txt",
+      "row": 28
+    },
+    "model": "qwen/qwen3.8-27b",
+    "provider": "AkashML",
+    "configuration_name": "qwen3-8-27b-260814"
+  },
+  {
+    "phrase": "Also ja in der Schädel?, sehe ich die nicht",
+    "context": "Blutungen sehe. Also ja in der Schädel?, sehe ich die nicht, aber ich finde die Mittellinie",
+    "tags": [
+      "indicator: no_bleeding"
+    ],
+    "rationale": "The participant classifies a specific image area as not showing the searched-for bleedings.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_no advice_cycle_25.txt",
+      "row": 28
+    },
+    "model": "qwen/qwen3.8-27b",
+    "provider": "AkashML",
+    "configuration_name": "qwen3-8-27b-260814"
+  },
+  {
+    "phrase": "aber ich finde die Mittellinie schon ein bisschen nach rechts verlagert, und die Ventrikel sind da auch nicht symmetrisch.",
+    "context": "sehe ich die nicht, aber ich finde die Mittellinie schon ein bisschen nach rechts verlagert, und die Ventrikel sind da auch nicht symmetrisch. Deswegen entscheide ich mich",
+    "tags": [
+      "indicator: anomaly_detected"
+    ],
+    "rationale": "The participant identifies midline shift and asymmetric ventricles as abnormal findings.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_no advice_cycle_25.txt",
+      "row": 28
+    },
+    "model": "qwen/qwen3.8-27b",
+    "provider": "AkashML",
+    "configuration_name": "qwen3-8-27b-260814"
+  },
+  {
+    "phrase": "Deswegen entscheide ich mich für eine Blutung.",
+    "context": "nicht symmetrisch. Deswegen entscheide ich mich für eine Blutung.",
+    "tags": [
+      "interpretation: bleeding"
+    ],
+    "rationale": "The participant interprets the findings as a hemorrhage, explicitly using the term 'Blutung'.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_no advice_cycle_25.txt",
+      "row": 28
+    },
+    "model": "qwen/qwen3.8-27b",
+    "provider": "AkashML",
+    "configuration_name": "qwen3-8-27b-260814"
+  },
+  {
+    "phrase": "Ich weiß nicht ob, ich hier etwas Occipitales sehe, ich glaube schon.",
+    "context": "… Ich weiß nicht ob, ich hier etwas Occipitales sehe, ich glaube schon.",
+    "tags": [
+      "visual_search: description_of_medical_image_features"
+    ],
+    "rationale": "The speaker verbalizes checking the occipital region and whether something is visible there.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_no advice_cycle_25.txt",
+      "row": 37
+    },
+    "model": "qwen/qwen3.8-27b",
+    "provider": "Modal",
+    "configuration_name": "qwen3-8-27b-260814"
+  },
+  {
+    "phrase": "Im Knochen ist nichts",
+    "context": "Im Knochen ist nichts, ich finde trotzdem",
+    "tags": [
+      "indicator: no_bleeding"
+    ],
+    "rationale": "The speaker classifies the bone area as unremarkable.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_no advice_cycle_25.txt",
+      "row": 37
+    },
+    "model": "qwen/qwen3.8-27b",
+    "provider": "Modal",
+    "configuration_name": "qwen3-8-27b-260814"
+  },
+  {
+    "phrase": "ich finde trotzdem, dass das hier was ist",
+    "context": "nichts, ich finde trotzdem, dass das hier was ist.",
+    "tags": [
+      "indicator: anomaly_detected"
+    ],
+    "rationale": "The speaker notices an abnormality despite the bone appearing unremarkable.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_no advice_cycle_25.txt",
+      "row": 37
+    },
+    "model": "qwen/qwen3.8-27b",
+    "provider": "Modal",
+    "configuration_name": "qwen3-8-27b-260814"
+  },
+  {
+    "phrase": "Ich bin mir nicht so sicher, aber ich glaub schon.",
+    "context": "Ich bin mir nicht so sicher, aber ich glaub schon.",
+    "tags": [
+      "confidence_low: concrete"
+    ],
+    "rationale": "The speaker explicitly states low certainty about the finding.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_no advice_cycle_25.txt",
+      "row": 37
+    },
+    "model": "qwen/qwen3.8-27b",
+    "provider": "Modal",
+    "configuration_name": "qwen3-8-27b-260814"
+  },
+  {
+    "phrase": "Mhm,",
+    "context": "… Mhm, also ich denke gerade, dass ähm, bei der, also bei der ?, dass das irgendeine traumatische,… traumatische Muster sein sollte, aber das sehe ich nicht. Deswegen, ich glaube nicht.",
+    "tags": [
+      "paused_in_process"
+    ],
+    "rationale": "This is a filler sound with no diagnostic content.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_no advice_cycle_25.txt",
+      "row": 38
+    },
+    "model": "qwen/qwen3.8-27b",
+    "provider": "Parasail",
+    "configuration_name": "qwen3-8-27b-260814"
+  },
+  {
+    "phrase": "also ich denke gerade, dass ähm, bei der, also bei der ?, dass das irgendeine traumatische,… traumatische Muster sein sollte, aber das sehe ich nicht.",
+    "context": "Mhm, also ich denke gerade, dass ähm, bei der, also bei der ?, dass das irgendeine traumatische,… traumatische Muster sein sollte, aber das sehe ich nicht.",
+    "tags": [
+      "reflection: diagnostic_uncertainty"
+    ],
+    "rationale": "The speaker is uncertain whether a traumatic pattern is present and explicitly notes that they do not see it.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_no advice_cycle_25.txt",
+      "row": 38
+    },
+    "model": "qwen/qwen3.8-27b",
+    "provider": "Parasail",
+    "configuration_name": "qwen3-8-27b-260814"
+  },
+  {
+    "phrase": "Deswegen, ich glaube nicht.",
+    "context": "traumatische Muster sein sollte, aber das sehe ich nicht. Deswegen, ich glaube nicht.",
+    "tags": [
+      "reasoning: conclusion_findings"
+    ],
+    "rationale": "The speaker draws a negative conclusion from the absence of the expected traumatic pattern.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_no advice_cycle_25.txt",
+      "row": 38
+    },
+    "model": "qwen/qwen3.8-27b",
+    "provider": "Parasail",
+    "configuration_name": "qwen3-8-27b-260814"
+  },
+  {
+    "phrase": "Ähm",
+    "context": "… Ähm, ja wonach ich hier achte, nochmal Kopf und Schädelbruch oder sowas",
+    "tags": [
+      "paused_in_process"
+    ],
+    "rationale": "The utterance is a pure filler sound.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_no advice_cycle_25.txt",
+      "row": 32
+    },
+    "model": "qwen/qwen3.8-27b",
+    "provider": "DekaLLM",
+    "configuration_name": "qwen3-8-27b-260814"
+  },
+  {
+    "phrase": "ja wonach ich hier achte, nochmal Kopf und Schädelbruch oder sowas, und probiere irgendwie  die Gyri anzugucken, ob man die gut begrenzen kann.",
+    "context": "… Ähm, ja wonach ich hier achte, nochmal Kopf und Schädelbruch oder sowas, und probiere irgendwie  die Gyri anzugucken, ob man die gut begrenzen kann. Aber ich finde das hier",
+    "tags": [
+      "visual_search: description_of_own_approach_without_external_help"
+    ],
+    "rationale": "The speaker explicitly describes what they are looking for and how they try to examine the gyri.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_no advice_cycle_25.txt",
+      "row": 32
+    },
+    "model": "qwen/qwen3.8-27b",
+    "provider": "DekaLLM",
+    "configuration_name": "qwen3-8-27b-260814"
+  },
+  {
+    "phrase": "Aber ich finde das hier, ab einem bestimmten Punkt, nicht so gut.",
+    "context": "ob man die gut begrenzen kann. Aber ich finde das hier, ab einem bestimmten Punkt, nicht so gut. Und irgendwie",
+    "tags": [
+      "indicator: anomaly_detected"
+    ],
+    "rationale": "The speaker notices that the image area does not look normal or is not well delimited.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_no advice_cycle_25.txt",
+      "row": 32
+    },
+    "model": "qwen/qwen3.8-27b",
+    "provider": "DekaLLM",
+    "configuration_name": "qwen3-8-27b-260814"
+  },
+  {
+    "phrase": "Und irgendwie, als wäre dazwischen eingeblutet, könnte ich mir vorstellen.",
+    "context": "nicht so gut. Und irgendwie, als wäre dazwischen eingeblutet, könnte ich mir vorstellen. Deswegen",
+    "tags": [
+      "interpretation: bleeding",
+      "confidence_low: secondary"
+    ],
+    "rationale": "The speaker interprets the finding as possible bleeding, and 'könnte' implicitly signals low certainty.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_no advice_cycle_25.txt",
+      "row": 32
+    },
+    "model": "qwen/qwen3.8-27b",
+    "provider": "DekaLLM",
+    "configuration_name": "qwen3-8-27b-260814"
+  },
+  {
+    "phrase": "Deswegen, ich dachte es sind schon Blutungen",
+    "context": "könnte ich mir vorstellen. Deswegen, ich dachte es sind schon Blutungen, hmm, aber so sicher bin ich mir eigentlich doch nicht.",
+    "tags": [
+      "interpretation: bleeding"
+    ],
+    "rationale": "The speaker explicitly names the finding as bleedings.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_no advice_cycle_25.txt",
+      "row": 32
+    },
+    "model": "qwen/qwen3.8-27b",
+    "provider": "DekaLLM",
+    "configuration_name": "qwen3-8-27b-260814"
+  },
+  {
+    "phrase": "hmm",
+    "context": "Deswegen, ich dachte es sind schon Blutungen, hmm, aber so sicher bin ich mir eigentlich doch nicht.",
+    "tags": [
+      "paused_in_process"
+    ],
+    "rationale": "The utterance is a pure filler sound.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_no advice_cycle_25.txt",
+      "row": 32
+    },
+    "model": "qwen/qwen3.8-27b",
+    "provider": "DekaLLM",
+    "configuration_name": "qwen3-8-27b-260814"
+  },
+  {
+    "phrase": "aber so sicher bin ich mir eigentlich doch nicht.",
+    "context": "Blutungen, hmm, aber so sicher bin ich mir eigentlich doch nicht.",
+    "tags": [
+      "confidence_low: concrete"
+    ],
+    "rationale": "The speaker explicitly states that they are not sure.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_no advice_cycle_25.txt",
+      "row": 32
+    },
+    "model": "qwen/qwen3.8-27b",
+    "provider": "DekaLLM",
+    "configuration_name": "qwen3-8-27b-260814"
+  },
+  {
+    "phrase": "Okay",
+    "context": "… Okay, hier sieht man schon deutlich rechs hier, irgendwie Einblutungen.",
+    "tags": [
+      "paused_in_process"
+    ],
+    "rationale": "A discourse filler with no diagnostic content.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_no advice_cycle_25.txt",
+      "row": 34
+    },
+    "model": "qwen/qwen3.8-27b",
+    "provider": "Near AI",
+    "configuration_name": "qwen3-8-27b-260814"
+  },
+  {
+    "phrase": "hier sieht man schon deutlich rechs hier, irgendwie Einblutungen.",
+    "context": "hier sieht man schon deutlich rechs hier, irgendwie Einblutungen. Weiter Frontalparetal, keine Ahnung, Frontaltemporal, wollte ich sagen.",
+    "tags": [
+      "interpretation: bleeding"
+    ],
+    "rationale": "The speaker explicitly names 'Einblutungen', interpreting the finding as hemorrhage.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_no advice_cycle_25.txt",
+      "row": 34
+    },
+    "model": "qwen/qwen3.8-27b",
+    "provider": "Near AI",
+    "configuration_name": "qwen3-8-27b-260814"
+  },
+  {
+    "phrase": "Weiter Frontalparetal",
+    "context": "irgendwie Einblutungen. Weiter Frontalparetal, keine Ahnung, Frontaltemporal, wollte ich sagen.",
+    "tags": [
+      "visual_search: description_of_medical_image_features"
+    ],
+    "rationale": "The speaker verbalizes the anatomical region being examined.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_no advice_cycle_25.txt",
+      "row": 34
+    },
+    "model": "qwen/qwen3.8-27b",
+    "provider": "Near AI",
+    "configuration_name": "qwen3-8-27b-260814"
+  },
+  {
+    "phrase": "keine Ahnung",
+    "context": "Weiter Frontalparetal, keine Ahnung, Frontaltemporal, wollte ich sagen.",
+    "tags": [
+      "confidence_low: concrete"
+    ],
+    "rationale": "Explicit expression of not knowing, indicating low certainty.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_no advice_cycle_25.txt",
+      "row": 34
+    },
+    "model": "qwen/qwen3.8-27b",
+    "provider": "Near AI",
+    "configuration_name": "qwen3-8-27b-260814"
+  },
+  {
+    "phrase": "Frontaltemporal, wollte ich sagen.",
+    "context": "keine Ahnung, Frontaltemporal, wollte ich sagen. Hmm, die ist so, glaub ich konvex, also eher Epidural.",
+    "tags": [
+      "visual_search: description_of_medical_image_features",
+      "reflection: self-correction"
+    ],
+    "rationale": "Names an anatomical region and corrects the previously stated location.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_no advice_cycle_25.txt",
+      "row": 34
+    },
+    "model": "qwen/qwen3.8-27b",
+    "provider": "Near AI",
+    "configuration_name": "qwen3-8-27b-260814"
+  },
+  {
+    "phrase": "Hmm",
+    "context": "wollte ich sagen. Hmm, die ist so, glaub ich konvex, also eher Epidural.",
+    "tags": [
+      "paused_in_process"
+    ],
+    "rationale": "Pure hesitation filler.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_no advice_cycle_25.txt",
+      "row": 34
+    },
+    "model": "qwen/qwen3.8-27b",
+    "provider": "Near AI",
+    "configuration_name": "qwen3-8-27b-260814"
+  },
+  {
+    "phrase": "die ist so, glaub ich konvex, also eher Epidural.",
+    "context": "Hmm, die ist so, glaub ich konvex, also eher Epidural. Drückt auf den Ventrikel und denke mir da hinten auch noch.",
+    "tags": [
+      "interpretation: description_bleeding",
+      "confidence_low: secondary"
+    ],
+    "rationale": "Describes the hemorrhage as convex and likely epidural, with hedging through 'glaub ich' and 'eher'.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_no advice_cycle_25.txt",
+      "row": 34
+    },
+    "model": "qwen/qwen3.8-27b",
+    "provider": "Near AI",
+    "configuration_name": "qwen3-8-27b-260814"
+  },
+  {
+    "phrase": "Drückt auf den Ventrikel und denke mir da hinten auch noch.",
+    "context": "also eher Epidural. Drückt auf den Ventrikel und denke mir da hinten auch noch. Da bin ich mir sehr sicher.",
+    "tags": [
+      "interpretation: description_bleeding",
+      "confidence_low: secondary"
+    ],
+    "rationale": "Describes mass effect and a possible additional location, with hedging through 'denke mir'.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_no advice_cycle_25.txt",
+      "row": 34
+    },
+    "model": "qwen/qwen3.8-27b",
+    "provider": "Near AI",
+    "configuration_name": "qwen3-8-27b-260814"
+  },
+  {
+    "phrase": "Da bin ich mir sehr sicher.",
+    "context": "denke mir da hinten auch noch. Da bin ich mir sehr sicher.",
+    "tags": [
+      "confidence_high: concrete"
+    ],
+    "rationale": "Explicit statement of high certainty.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_no advice_cycle_25.txt",
+      "row": 34
+    },
+    "model": "qwen/qwen3.8-27b",
+    "provider": "Near AI",
+    "configuration_name": "qwen3-8-27b-260814"
+  },
+  {
+    "phrase": "… Hier sehe ich, glaube ich, nichts auffälliges.",
+    "context": "… Hier sehe ich, glaube ich, nichts auffälliges. Ich hab sowieso das Gefühl",
+    "tags": [
+      "indicator: no_bleeding",
+      "confidence_low: secondary"
+    ],
+    "rationale": "The speaker assesses the current image area as unremarkable, and 'glaube ich' implicitly signals reduced certainty.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_no advice_cycle_25.txt",
+      "row": 33
+    },
+    "model": "qwen/qwen3.8-27b",
+    "provider": "DeepInfra",
+    "configuration_name": "qwen3-8-27b-260814"
+  },
+  {
+    "phrase": "Ich hab sowieso das Gefühl, das wir in der Uni, nur diese typischen Bilder von Epi- und Subduraler Blutung, sich einprägen kann.",
+    "context": "nichts auffälliges. Ich hab sowieso das Gefühl, das wir in der Uni, nur diese typischen Bilder von Epi- und Subduraler Blutung, sich einprägen kann. Ja",
+    "tags": [
+      "reflection: experience_limitation"
+    ],
+    "rationale": "The speaker refers to a perceived limitation of their training/experience, suggesting only typical images of epidural and subdural bleeding have been internalized.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_no advice_cycle_25.txt",
+      "row": 33
+    },
+    "model": "qwen/qwen3.8-27b",
+    "provider": "DeepInfra",
+    "configuration_name": "qwen3-8-27b-260814"
+  },
+  {
+    "phrase": "Ja das ist nichts.",
+    "context": "sich einprägen kann. Ja das ist nichts.",
+    "tags": [
+      "interpretation: no_bleeding"
+    ],
+    "rationale": "The speaker concludes that there is no relevant finding, interpreted in context as no hemorrhage.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_no advice_cycle_25.txt",
+      "row": 33
+    },
+    "model": "qwen/qwen3.8-27b",
+    "provider": "DeepInfra",
+    "configuration_name": "qwen3-8-27b-260814"
+  },
+  {
+    "phrase": "Ja rechts",
+    "context": "… Ja rechts, weiß ich nicht ob ich was sehe, oder nicht.",
+    "tags": [
+      "visual_search: description_of_medical_image_features"
+    ],
+    "rationale": "The speaker indicates the image region they are currently checking (right side).",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_no advice_cycle_25.txt",
+      "row": 36
+    },
+    "model": "qwen/qwen3.8-27b",
+    "provider": "AkashML",
+    "configuration_name": "qwen3-8-27b-260814"
+  },
+  {
+    "phrase": "weiß ich nicht ob ich was sehe, oder nicht.",
+    "context": "Ja rechts, weiß ich nicht ob ich was sehe, oder nicht. Ob das irgendwie normal ist oder nicht.",
+    "tags": [
+      "reflection: perceptual_doubt"
+    ],
+    "rationale": "The speaker doubts whether they can perceive a finding at all.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_no advice_cycle_25.txt",
+      "row": 36
+    },
+    "model": "qwen/qwen3.8-27b",
+    "provider": "AkashML",
+    "configuration_name": "qwen3-8-27b-260814"
+  },
+  {
+    "phrase": "Ob das irgendwie normal ist oder nicht.",
+    "context": "weiß ich nicht ob ich was sehe, oder nicht. Ob das irgendwie normal ist oder nicht. Ob das einfach ein Gyri",
+    "tags": [
+      "reflection: diagnostic_uncertainty"
+    ],
+    "rationale": "The speaker explicitly assesses whether the finding is normal or abnormal.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_no advice_cycle_25.txt",
+      "row": 36
+    },
+    "model": "qwen/qwen3.8-27b",
+    "provider": "AkashML",
+    "configuration_name": "qwen3-8-27b-260814"
+  },
+  {
+    "phrase": "Ob das einfach ein Gyri, die grade angeschnitten wurde.",
+    "context": "Ob das irgendwie normal ist oder nicht. Ob das einfach ein Gyri, die grade angeschnitten wurde. Das sieht",
+    "tags": [
+      "reasoning: alternative_medical_structure"
+    ],
+    "rationale": "The speaker attributes the appearance to a normal anatomical structure, a gyrus cut in section.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_no advice_cycle_25.txt",
+      "row": 36
+    },
+    "model": "qwen/qwen3.8-27b",
+    "provider": "AkashML",
+    "configuration_name": "qwen3-8-27b-260814"
+  },
+  {
+    "phrase": "Das sieht für mich so aus wie etwas Hyperdenses",
+    "context": "Ob das einfach ein Gyri, die grade angeschnitten wurde. Das sieht für mich so aus wie etwas Hyperdenses, aber ich vermute ist nichts.",
+    "tags": [
+      "indicator: anomaly_detected"
+    ],
+    "rationale": "The speaker notices a hyperdense area that could be an abnormal finding.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_no advice_cycle_25.txt",
+      "row": 36
+    },
+    "model": "qwen/qwen3.8-27b",
+    "provider": "AkashML",
+    "configuration_name": "qwen3-8-27b-260814"
+  },
+  {
+    "phrase": "aber ich vermute ist nichts.",
+    "context": "Das sieht für mich so aus wie etwas Hyperdenses, aber ich vermute ist nichts. Bin ich mir nicht so sicher",
+    "tags": [
+      "interpretation: no_bleeding"
+    ],
+    "rationale": "The speaker interprets the hyperdense appearance as not representing a hemorrhage or relevant finding.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_no advice_cycle_25.txt",
+      "row": 36
+    },
+    "model": "qwen/qwen3.8-27b",
+    "provider": "AkashML",
+    "configuration_name": "qwen3-8-27b-260814"
+  },
+  {
+    "phrase": "Bin ich mir nicht so sicher, aber ich glaube nicht.",
+    "context": "aber ich vermute ist nichts. Bin ich mir nicht so sicher, aber ich glaube nicht.",
+    "tags": [
+      "confidence_low: concrete"
+    ],
+    "rationale": "The speaker explicitly states low certainty about the interpretation.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_no advice_cycle_25.txt",
+      "row": 36
+    },
+    "model": "qwen/qwen3.8-27b",
+    "provider": "AkashML",
+    "configuration_name": "qwen3-8-27b-260814"
+  },
+  {
+    "phrase": "… Ähm",
+    "context": "… Ähm, hier finde wieder",
+    "tags": [
+      "paused_in_process"
+    ],
+    "rationale": "The segment is a pure filler sound before the diagnostic comment.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_no advice_cycle_25.txt",
+      "row": 43
+    },
+    "model": "qwen/qwen3.8-27b",
+    "provider": "DekaLLM",
+    "configuration_name": "qwen3-8-27b-260814"
+  },
+  {
+    "phrase": "hier finde wieder, irgendwie, die Gyri nicht mehr so deutlich.",
+    "context": "… Ähm, hier finde wieder, irgendwie, die Gyri nicht mehr so deutlich. Aber eigentlich beidseitig",
+    "tags": [
+      "visual_search: description_of_medical_image_features"
+    ],
+    "rationale": "The speaker verbalizes the gyri and their reduced distinctness while inspecting the image.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_no advice_cycle_25.txt",
+      "row": 43
+    },
+    "model": "qwen/qwen3.8-27b",
+    "provider": "DekaLLM",
+    "configuration_name": "qwen3-8-27b-260814"
+  },
+  {
+    "phrase": "Aber eigentlich beidseitig, Als wäre dazwischen eingeblutet.",
+    "context": "Aber eigentlich beidseitig, Als wäre dazwischen eingeblutet. Hier ist es besser",
+    "tags": [
+      "interpretation: bleeding"
+    ],
+    "rationale": "The speaker interprets the bilateral finding as if blood has entered the area, which is inferable as hemorrhage.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_no advice_cycle_25.txt",
+      "row": 43
+    },
+    "model": "qwen/qwen3.8-27b",
+    "provider": "DekaLLM",
+    "configuration_name": "qwen3-8-27b-260814"
+  },
+  {
+    "phrase": "Hier ist es besser, aber…",
+    "context": "Hier ist es besser, aber… Hier in der Ventrikel",
+    "tags": [
+      "other"
+    ],
+    "rationale": "This comparative remark does not clearly fit a specific diagnostic, search, or confidence code.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_no advice_cycle_25.txt",
+      "row": 43
+    },
+    "model": "qwen/qwen3.8-27b",
+    "provider": "DekaLLM",
+    "configuration_name": "qwen3-8-27b-260814"
+  },
+  {
+    "phrase": "Hier in der Ventrikel, ist es auch nicht symmetrisch zur Gegenseite.",
+    "context": "Hier in der Ventrikel, ist es auch nicht symmetrisch zur Gegenseite. Ziemlich eng da alles",
+    "tags": [
+      "indicator: anomaly_detected"
+    ],
+    "rationale": "The speaker notices asymmetry in the ventricle, an abnormality relative to the contralateral side.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_no advice_cycle_25.txt",
+      "row": 43
+    },
+    "model": "qwen/qwen3.8-27b",
+    "provider": "DekaLLM",
+    "configuration_name": "qwen3-8-27b-260814"
+  },
+  {
+    "phrase": "Ziemlich eng da alles.",
+    "context": "Ziemlich eng da alles. Ich glaub schon.",
+    "tags": [
+      "visual_search: description_of_medical_image_features"
+    ],
+    "rationale": "The speaker describes an image characteristic, namely that the area appears tight or crowded.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_no advice_cycle_25.txt",
+      "row": 43
+    },
+    "model": "qwen/qwen3.8-27b",
+    "provider": "DekaLLM",
+    "configuration_name": "qwen3-8-27b-260814"
+  },
+  {
+    "phrase": "Ich glaub schon.",
+    "context": "Hier in der Ventrikel, ist es auch nicht symmetrisch zur Gegenseite. Ziemlich eng da alles. Ich glaub schon.",
+    "tags": [
+      "confidence_low: secondary"
+    ],
+    "rationale": "The speaker implicitly expresses low certainty by saying they think so.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_no advice_cycle_25.txt",
+      "row": 43
+    },
+    "model": "qwen/qwen3.8-27b",
+    "provider": "DekaLLM",
+    "configuration_name": "qwen3-8-27b-260814"
+  },
+  {
+    "phrase": "Da bin ich mir unsicher, wieder ob das vom Knochen ist oder nicht.",
+    "context": "… Da bin ich mir unsicher, wieder ob das vom Knochen ist oder nicht. Das…",
+    "tags": [
+      "reflection: diagnostic_uncertainty"
+    ],
+    "rationale": "The speaker explicitly states uncertainty about whether the finding is from bone, reflecting diagnostic uncertainty about classifying the finding.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_no advice_cycle_25.txt",
+      "row": 42
+    },
+    "model": "qwen/qwen3.8-27b",
+    "provider": "AkashML",
+    "configuration_name": "qwen3-8-27b-260814"
+  },
+  {
+    "phrase": "Das…Gefäß…",
+    "context": "ob das vom Knochen ist oder nicht. Das…Gefäß… Ich glaube nicht.",
+    "tags": [
+      "visual_search: description_of_medical_image_features"
+    ],
+    "rationale": "The fragment names a vessel, indicating the speaker is attending to or checking that anatomical structure in the image.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_no advice_cycle_25.txt",
+      "row": 42
+    },
+    "model": "qwen/qwen3.8-27b",
+    "provider": "AkashML",
+    "configuration_name": "qwen3-8-27b-260814"
+  },
+  {
+    "phrase": "Ich glaube nicht.",
+    "context": "Das…Gefäß… Ich glaube nicht.",
+    "tags": [
+      "confidence_low: secondary"
+    ],
+    "rationale": "The hedged negative judgment 'I don't think so' implicitly signals low certainty.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_no advice_cycle_25.txt",
+      "row": 42
+    },
+    "model": "qwen/qwen3.8-27b",
+    "provider": "AkashML",
+    "configuration_name": "qwen3-8-27b-260814"
+  },
+  {
+    "phrase": "Da sehe ich nichts auffälliges.",
+    "context": "… Da sehe ich nichts auffälliges.",
+    "tags": [
+      "indicator: no_bleeding"
+    ],
+    "rationale": "The speaker explicitly states that in the indicated image area nothing remarkable is seen, classifying that area as unremarkable.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_no advice_cycle_25.txt",
+      "row": 47
+    },
+    "model": "qwen/qwen3.8-27b",
+    "provider": "Ionstream",
+    "configuration_name": "qwen3-8-27b-260814"
+  },
+  {
+    "phrase": "… Hmm,",
+    "context": "… Hmm, glaube",
+    "tags": [
+      "paused_in_process"
+    ],
+    "rationale": "This is a filler/pause rather than a diagnostic statement.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_no advice_cycle_25.txt",
+      "row": 44
+    },
+    "model": "qwen/qwen3.8-27b",
+    "provider": "Reka",
+    "configuration_name": "qwen3-8-27b-260814"
+  },
+  {
+    "phrase": "glaube ist nichts.",
+    "context": "Hmm, glaube ist nichts.",
+    "tags": [
+      "interpretation: no_bleeding",
+      "confidence_low: secondary"
+    ],
+    "rationale": "The person interprets the finding as 'nothing' / no hemorrhage, while 'glaube' implicitly signals low certainty.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_no advice_cycle_25.txt",
+      "row": 44
+    },
+    "model": "qwen/qwen3.8-27b",
+    "provider": "Reka",
+    "configuration_name": "qwen3-8-27b-260814"
+  },
+  {
+    "phrase": "… Hmm, ich finde, hier hm.",
+    "context": "… Hmm, ich finde, hier hm. Dieses Gefühl",
+    "tags": [
+      "paused_in_process"
+    ],
+    "rationale": "The segment consists mainly of hesitant filler words and an incomplete utterance, indicating a pause in the process.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_no advice_cycle_25.txt",
+      "row": 46
+    },
+    "model": "qwen/qwen3.8-27b",
+    "provider": "DekaLLM",
+    "configuration_name": "qwen3-8-27b-260814"
+  },
+  {
+    "phrase": "Dieses Gefühl das ich da, rechts die Gyri besser eingrenzen kann, besser sehen kann als links.",
+    "context": "hier hm. Dieses Gefühl das ich da, rechts die Gyri besser eingrenzen kann, besser sehen kann als links. Nicht so sicher",
+    "tags": [
+      "visual_search: description_of_medical_image_features"
+    ],
+    "rationale": "The person verbalizes the anatomical structures they are currently looking at, namely the gyri, and compares their visibility on the right and left side.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_no advice_cycle_25.txt",
+      "row": 46
+    },
+    "model": "qwen/qwen3.8-27b",
+    "provider": "DekaLLM",
+    "configuration_name": "qwen3-8-27b-260814"
+  },
+  {
+    "phrase": "Nicht so sicher, aber hier so.",
+    "context": "als links. Nicht so sicher, aber hier so. Das macht…",
+    "tags": [
+      "confidence_low: concrete"
+    ],
+    "rationale": "The person explicitly expresses low certainty with the phrase 'Nicht so sicher'.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_no advice_cycle_25.txt",
+      "row": 46
+    },
+    "model": "qwen/qwen3.8-27b",
+    "provider": "DekaLLM",
+    "configuration_name": "qwen3-8-27b-260814"
+  },
+  {
+    "phrase": "Das macht…",
+    "context": "aber hier so. Das macht… Ich sag",
+    "tags": [
+      "paused_in_process"
+    ],
+    "rationale": "This is an incomplete utterance functioning as a pause or filler in the ongoing process.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_no advice_cycle_25.txt",
+      "row": 46
+    },
+    "model": "qwen/qwen3.8-27b",
+    "provider": "DekaLLM",
+    "configuration_name": "qwen3-8-27b-260814"
+  },
+  {
+    "phrase": "Ich sag sehr unsicher, ja.",
+    "context": "Das macht… Ich sag sehr unsicher, ja.",
+    "tags": [
+      "confidence_low: concrete"
+    ],
+    "rationale": "The person explicitly states that they are very uncertain, directly expressing low confidence.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_no advice_cycle_25.txt",
+      "row": 46
+    },
+    "model": "qwen/qwen3.8-27b",
+    "provider": "DekaLLM",
+    "configuration_name": "qwen3-8-27b-260814"
+  },
+  {
+    "phrase": "So, das sieht schon, anders aus, also ja.",
+    "context": "So, das sieht schon, anders aus, also ja. Der rechte sieht da anders aus.",
+    "tags": [
+      "indicator: anomaly_detected"
+    ],
+    "rationale": "The person notices that the image looks different, indicating an abnormality.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_no advice_cycle_25.txt",
+      "row": 40
+    },
+    "model": "qwen/qwen3.8-27b",
+    "provider": "Parasail",
+    "configuration_name": "qwen3-8-27b-260814"
+  },
+  {
+    "phrase": "Der rechte sieht da anders aus.",
+    "context": "So, das sieht schon, anders aus, also ja. Der rechte sieht da anders aus. Hmm, das sieht auffällig aus…",
+    "tags": [
+      "indicator: anomaly_detected"
+    ],
+    "rationale": "The person identifies the right side as looking different, which is an abnormality.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_no advice_cycle_25.txt",
+      "row": 40
+    },
+    "model": "qwen/qwen3.8-27b",
+    "provider": "Parasail",
+    "configuration_name": "qwen3-8-27b-260814"
+  },
+  {
+    "phrase": "Hmm, das sieht auffällig aus…",
+    "context": "Der rechte sieht da anders aus. Hmm, das sieht auffällig aus… Aber ansonsten sehe ich eigentlich nichts.",
+    "tags": [
+      "indicator: anomaly_detected"
+    ],
+    "rationale": "The person explicitly describes the finding as conspicuous.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_no advice_cycle_25.txt",
+      "row": 40
+    },
+    "model": "qwen/qwen3.8-27b",
+    "provider": "Parasail",
+    "configuration_name": "qwen3-8-27b-260814"
+  },
+  {
+    "phrase": "Aber ansonsten sehe ich eigentlich nichts.",
+    "context": "Hmm, das sieht auffällig aus… Aber ansonsten sehe ich eigentlich nichts. Hm, ne ich weiß nicht genau.",
+    "tags": [
+      "indicator: no_bleeding",
+      "confidence_low: secondary"
+    ],
+    "rationale": "The person classifies the remaining image area as unremarkable, while 'eigentlich' implicitly expresses low certainty.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_no advice_cycle_25.txt",
+      "row": 40
+    },
+    "model": "qwen/qwen3.8-27b",
+    "provider": "Parasail",
+    "configuration_name": "qwen3-8-27b-260814"
+  },
+  {
+    "phrase": "Hm, ne ich weiß nicht genau.",
+    "context": "Aber ansonsten sehe ich eigentlich nichts. Hm, ne ich weiß nicht genau. Aber ich glaub schon, dass das was ist.",
+    "tags": [
+      "confidence_low: concrete"
+    ],
+    "rationale": "The person explicitly expresses low certainty about the diagnostic process.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_no advice_cycle_25.txt",
+      "row": 40
+    },
+    "model": "qwen/qwen3.8-27b",
+    "provider": "Parasail",
+    "configuration_name": "qwen3-8-27b-260814"
+  },
+  {
+    "phrase": "Aber ich glaub schon, dass das was ist.",
+    "context": "Hm, ne ich weiß nicht genau. Aber ich glaub schon, dass das was ist. Obwohl hier schon wieder normal aussieht",
+    "tags": [
+      "confidence_high: secondary"
+    ],
+    "rationale": "The person implicitly expresses high certainty by saying they believe there is something.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_no advice_cycle_25.txt",
+      "row": 40
+    },
+    "model": "qwen/qwen3.8-27b",
+    "provider": "Parasail",
+    "configuration_name": "qwen3-8-27b-260814"
+  },
+  {
+    "phrase": "Obwohl hier schon wieder normal aussieht, aber ich glaub schon.",
+    "context": "Aber ich glaub schon, dass das was ist. Obwohl hier schon wieder normal aussieht, aber ich glaub schon.",
+    "tags": [
+      "reflection: diagnostic_uncertainty"
+    ],
+    "rationale": "The person weighs that the area looks normal again but still believes there is something, reflecting uncertainty about classification.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_no advice_cycle_25.txt",
+      "row": 40
+    },
+    "model": "qwen/qwen3.8-27b",
+    "provider": "Parasail",
+    "configuration_name": "qwen3-8-27b-260814"
+  },
+  {
+    "phrase": "Hier ist die Mittellinie ein bisschen gebogen, sieht so aus zumindest.",
+    "context": "… Hier ist die Mittellinie ein bisschen gebogen, sieht so aus zumindest. Ist aber normal",
+    "tags": [
+      "indicator: anomaly_detected"
+    ],
+    "rationale": "The speaker notices a deviation of the midline, which is an atypical finding.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_no advice_cycle_25.txt",
+      "row": 41
+    },
+    "model": "qwen/qwen3.8-27b",
+    "provider": "Parasail",
+    "configuration_name": "qwen3-8-27b-260814"
+  },
+  {
+    "phrase": "Ist aber normal, hm…",
+    "context": "sieht so aus zumindest. Ist aber normal, hm…, Ich weiß nicht",
+    "tags": [
+      "indicator: no_bleeding",
+      "paused_in_process"
+    ],
+    "rationale": "The speaker classifies the finding as unremarkable/normal, and 'hm…' is a filler pause.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_no advice_cycle_25.txt",
+      "row": 41
+    },
+    "model": "qwen/qwen3.8-27b",
+    "provider": "Parasail",
+    "configuration_name": "qwen3-8-27b-260814"
+  },
+  {
+    "phrase": "Ich weiß nicht ob ich mir das einbilde, aber das sieht so ein bisschen Hyperdens aus hier.",
+    "context": "Ist aber normal, hm…, Ich weiß nicht ob ich mir das einbilde, aber das sieht so ein bisschen Hyperdens aus hier. Ja schon.",
+    "tags": [
+      "reflection: perceptual_doubt"
+    ],
+    "rationale": "The speaker explicitly doubts whether the perceived hyperdensity is real or imagined.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_no advice_cycle_25.txt",
+      "row": 41
+    },
+    "model": "qwen/qwen3.8-27b",
+    "provider": "Parasail",
+    "configuration_name": "qwen3-8-27b-260814"
+  },
+  {
+    "phrase": "Ja schon. Ich sag ja.",
+    "context": "Hyperdens aus hier. Ja schon. Ich sag ja.",
+    "tags": [
+      "reflection: self-affirmation"
+    ],
+    "rationale": "The speaker reaffirms their own observation.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_no advice_cycle_25.txt",
+      "row": 41
+    },
+    "model": "qwen/qwen3.8-27b",
+    "provider": "Parasail",
+    "configuration_name": "qwen3-8-27b-260814"
+  },
+  {
+    "phrase": "Ich finde hier die Ventrikel",
+    "context": "… Ich finde hier die Ventrikel, irgendwie schlecht zu erkennen",
+    "tags": [
+      "visual_search: description_of_medical_image_features"
+    ],
+    "rationale": "The speaker verbalizes that they are currently looking at the ventricles.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_no advice_cycle_25.txt",
+      "row": 45
+    },
+    "model": "qwen/qwen3.8-27b",
+    "provider": "Chutes",
+    "configuration_name": "qwen3-8-27b-260814"
+  },
+  {
+    "phrase": "irgendwie schlecht zu erkennen",
+    "context": "Ventrikel, irgendwie schlecht zu erkennen, ich weiß nicht",
+    "tags": [
+      "awareness_of_task: image_quality"
+    ],
+    "rationale": "The speaker explicitly complains that the structure is hard to recognize, which is attributed to image visibility/quality.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_no advice_cycle_25.txt",
+      "row": 45
+    },
+    "model": "qwen/qwen3.8-27b",
+    "provider": "Chutes",
+    "configuration_name": "qwen3-8-27b-260814"
+  },
+  {
+    "phrase": "ich weiß nicht, ob das bei Kindern normal ist",
+    "context": "irgendwie schlecht zu erkennen, ich weiß nicht, ob das bei Kindern normal ist. Das sieht so eng aus",
+    "tags": [
+      "reflection: diagnostic_uncertainty"
+    ],
+    "rationale": "The speaker is uncertain whether the observed finding is normal in children.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_no advice_cycle_25.txt",
+      "row": 45
+    },
+    "model": "qwen/qwen3.8-27b",
+    "provider": "Chutes",
+    "configuration_name": "qwen3-8-27b-260814"
+  },
+  {
+    "phrase": "Das sieht so eng aus, irgendwie.",
+    "context": "ich weiß nicht, ob das bei Kindern normal ist. Das sieht so eng aus, irgendwie. Ansonsten",
+    "tags": [
+      "visual_search: description_of_medical_image_features"
+    ],
+    "rationale": "The speaker describes an image characteristic, namely that the appearance looks narrow.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_no advice_cycle_25.txt",
+      "row": 45
+    },
+    "model": "qwen/qwen3.8-27b",
+    "provider": "Chutes",
+    "configuration_name": "qwen3-8-27b-260814"
+  },
+  {
+    "phrase": "sehe ich sonst keine Epi- oder Subdurale Blutung",
+    "context": "Ansonsten, sehe ich sonst keine Epi- oder Subdurale Blutung, aber ich finde das schon komisch.",
+    "tags": [
+      "interpretation: no_bleeding"
+    ],
+    "rationale": "The speaker interprets the image as not showing epidural or subdural bleeding.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_no advice_cycle_25.txt",
+      "row": 45
+    },
+    "model": "qwen/qwen3.8-27b",
+    "provider": "Chutes",
+    "configuration_name": "qwen3-8-27b-260814"
+  },
+  {
+    "phrase": "aber ich finde das schon komisch",
+    "context": "keine Epi- oder Subdurale Blutung, aber ich finde das schon komisch. Ich glaube schon",
+    "tags": [
+      "reflection: diagnostic_uncertainty"
+    ],
+    "rationale": "The speaker reflects that something seems odd, indicating uncertainty about whether the finding is normal or abnormal.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_no advice_cycle_25.txt",
+      "row": 45
+    },
+    "model": "qwen/qwen3.8-27b",
+    "provider": "Chutes",
+    "configuration_name": "qwen3-8-27b-260814"
+  },
+  {
+    "phrase": "Ich glaube schon, ich bin mir  nicht so sicher, glaube ja.",
+    "context": "aber ich finde das schon komisch. Ich glaube schon, ich bin mir  nicht so sicher, glaube ja.",
+    "tags": [
+      "confidence_low: concrete"
+    ],
+    "rationale": "The speaker explicitly expresses low certainty about their diagnostic judgment.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_no advice_cycle_25.txt",
+      "row": 45
+    },
+    "model": "qwen/qwen3.8-27b",
+    "provider": "Chutes",
+    "configuration_name": "qwen3-8-27b-260814"
+  },
+  {
+    "phrase": "Hm, das finde ich schon ein bisschen auffällig da.",
+    "context": "Hm, das finde ich schon ein bisschen auffällig da. Mhm, würde auch zu plötzlichen Kopfschmerzen passen.",
+    "tags": [
+      "indicator: anomaly_detected"
+    ],
+    "rationale": "The speaker identifies an abnormality in the image that is atypical for a healthy skull.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_no advice_cycle_25.txt",
+      "row": 49
+    },
+    "model": "qwen/qwen3.8-27b",
+    "provider": "Alibaba",
+    "configuration_name": "qwen3-8-27b-260814"
+  },
+  {
+    "phrase": "Mhm, würde auch zu plötzlichen Kopfschmerzen passen.",
+    "context": "Hm, das finde ich schon ein bisschen auffällig da. Mhm, würde auch zu plötzlichen Kopfschmerzen passen. Man muss gucken, ob die Person Nackensteifigkeit? hat.",
+    "tags": [
+      "reasoning: conclusion_contextual_information"
+    ],
+    "rationale": "The speaker connects the observed findings with the patient's medical history (sudden headaches).",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_no advice_cycle_25.txt",
+      "row": 49
+    },
+    "model": "qwen/qwen3.8-27b",
+    "provider": "Alibaba",
+    "configuration_name": "qwen3-8-27b-260814"
+  },
+  {
+    "phrase": "Man muss gucken, ob die Person Nackensteifigkeit? hat.",
+    "context": "Mhm, würde auch zu plötzlichen Kopfschmerzen passen. Man muss gucken, ob die Person Nackensteifigkeit? hat. Aber ich glaube schon, dass das da eine Blutung ist.",
+    "tags": [
+      "control: missing_information"
+    ],
+    "rationale": "The speaker indicates a need for more clinical information (neck stiffness) to support the diagnosis.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_no advice_cycle_25.txt",
+      "row": 49
+    },
+    "model": "qwen/qwen3.8-27b",
+    "provider": "Alibaba",
+    "configuration_name": "qwen3-8-27b-260814"
+  },
+  {
+    "phrase": "Aber ich glaube schon, dass das da eine Blutung ist.",
+    "context": "Man muss gucken, ob die Person Nackensteifigkeit? hat. Aber ich glaube schon, dass das da eine Blutung ist. Ja, hier.",
+    "tags": [
+      "interpretation: bleeding",
+      "confidence_high: secondary"
+    ],
+    "rationale": "The speaker interprets the finding as a hemorrhage and expresses high certainty through the phrasing 'ich glaube schon' (I believe quite a bit).",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_no advice_cycle_25.txt",
+      "row": 49
+    },
+    "model": "qwen/qwen3.8-27b",
+    "provider": "Alibaba",
+    "configuration_name": "qwen3-8-27b-260814"
+  },
+  {
+    "error": "JSONDecodeError",
+    "message": "Expecting value: line 1 column 1 (char 0)",
+    "raw_output": "",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_no advice_cycle_25.txt",
+      "row": 48
+    },
+    "model": "qwen/qwen3.8-27b",
+    "provider": "Modal",
+    "configuration_name": "qwen3-8-27b-260814"
+  },
+  {
+    "phrase": "Wieviel Zeit habe ich nochmal?",
+    "context": "Wieviel Zeit habe ich nochmal? EXPERIMENTER: Also, eine direkte Begrenzung gibt es nicht.",
+    "tags": [
+      "technical_conversation"
+    ],
+    "rationale": "The participant asks the experimenter about the time/task situation rather than about the diagnostic content.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_no advice_cycle_25.txt",
+      "row": 30
+    },
+    "model": "qwen/qwen3.8-27b",
+    "provider": "Reka",
+    "configuration_name": "qwen3-8-27b-260814"
+  },
+  {
+    "phrase": "So, jetzt achte ich hier nochmal auf die Seitenunterschiede und Knochen, Mittellinie.",
+    "context": "VPN: So, jetzt achte ich hier nochmal auf die Seitenunterschiede und Knochen, Mittellinie. Also direkt ist mir jetzt noch nichts aufgefallen.",
+    "tags": [
+      "visual_search: description_of_medical_image_features"
+    ],
+    "rationale": "The participant verbalizes which anatomical structures and image features they are currently checking.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_no advice_cycle_25.txt",
+      "row": 30
+    },
+    "model": "qwen/qwen3.8-27b",
+    "provider": "Reka",
+    "configuration_name": "qwen3-8-27b-260814"
+  },
+  {
+    "phrase": "Also direkt ist mir jetzt noch nichts aufgefallen.",
+    "context": "Mittellinie. Also direkt ist mir jetzt noch nichts aufgefallen. Ob das hier eine Mittellinienverlagerung gibt oder nicht, weiß ich grad nicht.",
+    "tags": [
+      "indicator: no_bleeding"
+    ],
+    "rationale": "The participant classifies the currently viewed area as unremarkable because nothing abnormal has been noticed.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_no advice_cycle_25.txt",
+      "row": 30
+    },
+    "model": "qwen/qwen3.8-27b",
+    "provider": "Reka",
+    "configuration_name": "qwen3-8-27b-260814"
+  },
+  {
+    "phrase": "Ob das hier eine Mittellinienverlagerung gibt oder nicht, weiß ich grad nicht.",
+    "context": "nichts aufgefallen. Ob das hier eine Mittellinienverlagerung gibt oder nicht, weiß ich grad nicht. Hinten... hm, ich glaub nicht.",
+    "tags": [
+      "reflection: diagnostic_uncertainty"
+    ],
+    "rationale": "The participant is uncertain whether a midline shift is present and cannot assign the finding.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_no advice_cycle_25.txt",
+      "row": 30
+    },
+    "model": "qwen/qwen3.8-27b",
+    "provider": "Reka",
+    "configuration_name": "qwen3-8-27b-260814"
+  },
+  {
+    "phrase": "Hinten... hm, ich glaub nicht.",
+    "context": "weiß ich grad nicht. Hinten... hm, ich glaub nicht. Ich bin mir aber nicht so sicher ob das Ventrikel hier so eingeengt ist",
+    "tags": [
+      "confidence_low: secondary"
+    ],
+    "rationale": "The tentative formulation 'ich glaub nicht' implicitly signals low certainty.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_no advice_cycle_25.txt",
+      "row": 30
+    },
+    "model": "qwen/qwen3.8-27b",
+    "provider": "Reka",
+    "configuration_name": "qwen3-8-27b-260814"
+  },
+  {
+    "phrase": "Ich bin mir aber nicht so sicher ob das Ventrikel hier so eingeengt ist, oder, also sieht so zumindest bei dem Anschnitt anders aus, als auf der Gegenseite.",
+    "context": "ich glaub nicht. Ich bin mir aber nicht so sicher ob das Ventrikel hier so eingeengt ist, oder, also sieht so zumindest bei dem Anschnitt anders aus, als auf der Gegenseite. Eine Sichel sehe ich jetzt nicht grade",
+    "tags": [
+      "reflection: diagnostic_uncertainty"
+    ],
+    "rationale": "The participant is uncertain whether the ventricle is narrowed and compares the two sides.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_no advice_cycle_25.txt",
+      "row": 30
+    },
+    "model": "qwen/qwen3.8-27b",
+    "provider": "Reka",
+    "configuration_name": "qwen3-8-27b-260814"
+  },
+  {
+    "phrase": "Eine Sichel sehe ich jetzt nicht grade",
+    "context": "Gegenseite. Eine Sichel sehe ich jetzt nicht grade, aber ich könnte einfach mal den Schnitt den ich hier sehe",
+    "tags": [
+      "visual_search: description_of_medical_image_features"
+    ],
+    "rationale": "The participant names the falx as the anatomical structure currently being checked.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_no advice_cycle_25.txt",
+      "row": 30
+    },
+    "model": "qwen/qwen3.8-27b",
+    "provider": "Reka",
+    "configuration_name": "qwen3-8-27b-260814"
+  },
+  {
+    "phrase": "aber ich könnte einfach mal den Schnitt den ich hier sehe, also wenn ich hier scrolle, dann sieht das gleich aus.",
+    "context": "Eine Sichel sehe ich jetzt nicht grade, aber ich könnte einfach mal den Schnitt den ich hier sehe, also wenn ich hier scrolle, dann sieht das gleich aus. Deswegen sage ich mal jetzt nicht so confident, das ist nichts",
+    "tags": [
+      "visual_search: description_of_own_approach_without_external_help"
+    ],
+    "rationale": "The participant explicitly comments on their own search procedure by scrolling through slices.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_no advice_cycle_25.txt",
+      "row": 30
+    },
+    "model": "qwen/qwen3.8-27b",
+    "provider": "Reka",
+    "configuration_name": "qwen3-8-27b-260814"
+  },
+  {
+    "phrase": "Deswegen sage ich mal jetzt nicht so confident",
+    "context": "dann sieht das gleich aus. Deswegen sage ich mal jetzt nicht so confident, das ist nichts",
+    "tags": [
+      "confidence_low: concrete"
+    ],
+    "rationale": "The participant explicitly expresses low confidence in the current assessment.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_no advice_cycle_25.txt",
+      "row": 30
+    },
+    "model": "qwen/qwen3.8-27b",
+    "provider": "Reka",
+    "configuration_name": "qwen3-8-27b-260814"
+  },
+  {
+    "phrase": "das ist nichts",
+    "context": "Deswegen sage ich mal jetzt nicht so confident, das ist nichts",
+    "tags": [
+      "interpretation: no_bleeding"
+    ],
+    "rationale": "The participant concludes that the finding is nothing, interpreted in context as no hemorrhage.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_no advice_cycle_25.txt",
+      "row": 30
+    },
+    "model": "qwen/qwen3.8-27b",
+    "provider": "Reka",
+    "configuration_name": "qwen3-8-27b-260814"
+  },
+  {
+    "phrase": "Kann man das irgendwie größer machen? Das ist voll klein.",
+    "context": "Kann man das irgendwie größer machen? Das ist voll klein. EXPERIMENTER: Ähm, du kannstmal auf die drei Punkte oben rechts in dem Browser klicken",
+    "tags": [
+      "technical_conversation"
+    ],
+    "rationale": "The speaker asks to enlarge the display and complains that it is too small, which is a technical display issue.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_no advice_cycle_25.txt",
+      "row": 1
+    },
+    "model": "qwen/qwen3.8-27b",
+    "provider": "AkashML",
+    "configuration_name": "qwen3-8-27b-260814"
+  },
+  {
+    "phrase": "Also hier?",
+    "context": "VPN: Also hier? EXPERIMENTER: Ja, genau.",
+    "tags": [
+      "technical_conversation"
+    ],
+    "rationale": "The speaker asks for clarification about the technical action to be performed.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_no advice_cycle_25.txt",
+      "row": 1
+    },
+    "model": "qwen/qwen3.8-27b",
+    "provider": "AkashML",
+    "configuration_name": "qwen3-8-27b-260814"
+  },
+  {
+    "phrase": "Okay, dann sehe ich das hier nicht so gut.",
+    "context": "VPN: Okay, dann sehe ich das hier nicht so gut. EXPERIMENTER: Ja nee, also auf Minus beim Zoomen",
+    "tags": [
+      "technical_conversation"
+    ],
+    "rationale": "The speaker reports a visibility problem caused by the current display or zoom setting.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_no advice_cycle_25.txt",
+      "row": 1
+    },
+    "model": "qwen/qwen3.8-27b",
+    "provider": "AkashML",
+    "configuration_name": "qwen3-8-27b-260814"
+  },
+  {
+    "phrase": "Okay,... so ich scrolle jetzt mal kurz runter und hoch.",
+    "context": "VPN: Okay,... so ich scrolle jetzt mal kurz runter und hoch. Ja, jetzt sehe ich hier rechts",
+    "tags": [
+      "visual_search: description_of_own_approach_without_external_help"
+    ],
+    "rationale": "The speaker explicitly describes their own scrolling procedure to adjust the view.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_no advice_cycle_25.txt",
+      "row": 1
+    },
+    "model": "qwen/qwen3.8-27b",
+    "provider": "AkashML",
+    "configuration_name": "qwen3-8-27b-260814"
+  },
+  {
+    "phrase": "Ja, jetzt sehe ich hier rechts, ähm, so ein bisschen sichelförmige, also glaube ich zu meinen, als sichelförmige, wie heißt das, ja ich glaub Flüssigkeitsansammlungen.",
+    "context": "Ja, jetzt sehe ich hier rechts, ähm, so ein bisschen sichelförmige, also glaube ich zu meinen, als sichelförmige, wie heißt das, ja ich glaub Flüssigkeitsansammlungen. Ähm, ja eher Frontoparietal",
+    "tags": [
+      "indicator: anomaly_detected",
+      "confidence_low: secondary"
+    ],
+    "rationale": "The speaker notices an atypical crescent-shaped fluid collection and hedges with 'glaub', indicating implicit low certainty.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_no advice_cycle_25.txt",
+      "row": 1
+    },
+    "model": "qwen/qwen3.8-27b",
+    "provider": "AkashML",
+    "configuration_name": "qwen3-8-27b-260814"
+  },
+  {
+    "phrase": "Ähm, ja eher Frontoparietal, oder so, meine ich.",
+    "context": "Ähm, ja eher Frontoparietal, oder so, meine ich. Hmm, ja also ganz dünn",
+    "tags": [
+      "confidence_low: secondary"
+    ],
+    "rationale": "The speaker hedges the localization with 'eher', 'oder so', and 'meine ich', showing implicit low certainty.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_no advice_cycle_25.txt",
+      "row": 1
+    },
+    "model": "qwen/qwen3.8-27b",
+    "provider": "AkashML",
+    "configuration_name": "qwen3-8-27b-260814"
+  },
+  {
+    "phrase": "Hmm, ja also ganz dünn, aber ich würd schon sagen ja.",
+    "context": "Hmm, ja also ganz dünn, aber ich würd schon sagen ja. Ich bin eher, also ich denke das ich sicherer bin als davor",
+    "tags": [
+      "reasoning: conclusion_findings"
+    ],
+    "rationale": "The speaker draws an affirmative conclusion from the observed thin crescent-shaped finding.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_no advice_cycle_25.txt",
+      "row": 1
+    },
+    "model": "qwen/qwen3.8-27b",
+    "provider": "AkashML",
+    "configuration_name": "qwen3-8-27b-260814"
+  },
+  {
+    "phrase": "Ich bin eher, also ich denke das ich sicherer bin als davor... Naja doch.",
+    "context": "Ich bin eher, also ich denke das ich sicherer bin als davor... Naja doch.",
+    "tags": [
+      "reflection: self-monitoring"
+    ],
+    "rationale": "The speaker explicitly comments on their own diagnostic certainty compared with the previous moment.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_no advice_cycle_25.txt",
+      "row": 1
+    },
+    "model": "qwen/qwen3.8-27b",
+    "provider": "AkashML",
+    "configuration_name": "qwen3-8-27b-260814"
+  },
+  {
+    "phrase": "Und jetzt steht da Hypertension und Kopfschmerzen.",
+    "context": "… Und jetzt steht da Hypertension und Kopfschmerzen. Ich bin mir da nicht so sicher",
+    "tags": [
+      "reasoning: mentioning_contextual_information"
+    ],
+    "rationale": "The speaker mentions patient-related contextual information (hypertension and headache).",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_no advice_cycle_25.txt",
+      "row": 39
+    },
+    "model": "qwen/qwen3.8-27b",
+    "provider": "DeepInfra",
+    "configuration_name": "qwen3-8-27b-260814"
+  },
+  {
+    "phrase": "Ich bin mir da nicht so sicher ob ich was interessantes sehen würde. ?.",
+    "context": "Kopfschmerzen. Ich bin mir da nicht so sicher ob ich was interessantes sehen würde. ?. Weil",
+    "tags": [
+      "confidence_low: concrete"
+    ],
+    "rationale": "The speaker explicitly expresses uncertainty about being able to see a relevant finding.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_no advice_cycle_25.txt",
+      "row": 39
+    },
+    "model": "qwen/qwen3.8-27b",
+    "provider": "DeepInfra",
+    "configuration_name": "qwen3-8-27b-260814"
+  },
+  {
+    "phrase": "Weil es so klein ist.",
+    "context": "würde. ?. Weil es so klein ist. Könnte sein.",
+    "tags": [
+      "awareness_of_task: image_quality"
+    ],
+    "rationale": "The speaker attributes the uncertainty to the small size of the image/area, i.e. an image-related limitation.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_no advice_cycle_25.txt",
+      "row": 39
+    },
+    "model": "qwen/qwen3.8-27b",
+    "provider": "DeepInfra",
+    "configuration_name": "qwen3-8-27b-260814"
+  },
+  {
+    "phrase": "Könnte sein.",
+    "context": "klein ist. Könnte sein. Ich weiß nicht genau",
+    "tags": [
+      "confidence_low: secondary"
+    ],
+    "rationale": "The tentative formulation implicitly signals low certainty.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_no advice_cycle_25.txt",
+      "row": 39
+    },
+    "model": "qwen/qwen3.8-27b",
+    "provider": "DeepInfra",
+    "configuration_name": "qwen3-8-27b-260814"
+  },
+  {
+    "phrase": "Ich weiß nicht genau, sehr ungewiss?.",
+    "context": "Könnte sein. Ich weiß nicht genau, sehr ungewiss?. Hm, das finde",
+    "tags": [
+      "confidence_low: concrete"
+    ],
+    "rationale": "The speaker explicitly states that they do not know exactly and are very uncertain.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_no advice_cycle_25.txt",
+      "row": 39
+    },
+    "model": "qwen/qwen3.8-27b",
+    "provider": "DeepInfra",
+    "configuration_name": "qwen3-8-27b-260814"
+  },
+  {
+    "phrase": "Hm, das finde ich hier schwer zu beurteilen.",
+    "context": "sehr ungewiss?. Hm, das finde ich hier schwer zu beurteilen. Das hier",
+    "tags": [
+      "awareness_of_task: difficult",
+      "paused_in_process"
+    ],
+    "rationale": "The speaker perceives judging this area as difficult; “Hm” functions as a filler.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_no advice_cycle_25.txt",
+      "row": 39
+    },
+    "model": "qwen/qwen3.8-27b",
+    "provider": "DeepInfra",
+    "configuration_name": "qwen3-8-27b-260814"
+  },
+  {
+    "phrase": "Das hier vielleicht.",
+    "context": "beurteilen. Das hier vielleicht. Okay, ich bin sehr",
+    "tags": [
+      "confidence_low: secondary"
+    ],
+    "rationale": "“vielleicht” implicitly marks uncertainty about this area.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_no advice_cycle_25.txt",
+      "row": 39
+    },
+    "model": "qwen/qwen3.8-27b",
+    "provider": "DeepInfra",
+    "configuration_name": "qwen3-8-27b-260814"
+  },
+  {
+    "phrase": "Okay, ich bin sehr unsicher, ob ja oder nein.",
+    "context": "vielleicht. Okay, ich bin sehr unsicher, ob ja oder nein. Hm, ich",
+    "tags": [
+      "confidence_low: concrete"
+    ],
+    "rationale": "The speaker explicitly states being very uncertain whether the answer is yes or no.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_no advice_cycle_25.txt",
+      "row": 39
+    },
+    "model": "qwen/qwen3.8-27b",
+    "provider": "DeepInfra",
+    "configuration_name": "qwen3-8-27b-260814"
+  },
+  {
+    "phrase": "Hm, ich weiß nicht ob das ein Artefakt ist oder so.",
+    "context": "nein. Hm, ich weiß nicht ob das ein Artefakt ist oder so. Ich glaube",
+    "tags": [
+      "reasoning: artifact",
+      "paused_in_process"
+    ],
+    "rationale": "The speaker considers an artifact as a possible explanation; “Hm” is a filler.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_no advice_cycle_25.txt",
+      "row": 39
+    },
+    "model": "qwen/qwen3.8-27b",
+    "provider": "DeepInfra",
+    "configuration_name": "qwen3-8-27b-260814"
+  },
+  {
+    "phrase": "Ich glaube schon, oder.",
+    "context": "so. Ich glaube schon, oder. Ich enter? das",
+    "tags": [
+      "confidence_low: secondary"
+    ],
+    "rationale": "The hesitant formulation with “oder” signals implicit low certainty.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_no advice_cycle_25.txt",
+      "row": 39
+    },
+    "model": "qwen/qwen3.8-27b",
+    "provider": "DeepInfra",
+    "configuration_name": "qwen3-8-27b-260814"
+  },
+  {
+    "phrase": "Ich enter? das,",
+    "context": "Ich glaube schon, oder. Ich enter? das,",
+    "tags": [
+      "other"
+    ],
+    "rationale": "The fragment refers to a technical action but does not clearly discuss a technical difficulty or diagnostic content, so no more specific code fits.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_no advice_cycle_25.txt",
+      "row": 39
+    },
+    "model": "qwen/qwen3.8-27b",
+    "provider": "DeepInfra",
+    "configuration_name": "qwen3-8-27b-260814"
+  },
+  {
+    "phrase": "aber ich weiß nicht.",
+    "context": "enter? das, aber ich weiß nicht.",
+    "tags": [
+      "confidence_low: concrete"
+    ],
+    "rationale": "The speaker explicitly states not knowing.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_no advice_cycle_25.txt",
+      "row": 39
+    },
+    "model": "qwen/qwen3.8-27b",
+    "provider": "DeepInfra",
+    "configuration_name": "qwen3-8-27b-260814"
+  }
+]

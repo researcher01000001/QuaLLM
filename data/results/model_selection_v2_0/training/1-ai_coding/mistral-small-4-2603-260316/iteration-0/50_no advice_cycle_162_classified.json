@@ -1,0 +1,802 @@
+[
+  {
+    "error": "RateLimitError",
+    "message": "Error code: 429 - {'error': {'message': 'Provider returned error', 'code': 429, 'metadata': {'raw': 'mistralai/mistral-small-2603 is temporarily rate-limited upstream. Please retry shortly, or add your own key to accumulate your rate limits: https://openrouter.ai/settings/integrations', 'provider_name': 'Mistral', 'is_byok': False, 'limit_source': 'upstream_provider_shared_pool', 'remedy_hint': 'Retry shortly, add your own provider key (https://openrouter.ai/settings/integrations), or route to another provider with provider routing: https://openrouter.ai/docs/features/provider-routing', 'previous_errors': [{'code': 429, 'message': 'Provider returned error', 'provider_name': 'Mistral', 'raw': 'mistralai/mistral-small-2603 is temporarily rate-limited upstream. Please retry shortly, or add your own key to accumulate your rate limits: https://openrouter.ai/settings/integrations'}]}}, 'user_id': 'user_2scSnsiOCInTHRf55bUHGgQL0Dk'}",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\50_no advice_cycle_162.txt",
+      "row": 0
+    },
+    "configuration_name": "mistral-small-4-2603-260316"
+  },
+  {
+    "error": "RateLimitError",
+    "message": "Error code: 429 - {'error': {'message': 'Provider returned error', 'code': 429, 'metadata': {'raw': 'mistralai/mistral-small-2603 is temporarily rate-limited upstream. Please retry shortly, or add your own key to accumulate your rate limits: https://openrouter.ai/settings/integrations', 'provider_name': 'Mistral', 'is_byok': False, 'limit_source': 'upstream_provider_shared_pool', 'remedy_hint': 'Retry shortly, add your own provider key (https://openrouter.ai/settings/integrations), or route to another provider with provider routing: https://openrouter.ai/docs/features/provider-routing', 'previous_errors': [{'code': 429, 'message': 'Provider returned error', 'provider_name': 'Mistral', 'raw': 'mistralai/mistral-small-2603 is temporarily rate-limited upstream. Please retry shortly, or add your own key to accumulate your rate limits: https://openrouter.ai/settings/integrations'}]}}, 'user_id': 'user_2scSnsiOCInTHRf55bUHGgQL0Dk'}",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\50_no advice_cycle_162.txt",
+      "row": 1
+    },
+    "configuration_name": "mistral-small-4-2603-260316"
+  },
+  {
+    "error": "RateLimitError",
+    "message": "Error code: 429 - {'error': {'message': 'Provider returned error', 'code': 429, 'metadata': {'raw': 'mistralai/mistral-small-2603 is temporarily rate-limited upstream. Please retry shortly, or add your own key to accumulate your rate limits: https://openrouter.ai/settings/integrations', 'provider_name': 'Mistral', 'is_byok': False, 'limit_source': 'upstream_provider_shared_pool', 'remedy_hint': 'Retry shortly, add your own provider key (https://openrouter.ai/settings/integrations), or route to another provider with provider routing: https://openrouter.ai/docs/features/provider-routing', 'previous_errors': [{'code': 429, 'message': 'Provider returned error', 'provider_name': 'Mistral', 'raw': 'mistralai/mistral-small-2603 is temporarily rate-limited upstream. Please retry shortly, or add your own key to accumulate your rate limits: https://openrouter.ai/settings/integrations'}]}}, 'user_id': 'user_2scSnsiOCInTHRf55bUHGgQL0Dk'}",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\50_no advice_cycle_162.txt",
+      "row": 2
+    },
+    "configuration_name": "mistral-small-4-2603-260316"
+  },
+  {
+    "error": "RateLimitError",
+    "message": "Error code: 429 - {'error': {'message': 'Provider returned error', 'code': 429, 'metadata': {'raw': 'mistralai/mistral-small-2603 is temporarily rate-limited upstream. Please retry shortly, or add your own key to accumulate your rate limits: https://openrouter.ai/settings/integrations', 'provider_name': 'Mistral', 'is_byok': False, 'limit_source': 'upstream_provider_shared_pool', 'remedy_hint': 'Retry shortly, add your own provider key (https://openrouter.ai/settings/integrations), or route to another provider with provider routing: https://openrouter.ai/docs/features/provider-routing', 'previous_errors': [{'code': 429, 'message': 'Provider returned error', 'provider_name': 'Mistral', 'raw': 'mistralai/mistral-small-2603 is temporarily rate-limited upstream. Please retry shortly, or add your own key to accumulate your rate limits: https://openrouter.ai/settings/integrations'}]}}, 'user_id': 'user_2scSnsiOCInTHRf55bUHGgQL0Dk'}",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\50_no advice_cycle_162.txt",
+      "row": 3
+    },
+    "configuration_name": "mistral-small-4-2603-260316"
+  },
+  {
+    "error": "RateLimitError",
+    "message": "Error code: 429 - {'error': {'message': 'Provider returned error', 'code': 429, 'metadata': {'raw': 'mistralai/mistral-small-2603 is temporarily rate-limited upstream. Please retry shortly, or add your own key to accumulate your rate limits: https://openrouter.ai/settings/integrations', 'provider_name': 'Mistral', 'is_byok': False, 'limit_source': 'upstream_provider_shared_pool', 'remedy_hint': 'Retry shortly, add your own provider key (https://openrouter.ai/settings/integrations), or route to another provider with provider routing: https://openrouter.ai/docs/features/provider-routing', 'previous_errors': [{'code': 429, 'message': 'Provider returned error', 'provider_name': 'Mistral', 'raw': 'mistralai/mistral-small-2603 is temporarily rate-limited upstream. Please retry shortly, or add your own key to accumulate your rate limits: https://openrouter.ai/settings/integrations'}]}}, 'user_id': 'user_2scSnsiOCInTHRf55bUHGgQL0Dk'}",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\50_no advice_cycle_162.txt",
+      "row": 4
+    },
+    "configuration_name": "mistral-small-4-2603-260316"
+  },
+  {
+    "error": "RateLimitError",
+    "message": "Error code: 429 - {'error': {'message': 'Provider returned error', 'code': 429, 'metadata': {'raw': 'mistralai/mistral-small-2603 is temporarily rate-limited upstream. Please retry shortly, or add your own key to accumulate your rate limits: https://openrouter.ai/settings/integrations', 'provider_name': 'Mistral', 'is_byok': False, 'limit_source': 'upstream_provider_shared_pool', 'remedy_hint': 'Retry shortly, add your own provider key (https://openrouter.ai/settings/integrations), or route to another provider with provider routing: https://openrouter.ai/docs/features/provider-routing', 'previous_errors': [{'code': 429, 'message': 'Provider returned error', 'provider_name': 'Mistral', 'raw': 'mistralai/mistral-small-2603 is temporarily rate-limited upstream. Please retry shortly, or add your own key to accumulate your rate limits: https://openrouter.ai/settings/integrations'}]}}, 'user_id': 'user_2scSnsiOCInTHRf55bUHGgQL0Dk'}",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\50_no advice_cycle_162.txt",
+      "row": 5
+    },
+    "configuration_name": "mistral-small-4-2603-260316"
+  },
+  {
+    "error": "RateLimitError",
+    "message": "Error code: 429 - {'error': {'message': 'Provider returned error', 'code': 429, 'metadata': {'raw': 'mistralai/mistral-small-2603 is temporarily rate-limited upstream. Please retry shortly, or add your own key to accumulate your rate limits: https://openrouter.ai/settings/integrations', 'provider_name': 'Mistral', 'is_byok': False, 'limit_source': 'upstream_provider_shared_pool', 'remedy_hint': 'Retry shortly, add your own provider key (https://openrouter.ai/settings/integrations), or route to another provider with provider routing: https://openrouter.ai/docs/features/provider-routing', 'previous_errors': [{'code': 429, 'message': 'Provider returned error', 'provider_name': 'Mistral', 'raw': 'mistralai/mistral-small-2603 is temporarily rate-limited upstream. Please retry shortly, or add your own key to accumulate your rate limits: https://openrouter.ai/settings/integrations'}]}}, 'user_id': 'user_2scSnsiOCInTHRf55bUHGgQL0Dk'}",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\50_no advice_cycle_162.txt",
+      "row": 6
+    },
+    "configuration_name": "mistral-small-4-2603-260316"
+  },
+  {
+    "phrase": "Ähm, 62, männlich, Kopfschmerzen.",
+    "context": "Ähm, 62, männlich, Kopfschmerzen. Gleiche Sache, wie eben. Okay, also ich achte wieder.",
+    "tags": [
+      "reasoning: mentioning_contextual_information"
+    ],
+    "rationale": "The speaker provides patient-related information (age, gender, symptoms) which is part of the medical history.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\50_no advice_cycle_162.txt",
+      "row": 7
+    },
+    "model": "mistralai/mistral-small-2603",
+    "provider": "Mistral",
+    "configuration_name": "mistral-small-4-2603-260316"
+  },
+  {
+    "phrase": "Gleiche Sache, wie eben.",
+    "context": "Ähm, 62, männlich, Kopfschmerzen. Gleiche Sache, wie eben. Okay, also ich achte wieder.",
+    "tags": [
+      "reference: past_trial"
+    ],
+    "rationale": "The speaker refers to a previous trial or run, indicating a comparison with a prior case.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\50_no advice_cycle_162.txt",
+      "row": 7
+    },
+    "model": "mistralai/mistral-small-2603",
+    "provider": "Mistral",
+    "configuration_name": "mistral-small-4-2603-260316"
+  },
+  {
+    "phrase": "Okay, also ich achte wieder.",
+    "context": "Gleiche Sache, wie eben. Okay, also ich achte wieder. Ja okay, hier haben wir, zum Beispiel an der Mittellinie eher occipital und dann auf Ventrikelebene nichts.",
+    "tags": [
+      "visual_search: description_of_own_approach_without_external_help"
+    ],
+    "rationale": "The speaker explicitly comments on their own search procedure, indicating they are focusing again.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\50_no advice_cycle_162.txt",
+      "row": 7
+    },
+    "model": "mistralai/mistral-small-2603",
+    "provider": "Mistral",
+    "configuration_name": "mistral-small-4-2603-260316"
+  },
+  {
+    "phrase": "hier haben wir, zum Beispiel an der Mittellinie eher occipital und dann auf Ventrikelebene nichts.",
+    "context": "Okay, also ich achte wieder. Ja okay, hier haben wir, zum Beispiel an der Mittellinie eher occipital und dann auf Ventrikelebene nichts. Mhm.",
+    "tags": [
+      "visual_search: description_of_medical_image_features"
+    ],
+    "rationale": "The speaker describes anatomical structures or image characteristics they are currently checking (midline, occipital region, ventricular level).",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\50_no advice_cycle_162.txt",
+      "row": 7
+    },
+    "model": "mistralai/mistral-small-2603",
+    "provider": "Mistral",
+    "configuration_name": "mistral-small-4-2603-260316"
+  },
+  {
+    "phrase": "Hier finde ich das schon auffälliger, occipital, als bei dem 72-jährigen davor.",
+    "context": "Mhm. Hier finde ich das schon auffälliger, occipital, als bei dem 72-jährigen davor.",
+    "tags": [
+      "indicator: anomaly_detected",
+      "confidence_high: secondary"
+    ],
+    "rationale": "The speaker identifies an abnormality (occipital region) and expresses higher certainty ('schon auffälliger') compared to a previous case, indicating a secondary confidence marker.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\50_no advice_cycle_162.txt",
+      "row": 7
+    },
+    "model": "mistralai/mistral-small-2603",
+    "provider": "Mistral",
+    "configuration_name": "mistral-small-4-2603-260316"
+  },
+  {
+    "phrase": "Okay, hier 24-jährig, männlich, gegen den Kopf geschlagen.",
+    "context": "Okay, hier 24-jährig, männlich, gegen den Kopf geschlagen. Das heißt, ich hier mache ich nochmal, schaue ich nochmal auf Effekte im Knochen, die mir irgendwelche Hinweise geben, an welcher Stelle ich gucken müsste.",
+    "tags": [
+      "reasoning: mentioning_contextual_information"
+    ],
+    "rationale": "The speaker provides patient-related information (medical history of head trauma), which is explicitly mentioned.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\50_no advice_cycle_162.txt",
+      "row": 8
+    },
+    "model": "mistralai/mistral-small-2603",
+    "provider": "Mistral",
+    "configuration_name": "mistral-small-4-2603-260316"
+  },
+  {
+    "phrase": "Das heißt, ich hier mache ich nochmal, schaue ich nochmal auf Effekte im Knochen, die mir irgendwelche Hinweise geben, an welcher Stelle ich gucken müsste.",
+    "context": "Okay, hier 24-jährig, männlich, gegen den Kopf geschlagen. Das heißt, ich hier mache ich nochmal, schaue ich nochmal auf Effekte im Knochen, die mir irgendwelche Hinweise geben, an welcher Stelle ich gucken müsste. Das ist eine bisschen schräge Aufnahme von dem Schädel.",
+    "tags": [
+      "visual_search: based_on_contextual_information"
+    ],
+    "rationale": "The speaker explicitly searches for abnormalities or clues based on the medical history (head trauma) and mentions their approach to examining bone effects.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\50_no advice_cycle_162.txt",
+      "row": 8
+    },
+    "model": "mistralai/mistral-small-2603",
+    "provider": "Mistral",
+    "configuration_name": "mistral-small-4-2603-260316"
+  },
+  {
+    "phrase": "Das ist eine bisschen schräge Aufnahme von dem Schädel.",
+    "context": "schaue ich nochmal auf Effekte im Knochen, die mir irgendwelche Hinweise geben, an welcher Stelle ich gucken müsste. Das ist eine bisschen schräge Aufnahme von dem Schädel. Was ein bisschen auffällig ist, auf der linken Seite.",
+    "tags": [
+      "awareness_of_task: image_quality"
+    ],
+    "rationale": "The speaker explicitly complains about the image quality or acquisition method, attributing uncertainty to the acquisition or image quality.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\50_no advice_cycle_162.txt",
+      "row": 8
+    },
+    "model": "mistralai/mistral-small-2603",
+    "provider": "Mistral",
+    "configuration_name": "mistral-small-4-2603-260316"
+  },
+  {
+    "phrase": "Was ein bisschen auffällig ist, auf der linken Seite.",
+    "context": "Das ist eine bisschen schräge Aufnahme von dem Schädel. Was ein bisschen auffällig ist, auf der linken Seite. Nochmal auf CT Branch einstellen? (VPN stellt Kontrast um).",
+    "tags": [
+      "indicator: anomaly_detected"
+    ],
+    "rationale": "The speaker notices an abnormality atypical for a healthy skull on the left side.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\50_no advice_cycle_162.txt",
+      "row": 8
+    },
+    "model": "mistralai/mistral-small-2603",
+    "provider": "Mistral",
+    "configuration_name": "mistral-small-4-2603-260316"
+  },
+  {
+    "phrase": "Nochmal auf CT Branch einstellen?",
+    "context": "Was ein bisschen auffällig ist, auf der linken Seite. Nochmal auf CT Branch einstellen? (VPN stellt Kontrast um). Ah, okay, also es ist leider ein bisschen schräg, aber ich glaube, dass der schon Einblutungen hat.",
+    "tags": [
+      "control: control_strategies"
+    ],
+    "rationale": "The speaker wants to discuss the case with others or get a second opinion by asking to adjust the CT branch.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\50_no advice_cycle_162.txt",
+      "row": 8
+    },
+    "model": "mistralai/mistral-small-2603",
+    "provider": "Mistral",
+    "configuration_name": "mistral-small-4-2603-260316"
+  },
+  {
+    "phrase": "Ah, okay, also es ist leider ein bisschen schräg, aber ich glaube, dass der schon Einblutungen hat.",
+    "context": "Nochmal auf CT Branch einstellen? (VPN stellt Kontrast um). Ah, okay, also es ist leider ein bisschen schräg, aber ich glaube, dass der schon Einblutungen hat. Ich finde die Bildqualität sehr schlecht.",
+    "tags": [
+      "confidence_high: secondary",
+      "interpretation: bleeding"
+    ],
+    "rationale": "The speaker expresses high certainty implicitly ('ich glaube') and interprets the abnormality as a hemorrhage ('Einblutungen').",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\50_no advice_cycle_162.txt",
+      "row": 8
+    },
+    "model": "mistralai/mistral-small-2603",
+    "provider": "Mistral",
+    "configuration_name": "mistral-small-4-2603-260316"
+  },
+  {
+    "phrase": "Ich finde die Bildqualität sehr schlecht.",
+    "context": "Ah, okay, also es ist leider ein bisschen schräg, aber ich glaube, dass der schon Einblutungen hat. Ich finde die Bildqualität sehr schlecht. finde ich bei dem.",
+    "tags": [
+      "awareness_of_task: image_quality"
+    ],
+    "rationale": "The speaker explicitly complains about the image quality, attributing uncertainty to the acquisition or image quality.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\50_no advice_cycle_162.txt",
+      "row": 8
+    },
+    "model": "mistralai/mistral-small-2603",
+    "provider": "Mistral",
+    "configuration_name": "mistral-small-4-2603-260316"
+  },
+  {
+    "error": "RateLimitError",
+    "message": "Error code: 429 - {'error': {'message': 'Provider returned error', 'code': 429, 'metadata': {'raw': 'mistralai/mistral-small-2603 is temporarily rate-limited upstream. Please retry shortly, or add your own key to accumulate your rate limits: https://openrouter.ai/settings/integrations', 'provider_name': 'Mistral', 'is_byok': False, 'limit_source': 'upstream_provider_shared_pool', 'remedy_hint': 'Retry shortly, add your own provider key (https://openrouter.ai/settings/integrations), or route to another provider with provider routing: https://openrouter.ai/docs/features/provider-routing', 'previous_errors': [{'code': 429, 'message': 'Provider returned error', 'provider_name': 'Mistral', 'raw': 'mistralai/mistral-small-2603 is temporarily rate-limited upstream. Please retry shortly, or add your own key to accumulate your rate limits: https://openrouter.ai/settings/integrations'}]}}, 'user_id': 'user_2scSnsiOCInTHRf55bUHGgQL0Dk'}",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\50_no advice_cycle_162.txt",
+      "row": 9
+    },
+    "configuration_name": "mistral-small-4-2603-260316"
+  },
+  {
+    "error": "RateLimitError",
+    "message": "Error code: 429 - {'error': {'message': 'Provider returned error', 'code': 429, 'metadata': {'raw': 'mistralai/mistral-small-2603 is temporarily rate-limited upstream. Please retry shortly, or add your own key to accumulate your rate limits: https://openrouter.ai/settings/integrations', 'provider_name': 'Mistral', 'is_byok': False, 'limit_source': 'upstream_provider_shared_pool', 'remedy_hint': 'Retry shortly, add your own provider key (https://openrouter.ai/settings/integrations), or route to another provider with provider routing: https://openrouter.ai/docs/features/provider-routing', 'previous_errors': [{'code': 429, 'message': 'Provider returned error', 'provider_name': 'Mistral', 'raw': 'mistralai/mistral-small-2603 is temporarily rate-limited upstream. Please retry shortly, or add your own key to accumulate your rate limits: https://openrouter.ai/settings/integrations'}]}}, 'user_id': 'user_2scSnsiOCInTHRf55bUHGgQL0Dk'}",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\50_no advice_cycle_162.txt",
+      "row": 10
+    },
+    "configuration_name": "mistral-small-4-2603-260316"
+  },
+  {
+    "error": "RateLimitError",
+    "message": "Error code: 429 - {'error': {'message': 'Provider returned error', 'code': 429, 'metadata': {'raw': 'mistralai/mistral-small-2603 is temporarily rate-limited upstream. Please retry shortly, or add your own key to accumulate your rate limits: https://openrouter.ai/settings/integrations', 'provider_name': 'Mistral', 'is_byok': False, 'limit_source': 'upstream_provider_shared_pool', 'remedy_hint': 'Retry shortly, add your own provider key (https://openrouter.ai/settings/integrations), or route to another provider with provider routing: https://openrouter.ai/docs/features/provider-routing', 'previous_errors': [{'code': 429, 'message': 'Provider returned error', 'provider_name': 'Mistral', 'raw': 'mistralai/mistral-small-2603 is temporarily rate-limited upstream. Please retry shortly, or add your own key to accumulate your rate limits: https://openrouter.ai/settings/integrations'}]}}, 'user_id': 'user_2scSnsiOCInTHRf55bUHGgQL0Dk'}",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\50_no advice_cycle_162.txt",
+      "row": 11
+    },
+    "configuration_name": "mistral-small-4-2603-260316"
+  },
+  {
+    "error": "RateLimitError",
+    "message": "Error code: 429 - {'error': {'message': 'Provider returned error', 'code': 429, 'metadata': {'raw': 'mistralai/mistral-small-2603 is temporarily rate-limited upstream. Please retry shortly, or add your own key to accumulate your rate limits: https://openrouter.ai/settings/integrations', 'provider_name': 'Mistral', 'is_byok': False, 'limit_source': 'upstream_provider_shared_pool', 'remedy_hint': 'Retry shortly, add your own provider key (https://openrouter.ai/settings/integrations), or route to another provider with provider routing: https://openrouter.ai/docs/features/provider-routing', 'previous_errors': [{'code': 429, 'message': 'Provider returned error', 'provider_name': 'Mistral', 'raw': 'mistralai/mistral-small-2603 is temporarily rate-limited upstream. Please retry shortly, or add your own key to accumulate your rate limits: https://openrouter.ai/settings/integrations'}]}}, 'user_id': 'user_2scSnsiOCInTHRf55bUHGgQL0Dk'}",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\50_no advice_cycle_162.txt",
+      "row": 12
+    },
+    "configuration_name": "mistral-small-4-2603-260316"
+  },
+  {
+    "error": "RateLimitError",
+    "message": "Error code: 429 - {'error': {'message': 'Provider returned error', 'code': 429, 'metadata': {'raw': 'mistralai/mistral-small-2603 is temporarily rate-limited upstream. Please retry shortly, or add your own key to accumulate your rate limits: https://openrouter.ai/settings/integrations', 'provider_name': 'Mistral', 'is_byok': False, 'limit_source': 'upstream_provider_shared_pool', 'remedy_hint': 'Retry shortly, add your own provider key (https://openrouter.ai/settings/integrations), or route to another provider with provider routing: https://openrouter.ai/docs/features/provider-routing', 'previous_errors': [{'code': 429, 'message': 'Provider returned error', 'provider_name': 'Mistral', 'raw': 'mistralai/mistral-small-2603 is temporarily rate-limited upstream. Please retry shortly, or add your own key to accumulate your rate limits: https://openrouter.ai/settings/integrations'}]}}, 'user_id': 'user_2scSnsiOCInTHRf55bUHGgQL0Dk'}",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\50_no advice_cycle_162.txt",
+      "row": 13
+    },
+    "configuration_name": "mistral-small-4-2603-260316"
+  },
+  {
+    "error": "RateLimitError",
+    "message": "Error code: 429 - {'error': {'message': 'Provider returned error', 'code': 429, 'metadata': {'raw': 'mistralai/mistral-small-2603 is temporarily rate-limited upstream. Please retry shortly, or add your own key to accumulate your rate limits: https://openrouter.ai/settings/integrations', 'provider_name': 'Mistral', 'is_byok': False, 'limit_source': 'upstream_provider_shared_pool', 'remedy_hint': 'Retry shortly, add your own provider key (https://openrouter.ai/settings/integrations), or route to another provider with provider routing: https://openrouter.ai/docs/features/provider-routing', 'previous_errors': [{'code': 429, 'message': 'Provider returned error', 'provider_name': 'Mistral', 'raw': 'mistralai/mistral-small-2603 is temporarily rate-limited upstream. Please retry shortly, or add your own key to accumulate your rate limits: https://openrouter.ai/settings/integrations'}]}}, 'user_id': 'user_2scSnsiOCInTHRf55bUHGgQL0Dk'}",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\50_no advice_cycle_162.txt",
+      "row": 14
+    },
+    "configuration_name": "mistral-small-4-2603-260316"
+  },
+  {
+    "error": "RateLimitError",
+    "message": "Error code: 429 - {'error': {'message': 'Provider returned error', 'code': 429, 'metadata': {'raw': 'mistralai/mistral-small-2603 is temporarily rate-limited upstream. Please retry shortly, or add your own key to accumulate your rate limits: https://openrouter.ai/settings/integrations', 'provider_name': 'Mistral', 'is_byok': False, 'limit_source': 'upstream_provider_shared_pool', 'remedy_hint': 'Retry shortly, add your own provider key (https://openrouter.ai/settings/integrations), or route to another provider with provider routing: https://openrouter.ai/docs/features/provider-routing', 'previous_errors': [{'code': 429, 'message': 'Provider returned error', 'provider_name': 'Mistral', 'raw': 'mistralai/mistral-small-2603 is temporarily rate-limited upstream. Please retry shortly, or add your own key to accumulate your rate limits: https://openrouter.ai/settings/integrations'}]}}, 'user_id': 'user_2scSnsiOCInTHRf55bUHGgQL0Dk'}",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\50_no advice_cycle_162.txt",
+      "row": 15
+    },
+    "configuration_name": "mistral-small-4-2603-260316"
+  },
+  {
+    "error": "RateLimitError",
+    "message": "Error code: 429 - {'error': {'message': 'Provider returned error', 'code': 429, 'metadata': {'raw': 'mistralai/mistral-small-2603 is temporarily rate-limited upstream. Please retry shortly, or add your own key to accumulate your rate limits: https://openrouter.ai/settings/integrations', 'provider_name': 'Mistral', 'is_byok': False, 'limit_source': 'upstream_provider_shared_pool', 'remedy_hint': 'Retry shortly, add your own provider key (https://openrouter.ai/settings/integrations), or route to another provider with provider routing: https://openrouter.ai/docs/features/provider-routing', 'previous_errors': [{'code': 429, 'message': 'Provider returned error', 'provider_name': 'Mistral', 'raw': 'mistralai/mistral-small-2603 is temporarily rate-limited upstream. Please retry shortly, or add your own key to accumulate your rate limits: https://openrouter.ai/settings/integrations'}]}}, 'user_id': 'user_2scSnsiOCInTHRf55bUHGgQL0Dk'}",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\50_no advice_cycle_162.txt",
+      "row": 16
+    },
+    "configuration_name": "mistral-small-4-2603-260316"
+  },
+  {
+    "error": "RateLimitError",
+    "message": "Error code: 429 - {'error': {'message': 'Provider returned error', 'code': 429, 'metadata': {'raw': 'mistralai/mistral-small-2603 is temporarily rate-limited upstream. Please retry shortly, or add your own key to accumulate your rate limits: https://openrouter.ai/settings/integrations', 'provider_name': 'Mistral', 'is_byok': False, 'limit_source': 'upstream_provider_shared_pool', 'remedy_hint': 'Retry shortly, add your own provider key (https://openrouter.ai/settings/integrations), or route to another provider with provider routing: https://openrouter.ai/docs/features/provider-routing', 'previous_errors': [{'code': 429, 'message': 'Provider returned error', 'provider_name': 'Mistral', 'raw': 'mistralai/mistral-small-2603 is temporarily rate-limited upstream. Please retry shortly, or add your own key to accumulate your rate limits: https://openrouter.ai/settings/integrations'}]}}, 'user_id': 'user_2scSnsiOCInTHRf55bUHGgQL0Dk'}",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\50_no advice_cycle_162.txt",
+      "row": 17
+    },
+    "configuration_name": "mistral-small-4-2603-260316"
+  },
+  {
+    "error": "RateLimitError",
+    "message": "Error code: 429 - {'error': {'message': 'Provider returned error', 'code': 429, 'metadata': {'raw': 'mistralai/mistral-small-2603 is temporarily rate-limited upstream. Please retry shortly, or add your own key to accumulate your rate limits: https://openrouter.ai/settings/integrations', 'provider_name': 'Mistral', 'is_byok': False, 'limit_source': 'upstream_provider_shared_pool', 'remedy_hint': 'Retry shortly, add your own provider key (https://openrouter.ai/settings/integrations), or route to another provider with provider routing: https://openrouter.ai/docs/features/provider-routing', 'previous_errors': [{'code': 429, 'message': 'Provider returned error', 'provider_name': 'Mistral', 'raw': 'mistralai/mistral-small-2603 is temporarily rate-limited upstream. Please retry shortly, or add your own key to accumulate your rate limits: https://openrouter.ai/settings/integrations'}]}}, 'user_id': 'user_2scSnsiOCInTHRf55bUHGgQL0Dk'}",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\50_no advice_cycle_162.txt",
+      "row": 18
+    },
+    "configuration_name": "mistral-small-4-2603-260316"
+  },
+  {
+    "error": "RateLimitError",
+    "message": "Error code: 429 - {'error': {'message': 'Provider returned error', 'code': 429, 'metadata': {'raw': 'mistralai/mistral-small-2603 is temporarily rate-limited upstream. Please retry shortly, or add your own key to accumulate your rate limits: https://openrouter.ai/settings/integrations', 'provider_name': 'Mistral', 'is_byok': False, 'limit_source': 'upstream_provider_shared_pool', 'remedy_hint': 'Retry shortly, add your own provider key (https://openrouter.ai/settings/integrations), or route to another provider with provider routing: https://openrouter.ai/docs/features/provider-routing', 'previous_errors': [{'code': 429, 'message': 'Provider returned error', 'provider_name': 'Mistral', 'raw': 'mistralai/mistral-small-2603 is temporarily rate-limited upstream. Please retry shortly, or add your own key to accumulate your rate limits: https://openrouter.ai/settings/integrations'}]}}, 'user_id': 'user_2scSnsiOCInTHRf55bUHGgQL0Dk'}",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\50_no advice_cycle_162.txt",
+      "row": 19
+    },
+    "configuration_name": "mistral-small-4-2603-260316"
+  },
+  {
+    "error": "RateLimitError",
+    "message": "Error code: 429 - {'error': {'message': 'Provider returned error', 'code': 429, 'metadata': {'raw': 'mistralai/mistral-small-2603 is temporarily rate-limited upstream. Please retry shortly, or add your own key to accumulate your rate limits: https://openrouter.ai/settings/integrations', 'provider_name': 'Mistral', 'is_byok': False, 'limit_source': 'upstream_provider_shared_pool', 'remedy_hint': 'Retry shortly, add your own provider key (https://openrouter.ai/settings/integrations), or route to another provider with provider routing: https://openrouter.ai/docs/features/provider-routing', 'previous_errors': [{'code': 429, 'message': 'Provider returned error', 'provider_name': 'Mistral', 'raw': 'mistralai/mistral-small-2603 is temporarily rate-limited upstream. Please retry shortly, or add your own key to accumulate your rate limits: https://openrouter.ai/settings/integrations'}]}}, 'user_id': 'user_2scSnsiOCInTHRf55bUHGgQL0Dk'}",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\50_no advice_cycle_162.txt",
+      "row": 20
+    },
+    "configuration_name": "mistral-small-4-2603-260316"
+  },
+  {
+    "error": "RateLimitError",
+    "message": "Error code: 429 - {'error': {'message': 'Provider returned error', 'code': 429, 'metadata': {'raw': 'mistralai/mistral-small-2603 is temporarily rate-limited upstream. Please retry shortly, or add your own key to accumulate your rate limits: https://openrouter.ai/settings/integrations', 'provider_name': 'Mistral', 'is_byok': False, 'limit_source': 'upstream_provider_shared_pool', 'remedy_hint': 'Retry shortly, add your own provider key (https://openrouter.ai/settings/integrations), or route to another provider with provider routing: https://openrouter.ai/docs/features/provider-routing', 'previous_errors': [{'code': 429, 'message': 'Provider returned error', 'provider_name': 'Mistral', 'raw': 'mistralai/mistral-small-2603 is temporarily rate-limited upstream. Please retry shortly, or add your own key to accumulate your rate limits: https://openrouter.ai/settings/integrations'}]}}, 'user_id': 'user_2scSnsiOCInTHRf55bUHGgQL0Dk'}",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\50_no advice_cycle_162.txt",
+      "row": 21
+    },
+    "configuration_name": "mistral-small-4-2603-260316"
+  },
+  {
+    "error": "RateLimitError",
+    "message": "Error code: 429 - {'error': {'message': 'Provider returned error', 'code': 429, 'metadata': {'raw': 'mistralai/mistral-small-2603 is temporarily rate-limited upstream. Please retry shortly, or add your own key to accumulate your rate limits: https://openrouter.ai/settings/integrations', 'provider_name': 'Mistral', 'is_byok': False, 'limit_source': 'upstream_provider_shared_pool', 'remedy_hint': 'Retry shortly, add your own provider key (https://openrouter.ai/settings/integrations), or route to another provider with provider routing: https://openrouter.ai/docs/features/provider-routing', 'previous_errors': [{'code': 429, 'message': 'Provider returned error', 'provider_name': 'Mistral', 'raw': 'mistralai/mistral-small-2603 is temporarily rate-limited upstream. Please retry shortly, or add your own key to accumulate your rate limits: https://openrouter.ai/settings/integrations'}]}}, 'user_id': 'user_2scSnsiOCInTHRf55bUHGgQL0Dk'}",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\50_no advice_cycle_162.txt",
+      "row": 22
+    },
+    "configuration_name": "mistral-small-4-2603-260316"
+  },
+  {
+    "error": "RateLimitError",
+    "message": "Error code: 429 - {'error': {'message': 'Provider returned error', 'code': 429, 'metadata': {'raw': 'mistralai/mistral-small-2603 is temporarily rate-limited upstream. Please retry shortly, or add your own key to accumulate your rate limits: https://openrouter.ai/settings/integrations', 'provider_name': 'Mistral', 'is_byok': False, 'limit_source': 'upstream_provider_shared_pool', 'remedy_hint': 'Retry shortly, add your own provider key (https://openrouter.ai/settings/integrations), or route to another provider with provider routing: https://openrouter.ai/docs/features/provider-routing', 'previous_errors': [{'code': 429, 'message': 'Provider returned error', 'provider_name': 'Mistral', 'raw': 'mistralai/mistral-small-2603 is temporarily rate-limited upstream. Please retry shortly, or add your own key to accumulate your rate limits: https://openrouter.ai/settings/integrations'}]}}, 'user_id': 'user_2scSnsiOCInTHRf55bUHGgQL0Dk'}",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\50_no advice_cycle_162.txt",
+      "row": 23
+    },
+    "configuration_name": "mistral-small-4-2603-260316"
+  },
+  {
+    "error": "RateLimitError",
+    "message": "Error code: 429 - {'error': {'message': 'Provider returned error', 'code': 429, 'metadata': {'raw': 'mistralai/mistral-small-2603 is temporarily rate-limited upstream. Please retry shortly, or add your own key to accumulate your rate limits: https://openrouter.ai/settings/integrations', 'provider_name': 'Mistral', 'is_byok': False, 'limit_source': 'upstream_provider_shared_pool', 'remedy_hint': 'Retry shortly, add your own provider key (https://openrouter.ai/settings/integrations), or route to another provider with provider routing: https://openrouter.ai/docs/features/provider-routing', 'previous_errors': [{'code': 429, 'message': 'Provider returned error', 'provider_name': 'Mistral', 'raw': 'mistralai/mistral-small-2603 is temporarily rate-limited upstream. Please retry shortly, or add your own key to accumulate your rate limits: https://openrouter.ai/settings/integrations'}]}}, 'user_id': 'user_2scSnsiOCInTHRf55bUHGgQL0Dk'}",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\50_no advice_cycle_162.txt",
+      "row": 24
+    },
+    "configuration_name": "mistral-small-4-2603-260316"
+  },
+  {
+    "error": "RateLimitError",
+    "message": "Error code: 429 - {'error': {'message': 'Provider returned error', 'code': 429, 'metadata': {'raw': 'mistralai/mistral-small-2603 is temporarily rate-limited upstream. Please retry shortly, or add your own key to accumulate your rate limits: https://openrouter.ai/settings/integrations', 'provider_name': 'Mistral', 'is_byok': False, 'limit_source': 'upstream_provider_shared_pool', 'remedy_hint': 'Retry shortly, add your own provider key (https://openrouter.ai/settings/integrations), or route to another provider with provider routing: https://openrouter.ai/docs/features/provider-routing', 'previous_errors': [{'code': 429, 'message': 'Provider returned error', 'provider_name': 'Mistral', 'raw': 'mistralai/mistral-small-2603 is temporarily rate-limited upstream. Please retry shortly, or add your own key to accumulate your rate limits: https://openrouter.ai/settings/integrations'}]}}, 'user_id': 'user_2scSnsiOCInTHRf55bUHGgQL0Dk'}",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\50_no advice_cycle_162.txt",
+      "row": 25
+    },
+    "configuration_name": "mistral-small-4-2603-260316"
+  },
+  {
+    "error": "RateLimitError",
+    "message": "Error code: 429 - {'error': {'message': 'Provider returned error', 'code': 429, 'metadata': {'raw': 'mistralai/mistral-small-2603 is temporarily rate-limited upstream. Please retry shortly, or add your own key to accumulate your rate limits: https://openrouter.ai/settings/integrations', 'provider_name': 'Mistral', 'is_byok': False, 'limit_source': 'upstream_provider_shared_pool', 'remedy_hint': 'Retry shortly, add your own provider key (https://openrouter.ai/settings/integrations), or route to another provider with provider routing: https://openrouter.ai/docs/features/provider-routing', 'previous_errors': [{'code': 429, 'message': 'Provider returned error', 'provider_name': 'Mistral', 'raw': 'mistralai/mistral-small-2603 is temporarily rate-limited upstream. Please retry shortly, or add your own key to accumulate your rate limits: https://openrouter.ai/settings/integrations'}]}}, 'user_id': 'user_2scSnsiOCInTHRf55bUHGgQL0Dk'}",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\50_no advice_cycle_162.txt",
+      "row": 26
+    },
+    "configuration_name": "mistral-small-4-2603-260316"
+  },
+  {
+    "error": "RateLimitError",
+    "message": "Error code: 429 - {'error': {'message': 'Provider returned error', 'code': 429, 'metadata': {'raw': 'mistralai/mistral-small-2603 is temporarily rate-limited upstream. Please retry shortly, or add your own key to accumulate your rate limits: https://openrouter.ai/settings/integrations', 'provider_name': 'Mistral', 'is_byok': False, 'limit_source': 'upstream_provider_shared_pool', 'remedy_hint': 'Retry shortly, add your own provider key (https://openrouter.ai/settings/integrations), or route to another provider with provider routing: https://openrouter.ai/docs/features/provider-routing', 'previous_errors': [{'code': 429, 'message': 'Provider returned error', 'provider_name': 'Mistral', 'raw': 'mistralai/mistral-small-2603 is temporarily rate-limited upstream. Please retry shortly, or add your own key to accumulate your rate limits: https://openrouter.ai/settings/integrations'}]}}, 'user_id': 'user_2scSnsiOCInTHRf55bUHGgQL0Dk'}",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\50_no advice_cycle_162.txt",
+      "row": 27
+    },
+    "configuration_name": "mistral-small-4-2603-260316"
+  },
+  {
+    "phrase": "63, weiblich, driver in einem Autounfall.",
+    "context": "63, weiblich, driver in einem Autounfall. Hier ist nichts. Nichts, keine Verschiebung. War schon?.",
+    "tags": [
+      "reasoning: mentioning_contextual_information"
+    ],
+    "rationale": "The speaker provides patient-related information (age, gender, cause of accident) which is relevant for diagnostic reasoning.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\50_no advice_cycle_162.txt",
+      "row": 28
+    },
+    "model": "mistralai/mistral-small-2603",
+    "provider": "Mistral",
+    "configuration_name": "mistral-small-4-2603-260316"
+  },
+  {
+    "phrase": "Hier ist nichts. Nichts, keine Verschiebung.",
+    "context": "63, weiblich, driver in einem Autounfall. Hier ist nichts. Nichts, keine Verschiebung. War schon?.",
+    "tags": [
+      "indicator: no_bleeding"
+    ],
+    "rationale": "The speaker explicitly states that there is no displacement or abnormality visible, classifying the area as unremarkable.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\50_no advice_cycle_162.txt",
+      "row": 28
+    },
+    "model": "mistralai/mistral-small-2603",
+    "provider": "Mistral",
+    "configuration_name": "mistral-small-4-2603-260316"
+  },
+  {
+    "phrase": "Was ist hier vorne. Wie alt ist die. 63. ?",
+    "context": "Hier ist nichts. Nichts, keine Verschiebung. War schon?. Was ist hier vorne. Wie alt ist die. 63. ? So knöchern auffällig hier, aber wir sind ja noch relativ weit oben.",
+    "tags": [
+      "paused_in_process"
+    ],
+    "rationale": "The speaker uses filler words and questions that do not directly contribute to diagnostic reasoning.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\50_no advice_cycle_162.txt",
+      "row": 28
+    },
+    "model": "mistralai/mistral-small-2603",
+    "provider": "Mistral",
+    "configuration_name": "mistral-small-4-2603-260316"
+  },
+  {
+    "phrase": "So knöchern auffällig hier, aber wir sind ja noch relativ weit oben.",
+    "context": "Was ist hier vorne. Wie alt ist die. 63. ? So knöchern auffällig hier, aber wir sind ja noch relativ weit oben. Hier finde ich irgendwie alles sehr auff- merkwürdig.",
+    "tags": [
+      "reasoning: alternative_medical_structure"
+    ],
+    "rationale": "The speaker attributes the observed abnormality to a healthy anatomical structure (bone) rather than a pathological finding.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\50_no advice_cycle_162.txt",
+      "row": 28
+    },
+    "model": "mistralai/mistral-small-2603",
+    "provider": "Mistral",
+    "configuration_name": "mistral-small-4-2603-260316"
+  },
+  {
+    "phrase": "Hier finde ich irgendwie alles sehr auff- merkwürdig.",
+    "context": "So knöchern auffällig hier, aber wir sind ja noch relativ weit oben. Hier finde ich irgendwie alles sehr auff- merkwürdig. Aber das ist ja eher hart.",
+    "tags": [
+      "reflection: diagnostic_uncertainty"
+    ],
+    "rationale": "The speaker expresses uncertainty about classifying the finding as normal or abnormal.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\50_no advice_cycle_162.txt",
+      "row": 28
+    },
+    "model": "mistralai/mistral-small-2603",
+    "provider": "Mistral",
+    "configuration_name": "mistral-small-4-2603-260316"
+  },
+  {
+    "phrase": "Aber das ist ja eher hart.",
+    "context": "Hier finde ich irgendwie alles sehr auff- merkwürdig. Aber das ist ja eher hart. Finde ich jetzt irgendwie merkwürdig, was der hat.",
+    "tags": [
+      "reflection: perceptual_doubt"
+    ],
+    "rationale": "The speaker doubts their own perception of the image or findings.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\50_no advice_cycle_162.txt",
+      "row": 28
+    },
+    "model": "mistralai/mistral-small-2603",
+    "provider": "Mistral",
+    "configuration_name": "mistral-small-4-2603-260316"
+  },
+  {
+    "phrase": "Finde ich jetzt irgendwie merkwürdig, was der hat.",
+    "context": "Aber das ist ja eher hart. Finde ich jetzt irgendwie merkwürdig, was der hat. Ist das jetzt Nasennebenhölen bedingt?",
+    "tags": [
+      "reflection: diagnostic_uncertainty"
+    ],
+    "rationale": "The speaker is uncertain about the cause of the observed abnormality.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\50_no advice_cycle_162.txt",
+      "row": 28
+    },
+    "model": "mistralai/mistral-small-2603",
+    "provider": "Mistral",
+    "configuration_name": "mistral-small-4-2603-260316"
+  },
+  {
+    "phrase": "Ist das jetzt Nasennebenhölen bedingt?",
+    "context": "Finde ich jetzt irgendwie merkwürdig, was der hat. Ist das jetzt Nasennebenhölen bedingt? Ah, jetzt habe ich gar nicht so krass aufs Gehirn geschaut.",
+    "tags": [
+      "reasoning: alternative_medical_cause"
+    ],
+    "rationale": "The speaker considers another possible medical cause (sinusitis) for the observed abnormality.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\50_no advice_cycle_162.txt",
+      "row": 28
+    },
+    "model": "mistralai/mistral-small-2603",
+    "provider": "Mistral",
+    "configuration_name": "mistral-small-4-2603-260316"
+  },
+  {
+    "phrase": "Ah, jetzt habe ich gar nicht so krass aufs Gehirn geschaut.",
+    "context": "Ist das jetzt Nasennebenhölen bedingt? Ah, jetzt habe ich gar nicht so krass aufs Gehirn geschaut. Die Frage ist ja, habe ich einen kortikalen Defekt.",
+    "tags": [
+      "reflection: self-monitoring"
+    ],
+    "rationale": "The speaker explicitly observes and comments on their own diagnostic process.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\50_no advice_cycle_162.txt",
+      "row": 28
+    },
+    "model": "mistralai/mistral-small-2603",
+    "provider": "Mistral",
+    "configuration_name": "mistral-small-4-2603-260316"
+  },
+  {
+    "phrase": "Die Frage ist ja, habe ich einen kortikalen Defekt.",
+    "context": "Ah, jetzt habe ich gar nicht so krass aufs Gehirn geschaut. Die Frage ist ja, habe ich einen kortikalen Defekt. Was wahrscheinlich auch das hier bedingen kann.",
+    "tags": [
+      "indicator: anomaly_detected"
+    ],
+    "rationale": "The speaker identifies a potential cortical defect as an abnormality atypical for a healthy skull.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\50_no advice_cycle_162.txt",
+      "row": 28
+    },
+    "model": "mistralai/mistral-small-2603",
+    "provider": "Mistral",
+    "configuration_name": "mistral-small-4-2603-260316"
+  },
+  {
+    "phrase": "Was wahrscheinlich auch das hier bedingen kann.",
+    "context": "Die Frage ist ja, habe ich einen kortikalen Defekt. Was wahrscheinlich auch das hier bedingen kann. Der Mittellinie hier.",
+    "tags": [
+      "reasoning: conclusion_findings"
+    ],
+    "rationale": "The speaker draws a conclusion from the identified indicator (cortical defect) to explain the observed abnormality.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\50_no advice_cycle_162.txt",
+      "row": 28
+    },
+    "model": "mistralai/mistral-small-2603",
+    "provider": "Mistral",
+    "configuration_name": "mistral-small-4-2603-260316"
+  },
+  {
+    "phrase": "Der Mittellinie hier.",
+    "context": "Was wahrscheinlich auch das hier bedingen kann. Der Mittellinie hier. Auf jeden Fall merkwürdig, vorne.",
+    "tags": [
+      "visual_search: description_of_medical_image_features"
+    ],
+    "rationale": "The speaker describes a specific anatomical feature (midline) they are examining.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\50_no advice_cycle_162.txt",
+      "row": 28
+    },
+    "model": "mistralai/mistral-small-2603",
+    "provider": "Mistral",
+    "configuration_name": "mistral-small-4-2603-260316"
+  },
+  {
+    "phrase": "Auf jeden Fall merkwürdig, vorne.",
+    "context": "Der Mittellinie hier. Auf jeden Fall merkwürdig, vorne.",
+    "tags": [
+      "reflection: diagnostic_uncertainty"
+    ],
+    "rationale": "The speaker expresses uncertainty about the abnormality observed in the frontal area.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\50_no advice_cycle_162.txt",
+      "row": 28
+    },
+    "model": "mistralai/mistral-small-2603",
+    "provider": "Mistral",
+    "configuration_name": "mistral-small-4-2603-260316"
+  },
+  {
+    "error": "RateLimitError",
+    "message": "Error code: 429 - {'error': {'message': 'Provider returned error', 'code': 429, 'metadata': {'raw': 'mistralai/mistral-small-2603 is temporarily rate-limited upstream. Please retry shortly, or add your own key to accumulate your rate limits: https://openrouter.ai/settings/integrations', 'provider_name': 'Mistral', 'is_byok': False, 'limit_source': 'upstream_provider_shared_pool', 'remedy_hint': 'Retry shortly, add your own provider key (https://openrouter.ai/settings/integrations), or route to another provider with provider routing: https://openrouter.ai/docs/features/provider-routing', 'previous_errors': [{'code': 429, 'message': 'Provider returned error', 'provider_name': 'Mistral', 'raw': 'mistralai/mistral-small-2603 is temporarily rate-limited upstream. Please retry shortly, or add your own key to accumulate your rate limits: https://openrouter.ai/settings/integrations'}]}}, 'user_id': 'user_2scSnsiOCInTHRf55bUHGgQL0Dk'}",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\50_no advice_cycle_162.txt",
+      "row": 29
+    },
+    "configuration_name": "mistral-small-4-2603-260316"
+  },
+  {
+    "error": "RateLimitError",
+    "message": "Error code: 429 - {'error': {'message': 'Provider returned error', 'code': 429, 'metadata': {'raw': 'mistralai/mistral-small-2603 is temporarily rate-limited upstream. Please retry shortly, or add your own key to accumulate your rate limits: https://openrouter.ai/settings/integrations', 'provider_name': 'Mistral', 'is_byok': False, 'limit_source': 'upstream_provider_shared_pool', 'remedy_hint': 'Retry shortly, add your own provider key (https://openrouter.ai/settings/integrations), or route to another provider with provider routing: https://openrouter.ai/docs/features/provider-routing', 'previous_errors': [{'code': 429, 'message': 'Provider returned error', 'provider_name': 'Mistral', 'raw': 'mistralai/mistral-small-2603 is temporarily rate-limited upstream. Please retry shortly, or add your own key to accumulate your rate limits: https://openrouter.ai/settings/integrations'}]}}, 'user_id': 'user_2scSnsiOCInTHRf55bUHGgQL0Dk'}",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\50_no advice_cycle_162.txt",
+      "row": 30
+    },
+    "configuration_name": "mistral-small-4-2603-260316"
+  },
+  {
+    "error": "RateLimitError",
+    "message": "Error code: 429 - {'error': {'message': 'Provider returned error', 'code': 429, 'metadata': {'raw': 'mistralai/mistral-small-2603 is temporarily rate-limited upstream. Please retry shortly, or add your own key to accumulate your rate limits: https://openrouter.ai/settings/integrations', 'provider_name': 'Mistral', 'is_byok': False, 'limit_source': 'upstream_provider_shared_pool', 'remedy_hint': 'Retry shortly, add your own provider key (https://openrouter.ai/settings/integrations), or route to another provider with provider routing: https://openrouter.ai/docs/features/provider-routing', 'previous_errors': [{'code': 429, 'message': 'Provider returned error', 'provider_name': 'Mistral', 'raw': 'mistralai/mistral-small-2603 is temporarily rate-limited upstream. Please retry shortly, or add your own key to accumulate your rate limits: https://openrouter.ai/settings/integrations'}]}}, 'user_id': 'user_2scSnsiOCInTHRf55bUHGgQL0Dk'}",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\50_no advice_cycle_162.txt",
+      "row": 31
+    },
+    "configuration_name": "mistral-small-4-2603-260316"
+  },
+  {
+    "error": "RateLimitError",
+    "message": "Error code: 429 - {'error': {'message': 'Provider returned error', 'code': 429, 'metadata': {'raw': 'mistralai/mistral-small-2603 is temporarily rate-limited upstream. Please retry shortly, or add your own key to accumulate your rate limits: https://openrouter.ai/settings/integrations', 'provider_name': 'Mistral', 'is_byok': False, 'limit_source': 'upstream_provider_shared_pool', 'remedy_hint': 'Retry shortly, add your own provider key (https://openrouter.ai/settings/integrations), or route to another provider with provider routing: https://openrouter.ai/docs/features/provider-routing', 'previous_errors': [{'code': 429, 'message': 'Provider returned error', 'provider_name': 'Mistral', 'raw': 'mistralai/mistral-small-2603 is temporarily rate-limited upstream. Please retry shortly, or add your own key to accumulate your rate limits: https://openrouter.ai/settings/integrations'}]}}, 'user_id': 'user_2scSnsiOCInTHRf55bUHGgQL0Dk'}",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\50_no advice_cycle_162.txt",
+      "row": 32
+    },
+    "configuration_name": "mistral-small-4-2603-260316"
+  },
+  {
+    "error": "RateLimitError",
+    "message": "Error code: 429 - {'error': {'message': 'Provider returned error', 'code': 429, 'metadata': {'raw': 'mistralai/mistral-small-2603 is temporarily rate-limited upstream. Please retry shortly, or add your own key to accumulate your rate limits: https://openrouter.ai/settings/integrations', 'provider_name': 'Mistral', 'is_byok': False, 'limit_source': 'upstream_provider_shared_pool', 'remedy_hint': 'Retry shortly, add your own provider key (https://openrouter.ai/settings/integrations), or route to another provider with provider routing: https://openrouter.ai/docs/features/provider-routing', 'previous_errors': [{'code': 429, 'message': 'Provider returned error', 'provider_name': 'Mistral', 'raw': 'mistralai/mistral-small-2603 is temporarily rate-limited upstream. Please retry shortly, or add your own key to accumulate your rate limits: https://openrouter.ai/settings/integrations'}]}}, 'user_id': 'user_2scSnsiOCInTHRf55bUHGgQL0Dk'}",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\50_no advice_cycle_162.txt",
+      "row": 33
+    },
+    "configuration_name": "mistral-small-4-2603-260316"
+  },
+  {
+    "error": "RateLimitError",
+    "message": "Error code: 429 - {'error': {'message': 'Provider returned error', 'code': 429, 'metadata': {'raw': 'mistralai/mistral-small-2603 is temporarily rate-limited upstream. Please retry shortly, or add your own key to accumulate your rate limits: https://openrouter.ai/settings/integrations', 'provider_name': 'Mistral', 'is_byok': False, 'limit_source': 'upstream_provider_shared_pool', 'remedy_hint': 'Retry shortly, add your own provider key (https://openrouter.ai/settings/integrations), or route to another provider with provider routing: https://openrouter.ai/docs/features/provider-routing', 'previous_errors': [{'code': 429, 'message': 'Provider returned error', 'provider_name': 'Mistral', 'raw': 'mistralai/mistral-small-2603 is temporarily rate-limited upstream. Please retry shortly, or add your own key to accumulate your rate limits: https://openrouter.ai/settings/integrations'}]}}, 'user_id': 'user_2scSnsiOCInTHRf55bUHGgQL0Dk'}",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\50_no advice_cycle_162.txt",
+      "row": 34
+    },
+    "configuration_name": "mistral-small-4-2603-260316"
+  },
+  {
+    "error": "RateLimitError",
+    "message": "Error code: 429 - {'error': {'message': 'Provider returned error', 'code': 429, 'metadata': {'raw': 'mistralai/mistral-small-2603 is temporarily rate-limited upstream. Please retry shortly, or add your own key to accumulate your rate limits: https://openrouter.ai/settings/integrations', 'provider_name': 'Mistral', 'is_byok': False, 'limit_source': 'upstream_provider_shared_pool', 'remedy_hint': 'Retry shortly, add your own provider key (https://openrouter.ai/settings/integrations), or route to another provider with provider routing: https://openrouter.ai/docs/features/provider-routing', 'previous_errors': [{'code': 429, 'message': 'Provider returned error', 'provider_name': 'Mistral', 'raw': 'mistralai/mistral-small-2603 is temporarily rate-limited upstream. Please retry shortly, or add your own key to accumulate your rate limits: https://openrouter.ai/settings/integrations'}]}}, 'user_id': 'user_2scSnsiOCInTHRf55bUHGgQL0Dk'}",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\50_no advice_cycle_162.txt",
+      "row": 35
+    },
+    "configuration_name": "mistral-small-4-2603-260316"
+  },
+  {
+    "error": "RateLimitError",
+    "message": "Error code: 429 - {'error': {'message': 'Provider returned error', 'code': 429, 'metadata': {'raw': 'mistralai/mistral-small-2603 is temporarily rate-limited upstream. Please retry shortly, or add your own key to accumulate your rate limits: https://openrouter.ai/settings/integrations', 'provider_name': 'Mistral', 'is_byok': False, 'limit_source': 'upstream_provider_shared_pool', 'remedy_hint': 'Retry shortly, add your own provider key (https://openrouter.ai/settings/integrations), or route to another provider with provider routing: https://openrouter.ai/docs/features/provider-routing', 'previous_errors': [{'code': 429, 'message': 'Provider returned error', 'provider_name': 'Mistral', 'raw': 'mistralai/mistral-small-2603 is temporarily rate-limited upstream. Please retry shortly, or add your own key to accumulate your rate limits: https://openrouter.ai/settings/integrations'}]}}, 'user_id': 'user_2scSnsiOCInTHRf55bUHGgQL0Dk'}",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\50_no advice_cycle_162.txt",
+      "row": 36
+    },
+    "configuration_name": "mistral-small-4-2603-260316"
+  },
+  {
+    "error": "RateLimitError",
+    "message": "Error code: 429 - {'error': {'message': 'Provider returned error', 'code': 429, 'metadata': {'raw': 'mistralai/mistral-small-2603 is temporarily rate-limited upstream. Please retry shortly, or add your own key to accumulate your rate limits: https://openrouter.ai/settings/integrations', 'provider_name': 'Mistral', 'is_byok': False, 'limit_source': 'upstream_provider_shared_pool', 'remedy_hint': 'Retry shortly, add your own provider key (https://openrouter.ai/settings/integrations), or route to another provider with provider routing: https://openrouter.ai/docs/features/provider-routing', 'previous_errors': [{'code': 429, 'message': 'Provider returned error', 'provider_name': 'Mistral', 'raw': 'mistralai/mistral-small-2603 is temporarily rate-limited upstream. Please retry shortly, or add your own key to accumulate your rate limits: https://openrouter.ai/settings/integrations'}]}}, 'user_id': 'user_2scSnsiOCInTHRf55bUHGgQL0Dk'}",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\50_no advice_cycle_162.txt",
+      "row": 37
+    },
+    "configuration_name": "mistral-small-4-2603-260316"
+  },
+  {
+    "error": "RateLimitError",
+    "message": "Error code: 429 - {'error': {'message': 'Provider returned error', 'code': 429, 'metadata': {'raw': 'mistralai/mistral-small-2603 is temporarily rate-limited upstream. Please retry shortly, or add your own key to accumulate your rate limits: https://openrouter.ai/settings/integrations', 'provider_name': 'Mistral', 'is_byok': False, 'limit_source': 'upstream_provider_shared_pool', 'remedy_hint': 'Retry shortly, add your own provider key (https://openrouter.ai/settings/integrations), or route to another provider with provider routing: https://openrouter.ai/docs/features/provider-routing', 'previous_errors': [{'code': 429, 'message': 'Provider returned error', 'provider_name': 'Mistral', 'raw': 'mistralai/mistral-small-2603 is temporarily rate-limited upstream. Please retry shortly, or add your own key to accumulate your rate limits: https://openrouter.ai/settings/integrations'}]}}, 'user_id': 'user_2scSnsiOCInTHRf55bUHGgQL0Dk'}",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\50_no advice_cycle_162.txt",
+      "row": 38
+    },
+    "configuration_name": "mistral-small-4-2603-260316"
+  },
+  {
+    "error": "RateLimitError",
+    "message": "Error code: 429 - {'error': {'message': 'Provider returned error', 'code': 429, 'metadata': {'raw': 'mistralai/mistral-small-2603 is temporarily rate-limited upstream. Please retry shortly, or add your own key to accumulate your rate limits: https://openrouter.ai/settings/integrations', 'provider_name': 'Mistral', 'is_byok': False, 'limit_source': 'upstream_provider_shared_pool', 'remedy_hint': 'Retry shortly, add your own provider key (https://openrouter.ai/settings/integrations), or route to another provider with provider routing: https://openrouter.ai/docs/features/provider-routing', 'previous_errors': [{'code': 429, 'message': 'Provider returned error', 'provider_name': 'Mistral', 'raw': 'mistralai/mistral-small-2603 is temporarily rate-limited upstream. Please retry shortly, or add your own key to accumulate your rate limits: https://openrouter.ai/settings/integrations'}]}}, 'user_id': 'user_2scSnsiOCInTHRf55bUHGgQL0Dk'}",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\50_no advice_cycle_162.txt",
+      "row": 39
+    },
+    "configuration_name": "mistral-small-4-2603-260316"
+  },
+  {
+    "error": "RateLimitError",
+    "message": "Error code: 429 - {'error': {'message': 'Provider returned error', 'code': 429, 'metadata': {'raw': 'mistralai/mistral-small-2603 is temporarily rate-limited upstream. Please retry shortly, or add your own key to accumulate your rate limits: https://openrouter.ai/settings/integrations', 'provider_name': 'Mistral', 'is_byok': False, 'limit_source': 'upstream_provider_shared_pool', 'remedy_hint': 'Retry shortly, add your own provider key (https://openrouter.ai/settings/integrations), or route to another provider with provider routing: https://openrouter.ai/docs/features/provider-routing', 'previous_errors': [{'code': 429, 'message': 'Provider returned error', 'provider_name': 'Mistral', 'raw': 'mistralai/mistral-small-2603 is temporarily rate-limited upstream. Please retry shortly, or add your own key to accumulate your rate limits: https://openrouter.ai/settings/integrations'}]}}, 'user_id': 'user_2scSnsiOCInTHRf55bUHGgQL0Dk'}",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\50_no advice_cycle_162.txt",
+      "row": 40
+    },
+    "configuration_name": "mistral-small-4-2603-260316"
+  },
+  {
+    "error": "RateLimitError",
+    "message": "Error code: 429 - {'error': {'message': 'Provider returned error', 'code': 429, 'metadata': {'raw': 'mistralai/mistral-small-2603 is temporarily rate-limited upstream. Please retry shortly, or add your own key to accumulate your rate limits: https://openrouter.ai/settings/integrations', 'provider_name': 'Mistral', 'is_byok': False, 'limit_source': 'upstream_provider_shared_pool', 'remedy_hint': 'Retry shortly, add your own provider key (https://openrouter.ai/settings/integrations), or route to another provider with provider routing: https://openrouter.ai/docs/features/provider-routing', 'previous_errors': [{'code': 429, 'message': 'Provider returned error', 'provider_name': 'Mistral', 'raw': 'mistralai/mistral-small-2603 is temporarily rate-limited upstream. Please retry shortly, or add your own key to accumulate your rate limits: https://openrouter.ai/settings/integrations'}]}}, 'user_id': 'user_2scSnsiOCInTHRf55bUHGgQL0Dk'}",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\50_no advice_cycle_162.txt",
+      "row": 41
+    },
+    "configuration_name": "mistral-small-4-2603-260316"
+  },
+  {
+    "error": "RateLimitError",
+    "message": "Error code: 429 - {'error': {'message': 'Provider returned error', 'code': 429, 'metadata': {'raw': 'mistralai/mistral-small-2603 is temporarily rate-limited upstream. Please retry shortly, or add your own key to accumulate your rate limits: https://openrouter.ai/settings/integrations', 'provider_name': 'Mistral', 'is_byok': False, 'limit_source': 'upstream_provider_shared_pool', 'remedy_hint': 'Retry shortly, add your own provider key (https://openrouter.ai/settings/integrations), or route to another provider with provider routing: https://openrouter.ai/docs/features/provider-routing', 'previous_errors': [{'code': 429, 'message': 'Provider returned error', 'provider_name': 'Mistral', 'raw': 'mistralai/mistral-small-2603 is temporarily rate-limited upstream. Please retry shortly, or add your own key to accumulate your rate limits: https://openrouter.ai/settings/integrations'}]}}, 'user_id': 'user_2scSnsiOCInTHRf55bUHGgQL0Dk'}",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\50_no advice_cycle_162.txt",
+      "row": 42
+    },
+    "configuration_name": "mistral-small-4-2603-260316"
+  },
+  {
+    "error": "RateLimitError",
+    "message": "Error code: 429 - {'error': {'message': 'Provider returned error', 'code': 429, 'metadata': {'raw': 'mistralai/mistral-small-2603 is temporarily rate-limited upstream. Please retry shortly, or add your own key to accumulate your rate limits: https://openrouter.ai/settings/integrations', 'provider_name': 'Mistral', 'is_byok': False, 'limit_source': 'upstream_provider_shared_pool', 'remedy_hint': 'Retry shortly, add your own provider key (https://openrouter.ai/settings/integrations), or route to another provider with provider routing: https://openrouter.ai/docs/features/provider-routing', 'previous_errors': [{'code': 429, 'message': 'Provider returned error', 'provider_name': 'Mistral', 'raw': 'mistralai/mistral-small-2603 is temporarily rate-limited upstream. Please retry shortly, or add your own key to accumulate your rate limits: https://openrouter.ai/settings/integrations'}]}}, 'user_id': 'user_2scSnsiOCInTHRf55bUHGgQL0Dk'}",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\50_no advice_cycle_162.txt",
+      "row": 43
+    },
+    "configuration_name": "mistral-small-4-2603-260316"
+  },
+  {
+    "error": "RateLimitError",
+    "message": "Error code: 429 - {'error': {'message': 'Provider returned error', 'code': 429, 'metadata': {'raw': 'mistralai/mistral-small-2603 is temporarily rate-limited upstream. Please retry shortly, or add your own key to accumulate your rate limits: https://openrouter.ai/settings/integrations', 'provider_name': 'Mistral', 'is_byok': False, 'limit_source': 'upstream_provider_shared_pool', 'remedy_hint': 'Retry shortly, add your own provider key (https://openrouter.ai/settings/integrations), or route to another provider with provider routing: https://openrouter.ai/docs/features/provider-routing', 'previous_errors': [{'code': 429, 'message': 'Provider returned error', 'provider_name': 'Mistral', 'raw': 'mistralai/mistral-small-2603 is temporarily rate-limited upstream. Please retry shortly, or add your own key to accumulate your rate limits: https://openrouter.ai/settings/integrations'}]}}, 'user_id': 'user_2scSnsiOCInTHRf55bUHGgQL0Dk'}",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\50_no advice_cycle_162.txt",
+      "row": 44
+    },
+    "configuration_name": "mistral-small-4-2603-260316"
+  },
+  {
+    "error": "RateLimitError",
+    "message": "Error code: 429 - {'error': {'message': 'Provider returned error', 'code': 429, 'metadata': {'raw': 'mistralai/mistral-small-2603 is temporarily rate-limited upstream. Please retry shortly, or add your own key to accumulate your rate limits: https://openrouter.ai/settings/integrations', 'provider_name': 'Mistral', 'is_byok': False, 'limit_source': 'upstream_provider_shared_pool', 'remedy_hint': 'Retry shortly, add your own provider key (https://openrouter.ai/settings/integrations), or route to another provider with provider routing: https://openrouter.ai/docs/features/provider-routing', 'previous_errors': [{'code': 429, 'message': 'Provider returned error', 'provider_name': 'Mistral', 'raw': 'mistralai/mistral-small-2603 is temporarily rate-limited upstream. Please retry shortly, or add your own key to accumulate your rate limits: https://openrouter.ai/settings/integrations'}]}}, 'user_id': 'user_2scSnsiOCInTHRf55bUHGgQL0Dk'}",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\50_no advice_cycle_162.txt",
+      "row": 45
+    },
+    "configuration_name": "mistral-small-4-2603-260316"
+  },
+  {
+    "error": "RateLimitError",
+    "message": "Error code: 429 - {'error': {'message': 'Provider returned error', 'code': 429, 'metadata': {'raw': 'mistralai/mistral-small-2603 is temporarily rate-limited upstream. Please retry shortly, or add your own key to accumulate your rate limits: https://openrouter.ai/settings/integrations', 'provider_name': 'Mistral', 'is_byok': False, 'limit_source': 'upstream_provider_shared_pool', 'remedy_hint': 'Retry shortly, add your own provider key (https://openrouter.ai/settings/integrations), or route to another provider with provider routing: https://openrouter.ai/docs/features/provider-routing', 'previous_errors': [{'code': 429, 'message': 'Provider returned error', 'provider_name': 'Mistral', 'raw': 'mistralai/mistral-small-2603 is temporarily rate-limited upstream. Please retry shortly, or add your own key to accumulate your rate limits: https://openrouter.ai/settings/integrations'}]}}, 'user_id': 'user_2scSnsiOCInTHRf55bUHGgQL0Dk'}",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\50_no advice_cycle_162.txt",
+      "row": 46
+    },
+    "configuration_name": "mistral-small-4-2603-260316"
+  },
+  {
+    "error": "RateLimitError",
+    "message": "Error code: 429 - {'error': {'message': 'Provider returned error', 'code': 429, 'metadata': {'raw': 'mistralai/mistral-small-2603 is temporarily rate-limited upstream. Please retry shortly, or add your own key to accumulate your rate limits: https://openrouter.ai/settings/integrations', 'provider_name': 'Mistral', 'is_byok': False, 'limit_source': 'upstream_provider_shared_pool', 'remedy_hint': 'Retry shortly, add your own provider key (https://openrouter.ai/settings/integrations), or route to another provider with provider routing: https://openrouter.ai/docs/features/provider-routing', 'previous_errors': [{'code': 429, 'message': 'Provider returned error', 'provider_name': 'Mistral', 'raw': 'mistralai/mistral-small-2603 is temporarily rate-limited upstream. Please retry shortly, or add your own key to accumulate your rate limits: https://openrouter.ai/settings/integrations'}]}}, 'user_id': 'user_2scSnsiOCInTHRf55bUHGgQL0Dk'}",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\50_no advice_cycle_162.txt",
+      "row": 47
+    },
+    "configuration_name": "mistral-small-4-2603-260316"
+  },
+  {
+    "error": "RateLimitError",
+    "message": "Error code: 429 - {'error': {'message': 'Provider returned error', 'code': 429, 'metadata': {'raw': 'mistralai/mistral-small-2603 is temporarily rate-limited upstream. Please retry shortly, or add your own key to accumulate your rate limits: https://openrouter.ai/settings/integrations', 'provider_name': 'Mistral', 'is_byok': False, 'limit_source': 'upstream_provider_shared_pool', 'remedy_hint': 'Retry shortly, add your own provider key (https://openrouter.ai/settings/integrations), or route to another provider with provider routing: https://openrouter.ai/docs/features/provider-routing', 'previous_errors': [{'code': 429, 'message': 'Provider returned error', 'provider_name': 'Mistral', 'raw': 'mistralai/mistral-small-2603 is temporarily rate-limited upstream. Please retry shortly, or add your own key to accumulate your rate limits: https://openrouter.ai/settings/integrations'}]}}, 'user_id': 'user_2scSnsiOCInTHRf55bUHGgQL0Dk'}",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\50_no advice_cycle_162.txt",
+      "row": 48
+    },
+    "configuration_name": "mistral-small-4-2603-260316"
+  },
+  {
+    "error": "RateLimitError",
+    "message": "Error code: 429 - {'error': {'message': 'Provider returned error', 'code': 429, 'metadata': {'raw': 'mistralai/mistral-small-2603 is temporarily rate-limited upstream. Please retry shortly, or add your own key to accumulate your rate limits: https://openrouter.ai/settings/integrations', 'provider_name': 'Mistral', 'is_byok': False, 'limit_source': 'upstream_provider_shared_pool', 'remedy_hint': 'Retry shortly, add your own provider key (https://openrouter.ai/settings/integrations), or route to another provider with provider routing: https://openrouter.ai/docs/features/provider-routing', 'previous_errors': [{'code': 429, 'message': 'Provider returned error', 'provider_name': 'Mistral', 'raw': 'mistralai/mistral-small-2603 is temporarily rate-limited upstream. Please retry shortly, or add your own key to accumulate your rate limits: https://openrouter.ai/settings/integrations'}]}}, 'user_id': 'user_2scSnsiOCInTHRf55bUHGgQL0Dk'}",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\50_no advice_cycle_162.txt",
+      "row": 49
+    },
+    "configuration_name": "mistral-small-4-2603-260316"
+  }
+]

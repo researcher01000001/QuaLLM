@@ -1,0 +1,2960 @@
+[
+  {
+    "phrase": "Hier wurde keine Blutung entdeckt.",
+    "context": "Dann ist ein 38 jähriger Mann mit sehr starken Kopfschmerzen. Hier wurde keine Blutung entdeckt.",
+    "tags": [
+      "interpretation: no_bleeding"
+    ],
+    "rationale": "The person explicitly states that no bleeding was detected.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\42_advice with annotation_cycle_117.txt",
+      "row": 4
+    },
+    "model": "meta-llama/llama-3.3-70b-instruct",
+    "provider": "Parasail",
+    "configuration_name": "llama-3-3-70b-instruct-241206"
+  },
+  {
+    "phrase": "was mich dann auf eine Blutung bringen würde",
+    "context": "Oh, sehe, dass die Sulci, finde ich, sehr aufgetrieben aussehen, also dazwischen sehr viel Platz ist, und außerdem, hier sehen wir die Sulci eben sehr wenig, das heißt, vielleicht hat er einen erhöhten Hirndruck, was mich dann auf eine Blutung bringen würde",
+    "tags": [
+      "reasoning: alternative_medical_cause"
+    ],
+    "rationale": "The person mentions a possible cause (increased intracranial pressure) that could lead them to suspect a hemorrhage.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\42_advice with annotation_cycle_117.txt",
+      "row": 4
+    },
+    "model": "meta-llama/llama-3.3-70b-instruct",
+    "provider": "Parasail",
+    "configuration_name": "llama-3-3-70b-instruct-241206"
+  },
+  {
+    "phrase": "Achso und genau Ich sehe aber wieder keine Mittellinienverlagerung",
+    "context": "Achso und genau Ich sehe aber wieder keine Mittellinienverlagerung. Die Ventrikel sind einigermaßen offen, also nicht zur Seite verlagert, und wenn schon, würde ich oben sagen, dass die Sulci so ein bisschen weit auseinander liegen",
+    "tags": [
+      "indicator: no_bleeding"
+    ],
+    "rationale": "The person notes the absence of a specific indicator (midline shift) that could suggest a hemorrhage.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\42_advice with annotation_cycle_117.txt",
+      "row": 4
+    },
+    "model": "meta-llama/llama-3.3-70b-instruct",
+    "provider": "Parasail",
+    "configuration_name": "llama-3-3-70b-instruct-241206"
+  },
+  {
+    "phrase": "Also ich glaube, das ist keine Blutung, die Kopfschmerzen kommen von was anderem",
+    "context": "Also ich glaube, das ist keine Blutung, die Kopfschmerzen kommen von was anderem, und das würde mit ihm übereinstimmen",
+    "tags": [
+      "interpretation: no_bleeding"
+    ],
+    "rationale": "The person explicitly states their belief that there is no hemorrhage and attributes the patient's symptoms to another cause.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\42_advice with annotation_cycle_117.txt",
+      "row": 4
+    },
+    "model": "meta-llama/llama-3.3-70b-instruct",
+    "provider": "Parasail",
+    "configuration_name": "llama-3-3-70b-instruct-241206"
+  },
+  {
+    "phrase": "und das würde mit ihm übereinstimmen",
+    "context": "Also ich glaube, das ist keine Blutung, die Kopfschmerzen kommen von was anderem, und das würde mit ihm übereinstimmen",
+    "tags": [
+      "confidence_high: secondary"
+    ],
+    "rationale": "The person expresses increased confidence in their diagnosis, implying that it aligns with their expectations or prior knowledge.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\42_advice with annotation_cycle_117.txt",
+      "row": 4
+    },
+    "model": "meta-llama/llama-3.3-70b-instruct",
+    "provider": "Parasail",
+    "configuration_name": "llama-3-3-70b-instruct-241206"
+  },
+  {
+    "phrase": "hier ist keine Blutung entdeckt worden",
+    "context": "dann fünfzigjähriger Mann mit Kopfschmerzen und Warfarin, hier ist keine Blutung entdeckt worden.",
+    "tags": [
+      "interpretation: no_bleeding"
+    ],
+    "rationale": "The speaker explicitly states that no bleeding has been detected.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\42_advice with annotation_cycle_117.txt",
+      "row": 6
+    },
+    "model": "meta-llama/llama-3.3-70b-instruct",
+    "provider": "DeepInfra",
+    "configuration_name": "llama-3-3-70b-instruct-241206"
+  },
+  {
+    "phrase": "Ich sehe keine Aufhellung bisher, das ist alles symmetrisch",
+    "context": "Ich gehe wieder von oben durch. Das sieht wieder sehr atrophisch aus, weil die, weil die Sulci so weit auseinander liegen, und da ist oben so bisschen flüssigkeitreich aussieht. Aber vielleicht ist das auch nochmal. Ich sehe keine Aufhellung bisher, das ist alles symmetrisch.",
+    "tags": [
+      "indicator: no_bleeding"
+    ],
+    "rationale": "The speaker mentions that they see no signs of bleeding (no hyperdensity) and that everything looks symmetrical.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\42_advice with annotation_cycle_117.txt",
+      "row": 6
+    },
+    "model": "meta-llama/llama-3.3-70b-instruct",
+    "provider": "DeepInfra",
+    "configuration_name": "llama-3-3-70b-instruct-241206"
+  },
+  {
+    "phrase": "Genau die Ventrikel liegen symmetrisch offen, und deswegen sage ich, hier ist keine Blutung relativ sicher",
+    "context": "Und im Hirnstamm und im Kleinhirn sieht es auch echt in Ordnung aus. Genau die Ventrikel liegen symmetrisch offen, und deswegen sage ich, hier ist keine Blutung relativ sicher.",
+    "tags": [
+      "interpretation: no_bleeding",
+      "confidence_high: secondary"
+    ],
+    "rationale": "The speaker states that the ventricles are symmetrical and open, and therefore they are relatively sure that there is no bleeding. The phrase 'relativ sicher' implies a high level of confidence.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\42_advice with annotation_cycle_117.txt",
+      "row": 6
+    },
+    "model": "meta-llama/llama-3.3-70b-instruct",
+    "provider": "DeepInfra",
+    "configuration_name": "llama-3-3-70b-instruct-241206"
+  },
+  {
+    "phrase": "Und. Ja, es unterstützt wieder meine These, dass keine Blutung da ist",
+    "context": "Und. Ja, es unterstützt wieder meine These, dass keine Blutung da ist. Und.",
+    "tags": [
+      "interpretation: no_bleeding",
+      "confidence_high: secondary"
+    ],
+    "rationale": "The speaker reaffirms their previous conclusion that there is no bleeding, which implies a high level of confidence in their assessment.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\42_advice with annotation_cycle_117.txt",
+      "row": 6
+    },
+    "model": "meta-llama/llama-3.3-70b-instruct",
+    "provider": "DeepInfra",
+    "configuration_name": "llama-3-3-70b-instruct-241206"
+  },
+  {
+    "phrase": "hier war keine Blutung detektiert worden",
+    "context": "63 jährige Frau. Ähm, war als Fahrer in einem Autounfall. Ähm, hier war keine Blutung detektiert worden, auch hier sehe ich wieder symmetrisch die Ventrikel äh die Hemisphären liegen, die Seitenventrikel sind offen, der dritte Ventrikel und? ist auch okay.",
+    "tags": [
+      "ai_report: no_ich"
+    ],
+    "rationale": "The person mentions that no bleeding was detected, which aligns with the ai_report: no_ich tag.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\42_advice with annotation_cycle_117.txt",
+      "row": 7
+    },
+    "model": "meta-llama/llama-3.3-70b-instruct",
+    "provider": "DeepInfra",
+    "configuration_name": "llama-3-3-70b-instruct-241206"
+  },
+  {
+    "phrase": "Aber da würde ich mich jetzt von der AI leiten lassen und sagen, das ist keine Blutung",
+    "context": "Ähm, hier war keine Blutung detektiert worden, auch hier sehe ich wieder symmetrisch die Ventrikel äh die Hemisphären liegen, die Seitenventrikel sind offen, der dritte Ventrikel und? ist auch okay. Im Kleinhirn sieht es ein bisschen, mmh hier ist dann ein bisschen dunkler. Ähm! Aber da würde ich mich jetzt von der AI leiten lassen und sagen, das ist keine Blutung.",
+    "tags": [
+      "decision_with_ai: explicitly_agreeing_with_ai",
+      "interpretation: no_bleeding"
+    ],
+    "rationale": "The person explicitly agrees with the AI's assessment that there is no bleeding, which aligns with the decision_with_ai: explicitly_agreeing_with_ai and interpretation: no_bleeding tags.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\42_advice with annotation_cycle_117.txt",
+      "row": 7
+    },
+    "model": "meta-llama/llama-3.3-70b-instruct",
+    "provider": "DeepInfra",
+    "configuration_name": "llama-3-3-70b-instruct-241206"
+  },
+  {
+    "phrase": "Hier wurde dann jetzt wieder eine Blutung gefunden.",
+    "context": "Hier wurde dann jetzt wieder eine Blutung gefunden. Ähm, die Seiteventrickel sind symmetrisch, die Mittellinie liegt in der Mitte, ich gehe mal durch sieht okay es Kleinhirn.",
+    "tags": [
+      "interpretation: bleeding"
+    ],
+    "rationale": "The phrase indicates that a hemorrhage has been found, which aligns with the interpretation of bleeding tag.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\42_advice with annotation_cycle_117.txt",
+      "row": 9
+    },
+    "model": "meta-llama/llama-3.3-70b-instruct",
+    "provider": "DeepInfra",
+    "configuration_name": "llama-3-3-70b-instruct-241206"
+  },
+  {
+    "phrase": "Hier ist irgendwas hinten im Kleinhirn, was ich nicht so richtig sehen kann.",
+    "context": "Hier ist irgendwas hinten im Kleinhirn, was ich nicht so richtig sehen kann. Die Seitenventrikel sind in Ordnung, und wo sehe, wo hat er das?",
+    "tags": [
+      "indicator: anomaly_detected"
+    ],
+    "rationale": "The person notices an abnormality in the cerebellum but is unsure what it is, fitting the anomaly detected tag.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\42_advice with annotation_cycle_117.txt",
+      "row": 9
+    },
+    "model": "meta-llama/llama-3.3-70b-instruct",
+    "provider": "DeepInfra",
+    "configuration_name": "llama-3-3-70b-instruct-241206"
+  },
+  {
+    "phrase": "Aber es sieht auf jeden Fall nicht normal aus, und hier, wir haben so ein verdunkelten Bereich, und es kann halt sein, dass da irgendwie so eine Art zystische oder ja, auf jeden Fall ist da irgendwas vor, und dann könnte das Blut hier hinten liegen.",
+    "context": "Aber es sieht auf jeden Fall nicht normal aus, und hier, wir haben so ein verdunkelten Bereich, und es kann halt sein, dass da irgendwie so eine Art zystische oder ja, auf jeden Fall ist da irgendwas vor, und dann könnte das Blut hier hinten liegen. Und da im Autounfall war, glaube ich, dass das eine Blutung ist.",
+    "tags": [
+      "interpretation: bleeding",
+      "reasoning: conclusion_contextual_information"
+    ],
+    "rationale": "The person interprets the abnormality as possibly being a hemorrhage and connects it with the medical history of an auto accident, showing both interpretation of bleeding and conclusion based on contextual information.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\42_advice with annotation_cycle_117.txt",
+      "row": 9
+    },
+    "model": "meta-llama/llama-3.3-70b-instruct",
+    "provider": "DeepInfra",
+    "configuration_name": "llama-3-3-70b-instruct-241206"
+  },
+  {
+    "phrase": "Und da im Autounfall war, glaube ich, dass das eine Blutung ist. Ja, ich glaube da. Und sie glauben das auch, oder die AI ich glaubt dass auch deswegen genau.",
+    "context": "Und da im Autounfall war, glaube ich, dass das eine Blutung ist. Ja, ich glaube da. Und sie glauben das auch, oder die AI ich glaubt dass auch deswegen genau.",
+    "tags": [
+      "interpretation: bleeding",
+      "decision_with_ai: explicitly_agreeing_with_ai"
+    ],
+    "rationale": "The person concludes that the finding is a hemorrhage, agrees with the AI's assessment, and bases this conclusion on the context of an auto accident, fitting both the interpretation of bleeding and explicit agreement with the AI tags.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\42_advice with annotation_cycle_117.txt",
+      "row": 9
+    },
+    "model": "meta-llama/llama-3.3-70b-instruct",
+    "provider": "DeepInfra",
+    "configuration_name": "llama-3-3-70b-instruct-241206"
+  },
+  {
+    "phrase": "Ich stimme da der AI zu und sage, das ist eine Blutung, weil es eben hyperdens ist und genau und eben auch die Anamnese dazu besteht.",
+    "context": "29 Jahre männlich, beim Fußball mit einem Kopf zusammengestoßen. Hier wurde eine hemorrhage detected. Das ist hier zwischen den Hemisphären, so eine ganz leicht kleine Aufhellung, das wäre dann ja, einfach der eine subdurale Blutung oder eine intrazerebrale Blutung, sonst sieht hier alles in Ordnung aus. Sind wieder ein wenig Sulci zu erkennen, das heißt, es könnte wieder ein bisschen Hirndruck bestehen. Ich stimme da der AI zu und sage, das ist eine Blutung, weil es eben hyperdens ist und genau und eben auch die Anamnese dazu besteht.",
+    "tags": [
+      "decision_with_ai: explicitly_agreeing_with_ai",
+      "interpretation: bleeding"
+    ],
+    "rationale": "The person explicitly agrees with the AI's assessment of a hemorrhage and interprets the finding as a bleeding due to its hyperdensity and the patient's medical history.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\42_advice with annotation_cycle_117.txt",
+      "row": 11
+    },
+    "model": "meta-llama/llama-3.3-70b-instruct",
+    "provider": "Parasail",
+    "configuration_name": "llama-3-3-70b-instruct-241206"
+  },
+  {
+    "phrase": "Das ist hier zwischen den Hemisphären, so eine ganz leicht kleine Aufhellung, das wäre dann ja, einfach der eine subdurale Blutung oder eine intrazerebrale Blutung",
+    "context": "29 Jahre männlich, beim Fußball mit einem Kopf zusammengestoßen. Hier wurde eine hemorrhage detected. Das ist hier zwischen den Hemisphären, so eine ganz leicht kleine Aufhellung, das wäre dann ja, einfach der eine subdurale Blutung oder eine intrazerebrale Blutung, sonst sieht hier alles in Ordnung aus. Sind wieder ein wenig Sulci zu erkennen, das heißt, es könnte wieder ein bisschen Hirndruck bestehen. Ich stimme da der AI zu und sage, das ist eine Blutung, weil es eben hyperdens ist und genau und eben auch die Anamnese dazu besteht.",
+    "tags": [
+      "interpretation: bleeding"
+    ],
+    "rationale": "The person describes a possible hemorrhage location and type, indicating their interpretation of the finding as a bleeding.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\42_advice with annotation_cycle_117.txt",
+      "row": 11
+    },
+    "model": "meta-llama/llama-3.3-70b-instruct",
+    "provider": "Parasail",
+    "configuration_name": "llama-3-3-70b-instruct-241206"
+  },
+  {
+    "phrase": "sonst sieht hier alles in Ordnung aus. Sind wieder ein wenig Sulci zu erkennen, das heißt, es könnte wieder ein bisschen Hirndruck bestehen.",
+    "context": "29 Jahre männlich, beim Fußball mit einem Kopf zusammengestoßen. Hier wurde eine hemorrhage detected. Das ist hier zwischen den Hemisphären, so eine ganz leicht kleine Aufhellung, das wäre dann ja, einfach der eine subdurale Blutung oder eine intrazerebrale Blutung, sonst sieht hier alles in Ordnung aus. Sind wieder ein wenig Sulci zu erkennen, das heißt, es könnte wieder ein bisschen Hirndruck bestehen. Ich stimme da der AI zu und sage, das ist eine Blutung, weil es eben hyperdens ist und genau und eben auch die Anamnese dazu besteht.",
+    "tags": [
+      "visual_search: description_of_medical_image_features"
+    ],
+    "rationale": "The person describes other visible structures in the image, such as Sulci, and comments on their possible implications for the patient's condition.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\42_advice with annotation_cycle_117.txt",
+      "row": 11
+    },
+    "model": "meta-llama/llama-3.3-70b-instruct",
+    "provider": "Parasail",
+    "configuration_name": "llama-3-3-70b-instruct-241206"
+  },
+  {
+    "phrase": "Eine Blutung wurde gefunden.",
+    "context": "So. Jetzt wieder einen Patienten mit Kopfschmerzen, 78 Jahre und männlich. Eine Blutung wurde gefunden.",
+    "tags": [
+      "ai_report: ich"
+    ],
+    "rationale": "The phrase indicates that the AI has found a hemorrhage.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\42_advice with annotation_cycle_117.txt",
+      "row": 8
+    },
+    "model": "meta-llama/llama-3.3-70b-instruct",
+    "provider": "DeepInfra",
+    "configuration_name": "llama-3-3-70b-instruct-241206"
+  },
+  {
+    "phrase": "Aber es sieht mir auch nicht nach Blutung aus.",
+    "context": "Die Seitenventrikel sehen sehr dedatiert aus. Ähm. Da bis hier, okay. Das Kleinhirn sieht in Ordnung aus. Oh hier ist ist das? Achso, das ist das Seitenventrikelhorn. Okay, also, ich würde sagen, er hat auf jeden Fall entweder eine Liquorabflussstörung, und hier könnte es irgendwie sein, dass die Ventrikel, also dass der Abfluss ein bisschen verlegt ist. Aber es sieht mir auch nicht nach Blutung aus.",
+    "tags": [
+      "interpretation: no_bleeding"
+    ],
+    "rationale": "The person interprets the finding as not being a hemorrhage.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\42_advice with annotation_cycle_117.txt",
+      "row": 8
+    },
+    "model": "meta-llama/llama-3.3-70b-instruct",
+    "provider": "DeepInfra",
+    "configuration_name": "llama-3-3-70b-instruct-241206"
+  },
+  {
+    "phrase": "und da würde mich die AI wieder unterstützen.",
+    "context": "Aber es sieht mir auch nicht nach Blutung aus. Deswegen würde ich sagen, er hat einen anderen Grund für seinen, für seine Liquorabflussstörung, und da würde mich die AI wieder unterstützen.",
+    "tags": [
+      "reflection_of_ai: helpful"
+    ],
+    "rationale": "The person perceives the AI as helpful in supporting their diagnosis.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\42_advice with annotation_cycle_117.txt",
+      "row": 8
+    },
+    "model": "meta-llama/llama-3.3-70b-instruct",
+    "provider": "DeepInfra",
+    "configuration_name": "llama-3-3-70b-instruct-241206"
+  },
+  {
+    "phrase": "Das Gewebe, des Gehirns, sieht eigentlich recht homogen aus",
+    "context": "62 Jahre, männlich, mit Kopfschmerzen, so keine Blutung wurde erkannt. Hier ist hier hinten in der Mittellinie zwischen den beiden Hemisphären so eine Aufhellung. Das wäre dann aber eben nicht intrazerebral, sondern halt eher vielleicht auch subdural mhm. Das Gewebe, des Gehirns, sieht eigentlich recht homogen aus das Kleinhirn sieht in Ordnung aus und die ? auch. Ähm, genau, ich würde aber sagen, das ist keine Blutung.",
+    "tags": [
+      "interpretation: no_bleeding"
+    ],
+    "rationale": "The person is interpreting the medical image and mentions that the brain tissue looks homogeneous, which suggests that there is no bleeding.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\42_advice with annotation_cycle_117.txt",
+      "row": 14
+    },
+    "model": "meta-llama/llama-3.3-70b-instruct",
+    "provider": "Parasail",
+    "configuration_name": "llama-3-3-70b-instruct-241206"
+  },
+  {
+    "phrase": "ich würde aber sagen, das ist keine Blutung",
+    "context": "62 Jahre, männlich, mit Kopfschmerzen, so keine Blutung wurde erkannt. Hier ist hier hinten in der Mittellinie zwischen den beiden Hemisphären so eine Aufhellung. Das wäre dann aber eben nicht intrazerebral, sondern halt eher vielleicht auch subdural mhm. Das Gewebe, des Gehirns, sieht eigentlich recht homogen aus das Kleinhirn sieht in Ordnung aus und die ? auch. Ähm, genau, ich würde aber sagen, das ist keine Blutung.",
+    "tags": [
+      "interpretation: no_bleeding"
+    ],
+    "rationale": "The person explicitly states that they do not think there is a bleeding, which confirms the previous interpretation.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\42_advice with annotation_cycle_117.txt",
+      "row": 14
+    },
+    "model": "meta-llama/llama-3.3-70b-instruct",
+    "provider": "Parasail",
+    "configuration_name": "llama-3-3-70b-instruct-241206"
+  },
+  {
+    "phrase": "Hier ist hier hinten in der Mittellinie zwischen den beiden Hemisphären so eine Aufhellung",
+    "context": "62 Jahre, männlich, mit Kopfschmerzen, so keine Blutung wurde erkannt. Hier ist hier hinten in der Mittellinie zwischen den beiden Hemisphären so eine Aufhellung. Das wäre dann aber eben nicht intrazerebral, sondern halt eher vielleicht auch subdural mhm. Das Gewebe, des Gehirns, sieht eigentlich recht homogen aus das Kleinhirn sieht in Ordnung aus und die ? auch. Ähm, genau, ich würde aber sagen, das ist keine Blutung.",
+    "tags": [
+      "indicator: anomaly_detected"
+    ],
+    "rationale": "The person notices an abnormality, a brightening, in the medical image, which triggers further investigation.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\42_advice with annotation_cycle_117.txt",
+      "row": 14
+    },
+    "model": "meta-llama/llama-3.3-70b-instruct",
+    "provider": "Parasail",
+    "configuration_name": "llama-3-3-70b-instruct-241206"
+  },
+  {
+    "phrase": "Ich würde jetzt erstmal sagen, das ist keine Blutung.",
+    "context": "Ich würde jetzt erstmal sagen, das ist keine Blutung. Hm, ja, ich bin jetzt nicht super sicher. Und es ist auf jeden Fall schon mal gut, dass man gesehen hat, wo eventuell die Blutung wäre durch diese AI.",
+    "tags": [
+      "interpretation: no_bleeding"
+    ],
+    "rationale": "The person explicitly states that they do not think there is a hemorrhage, based on the lack of contrast in the CT scan.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\42_advice with annotation_cycle_117.txt",
+      "row": 0
+    },
+    "model": "meta-llama/llama-3.3-70b-instruct",
+    "provider": "DeepInfra",
+    "configuration_name": "llama-3-3-70b-instruct-241206"
+  },
+  {
+    "phrase": "Ich bin jetzt nicht super sicher.",
+    "context": "Ich würde jetzt erstmal sagen, das ist keine Blutung. Hm, ja, ich bin jetzt nicht super sicher. Und es ist auf jeden Fall schon mal gut, dass man gesehen hat, wo eventuell die Blutung wäre durch diese AI.",
+    "tags": [
+      "confidence_low: secondary"
+    ],
+    "rationale": "The person expresses uncertainty about their decision, using the phrase 'nicht super sicher' to indicate low confidence.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\42_advice with annotation_cycle_117.txt",
+      "row": 0
+    },
+    "model": "meta-llama/llama-3.3-70b-instruct",
+    "provider": "DeepInfra",
+    "configuration_name": "llama-3-3-70b-instruct-241206"
+  },
+  {
+    "phrase": "Es ist auf jeden Fall schon mal gut, dass man gesehen hat, wo eventuell die Blutung wäre durch diese AI.",
+    "context": "Ich würde jetzt erstmal sagen, das ist keine Blutung. Hm, ja, ich bin jetzt nicht super sicher. Und es ist auf jeden Fall schon mal gut, dass man gesehen hat, wo eventuell die Blutung wäre durch diese AI.",
+    "tags": [
+      "reflection_of_ai: helpful"
+    ],
+    "rationale": "The person mentions that the AI was helpful in indicating the potential location of a hemorrhage, even if they ultimately decided against it.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\42_advice with annotation_cycle_117.txt",
+      "row": 0
+    },
+    "model": "meta-llama/llama-3.3-70b-instruct",
+    "provider": "DeepInfra",
+    "configuration_name": "llama-3-3-70b-instruct-241206"
+  },
+  {
+    "phrase": "Ich würde trotzdem dagegen sagen.",
+    "context": "Ich würde jetzt erstmal sagen, das ist keine Blutung. Hm, ja, ich bin jetzt nicht super sicher. Und es ist auf jeden Fall schon mal gut, dass man gesehen hat, wo eventuell die Blutung wäre durch diese AI. Ich würde trotzdem dagegen sagen.",
+    "tags": [
+      "decision_with_ai: explicitly_disagreeing_with_ai"
+    ],
+    "rationale": "The person explicitly states that they disagree with the AI's assessment, despite finding it helpful.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\42_advice with annotation_cycle_117.txt",
+      "row": 0
+    },
+    "model": "meta-llama/llama-3.3-70b-instruct",
+    "provider": "DeepInfra",
+    "configuration_name": "llama-3-3-70b-instruct-241206"
+  },
+  {
+    "phrase": "hier ist eine Blutung gesehen worden von der AI",
+    "context": "Dann 22 jährige Frau. Ähm. Ist bewusstlos und ist wahrscheinlich gefallen. Sie, hier ist eine Blutung gesehen worden von der AI.",
+    "tags": [
+      "ai_report: ich"
+    ],
+    "rationale": "The person mentions that the AI has found a hemorrhage.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\42_advice with annotation_cycle_117.txt",
+      "row": 5
+    },
+    "model": "meta-llama/llama-3.3-70b-instruct",
+    "provider": "DeepInfra",
+    "configuration_name": "llama-3-3-70b-instruct-241206"
+  },
+  {
+    "phrase": "Ich sehe keine Mittelinienverlagerung, die Seitenventrikel sind recht offen, hier ist eine leichte Aufhellung da, wo die Blutung angeblich sein soll",
+    "context": "Ich sehe keine Mittelinienverlagerung, die Seitenventrikel sind recht offen, hier ist eine leichte Aufhellung da, wo die Blutung angeblich sein soll, das wäre eben eher temporal, aber eher so bei Basalganglien.",
+    "tags": [
+      "interpretation: description_bleeding"
+    ],
+    "rationale": "The person describes the potential hemorrhage in more detail, mentioning the lack of midline shift and the presence of a slight hyperdensity.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\42_advice with annotation_cycle_117.txt",
+      "row": 5
+    },
+    "model": "meta-llama/llama-3.3-70b-instruct",
+    "provider": "DeepInfra",
+    "configuration_name": "llama-3-3-70b-instruct-241206"
+  },
+  {
+    "phrase": "das sieht schon anders aus als auf der anderen Seite",
+    "context": "das sieht schon anders aus als auf der anderen Seite. Das heißt, es wäre eine Aufhellung da, und deswegen würde ich sagen, vielleicht ist da so eine diffuse Blutung neben dem, neben dem Gefäßzyklus zu sehen.",
+    "tags": [
+      "indicator: anomaly_detected"
+    ],
+    "rationale": "The person notices an abnormality, specifically an asymmetry between the two sides of the brain.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\42_advice with annotation_cycle_117.txt",
+      "row": 5
+    },
+    "model": "meta-llama/llama-3.3-70b-instruct",
+    "provider": "DeepInfra",
+    "configuration_name": "llama-3-3-70b-instruct-241206"
+  },
+  {
+    "phrase": "und da hat mir das sehr geholfen, wenn es wirklich eine Blutung sein sollte",
+    "context": "und da hat mir das sehr geholfen, wenn es wirklich eine Blutung sein sollte.",
+    "tags": [
+      "reflection_of_ai: helpful"
+    ],
+    "rationale": "The person perceives the AI as helpful in confirming the potential hemorrhage.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\42_advice with annotation_cycle_117.txt",
+      "row": 5
+    },
+    "model": "meta-llama/llama-3.3-70b-instruct",
+    "provider": "DeepInfra",
+    "configuration_name": "llama-3-3-70b-instruct-241206"
+  },
+  {
+    "phrase": "und hier ist keine Blutung erkannt worden",
+    "context": "dann 22 Jahre Frau, die aus der Höhe gefallen ist aus vier Metern, und hier ist keine Blutung erkannt worden.",
+    "tags": [
+      "interpretation: no_bleeding"
+    ],
+    "rationale": "The speaker explicitly states that no hemorrhage was detected.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\42_advice with annotation_cycle_117.txt",
+      "row": 12
+    },
+    "model": "meta-llama/llama-3.3-70b-instruct",
+    "provider": "AkashML",
+    "configuration_name": "llama-3-3-70b-instruct-241206"
+  },
+  {
+    "phrase": "Es ist sehr hyperdens, deswegen",
+    "context": "Ähm hier ist vorne so ne sehr viel hyperdense Struktur zwischen den Hemisphären frontal gelegen sehr klein und rund. Es ist sehr hyperdens, deswegen.",
+    "tags": [
+      "visual_search: description_of_medical_image_features"
+    ],
+    "rationale": "The speaker describes the characteristics of the image, specifically the hyperdense structure.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\42_advice with annotation_cycle_117.txt",
+      "row": 12
+    },
+    "model": "meta-llama/llama-3.3-70b-instruct",
+    "provider": "AkashML",
+    "configuration_name": "llama-3-3-70b-instruct-241206"
+  },
+  {
+    "phrase": "Kann es auch sein, dass das was anderes ist",
+    "context": "Kann es auch sein, dass das was anderes ist. Ähm, sonst sind ist es eigentlich recht symmetrisch die Hemisphären.",
+    "tags": [
+      "confidence_low: secondary"
+    ],
+    "rationale": "The speaker expresses uncertainty about the diagnosis, using the phrase 'Kann es auch sein' to indicate doubt.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\42_advice with annotation_cycle_117.txt",
+      "row": 12
+    },
+    "model": "meta-llama/llama-3.3-70b-instruct",
+    "provider": "AkashML",
+    "configuration_name": "llama-3-3-70b-instruct-241206"
+  },
+  {
+    "phrase": "Ich weiß nicht, was es sonst sein soll, deswegen sage ich, das ist eine Blutung",
+    "context": "Ich weiß nicht, was es sonst sein soll, deswegen sage ich, das ist eine Blutung. Und ich bin nicht sicher, und die künstliche Intelligenz hat sie nicht entdeckt.",
+    "tags": [
+      "interpretation: bleeding",
+      "confidence_low: concrete"
+    ],
+    "rationale": "The speaker explicitly states that they think it is a hemorrhage, but also expresses uncertainty about the diagnosis.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\42_advice with annotation_cycle_117.txt",
+      "row": 12
+    },
+    "model": "meta-llama/llama-3.3-70b-instruct",
+    "provider": "AkashML",
+    "configuration_name": "llama-3-3-70b-instruct-241206"
+  },
+  {
+    "phrase": "Und ich bin nicht sicher",
+    "context": "Ich weiß nicht, was es sonst sein soll, deswegen sage ich, das ist eine Blutung. Und ich bin nicht sicher, und die künstliche Intelligenz hat sie nicht entdeckt.",
+    "tags": [
+      "confidence_low: concrete"
+    ],
+    "rationale": "The speaker explicitly states that they are not sure about the diagnosis.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\42_advice with annotation_cycle_117.txt",
+      "row": 12
+    },
+    "model": "meta-llama/llama-3.3-70b-instruct",
+    "provider": "AkashML",
+    "configuration_name": "llama-3-3-70b-instruct-241206"
+  },
+  {
+    "phrase": "und die künstliche Intelligenz hat sie nicht entdeckt",
+    "context": "Ich weiß nicht, was es sonst sein soll, deswegen sage ich, das ist eine Blutung. Und ich bin nicht sicher, und die künstliche Intelligenz hat sie nicht entdeckt.",
+    "tags": [
+      "ai_report: no_ich"
+    ],
+    "rationale": "The speaker states that the AI did not detect the hemorrhage.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\42_advice with annotation_cycle_117.txt",
+      "row": 12
+    },
+    "model": "meta-llama/llama-3.3-70b-instruct",
+    "provider": "AkashML",
+    "configuration_name": "llama-3-3-70b-instruct-241206"
+  },
+  {
+    "phrase": "Hier ist kein hemorrhage detected.",
+    "context": "Dann 53 Frau Mountainbikeunfall ohne Helm. Hier ist kein hemorrhage detected. Die Seitenventrikel sind in Ordnung.",
+    "tags": [
+      "ai_report: no_ich"
+    ],
+    "rationale": "The phrase indicates that the AI has not detected a hemorrhage.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\42_advice with annotation_cycle_117.txt",
+      "row": 10
+    },
+    "model": "meta-llama/llama-3.3-70b-instruct",
+    "provider": "DeepInfra",
+    "configuration_name": "llama-3-3-70b-instruct-241206"
+  },
+  {
+    "phrase": "Ich sehe hier ähm, so ein Sulcus, aber der ist wahrscheinlich einfach nur anatomisch.",
+    "context": "Hier ist kein hemorrhage detected. Die Seitenventrikel sind in Ordnung. Ich sehe hier ähm, so ein Sulcus, aber der ist wahrscheinlich einfach nur anatomisch.",
+    "tags": [
+      "interpretation: no_bleeding_explanation"
+    ],
+    "rationale": "The person is explaining why they think a particular structure is not a hemorrhage, attributing it to anatomical variation.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\42_advice with annotation_cycle_117.txt",
+      "row": 10
+    },
+    "model": "meta-llama/llama-3.3-70b-instruct",
+    "provider": "DeepInfra",
+    "configuration_name": "llama-3-3-70b-instruct-241206"
+  },
+  {
+    "phrase": "und deswegen hat sie, sie ist ja erst 53, aber wenn, dann hätte sie eine symmetrische Blutung, weil es dunkel ist, aber dunkel heißt, oder sie hat eine superarachnoidal Blutung, weil hier wieder die hier so ne Aufhellung ist, aber es können das mmh.",
+    "context": "Mhm hier ist so eine Aufweitung, der Sulci wieder so temporal gelegen, und der Temporallappen sieht mir ein bisschen nach hinten gedrückt aus, und deswegen hat sie, sie ist ja erst 53, aber wenn, dann hätte sie eine symmetrische Blutung, weil es dunkel ist, aber dunkel heißt, oder sie hat eine superarachnoidal Blutung, weil hier wieder die hier so ne Aufhellung ist, aber es können das mmh.",
+    "tags": [
+      "interpretation: bleeding",
+      "confidence_low: secondary"
+    ],
+    "rationale": "The person is considering the possibility of a hemorrhage but is uncertain, using phrases like 'wenn, dann' and 'aber es können das mmh' to express doubt.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\42_advice with annotation_cycle_117.txt",
+      "row": 10
+    },
+    "model": "meta-llama/llama-3.3-70b-instruct",
+    "provider": "DeepInfra",
+    "configuration_name": "llama-3-3-70b-instruct-241206"
+  },
+  {
+    "phrase": "Ich bin aber nicht sicher.",
+    "context": "Okay, ich gehe hier gegen die künstliche Intelligenz, und ja  genau und sage, sie hat eine Blutung weil hier die Sulce so weit ausgedehnt sind. Ich bin aber nicht sicher.",
+    "tags": [
+      "confidence_low: concrete"
+    ],
+    "rationale": "The person explicitly states their lack of certainty regarding the diagnosis.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\42_advice with annotation_cycle_117.txt",
+      "row": 10
+    },
+    "model": "meta-llama/llama-3.3-70b-instruct",
+    "provider": "DeepInfra",
+    "configuration_name": "llama-3-3-70b-instruct-241206"
+  },
+  {
+    "phrase": "Ja, dann wird es mir nicht helfen.",
+    "context": "Ich bin aber nicht sicher. Ja, dann wird es mir nicht helfen.",
+    "tags": [
+      "reflection: diagnostic_uncertainty"
+    ],
+    "rationale": "The person reflects on their uncertainty and how it affects their ability to make a diagnosis, implying a need for additional help or information.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\42_advice with annotation_cycle_117.txt",
+      "row": 10
+    },
+    "model": "meta-llama/llama-3.3-70b-instruct",
+    "provider": "DeepInfra",
+    "configuration_name": "llama-3-3-70b-instruct-241206"
+  },
+  {
+    "phrase": "Okay, ich gehe hier gegen die künstliche Intelligenz, und ja  genau und sage, sie hat eine Blutung weil hier die Sulce so weit ausgedehnt sind.",
+    "context": "Ich gehe hier gegen die künstliche Intelligenz, und ja  genau und sage, sie hat eine Blutung weil hier die Sulce so weit ausgedehnt sind.",
+    "tags": [
+      "decision_with_ai: explicitly_disagreeing_with_ai"
+    ],
+    "rationale": "The person explicitly states that they disagree with the AI's assessment, choosing instead to follow their own interpretation of the images.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\42_advice with annotation_cycle_117.txt",
+      "row": 10
+    },
+    "model": "meta-llama/llama-3.3-70b-instruct",
+    "provider": "DeepInfra",
+    "configuration_name": "llama-3-3-70b-instruct-241206"
+  },
+  {
+    "phrase": "keine Blutung wurde entdeckt",
+    "context": "Dann 78, Frau, wieder mit Irgendwas zusammengestoßen, keine Blutung wurde entdeckt, die Seitenventrikel sind erweitert, würde ich sagen aber noch symmetrisch und wieder bei unserem Gefäßzirkel sehe ich jetzt keine Blutung.",
+    "tags": [
+      "interpretation: no_bleeding"
+    ],
+    "rationale": "The speaker explicitly states that no bleeding was detected.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\42_advice with annotation_cycle_117.txt",
+      "row": 13
+    },
+    "model": "meta-llama/llama-3.3-70b-instruct",
+    "provider": "DeepInfra",
+    "configuration_name": "llama-3-3-70b-instruct-241206"
+  },
+  {
+    "phrase": "ich sage hier ist keine Blutung",
+    "context": "Ja, nee ich sage hier ist keine Blutung, und die künstliche Intelligenz hat das auch so gesagt.",
+    "tags": [
+      "interpretation: no_bleeding",
+      "decision_with_ai: explicitly_agreeing_with_ai"
+    ],
+    "rationale": "The speaker explicitly states that they see no bleeding and agrees with the AI's assessment.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\42_advice with annotation_cycle_117.txt",
+      "row": 13
+    },
+    "model": "meta-llama/llama-3.3-70b-instruct",
+    "provider": "DeepInfra",
+    "configuration_name": "llama-3-3-70b-instruct-241206"
+  },
+  {
+    "phrase": "und die künstliche Intelligenz hat das auch so gesagt",
+    "context": "Ja, nee ich sage hier ist keine Blutung, und die künstliche Intelligenz hat das auch so gesagt.",
+    "tags": [
+      "ai_report: no_ich",
+      "decision_with_ai: explicitly_agreeing_with_ai"
+    ],
+    "rationale": "The speaker mentions that the AI also reported no bleeding and they agree with the AI's assessment.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\42_advice with annotation_cycle_117.txt",
+      "row": 13
+    },
+    "model": "meta-llama/llama-3.3-70b-instruct",
+    "provider": "DeepInfra",
+    "configuration_name": "llama-3-3-70b-instruct-241206"
+  },
+  {
+    "phrase": "hier liegt keine Blutung vor",
+    "context": "Dann, sie ist runtergefallen, drei Stufen und nimmt Eliquis. Hier ist keine Blutung erkannt worden, ist wieder symmetrisch. Seitenventrikel sind auch symmetrisch. Das könnte Knochen sein, genau das Kleinhirn ist nicht betroffen, würde ich sagen, und ich sage, hier liegt keine Blutung vor, und es ist natürlich sicherer, wenn mir das auch so gesagt wurde.",
+    "tags": [
+      "interpretation: no_bleeding"
+    ],
+    "rationale": "The person explicitly states that they do not see any hemorrhage, which aligns with the 'interpretation: no_bleeding' tag.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\42_advice with annotation_cycle_117.txt",
+      "row": 18
+    },
+    "model": "meta-llama/llama-3.3-70b-instruct",
+    "provider": "Parasail",
+    "configuration_name": "llama-3-3-70b-instruct-241206"
+  },
+  {
+    "phrase": "und es ist natürlich sicherer, wenn mir das auch so gesagt wurde",
+    "context": "Dann, sie ist runtergefallen, drei Stufen und nimmt Eliquis. Hier ist keine Blutung erkannt worden, ist wieder symmetrisch. Seitenventrikel sind auch symmetrisch. Das könnte Knochen sein, genau das Kleinhirn ist nicht betroffen, würde ich sagen, und ich sage, hier liegt keine Blutung vor, und es ist natürlich sicherer, wenn mir das auch so gesagt wurde.",
+    "tags": [
+      "confidence_high: increased_through_ai"
+    ],
+    "rationale": "The person implies that having the AI confirm their assessment would increase their confidence in the diagnosis, which aligns with the 'confidence_high: increased_through_ai' tag.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\42_advice with annotation_cycle_117.txt",
+      "row": 18
+    },
+    "model": "meta-llama/llama-3.3-70b-instruct",
+    "provider": "Parasail",
+    "configuration_name": "llama-3-3-70b-instruct-241206"
+  },
+  {
+    "phrase": "Das könnte Knochen sein",
+    "context": "Dann, sie ist runtergefallen, drei Stufen und nimmt Eliquis. Hier ist keine Blutung erkannt worden, ist wieder symmetrisch. Seitenventrikel sind auch symmetrisch. Das könnte Knochen sein, genau das Kleinhirn ist nicht betroffen, würde ich sagen, und ich sage, hier liegt keine Blutung vor, und es ist natürlich sicherer, wenn mir das auch so gesagt wurde.",
+    "tags": [
+      "reasoning: alternative_medical_structure"
+    ],
+    "rationale": "The person attributes the abnormality to a healthy anatomical structure (Knochen, meaning bone), which aligns with the 'reasoning: alternative_medical_structure' tag.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\42_advice with annotation_cycle_117.txt",
+      "row": 18
+    },
+    "model": "meta-llama/llama-3.3-70b-instruct",
+    "provider": "Parasail",
+    "configuration_name": "llama-3-3-70b-instruct-241206"
+  },
+  {
+    "phrase": "Hier wurde eine Blutung entdeckt.",
+    "context": "Ja, ja, okay, das ist jetzt eine Frau, 53 nach dem Motorbike Crash. Hier wurde eine Blutung entdeckt.",
+    "tags": [
+      "interpretation: bleeding"
+    ],
+    "rationale": "The participant explicitly mentions a hemorrhage being discovered.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\42_advice with annotation_cycle_117.txt",
+      "row": 3
+    },
+    "model": "meta-llama/llama-3.3-70b-instruct",
+    "provider": "DeepInfra",
+    "configuration_name": "llama-3-3-70b-instruct-241206"
+  },
+  {
+    "phrase": "Ich gehe von oben durch, sehe die Seitenventrikel. Die sind ein bisschen asymetrisch.",
+    "context": "Ja, ja, okay, das ist jetzt eine Frau, 53 nach dem Motorbike Crash. Hier wurde eine Blutung entdeckt. Ich gehe von oben durch, sehe die Seitenventrikel. Die sind ein bisschen asymetrisch.",
+    "tags": [
+      "visual_search: description_of_medical_image_features"
+    ],
+    "rationale": "The participant describes the anatomical structures they are examining, specifically the ventricles and their asymmetry.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\42_advice with annotation_cycle_117.txt",
+      "row": 3
+    },
+    "model": "meta-llama/llama-3.3-70b-instruct",
+    "provider": "DeepInfra",
+    "configuration_name": "llama-3-3-70b-instruct-241206"
+  },
+  {
+    "phrase": "Hier ist im Seitenventrikel eine Aufhellung, und hier vorne wäre eine Blutung.",
+    "context": "Ich gehe von oben durch, sehe die Seitenventrikel. Die sind ein bisschen asymetrisch. Hier ist im Seitenventrikel eine Aufhellung, und hier vorne wäre eine Blutung.",
+    "tags": [
+      "interpretation: bleeding"
+    ],
+    "rationale": "The participant identifies a potential hemorrhage based on the image features.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\42_advice with annotation_cycle_117.txt",
+      "row": 3
+    },
+    "model": "meta-llama/llama-3.3-70b-instruct",
+    "provider": "DeepInfra",
+    "configuration_name": "llama-3-3-70b-instruct-241206"
+  },
+  {
+    "phrase": "Das wäre dann auf jeden Fall intrazerebral und nicht irgendwie über der Dura oder direkt unter der Dura, weil das Hingebe ist eigentlich nicht verdrängt, die Mittellinie ist klar, in den Ventrikeln ist auf jeden Fall etwas zu sehen.",
+    "context": "Hier ist im Seitenventrikel eine Aufhellung, und hier vorne wäre eine Blutung. Das wäre dann auf jeden Fall intrazerebral und nicht irgendwie über der Dura oder direkt unter der Dura, weil das Hingebe ist eigentlich nicht verdrängt, die Mittellinie ist klar, in den Ventrikeln ist auf jeden Fall etwas zu sehen.",
+    "tags": [
+      "interpretation: description_bleeding"
+    ],
+    "rationale": "The participant provides a detailed description of the potential hemorrhage, including its location and characteristics.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\42_advice with annotation_cycle_117.txt",
+      "row": 3
+    },
+    "model": "meta-llama/llama-3.3-70b-instruct",
+    "provider": "DeepInfra",
+    "configuration_name": "llama-3-3-70b-instruct-241206"
+  },
+  {
+    "phrase": "Das ist aber nicht das, was er erkannt hat.",
+    "context": "Das wäre dann auf jeden Fall intrazerebral und nicht irgendwie über der Dura oder direkt unter der Dura, weil das Hingebe ist eigentlich nicht verdrängt, die Mittellinie ist klar, in den Ventrikeln ist auf jeden Fall etwas zu sehen. Das ist aber nicht das, was er erkannt hat.",
+    "tags": [
+      "decision_with_ai: explicitly_disagreeing_with_ai"
+    ],
+    "rationale": "The participant explicitly states that their interpretation differs from the AI's assessment.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\42_advice with annotation_cycle_117.txt",
+      "row": 3
+    },
+    "model": "meta-llama/llama-3.3-70b-instruct",
+    "provider": "DeepInfra",
+    "configuration_name": "llama-3-3-70b-instruct-241206"
+  },
+  {
+    "phrase": "Mhm. Ähm! Ich, ach so, ich muss laut denken. Entschuldigung, also, es ist etwas aufgehellt, da ich sage, das ist eine Blutung, aber kommt wahrscheinlich wahrscheinlich, weil er es auch mir gesagt hat, sonst hätte ich das nicht gesehen.",
+    "context": "Das ist aber nicht das, was er erkannt hat. Mhm. Ähm! Ich, ach so, ich muss laut denken. Entschuldigung, also, es ist etwas aufgehellt, da ich sage, das ist eine Blutung, aber kommt wahrscheinlich wahrscheinlich, weil er es auch mir gesagt hat, sonst hätte ich das nicht gesehen.",
+    "tags": [
+      "reflection_of_ai: ich_not_recognized_without_ai"
+    ],
+    "rationale": "The participant reflects on the fact that they might not have recognized the hemorrhage without the AI's input.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\42_advice with annotation_cycle_117.txt",
+      "row": 3
+    },
+    "model": "meta-llama/llama-3.3-70b-instruct",
+    "provider": "DeepInfra",
+    "configuration_name": "llama-3-3-70b-instruct-241206"
+  },
+  {
+    "phrase": "hier wurde keine, keine Blutung detektiert",
+    "context": "Jetzt gucke ich mir schon mal an, ach so, hier wurde keine, keine Blutung detektiert. Dann kann ich ja auch wieder dieses synchronised machen?",
+    "tags": [
+      "ai_report: no_ich"
+    ],
+    "rationale": "The person verbalizes that the AI has not found a hemorrhage.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\42_advice with annotation_cycle_117.txt",
+      "row": 1
+    },
+    "model": "meta-llama/llama-3.3-70b-instruct",
+    "provider": "DeepInfra",
+    "configuration_name": "llama-3-3-70b-instruct-241206"
+  },
+  {
+    "phrase": "ich schaue mir erst mal wieder das ganze Gewebe an",
+    "context": "Also, ich schaue mir erst mal wieder das ganze Gewebe an, ob ich irgendeine Aufhellung oder eine Veränderungs des Gewebes auf einer Hemisphärenseite zum Beispiel sehen kann",
+    "tags": [
+      "visual_search: description_of_own_approach_without_external_help"
+    ],
+    "rationale": "The person explicitly comments on their own search procedure.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\42_advice with annotation_cycle_117.txt",
+      "row": 1
+    },
+    "model": "meta-llama/llama-3.3-70b-instruct",
+    "provider": "DeepInfra",
+    "configuration_name": "llama-3-3-70b-instruct-241206"
+  },
+  {
+    "phrase": "ob die anatomischen Verhältnisse, also keine Mittellinienverlagerung da ist",
+    "context": "Also, ich schaue mir erst mal wieder das ganze Gewebe an, ob ich irgendeine Aufhellung oder eine Veränderungs des Gewebes auf einer Hemisphärenseite zum Beispiel sehen kann, ob die anatomischen Verhältnisse, also keine Mittellinienverlagerung da ist",
+    "tags": [
+      "visual_search: description_of_medical_image_features"
+    ],
+    "rationale": "The person verbalizes which anatomical structures or image characteristics they are currently looking at or checking.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\42_advice with annotation_cycle_117.txt",
+      "row": 1
+    },
+    "model": "meta-llama/llama-3.3-70b-instruct",
+    "provider": "DeepInfra",
+    "configuration_name": "llama-3-3-70b-instruct-241206"
+  },
+  {
+    "phrase": "ich würde hier jetzt der AI zustimmen und sagen, hier ist keine Blutung",
+    "context": "Das Kleinhirn hier könnte ich mir vorstellen, dass da irgendwie sieht so ein bisschen? aus, aber auch im Gewebe des Kleinhirns sehe ich jetzt keine Änderungen, das heißt, ich würde hier jetzt der AI zustimmen und sagen, hier ist keine Blutung",
+    "tags": [
+      "decision_with_ai: explicitly_agreeing_with_ai"
+    ],
+    "rationale": "The person explicitly agrees with the AI assessment.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\42_advice with annotation_cycle_117.txt",
+      "row": 1
+    },
+    "model": "meta-llama/llama-3.3-70b-instruct",
+    "provider": "DeepInfra",
+    "configuration_name": "llama-3-3-70b-instruct-241206"
+  },
+  {
+    "phrase": "Da bin ich relativ sicher",
+    "context": "Das Kleinhirn hier könnte ich mir vorstellen, dass da irgendwie sieht so ein bisschen? aus, aber auch im Gewebe des Kleinhirns sehe ich jetzt keine Änderungen, das heißt, ich würde hier jetzt der AI zustimmen und sagen, hier ist keine Blutung. Da bin ich relativ sicher",
+    "tags": [
+      "confidence_high: secondary"
+    ],
+    "rationale": "The person shows high certainty regarding the diagnostic process.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\42_advice with annotation_cycle_117.txt",
+      "row": 1
+    },
+    "model": "meta-llama/llama-3.3-70b-instruct",
+    "provider": "DeepInfra",
+    "configuration_name": "llama-3-3-70b-instruct-241206"
+  },
+  {
+    "phrase": "da ist ne Blutung",
+    "context": "93 Jahre Frau, die bewusstlos war. Hier wurde eine Blutung detektiert und zwar wo das schaue ich mir zuerst an, im Frontallappen rechts unterhalb des Knochens, da sieht man noch eindeutig, ne Aufhellung des Gewerbes. Die Seitenventrikel sind sehr stark erweitert. Und das ist asymmetrisch sie ist wahrscheinlich gefallen deswegen sage ich, da ist ne Blutung.",
+    "tags": [
+      "interpretation: bleeding"
+    ],
+    "rationale": "The speaker explicitly mentions a hemorrhage ('Blutung') and provides a location ('im Frontallappen rechts unterhalb des Knochens').",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\42_advice with annotation_cycle_117.txt",
+      "row": 16
+    },
+    "model": "meta-llama/llama-3.3-70b-instruct",
+    "provider": "DeepInfra",
+    "configuration_name": "llama-3-3-70b-instruct-241206"
+  },
+  {
+    "phrase": "Ich bin mir auch relativ sicher",
+    "context": "93 Jahre Frau, die bewusstlos war. Hier wurde eine Blutung detektiert und zwar wo das schaue ich mir zuerst an, im Frontallappen rechts unterhalb des Knochens, da sieht man noch eindeutig, ne Aufhellung des Gewerbes. Die Seitenventrikel sind sehr stark erweitert. Und das ist asymmetrisch sie ist wahrscheinlich gefallen deswegen sage ich, da ist ne Blutung. Ich bin mir auch relativ sicher und würde auch übereinstimmen.",
+    "tags": [
+      "confidence_high: concrete"
+    ],
+    "rationale": "The speaker expresses relative certainty ('Ich bin mir auch relativ sicher') regarding their diagnosis.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\42_advice with annotation_cycle_117.txt",
+      "row": 16
+    },
+    "model": "meta-llama/llama-3.3-70b-instruct",
+    "provider": "DeepInfra",
+    "configuration_name": "llama-3-3-70b-instruct-241206"
+  },
+  {
+    "phrase": "und würde auch übereinstimmen",
+    "context": "93 Jahre Frau, die bewusstlos war. Hier wurde eine Blutung detektiert und zwar wo das schaue ich mir zuerst an, im Frontallappen rechts unterhalb des Knochens, da sieht man noch eindeutig, ne Aufhellung des Gewerbes. Die Seitenventrikel sind sehr stark erweitert. Und das ist asymmetrisch sie ist wahrscheinlich gefallen deswegen sage ich, da ist ne Blutung. Ich bin mir auch relativ sicher und würde auch übereinstimmen.",
+    "tags": [
+      "decision_with_ai: explicitly_agreeing_with_ai"
+    ],
+    "rationale": "The speaker agrees with the AI's assessment ('übereinstimmen'), implying that the AI has also detected a hemorrhage.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\42_advice with annotation_cycle_117.txt",
+      "row": 16
+    },
+    "model": "meta-llama/llama-3.3-70b-instruct",
+    "provider": "DeepInfra",
+    "configuration_name": "llama-3-3-70b-instruct-241206"
+  },
+  {
+    "phrase": "Das heißt, es könnte schon sein, dass da eine Blutung ist.",
+    "context": "Was ich jetzt hier sehe, ist, dass auf der anderen Seite eben auch so eine so ein dunkler Bereich ist. Das heißt, ich finde schon, dass es so aussieht, als würde das Hirngewebe so ein bisschen von dem Knochen weggedrückt. Das heißt, es könnte schon sein, dass da eine Blutung ist.",
+    "tags": [
+      "interpretation: bleeding"
+    ],
+    "rationale": "The speaker is interpreting the findings and considers the possibility of a hemorrhage.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\42_advice with annotation_cycle_117.txt",
+      "row": 2
+    },
+    "model": "meta-llama/llama-3.3-70b-instruct",
+    "provider": "DeepInfra",
+    "configuration_name": "llama-3-3-70b-instruct-241206"
+  },
+  {
+    "phrase": "Aber ich würde sagen, dass auf der anderen Seite dann auch eine Blutung wäre",
+    "context": "Das heißt, ich finde schon, dass es so aussieht, als würde das Hirngewebe so ein bisschen von dem Knochen weggedrückt. Das heißt, es könnte schon sein, dass da eine Blutung ist. Aber ich würde sagen, dass auf der anderen Seite dann auch eine Blutung wäre",
+    "tags": [
+      "interpretation: bleeding"
+    ],
+    "rationale": "The speaker is considering the possibility of a hemorrhage on the other side of the brain.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\42_advice with annotation_cycle_117.txt",
+      "row": 2
+    },
+    "model": "meta-llama/llama-3.3-70b-instruct",
+    "provider": "DeepInfra",
+    "configuration_name": "llama-3-3-70b-instruct-241206"
+  },
+  {
+    "phrase": "es wäre eher eine arachnoidale als eine subdurale Blutung",
+    "context": "Das heißt, es könnte schon sein, dass da eine Blutung ist. Aber ich würde sagen, dass auf der anderen Seite dann auch eine Blutung wäre, und wenn man sich das anschaut, sieht es eher so ein bisschen sichelförmig am Hirngewebe aus, obwohl es auch in die Sulci reingeht. Das heißt, es wäre eher eine arachnoidale als eine subdurale Blutung",
+    "tags": [
+      "interpretation: bleeding"
+    ],
+    "rationale": "The speaker is interpreting the type of hemorrhage.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\42_advice with annotation_cycle_117.txt",
+      "row": 2
+    },
+    "model": "meta-llama/llama-3.3-70b-instruct",
+    "provider": "DeepInfra",
+    "configuration_name": "llama-3-3-70b-instruct-241206"
+  },
+  {
+    "phrase": "Das ist dieser flache Frosch, den wir immer gelernt haben",
+    "context": "Gehe es mal weiter durch, sonst sieht die Mittellinie eigentlich durchgehend gut aus. Hier ist jetzt wieder meine meine Vermutung, was zu der superarachnoidal-Blutung passen würde. Das ist dieser flache Frosch, den wir immer gelernt haben",
+    "tags": [
+      "reference: past_case"
+    ],
+    "rationale": "The speaker is referencing a past case or knowledge they have learned.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\42_advice with annotation_cycle_117.txt",
+      "row": 2
+    },
+    "model": "meta-llama/llama-3.3-70b-instruct",
+    "provider": "DeepInfra",
+    "configuration_name": "llama-3-3-70b-instruct-241206"
+  },
+  {
+    "phrase": "stimme ich ihnen zu, dass da irgendwas auf jeden Fall ist",
+    "context": "Ähm, aber da eben hier wirklich das Hirngewebe von der vom Knochen weggedrängt ist, stimme ich ihnen zu, dass da irgendwas auf jeden Fall ist",
+    "tags": [
+      "decision_with_ai: explicitly_agreeing_with_ai"
+    ],
+    "rationale": "The speaker is agreeing with the AI's assessment.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\42_advice with annotation_cycle_117.txt",
+      "row": 2
+    },
+    "model": "meta-llama/llama-3.3-70b-instruct",
+    "provider": "DeepInfra",
+    "configuration_name": "llama-3-3-70b-instruct-241206"
+  },
+  {
+    "phrase": "Vielleicht ist es dann. Ich weiß nicht, warum es nicht hell ist, aber es ist Flüssigkeit, würde ich sagen, und es ist nicht Gewerbe an sich",
+    "context": "Ähm, aber da eben hier wirklich das Hirngewebe von der vom Knochen weggedrängt ist, stimme ich ihnen zu, dass da irgendwas auf jeden Fall ist. Vielleicht ist es dann. Ich weiß nicht, warum es nicht hell ist, aber es ist Flüssigkeit, würde ich sagen, und es ist nicht Gewerbe an sich",
+    "tags": [
+      "reflection: diagnostic_uncertainty"
+    ],
+    "rationale": "The speaker is uncertain about the diagnosis.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\42_advice with annotation_cycle_117.txt",
+      "row": 2
+    },
+    "model": "meta-llama/llama-3.3-70b-instruct",
+    "provider": "DeepInfra",
+    "configuration_name": "llama-3-3-70b-instruct-241206"
+  },
+  {
+    "phrase": "Und ja, ich bin nicht sicher, ob es eine Blutung ist, aber es ist auf jeden Fall was da",
+    "context": "Vielleicht ist es dann. Ich weiß nicht, warum es nicht hell ist, aber es ist Flüssigkeit, würde ich sagen, und es ist nicht Gewerbe an sich. Und ja, ich bin nicht sicher, ob es eine Blutung ist, aber es ist auf jeden Fall was da",
+    "tags": [
+      "confidence_low: concrete"
+    ],
+    "rationale": "The speaker is expressing low certainty about the diagnosis.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\42_advice with annotation_cycle_117.txt",
+      "row": 2
+    },
+    "model": "meta-llama/llama-3.3-70b-instruct",
+    "provider": "DeepInfra",
+    "configuration_name": "llama-3-3-70b-instruct-241206"
+  },
+  {
+    "phrase": "Und ja, ich bin nicht sicher, ob es eine Blutung ist, aber es ist auf jeden Fall was da, und das war schon hilfreich, weil ich wusste, wo ich anfangen musste zu gucken",
+    "context": "Vielleicht ist es dann. Ich weiß nicht, warum es nicht hell ist, aber es ist Flüssigkeit, würde ich sagen, und es ist nicht Gewerbe an sich. Und ja, ich bin nicht sicher, ob es eine Blutung ist, aber es ist auf jeden Fall was da, und das war schon hilfreich, weil ich wusste, wo ich anfangen musste zu gucken",
+    "tags": [
+      "reflection_of_ai: helpful"
+    ],
+    "rationale": "The speaker finds the AI's assessment helpful.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\42_advice with annotation_cycle_117.txt",
+      "row": 2
+    },
+    "model": "meta-llama/llama-3.3-70b-instruct",
+    "provider": "DeepInfra",
+    "configuration_name": "llama-3-3-70b-instruct-241206"
+  },
+  {
+    "phrase": "Das ist hier im Kleinhirn und zwar ist da wieder eine hyperdense Struktur ganz okzipital und da würde ich auch zustimmen, dass das eine Blutung sein müsste",
+    "context": "Dann hier wurde wieder eine Blutung gefunden nach dem Skating accident. Das ist hier im Kleinhirn und zwar ist da wieder eine hyperdense Struktur ganz okzipital und da würde ich auch zustimmen, dass das eine Blutung sein müsste, und das ist auf der linken Seite, und da hat mir das sehr geholfen, dass das direkt gezeigt wurde, wo.",
+    "tags": [
+      "interpretation: bleeding",
+      "decision_with_ai: explicitly_agreeing_with_ai"
+    ],
+    "rationale": "The phrase indicates that the person has identified a hemorrhage in the cerebellum, characterized by a hyperdense structure, and agrees with the AI's assessment. The mention of the AI showing the location directly implies that the person is agreeing with the AI's finding.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\42_advice with annotation_cycle_117.txt",
+      "row": 20
+    },
+    "model": "meta-llama/llama-3.3-70b-instruct",
+    "provider": "DeepInfra",
+    "configuration_name": "llama-3-3-70b-instruct-241206"
+  },
+  {
+    "phrase": "und da hat mir das sehr geholfen, dass das direkt gezeigt wurde, wo",
+    "context": "Dann hier wurde wieder eine Blutung gefunden nach dem Skating accident. Das ist hier im Kleinhirn und zwar ist da wieder eine hyperdense Struktur ganz okzipital und da würde ich auch zustimmen, dass das eine Blutung sein müsste, und das ist auf der linken Seite, und da hat mir das sehr geholfen, dass das direkt gezeigt wurde, wo.",
+    "tags": [
+      "reflection_of_ai: helpful"
+    ],
+    "rationale": "The phrase indicates that the person found the AI's direct indication of the hemorrhage location to be very helpful.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\42_advice with annotation_cycle_117.txt",
+      "row": 20
+    },
+    "model": "meta-llama/llama-3.3-70b-instruct",
+    "provider": "DeepInfra",
+    "configuration_name": "llama-3-3-70b-instruct-241206"
+  },
+  {
+    "phrase": "Hier ist keine Blutung entdeckt worden",
+    "context": "Hier ist keine Blutung entdeckt worden nach einem plötzlichen Kopfschmerz.",
+    "tags": [
+      "interpretation: no_bleeding"
+    ],
+    "rationale": "The speaker states that no hemorrhage has been detected.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\42_advice with annotation_cycle_117.txt",
+      "row": 21
+    },
+    "model": "meta-llama/llama-3.3-70b-instruct",
+    "provider": "DeepInfra",
+    "configuration_name": "llama-3-3-70b-instruct-241206"
+  },
+  {
+    "phrase": "Ich sehe wieder symmetrische Hemisphären. Ich sehe die Seitenventrikel symetrisch, eventuell etwas aufgeweitet.",
+    "context": "Ich sehe wieder symmetrische Hemisphären. Ich sehe die Seitenventrikel symetrisch, eventuell etwas aufgeweitet. Hier da ist das Hirngewebe sehr inhomogen und es gibt so Aufhellungen oder so hyperdense Strukturen eben zwischen den Frontal und dem Temporallappen rechts.",
+    "tags": [
+      "visual_search: description_of_medical_image_features"
+    ],
+    "rationale": "The speaker describes the anatomical structures they are looking at.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\42_advice with annotation_cycle_117.txt",
+      "row": 21
+    },
+    "model": "meta-llama/llama-3.3-70b-instruct",
+    "provider": "DeepInfra",
+    "configuration_name": "llama-3-3-70b-instruct-241206"
+  },
+  {
+    "phrase": "Deswegen würde ich da fast eher sagen, es ist eine Blutung vorliegend, wahrscheinlich eine subarachnoidalblutung",
+    "context": "Deswegen würde ich da fast eher sagen, es ist eine Blutung vorliegend, wahrscheinlich eine subarachnoidalblutung, was auch zu dem Kopfschmerz passen würde.",
+    "tags": [
+      "interpretation: bleeding"
+    ],
+    "rationale": "The speaker interprets the abnormality as a hemorrhage.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\42_advice with annotation_cycle_117.txt",
+      "row": 21
+    },
+    "model": "meta-llama/llama-3.3-70b-instruct",
+    "provider": "DeepInfra",
+    "configuration_name": "llama-3-3-70b-instruct-241206"
+  },
+  {
+    "phrase": "Ich bin mir relativ sicher",
+    "context": "Ich bin mir relativ sicher und dann hat mir das hier nicht geholfen, weil hier keine Blutung detektiert wurde.",
+    "tags": [
+      "confidence_high: concrete"
+    ],
+    "rationale": "The speaker explicitly expresses high certainty regarding the diagnostic process.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\42_advice with annotation_cycle_117.txt",
+      "row": 21
+    },
+    "model": "meta-llama/llama-3.3-70b-instruct",
+    "provider": "DeepInfra",
+    "configuration_name": "llama-3-3-70b-instruct-241206"
+  },
+  {
+    "phrase": "dann hat mir das hier nicht geholfen, weil hier keine Blutung detektiert wurde",
+    "context": "Ich bin mir relativ sicher und dann hat mir das hier nicht geholfen, weil hier keine Blutung detektiert wurde.",
+    "tags": [
+      "reflection_of_ai: distrust_in_ai"
+    ],
+    "rationale": "The speaker distrusts the AI because it did not detect a hemorrhage.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\42_advice with annotation_cycle_117.txt",
+      "row": 21
+    },
+    "model": "meta-llama/llama-3.3-70b-instruct",
+    "provider": "DeepInfra",
+    "configuration_name": "llama-3-3-70b-instruct-241206"
+  },
+  {
+    "phrase": "da zustimmen und sagen, das ist eine Blutung",
+    "context": "Dann ein Fall von der Leiter mit 71, und hier wurde etwas entdeckt, und zwar hier außen. Oh ja, okay, ich würde sagen, da zustimmen und sagen, das ist eine Blutung, am ehesten vielleicht eine subdurale Blutung, weil es so sichelförmig aussieht, oder epidural, genau, weil das eindeutig nicht symmetrisch zur anderen Seite, und es ist eben heller, als das normale Hirngewebe.",
+    "tags": [
+      "interpretation: bleeding",
+      "decision_with_ai: explicitly_agreeing_with_ai"
+    ],
+    "rationale": "The speaker agrees with the AI's assessment and interprets the finding as a hemorrhage.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\42_advice with annotation_cycle_117.txt",
+      "row": 19
+    },
+    "model": "meta-llama/llama-3.3-70b-instruct",
+    "provider": "DeepInfra",
+    "configuration_name": "llama-3-3-70b-instruct-241206"
+  },
+  {
+    "phrase": "ich stimme zu und bin mir relativ sicher, dass es eine Blutung ist",
+    "context": "Dann ein Fall von der Leiter mit 71, und hier wurde etwas entdeckt, und zwar hier außen. Oh ja, okay, ich würde sagen, da zustimmen und sagen, das ist eine Blutung, am ehesten vielleicht eine subdurale Blutung, weil es so sichelförmig aussieht, oder epidural, genau, weil das eindeutig nicht symmetrisch zur anderen Seite, und es ist eben heller, als das normale Hirngewebe. Das heißt, ich stimme zu und bin mir relativ sicher, dass es eine Blutung ist.",
+    "tags": [
+      "confidence_high: concrete",
+      "decision_with_ai: explicitly_agreeing_with_ai"
+    ],
+    "rationale": "The speaker expresses high confidence in their diagnosis and agrees with the AI's assessment.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\42_advice with annotation_cycle_117.txt",
+      "row": 19
+    },
+    "model": "meta-llama/llama-3.3-70b-instruct",
+    "provider": "DeepInfra",
+    "configuration_name": "llama-3-3-70b-instruct-241206"
+  },
+  {
+    "phrase": "Das war hilfreich, dass man direkt sieht, wo die Blutung sein soll",
+    "context": "Dann ein Fall von der Leiter mit 71, und hier wurde etwas entdeckt, und zwar hier außen. Oh ja, okay, ich würde sagen, da zustimmen und sagen, das ist eine Blutung, am ehesten vielleicht eine subdurale Blutung, weil es so sichelförmig aussieht, oder epidural, genau, weil das eindeutig nicht symmetrisch zur anderen Seite, und es ist eben heller, als das normale Hirngewebe. Das heißt, ich stimme zu und bin mir relativ sicher, dass es eine Blutung ist. Und das war hilfreich, dass man direkt sieht, wo die Blutung sein soll.",
+    "tags": [
+      "reflection_of_ai: helpful"
+    ],
+    "rationale": "The speaker finds the AI's assistance helpful in locating the hemorrhage.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\42_advice with annotation_cycle_117.txt",
+      "row": 19
+    },
+    "model": "meta-llama/llama-3.3-70b-instruct",
+    "provider": "DeepInfra",
+    "configuration_name": "llama-3-3-70b-instruct-241206"
+  },
+  {
+    "phrase": "das müsste eine subdurale Blutung sein",
+    "context": "Hier sieht man auf jeden Fall genau, das müsste eine subdurale Blutung sein, was sich hier ebenso an die Schädelkalotte angrenzt, und da stimme ich zu, dass das auf jeden Fall eine Blutung ist",
+    "tags": [
+      "interpretation: bleeding"
+    ],
+    "rationale": "The speaker is interpreting the finding as a hemorrhage, specifically a subdural hemorrhage.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\42_advice with annotation_cycle_117.txt",
+      "row": 28
+    },
+    "model": "meta-llama/llama-3.3-70b-instruct",
+    "provider": "CoreWeave",
+    "configuration_name": "llama-3-3-70b-instruct-241206"
+  },
+  {
+    "phrase": "und das war hilfreich",
+    "context": "es ist vielleicht sogar so ein bisschen Mittellinienverschiebung sichtba und genau ja, das ist recht eindeutig, okay, dann bin ich mir recht sicher, und das war hilfreich",
+    "tags": [
+      "reflection_of_ai: helpful"
+    ],
+    "rationale": "The speaker perceives the AI as helpful in the diagnostic process.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\42_advice with annotation_cycle_117.txt",
+      "row": 28
+    },
+    "model": "meta-llama/llama-3.3-70b-instruct",
+    "provider": "CoreWeave",
+    "configuration_name": "llama-3-3-70b-instruct-241206"
+  },
+  {
+    "phrase": "dann bin ich mir recht sicher",
+    "context": "es ist vielleicht sogar so ein bisschen Mittellinienverschiebung sichtba und genau ja, das ist recht eindeutig, okay, dann bin ich mir recht sicher, und das war hilfreich",
+    "tags": [
+      "confidence_high: concrete"
+    ],
+    "rationale": "The speaker explicitly expresses high certainty regarding the diagnostic process.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\42_advice with annotation_cycle_117.txt",
+      "row": 28
+    },
+    "model": "meta-llama/llama-3.3-70b-instruct",
+    "provider": "CoreWeave",
+    "configuration_name": "llama-3-3-70b-instruct-241206"
+  },
+  {
+    "phrase": "Der hat eine Blutung laut AI.",
+    "context": "Dann 82 mit Kopfschmerz und GCS von 11. Der hat eine Blutung laut AI.",
+    "tags": [
+      "ai_report: ich"
+    ],
+    "rationale": "The person verbalizes that the AI has found a hemorrhage.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\42_advice with annotation_cycle_117.txt",
+      "row": 17
+    },
+    "model": "meta-llama/llama-3.3-70b-instruct",
+    "provider": "DeepInfra",
+    "configuration_name": "llama-3-3-70b-instruct-241206"
+  },
+  {
+    "phrase": "Oh, ja, okay, also hier würde ich auf jeden Fall Blutung sagen.",
+    "context": "Dann 82 mit Kopfschmerz und GCS von 11. Der hat eine Blutung laut AI. Oh, ja, okay, also hier würde ich auf jeden Fall Blutung sagen.",
+    "tags": [
+      "interpretation: bleeding",
+      "decision_with_ai: explicitly_agreeing_with_ai"
+    ],
+    "rationale": "The person interprets the abnormality as a hemorrhage and explicitly agrees with the AI assessment.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\42_advice with annotation_cycle_117.txt",
+      "row": 17
+    },
+    "model": "meta-llama/llama-3.3-70b-instruct",
+    "provider": "DeepInfra",
+    "configuration_name": "llama-3-3-70b-instruct-241206"
+  },
+  {
+    "phrase": "Ich würde sagen, es ist eine epidurale Blutung, weil die so eierförmig ist.",
+    "context": "Oh, ja, okay, also hier würde ich auf jeden Fall Blutung sagen. Ich würde sagen, es ist eine epidurale Blutung, weil die so eierförmig ist.",
+    "tags": [
+      "interpretation: description_bleeding"
+    ],
+    "rationale": "The person describes an already identified hemorrhage in more detail.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\42_advice with annotation_cycle_117.txt",
+      "row": 17
+    },
+    "model": "meta-llama/llama-3.3-70b-instruct",
+    "provider": "DeepInfra",
+    "configuration_name": "llama-3-3-70b-instruct-241206"
+  },
+  {
+    "phrase": "Das ist links okzipital oder parietal eher genau.",
+    "context": "Ich würde sagen, es ist eine epidurale Blutung, weil die so eierförmig ist. Das ist links okzipital oder parietal eher genau.",
+    "tags": [
+      "ai_report: ich_localization"
+    ],
+    "rationale": "The person describes where the AI locates the hemorrhage.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\42_advice with annotation_cycle_117.txt",
+      "row": 17
+    },
+    "model": "meta-llama/llama-3.3-70b-instruct",
+    "provider": "DeepInfra",
+    "configuration_name": "llama-3-3-70b-instruct-241206"
+  },
+  {
+    "phrase": "Es ist hyperdens, und das würde ich eindeutig als Blutung identifizieren.",
+    "context": "Das ist links okzipital oder parietal eher genau. Es ist hyperdens, und das würde ich eindeutig als Blutung identifizieren.",
+    "tags": [
+      "interpretation: bleeding"
+    ],
+    "rationale": "The person interprets the abnormality as a hemorrhage.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\42_advice with annotation_cycle_117.txt",
+      "row": 17
+    },
+    "model": "meta-llama/llama-3.3-70b-instruct",
+    "provider": "DeepInfra",
+    "configuration_name": "llama-3-3-70b-instruct-241206"
+  },
+  {
+    "phrase": "Ja, da bin ich mir relativ sicher, und das wird auch übereinstimmen.",
+    "context": "Es ist hyperdens, und das würde ich eindeutig als Blutung identifizieren. Ja, da bin ich mir relativ sicher, und das wird auch übereinstimmen.",
+    "tags": [
+      "confidence_high: secondary"
+    ],
+    "rationale": "The person shows high certainty regarding the diagnostic process.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\42_advice with annotation_cycle_117.txt",
+      "row": 17
+    },
+    "model": "meta-llama/llama-3.3-70b-instruct",
+    "provider": "DeepInfra",
+    "configuration_name": "llama-3-3-70b-instruct-241206"
+  },
+  {
+    "phrase": "Ich würde sagen, das ist wieder eine epidurale Blutung, rechts frontal man sieht wieder das aufgehellte Gewebe und das Hirngewebe könnte dann wieder etwas verdrängt sein, und deswegen stimme ich da der AI zu.",
+    "context": "Dann ist jemand von einem Baum getroffen worden. Hier ist eine Blutung entdeckt worden, und zwar frontal und das ist auch recht eindeutig. Ich würde sagen, das ist wieder eine epidurale Blutung, rechts frontal man sieht wieder das aufgehellte Gewebe und das Hirngewebe könnte dann wieder etwas verdrängt sein, und deswegen stimme ich da der AI zu.",
+    "tags": [
+      "interpretation: bleeding",
+      "decision_with_ai: explicitly_agreeing_with_ai"
+    ],
+    "rationale": "The phrase describes the identification of an epidural hemorrhage and explicitly agrees with the AI's assessment, demonstrating both interpretation of a medical finding and agreement with the AI's decision.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\42_advice with annotation_cycle_117.txt",
+      "row": 24
+    },
+    "model": "meta-llama/llama-3.3-70b-instruct",
+    "provider": "DeepInfra",
+    "configuration_name": "llama-3-3-70b-instruct-241206"
+  },
+  {
+    "phrase": "Es wurde keine Blutung entdeckt",
+    "context": "Alles klar, okay, gut, das ist jetzt aus Höhe gefallen. Es wurde keine Blutung entdeckt, es ist sehr symmetrisch, die Hemisphären sind gut sichtbar, die Ventrikel sind gut sichtbar.",
+    "tags": [
+      "interpretation: no_bleeding"
+    ],
+    "rationale": "The phrase 'Es wurde keine Blutung entdeckt' directly translates to 'No bleeding was detected', which aligns with the interpretation: no_bleeding tag.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\42_advice with annotation_cycle_117.txt",
+      "row": 25
+    },
+    "model": "meta-llama/llama-3.3-70b-instruct",
+    "provider": "AkashML",
+    "configuration_name": "llama-3-3-70b-instruct-241206"
+  },
+  {
+    "phrase": "Für mich sieht es wieder so aus, als wäre das Kleinhirn wie vorhin das Gewebe eben nicht am Schädel anliegend",
+    "context": "Für mich sieht es wieder so aus, als wäre das Kleinhirn wie vorhin das Gewebe eben nicht am Schädel anliegend, das heißt, ich würde wieder, dadurch, dass auch in die Sulci eben so eine Verdunklung ist, könnte es Liquor sein.",
+    "tags": [
+      "visual_search: description_of_medical_image_features"
+    ],
+    "rationale": "The phrase describes the observation of the cerebellum and its relation to the skull, indicating a focus on specific anatomical structures during the visual search.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\42_advice with annotation_cycle_117.txt",
+      "row": 25
+    },
+    "model": "meta-llama/llama-3.3-70b-instruct",
+    "provider": "AkashML",
+    "configuration_name": "llama-3-3-70b-instruct-241206"
+  },
+  {
+    "phrase": "könnte es Liquor sein",
+    "context": "das heißt, ich würde wieder, dadurch, dass auch in die Sulci eben so eine Verdunklung ist, könnte es Liquor sein.",
+    "tags": [
+      "reasoning: alternative_medical_cause"
+    ],
+    "rationale": "The phrase suggests considering an alternative medical cause (Liquor) for the observed findings, which aligns with the reasoning: alternative_medical_cause tag.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\42_advice with annotation_cycle_117.txt",
+      "row": 25
+    },
+    "model": "meta-llama/llama-3.3-70b-instruct",
+    "provider": "AkashML",
+    "configuration_name": "llama-3-3-70b-instruct-241206"
+  },
+  {
+    "phrase": "und deswegen sage ich keine Blutung",
+    "context": "und deswegen sage ich keine Blutung, und es ist auch nichts hyperdenses und das stimmt überein.",
+    "tags": [
+      "interpretation: no_bleeding"
+    ],
+    "rationale": "The phrase reiterates the conclusion of no bleeding, supporting the initial interpretation: no_bleeding tag.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\42_advice with annotation_cycle_117.txt",
+      "row": 25
+    },
+    "model": "meta-llama/llama-3.3-70b-instruct",
+    "provider": "AkashML",
+    "configuration_name": "llama-3-3-70b-instruct-241206"
+  },
+  {
+    "phrase": "und ich würde sagen, dass da eine intrazerebrale Blutung oder eine Kontusionsblutung des Hirngewebes selber vorliegt.",
+    "context": "Dann 26 Jahre mit Fahrradunfall. Hier wurde eine Blutung entdeckt, und zwar im Temporal lappen, das ist auch sehr eindeutig, eben hyperdens, und ich würde sagen, dass da eine intrazerebrale Blutung oder eine Kontusionsblutung des Hirngewebes selber vorliegt. Genau da stimme ich zu. Das ist eine Blutung, und ich bin mir auch sicher.",
+    "tags": [
+      "interpretation: bleeding"
+    ],
+    "rationale": "The person is interpreting the abnormality as a hemorrhage, specifically mentioning 'intrazerebrale Blutung' (intracerebral hemorrhage) or 'Kontusionsblutung des Hirngewebes selber' (contusion hemorrhage of the brain tissue itself).",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\42_advice with annotation_cycle_117.txt",
+      "row": 26
+    },
+    "model": "meta-llama/llama-3.3-70b-instruct",
+    "provider": "AkashML",
+    "configuration_name": "llama-3-3-70b-instruct-241206"
+  },
+  {
+    "phrase": "Das ist eine Blutung, und ich bin mir auch sicher.",
+    "context": "Dann 26 Jahre mit Fahrradunfall. Hier wurde eine Blutung entdeckt, und zwar im Temporal lappen, das ist auch sehr eindeutig, eben hyperdens, und ich würde sagen, dass da eine intrazerebrale Blutung oder eine Kontusionsblutung des Hirngewebes selber vorliegt. Genau da stimme ich zu. Das ist eine Blutung, und ich bin mir auch sicher.",
+    "tags": [
+      "confidence_high: concrete"
+    ],
+    "rationale": "The person explicitly expresses high certainty regarding the diagnostic process, stating 'ich bin mir auch sicher' (I am also sure).",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\42_advice with annotation_cycle_117.txt",
+      "row": 26
+    },
+    "model": "meta-llama/llama-3.3-70b-instruct",
+    "provider": "AkashML",
+    "configuration_name": "llama-3-3-70b-instruct-241206"
+  },
+  {
+    "phrase": "Genau da stimme ich zu.",
+    "context": "Dann 26 Jahre mit Fahrradunfall. Hier wurde eine Blutung entdeckt, und zwar im Temporal lappen, das ist auch sehr eindeutig, eben hyperdens, und ich würde sagen, dass da eine intrazerebrale Blutung oder eine Kontusionsblutung des Hirngewebes selber vorliegt. Genau da stimme ich zu. Das ist eine Blutung, und ich bin mir auch sicher.",
+    "tags": [
+      "decision_with_ai: explicitly_agreeing_with_ai"
+    ],
+    "rationale": "The person explicitly agrees with the AI assessment, stating 'Genau da stimme ich zu' (Exactly, I agree with that).",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\42_advice with annotation_cycle_117.txt",
+      "row": 26
+    },
+    "model": "meta-llama/llama-3.3-70b-instruct",
+    "provider": "AkashML",
+    "configuration_name": "llama-3-3-70b-instruct-241206"
+  },
+  {
+    "error": "JSONDecodeError",
+    "message": "Expecting ':' delimiter: line 1 column 401 (char 400)",
+    "raw_output": "{\"classifications\": [{\"phrase\": \"es könnte eher vielleicht eine epidurale Blutung sein\", \"context\": \"Mhm! Dann haben wir hier wieder nach einem E-Bike accident eine Blutung detektiert. Das sieht man hier auch, wenn man das Bild ein bisschen heller hat, dass da auf jeden Fall so eine Hyperdense Struktur ist,  es könnte eher vielleicht eine epidurale Blutung sein.\", \"tags: [interpretation: bleeding\"], \"rationale\": \"The speaker is interpreting the abnormality as a possible hemorrhage, specifically an epidural hemorrhage.\"}, {\"phrase\": \"und da stimme ich ihm zu, dass das eine Blutung ist\", \"context\": \"Mhm! Dann haben wir hier wieder nach einem E-Bike accident eine Blutung detektiert. Das sieht man hier auch, wenn man das Bild ein bisschen heller hat, dass da auf jeden Fall so eine Hyperdense Struktur ist,  es könnte eher vielleicht eine epidurale Blutung sein. Es ist sehr weit so parietal links genau, und da stimme ich ihm zu, dass das eine Blutung ist\", \"tags\": [\"decision_with_ai: explicitly_agreeing_with_ai\"], \"rationale\": \"The speaker is explicitly agreeing with the AI's assessment that there is a hemorrhage.\"}, {\"phrase\": \"und das war sehr hilfreich\", \"context\": \"Mhm! Dann haben wir hier wieder nach einem E-Bike accident eine Blutung detektiert. Das sieht man hier auch, wenn man das Bild ein bisschen heller hat, dass da auf jeden Fall so eine Hyperdense Struktur ist,  es könnte eher vielleicht eine epidurale Blutung sein. Es ist sehr weit so parietal links genau, und da stimme ich ihm zu, dass das eine Blutung ist, und das war sehr hilfreich.\", \"tags\": [\"reflection_of_ai: helpful\"], \"rationale\": \"The speaker finds the AI's assistance to be helpful in detecting the hemorrhage.\"}]}",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\42_advice with annotation_cycle_117.txt",
+      "row": 31
+    },
+    "model": "meta-llama/llama-3.3-70b-instruct",
+    "provider": "Cloudflare",
+    "configuration_name": "llama-3-3-70b-instruct-241206"
+  },
+  {
+    "phrase": "Ähm so hier ist keine Blutung entdeckt worden.",
+    "context": "17 Jahre Frau in einem Faustkampf. Ähm so hier ist keine Blutung entdeckt worden. Seitenventrikel sind symmetrisch, die Mittellinie symmetrisch.",
+    "tags": [
+      "interpretation: no_bleeding"
+    ],
+    "rationale": "The speaker explicitly states that no bleeding has been detected.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\42_advice with annotation_cycle_117.txt",
+      "row": 15
+    },
+    "model": "meta-llama/llama-3.3-70b-instruct",
+    "provider": "DeepInfra",
+    "configuration_name": "llama-3-3-70b-instruct-241206"
+  },
+  {
+    "phrase": "die Mittellinie symmetrisch",
+    "context": "17 Jahre Frau in einem Faustkampf. Ähm so hier ist keine Blutung entdeckt worden. Seitenventrikel sind symmetrisch, die Mittellinie symmetrisch.",
+    "tags": [
+      "visual_search: description_of_medical_image_features"
+    ],
+    "rationale": "The speaker describes the symmetry of the midline, indicating they are examining specific anatomical structures.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\42_advice with annotation_cycle_117.txt",
+      "row": 15
+    },
+    "model": "meta-llama/llama-3.3-70b-instruct",
+    "provider": "DeepInfra",
+    "configuration_name": "llama-3-3-70b-instruct-241206"
+  },
+  {
+    "phrase": "leichte hypodense, Areale in den Temporallappen",
+    "context": "Seitenventrikel sind symmetrisch, die Mittellinie symmetrisch. Hier sind sind so leichte hypodense, Areale in den Temporallappen",
+    "tags": [
+      "indicator: anomaly_detected"
+    ],
+    "rationale": "The speaker notices an abnormality (hypodense areas) in the temporal lobe.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\42_advice with annotation_cycle_117.txt",
+      "row": 15
+    },
+    "model": "meta-llama/llama-3.3-70b-instruct",
+    "provider": "DeepInfra",
+    "configuration_name": "llama-3-3-70b-instruct-241206"
+  },
+  {
+    "phrase": "ich sehe jetzt zumindest eins und da sie erst 17 ist, würde ich jetzt nicht sagen, dass das irgendwas hyperintensive Einblutungen sein könnten",
+    "context": "Hier sind sind so leichte hypodense, Areale in den Temporallappen ich sehe jetzt zumindest eins und da sie erst 17 ist, würde ich jetzt nicht sagen, dass das irgendwas hyperintensive Einblutungen sein könnten",
+    "tags": [
+      "interpretation: no_bleeding_explanation"
+    ],
+    "rationale": "The speaker explains why the detected anomaly is unlikely to be a hemorrhage, considering the patient's age.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\42_advice with annotation_cycle_117.txt",
+      "row": 15
+    },
+    "model": "meta-llama/llama-3.3-70b-instruct",
+    "provider": "DeepInfra",
+    "configuration_name": "llama-3-3-70b-instruct-241206"
+  },
+  {
+    "phrase": "Also eigentlich wäre das Blut ja hyperdens, deswegen glaub ich nicht, dass das eine Einblutung ist",
+    "context": "ich sehe jetzt zumindest eins und da sie erst 17 ist, würde ich jetzt nicht sagen, dass das irgendwas hyperintensive Einblutungen sein könnten und ja. Also eigentlich wäre das Blut ja hyperdens, deswegen glaub ich nicht, dass das eine Einblutung ist",
+    "tags": [
+      "interpretation: no_bleeding_explanation"
+    ],
+    "rationale": "The speaker provides another reason why the anomaly is unlikely to be a hemorrhage, based on the expected density of blood.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\42_advice with annotation_cycle_117.txt",
+      "row": 15
+    },
+    "model": "meta-llama/llama-3.3-70b-instruct",
+    "provider": "DeepInfra",
+    "configuration_name": "llama-3-3-70b-instruct-241206"
+  },
+  {
+    "phrase": "und hier wurde auch keine Blutung detektiert",
+    "context": "deswegen glaub ich nicht, dass das eine Einblutung ist und hier wurde auch keine Blutung detektiert.",
+    "tags": [
+      "ai_report: no_ich"
+    ],
+    "rationale": "The speaker mentions that the AI has not detected any bleeding.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\42_advice with annotation_cycle_117.txt",
+      "row": 15
+    },
+    "model": "meta-llama/llama-3.3-70b-instruct",
+    "provider": "DeepInfra",
+    "configuration_name": "llama-3-3-70b-instruct-241206"
+  },
+  {
+    "phrase": "Eine Frau, hier ist keine Blutung entdeckt worden.",
+    "context": "Dann Kopfschmerzen und Erbrechen. Eine Frau, hier ist keine Blutung entdeckt worden. Ich sehe wieder symmetrische Hirnstrukturen. Ich sehe keine Aufhellung des Gewebes, die nicht symmetrisch ist, und natürlich verlasse ich mich dann wieder mehr auf die Aussage, dass keine Blutung vorliegt, sehe auch keine und sage, das hat mir geholfen.",
+    "tags": [
+      "interpretation: no_bleeding"
+    ],
+    "rationale": "The speaker explicitly states that no hemorrhage has been detected in the patient.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\42_advice with annotation_cycle_117.txt",
+      "row": 22
+    },
+    "model": "meta-llama/llama-3.3-70b-instruct",
+    "provider": "DeepInfra",
+    "configuration_name": "llama-3-3-70b-instruct-241206"
+  },
+  {
+    "phrase": "Ich sehe wieder symmetrische Hirnstrukturen. Ich sehe keine Aufhellung des Gewebes, die nicht symmetrisch ist",
+    "context": "Dann Kopfschmerzen und Erbrechen. Eine Frau, hier ist keine Blutung entdeckt worden. Ich sehe wieder symmetrische Hirnstrukturen. Ich sehe keine Aufhellung des Gewebes, die nicht symmetrisch ist, und natürlich verlasse ich mich dann wieder mehr auf die Aussage, dass keine Blutung vorliegt, sehe auch keine und sage, das hat mir geholfen.",
+    "tags": [
+      "visual_search: description_of_medical_image_features"
+    ],
+    "rationale": "The speaker describes the anatomical structures they are looking at, specifically mentioning symmetrical brain structures and the absence of asymmetric tissue brightening.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\42_advice with annotation_cycle_117.txt",
+      "row": 22
+    },
+    "model": "meta-llama/llama-3.3-70b-instruct",
+    "provider": "DeepInfra",
+    "configuration_name": "llama-3-3-70b-instruct-241206"
+  },
+  {
+    "phrase": "und natürlich verlasse ich mich dann wieder mehr auf die Aussage, dass keine Blutung vorliegt",
+    "context": "Dann Kopfschmerzen und Erbrechen. Eine Frau, hier ist keine Blutung entdeckt worden. Ich sehe wieder symmetrische Hirnstrukturen. Ich sehe keine Aufhellung des Gewebes, die nicht symmetrisch ist, und natürlich verlasse ich mich dann wieder mehr auf die Aussage, dass keine Blutung vorliegt, sehe auch keine und sage, das hat mir geholfen.",
+    "tags": [
+      "decision_with_ai: explicitly_agreeing_with_ai"
+    ],
+    "rationale": "The speaker agrees with the AI's assessment that there is no hemorrhage.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\42_advice with annotation_cycle_117.txt",
+      "row": 22
+    },
+    "model": "meta-llama/llama-3.3-70b-instruct",
+    "provider": "DeepInfra",
+    "configuration_name": "llama-3-3-70b-instruct-241206"
+  },
+  {
+    "phrase": "sehe auch keine und sage, das hat mir geholfen",
+    "context": "Dann Kopfschmerzen und Erbrechen. Eine Frau, hier ist keine Blutung entdeckt worden. Ich sehe wieder symmetrische Hirnstrukturen. Ich sehe keine Aufhellung des Gewebes, die nicht symmetrisch ist, und natürlich verlasse ich mich dann wieder mehr auf die Aussage, dass keine Blutung vorliegt, sehe auch keine und sage, das hat mir geholfen.",
+    "tags": [
+      "reflection_of_ai: helpful"
+    ],
+    "rationale": "The speaker finds the AI's assessment helpful in confirming their own diagnosis of no hemorrhage.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\42_advice with annotation_cycle_117.txt",
+      "row": 22
+    },
+    "model": "meta-llama/llama-3.3-70b-instruct",
+    "provider": "DeepInfra",
+    "configuration_name": "llama-3-3-70b-instruct-241206"
+  },
+  {
+    "error": "JSONDecodeError",
+    "message": "Expecting ':' delimiter: line 1 column 1154 (char 1153)",
+    "raw_output": "{\"classifications\": [{\"phrase\": \"Das h\\u00e4tte ich, glaube ich, ohne die Hilfe nicht direkt gesehen.\", \"context\": \"Dann Fahrradunfall, 66, m\\u00e4nnlich, es wurde eine Blutung gefunden, und zwar so zwischen den Hemisph\\u00e4ren. Hm, \\u00e4hm, und da sieht man auch eindeutig, dass da genau auch wieder eine Aufhellung des Gewebes ist. Das h\\u00e4tte ich, glaube ich, ohne die Hilfe nicht direkt gesehen. \\u00e4hm, sonst sehe ich hier auch keine weitere Blutung.\", \"tags\": [\"reflection_of_ai: ich_not_recognized_without_ai\"], \"rationale\": \"The speaker explicitly states that they would not have seen the hemorrhage without the AI's help.\"}, {\"phrase\": \"und da sieht man auch eindeutig, dass da genau auch wieder eine Aufhellung des Gewebes ist.\", \"context\": \"Dann Fahrradunfall, 66, m\\u00e4nnlich, es wurde eine Blutung gefunden, und zwar so zwischen den Hemisph\\u00e4ren. Hm, \\u00e4hm, und da sieht man auch eindeutig, dass da genau auch wieder eine Aufhellung des Gewebes ist. Das h\\u00e4tte ich, glaube ich, ohne die Hilfe nicht direkt gesehen. \\u00e4hm, sonst sehe ich hier auch keine weitere Blutung.\", \"tags: [interpretation: description_bleeding\"], \"rationale\": \"The speaker describes the hemorrhage in more detail, mentioning the 'Aufhellung des Gewebes'.\"}, {\"phrase\": \"Aber es stimme zu, dass das hier auf jeden Fall eine Aufhehllung ist\", \"context\": \"Dann Fahrradunfall, 66, m\\u00e4nnlich, es wurde eine Blutung gefunden, und zwar so zwischen den Hemisph\\u00e4ren. Hm, \\u00e4hm, und da sieht man auch eindeutig, dass da genau auch wieder eine Aufhellung des Gewebes ist. Das h\\u00e4tte ich, glaube ich, ohne die Hilfe nicht direkt gesehen. \\u00e4hm, sonst sehe ich hier auch keine weitere Blutung. Aber es stimme zu, dass das hier auf jeden Fall eine Aufhehllung ist\", \"tags: [interpretation: bleeding\"], \"rationale\": \"The speaker confirms that the finding is indeed a hemorrhage.\"}]}",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\42_advice with annotation_cycle_117.txt",
+      "row": 32
+    },
+    "model": "meta-llama/llama-3.3-70b-instruct",
+    "provider": "Cloudflare",
+    "configuration_name": "llama-3-3-70b-instruct-241206"
+  },
+  {
+    "phrase": "Hier wurde jetzt keine Blutung entdeckt",
+    "context": "Hier wurde jetzt keine Blutung entdeckt, nach einem Autounfall von einer Frau. Ja also Hemisphären sind symmetrisch, die Mittellinie ist in der Mitte, die Seitenventrikel sind gut zu sehen. Wenn ich hier so schnell durchscrolle sehe ich keine Aufhellung. Deswegen stimme ich dem Ganzen zu und sage, es ist keine Blutung. Die hatte ja auch keine Symptome hier angegeben.",
+    "tags": [
+      "interpretation: no_bleeding"
+    ],
+    "rationale": "The person explicitly states that no hemorrhage was detected.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\42_advice with annotation_cycle_117.txt",
+      "row": 38
+    },
+    "model": "meta-llama/llama-3.3-70b-instruct",
+    "provider": "SambaNova",
+    "configuration_name": "llama-3-3-70b-instruct-241206"
+  },
+  {
+    "phrase": "Die Hemisphären sind symmetrisch, die Mittellinie ist in der Mitte, die Seitenventrikel sind gut zu sehen",
+    "context": "Hier wurde jetzt keine Blutung entdeckt, nach einem Autounfall von einer Frau. Ja also Hemisphären sind symmetrisch, die Mittellinie ist in der Mitte, die Seitenventrikel sind gut zu sehen. Wenn ich hier so schnell durchscrolle sehe ich keine Aufhellung. Deswegen stimme ich dem Ganzen zu und sage, es ist keine Blutung. Die hatte ja auch keine Symptome hier angegeben.",
+    "tags": [
+      "visual_search: description_of_medical_image_features"
+    ],
+    "rationale": "The person describes the anatomical structures they are looking at.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\42_advice with annotation_cycle_117.txt",
+      "row": 38
+    },
+    "model": "meta-llama/llama-3.3-70b-instruct",
+    "provider": "SambaNova",
+    "configuration_name": "llama-3-3-70b-instruct-241206"
+  },
+  {
+    "phrase": "Wenn ich hier so schnell durchscrolle sehe ich keine Aufhellung",
+    "context": "Hier wurde jetzt keine Blutung entdeckt, nach einem Autounfall von einer Frau. Ja also Hemisphären sind symmetrisch, die Mittellinie ist in der Mitte, die Seitenventrikel sind gut zu sehen. Wenn ich hier so schnell durchscrolle sehe ich keine Aufhellung. Deswegen stimme ich dem Ganzen zu und sage, es ist keine Blutung. Die hatte ja auch keine Symptome hier angegeben.",
+    "tags": [
+      "visual_search: description_of_own_approach_without_external_help"
+    ],
+    "rationale": "The person comments on their own search procedure.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\42_advice with annotation_cycle_117.txt",
+      "row": 38
+    },
+    "model": "meta-llama/llama-3.3-70b-instruct",
+    "provider": "SambaNova",
+    "configuration_name": "llama-3-3-70b-instruct-241206"
+  },
+  {
+    "phrase": "Deswegen stimme ich dem Ganzen zu und sage, es ist keine Blutung",
+    "context": "Hier wurde jetzt keine Blutung entdeckt, nach einem Autounfall von einer Frau. Ja also Hemisphären sind symmetrisch, die Mittellinie ist in der Mitte, die Seitenventrikel sind gut zu sehen. Wenn ich hier so schnell durchscrolle sehe ich keine Aufhellung. Deswegen stimme ich dem Ganzen zu und sage, es ist keine Blutung. Die hatte ja auch keine Symptome hier angegeben.",
+    "tags": [
+      "decision_with_ai: explicitly_agreeing_with_ai"
+    ],
+    "rationale": "The person explicitly agrees with the AI assessment.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\42_advice with annotation_cycle_117.txt",
+      "row": 38
+    },
+    "model": "meta-llama/llama-3.3-70b-instruct",
+    "provider": "SambaNova",
+    "configuration_name": "llama-3-3-70b-instruct-241206"
+  },
+  {
+    "phrase": "Die hatte ja auch keine Symptome hier angegeben",
+    "context": "Hier wurde jetzt keine Blutung entdeckt, nach einem Autounfall von einer Frau. Ja also Hemisphären sind symmetrisch, die Mittellinie ist in der Mitte, die Seitenventrikel sind gut zu sehen. Wenn ich hier so schnell durchscrolle sehe ich keine Aufhellung. Deswegen stimme ich dem Ganzen zu und sage, es ist keine Blutung. Die hatte ja auch keine Symptome hier angegeben.",
+    "tags": [
+      "reasoning: mentioning_contextual_information"
+    ],
+    "rationale": "The person mentions patient-related information.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\42_advice with annotation_cycle_117.txt",
+      "row": 38
+    },
+    "model": "meta-llama/llama-3.3-70b-instruct",
+    "provider": "SambaNova",
+    "configuration_name": "llama-3-3-70b-instruct-241206"
+  },
+  {
+    "phrase": "Es ist keine Blutung, und ich verlasse mich wieder auf die AI ein bisschen.",
+    "context": "Ja 81, bewusstlos, vielleicht mit irgendeiner Überdosis? Ähm, das Gewebe sieht mir soweit eher homogen aus. Es ist wieder so ja die Sulci sind so ein bisschen erweitert, aber sie ist ja auch schon 81. Und ich sehe keine Aufhellung, deswegen stimme ich zu. Es ist keine Blutung, und ich verlasse mich wieder auf die AI ein bisschen.",
+    "tags": [
+      "interpretation: no_bleeding",
+      "decision_with_ai: explicitly_agreeing_with_ai",
+      "control: relying_on_ai"
+    ],
+    "rationale": "The phrase indicates that the person interprets the finding as 'no hemorrhage' and agrees with the AI's assessment, while also relying on the AI for their decision.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\42_advice with annotation_cycle_117.txt",
+      "row": 27
+    },
+    "model": "meta-llama/llama-3.3-70b-instruct",
+    "provider": "DeepInfra",
+    "configuration_name": "llama-3-3-70b-instruct-241206"
+  },
+  {
+    "phrase": "das Gewebe sieht mir soweit eher homogen aus",
+    "context": "Ja 81, bewusstlos, vielleicht mit irgendeiner Überdosis? Ähm, das Gewebe sieht mir soweit eher homogen aus. Es ist wieder so ja die Sulci sind so ein bisschen erweitert, aber sie ist ja auch schon 81. Und ich sehe keine Aufhellung, deswegen stimme ich zu. Es ist keine Blutung, und ich verlasse mich wieder auf die AI ein bisschen.",
+    "tags": [
+      "visual_search: description_of_medical_image_features"
+    ],
+    "rationale": "The phrase describes the person's observation of the medical image, focusing on the homogeneity of the tissue.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\42_advice with annotation_cycle_117.txt",
+      "row": 27
+    },
+    "model": "meta-llama/llama-3.3-70b-instruct",
+    "provider": "DeepInfra",
+    "configuration_name": "llama-3-3-70b-instruct-241206"
+  },
+  {
+    "phrase": "Und ich sehe keine Aufhellung",
+    "context": "Ja 81, bewusstlos, vielleicht mit irgendeiner Überdosis? Ähm, das Gewebe sieht mir soweit eher homogen aus. Es ist wieder so ja die Sulci sind so ein bisschen erweitert, aber sie ist ja auch schon 81. Und ich sehe keine Aufhellung, deswegen stimme ich zu. Es ist keine Blutung, und ich verlasse mich wieder auf die AI ein bisschen.",
+    "tags": [
+      "indicator: no_bleeding"
+    ],
+    "rationale": "The phrase indicates that the person does not see any signs of bleeding (Aufhellung) in the image.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\42_advice with annotation_cycle_117.txt",
+      "row": 27
+    },
+    "model": "meta-llama/llama-3.3-70b-instruct",
+    "provider": "DeepInfra",
+    "configuration_name": "llama-3-3-70b-instruct-241206"
+  },
+  {
+    "phrase": "Hier wurde keine Blutung entdeckt.",
+    "context": "Dann wieder ein dizzy und bewusstloser männlicher Patient. Hier wurde keine Blutung entdeckt.",
+    "tags": [
+      "interpretation: no_bleeding"
+    ],
+    "rationale": "The speaker explicitly states that no hemorrhage was detected.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\42_advice with annotation_cycle_117.txt",
+      "row": 33
+    },
+    "model": "meta-llama/llama-3.3-70b-instruct",
+    "provider": "DeepInfra",
+    "configuration_name": "llama-3-3-70b-instruct-241206"
+  },
+  {
+    "phrase": "deswegen würde ich sagen, das könnte eine Blutung sein",
+    "context": "Deswegen würde ich sagen, das könnte eine Blutung sein, weil es eben nicht symmetrisch mit der anderen Seite ist.",
+    "tags": [
+      "interpretation: bleeding"
+    ],
+    "rationale": "The speaker suggests that there could be a hemorrhage due to an asymmetry between the two sides of the brain.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\42_advice with annotation_cycle_117.txt",
+      "row": 33
+    },
+    "model": "meta-llama/llama-3.3-70b-instruct",
+    "provider": "DeepInfra",
+    "configuration_name": "llama-3-3-70b-instruct-241206"
+  },
+  {
+    "phrase": "Kann man das irgendwie wegmachen, dass dieses, was hier vor ist",
+    "context": "Obwohl, ich hätte noch eine Frage. Kann man das irgendwie wegmachen, das dieses, was hier vor ist, weil ich sehe immer, den Occipitallappen gar nicht.",
+    "tags": [
+      "technical_conversation"
+    ],
+    "rationale": "The speaker is discussing technical difficulties with the display tool, asking if something can be removed or changed.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\42_advice with annotation_cycle_117.txt",
+      "row": 33
+    },
+    "model": "meta-llama/llama-3.3-70b-instruct",
+    "provider": "DeepInfra",
+    "configuration_name": "llama-3-3-70b-instruct-241206"
+  },
+  {
+    "phrase": "weil ich finde nämlich hier in dem rechten Occipitallappen, da sieht man schon so eine leichte Aufhellung",
+    "context": "weil ich finde nämlich hier in dem rechten Occipitallappen, da sieht man schon so eine leichte Aufhellung. Deswegen würde ich sagen, das könnte eine Blutung sein",
+    "tags": [
+      "indicator: anomaly_detected"
+    ],
+    "rationale": "The speaker notices an abnormality, a slight brightening, in the right occipital lobe.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\42_advice with annotation_cycle_117.txt",
+      "row": 33
+    },
+    "model": "meta-llama/llama-3.3-70b-instruct",
+    "provider": "DeepInfra",
+    "configuration_name": "llama-3-3-70b-instruct-241206"
+  },
+  {
+    "phrase": "Dann haben wir keine Blutung nach einem car accident mit GCS 13 dtektiert.",
+    "context": "Dann haben wir keine Blutung nach einem car accident mit GCS 13 dtektiert. Sieht wieder symmetrisch aus die Hemisphären, die Seitenventrikel sieht man gut.",
+    "tags": [
+      "interpretation: no_bleeding"
+    ],
+    "rationale": "The speaker explicitly states that no hemorrhage was detected after a car accident.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\42_advice with annotation_cycle_117.txt",
+      "row": 36
+    },
+    "model": "meta-llama/llama-3.3-70b-instruct",
+    "provider": "AkashML",
+    "configuration_name": "llama-3-3-70b-instruct-241206"
+  },
+  {
+    "phrase": "Sieht wieder symmetrisch aus die Hemisphären, die Seitenventrikel sieht man gut.",
+    "context": "Dann haben wir keine Blutung nach einem car accident mit GCS 13 dtektiert. Sieht wieder symmetrisch aus die Hemisphären, die Seitenventrikel sieht man gut.",
+    "tags": [
+      "visual_search: description_of_medical_image_features"
+    ],
+    "rationale": "The speaker describes the appearance of the brain hemispheres and ventricles, indicating a visual search of the medical image.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\42_advice with annotation_cycle_117.txt",
+      "row": 36
+    },
+    "model": "meta-llama/llama-3.3-70b-instruct",
+    "provider": "AkashML",
+    "configuration_name": "llama-3-3-70b-instruct-241206"
+  },
+  {
+    "phrase": "Ich sehe keine Einblutungen so nah an der Schädelkalotte, das Kleinhirn sieht etwas inhomogenen aus, aber nicht so, dass man eindeutig eine Blutung erkennen könnte.",
+    "context": "Ich sehe keine Einblutungen so nah an der Schädelkalotte, das Kleinhirn sieht etwas inhomogenen aus, aber nicht so, dass man eindeutig eine Blutung erkennen könnte.",
+    "tags": [
+      "interpretation: no_bleeding_explanation"
+    ],
+    "rationale": "The speaker explains why they do not think there is a hemorrhage, citing the lack of visible bleeding near the skull and the unclear appearance of the cerebellum.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\42_advice with annotation_cycle_117.txt",
+      "row": 36
+    },
+    "model": "meta-llama/llama-3.3-70b-instruct",
+    "provider": "AkashML",
+    "configuration_name": "llama-3-3-70b-instruct-241206"
+  },
+  {
+    "phrase": "Ansonsten sieht mir das Gewebe eigentlich sehr homogen aus.",
+    "context": "Ansonsten sieht mir das Gewebe eigentlich sehr homogen aus. Deswegen sage ich, ist keine Blutung da, und ich vertraue dem Report.",
+    "tags": [
+      "visual_search: description_of_medical_image_features"
+    ],
+    "rationale": "The speaker describes the appearance of the tissue, indicating a visual search of the medical image.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\42_advice with annotation_cycle_117.txt",
+      "row": 36
+    },
+    "model": "meta-llama/llama-3.3-70b-instruct",
+    "provider": "AkashML",
+    "configuration_name": "llama-3-3-70b-instruct-241206"
+  },
+  {
+    "phrase": "Deswegen sage ich, ist keine Blutung da, und ich vertraue dem Report.",
+    "context": "Ansonsten sieht mir das Gewebe eigentlich sehr homogen aus. Deswegen sage ich, ist keine Blutung da, und ich vertraue dem Report.",
+    "tags": [
+      "interpretation: no_bleeding",
+      "reflection_of_ai: trust_in_ai"
+    ],
+    "rationale": "The speaker explicitly states that they trust the report and do not think there is a hemorrhage, indicating trust in the AI's assessment.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\42_advice with annotation_cycle_117.txt",
+      "row": 36
+    },
+    "model": "meta-llama/llama-3.3-70b-instruct",
+    "provider": "AkashML",
+    "configuration_name": "llama-3-3-70b-instruct-241206"
+  },
+  {
+    "phrase": "Nach einem Fall von der Schaukel wurde eine Blutung detektiert.",
+    "context": "Nach einem Fall von der Schaukel wurde eine Blutung detektiert. Frontal, da sieht man auf jeden Fall auch wieder ja, eine Aufhellung.",
+    "tags": [
+      "reasoning: mentioning_contextual_information"
+    ],
+    "rationale": "The person mentions the cause of the accident, which is a fall from a swing, providing contextual information about the patient's medical history.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\42_advice with annotation_cycle_117.txt",
+      "row": 37
+    },
+    "model": "meta-llama/llama-3.3-70b-instruct",
+    "provider": "AkashML",
+    "configuration_name": "llama-3-3-70b-instruct-241206"
+  },
+  {
+    "phrase": "Die Seitenventrikel sind sehr schwierig abzugrenzen ist sieben Jahre alt.",
+    "context": "Die Seitenventrikel sind sehr schwierig abzugrenzen ist sieben Jahre alt. Das Kleinhirn sieht Okay aus.",
+    "tags": [
+      "awareness_of_task: image_quality"
+    ],
+    "rationale": "The person explicitly complains about the difficulty in distinguishing the lateral ventricles due to the patient's age, which is related to image quality or acquisition method.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\42_advice with annotation_cycle_117.txt",
+      "row": 37
+    },
+    "model": "meta-llama/llama-3.3-70b-instruct",
+    "provider": "AkashML",
+    "configuration_name": "llama-3-3-70b-instruct-241206"
+  },
+  {
+    "phrase": "Das Kleinhirn sieht Okay aus.",
+    "context": "Die Seitenventrikel sind sehr schwierig abzugrenzen ist sieben Jahre alt. Das Kleinhirn sieht Okay aus.",
+    "tags": [
+      "indicator: no_bleeding"
+    ],
+    "rationale": "The person classifies the cerebellum as unremarkable, indicating no signs of bleeding in that area.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\42_advice with annotation_cycle_117.txt",
+      "row": 37
+    },
+    "model": "meta-llama/llama-3.3-70b-instruct",
+    "provider": "AkashML",
+    "configuration_name": "llama-3-3-70b-instruct-241206"
+  },
+  {
+    "phrase": "Ja, die Seitenventrikel sehen sehr klein aus, aber es kann natürlich auch sein weil er einfach noch recht jung.",
+    "context": "Ja, die Seitenventrikel sehen sehr klein aus, aber es kann natürlich auch sein weil er einfach noch recht jung. Hier sieht man schon auf jeden Fall, dass das nicht ganz homogen ist,",
+    "tags": [
+      "confidence_low: secondary"
+    ],
+    "rationale": "The person expresses uncertainty about the size of the lateral ventricles, using the adverb 'natürlich', which implies a degree of doubt.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\42_advice with annotation_cycle_117.txt",
+      "row": 37
+    },
+    "model": "meta-llama/llama-3.3-70b-instruct",
+    "provider": "AkashML",
+    "configuration_name": "llama-3-3-70b-instruct-241206"
+  },
+  {
+    "phrase": "Hier sieht man schon auf jeden Fall, dass das nicht ganz homogen ist, dass das Gewebe von der Schädelkalotte  , ein bisschen abweicht, rechts fontal",
+    "context": "Hier sieht man schon auf jeden Fall, dass das nicht ganz homogen ist, dass das Gewebe von der Schädelkalotte  , ein bisschen abweicht, rechts fontal und das würde dann mit der Lokalisation der Blutung, was wahrscheinlich ne subdurale Blutung ist, zusammenpassen,",
+    "tags": [
+      "indicator: anomaly_detected"
+    ],
+    "rationale": "The person notices an abnormality in the tissue of the skull, which is atypical for a healthy skull, indicating a potential hemorrhage.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\42_advice with annotation_cycle_117.txt",
+      "row": 37
+    },
+    "model": "meta-llama/llama-3.3-70b-instruct",
+    "provider": "AkashML",
+    "configuration_name": "llama-3-3-70b-instruct-241206"
+  },
+  {
+    "phrase": "und das würde dann mit der Lokalisation der Blutung, was wahrscheinlich ne subdurale Blutung ist, zusammenpassen, deswegen stimme ich zu.",
+    "context": "Hier sieht man schon auf jeden Fall, dass das nicht ganz homogen ist, dass das Gewebe von der Schädelkalotte  , ein bisschen abweicht, rechts fontal und das würde dann mit der Lokalisation der Blutung, was wahrscheinlich ne subdurale Blutung ist, zusammenpassen, deswegen stimme ich zu.",
+    "tags": [
+      "interpretation: bleeding",
+      "decision_with_ai: explicitly_agreeing_with_ai"
+    ],
+    "rationale": "The person interprets the abnormality as a hemorrhage, specifically a subdural hemorrhage, and explicitly agrees with the AI's assessment, indicating a high degree of certainty.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\42_advice with annotation_cycle_117.txt",
+      "row": 37
+    },
+    "model": "meta-llama/llama-3.3-70b-instruct",
+    "provider": "AkashML",
+    "configuration_name": "llama-3-3-70b-instruct-241206"
+  },
+  {
+    "phrase": "Okay, ich stimme zu, dass da keine Blutung ist, und vertraue ihm wieder.",
+    "context": "Hier wieder einen Autounfall. Ich sehe die symmetrischen Hemisphären, die Seitenventrikel sind offen, sehen etwas verschmälert aus. Ich sehe erst mal keine Aufhellungen im Gewebe, im Kleinhirn auch nichts. Ähm, ja, also die Seitenventrikel, ne, sind in Ordnung. Okay, ich stimme zu, dass da keine Blutung ist, und vertraue ihm wieder.",
+    "tags": [
+      "decision_with_ai: explicitly_agreeing_with_ai",
+      "interpretation: no_bleeding",
+      "reflection_of_ai: trust_in_ai"
+    ],
+    "rationale": "The speaker agrees with the AI's assessment that there is no hemorrhage, indicating trust in the AI's decision.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\42_advice with annotation_cycle_117.txt",
+      "row": 30
+    },
+    "model": "meta-llama/llama-3.3-70b-instruct",
+    "provider": "DeepInfra",
+    "configuration_name": "llama-3-3-70b-instruct-241206"
+  },
+  {
+    "phrase": "Ich sehe erst mal keine Aufhellungen im Gewebe, im Kleinhirn auch nichts.",
+    "context": "Hier wieder einen Autounfall. Ich sehe die symmetrischen Hemisphären, die Seitenventrikel sind offen, sehen etwas verschmälert aus. Ich sehe erst mal keine Aufhellungen im Gewebe, im Kleinhirn auch nichts. Ähm, ja, also die Seitenventrikel, ne, sind in Ordnung. Okay, ich stimme zu, dass da keine Blutung ist, und vertraue ihm wieder.",
+    "tags": [
+      "indicator: no_bleeding"
+    ],
+    "rationale": "The speaker indicates that they do not see any abnormalities or signs of bleeding in the tissue or cerebellum.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\42_advice with annotation_cycle_117.txt",
+      "row": 30
+    },
+    "model": "meta-llama/llama-3.3-70b-instruct",
+    "provider": "DeepInfra",
+    "configuration_name": "llama-3-3-70b-instruct-241206"
+  },
+  {
+    "phrase": "Ich sehe die symmetrischen Hemisphären, die Seitenventrikel sind offen, sehen etwas verschmälert aus.",
+    "context": "Hier wieder einen Autounfall. Ich sehe die symmetrischen Hemisphären, die Seitenventrikel sind offen, sehen etwas verschmälert aus. Ich sehe erst mal keine Aufhellungen im Gewebe, im Kleinhirn auch nichts. Ähm, ja, also die Seitenventrikel, ne, sind in Ordnung. Okay, ich stimme zu, dass da keine Blutung ist, und vertraue ihm wieder.",
+    "tags": [
+      "visual_search: description_of_medical_image_features"
+    ],
+    "rationale": "The speaker describes the anatomical structures they are looking at, including the symmetrical hemispheres and the open lateral ventricles.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\42_advice with annotation_cycle_117.txt",
+      "row": 30
+    },
+    "model": "meta-llama/llama-3.3-70b-instruct",
+    "provider": "DeepInfra",
+    "configuration_name": "llama-3-3-70b-instruct-241206"
+  },
+  {
+    "error": "JSONDecodeError",
+    "message": "Expecting ':' delimiter: line 1 column 426 (char 425)",
+    "raw_output": "{\"classifications\": [{\"phrase\": \"und es wurde eine Blutung entdeckt, und zwar hier frontal\", \"context\": \"Dann habe ich hier einen Bewusstlosen, und es wurde eine Blutung entdeckt, und zwar hier frontal. Also man sieht auf jeden Fall auch sehr stark die Mittellinieverlagerung, dass das so ein bisschen asymmetrisch mit den Seitenventrikeln ist und die Mittellinie nach links verlagert ist.\", \"tags: [interpretation: bleeding\"], \"rationale\": \"The speaker explicitly mentions a hemorrhage (Blutung) that was discovered, which indicates an interpretation of bleeding.\"}, {\"phrase\": \"und man sieht eben auf der rechten, ich mein auf der linken Seite die Sulci noch ganz gut, und hier rechts, ist alles sehr, ja aufgetrieben\", \"context\": \"Dann habe ich hier einen Bewusstlosen, und es wurde eine Blutung entdeckt, und zwar hier frontal. Also man sieht auf jeden Fall auch sehr stark die Mittellinieverlagerung, dass das so ein bisschen asymmetrisch mit den Seitenventrikeln ist und die Mittellinie nach links verlagert ist. Und man sieht eben auf der rechten, ich mein auf der linken Seite die Sulci noch ganz gut, und hier rechts, ist alles sehr, ja aufgetrieben\", \"tags\": [\"visual_search: description_of_medical_image_features\"], \"rationale\": \"The speaker describes specific anatomical structures (Sulci) and image characteristics (asymmetrisch, aufgetrieben) they are looking at.\"}, {\"phrase\": \"und das konnte gut mit einer, ich würde sagen, Epiduralblutung zusammenpassen\", \"context\": \"Dann habe ich hier einen Bewusstlosen, und es wurde eine Blutung entdeckt, und zwar hier frontal. Also man sieht auf jeden Fall auch sehr stark die Mittellinieverlagerung, dass das so ein bisschen asymmetrisch mit den Seitenventrikeln ist und die Mittellinie nach links verlagert ist. Und man sieht eben auf der rechten, ich mein auf der linken Seite die Sulci noch ganz gut, und hier rechts, ist alles sehr, ja aufgetrieben, und das konnte gut mit einer, ich würde sagen, Epiduralblutung zusammenpassen\", \"tags: [interpretation: bleeding\"], \"rationale\": \"The speaker interprets the abnormality as a specific type of hemorrhage (Epiduralblutung).\"}]}",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\42_advice with annotation_cycle_117.txt",
+      "row": 42
+    },
+    "model": "meta-llama/llama-3.3-70b-instruct",
+    "provider": "Cloudflare",
+    "configuration_name": "llama-3-3-70b-instruct-241206"
+  },
+  {
+    "phrase": "Hier wurde eine Blutung entdeckt",
+    "context": "Hier wurde eine Blutung entdeckt und das ist ein ganz schlimmer Kopfschmerz. Wo ist die Blutung hier? Okay, frontal, da könnte so ein bisschen Mittellinienverlagerung sein, aber dann wäre das also, ich sehe hier keine Aufhellung, das Gewebe ist keine Inhomogenität.",
+    "tags": [
+      "ai_report: ich"
+    ],
+    "rationale": "The phrase indicates that the AI has found a hemorrhage.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\42_advice with annotation_cycle_117.txt",
+      "row": 29
+    },
+    "model": "meta-llama/llama-3.3-70b-instruct",
+    "provider": "DeepInfra",
+    "configuration_name": "llama-3-3-70b-instruct-241206"
+  },
+  {
+    "phrase": "Wo ist die Blutung hier?",
+    "context": "Hier wurde eine Blutung entdeckt und das ist ein ganz schlimmer Kopfschmerz. Wo ist die Blutung hier? Okay, frontal, da könnte so ein bisschen Mittellinienverlagerung sein, aber dann wäre das also, ich sehe hier keine Aufhellung, das Gewebe ist keine Inhomogenität.",
+    "tags": [
+      "ai_report: ich_localization"
+    ],
+    "rationale": "The phrase asks for the location of the hemorrhage found by the AI.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\42_advice with annotation_cycle_117.txt",
+      "row": 29
+    },
+    "model": "meta-llama/llama-3.3-70b-instruct",
+    "provider": "DeepInfra",
+    "configuration_name": "llama-3-3-70b-instruct-241206"
+  },
+  {
+    "phrase": "ich hätte die Blutung nicht gesehen und stimme dem hier nicht zu",
+    "context": "Hier wurde eine Blutung entdeckt und das ist ein ganz schlimmer Kopfschmerz. Wo ist die Blutung hier? Okay, frontal, da könnte so ein bisschen Mittellinienverlagerung sein, aber dann wäre das also, ich sehe hier keine Aufhellung, das Gewebe ist keine Inhomogenität. Das heißt, ich hätte die Blutung nicht gesehen und stimme dem hier nicht zu, bin mir da aber ehrlich nicht sicher und das hat mir dann zumindest nicht geholfen, in dem Sinne, dass ich es nicht gesehen hab.",
+    "tags": [
+      "decision_with_ai: explicitly_disagreeing_with_ai"
+    ],
+    "rationale": "The phrase indicates that the person disagrees with the AI's assessment of a hemorrhage.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\42_advice with annotation_cycle_117.txt",
+      "row": 29
+    },
+    "model": "meta-llama/llama-3.3-70b-instruct",
+    "provider": "DeepInfra",
+    "configuration_name": "llama-3-3-70b-instruct-241206"
+  },
+  {
+    "phrase": "bin mir da aber ehrlich nicht sicher",
+    "context": "Hier wurde eine Blutung entdeckt und das ist ein ganz schlimmer Kopfschmerz. Wo ist die Blutung hier? Okay, frontal, da könnte so ein bisschen Mittellinienverlagerung sein, aber dann wäre das also, ich sehe hier keine Aufhellung, das Gewebe ist keine Inhomogenität. Das heißt, ich hätte die Blutung nicht gesehen und stimme dem hier nicht zu, bin mir da aber ehrlich nicht sicher und das hat mir dann zumindest nicht geholfen, in dem Sinne, dass ich es nicht gesehen hab.",
+    "tags": [
+      "confidence_low: concrete"
+    ],
+    "rationale": "The phrase indicates that the person is not sure about their assessment.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\42_advice with annotation_cycle_117.txt",
+      "row": 29
+    },
+    "model": "meta-llama/llama-3.3-70b-instruct",
+    "provider": "DeepInfra",
+    "configuration_name": "llama-3-3-70b-instruct-241206"
+  },
+  {
+    "phrase": "das hat mir dann zumindest nicht geholfen, in dem Sinne, dass ich es nicht gesehen hab",
+    "context": "Hier wurde eine Blutung entdeckt und das ist ein ganz schlimmer Kopfschmerz. Wo ist die Blutung hier? Okay, frontal, da könnte so ein bisschen Mittellinienverlagerung sein, aber dann wäre das also, ich sehe hier keine Aufhellung, das Gewebe ist keine Inhomogenität. Das heißt, ich hätte die Blutung nicht gesehen und stimme dem hier nicht zu, bin mir da aber ehrlich nicht sicher und das hat mir dann zumindest nicht geholfen, in dem Sinne, dass ich es nicht gesehen hab.",
+    "tags": [
+      "reflection_of_ai: unhelpful/unnecessary"
+    ],
+    "rationale": "The phrase indicates that the AI was not helpful in this case.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\42_advice with annotation_cycle_117.txt",
+      "row": 29
+    },
+    "model": "meta-llama/llama-3.3-70b-instruct",
+    "provider": "DeepInfra",
+    "configuration_name": "llama-3-3-70b-instruct-241206"
+  },
+  {
+    "phrase": "Ich sehe keine Knochenverletzung, und ich sehe auch keine Sichel oder Blutung unter dem Knochen. Deswegen stimme ich zu, dass da keine Blutung ist.",
+    "context": "Ja, und hier kleine Blutung nach einem Fahrradunfall entdeckt. Ich sehe symmetrische Hemisphären, das Klenhirn da sehe ich keinerlei Aufhellung, und die Seitenventrikel sind symmetrisch. Ich sehe keine Knochenverletzung, und ich sehe auch keine Sichel oder Blutung unter dem Knochen. Deswegen stimme ich zu, dass da keine Blutung ist. Ja, genau.",
+    "tags": [
+      "interpretation: no_bleeding",
+      "decision_with_ai: explicitly_agreeing_with_ai"
+    ],
+    "rationale": "The speaker explicitly states that they do not see any bone fracture, sickle, or bleeding under the bone, and therefore agrees that there is no bleeding. This indicates an interpretation of no bleeding and an agreement with the AI's assessment.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\42_advice with annotation_cycle_117.txt",
+      "row": 43
+    },
+    "model": "meta-llama/llama-3.3-70b-instruct",
+    "provider": "AkashML",
+    "configuration_name": "llama-3-3-70b-instruct-241206"
+  },
+  {
+    "phrase": "Ja, und hier kleine Blutung nach einem Fahrradunfall entdeckt.",
+    "context": "Ja, und hier kleine Blutung nach einem Fahrradunfall entdeckt. Ich sehe symmetrische Hemisphären, das Klenhirn da sehe ich keinerlei Aufhellung, und die Seitenventrikel sind symmetrisch. Ich sehe keine Knochenverletzung, und ich sehe auch keine Sichel oder Blutung unter dem Knochen. Deswegen stimme ich zu, dass da keine Blutung ist. Ja, genau.",
+    "tags": [
+      "interpretation: bleeding"
+    ],
+    "rationale": "The speaker initially mentions a small bleeding after a bike accident, indicating an interpretation of bleeding.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\42_advice with annotation_cycle_117.txt",
+      "row": 43
+    },
+    "model": "meta-llama/llama-3.3-70b-instruct",
+    "provider": "AkashML",
+    "configuration_name": "llama-3-3-70b-instruct-241206"
+  },
+  {
+    "phrase": "keine Blutung wurde entdeckt",
+    "context": "Fahrradunfall, keine Blutung wurde entdeckt. Ich wieder symmetrische Strukturen.",
+    "tags": [
+      "interpretation: no_bleeding"
+    ],
+    "rationale": "The speaker explicitly states that no hemorrhage was detected.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\42_advice with annotation_cycle_117.txt",
+      "row": 23
+    },
+    "model": "meta-llama/llama-3.3-70b-instruct",
+    "provider": "DeepInfra",
+    "configuration_name": "llama-3-3-70b-instruct-241206"
+  },
+  {
+    "phrase": "Ich wieder symmetrische Strukturen",
+    "context": "Fahrradunfall, keine Blutung wurde entdeckt. Ich wieder symmetrische Strukturen. Das Kleinhirn sieht in Ordnung aus, die Temporallappen auch, weil das ist, glaube ich, einfach nur Knochen, was ich hier sehe, und ja, am Tentorium ne ich glaub das ist einfach nur Knochen.",
+    "tags": [
+      "visual_search: description_of_medical_image_features"
+    ],
+    "rationale": "The speaker describes the anatomical structures they are looking at, mentioning symmetrical structures and specific parts of the brain.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\42_advice with annotation_cycle_117.txt",
+      "row": 23
+    },
+    "model": "meta-llama/llama-3.3-70b-instruct",
+    "provider": "DeepInfra",
+    "configuration_name": "llama-3-3-70b-instruct-241206"
+  },
+  {
+    "phrase": "Das Kleinhirn sieht in Ordnung aus, die Temporallappen auch",
+    "context": "Fahrradunfall, keine Blutung wurde entdeckt. Ich wieder symmetrische Strukturen. Das Kleinhirn sieht in Ordnung aus, die Temporallappen auch, weil das ist, glaube ich, einfach nur Knochen, was ich hier sehe, und ja, am Tentorium ne ich glaub das ist einfach nur Knochen.",
+    "tags": [
+      "visual_search: description_of_medical_image_features"
+    ],
+    "rationale": "The speaker continues to describe the appearance of specific brain structures, indicating they look normal.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\42_advice with annotation_cycle_117.txt",
+      "row": 23
+    },
+    "model": "meta-llama/llama-3.3-70b-instruct",
+    "provider": "DeepInfra",
+    "configuration_name": "llama-3-3-70b-instruct-241206"
+  },
+  {
+    "phrase": "weil das ist, glaube ich, einfach nur Knochen, was ich hier sehe",
+    "context": "Fahrradunfall, keine Blutung wurde entdeckt. Ich wieder symmetrische Strukturen. Das Kleinhirn sieht in Ordnung aus, die Temporallappen auch, weil das ist, glaube ich, einfach nur Knochen, was ich hier sehe, und ja, am Tentorium ne ich glaub das ist einfach nur Knochen.",
+    "tags": [
+      "reasoning: alternative_medical_structure"
+    ],
+    "rationale": "The speaker attributes what they see to bone structure, suggesting it's not indicative of a hemorrhage.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\42_advice with annotation_cycle_117.txt",
+      "row": 23
+    },
+    "model": "meta-llama/llama-3.3-70b-instruct",
+    "provider": "DeepInfra",
+    "configuration_name": "llama-3-3-70b-instruct-241206"
+  },
+  {
+    "phrase": "und ich sehe keine Aufhellung im Gewebe, und ich sehe keine Strukturen am Knochen, die das Gewerbe verdrängen",
+    "context": "Das Kleinhirn sieht in Ordnung aus, die Temporallappen auch, weil das ist, glaube ich, einfach nur Knochen, was ich hier sehe, und ja, am Tentorium ne ich glaub das ist einfach nur Knochen. Das heißt, ich sehe keine Aufhellung im Gewebe, und ich sehe keine Strukturen am Knochen, die das Gewerbe verdrängen.",
+    "tags": [
+      "interpretation: no_bleeding"
+    ],
+    "rationale": "The speaker explicitly states the absence of signs that would indicate a hemorrhage, such as increased brightness in the tissue or structures displacing tissue.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\42_advice with annotation_cycle_117.txt",
+      "row": 23
+    },
+    "model": "meta-llama/llama-3.3-70b-instruct",
+    "provider": "DeepInfra",
+    "configuration_name": "llama-3-3-70b-instruct-241206"
+  },
+  {
+    "phrase": "Deswegen sage ich hier keine Blutung",
+    "context": "Das heißt, ich sehe keine Aufhellung im Gewebe, und ich sehe keine Strukturen am Knochen, die das Gewerbe verdrängen. Deswegen sage ich hier keine Blutung und da verlasse ich mich wieder auf den Report.",
+    "tags": [
+      "interpretation: no_bleeding"
+    ],
+    "rationale": "The speaker concludes there is no hemorrhage based on their observations.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\42_advice with annotation_cycle_117.txt",
+      "row": 23
+    },
+    "model": "meta-llama/llama-3.3-70b-instruct",
+    "provider": "DeepInfra",
+    "configuration_name": "llama-3-3-70b-instruct-241206"
+  },
+  {
+    "phrase": "und da verlasse ich mich wieder auf den Report",
+    "context": "Deswegen sage ich hier keine Blutung und da verlasse ich mich wieder auf den Report.",
+    "tags": [
+      "control: relying_on_ai"
+    ],
+    "rationale": "The speaker indicates they are relying on the report (likely the AI's assessment) to support their conclusion.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\42_advice with annotation_cycle_117.txt",
+      "row": 23
+    },
+    "model": "meta-llama/llama-3.3-70b-instruct",
+    "provider": "DeepInfra",
+    "configuration_name": "llama-3-3-70b-instruct-241206"
+  },
+  {
+    "phrase": "Das könnte aber auch etwas anderes sein.",
+    "context": "Dann 28 jähriger mit Skiunfall ohne Helm, und da ist eine Blutung detektiert worden. Wo ist sie ganz frontal, ich schau einmal generell. Eigentlich sieht symmetrisch aus die Ventrikel sehen etwas eng aus. Es sind generell sehr wenig, also es sieht so ein bisschen nach Hirndruck aus. Und er hat hier frontal so ne Blutung angezeigt, was man wenn man den Kontrast sehr anpasst, auch sehen kann, dass da etwas hyperdens wäre. Das wäre jetzt eine Blutung, die ich nicht so identifiziert hätte, wenn er es mir nicht gesagt hätte. Aber dadurch das er es mir gesagt hat und ich es dadurch gesehen habe, könnte ich mir vorstellen, dass eine Blutung ist. Das könnte aber auch etwas anderes sein.",
+    "tags": [
+      "confidence_low: secondary",
+      "interpretation: bleeding"
+    ],
+    "rationale": "The speaker is uncertain about the diagnosis, using the phrase 'Das könnte aber auch etwas anderes sein' to express doubt, which aligns with the 'confidence_low: secondary' tag. Additionally, the speaker is interpreting the finding as a potential hemorrhage, which aligns with the 'interpretation: bleeding' tag.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\42_advice with annotation_cycle_117.txt",
+      "row": 45
+    },
+    "model": "meta-llama/llama-3.3-70b-instruct",
+    "provider": "Parasail",
+    "configuration_name": "llama-3-3-70b-instruct-241206"
+  },
+  {
+    "phrase": "Das wäre jetzt eine Blutung, die ich nicht so identifiziert hätte, wenn er es mir nicht gesagt hätte.",
+    "context": "Dann 28 jähriger mit Skiunfall ohne Helm, und da ist eine Blutung detektiert worden. Wo ist sie ganz frontal, ich schau einmal generell. Eigentlich sieht symmetrisch aus die Ventrikel sehen etwas eng aus. Es sind generell sehr wenig, also es sieht so ein bisschen nach Hirndruck aus. Und er hat hier frontal so ne Blutung angezeigt, was man wenn man den Kontrast sehr anpasst, auch sehen kann, dass da etwas hyperdens wäre. Das wäre jetzt eine Blutung, die ich nicht so identifiziert hätte, wenn er es mir nicht gesagt hätte. Aber dadurch das er es mir gesagt hat und ich es dadurch gesehen habe, könnte ich mir vorstellen, dass eine Blutung ist. Das könnte aber auch etwas anderes sein.",
+    "tags": [
+      "reflection_of_ai: ich_not_recognized_without_ai"
+    ],
+    "rationale": "The speaker explicitly states that they would not have identified the hemorrhage without the AI's indication, which aligns with the 'reflection_of_ai: ich_not_recognized_without_ai' tag.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\42_advice with annotation_cycle_117.txt",
+      "row": 45
+    },
+    "model": "meta-llama/llama-3.3-70b-instruct",
+    "provider": "Parasail",
+    "configuration_name": "llama-3-3-70b-instruct-241206"
+  },
+  {
+    "phrase": "da sehe ich die Sulci sind auf jeden Fall sehen sehr verstrichen aus",
+    "context": "Dann haben wir wieder einen Zusammenstoß. Hier wurde die Blutung detektiert, links, parietal, da sehe ich die Sulci sind auf jeden Fall sehen sehr verstrichen aus.",
+    "tags": [
+      "visual_search: description_of_medical_image_features"
+    ],
+    "rationale": "The person is describing the appearance of the Sulci in the medical image, indicating a focus on specific anatomical structures.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\42_advice with annotation_cycle_117.txt",
+      "row": 35
+    },
+    "model": "meta-llama/llama-3.3-70b-instruct",
+    "provider": "DeepInfra",
+    "configuration_name": "llama-3-3-70b-instruct-241206"
+  },
+  {
+    "phrase": "Es ist jetzt nicht so klar abgegrenzt, das heißt, es sieht nicht so eindeutig nach einer Subdural- oder Epidural Blutung aus",
+    "context": "Dann haben wir wieder einen Zusammenstoß. Hier wurde die Blutung detektiert, links, parietal, da sehe ich die Sulci sind auf jeden Fall sehen sehr verstrichen aus. Es ist jetzt nicht so klar abgegrenzt, das heißt, es sieht nicht so eindeutig nach einer Subdural- oder Epidural Blutung aus",
+    "tags": [
+      "reflection: diagnostic_uncertainty"
+    ],
+    "rationale": "The person is expressing uncertainty about the diagnosis, indicating that the findings are not clear-cut and do not clearly point to a specific type of hemorrhage.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\42_advice with annotation_cycle_117.txt",
+      "row": 35
+    },
+    "model": "meta-llama/llama-3.3-70b-instruct",
+    "provider": "DeepInfra",
+    "configuration_name": "llama-3-3-70b-instruct-241206"
+  },
+  {
+    "phrase": "Aber da eben diese Sulci gar nicht zu sehen sind auf der Seite, würde ich zustimmen, dass da vielleicht eine Blutung ist",
+    "context": "Dann haben wir wieder einen Zusammenstoß. Hier wurde die Blutung detektiert, links, parietal, da sehe ich die Sulci sind auf jeden Fall sehen sehr verstrichen aus. Es ist jetzt nicht so klar abgegrenzt, das heißt, es sieht nicht so eindeutig nach einer Subdural- oder Epidural Blutung aus. Aber da eben diese Sulci gar nicht zu sehen sind auf der Seite, würde ich zustimmen, dass da vielleicht eine Blutung ist",
+    "tags": [
+      "interpretation: bleeding"
+    ],
+    "rationale": "The person is interpreting the absence of visible Sulci on one side as a possible indication of a hemorrhage, and is inclined to agree with this diagnosis.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\42_advice with annotation_cycle_117.txt",
+      "row": 35
+    },
+    "model": "meta-llama/llama-3.3-70b-instruct",
+    "provider": "DeepInfra",
+    "configuration_name": "llama-3-3-70b-instruct-241206"
+  },
+  {
+    "phrase": "und passt auch mit einer Anamnses und da hilft dann auf jeden die Vorauswertung",
+    "context": "Dann haben wir wieder einen Zusammenstoß. Hier wurde die Blutung detektiert, links, parietal, da sehe ich die Sulci sind auf jeden Fall sehen sehr verstrichen aus. Es ist jetzt nicht so klar abgegrenzt, das heißt, es sieht nicht so eindeutig nach einer Subdural- oder Epidural Blutung aus. Aber da eben diese Sulci gar nicht zu sehen sind auf der Seite, würde ich zustimmen, dass da vielleicht eine Blutung ist, und passt auch mit einer Anamnses und da hilft dann auf jeden die Vorauswertung",
+    "tags": [
+      "reasoning: conclusion_contextual_information"
+    ],
+    "rationale": "The person is connecting the medical history (Anamnese) with the findings and the pre-evaluation, indicating that the diagnosis is consistent with the available information.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\42_advice with annotation_cycle_117.txt",
+      "row": 35
+    },
+    "model": "meta-llama/llama-3.3-70b-instruct",
+    "provider": "DeepInfra",
+    "configuration_name": "llama-3-3-70b-instruct-241206"
+  },
+  {
+    "phrase": "Das könnte dann wieder eine subdurale Blutung sein",
+    "context": "Da sieht man auf jeden Fall, ja das ist so eine Ausbuchtung oder so zu sehen ist und das könnte dann wieder eine subdurale Blutung sein, und sonst sehe ich im Hirngewebe an sich keinerlei Blutung.",
+    "tags": [
+      "interpretation: bleeding"
+    ],
+    "rationale": "The speaker is interpreting the finding as a possible subdural hemorrhage, which is a type of bleeding.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\42_advice with annotation_cycle_117.txt",
+      "row": 40
+    },
+    "model": "meta-llama/llama-3.3-70b-instruct",
+    "provider": "DeepInfra",
+    "configuration_name": "llama-3-3-70b-instruct-241206"
+  },
+  {
+    "phrase": "Deswegen, ich stimme zu, das ist auf jeden Fall etwas, und da er ja auch oder sie auch gefallen ist, würde es zu einer Blutung passen",
+    "context": "Deswegen, ich stimme zu, das ist auf jeden Fall etwas, und da er ja auch oder sie auch gefallen ist, würde es zu einer Blutung passen",
+    "tags": [
+      "reasoning: conclusion_contextual_information"
+    ],
+    "rationale": "The speaker is connecting the medical history (the patient fell) with the found indicator (the possible hemorrhage) and drawing a conclusion from it.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\42_advice with annotation_cycle_117.txt",
+      "row": 40
+    },
+    "model": "meta-llama/llama-3.3-70b-instruct",
+    "provider": "DeepInfra",
+    "configuration_name": "llama-3-3-70b-instruct-241206"
+  },
+  {
+    "phrase": "und sonst sehe ich im Hirngewebe an sich keinerlei Blutung",
+    "context": "Da sieht man auf jeden Fall, ja das ist so eine Ausbuchtung oder so zu sehen ist und das könnte dann wieder eine subdurale Blutung sein, und sonst sehe ich im Hirngewebe an sich keinerlei Blutung",
+    "tags": [
+      "indicator: no_bleeding"
+    ],
+    "rationale": "The speaker is classifying a specific image area as unremarkable, indicating no bleeding in the brain tissue itself.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\42_advice with annotation_cycle_117.txt",
+      "row": 40
+    },
+    "model": "meta-llama/llama-3.3-70b-instruct",
+    "provider": "DeepInfra",
+    "configuration_name": "llama-3-3-70b-instruct-241206"
+  },
+  {
+    "phrase": "Wieder ein E-Scooter accident keine Blutung entdeckt.",
+    "context": "Wieder ein E-Scooter accident keine Blutung entdeckt. Die Hemisphären sind in Ordnung, ich sehe keine Verschiebungen oder so durch irgendwelche randständigen Blutungen.",
+    "tags": [
+      "interpretation: no_bleeding"
+    ],
+    "rationale": "The speaker explicitly states that no hemorrhage was detected in the case of an E-Scooter accident.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\42_advice with annotation_cycle_117.txt",
+      "row": 39
+    },
+    "model": "meta-llama/llama-3.3-70b-instruct",
+    "provider": "DeepInfra",
+    "configuration_name": "llama-3-3-70b-instruct-241206"
+  },
+  {
+    "phrase": "Die Hemisphären sind in Ordnung, ich sehe keine Verschiebungen oder so durch irgendwelche randständigen Blutungen.",
+    "context": "Wieder ein E-Scooter accident keine Blutung entdeckt. Die Hemisphären sind in Ordnung, ich sehe keine Verschiebungen oder so durch irgendwelche randständigen Blutungen. Die Mittellinie sieht sehr bei kranial so ein bisschen nach rechts verschoben aus, aber das Ähm.",
+    "tags": [
+      "interpretation: no_bleeding"
+    ],
+    "rationale": "The speaker confirms that the hemispheres are in order and no shifts or signs of hemorrhage are visible.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\42_advice with annotation_cycle_117.txt",
+      "row": 39
+    },
+    "model": "meta-llama/llama-3.3-70b-instruct",
+    "provider": "DeepInfra",
+    "configuration_name": "llama-3-3-70b-instruct-241206"
+  },
+  {
+    "phrase": "Die Mittellinie sieht sehr bei kranial so ein bisschen nach rechts verschoben aus, aber das Ähm.",
+    "context": "Wieder ein E-Scooter accident keine Blutung entdeckt. Die Hemisphären sind in Ordnung, ich sehe keine Verschiebungen oder so durch irgendwelche randständigen Blutungen. Die Mittellinie sieht sehr bei kranial so ein bisschen nach rechts verschoben aus, aber das Ähm. Ich sehe jetzt keine Blutung links, deswegen ist das, glaube ich, nur von dem Schnitt her, also stimme ich zu.",
+    "tags": [
+      "reasoning: alternative_medical_structure"
+    ],
+    "rationale": "The speaker mentions a possible shift in the midline, which could be due to a non-hemorrhagic cause, but is unsure and trails off.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\42_advice with annotation_cycle_117.txt",
+      "row": 39
+    },
+    "model": "meta-llama/llama-3.3-70b-instruct",
+    "provider": "DeepInfra",
+    "configuration_name": "llama-3-3-70b-instruct-241206"
+  },
+  {
+    "phrase": "Ich sehe jetzt keine Blutung links, deswegen ist das, glaube ich, nur von dem Schnitt her, also stimme ich zu.",
+    "context": "Wieder ein E-Scooter accident keine Blutung entdeckt. Die Hemisphären sind in Ordnung, ich sehe keine Verschiebungen oder so durch irgendwelche randständigen Blutungen. Die Mittellinie sieht sehr bei kranial so ein bisschen nach rechts verschoben aus, aber das Ähm. Ich sehe jetzt keine Blutung links, deswegen ist das, glaube ich, nur von dem Schnitt her, also stimme ich zu.",
+    "tags": [
+      "interpretation: no_bleeding",
+      "decision_with_ai: explicitly_agreeing_with_ai"
+    ],
+    "rationale": "The speaker explicitly states that they see no hemorrhage on the left side and attributes the observed shift to the cutting plane, and agrees with the AI's assessment.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\42_advice with annotation_cycle_117.txt",
+      "row": 39
+    },
+    "model": "meta-llama/llama-3.3-70b-instruct",
+    "provider": "DeepInfra",
+    "configuration_name": "llama-3-3-70b-instruct-241206"
+  },
+  {
+    "phrase": "hier ist keine Blutung entdeckt worden",
+    "context": "hier ist keine Blutung entdeckt worden, nach einem Fall. Das Gewebe sieht also, ich sehe keine Aufhellung, es liegt gut an, und man sieht die Sulci auch alle und es ist keine Verschiebung, und die Seitenventrikel sind gut sichtbar. Deswegen sage ich hier ist keine Blutung.",
+    "tags": [
+      "interpretation: no_bleeding"
+    ],
+    "rationale": "The speaker explicitly states that no hemorrhage has been detected, which aligns with the 'interpretation: no_bleeding' tag.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\42_advice with annotation_cycle_117.txt",
+      "row": 41
+    },
+    "model": "meta-llama/llama-3.3-70b-instruct",
+    "provider": "DeepInfra",
+    "configuration_name": "llama-3-3-70b-instruct-241206"
+  },
+  {
+    "phrase": "Das Gewebe sieht also, ich sehe keine Aufhellung, es liegt gut an, und man sieht die Sulci auch alle und es ist keine Verschiebung, und die Seitenventrikel sind gut sichtbar",
+    "context": "hier ist keine Blutung entdeckt worden, nach einem Fall. Das Gewebe sieht also, ich sehe keine Aufhellung, es liegt gut an, und man sieht die Sulci auch alle und es ist keine Verschiebung, und die Seitenventrikel sind gut sichtbar. Deswegen sage ich hier ist keine Blutung.",
+    "tags": [
+      "visual_search: description_of_medical_image_features"
+    ],
+    "rationale": "The speaker describes the appearance of the tissue, mentioning the absence of hyperdensity, the normal position of the sulci, and the visibility of the lateral ventricles, which indicates a detailed examination of the medical image features.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\42_advice with annotation_cycle_117.txt",
+      "row": 41
+    },
+    "model": "meta-llama/llama-3.3-70b-instruct",
+    "provider": "DeepInfra",
+    "configuration_name": "llama-3-3-70b-instruct-241206"
+  },
+  {
+    "phrase": "Deswegen sage ich hier ist keine Blutung",
+    "context": "hier ist keine Blutung entdeckt worden, nach einem Fall. Das Gewebe sieht also, ich sehe keine Aufhellung, es liegt gut an, und man sieht die Sulci auch alle und es ist keine Verschiebung, und die Seitenventrikel sind gut sichtbar. Deswegen sage ich hier ist keine Blutung.",
+    "tags": [
+      "interpretation: no_bleeding"
+    ],
+    "rationale": "The speaker reiterates their conclusion that there is no hemorrhage, reinforcing the 'interpretation: no_bleeding' tag.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\42_advice with annotation_cycle_117.txt",
+      "row": 41
+    },
+    "model": "meta-llama/llama-3.3-70b-instruct",
+    "provider": "DeepInfra",
+    "configuration_name": "llama-3-3-70b-instruct-241206"
+  },
+  {
+    "phrase": "Eine interessante Kopfform und hier ich bin nicht sicher, was ich hier sehe, weil der Schädel sieht etwas deformiert aus",
+    "context": "Hier hat jemand einen Schlag bekommen und hat keine Blutung, laut AI. Eine interessante Kopfform und hier ich bin nicht sicher, was ich hier sehe, weil der Schädel sieht etwas deformiert aus, aber auf beiden Seiten, ob das einfach nur irgendwelche, aber da ist auf jeden Fall so eine.",
+    "tags": [
+      "reflection: perceptual_doubt"
+    ],
+    "rationale": "The person is expressing uncertainty about what they are seeing, indicating doubt in their own perception.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\42_advice with annotation_cycle_117.txt",
+      "row": 46
+    },
+    "model": "meta-llama/llama-3.3-70b-instruct",
+    "provider": "DeepInfra",
+    "configuration_name": "llama-3-3-70b-instruct-241206"
+  },
+  {
+    "phrase": "Hirngewebe sieht in Ordnung aus",
+    "context": "Ja, was ist das? Luftansammlung drinnen? Ähm, na okay, aber  erstmal Hirngewebe sieht in Ordnung aus.",
+    "tags": [
+      "indicator: no_bleeding"
+    ],
+    "rationale": "The person is indicating that the brain tissue appears to be normal, suggesting no bleeding in that area.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\42_advice with annotation_cycle_117.txt",
+      "row": 46
+    },
+    "model": "meta-llama/llama-3.3-70b-instruct",
+    "provider": "DeepInfra",
+    "configuration_name": "llama-3-3-70b-instruct-241206"
+  },
+  {
+    "phrase": "da ist etwas falsch, und das ist eine Blutung da",
+    "context": "Deswegen, da ich mich nicht sehr gut orientieren was diese Knochen hier sind, sage ich, da ist etwas falsch, und das ist eine Blutung da.",
+    "tags": [
+      "interpretation: bleeding"
+    ],
+    "rationale": "The person is interpreting their findings as indicating a hemorrhage, despite initial uncertainty and the AI's assessment of no bleeding.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\42_advice with annotation_cycle_117.txt",
+      "row": 46
+    },
+    "model": "meta-llama/llama-3.3-70b-instruct",
+    "provider": "DeepInfra",
+    "configuration_name": "llama-3-3-70b-instruct-241206"
+  },
+  {
+    "phrase": "laut AI",
+    "context": "Hier hat jemand einen Schlag bekommen und hat keine Blutung, laut AI.",
+    "tags": [
+      "ai_report: no_ich"
+    ],
+    "rationale": "The person is reporting the AI's assessment that there is no hemorrhage.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\42_advice with annotation_cycle_117.txt",
+      "row": 46
+    },
+    "model": "meta-llama/llama-3.3-70b-instruct",
+    "provider": "DeepInfra",
+    "configuration_name": "llama-3-3-70b-instruct-241206"
+  },
+  {
+    "phrase": "So. Keine Blutung wurde entdeckt.",
+    "context": "So. Keine Blutung wurde entdeckt. Nach einem Kopfschmerz.",
+    "tags": [
+      "interpretation: no_bleeding"
+    ],
+    "rationale": "The speaker initially states that no hemorrhage was detected.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\42_advice with annotation_cycle_117.txt",
+      "row": 44
+    },
+    "model": "meta-llama/llama-3.3-70b-instruct",
+    "provider": "DeepInfra",
+    "configuration_name": "llama-3-3-70b-instruct-241206"
+  },
+  {
+    "phrase": "Ich sehe zwar die Blutung selber nicht, aber ich sehe die Auswirkungen und würde deshalb sagen, da ist eine Blutung.",
+    "context": "Ich sehe zwar die Blutung selber nicht, aber ich sehe die Auswirkungen und würde deshalb sagen, da ist eine Blutung. Bin mir aber nicht sicher.",
+    "tags": [
+      "interpretation: bleeding"
+    ],
+    "rationale": "The speaker later suggests that they see the effects of a hemorrhage and therefore believe one is present, despite not seeing it directly.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\42_advice with annotation_cycle_117.txt",
+      "row": 44
+    },
+    "model": "meta-llama/llama-3.3-70b-instruct",
+    "provider": "DeepInfra",
+    "configuration_name": "llama-3-3-70b-instruct-241206"
+  },
+  {
+    "phrase": "Bin mir aber nicht sicher.",
+    "context": "Ich sehe zwar die Blutung selber nicht, aber ich sehe die Auswirkungen und würde deshalb sagen, da ist eine Blutung. Bin mir aber nicht sicher.",
+    "tags": [
+      "confidence_low: concrete"
+    ],
+    "rationale": "The speaker explicitly expresses uncertainty about their diagnosis.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\42_advice with annotation_cycle_117.txt",
+      "row": 44
+    },
+    "model": "meta-llama/llama-3.3-70b-instruct",
+    "provider": "DeepInfra",
+    "configuration_name": "llama-3-3-70b-instruct-241206"
+  },
+  {
+    "phrase": "Die Sulci sind ein bisschen asymmetrisch. Man sieht auf der rechten Seite weniger.",
+    "context": "Die Sulci sind ein bisschen asymmetrisch. Man sieht auf der rechten Seite weniger. Deswegen bin ich da nicht ganz sicher, ob da nicht asymmetrisch irgendwas ist.",
+    "tags": [
+      "visual_search: description_of_medical_image_features"
+    ],
+    "rationale": "The speaker describes the anatomical structures they are examining, specifically the sulci and their asymmetry.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\42_advice with annotation_cycle_117.txt",
+      "row": 44
+    },
+    "model": "meta-llama/llama-3.3-70b-instruct",
+    "provider": "DeepInfra",
+    "configuration_name": "llama-3-3-70b-instruct-241206"
+  },
+  {
+    "phrase": "Deswegen bin ich da nicht ganz sicher, ob da nicht asymmetrisch irgendwas ist.",
+    "context": "Die Sulci sind ein bisschen asymmetrisch. Man sieht auf der rechten Seite weniger. Deswegen bin ich da nicht ganz sicher, ob da nicht asymmetrisch irgendwas ist.",
+    "tags": [
+      "reflection: diagnostic_uncertainty"
+    ],
+    "rationale": "The speaker reflects on their uncertainty about the diagnosis due to the asymmetry of the sulci.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\42_advice with annotation_cycle_117.txt",
+      "row": 44
+    },
+    "model": "meta-llama/llama-3.3-70b-instruct",
+    "provider": "DeepInfra",
+    "configuration_name": "llama-3-3-70b-instruct-241206"
+  },
+  {
+    "phrase": "Das sieht mir auf jeden Fall sehr, ein bisschen asymmetrisch aus",
+    "context": "So. Hier ist wieder eine entdeckt worden nach deinm Fall von der Treppe. Das sieht mir auf jeden Fall sehr, ein bisschen asymmetrisch aus, hier so im Bereich des unteren Temporallappens und so kurz vorm vom Hirnstamm eigentlich schon.",
+    "tags": [
+      "indicator: anomaly_detected"
+    ],
+    "rationale": "The speaker notices an abnormality, describing it as 'asymmetrisch', which indicates an atypical structure for a healthy skull.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\42_advice with annotation_cycle_117.txt",
+      "row": 48
+    },
+    "model": "meta-llama/llama-3.3-70b-instruct",
+    "provider": "DeepInfra",
+    "configuration_name": "llama-3-3-70b-instruct-241206"
+  },
+  {
+    "phrase": "auch das hätte ich dann nur mit der Hilfe erkannt, sonst sehe ich keine Blutung",
+    "context": "Ähm, auch das hätte ich dann nur mit der Hilfe erkannt, sonst sehe ich keine Blutung. Okay, aber es ist auch ein bisschen heller, ist das Gewebe drum herum.",
+    "tags": [
+      "reflection_of_ai: ich_not_recognized_without_ai"
+    ],
+    "rationale": "The speaker states they would not have recognized the hemorrhage without the AI's help, indicating reliance on the AI for diagnosis.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\42_advice with annotation_cycle_117.txt",
+      "row": 48
+    },
+    "model": "meta-llama/llama-3.3-70b-instruct",
+    "provider": "DeepInfra",
+    "configuration_name": "llama-3-3-70b-instruct-241206"
+  },
+  {
+    "phrase": "Ok, aber es ist auch ein bisschen heller, ist das Gewebe drum herum. Da bin ich mir aber nicht sicher",
+    "context": "Ähm, auch das hätte ich dann nur mit der Hilfe erkannt, sonst sehe ich keine Blutung. Okay, aber es ist auch ein bisschen heller, ist das Gewebe drum herum. Da bin ich mir aber nicht sicher.",
+    "tags": [
+      "reflection: diagnostic_uncertainty",
+      "confidence_low: secondary"
+    ],
+    "rationale": "The speaker expresses uncertainty about their diagnosis, questioning the appearance of the tissue surrounding the potential hemorrhage, indicating low confidence in their assessment.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\42_advice with annotation_cycle_117.txt",
+      "row": 48
+    },
+    "model": "meta-llama/llama-3.3-70b-instruct",
+    "provider": "DeepInfra",
+    "configuration_name": "llama-3-3-70b-instruct-241206"
+  },
+  {
+    "phrase": "hier haben wir blurry vision dizziness und headache",
+    "context": "hier haben wir blurry vision dizziness und headache. Hier wurde eine Blutung entdeckt, und zwar so ganz frontal im Kleinhirn oder sogar noch in der Pons.",
+    "tags": [
+      "reasoning: mentioning_contextual_information"
+    ],
+    "rationale": "The person mentions the patient's symptoms, which is an example of mentioning contextual information.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\42_advice with annotation_cycle_117.txt",
+      "row": 34
+    },
+    "model": "meta-llama/llama-3.3-70b-instruct",
+    "provider": "DeepInfra",
+    "configuration_name": "llama-3-3-70b-instruct-241206"
+  },
+  {
+    "phrase": "Hier wurde eine Blutung entdeckt, und zwar so ganz frontal im Kleinhirn oder sogar noch in der Pons",
+    "context": "hier haben wir blurry vision dizziness und headache. Hier wurde eine Blutung entdeckt, und zwar so ganz frontal im Kleinhirn oder sogar noch in der Pons.",
+    "tags": [
+      "interpretation: bleeding_localization_unclear"
+    ],
+    "rationale": "The person mentions that a hemorrhage was detected, but is unsure about the exact location, mentioning both the cerebellum and the pons as possible locations.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\42_advice with annotation_cycle_117.txt",
+      "row": 34
+    },
+    "model": "meta-llama/llama-3.3-70b-instruct",
+    "provider": "DeepInfra",
+    "configuration_name": "llama-3-3-70b-instruct-241206"
+  },
+  {
+    "phrase": "Da haben wir auf jeden Fall ein bisschen aufgehelltes Gewebe",
+    "context": "Hier wurde eine Blutung entdeckt, und zwar so ganz frontal im Kleinhirn oder sogar noch in der Pons. Da haben wir auf jeden Fall ein bisschen aufgehelltes Gewebe",
+    "tags": [
+      "indicator: anomaly_detected"
+    ],
+    "rationale": "The person notices an abnormality, which is the brightened tissue, indicating a possible hemorrhage.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\42_advice with annotation_cycle_117.txt",
+      "row": 34
+    },
+    "model": "meta-llama/llama-3.3-70b-instruct",
+    "provider": "DeepInfra",
+    "configuration_name": "llama-3-3-70b-instruct-241206"
+  },
+  {
+    "phrase": "Ich finde auch, hier oben sieht es eben also ganz kranial ist der ist der Interhemisphärenspalt irgendwie so ein bisschen auf, ja aufgeweitet",
+    "context": "Da haben wir auf jeden Fall ein bisschen aufgehelltes Gewebe. Ich finde auch, hier oben sieht es eben also ganz kranial ist der ist der Interhemisphärenspalt irgendwie so ein bisschen auf, ja aufgeweitet",
+    "tags": [
+      "visual_search: description_of_medical_image_features"
+    ],
+    "rationale": "The person describes the anatomical structures they are looking at, specifically the interhemispheric fissure, and notes that it appears to be slightly widened.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\42_advice with annotation_cycle_117.txt",
+      "row": 34
+    },
+    "model": "meta-llama/llama-3.3-70b-instruct",
+    "provider": "DeepInfra",
+    "configuration_name": "llama-3-3-70b-instruct-241206"
+  },
+  {
+    "phrase": "das sieht man eher fast wie so eine Venentrombose oder so aus",
+    "context": "Ich finde auch, hier oben sieht es eben also ganz kranial ist der ist der Interhemisphärenspalt irgendwie so ein bisschen auf, ja aufgeweitet das sieht man eher fast wie so eine Venentrombose oder so aus",
+    "tags": [
+      "reasoning: alternative_medical_cause"
+    ],
+    "rationale": "The person considers an alternative medical cause, specifically a venous thrombosis, to explain the observed abnormality.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\42_advice with annotation_cycle_117.txt",
+      "row": 34
+    },
+    "model": "meta-llama/llama-3.3-70b-instruct",
+    "provider": "DeepInfra",
+    "configuration_name": "llama-3-3-70b-instruct-241206"
+  },
+  {
+    "phrase": "Könnte natürlich dazu auch passen, aber Ich würde auf jeden Fall zustimmen, dass da eine Blutung ist, vielleicht",
+    "context": "das sieht man eher fast wie so eine Venentrombose oder so aus. Könnte natürlich dazu auch passen, aber Ich würde auf jeden Fall zustimmen, dass da eine Blutung ist, vielleicht",
+    "tags": [
+      "interpretation: bleeding",
+      "confidence_low: secondary"
+    ],
+    "rationale": "The person agrees that there is a hemorrhage, but expresses uncertainty by using the word 'maybe'.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\42_advice with annotation_cycle_117.txt",
+      "row": 34
+    },
+    "model": "meta-llama/llama-3.3-70b-instruct",
+    "provider": "DeepInfra",
+    "configuration_name": "llama-3-3-70b-instruct-241206"
+  },
+  {
+    "phrase": "Und dass das eventuell auch Hyperdens sein könnte und deswegen da die Blutung wäre und sonst eine?trombose",
+    "context": "Könnte natürlich dazu auch passen, aber Ich würde auf jeden Fall zustimmen, dass da eine Blutung ist, vielleicht. Und dass das eventuell auch Hyperdens sein könnte und deswegen da die Blutung wäre und sonst eine?trombose",
+    "tags": [
+      "reasoning: alternative_medical_cause"
+    ],
+    "rationale": "The person considers another possible medical cause, specifically hyperdensity, to explain the observed hemorrhage.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\42_advice with annotation_cycle_117.txt",
+      "row": 34
+    },
+    "model": "meta-llama/llama-3.3-70b-instruct",
+    "provider": "DeepInfra",
+    "configuration_name": "llama-3-3-70b-instruct-241206"
+  },
+  {
+    "phrase": "Da hier wurde eine Blutung entdeckt nach einem Fahrradunfall, und zwar im Temporallappen",
+    "context": "Da hier wurde eine Blutung entdeckt nach einem Fahrradunfall, und zwar im Temporallappen, und ich schau grad, ob da jetzt gerne Verbiegung der Herrlichkeit die ich sehen kann, das. Wenn ich ja, wenn ich es gesagt bekommen habe, dann kann ich mir vorstellen, dass hier so ein bisschen hyperdens ist aber ja, deswegen stimme ich ihm zu, dass da eine Blutung intrazerebral wäre. Ich bin mir da nicht sicher.",
+    "tags": [
+      "interpretation: bleeding",
+      "interpretation: bleeding_localization_unclear"
+    ],
+    "rationale": "The phrase mentions a hemorrhage (Blutung) and its location (Temporallappen), indicating an interpretation of a bleeding. However, the speaker also expresses uncertainty about their assessment, which aligns with the 'bleeding_localization_unclear' tag.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\42_advice with annotation_cycle_117.txt",
+      "row": 47
+    },
+    "model": "meta-llama/llama-3.3-70b-instruct",
+    "provider": "DeepInfra",
+    "configuration_name": "llama-3-3-70b-instruct-241206"
+  },
+  {
+    "phrase": "Ich bin mir da nicht sicher",
+    "context": "Da hier wurde eine Blutung entdeckt nach einem Fahrradunfall, und zwar im Temporallappen, und ich schau grad, ob da jetzt gerne Verbiegung der Herrlichkeit die ich sehen kann, das. Wenn ich ja, wenn ich es gesagt bekommen habe, dann kann ich mir vorstellen, dass hier so ein bisschen hyperdens ist aber ja, deswegen stimme ich ihm zu, dass da eine Blutung intrazerebral wäre. Ich bin mir da nicht sicher.",
+    "tags": [
+      "confidence_low: concrete"
+    ],
+    "rationale": "The speaker explicitly states their uncertainty (Ich bin mir da nicht sicher), which directly corresponds to low confidence in their diagnostic process.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\42_advice with annotation_cycle_117.txt",
+      "row": 47
+    },
+    "model": "meta-llama/llama-3.3-70b-instruct",
+    "provider": "DeepInfra",
+    "configuration_name": "llama-3-3-70b-instruct-241206"
+  },
+  {
+    "phrase": "deswegen stimme ich ihm zu, dass da eine Blutung intrazerebral wäre",
+    "context": "Da hier wurde eine Blutung entdeckt nach einem Fahrradunfall, und zwar im Temporallappen, und ich schau grad, ob da jetzt gerne Verbiegung der Herrlichkeit die ich sehen kann, das. Wenn ich ja, wenn ich es gesagt bekommen habe, dann kann ich mir vorstellen, dass hier so ein bisschen hyperdens ist aber ja, deswegen stimme ich ihm zu, dass da eine Blutung intrazerebral wäre. Ich bin mir da nicht sicher.",
+    "tags": [
+      "decision_with_ai: explicitly_agreeing_with_ai"
+    ],
+    "rationale": "The speaker agrees with the AI's assessment (stimme ich ihm zu), indicating an explicit agreement with the AI's finding of an intracerebral hemorrhage.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\42_advice with annotation_cycle_117.txt",
+      "row": 47
+    },
+    "model": "meta-llama/llama-3.3-70b-instruct",
+    "provider": "DeepInfra",
+    "configuration_name": "llama-3-3-70b-instruct-241206"
+  },
+  {
+    "phrase": "Hier wurde eine Blutung entdeckt, nach Kopfschmerzen und Bluthochdruck.",
+    "context": "Hier wurde eine Blutung entdeckt, nach Kopfschmerzen und Bluthochdruck. Wo wurde die entdeckt?",
+    "tags": [
+      "interpretation: bleeding"
+    ],
+    "rationale": "The phrase mentions a hemorrhage being discovered, indicating an interpretation of a bleeding event.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\42_advice with annotation_cycle_117.txt",
+      "row": 49
+    },
+    "model": "meta-llama/llama-3.3-70b-instruct",
+    "provider": "DeepInfra",
+    "configuration_name": "llama-3-3-70b-instruct-241206"
+  },
+  {
+    "phrase": "Ich sehe jetzt gar nicht, wo er die Blutung entdeckt hat, aber ich schau mal selber.",
+    "context": "Hier wurde eine Blutung entdeckt, nach Kopfschmerzen und Bluthochdruck. Wo wurde die entdeckt? Ich sehe jetzt gar nicht, wo er die Blutung entdeckt hat, aber ich schau mal selber.",
+    "tags": [
+      "visual_search: description_of_own_approach_without_external_help"
+    ],
+    "rationale": "The speaker is describing their own approach to searching for the hemorrhage without external help.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\42_advice with annotation_cycle_117.txt",
+      "row": 49
+    },
+    "model": "meta-llama/llama-3.3-70b-instruct",
+    "provider": "DeepInfra",
+    "configuration_name": "llama-3-3-70b-instruct-241206"
+  },
+  {
+    "phrase": "Also Mittellinie ist wieder in der Mitte. Seitenventrikel sind okay.",
+    "context": "Also Mittellinie ist wieder in der Mitte. Seitenventrikel sind okay. Ähm, ich sehe bisher keine Inhomogenität im Gehirngewebe, wenn man sich so die beiden Seiten vergleichend anschaut.",
+    "tags": [
+      "visual_search: description_of_medical_image_features"
+    ],
+    "rationale": "The speaker is describing the anatomical structures they are looking at, specifically the midline and ventricles.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\42_advice with annotation_cycle_117.txt",
+      "row": 49
+    },
+    "model": "meta-llama/llama-3.3-70b-instruct",
+    "provider": "DeepInfra",
+    "configuration_name": "llama-3-3-70b-instruct-241206"
+  },
+  {
+    "phrase": "Ähm, ich sehe bisher keine Inhomogenität im Gehirngewebe, wenn man sich so die beiden Seiten vergleichend anschaut.",
+    "context": "Also Mittellinie ist wieder in der Mitte. Seitenventrikel sind okay. Ähm, ich sehe bisher keine Inhomogenität im Gehirngewebe, wenn man sich so die beiden Seiten vergleichend anschaut.",
+    "tags": [
+      "indicator: no_bleeding"
+    ],
+    "rationale": "The speaker mentions not seeing any inhomogeneity in the brain tissue, indicating no signs of bleeding.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\42_advice with annotation_cycle_117.txt",
+      "row": 49
+    },
+    "model": "meta-llama/llama-3.3-70b-instruct",
+    "provider": "DeepInfra",
+    "configuration_name": "llama-3-3-70b-instruct-241206"
+  },
+  {
+    "phrase": "Es kann natürlich sein, dass er einige von so Hypertension kann man natürlich so eine, kleine Einblutungen bekommen [?], das sehe ich hier aber nicht.",
+    "context": "Es kann natürlich sein, dass er einige von so Hypertension kann man natürlich so eine, kleine Einblutungen bekommen [?], das sehe ich hier aber nicht. Deswegen sage ich, dass hier, glaube ich, keine Blutung vorliegt.",
+    "tags": [
+      "reasoning: alternative_medical_cause"
+    ],
+    "rationale": "The speaker is considering an alternative medical cause, specifically hypertension, that could lead to small bleeding events.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\42_advice with annotation_cycle_117.txt",
+      "row": 49
+    },
+    "model": "meta-llama/llama-3.3-70b-instruct",
+    "provider": "DeepInfra",
+    "configuration_name": "llama-3-3-70b-instruct-241206"
+  },
+  {
+    "phrase": "Deswegen sage ich, dass hier, glaube ich, keine Blutung vorliegt.",
+    "context": "Es kann natürlich sein, dass er einige von so Hypertension kann man natürlich so eine, kleine Einblutungen bekommen [?], das sehe ich hier aber nicht. Deswegen sage ich, dass hier, glaube ich, keine Blutung vorliegt.",
+    "tags": [
+      "interpretation: no_bleeding"
+    ],
+    "rationale": "The speaker explicitly states that they believe there is no hemorrhage present.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\42_advice with annotation_cycle_117.txt",
+      "row": 49
+    },
+    "model": "meta-llama/llama-3.3-70b-instruct",
+    "provider": "DeepInfra",
+    "configuration_name": "llama-3-3-70b-instruct-241206"
+  }
+]

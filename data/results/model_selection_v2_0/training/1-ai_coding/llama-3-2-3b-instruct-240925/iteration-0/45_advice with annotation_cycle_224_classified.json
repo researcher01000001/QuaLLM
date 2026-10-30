@@ -1,0 +1,1194 @@
+[
+  {
+    "error": "JSONDecodeError",
+    "message": "Expecting ':' delimiter: line 6 column 40 (char 222)",
+    "raw_output": "{\n  \"classifications\": [\n    {\n      \"phrase\": \"Das kann für mich sehr gut eine Blutung sein.\",\n      \"context\": \"Ähm, da würde ich sagen, ja. Und da bin ich mir auch recht sicher,\",\n      \"tags: [interpretation: bleeding\", \"confidence_high: secondary\"],\n      \"rationale\": \"Der Sprecher vertraut auf seine eigene Einschätzung und gibt der Möglichkeit, dass es sich um eine Blutung handelt, eine hohe Sicherheit zuweisen.\"\n    }\n  ]\n}",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\45_advice with annotation_cycle_224.txt",
+      "row": 2
+    },
+    "model": "meta-llama/llama-3.2-3b-instruct",
+    "provider": "Cloudflare",
+    "configuration_name": "llama-3-2-3b-instruct-240925"
+  },
+  {
+    "error": "JSONDecodeError",
+    "message": "Expecting ':' delimiter: line 6 column 40 (char 392)",
+    "raw_output": "{\n  \"classifications\": [\n    {\n      \"phrase\": \"Ich wäre mir jetzt nicht zu 100% sicher, dass es wirklich eine Blutung ist oder ob das vielleicht auch eine andere Veränderung im Hirn sein kann.\",\n      \"context\": \"Ich würde es aber auf jeden Fall erst mal auch als Blutung einstufen, könnte aber für mich auch eine andere Erkrankung des Gehirns sein.\",\n      \"tags: [interpretation: bleeding\", \"reflection: diagnostic_uncertainty\"],\n      \"rationale\": \"Der Sprecher ist unsicher, ob die Beobachtung eine Blutung oder eine andere Veränderung im Gehirn ist, aber entscheidet sich für eine Einstufung als Blutung.\"\n    }\n  ]\n}",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\45_advice with annotation_cycle_224.txt",
+      "row": 3
+    },
+    "model": "meta-llama/llama-3.2-3b-instruct",
+    "provider": "Cloudflare",
+    "configuration_name": "llama-3-2-3b-instruct-240925"
+  },
+  {
+    "phrase": "gibt's keine Blutung",
+    "context": "Das sieht soweit für mich homogen aus, soweit alles symmetrisch. Ich sehe auch gut die Seitenventrikel. Ich finde, dass das Bild ein bisschen wenig kontrastreich ist, gerade, aber ich kann da alle Strukturen gut erkennen und hab da nichts Auffälliges gesehen. Und ja auf dem Bild genauso, da würde ich sagen, gibt's keine Blutung, ähm, ich bin mir sicher und die AI hat mich da unterstützt.",
+    "tags": [
+      "ai_report: no_ich",
+      "interpretation: no_bleeding"
+    ],
+    "rationale": "Der Sprecher verneint die Existenz einer Blutung und ist sich sicher, nachdem die AI ihn unterstützt hat.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\45_advice with annotation_cycle_224.txt",
+      "row": 8
+    },
+    "model": "meta-llama/llama-3.2-3b-instruct",
+    "provider": "Cloudflare",
+    "configuration_name": "llama-3-2-3b-instruct-240925"
+  },
+  {
+    "error": "JSONDecodeError",
+    "message": "Expecting ':' delimiter: line 4 column 55 (char 85)",
+    "raw_output": "{\n  \"classifications\": [\n    {\n      \"phrase: Das könnte für mich eine Blutung sein.\",\n      \"context\": \"linken Seite im Gehirn. Das könnte für mich eine Blutung sein. Ja. Genau.\",\n      \"tags: [interpretation: bleeding\"],\n      \"rationale\": \"Der VPN sagt, dass er eine Blutung vermutet, und der Experner bestätigt dies.\"\n    },\n    {\n      \"phrase\": \"Ich bin mir damit sehr sicher, und die KI auch, das passt.\",\n      \"context\": \"Ich gehe auf dem anderen Bild auch weiter. Da sehe ich das auch genau. Da würde ich jetzt hier vor dem Frontallappen auch eine Blutung erkennen.\",\n      \"tags: [interpretation: bleeding\", \"confidence_high: concrete\"],\n      \"rationale\": \"Der VPN ist sehr sicher in seiner Diagnose und der Experner bestätigt dies.\"\n    },\n    {\n      \"phrase\": \"Das Blöde musst du einzeln durchgehen.\",\n      \"context\": \"Okay, ja, das Blöde musst du einzeln durchgehen.\",\n      \"tags\": [\"control: make_own_judgement\"],\n      \"rationale\": \"Der Experner sagt, dass der VPN alle Bilder einzeln durchgehen muss.\"\n    }\n  ]\n}",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\45_advice with annotation_cycle_224.txt",
+      "row": 0
+    },
+    "model": "meta-llama/llama-3.2-3b-instruct",
+    "provider": "Cloudflare",
+    "configuration_name": "llama-3-2-3b-instruct-240925"
+  },
+  {
+    "error": "JSONDecodeError",
+    "message": "Expecting ':' delimiter: line 6 column 40 (char 363)",
+    "raw_output": "{\n  \"classifications\": [\n    {\n      \"phrase\": \"Das könnte eine supakute Blutung sein.\",\n      \"context\": \"Ich finde, dass es hier jetzt noch ein bisschen ausgeprägter ist als davor, deswegen da würde ich jetzt sagen, das stimmt, das könnte supakute Blutung sein, die hätte ich aber wahrscheinlich ohne AI nicht gefunden.\",\n      \"tags: [interpretation: bleeding\", \"confidence_high: increased_through_ai\"],\n      \"rationale\": \"Der Sprecher interpretiert das gefundenen Anzeichen als eine supakute Blutung und gibt zu, dass er ohne die Hilfe des AI-Tools wahrscheinlich nicht auf diese Entdeckung gekommen wäre.\"\n    },\n    {\n      \"phrase\": \"Ich bin mir aber auch nicht ganz sicher mit der Entscheidung.\",\n      \"context\": \"Ich finde, dass es hier jetzt noch ein bisschen ausgeprägter ist als davor, deswegen da würde ich jetzt sagen, das stimmt, das könnte supakute Blutung sein, die hätte ich aber wahrscheinlich ohne AI nicht gefunden.\",\n  tags: [\"reflection: diagnostic_uncertainty\"],\n      \"rationale\": \"Der Sprecher zeigt Unsicherheit bei seiner Entscheidung und gibt zu, dass er nicht sicher ist, ob es sich um eine supakute Blutung handelt.\"\n    }\n  ]\n}",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\45_advice with annotation_cycle_224.txt",
+      "row": 7
+    },
+    "model": "meta-llama/llama-3.2-3b-instruct",
+    "provider": "Cloudflare",
+    "configuration_name": "llama-3-2-3b-instruct-240925"
+  },
+  {
+    "error": "JSONDecodeError",
+    "message": "Expecting ':' delimiter: line 16 column 55 (char 1423)",
+    "raw_output": "{\n  \"classifications\": [\n    {\n      \"phrase\": \"Es kann halt auch sein, dass es wieder irgendwie dieser Anbieter von diesem Tool wieder irgendein unerfindliches Update und deswegen das Tool Offline ist.\",\n      \"context\": \"Es kann halt auch sein, dass es wieder irgendwie dieser Anbieter von diesem Tool wieder irgendein unerfindliches Update und deswegen das Tool Offline ist. VPN: Weil ich bin jetzt gerade in Safari, das ja eigentlich letztes mal funktionieren.\",\n      \"tags\": [\"control: missing_information\"],\n      \"rationale\": \"Der Sprecher fragt nach dem Grund für das Tool-Offline-Szenario und erwähnt möglicherweise, dass er bereits in Safari ist, was zuvor funktioniert hat.\"\n    },\n    {\n      \"phrase\": \"Es kann halt auch sein, dass es wieder irgendwie dieser Anbieter von diesem Tool wieder irgendein unerfindliches Update und deswegen das Tool Offline ist.\",\n      \"context\": \"Es kann halt auch sein, dass es wieder irgendwie dieser Anbieter von diesem Tool wieder irgendein unerfindliches Update und deswegen das Tool Offline ist. VPN: Weil ich bin jetzt gerade in Safari, das ja eigentlich letztes mal funktionieren.\",\n      \"tags\": [\"control: missing_information\"],\n      \"rationale\": \"Der Sprecher fragt nach dem Grund für das Tool-Offline-Szenario und erwähnt möglicherweise, dass er bereits in Safari ist, was zuvor funktioniert hat.\"\n    },\n    {\n      \"phrase: Das könnte für mich eine Blutung sein.\",\n      \"context\": \"Hm! Soll ich die Seite nochmal neu laden? EXPERIMENTER: Ähm, warte mal ne Sekunde, versuchst ja, du kannst versuchen neu zu laden. Kurz warten. Also, es kann sein, dass man nochmal in Browser wechselt, dass es dann funktioniert. Es kann halt auch sein, dass es wieder irgendwie dieser Anbieter von diesem Tool wieder irgendein unerfindliches Update und deswegen das Tool Offline ist. VPN: Weil ich bin jetzt gerade in Safari, das ja eigentlich letztes mal funktionieren. Mhm. Mhm. Ja, ja, es hat ja auch funktioniert, die ganze gesagt.\",\n      \"tags: [interpretation: bleeding\"],\n      \"rationale\": \"Der Sprecher vermutet, dass die Seite eine Blutung darstellt und erwähnt möglicherweise, dass er bereits in Safari ist, was zuvor funktioniert hat.\"\n    }\n  ]\n}",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\45_advice with annotation_cycle_224.txt",
+      "row": 9
+    },
+    "model": "meta-llama/llama-3.2-3b-instruct",
+    "provider": "Cloudflare",
+    "configuration_name": "llama-3-2-3b-instruct-240925"
+  },
+  {
+    "error": "JSONDecodeError",
+    "message": "Expecting ':' delimiter: line 12 column 43 (char 783)",
+    "raw_output": "{\n  \"classifications\": [\n    {\n      \"phrase\": \"Ich hab das irgendwie rangezoomt ah jetzt ist es wieder nochmal.\",\n      \"context\": \"Ich hab das irgendwie rangezoomt ah jetzt ist es wieder nochmal. Ich dachte hier wieder auch auf die ganzen Leitstrukturen, und das sieht für mich auch sehr gut aus.\",\n      \"tags\": [\"control: make_own_judgement\", \"confidence_high: secondary\"],\n      \"rationale\": \"Der Sprecher entscheidet sich selbst, ob er das Bild noch einmal betrachtet, und zeigt damit, dass er ein gewisses Maß an Selbstvertrauen in seine eigenen Fähigkeiten hat.\"\n    },\n    {\n      \"phrase\": \"Nee, da habe ich auch keine Blutung erkannt.\",\n      \"context\": \"Nee, da habe ich auch keine Blutung erkannt. Und bin mir da sehr sicher.\",\n      \"tags: [interpretation: no_bleeding\", \"confidence_high: concrete\"],\n      \"rationale\": \"Der Sprecher erklärt, dass er keine Blutung erkannt hat, und betont seine Sicherheit in dieser Einschätzung.\"\n    }\n  ]\n}",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\45_advice with annotation_cycle_224.txt",
+      "row": 14
+    },
+    "model": "meta-llama/llama-3.2-3b-instruct",
+    "provider": "Cloudflare",
+    "configuration_name": "llama-3-2-3b-instruct-240925"
+  },
+  {
+    "error": "JSONDecodeError",
+    "message": "Expecting property name enclosed in double quotes: line 6 column 3 (char 255)",
+    "raw_output": "{\n  \"classifications\": [\n    {\n      \"phrase\": \"Ich bin mir da nicht sicher.\",\n      \"context\": \"Ich bin mir da nicht sicher, ob das, was ich sehe, zu dem Gehirn gehört. Ich würde aber erst mal sagen, dass ich das nicht als Blutung einschätzen würde.\",\n  tags: [\"reflection: diagnostic_uncertainty\", \"interpretation: no_bleeding, confidence_low: secondary\"],\n      \"rationale\": \"Der Sprecher ist unsicher, ob das, was er sieht, zu dem Gehirn gehört und schätzt es nicht als Blutung ein. Dies deutet auf eine niedrige Sicherheit in seiner Diagnose hin.\"\n    },\n    {\n      \"phrase\": \"Ich würde das mal wieder auf dem anderen Bild auch so einstellen.\",\n      \"context\": \"Ich würde das mal wieder auf dem anderen Bild auch so einstellen. Mhm. Ja, also, da bin ich mir ziemlich unsicher, ob das, was sein könnte zumal, dass von der Densität her sehr ähnlich ist, zu dem Gehirn.\",\n      \"tags\": [\"control: control_repeat\", \"visual_search: triggered_by_finding\"],\n      \"rationale\": \"Der Sprecher möchte das Bild noch einmal ansehen, um sicherzustellen, dass er das richtige Bild verwendet.\"\n    }\n  ]\n}",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\45_advice with annotation_cycle_224.txt",
+      "row": 4
+    },
+    "model": "meta-llama/llama-3.2-3b-instruct",
+    "provider": "Cloudflare",
+    "configuration_name": "llama-3-2-3b-instruct-240925"
+  },
+  {
+    "error": "JSONDecodeError",
+    "message": "Expecting ':' delimiter: line 6 column 43 (char 339)",
+    "raw_output": "{\n  \"classifications\": [\n    {\n      \"phrase\": \"Hier soll keine Blutung vorhanden sein.\",\n      \"context\": \"Hier soll keine Blutung vorhanden sein. Ich gehe einmal alles durch. Ähm, genau, ich achte wieder auf die Mittellinie, auf die Strukturen, ähm, mögliche Aufhellungen und auf die Knochen.\",\n      \"tags: [interpretation: no_bleeding\"],\n      \"rationale\": \"Der Sprecher bestätigt explizit, dass keine Blutung vorhanden sein soll und dass er keine Anzeichen dafür findet.\"\n    },\n    {\n      \"phrase\": \"Das sieht aber soweit für mich unauffällig aus.\",\n      \"context\": \"Das sieht aber soweit für mich unauffällig aus. Ist gerade ein bisschen schlecht durch die Überlagerung zu sehen, aber das sah soweit gut aus.\",\n      \"tags: [interpretation: bleeding_localization_unclear\"],\n      \"rationale\": \"Der Sprecher beschreibt das Bild als 'unauffällig', aber gibt zu, dass es durch Überlagerung schwer zu sehen ist und daher die Lokalisation der Blutung unklar ist.\"\n    }\n  ]\n}",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\45_advice with annotation_cycle_224.txt",
+      "row": 12
+    },
+    "model": "meta-llama/llama-3.2-3b-instruct",
+    "provider": "Cloudflare",
+    "configuration_name": "llama-3-2-3b-instruct-240925"
+  },
+  {
+    "phrase": "Ich würde sagen, ich sehe da keine Blutung, aber gerade aufgrund der KI fühle ich mich da nicht wirklich sicher in der Entscheidung.",
+    "context": "Ich gehe mal einmal durch, wo das sein soll. Hier an der Seite, wenn ich ja jetzt die gleiche Einstellung auf der anderen Seite nehme also, da erkenne ich jetzt auf den ersten Blick gerade nichts. Ähm, also, da gibt's ein bisschen schwächeres Signal auf der rechten Seite.",
+    "tags": [
+      "interpretation: no_bleeding",
+      "reflection: diagnostic_uncertainty"
+    ],
+    "rationale": "Der Sprecher gibt an, dass er keine Blutung sieht, aber seine Entscheidung ist nicht sicher, da er aufgrund der KI nicht sicher ist.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\45_advice with annotation_cycle_224.txt",
+      "row": 6
+    },
+    "model": "meta-llama/llama-3.2-3b-instruct",
+    "provider": "Parasail",
+    "configuration_name": "llama-3-2-3b-instruct-240925"
+  },
+  {
+    "error": "JSONDecodeError",
+    "message": "Expecting ':' delimiter: line 18 column 61 (char 996)",
+    "raw_output": "{\n  \"classifications\": [\n    {\n      \"phrase\": \"Ich sehe gerade keine auffälligen Strukturen, keine Blutung.\",\n      \"context\": \"Ähm. Ich sehe gerade keine auffälligen Strukturen, keine Blutung. Soweit auf dem anderen Bild sieht das für mich ähnlich aus.\",\n      \"tags\": [\"indicator: no_bleeding\"],\n      \"rationale\": \"Der Sprecher gibt an, keine auffälligen Strukturen oder Blutung zu sehen.\"\n    },\n    {\n      \"phrase\": \"Da würde ich mit der KI übereinstimmen.\",\n      \"context\": \"Da würde ich mit der KI übereinstimmen. Da sehe ich keine Blutung.\",\n      \"tags\": [\"control: relying_on_ai\"],\n      \"rationale\": \"Der Sprecher gibt an, dass er mit der KI übereinstimmen würde, wenn er keine Blutung sieht.\"\n    },\n    {\n      \"phrase\": \"Ich sehe auch wieder schön hier die Ähm Seitenhörner der Ventrikel.\",\n      \"context\": \"Ich sehe auch wieder schön hier die Ähm Seitenhörner der Ventrikel. Da würde ich mit der KI übereinstimmen.\",\n      \"tags: [interpretation: bleeding_localization_unclear\"],\n      \"rationale\": \"Der Sprecher beschreibt die Seitenhörner der Ventrikel, aber gibt keine klare Lokalisation der Blutung.\"\n    }\n  ]\n}",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\45_advice with annotation_cycle_224.txt",
+      "row": 13
+    },
+    "model": "meta-llama/llama-3.2-3b-instruct",
+    "provider": "Cloudflare",
+    "configuration_name": "llama-3-2-3b-instruct-240925"
+  },
+  {
+    "phrase": "Hier gibt es laut KI keine Blutung.",
+    "context": "Hier gibt es laut KI keine Blutung. Ich gehe dann einmal von vorne durch.",
+    "tags": [
+      "ai_report: no_ich"
+    ],
+    "rationale": "Der Sprecher vertraut auf die KI und gibt an, dass sie keine Blutung gefunden hat.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\45_advice with annotation_cycle_224.txt",
+      "row": 5
+    },
+    "model": "meta-llama/llama-3.2-3b-instruct",
+    "provider": "Parasail",
+    "configuration_name": "llama-3-2-3b-instruct-240925"
+  },
+  {
+    "phrase": "Ich bin relativ sicher und hab mich dadurch durch die KI noch mal unterstützt gefühlt.",
+    "context": "Ich bin relativ sicher und hab mich dadurch durch die KI noch mal unterstützt gefühlt.",
+    "tags": [
+      "confidence_high: secondary"
+    ],
+    "rationale": "Der Sprecher ist sich sicher und hat die KI als Unterstützung genutzt.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\45_advice with annotation_cycle_224.txt",
+      "row": 5
+    },
+    "model": "meta-llama/llama-3.2-3b-instruct",
+    "provider": "Parasail",
+    "configuration_name": "llama-3-2-3b-instruct-240925"
+  },
+  {
+    "error": "JSONDecodeError",
+    "message": "Expecting ':' delimiter: line 5 column 313 (char 496)",
+    "raw_output": "{\n  \"classifications\": [\n    {\n      \"phrase\": \"Ich finde vor allem hier auch auffällig, dass eben auf der anderen gegenüberliegenden Seite relativ schwach die Gyri ausgeprägt sind.\",\n      \"context: dann hier. Und dann schaue ich mir wieder zunächst erst mal an, wo da eine Auffälligkeit sein soll. Da, Ich finde vor allem hier auch auffällig, dass eben auf der anderen gegenüberliegenden Seite relativ schwach die Gyri ausgeprägt sind. Schauen wir das noch einmal auf dem anderen Bild auch an.\",\n      \"tags\": [\"control: control_repeat\", \"interpretation: bleeding\"],\n      \"rationale\": \"Der Sprecher wiederholt den gleichen Bereich im Bild und betont die Auffälligkeit der Gyri auf der anderen Seite, was darauf hindeutet, dass er eine Blutung vermutet. Die Verwendung des Begriffs \\\"auffällig\\\" und die Betonung der Gyri als besonders ausgeprägt unterstützen diese Interpretation.\"\n    },\n    {\n      \"phrase\": \"Ich weiß nicht, ob das eine interkranielle Blutung ist oder eine Subarachnoidalblutung\",\n      \"context: dann hier. Und dann schaue ich mir wieder zunächst erst mal an, wo da eine Auffälligkeit sein soll. Da, Ich finde vor allem hier auch auffällig, dass eben auf der anderen gegenüberliegenden Seite relativ schwach die Gyri ausgeprägt sind. Schauen wir das noch einmal auf dem anderen Bild auch an. Ja, aber das könnte schon sein.\",\n      \"tags\": [\"indicator: anomaly_detected\", \"interpretation: bleeding\"],\n      \"rationale\": \"Der Sprecher zögert, ob die Auffälligkeit eine interkranielle oder Subarachnoidalblutung ist, aber betont, dass er sie als Blutung einschätzen würde. Die Verwendung des Begriffs \\\"anomaly_detected\\\" und die Betonung der Blutung als wahrscheinliche Ursache unterstützen diese Interpretation.\"\n    },\n    {\n      \"phrase\": \"Ich bin mir relativ sicher.\",\n      \"context: dann hier. Und dann schaue ich mir wieder zunächst erst mal an, wo da eine Auffälligkeit sein soll. Da, Ich finde vor allem hier auch auffällig, dass eben auf der anderen gegenüberliegenden Seite relativ schwach die Gyri ausgeprägt sind. Schauen wir das noch einmal auf dem anderen Bild auch an. Ja, aber das könnte schon sein. Ich weiß nicht, ob das eine interkranielle Blutung ist oder eine Subarachnoidalblutung\",\n  tags: [\"confidence_high: concrete\"],\n      \"rationale\": \"Der Sprecher betont, dass er \\\"relativ sicher\\\" ist, dass es sich um eine Blutung handelt, was darauf hindeutet, dass er eine starke Überzeugung hat.\"\n    }\n  ]\n}",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\45_advice with annotation_cycle_224.txt",
+      "row": 11
+    },
+    "model": "meta-llama/llama-3.2-3b-instruct",
+    "provider": "Cloudflare",
+    "configuration_name": "llama-3-2-3b-instruct-240925"
+  },
+  {
+    "error": "JSONDecodeError",
+    "message": "Expecting ':' delimiter: line 6 column 40 (char 309)",
+    "raw_output": "{\n  \"classifications\": [\n    {\n      \"phrase\": \"Es könnte für mich auch weiße Substanz sein, also da wäre ich mir jetzt nicht wirklich sicher.\",\n      \"context\": \"Es ist schwer zu beurteilen, ob es eine Blutung ist oder nicht. Es könnte auch eine weiße Substanz sein.\",\n      \"tags: [interpretation: bleeding\", \"awareness_of_task: difficult, confidence_low: secondary\"],\n      \"rationale\": \"Der Sprecher ist unsicher, ob es eine Blutung ist oder eine weiße Substanz. Er findet es schwierig zu beurteilen und ist nicht sicher. Er hat auch Zweifel an seiner eigenen Sicherheit.\"\n    },\n    {\n      \"phrase\": \"Ich würde da erst mal nein ankreuzen, aber ich bin mir nicht sicher.\",\n      \"context\": \"Der Sprecher ist unsicher, ob es eine Blutung ist oder nicht. Er würde es nicht ankreuzen, aber ist nicht sicher.\",\n      \"tags: [interpretation: bleeding, confidence_low: secondary\"],\n      \"rationale\": \"Der Sprecher ist unsicher, ob es eine Blutung ist oder nicht. Er würde es nicht ankreuzen, aber ist nicht sicher. Er ist sich seiner eigenen Entscheidung nicht sicher.\"\n    }\n  ]\n}",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\45_advice with annotation_cycle_224.txt",
+      "row": 17
+    },
+    "model": "meta-llama/llama-3.2-3b-instruct",
+    "provider": "Cloudflare",
+    "configuration_name": "llama-3-2-3b-instruct-240925"
+  },
+  {
+    "phrase": "Da ist wieder eine Blutung erkannt worden.",
+    "context": "linken Seite im Gehirn. Da ist wieder eine Blutung erkannt worden. Für mich sieht das bisher noch relativ symmetrisch aus, und ich habe noch keine Auffälligkeit gesehen.",
+    "tags": [
+      "indicator: anomaly_detected",
+      "interpretation: bleeding"
+    ],
+    "rationale": "Der Sprecher erkennt eine Blutung und beschreibt sie als symmetrisch, aber mit einer Auffälligkeit, die er bisher nicht bemerkt hat.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\45_advice with annotation_cycle_224.txt",
+      "row": 1
+    },
+    "model": "meta-llama/llama-3.2-3b-instruct",
+    "provider": "Parasail",
+    "configuration_name": "llama-3-2-3b-instruct-240925"
+  },
+  {
+    "phrase": "Das hätte ich ohne die KI vielleicht nicht gesehen.",
+    "context": "Das hätte ich ohne die KI vielleicht nicht gesehen. Da würde ich auch sagen, dass die KI was gesehen hat.",
+    "tags": [
+      "confidence_high: increased_through_ai",
+      "interpretation: bleeding"
+    ],
+    "rationale": "Der Sprecher gibt zu, dass die KI ihm geholfen hat, die Blutung zu erkennen, und dass er ohne die KI diese nicht gesehen hätte.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\45_advice with annotation_cycle_224.txt",
+      "row": 1
+    },
+    "model": "meta-llama/llama-3.2-3b-instruct",
+    "provider": "Parasail",
+    "configuration_name": "llama-3-2-3b-instruct-240925"
+  },
+  {
+    "error": "JSONDecodeError",
+    "message": "Expecting ':' delimiter: line 4 column 50 (char 80)",
+    "raw_output": "{\n  \"classifications\": [\n    {\n      \"phrase: Da gibt es für ich keine Blutung.\",\n      \"context\": \"Ich schau nochmal auf dem anderen Bild, aber das sieht für mich soweit ganz gut aus. Ja, also, da stimme ich auf jeden Fall mit der KI zu.\",\n      \"tags: [interpretation: no_bleeding\"],\n      \"rationale\": \"Der Sprecher verneint die Existenz einer Blutung und stimmt mit der KI überein.\"\n    },\n    {\n      \"phrase: Das könnte für mich eine Blutung sein.\",\n      \"context\": \"Und dann hier im nächsten Bild. Soll nichts gefunden sein. Es sieht für mich auch soweit ganz gut aus.\",\n      \"tags: [interpretation: bleeding\"],\n      \"rationale\": \"Der Sprecher erwägt die Möglichkeit einer Blutung, aber es gibt keine Hinweise darauf.\"\n    }\n  ]\n}",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\45_advice with annotation_cycle_224.txt",
+      "row": 16
+    },
+    "model": "meta-llama/llama-3.2-3b-instruct",
+    "provider": "Cloudflare",
+    "configuration_name": "llama-3-2-3b-instruct-240925"
+  },
+  {
+    "error": "JSONDecodeError",
+    "message": "Expecting ':' delimiter: line 4 column 55 (char 85)",
+    "raw_output": "{\n  \"classifications\": [\n    {\n      \"phrase: Das könnte für mich eine Blutung sein.\",\n      \"context\": \"linken Seite im Gehirn. Das könnte für mich eine Blutung sein. Ja. Genau.\",\n      \"tags: [interpretation: bleeding\"],\n      \"rationale\": \"Der Sprecher vertraut auf die KI-Erkennung einer Blutung und beschreibt die Symptome, die er beobachtet. Er ist sich sicher, dass es sich um eine Blutung handelt.\"\n    },\n    {\n      \"phrase\": \"Ja, das sieht für mich auf jeden Fall nach einer Blutung aus im Temporallappen.\",\n      \"context\": \"linken Seite im Gehirn. Ja, das sieht für mich auf jeden Fall nach einer Blutung aus im Temporallappen.\",\n      \"tags: [interpretation: bleeding\", \"indicator: anomaly_detected\"],\n      \"rationale\": \"Der Sprecher beschreibt die Symptome, die er beobachtet, und vertraut auf seine eigene Diagnose, dass es sich um eine Blutung handelt.\"\n    },\n    {\n      \"phrase\": \"Ansonsten, im restlichen Teil des Gehirns hier oben könnte sogar auch noch was sein.\",\n      \"context\": \"linken Seite im Gehirn. Ansonsten, im restlichen Teil des Gehirns hier oben könnte sogar auch noch was sein.\",\n      \"tags: [interpretation: bleeding\", \"indicator: no_bleeding\"],\n      \"rationale\": \"Der Sprecher beschreibt die möglichen Bereiche, in denen eine Blutung auftreten könnte, und vertraut auf seine eigene Diagnose, dass es sich um eine Blutung handelt.\"\n    }\n  ]\n}",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\45_advice with annotation_cycle_224.txt",
+      "row": 15
+    },
+    "model": "meta-llama/llama-3.2-3b-instruct",
+    "provider": "Cloudflare",
+    "configuration_name": "llama-3-2-3b-instruct-240925"
+  },
+  {
+    "error": "JSONDecodeError",
+    "message": "Expecting ':' delimiter: line 5 column 67 (char 214)",
+    "raw_output": "{\n  \"classifications\": [\n    {\n      \"phrase\": \"Das könnte, gerade weil das eben die Seiten verklemmt vermutlich ist, durchaus eine Blutung sein.\",\n      \"context: Das könnte für mich eine Blutung sein. Ja. Genau.\",\n      \"tags: [interpretation: bleeding\", \"indicator: anomaly_detected\"],\n      \"rationale\": \"Der Sprecher vermutet eine Blutung aufgrund der Symptome und der KI-Unterstützung, aber ist unsicher. Die KI hat ihm nicht geholfen.\"\n    },\n    {\n      \"phrase\": \"Das würde ich auf jeden Fall abklären.\",\n      \"context: Das könnte für mich eine Blutung sein. Ja. Genau.\",\n      \"tags: [interpretation: bleeding\", \"decision_with_ai: explicitly_agreeing_with_ai\"],\n      \"rationale\": \"Der Sprecher möchte die Blutung weiter untersuchen, auch wenn die KI ihm geholfen hat, sie zu identifizieren.\"\n    }\n  ]\n}",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\45_advice with annotation_cycle_224.txt",
+      "row": 23
+    },
+    "model": "meta-llama/llama-3.2-3b-instruct",
+    "provider": "Cloudflare",
+    "configuration_name": "llama-3-2-3b-instruct-240925"
+  },
+  {
+    "phrase": "Ich achte vor allem auf die Symmetrie.",
+    "context": "Ich achte auf die verschiedenen Gehirnstrukturen. Auf mögliche Aufhellungen. Und ich hab aber jetzt hier beim Durchsehen nichts, nichts Auffälliges gefunden und auch hier nicht, das heißt, darin sehe ich keine Auffälligkeiten.",
+    "tags": [
+      "control: relying_on_ai",
+      "interpretation: bleeding_localization_unclear"
+    ],
+    "rationale": "Der Sprecher beschreibt, wie er beim Durchsehen des Bildes auf Symmetrie und verschiedene Gehirnstrukturen achtet, aber findet keine Auffälligkeiten, was darauf hindeutet, dass er auf die Hilfe des AI vertraut, aber die lokaleisierung des Blutungsschadens nicht genau finden kann.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\45_advice with annotation_cycle_224.txt",
+      "row": 27
+    },
+    "model": "meta-llama/llama-3.2-3b-instruct",
+    "provider": "Cloudflare",
+    "configuration_name": "llama-3-2-3b-instruct-240925"
+  },
+  {
+    "error": "JSONDecodeError",
+    "message": "Expecting ':' delimiter: line 4 column 55 (char 85)",
+    "raw_output": "{\n  \"classifications\": [\n    {\n      \"phrase: Das könnte für mich eine Blutung sein.\",\n      \"context\": \"linken Seite im Gehirn. Das könnte für mich eine Blutung sein. Ja. Genau.\",\n      \"tags: [interpretation: bleeding\"],\n      \"rationale\": \"Der Sprecher vertraut der KI und gibt ihr Recht, eine Blutung zu diagnostizieren.\"\n    },\n    {\n      \"phrase\": \"Ja, da würde ich der KI Recht geben und sagen, das ist eine Blutung.\",\n      \"context\": \"linken Seite im Gehirn. Darüber hinaus sehe ich jetzt gerade so an den Knochen oder an den anderen Gehirnstrukturen nichts Auffälliges. Aber doch hier die Stelle, das ist schon auffällig.\",\n      \"tags\": [\"decision_with_ai: explicitly_agreeing_with_ai\", \"interpretation: bleeding\"],\n      \"rationale\": \"Der Sprecher stimmt der KI-Aussage zu und bestätigt, dass es sich um eine Blutung handelt.\"\n    }\n  ]\n}",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\45_advice with annotation_cycle_224.txt",
+      "row": 26
+    },
+    "model": "meta-llama/llama-3.2-3b-instruct",
+    "provider": "Cloudflare",
+    "configuration_name": "llama-3-2-3b-instruct-240925"
+  },
+  {
+    "error": "JSONDecodeError",
+    "message": "Expecting ':' delimiter: line 20 column 5 (char 1234)",
+    "raw_output": "{\n  \"classifications\": [\n    {\n      \"phrase\": \"Hier hat die KI auch wieder was Auffälliges gefunden.\",\n      \"context\": \"Hier hat die KI auch wieder was Auffälliges gefunden. Ich weiß bisher noch nicht was.\",\n      \"tags\": [\"ai_report: ich_localization\"],\n      \"rationale\": \"Die Person beschreibt, dass die KI eine Auffälligkeit gefunden hat, aber sie weiß nicht genau, was es ist.\"\n    },\n    {\n      \"phrase\": \"Mach ich noch einmal zurück.\",\n      \"context\": \"Mach ich noch einmal zurück. Hm es überlagert sich unten, leider ein bisschen blöd mit den Zahlen.\",\n      \"tags\": [\"control: control_repeat\"],\n      \"rationale\": \"Die Person möchte noch einmal zurückgehen und die Zahlen noch einmal überprüfen.\"\n    },\n    {\n      \"phrase\": \"Ähm, gerade bei dem Skating accident, könnte es eben sein, dass es jetzt so ein Aufprall auf den Hinterkopf war.\",\n      \"context\": \"Ähm, gerade bei dem Skating accident, könnte es eben sein, dass es jetzt so ein Aufprall auf den Hinterkopf war. Das würde ich auf jeden Fall abklären.\",\n      \"tags\": [\"indicator: anomaly_detected\", \"interpretation: bleeding\"],\n      \"rationale: Die Person denkt, dass ein Aufprall auf den Hinterkopf möglicherweise zu einer Blutung geführt haben könnte.\"\n    },\n    {\n      \"phrase\": \"Ich bin mir nicht so 100% sicher, aber schon relativ sicher.\",\n      \"context\": \"Ich bin mir nicht so 100% sicher, aber schon relativ sicher.\",\n  tags: [\"confidence_low: secondary\"],\n      \"rationale: Die Person ist nicht 100% sicher, aber hat eine relativ hohe Sicherheit, dass es sich um eine Blutung handelt.\"\n    }\n  ]\n}",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\45_advice with annotation_cycle_224.txt",
+      "row": 25
+    },
+    "model": "meta-llama/llama-3.2-3b-instruct",
+    "provider": "Cloudflare",
+    "configuration_name": "llama-3-2-3b-instruct-240925"
+  },
+  {
+    "phrase": "Ich bin mir da wirklich nicht sicher.",
+    "context": "Ich suche grade die Stelle hier frontal ja man erkennt auf jeden fall eine Asymmetrie zwischen den beiden Gehrinhälften. Schau mal, ob mir das andere Bild dann noch weiterhilft. Ja, also, es ist auf jeden Fall asymmetrisch, da stimme ich zu, und ein bisschen aufgehellt. Also, ich bin mir da wirklich nicht sicher.",
+    "tags": [
+      "reflection: diagnostic_uncertainty",
+      "interpretation: bleeding_localization_unclear"
+    ],
+    "rationale": "Der Sprecher ist unsicher, ob die Asymmetrie ein Blutung ist, da er sich nicht sicher ist, ob er sie ohne die KI hätte sehen können.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\45_advice with annotation_cycle_224.txt",
+      "row": 24
+    },
+    "model": "meta-llama/llama-3.2-3b-instruct",
+    "provider": "Parasail",
+    "configuration_name": "llama-3-2-3b-instruct-240925"
+  },
+  {
+    "phrase": "EXPERIMENTER: Könntest du vielleicht mein Bild da oben weg machen, dann sieht man, in welchem Fall du gerade bist.",
+    "context": "EXPERIMENTER: Könntest du vielleicht mein Bild da oben weg machen, dann sieht man, in welchem Fall du gerade bist. VPN: Ah es geht hier sogar ganz weg.",
+    "tags": [
+      "control: control_repeat"
+    ],
+    "rationale": "Der Experimentator bittet den Teilnehmer, das Bild zu entfernen, um die aktuelle Position zu überprüfen.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\45_advice with annotation_cycle_224.txt",
+      "row": 20
+    },
+    "model": "meta-llama/llama-3.2-3b-instruct",
+    "provider": "Cloudflare",
+    "configuration_name": "llama-3-2-3b-instruct-240925"
+  },
+  {
+    "phrase": "VPN: Ah es geht hier sogar ganz weg.",
+    "context": "EXPERIMENTER: Könntest du vielleicht mein Bild da oben weg machen, dann sieht man, in welchem Fall du gerade bist. VPN: Ah es geht hier sogar ganz weg.",
+    "tags": [
+      "control: control_repeat"
+    ],
+    "rationale": "Der Teilnehmer bestätigt, dass das Bild entfernt wurde.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\45_advice with annotation_cycle_224.txt",
+      "row": 20
+    },
+    "model": "meta-llama/llama-3.2-3b-instruct",
+    "provider": "Cloudflare",
+    "configuration_name": "llama-3-2-3b-instruct-240925"
+  },
+  {
+    "phrase": "So hier soll nichts gefunden worden sein.",
+    "context": "EXPERIMENTER: Könntest du vielleicht mein Bild da oben weg machen, dann sieht man, in welchem Fall du gerade bist. VPN: Ah es geht hier sogar ganz weg. So hier soll nichts gefunden worden sein.",
+    "tags": [
+      "control: control_repeat"
+    ],
+    "rationale": "Der Teilnehmer bestätigt, dass nichts gefunden wurde.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\45_advice with annotation_cycle_224.txt",
+      "row": 20
+    },
+    "model": "meta-llama/llama-3.2-3b-instruct",
+    "provider": "Cloudflare",
+    "configuration_name": "llama-3-2-3b-instruct-240925"
+  },
+  {
+    "phrase": "Auch wieder hier auf die Ventrikel und auf die Gyri.",
+    "context": "EXPERIMENTER: Könntest du vielleicht mein Bild da oben weg machen, dann sieht man, in welchem Fall du gerade bist. VPN: Ah es geht hier sogar ganz weg. So hier soll nichts gefunden worden sein. Auch wieder hier auf die Ventrikel und auf die Gyri.",
+    "tags": [
+      "control: control_repeat"
+    ],
+    "rationale": "Der Teilnehmer beschreibt die Position der Ventrikel und Gyri.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\45_advice with annotation_cycle_224.txt",
+      "row": 20
+    },
+    "model": "meta-llama/llama-3.2-3b-instruct",
+    "provider": "Cloudflare",
+    "configuration_name": "llama-3-2-3b-instruct-240925"
+  },
+  {
+    "phrase": "Soweit finde das hier relativ unauffällig aussieht, alles und auch hier bisher.",
+    "context": "EXPERIMENTER: Könntest du vielleicht mein Bild da oben weg machen, dann sieht man, in welchem Fall du gerade bist. VPN: Ah es geht hier sogar ganz weg. So hier soll nichts gefunden worden sein. Auch wieder hier auf die Ventrikel und auf die Gyri. Soweit finde das hier relativ unauffällig aussieht, alles und auch hier bisher.",
+    "tags": [
+      "control: control_repeat"
+    ],
+    "rationale": "Der Teilnehmer beschreibt die Unmerklichkeit des Bildes.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\45_advice with annotation_cycle_224.txt",
+      "row": 20
+    },
+    "model": "meta-llama/llama-3.2-3b-instruct",
+    "provider": "Cloudflare",
+    "configuration_name": "llama-3-2-3b-instruct-240925"
+  },
+  {
+    "phrase": "Auch wieder im Vergleich zu dem Bild davor sehr symmetrisch.",
+    "context": "EXPERIMENTER: Könntest du vielleicht mein Bild da oben weg machen, dann sieht man, in welchem Fall du gerade bist. VPN: Ah es geht hier sogar ganz weg. So hier soll nichts gefunden worden sein. Auch wieder hier auf die Ventrikel und auf die Gyri. Soweit finde das hier relativ unauffällig aussieht, alles und auch hier bisher. Auch wieder im Vergleich zu dem Bild davor sehr symmetrisch.",
+    "tags": [
+      "control: control_repeat"
+    ],
+    "rationale": "Der Teilnehmer vergleicht die Symmetrie des Bildes mit dem vorherigen.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\45_advice with annotation_cycle_224.txt",
+      "row": 20
+    },
+    "model": "meta-llama/llama-3.2-3b-instruct",
+    "provider": "Cloudflare",
+    "configuration_name": "llama-3-2-3b-instruct-240925"
+  },
+  {
+    "phrase": "Da sehe ich nichts Auffälliges.",
+    "context": "EXPERIMENTER: Könntest du vielleicht mein Bild da oben weg machen, dann sieht man, in welchem Fall du gerade bist. VPN: Ah es geht hier sogar ganz weg. So hier soll nichts gefunden worden sein. Auch wieder hier auf die Ventrikel und auf die Gyri. Soweit finde das hier relativ unauffällig aussieht, alles und auch hier bisher. Auch wieder im Vergleich zu dem Bild davor sehr symmetrisch. Da sehe ich nichts Auffälliges.",
+    "tags": [
+      "control: control_repeat"
+    ],
+    "rationale": "Der Teilnehmer bestätigt, dass er nichts Auffälliges sieht.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\45_advice with annotation_cycle_224.txt",
+      "row": 20
+    },
+    "model": "meta-llama/llama-3.2-3b-instruct",
+    "provider": "Cloudflare",
+    "configuration_name": "llama-3-2-3b-instruct-240925"
+  },
+  {
+    "phrase": "Ich bin mir dadurch relativ sicher, und hier war die AI auf jeden Fall hilfreich.",
+    "context": "Hier gibt's wieder eine Auffälligkeit. Achte auf die Auffälligkeiten. Ah, ja, das ist eine relativ kleine Stelle neben dem Seitenventrikel. Ich schaue mir das nochmal in dem anderen Bild auch an. Ähm, hier ja genau. Genau ja, also ist eine kleine Stelle, aber finde ich sehr verdächtig, zumal sie eben auch nur einseitig vorhanden ist. Ja, da würde ich sagen, ist eine Blutung vorhanden. Ich bin mir dadurch relativ sicher, und hier war die AI auf jeden Fall hilfreich.",
+    "tags": [
+      "interpretation: bleeding",
+      "confidence_high: concrete"
+    ],
+    "rationale": "Der Sprecher ist sich relativ sicher, dass eine Blutung vorhanden ist, und erwähnt auch die Hilfsfunktion der AI bei der Diagnose.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\45_advice with annotation_cycle_224.txt",
+      "row": 29
+    },
+    "model": "meta-llama/llama-3.2-3b-instruct",
+    "provider": "Cloudflare",
+    "configuration_name": "llama-3-2-3b-instruct-240925"
+  },
+  {
+    "error": "JSONDecodeError",
+    "message": "Expecting ':' delimiter: line 42 column 43 (char 3580)",
+    "raw_output": "{\n  \"classifications\": [\n    {\n      \"phrase\": \"Auch hier wieder keine Blutung entdeckt worden.\",\n      \"context\": \"Auch hier wieder keine Blutung entdeckt worden. Das sieht für mich bisher ganz gut aus.\",\n      \"tags\": [\"ai_report: no_ich\"],\n      \"rationale\": \"Der Sprecher verneint die Existenz einer Blutung.\"\n    },\n    {\n      \"phrase\": \"Das sieht für mich bisher ganz gut aus.\",\n      \"context\": \"Auch hier wieder keine Blutung entdeckt worden. Das sieht für mich bisher ganz gut aus.\",\n      \"tags\": [\"control: missing_information\"],\n      \"rationale\": \"Der Sprecher möchte mehr Informationen über die Symptome haben.\"\n    },\n    {\n      \"phrase\": \"Hier auch soweit alles sehr symmetrisch und hier relativ große Sulci hier in den Seiten sind, was aber ja nicht nicht auf eine Blutung deuten würde.\",\n      \"context\": \"Auch hier wieder keine Blutung entdeckt worden. Das sieht für mich bisher ganz gut aus. Hier auch soweit alles sehr symmetrisch und hier relativ große Sulci hier in den Seiten sind, was aber ja nicht nicht auf eine Blutung deuten würde.\",\n      \"tags\": [\"indicator: no_bleeding\"],\n      \"rationale\": \"Der Sprecher diskutiert die Symmetrie und die Größe der Sulci im Gehirn.\"\n    },\n    {\n      \"phrase\": \"Also, da könnte vielleicht eine andere Erkrankung vorliegen,\",\n      \"context\": \"Auch hier wieder keine Blutung entdeckt worden. Das sieht für mich bisher ganz gut aus. Hier auch soweit alles sehr symmetrisch und hier relativ große Sulci hier in den Seiten sind, was aber ja nicht nicht auf eine Blutung deuten würde. Also, da könnte vielleicht eine andere Erkrankung vorliegen,\",\n      \"tags\": [\"reasoning: alternative_medical_cause\"],\n      \"rationale\": \"Der Sprecher erwägt die Möglichkeit einer anderen Erkrankung.\"\n    },\n    {\n      \"phrase\": \"aber ne Blutung habe ich hier zu weit nicht gesehen,\",\n      \"context\": \"Auch hier wieder keine Blutung entdeckt worden. Das sieht für mich bisher ganz gut aus. Hier auch soweit alles sehr symmetrisch und hier relativ große Sulci hier in den Seiten sind, was aber ja nicht nicht auf eine Blutung deuten würde. Also, da könnte vielleicht eine andere Erkrankung vorliegen, aber ne Blutung habe ich hier zu weit nicht gesehen,\",\n      \"tags\": [\"indicator: no_bleeding\"],\n      \"rationale\": \"Der Sprecher verneint die Existenz einer Blutung.\"\n    },\n    {\n      \"phrase\": \"und auch hier, bei dem, bei der einander Stellung, sehe ich soweit nichts.\",\n      \"context\": \"Auch hier wieder keine Blutung entdeckt worden. Das sieht für mich bisher ganz gut aus. Hier auch soweit alles sehr symmetrisch und hier relativ große Sulci hier in den Seiten sind, was aber ja nicht nicht auf eine Blutung deuten würde. Also, da könnte vielleicht eine andere Erkrankung vorliegen, aber ne Blutung habe ich hier zu weit nicht gesehen, und auch hier, bei dem, bei der einander Stellung, sehe ich soweit nichts.\",\n      \"tags\": [\"indicator: no_bleeding\"],\n      \"rationale\": \"Der Sprecher verneint die Existenz einer Blutung.\"\n    },\n    {\n      \"phrase\": \"Nee, das ist für mich keine Blutung.\",\n      \"context\": \"Auch hier wieder keine Blutung entdeckt worden. Das sieht für mich bisher ganz gut aus. Hier auch soweit alles sehr symmetrisch und hier relativ große Sulci hier in den Seiten sind, was aber ja nicht nicht auf eine Blutung deuten würde. Also, da könnte vielleicht eine andere Erkrankung vorliegen, aber ne Blutung habe ich hier zu weit nicht gesehen, und auch hier, bei dem, bei der einander Stellung, sehe ich soweit nichts. Nee, das ist für mich keine Blutung.\",\n      \"tags: [interpretation: no_bleeding\"],\n      \"rationale\": \"Der Sprecher verneint die Existenz einer Blutung.\"\n    },\n    {\n      \"phrase\": \"Ich bin mir da recht sicher.\",\n      \"context\": \"Auch hier wieder keine Blutung entdeckt worden. Das sieht für mich bisher ganz gut aus. Hier auch soweit alles sehr symmetrisch und hier relativ große Sulci hier in den Seiten sind, was aber ja nicht nicht auf eine Blutung deuten würde. Also, da könnte vielleicht eine andere Erkrankung vorliegen, aber ne Blutung habe ich hier zu weit nicht gesehen, und auch hier, bei dem, bei der einander Stellung, sehe ich soweit nichts. Nee, das ist für mich keine Blutung. Ich bin mir da recht sicher.\",\n  tags: [\"confidence_high: secondary\"],\n      \"rationale\": \"Der Sprecher ist sich seiner Entscheidung sicher.\"\n    }\n  ]\n}",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\45_advice with annotation_cycle_224.txt",
+      "row": 21
+    },
+    "model": "meta-llama/llama-3.2-3b-instruct",
+    "provider": "Cloudflare",
+    "configuration_name": "llama-3-2-3b-instruct-240925"
+  },
+  {
+    "phrase": "Ich habe auch keine Frakturzeichen gesehen, da würde ich auch eben der AI Recht geben.",
+    "context": "Ich habe hier wieder ein verhältnismäßig symmetrisches Bild. Gut erkennbare Gyri. Ähm, ich habe auch keine Frakturzeichen gesehen, da würde ich auch eben der AI Recht geben.",
+    "tags": [
+      "control: relying_on_ai",
+      "indicator: no_bleeding"
+    ],
+    "rationale": "Der Sprecher entscheidet sich, die AI zu konsultieren und gibt ihr Recht, wenn er keine Frakturzeichen sieht.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\45_advice with annotation_cycle_224.txt",
+      "row": 31
+    },
+    "model": "meta-llama/llama-3.2-3b-instruct",
+    "provider": "Cloudflare",
+    "configuration_name": "llama-3-2-3b-instruct-240925"
+  },
+  {
+    "phrase": "Das könnte für mich eine Blutung sein.",
+    "context": "linken Seite im Gehirn. Das könnte für mich eine Blutung sein. Ja. Genau.",
+    "tags": [
+      "interpretation: bleeding"
+    ],
+    "rationale": "Der Sprecher erwähnt, dass das Bild auffällig ist und dass er die Seitenventrikel sehr groß sieht, was darauf hindeutet, dass es sich um eine Blutung handeln könnte.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\45_advice with annotation_cycle_224.txt",
+      "row": 19
+    },
+    "model": "meta-llama/llama-3.2-3b-instruct",
+    "provider": "Parasail",
+    "configuration_name": "llama-3-2-3b-instruct-240925"
+  },
+  {
+    "phrase": "Ich hab die, das Kästchen jetzt gerade noch nicht gesehen, das ist ja unten immer so ein bisschen überlagert.",
+    "context": "nicht relevant",
+    "tags": [],
+    "rationale": "Dieser Satz ist nicht relevant für die Interpretation des Bildes und enthält keine relevanten Informationen für die Klassifizierung.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\45_advice with annotation_cycle_224.txt",
+      "row": 19
+    },
+    "model": "meta-llama/llama-3.2-3b-instruct",
+    "provider": "Parasail",
+    "configuration_name": "llama-3-2-3b-instruct-240925"
+  },
+  {
+    "phrase": "Ich muss sagen, dass ich das generell, das Bild schon ziemlich auffällig finde, weil ich da weniger Symmetrie drin erkenne, und auch hier die Seitenventrikel sehr groß und die Stelle, die die KI erkannt hat, das könnte durchaus eine Blutung sein, weil es relativ aufgehellt ist, würde ich sagen, ja.",
+    "context": "linken Seite im Gehirn",
+    "tags": [
+      "interpretation: bleeding",
+      "indicator: anomaly_detected"
+    ],
+    "rationale": "Der Sprecher beschreibt das Bild als auffällig und erwähnt die Seitenventrikel als sehr groß, was darauf hindeutet, dass es sich um eine Blutung handeln könnte. Er ist auch relativ sicher, dass es sich um eine Blutung handeln könnte.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\45_advice with annotation_cycle_224.txt",
+      "row": 19
+    },
+    "model": "meta-llama/llama-3.2-3b-instruct",
+    "provider": "Parasail",
+    "configuration_name": "llama-3-2-3b-instruct-240925"
+  },
+  {
+    "error": "JSONDecodeError",
+    "message": "Expecting ':' delimiter: line 4 column 55 (char 85)",
+    "raw_output": "{\n  \"classifications\": [\n    {\n      \"phrase: Das könnte für mich eine Blutung sein.\",\n      \"context\": \"linken Seite im Gehirn. Das könnte für mich eine Blutung sein. Ja. Genau.\",\n      \"tags: [interpretation: bleeding\"],\n      \"rationale\": \"Der Sprecher erwähnt explizit, dass er eine Blutung vermutet, da er eine auffällige Stelle im Gehirn sieht und die KI eine Aufhellung zeigt, die sich von den Gyri unterscheidet.\"\n    },\n    {\n      \"phrase\": \"Ich weiß nicht, ob das auch daher kommen kann, deswegen würde ich auch sagen, dass es um eine Blutung handelt\",\n      \"context\": \"Die KI hat eine Aufhellung gezeigt, die sich von den Gyri unterscheidet, und der Sprecher ist unsicher, ob dies mit einer Mittellinienverschiebung zusammenhängt.\",\n      \"tags: [interpretation: bleeding\", \"reasoning: alternative_medical_cause\"],\n      \"rationale\": \"Der Sprecher ist unsicher, ob die Aufhellung durch eine Mittellinienverschiebung verursacht wird, daher erhebt er die Möglichkeit, dass es sich um eine Blutung handelt.\"\n    }\n  ]\n}",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\45_advice with annotation_cycle_224.txt",
+      "row": 30
+    },
+    "model": "meta-llama/llama-3.2-3b-instruct",
+    "provider": "Cloudflare",
+    "configuration_name": "llama-3-2-3b-instruct-240925"
+  },
+  {
+    "error": "JSONDecodeError",
+    "message": "Expecting ':' delimiter: line 6 column 43 (char 357)",
+    "raw_output": "{\n  \"classifications\": [\n    {\n      \"phrase\": \"Das sieht für mich soweit gut aus, ja da sehe ich keine Blutung.\",\n      \"context\": \"Ich kann hier gerade die Strukturen besonders gut erkennen und sehe auch eine Symmetrie, keine Verletzung an den Knochen. Dann das nächste Bild. Das soll laut AI unauffällig sein.\",\n      \"tags: [interpretation: no_bleeding\"],\n      \"rationale\": \"Der Sprecher gibt an, dass er keine Blutung sieht und die Strukturen gut erkennen kann.\"\n    }\n  ]\n}",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\45_advice with annotation_cycle_224.txt",
+      "row": 33
+    },
+    "model": "meta-llama/llama-3.2-3b-instruct",
+    "provider": "Cloudflare",
+    "configuration_name": "llama-3-2-3b-instruct-240925"
+  },
+  {
+    "error": "JSONDecodeError",
+    "message": "Expecting ':' delimiter: line 12 column 40 (char 887)",
+    "raw_output": "{\n  \"classifications\": [\n    {\n      \"phrase\": \"Auf der ?ebene eine Blutung.\",\n      \"context\": \"linken Seite im Gehirn. Ich schau mir das auf dem anderen Bild auch nochmal an, und ja, hier sieht man auch deutliche Aufhellungen, eigentlich überall im Gehirn.\",\n      \"tags\": [\"indicator: anomaly_detected\", \"interpretation: bleeding\", \"visual_search: triggered_by_finding\"],\n      \"rationale\": \"Der Sprecher beschreibt eine Blutung auf einem Bild und bestätigt dies durch die Anwesenheit von Aufhellungen auf anderen Bildern. Dies deutet auf eine Anomalie hin, die als Blutung interpretiert werden kann.\"\n    },\n    {\n      \"phrase\": \"Auf der ?ebene eine Blutung.\",\n      \"context\": \"linken Seite im Gehirn. Ich schau mir das auf dem anderen Bild auch nochmal an, und ja, hier sieht man auch deutliche Aufhellungen, eigentlich überall im Gehirn.\",\n      \"tags: [interpretation: bleeding\"],\n      \"rationale\": \"Der Sprecher beschreibt eine Blutung auf einem Bild und bestätigt dies durch die Anwesenheit von Aufhellungen auf anderen Bildern. Dies deutet auf eine Anomalie hin, die als Blutung interpretiert werden kann.\"\n    }\n  ]\n}",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\45_advice with annotation_cycle_224.txt",
+      "row": 32
+    },
+    "model": "meta-llama/llama-3.2-3b-instruct",
+    "provider": "Cloudflare",
+    "configuration_name": "llama-3-2-3b-instruct-240925"
+  },
+  {
+    "phrase": "Ich finde das Bild ein bisschen unscharf, ist aber sehr symmetrisch.",
+    "context": "Das Bild ist unscharf, aber sehr symmetrisch.",
+    "tags": [
+      "awareness_of_task: image_quality"
+    ],
+    "rationale": "Der Sprecher beschreibt das Bild als unscharf, aber symmetrisch, was darauf hindeutet, dass er sich mit der Bildqualität auseinandersetzt.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\45_advice with annotation_cycle_224.txt",
+      "row": 10
+    },
+    "model": "meta-llama/llama-3.2-3b-instruct",
+    "provider": "Parasail",
+    "configuration_name": "llama-3-2-3b-instruct-240925"
+  },
+  {
+    "phrase": "Ich kann die Mittellinie gut erkennen, hier auch die kleinen Strukturen.",
+    "context": "Die Mittellinie und die kleinen Strukturen sind gut erkennbar.",
+    "tags": [
+      "interpretation: bleeding_localization_unclear"
+    ],
+    "rationale": "Der Sprecher erwähnt, dass er die Mittellinie und die kleinen Strukturen gut erkennen kann, aber es ist nicht klar, ob dies auf eine Blutung hinweist.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\45_advice with annotation_cycle_224.txt",
+      "row": 10
+    },
+    "model": "meta-llama/llama-3.2-3b-instruct",
+    "provider": "Parasail",
+    "configuration_name": "llama-3-2-3b-instruct-240925"
+  },
+  {
+    "phrase": "Das sieht für mich soweit unauffällig aus, die Gyri sind relativ gut zu erkennen auf dem Bild.",
+    "context": "Das Bild ist unauffällig, die Gyri sind gut erkennbar.",
+    "tags": [
+      "interpretation: bleeding"
+    ],
+    "rationale": "Der Sprecher beschreibt das Bild als unauffällig, aber erwähnt, dass die Gyri gut erkennbar sind, was darauf hindeutet, dass er eine Blutung in Betracht zieht.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\45_advice with annotation_cycle_224.txt",
+      "row": 10
+    },
+    "model": "meta-llama/llama-3.2-3b-instruct",
+    "provider": "Parasail",
+    "configuration_name": "llama-3-2-3b-instruct-240925"
+  },
+  {
+    "phrase": "Ich sehe da keine Auffälligkeiten bisher.",
+    "context": "Es gibt keine Auffälligkeiten bisher.",
+    "tags": [
+      "indicator: no_bleeding"
+    ],
+    "rationale": "Der Sprecher sagt, dass er keine Auffälligkeiten bisher gesehen hat, was darauf hindeutet, dass er keine Blutung vermutet.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\45_advice with annotation_cycle_224.txt",
+      "row": 10
+    },
+    "model": "meta-llama/llama-3.2-3b-instruct",
+    "provider": "Parasail",
+    "configuration_name": "llama-3-2-3b-instruct-240925"
+  },
+  {
+    "phrase": "Ja auch kranial sehr symmetrisch, das gleiche auch hier.",
+    "context": "Das Bild ist symmetrisch, auch im Kranium.",
+    "tags": [
+      "control: control_repeat"
+    ],
+    "rationale": "Der Sprecher erwähnt, dass das Bild symmetrisch ist, auch im Kranium, was darauf hindeutet, dass er das Bild noch einmal betrachtet.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\45_advice with annotation_cycle_224.txt",
+      "row": 10
+    },
+    "model": "meta-llama/llama-3.2-3b-instruct",
+    "provider": "Parasail",
+    "configuration_name": "llama-3-2-3b-instruct-240925"
+  },
+  {
+    "phrase": "Da finde ich die Hirnstruktur nochmal besser zu erkennen, aber da sehe ich auch keine Auffälligkeiten, das heißt keine Blutung, und ich bin mir relativ sicher.",
+    "context": "Die Hirnstruktur ist besser erkennbar, aber es gibt keine Auffälligkeiten, ich bin mir relativ sicher.",
+    "tags": [
+      "interpretation: bleeding"
+    ],
+    "rationale": "Der Sprecher sagt, dass er die Hirnstruktur besser erkennen kann, aber es gibt keine Auffälligkeiten, was darauf hindeutet, dass er eine Blutung in Betracht zieht und sich relativ sicher fühlt.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\45_advice with annotation_cycle_224.txt",
+      "row": 10
+    },
+    "model": "meta-llama/llama-3.2-3b-instruct",
+    "provider": "Parasail",
+    "configuration_name": "llama-3-2-3b-instruct-240925"
+  },
+  {
+    "phrase": "Ich sehe keine Frakturzeichen",
+    "context": "Auch hier soll nichts vorhanden sein. Und auch wieder ein sehr klares Bild, sehr symmetrisch Bild. Ich sehe keine Frakturzeichen ja, da bin ich mir auch sicher, dass da nichts ist soweit.",
+    "tags": [
+      "indicator: no_bleeding"
+    ],
+    "rationale": "Der Sprecher gibt an, dass er keine Frakturzeichen sieht und daher sicher ist, dass nichts vorhanden ist.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\45_advice with annotation_cycle_224.txt",
+      "row": 36
+    },
+    "model": "meta-llama/llama-3.2-3b-instruct",
+    "provider": "Cloudflare",
+    "configuration_name": "llama-3-2-3b-instruct-240925"
+  },
+  {
+    "phrase": "Ich erkenne die Seitenventrikel, die Gyri und auch keine Seitenunterschiede, bisher.",
+    "context": "hier im nächsten Bild hat die KI auch keine Auffälligkeiten gesehen. Ich sehe hier auch wieder ein sehr symmetrisches Gehirn. Ich erkenne die Seitenventrikel, die Gyri und auch keine Seitenunterschiede, bisher.",
+    "tags": [
+      "interpretation: no_bleeding"
+    ],
+    "rationale": "Der Sprecher beschreibt, dass er keine Auffälligkeiten im Gehirn sieht, weder durch die KI noch selbst. Dies deutet darauf hin, dass es keine Blutung gibt.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\45_advice with annotation_cycle_224.txt",
+      "row": 28
+    },
+    "model": "meta-llama/llama-3.2-3b-instruct",
+    "provider": "Parasail",
+    "configuration_name": "llama-3-2-3b-instruct-240925"
+  },
+  {
+    "phrase": "Ich erkenne eine sehr markannte Mittellinie hier, aber das ist ja per se nicht schlimm.",
+    "context": "hier im nächsten Bild hat die KI auch keine Auffälligkeiten gesehen. Ich sehe hier auch wieder ein sehr symmetrisches Gehirn. Ich erkenne die Seitenventrikel, die Gyri und auch keine Seitenunterschiede, bisher. Ich erkenne eine sehr markannte Mittellinie hier, aber das ist ja per se nicht schlimm.",
+    "tags": [
+      "indicator: no_bleeding"
+    ],
+    "rationale": "Der Sprecher beschreibt eine Mittellinie, die er als nicht schlimm betrachtet. Dies deutet darauf hin, dass es keine Blutung gibt.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\45_advice with annotation_cycle_224.txt",
+      "row": 28
+    },
+    "model": "meta-llama/llama-3.2-3b-instruct",
+    "provider": "Parasail",
+    "configuration_name": "llama-3-2-3b-instruct-240925"
+  },
+  {
+    "phrase": "Ich sehe symmetrische Strukturen ohne Aufhellungen kann die Gyri soweit alle gut voneinander abgrenzen.",
+    "context": "linken Seite im Gehirn. Also, hier ist laut KI nichts zu sehen. Ich klicke mal wieder durch! Ich sehe symmetrische Strukturen ohne Aufhellungen kann die Gyri soweit alle gut voneinander abgrenzen. Da sehe ich nichts Auffälliges, und auch hier nicht.",
+    "tags": [
+      "control: relying_on_ai",
+      "interpretation: no_bleeding"
+    ],
+    "rationale": "Der Sprecher klickt durch und überprüft die Symmetrie der Gyri, aber findet nichts Auffälliges, was darauf hindeutet, dass es keine Blutung gibt.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\45_advice with annotation_cycle_224.txt",
+      "row": 35
+    },
+    "model": "meta-llama/llama-3.2-3b-instruct",
+    "provider": "Cloudflare",
+    "configuration_name": "llama-3-2-3b-instruct-240925"
+  },
+  {
+    "phrase": "Ich weiß es nicht, also es könnte durchaus was sein, wenn was ziemlich klein ist, was ich ohne KI nicht gesehen hätte.",
+    "context": "Ich will mir da nicht besonders sicher, aber ich finde den Hinweis auf jeden Fall wichtig.",
+    "tags": [
+      "control: relying_on_ai",
+      "interpretation: bleeding",
+      "other"
+    ],
+    "rationale": "Der Sprecher ist unsicher, ob es sich um eine Blutung handelt, aber er findet den Hinweis auf die Anomalie wichtig und erkennt, dass er ohne die Hilfe der KI nicht gesehen hätte.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\45_advice with annotation_cycle_224.txt",
+      "row": 37
+    },
+    "model": "meta-llama/llama-3.2-3b-instruct",
+    "provider": "Cloudflare",
+    "configuration_name": "llama-3-2-3b-instruct-240925"
+  },
+  {
+    "error": "JSONDecodeError",
+    "message": "Expecting ':' delimiter: line 6 column 43 (char 381)",
+    "raw_output": "{\n  \"classifications\": [\n    {\n      \"phrase\": \"Da stimme ich mit der KI überein, dass da nichts ist.\",\n      \"context\": \"Ich habe hier relativ aufgeweitete Ventrikel. Sehr gut erkennbare Mittellinie, keine Frakturzeichen und auch gut erkennbare Gyri ohne irgendwelche Aufhellungen. Da stimme ich mit der KI überein, dass da nichts ist.\",\n      \"tags: [interpretation: no_bleeding\", \"ai_report: no_ich\"],\n      \"rationale\": \"Der Sprecher stimmt mit der KI überein, dass es keine Blutung gibt, da keine Frakturzeichen oder Aufhellungen vorhanden sind.\"\n    }\n  ]\n}",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\45_advice with annotation_cycle_224.txt",
+      "row": 39
+    },
+    "model": "meta-llama/llama-3.2-3b-instruct",
+    "provider": "Cloudflare",
+    "configuration_name": "llama-3-2-3b-instruct-240925"
+  },
+  {
+    "error": "JSONDecodeError",
+    "message": "Expecting ':' delimiter: line 6 column 43 (char 340)",
+    "raw_output": "{\n  \"classifications\": [\n    {\n      \"phrase\": \"Ich habe noch keine blutungsspezifischen Zeichen gesehen.\",\n      \"context\": \"Hier auch wieder hier ein sehr symmetrisches Bild, ja, wobei? Die Ventrikel nicht ganz, aber ich habe noch keine blutungsspezifischen Zeichen gesehen. Und auch da nicht.\",\n      \"tags: [interpretation: no_bleeding\"],\n      \"rationale\": \"Der Befund 'keine blutungsspezifischen Zeichen' ist ein Hinweis darauf, dass keine Blutung vorhanden ist.\"\n    },\n    {\n      \"phrase\": \"Da würde ich sagen, ist keine Blutung vorhanden\",\n      \"context\": \"Da würde ich sagen, ist keine Blutung vorhanden, bin ich aber nicht ganz sicher.\",\n      \"tags: [interpretation: no_bleeding\"],\n      \"rationale\": \"Der Befund 'keine Blutung vorhanden' ist ein Hinweis darauf, dass keine Blutung vorhanden ist.\"\n    }\n  ]\n}",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\45_advice with annotation_cycle_224.txt",
+      "row": 40
+    },
+    "model": "meta-llama/llama-3.2-3b-instruct",
+    "provider": "Cloudflare",
+    "configuration_name": "llama-3-2-3b-instruct-240925"
+  },
+  {
+    "error": "JSONDecodeError",
+    "message": "Expecting ':' delimiter: line 6 column 43 (char 480)",
+    "raw_output": "{\n  \"classifications\": [\n    {\n      \"phrase\": \"Ich habe wieder ein sehr symmetrisches Gehirn, hier eine sehr klar erkennbare Mittellinie, und da sehe ich keine Auffälligkeiten, bin ich mir auch sicher.\",\n      \"context\": \"Ich habe ein sehr symmetrisches Gehirn, hier eine sehr klar erkennbare Mittellinie, und da sehe ich keine Auffälligkeiten, bin ich mir auch sicher. Ich schaue hier durch, da soll nichts Auffälliges zu sehen sein.\",\n      \"tags: [interpretation: no_bleeding\"],\n      \"rationale\": \"Der Sprecher beschreibt sein Gehirn als symmetrisch und hat keine Auffälligkeiten gefunden, was darauf hindeutet, dass es keine Blutung gibt.\"\n    }\n  ]\n}",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\45_advice with annotation_cycle_224.txt",
+      "row": 42
+    },
+    "model": "meta-llama/llama-3.2-3b-instruct",
+    "provider": "Cloudflare",
+    "configuration_name": "llama-3-2-3b-instruct-240925"
+  },
+  {
+    "phrase": "Hier wurde wieder eine Blutung gefunden.",
+    "context": "Hier wurde wieder eine Blutung gefunden. Ich schaue mir wieder auch erstmal an welche Stelle die KI auffällig fand, die da vorne.",
+    "tags": [
+      "indicator: anomaly_detected",
+      "interpretation: bleeding"
+    ],
+    "rationale": "Der Text beginnt mit der Ankündigung einer neuen Blutung, was als Anzeichen für eine Anomalie interpretiert werden kann.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\45_advice with annotation_cycle_224.txt",
+      "row": 34
+    },
+    "model": "meta-llama/llama-3.2-3b-instruct",
+    "provider": "Parasail",
+    "configuration_name": "llama-3-2-3b-instruct-240925"
+  },
+  {
+    "phrase": "Ich schaue mir das hier auch nochmal an, ja das sieht man auch noch vor allem jetzt gut im Verlauf bei den beiden Bildern.",
+    "context": "Ich schaue mir das hier auch nochmal an, ja das sieht man auch noch vor allem jetzt gut im Verlauf bei den beiden Bildern.",
+    "tags": [
+      "visual_search: description_of_medical_image_features"
+    ],
+    "rationale": "Der Text beschreibt die Visualisierung der Bilder und die Beobachtung von Veränderungen.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\45_advice with annotation_cycle_224.txt",
+      "row": 34
+    },
+    "model": "meta-llama/llama-3.2-3b-instruct",
+    "provider": "Parasail",
+    "configuration_name": "llama-3-2-3b-instruct-240925"
+  },
+  {
+    "phrase": "Da würde ich sagen, ja, das ist eine Blutung.",
+    "context": "Da würde ich sagen, ja, das ist eine Blutung. Da bin ich mir auch sicher.",
+    "tags": [
+      "interpretation: bleeding",
+      "confidence_high: concrete"
+    ],
+    "rationale": "Der Text bestätigt die Interpretation einer Blutung und zeigt eine hohe Sicherheit in der Diagnose.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\45_advice with annotation_cycle_224.txt",
+      "row": 34
+    },
+    "model": "meta-llama/llama-3.2-3b-instruct",
+    "provider": "Parasail",
+    "configuration_name": "llama-3-2-3b-instruct-240925"
+  },
+  {
+    "error": "JSONDecodeError",
+    "message": "Expecting ':' delimiter: line 12 column 61 (char 913)",
+    "raw_output": "{\n  \"classifications\": [\n    {\n      \"phrase\": \"Da soll keine Blutung vorhanden sein.\",\n      \"context\": \"Dann schaue ich einmal hier. Da soll keine Blutung vorhanden sein. Bisher auch noch nichts Auffälliges gesehen.\",\n      \"tags\": [\"ai_report: no_ich\"],\n      \"rationale\": \"Der Sprecher verneint die Existenz einer Blutung und gibt an, dass bisher nichts Auffälliges gesehen wurde.\"\n    },\n    {\n      \"phrase\": \"Klare Abtrennung durch die Seitenlinie eh durch die Mittellinie Ähm, das sieht für mich soweit gut aus\",\n      \"context\": \"Dann schaue ich einmal hier. Da soll keine Blutung vorhanden sein. Bisher auch noch nichts Auffälliges gesehen. Kann hier auch die Strukturen wieder relativ gut erkennen. Klare Abtrennung durch die Seitenlinie eh durch die Mittellinie Ähm, das sieht für mich soweit gut aus, da würde ich der KI auch Recht geben\",\n      \"tags: [interpretation: bleeding_localization_unclear\"],\n      \"rationale\": \"Der Sprecher beschreibt eine klare Abtrennung zwischen den Seitenlinien und der Mittellinie, aber gibt an, dass er die genaue Lokalisation der Blutung nicht erkennen kann.\"\n    }\n  ]\n}",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\45_advice with annotation_cycle_224.txt",
+      "row": 45
+    },
+    "model": "meta-llama/llama-3.2-3b-instruct",
+    "provider": "Cloudflare",
+    "configuration_name": "llama-3-2-3b-instruct-240925"
+  },
+  {
+    "error": "JSONDecodeError",
+    "message": "Expecting ':' delimiter: line 6 column 43 (char 372)",
+    "raw_output": "{\n  \"classifications\": [\n    {\n      \"phrase\": \"dann hier auch wieder sehr symmetrische Ventrikel, keine Aufhellungen, soweit und ein ziemlich klares Bild.\",\n      \"context\": \"dann hier auch wieder sehr symmetrische Ventrikel, keine Aufhellungen, soweit und ein ziemlich klares Bild. Ja, da sehe ich auch keine Auffälligkeiten.\",\n      \"tags: [interpretation: no_bleeding\"],\n      \"rationale\": \"Der Sprecher beschreibt das Bild als symmetrisch und klares, ohne Auffälligkeiten oder Aufhellungen, was darauf hindeutet, dass es keine Blutung gibt.\"\n    },\n    {\n      \"phrase\": \"Ja, da sehe ich auch keine Auffälligkeiten.\",\n      \"context\": \"dann hier auch wieder sehr symmetrische Ventrikel, keine Aufhellungen, soweit und ein ziemlich klares Bild. Ja, da sehe ich auch keine Auffälligkeiten.\",\n      \"tags\": [\"indicator: no_bleeding\"],\n      \"rationale\": \"Der Sprecher bestätigt seine Beobachtung, dass er keine Auffälligkeiten sieht, was weiterhin darauf hindeutet, dass es keine Blutung gibt.\"\n    }\n  ]\n}",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\45_advice with annotation_cycle_224.txt",
+      "row": 46
+    },
+    "model": "meta-llama/llama-3.2-3b-instruct",
+    "provider": "Cloudflare",
+    "configuration_name": "llama-3-2-3b-instruct-240925"
+  },
+  {
+    "error": "JSONDecodeError",
+    "message": "Expecting property name enclosed in double quotes: line 12 column 3 (char 862)",
+    "raw_output": "{\n  \"classifications\": [\n    {\n      \"phrase\": \"Ich habe keine Auffälligkeiten bisher erkennen können.\",\n      \"context\": \"Ich habe keine Auffälligkeiten bisher erkennen können. Gut erkennbare Sulci, da habe ich auch nichts Auffälliges gesehen.\",\n      \"tags\": [\"control: missing_information\"],\n      \"rationale\": \"Der Sprecher gibt zu, dass er bisher keine Auffälligkeiten erkannt hat, aber erwähnt auch, dass er gut erkennbare Sulci gesehen hat, was darauf hindeutet, dass er sich auf die Details des Bildes konzentriert und möglicherweise nicht auf die gesamte Bildgebung.\"\n    },\n    {\n      \"phrase\": \"Ich bin mir auch ziemlich sicher.\",\n      \"context\": \"Ich habe keine Auffälligkeiten bisher erkennen können. Gut erkennbare Sulci, da habe ich auch nichts Auffälliges gesehen. Da würde ich der KI auch Recht geben, da bin ich mir auch ziemlich sicher.\",\n  tags: [\"confidence_high: secondary\"],\n      \"rationale\": \"Der Sprecher gibt an, dass er sich ziemlich sicher ist, was darauf hindeutet, dass er eine gewisse Vertrautheit mit dem Thema hat und möglicherweise auch eine gewisse Fähigkeit, zwischen relevanten und irrelevanten Informationen zu unterscheiden.\"\n    }\n  ]\n}",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\45_advice with annotation_cycle_224.txt",
+      "row": 47
+    },
+    "model": "meta-llama/llama-3.2-3b-instruct",
+    "provider": "Cloudflare",
+    "configuration_name": "llama-3-2-3b-instruct-240925"
+  },
+  {
+    "phrase": "Sehe ein sehr symmetrisches Gehirn mit relativ schmalen Ventrikeln, die ich hier nicht gut erkennen kann.",
+    "context": "linken Seite im Gehirn. Dann schaue ich einmal hier, auch wieder, ohne von der AI entdeckte Auffälligkeiten. Sehe ein sehr symmetrisches Gehirn mit relativ schmalen Ventrikeln, die ich hier nicht gut erkennen kann. Das wundert mich ein bisschen, aber ich sehe keine Blutungszeichen soweit. Deswegen würde ich mich der AI da auch anschließen.",
+    "tags": [
+      "visual_search: description_of_medical_image_features"
+    ],
+    "rationale": "Der Text beschreibt eine Symmetrie im Gehirn und die Größe der Ventrikeln, was ein interessantes Merkmal ist, aber keine Anzeichen für eine Blutung.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\45_advice with annotation_cycle_224.txt",
+      "row": 43
+    },
+    "model": "meta-llama/llama-3.2-3b-instruct",
+    "provider": "Cloudflare",
+    "configuration_name": "llama-3-2-3b-instruct-240925"
+  },
+  {
+    "phrase": "Das wundert mich ein bisschen, aber ich sehe keine Blutungszeichen soweit.",
+    "context": "linken Seite im Gehirn. Dann schaue ich einmal hier, auch wieder, ohne von der AI entdeckte Auffälligkeiten. Sehe ein sehr symmetrisches Gehirn mit relativ schmalen Ventrikeln, die ich hier nicht gut erkennen kann. Das wundert mich ein bisschen, aber ich sehe keine Blutungszeichen soweit. Deswegen würde ich mich der AI da auch anschließen.",
+    "tags": [
+      "indicator: no_bleeding"
+    ],
+    "rationale": "Der Text gibt keine Anzeichen für eine Blutung, was die Vermutung nahelegt, dass es keine Blutung gibt.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\45_advice with annotation_cycle_224.txt",
+      "row": 43
+    },
+    "model": "meta-llama/llama-3.2-3b-instruct",
+    "provider": "Cloudflare",
+    "configuration_name": "llama-3-2-3b-instruct-240925"
+  },
+  {
+    "phrase": "Das schaue ich mir auch mal auf beiden Bildern nochmal an.",
+    "context": "linken Seite im Gehirn. Das schaue ich mir auch mal auf beiden Bildern nochmal an. Ja, also man erkennt schon da auch einen Seiteunterschied, vor der, dem Occipitallappen.",
+    "tags": [
+      "control: control_repeat"
+    ],
+    "rationale": "Der Sprecher wiederholt die Aktion des Überprüfens der Bilder, was auf eine Kontrolle oder Überprüfung der Ergebnisse hinweist.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\45_advice with annotation_cycle_224.txt",
+      "row": 18
+    },
+    "model": "meta-llama/llama-3.2-3b-instruct",
+    "provider": "Parasail",
+    "configuration_name": "llama-3-2-3b-instruct-240925"
+  },
+  {
+    "phrase": "Da bin ich mir auch wieder nicht ganz sicher, ob es eine Blutung ist oder ob's ne andere Erkrankung ist.",
+    "context": "linken Seite im Gehirn. Da bin ich mir auch wieder nicht ganz sicher, ob es eine Blutung ist oder ob's ne andere Erkrankung ist. Aber es könnte durchaus eine Blutung sein.",
+    "tags": [
+      "interpretation: bleeding",
+      "interpretation: uncertainty"
+    ],
+    "rationale": "Der Sprecher äußert Unsicherheit bezüglich der Diagnose, da er nicht sicher ist, ob es eine Blutung oder eine andere Erkrankung ist.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\45_advice with annotation_cycle_224.txt",
+      "row": 18
+    },
+    "model": "meta-llama/llama-3.2-3b-instruct",
+    "provider": "Parasail",
+    "configuration_name": "llama-3-2-3b-instruct-240925"
+  },
+  {
+    "phrase": "Aber es könnte durchaus eine Blutung sein.",
+    "context": "linken Seite im Gehirn. Da bin ich mir auch wieder nicht ganz sicher, ob es eine Blutung ist oder ob's ne andere Erkrankung ist. Aber es könnte durchaus eine Blutung sein.",
+    "tags": [
+      "interpretation: bleeding"
+    ],
+    "rationale": "Der Sprecher bleibt an der Möglichkeit einer Blutung festhalten.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\45_advice with annotation_cycle_224.txt",
+      "row": 18
+    },
+    "model": "meta-llama/llama-3.2-3b-instruct",
+    "provider": "Parasail",
+    "configuration_name": "llama-3-2-3b-instruct-240925"
+  },
+  {
+    "phrase": "Da würde ich der KI erstmal zustimmen.",
+    "context": "linken Seite im Gehirn. Da bin ich mir auch wieder nicht ganz sicher, ob es eine Blutung ist oder ob's ne andere Erkrankung ist. Aber es könnte durchaus eine Blutung sein. Da würde ich der KI erstmal zustimmen.",
+    "tags": [
+      "decision_with_ai: explicitly_agreeing_with_ai"
+    ],
+    "rationale": "Der Sprecher stimmt der KI zu, dass es eine Blutung sein könnte.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\45_advice with annotation_cycle_224.txt",
+      "row": 18
+    },
+    "model": "meta-llama/llama-3.2-3b-instruct",
+    "provider": "Parasail",
+    "configuration_name": "llama-3-2-3b-instruct-240925"
+  },
+  {
+    "phrase": "Ansonsten sieht es für mich soweit gut aus.",
+    "context": "linken Seite im Gehirn. Da bin ich mir auch wieder nicht ganz sicher, ob es eine Blutung ist oder ob's ne andere Erkrankung ist. Aber es könnte durchaus eine Blutung sein. Da würde ich der KI erstmal zustimmen. Ansonsten sieht es für mich soweit gut aus.",
+    "tags": [
+      "control: control_repeat"
+    ],
+    "rationale": "Der Sprecher äußert sich positiv über die Ergebnisse, wenn es keine Anzeichen einer Erkrankung gibt.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\45_advice with annotation_cycle_224.txt",
+      "row": 18
+    },
+    "model": "meta-llama/llama-3.2-3b-instruct",
+    "provider": "Parasail",
+    "configuration_name": "llama-3-2-3b-instruct-240925"
+  },
+  {
+    "phrase": "Da bin ich mir aber nicht ganz so sicher.",
+    "context": "linken Seite im Gehirn. Da bin ich mir auch wieder nicht ganz sicher, ob es eine Blutung ist oder ob's ne andere Erkrankung ist. Aber es könnte durchaus eine Blutung sein. Da würde ich der KI erstmal zustimmen. Ansonsten sieht es für mich soweit gut aus.",
+    "tags": [
+      "interpretation: uncertainty"
+    ],
+    "rationale": "Der Sprecher bleibt an der Unsicherheit festhalten.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\45_advice with annotation_cycle_224.txt",
+      "row": 18
+    },
+    "model": "meta-llama/llama-3.2-3b-instruct",
+    "provider": "Parasail",
+    "configuration_name": "llama-3-2-3b-instruct-240925"
+  },
+  {
+    "error": "JSONDecodeError",
+    "message": "Expecting ':' delimiter: line 12 column 21 (char 780)",
+    "raw_output": "{\n  \"classifications\": [\n    {\n      \"phrase\": \"Hier soll es keine Auffälligkeiten geben.\",\n      \"context\": \"Hier soll es keine Auffälligkeiten geben. Relativ schmale Ventrikel. Ich kann aber die Mittelinie gut erkennen, hier die Plexus der Ventrikel. Ich sehe keine Auffälligkeiten und auch keine Verletzungen der Knochen.\",\n      \"tags\": [\"indicator: no_bleeding\"],\n      \"rationale\": \"Der Sprecher bestätigt, dass keine Auffälligkeiten oder Verletzungen der Knochen vorhanden sind, was darauf hindeutet, dass keine Blutung vorliegt.\"\n    },\n    {\n      \"phrase\": \"Relativ schmale Ventrikel.\",\n      \"context\": \"Hier soll es keine Auffälligkeiten geben. Relativ schmale Ventrikel. Ich kann aber die Mittelinie gut erkennen, hier die Plexus der Ventrikel.\",\n      \"tags: [other\"],\n      \"rationale\": \"Dieser Satz ist nicht direkt mit einer Auffälligkeit oder Verletzung verbunden, daher kann er nicht genau klassifiziert werden.\"\n    },\n    {\n      \"phrase\": \"Ich kann aber die Mittelinie gut erkennen, hier die Plexus der Ventrikel.\",\n      \"context\": \"Hier soll es keine Auffälligkeiten geben. Relativ schmale Ventrikel. Ich kann aber die Mittelinie gut erkennen, hier die Plexus der Ventrikel.\",\n      \"tags: [interpretation: bleeding_localization_unclear\"],\n      \"rationale\": \"Der Sprecher kann die Mittelinie gut erkennen, was darauf hindeutet, dass eine Blutung in der Nähe der Mittelinie vorliegen könnte, aber die genaue Lokalisation ist unklar.\"\n    },\n    {\n      \"phrase\": \"Ich sehe keine Auffälligkeiten und auch keine Verletzungen der Knochen.\",\n      \"context\": \"Hier soll es keine Auffälligkeiten geben. Relativ schmale Ventrikel. Ich kann aber die Mittelinie gut erkennen, hier die Plexus der Ventrikel. Ich sehe keine Auffälligkeiten und auch keine Verletzungen der Knochen.\",\n      \"tags\": [\"indicator: no_bleeding\"],\n      \"rationale\": \"Der Sprecher bestätigt, dass keine Auffälligkeiten oder Verletzungen der Knochen vorhanden sind, was darauf hindeutet, dass keine Blutung vorliegt.\"\n    },\n    {\n      \"phrase\": \"Ja, da würde ich mit der KI übereinstimmen, dass da keine Blutung vorhanden ist.\",\n      \"context\": \"Hier soll es keine Auffälligkeiten geben. Relativ schmale Ventrikel. Ich kann aber die Mittelinie gut erkennen, hier die Plexus der Ventrikel. Ich sehe keine Auffälligkeiten und auch keine Verletzungen der Knochen. Ja, da würde ich mit der KI übereinstimmen, dass da keine Blutung vorhanden ist.\",\n      \"tags\": [\"decision_with_ai: explicitly_agreeing_with_ai\"],\n      \"rationale\": \"Der Sprecher stimmt mit der KI überein, dass keine Blutung vorhanden ist, was seine Interpretation bestätigt.\"\n    }\n  ]\n}",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\45_advice with annotation_cycle_224.txt",
+      "row": 38
+    },
+    "model": "meta-llama/llama-3.2-3b-instruct",
+    "provider": "Cloudflare",
+    "configuration_name": "llama-3-2-3b-instruct-240925"
+  },
+  {
+    "phrase": "Das könnte eine Subarachnoidalblutung sein, eine ganz kleine, aber ich bin mir da nicht sicher.",
+    "context": "Hier soll wieder eine Blutung zu erkennen sein. Ich schau wieder einmal durch. Ähm, verhältnismäßig breite Ventrikel. Da hat die AI ne Blutung erkannt. Das könnte eine Subarachnoidalblutung sein, eine ganz kleine, aber ich bin mir da nicht sicher.",
+    "tags": [
+      "indicator: anomaly_detected",
+      "interpretation: bleeding",
+      "interpretation: bleeding_localization_unclear"
+    ],
+    "rationale": "Der Sprecher bemerkt eine Anomalie (Anomalie detektiert) und vermutet eine Blutung (Bleeding), aber ist sich nicht sicher, ob es sich um eine Subarachnoidalblutung handelt. Er zeigt sich unsicher und möchte weitere Informationen einholen.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\45_advice with annotation_cycle_224.txt",
+      "row": 44
+    },
+    "model": "meta-llama/llama-3.2-3b-instruct",
+    "provider": "Parasail",
+    "configuration_name": "llama-3-2-3b-instruct-240925"
+  },
+  {
+    "phrase": "Also keine Blutung",
+    "context": "Dann schaue ich einmal hier durch, ähm, ja, das ist alles noch von den Knochen. Hier sehe ich auch wieder ein sehr symmetrisches Bild. Ich sehe keine Auffälligkeiten an den Knochen. Das sieht für mich auch gut aus. Also keine Blutung",
+    "tags": [
+      "interpretation: no_bleeding"
+    ],
+    "rationale": "Der Sprecher verneint die Möglichkeit einer Blutung und beschreibt das Bild als symmetrisch und ohne Auffälligkeiten an den Knochen.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\45_advice with annotation_cycle_224.txt",
+      "row": 48
+    },
+    "model": "meta-llama/llama-3.2-3b-instruct",
+    "provider": "Parasail",
+    "configuration_name": "llama-3-2-3b-instruct-240925"
+  },
+  {
+    "phrase": "Das hätte ich vielleicht auch ohne nicht so gut erkannt, aber da sieht man schon einen Unterschied auf den beiden Seiten.",
+    "context": "Schaue ich mir hier mal wieder die auffällige Stelle an, die ist hier. Da sehe ich auch von den Gyri schon ah ne von den Sulci an der Seite den ? Unterschied. Schauen mir das parallel auf beiden Bildern einmal an.",
+    "tags": [
+      "control: relying_on_ai",
+      "interpretation: bleeding"
+    ],
+    "rationale": "Der Sprecher vertraut auf die AI, um die auffällige Stelle zu identifizieren, und erkennt dabei eine Blutung an. Er würde die Identifizierung ohne die AI möglicherweise nicht so gut gemacht haben.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\45_advice with annotation_cycle_224.txt",
+      "row": 41
+    },
+    "model": "meta-llama/llama-3.2-3b-instruct",
+    "provider": "Parasail",
+    "configuration_name": "llama-3-2-3b-instruct-240925"
+  },
+  {
+    "phrase": "Da würde ich auch sagen, dass es sich da um eine Blutung handelt, würde das aber nochmal überprüfen.",
+    "context": "Schaue ich mir hier mal wieder die auffällige Stelle an, die ist hier. Da sehe ich auch von den Gyri schon ah ne von den Sulci an der Seite den ? Unterschied. Schauen mir das parallel auf beiden Bildern einmal an.",
+    "tags": [
+      "interpretation: bleeding"
+    ],
+    "rationale": "Der Sprecher ist sich nicht sicher, ob es sich um eine Blutung handelt, und möchte es noch einmal überprüfen.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\45_advice with annotation_cycle_224.txt",
+      "row": 41
+    },
+    "model": "meta-llama/llama-3.2-3b-instruct",
+    "provider": "Parasail",
+    "configuration_name": "llama-3-2-3b-instruct-240925"
+  },
+  {
+    "error": "JSONDecodeError",
+    "message": "Expecting ':' delimiter: line 12 column 61 (char 791)",
+    "raw_output": "{\n  \"classifications\": [\n    {\n      \"phrase\": \"Bei dem Bild, da soll eine Blutung vorhanden sein.\",\n      \"context\": \"linken Seite im Gehirn. Bei dem Bild, da soll eine Blutung vorhanden sein. Ich schaue mir die einmal an.\",\n      \"tags\": [\"indicator: anomaly_detected\", \"interpretation: bleeding\"],\n      \"rationale\": \"Der Sprecher erwähnt eine Blutung und beschreibt sie als verdächtig, was auf eine Anomalie hinweist.\"\n    },\n    {\n      \"phrase\": \"Hier oben ja, das sieht auf jeden Fall so verdächtig aus, weil das auch eben auf beiden Seiten unterschiedlich ist.\",\n      \"context\": \"linken Seite im Gehirn. Hier oben ja, das sieht auf jeden Fall so verdächtig aus, weil das auch eben auf beiden Seiten unterschiedlich ist.\",\n      \"tags: [interpretation: bleeding_localization_unclear\"],\n      \"rationale\": \"Der Sprecher beschreibt eine Verdächtigung aufgrund der ungleichen Seitenverteilung, was auf eine mögliche Blutung hinweist, aber die genaue Lokalisation ist unklar.\"\n    },\n    {\n      \"phrase\": \"Und auch hier im weiteren Verlauf, alles ein bisschen unruhig, ähm, ich schau mir das noch einmal auf dem anderen Bild an.\",\n      \"context\": \"linken Seite im Gehirn. Und auch hier im weiteren Verlauf, alles ein bisschen unruhig, ähm, ich schau mir das noch einmal auf dem anderen Bild an.\",\n      \"tags\": [\"control: control_repeat\"],\n      \"rationale\": \"Der Sprecher wiederholt die Untersuchung des Bildes, um sicherzustellen, dass er alles sorgfältig betrachtet hat.\"\n    },\n    {\n      \"phrase\": \"Also, es könnte aber auch eben eine Epiduralblutung sein.\",\n      \"context\": \"linken Seite im Gehirn. Also, es könnte aber auch eben eine Epiduralblutung sein. Hier ja würde ich auch mal als auffällig kennzeichnen.\",\n      \"tags\": [\"indicator: no_bleeding\", \"interpretation: bleeding\"],\n      \"rationale\": \"Der Sprecher erwähnt eine mögliche Epiduralblutung, was auf eine Anomalie hinweist, aber er ist sich nicht sicher, ob es sich um eine Blutung handelt.\"\n    },\n    {\n      \"phrase\": \"Ich bin mir aber nicht ganz so sicher, aber der Hinweis ist auf jeden Fall Sinn voll.\",\n      \"context\": \"linken Seite im Gehirn. Ich bin mir aber nicht ganz so sicher, aber der Hinweis ist auf jeden Fall Sinn voll.\",\n  tags: [\"reflection: diagnostic_uncertainty\"],\n      \"rationale\": \"Der Sprecher ist sich nicht sicher, ob er die Anomalie richtig interpretiert hat, aber er ist sich über die Bedeutung des Hinweises im Klaren.\"\n    }\n  ]\n}",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\45_advice with annotation_cycle_224.txt",
+      "row": 49
+    },
+    "model": "meta-llama/llama-3.2-3b-instruct",
+    "provider": "Cloudflare",
+    "configuration_name": "llama-3-2-3b-instruct-240925"
+  },
+  {
+    "phrase": "Das könnte für mich eine Blutung sein.",
+    "context": "linken Seite im Gehirn. Das könnte für mich eine Blutung sein. Ja. Genau.",
+    "tags": [
+      "interpretation: bleeding"
+    ],
+    "rationale": "Der Sprecher vertraut auf seine eigene Einschätzung und gibt der Blutung eine hohe Wahrscheinlichkeit zu.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\45_advice with annotation_cycle_224.txt",
+      "row": 22
+    },
+    "model": "meta-llama/llama-3.2-3b-instruct",
+    "provider": "Parasail",
+    "configuration_name": "llama-3-2-3b-instruct-240925"
+  },
+  {
+    "phrase": "Ich gehe dann einmal erst mal durch um mir mögliche Blutung anzeigen zu lassen.",
+    "context": "linken Seite im Gehirn. Ich gehe dann einmal erst mal durch um mir mögliche Blutung anzeigen zu lassen.",
+    "tags": [
+      "control: control_repeat"
+    ],
+    "rationale": "Der Sprecher beschreibt seinen Vorgang, indem er durch das Bild navigiert, um mögliche Anzeichen einer Blutung zu finden.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\45_advice with annotation_cycle_224.txt",
+      "row": 22
+    },
+    "model": "meta-llama/llama-3.2-3b-instruct",
+    "provider": "Parasail",
+    "configuration_name": "llama-3-2-3b-instruct-240925"
+  },
+  {
+    "phrase": "Hier schon eine Seitenverschiebung.",
+    "context": "linken Seite im Gehirn. Hier schon eine Seitenverschiebung.",
+    "tags": [
+      "indicator: anomaly_detected"
+    ],
+    "rationale": "Der Sprecher bemerkt eine Seitenverschiebung, die auf eine Anomalie hinweist.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\45_advice with annotation_cycle_224.txt",
+      "row": 22
+    },
+    "model": "meta-llama/llama-3.2-3b-instruct",
+    "provider": "Parasail",
+    "configuration_name": "llama-3-2-3b-instruct-240925"
+  },
+  {
+    "phrase": "Da wird eine relativ große Blutung dargestellt.",
+    "context": "linken Seite im Gehirn. Da wird eine relativ große Blutung dargestellt.",
+    "tags": [
+      "indicator: anomaly_detected"
+    ],
+    "rationale": "Der Sprecher bemerkt eine große Blutung, die auf eine Anomalie hinweist.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\45_advice with annotation_cycle_224.txt",
+      "row": 22
+    },
+    "model": "meta-llama/llama-3.2-3b-instruct",
+    "provider": "Parasail",
+    "configuration_name": "llama-3-2-3b-instruct-240925"
+  },
+  {
+    "phrase": "Man erkennt auf jeden Fall nur einen unterschiedlichen Kontrast.",
+    "context": "linken Seite im Gehirn. Man erkennt auf jeden Fall nur einen unterschiedlichen Kontrast.",
+    "tags": [
+      "indicator: anomaly_detected"
+    ],
+    "rationale": "Der Sprecher bemerkt einen unterschiedlichen Kontrast, der auf eine Anomalie hinweist.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\45_advice with annotation_cycle_224.txt",
+      "row": 22
+    },
+    "model": "meta-llama/llama-3.2-3b-instruct",
+    "provider": "Parasail",
+    "configuration_name": "llama-3-2-3b-instruct-240925"
+  },
+  {
+    "phrase": "Und eben auch der Ventrikel, ist da deutlich schwächer ausgeprägt.",
+    "context": "linken Seite im Gehirn. Und eben auch der Ventrikel, ist da deutlich schwächer ausgeprägt.",
+    "tags": [
+      "indicator: anomaly_detected"
+    ],
+    "rationale": "Der Sprecher bemerkt, dass der Ventrikel schwächer ausgeprägt ist, was auf eine Anomalie hinweist.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\45_advice with annotation_cycle_224.txt",
+      "row": 22
+    },
+    "model": "meta-llama/llama-3.2-3b-instruct",
+    "provider": "Parasail",
+    "configuration_name": "llama-3-2-3b-instruct-240925"
+  },
+  {
+    "phrase": "Hier auf der Seite auch.",
+    "context": "linken Seite im Gehirn. Hier auf der Seite auch.",
+    "tags": [
+      "indicator: anomaly_detected"
+    ],
+    "rationale": "Der Sprecher bemerkt eine weitere Anomalie auf der Seite.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\45_advice with annotation_cycle_224.txt",
+      "row": 22
+    },
+    "model": "meta-llama/llama-3.2-3b-instruct",
+    "provider": "Parasail",
+    "configuration_name": "llama-3-2-3b-instruct-240925"
+  },
+  {
+    "phrase": "Ja, da würde ich auch sagen, dass es eine Blutung ist.",
+    "context": "linken Seite im Gehirn. Ja, da würde ich auch sagen, dass es eine Blutung ist.",
+    "tags": [
+      "interpretation: bleeding"
+    ],
+    "rationale": "Der Sprecher vertraut auf seine eigene Einschätzung und gibt der Blutung eine hohe Wahrscheinlichkeit zu.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\45_advice with annotation_cycle_224.txt",
+      "row": 22
+    },
+    "model": "meta-llama/llama-3.2-3b-instruct",
+    "provider": "Parasail",
+    "configuration_name": "llama-3-2-3b-instruct-240925"
+  },
+  {
+    "phrase": "Aber vielleicht auch eher eine Subarachnoidalblutung.",
+    "context": "linken Seite im Gehirn. Aber vielleicht auch eher eine Subarachnoidalblutung.",
+    "tags": [
+      "interpretation: bleeding"
+    ],
+    "rationale": "Der Sprecher berücksichtigt auch die Möglichkeit einer Subarachnoidalblutung.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\45_advice with annotation_cycle_224.txt",
+      "row": 22
+    },
+    "model": "meta-llama/llama-3.2-3b-instruct",
+    "provider": "Parasail",
+    "configuration_name": "llama-3-2-3b-instruct-240925"
+  },
+  {
+    "phrase": "Aber ja, auf jeden Fall was Auffälliges.",
+    "context": "linken Seite im Gehirn. Aber ja, auf jeden Fall was Auffälliges.",
+    "tags": [
+      "indicator: anomaly_detected"
+    ],
+    "rationale": "Der Sprecher bemerkt eine Anomalie, die auf eine Auffälligkeit hinweist.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\45_advice with annotation_cycle_224.txt",
+      "row": 22
+    },
+    "model": "meta-llama/llama-3.2-3b-instruct",
+    "provider": "Parasail",
+    "configuration_name": "llama-3-2-3b-instruct-240925"
+  }
+]

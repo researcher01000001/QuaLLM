@@ -1,0 +1,1369 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>HeadCT Think Aloud - Coded Quotes</title>
+        <style>
+            body {
+                font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+                margin: 0;
+                padding: 20px;
+                background-color: #f5f5f5;
+                line-height: 1.8;
+            }
+            h1 {
+                color: #333;
+                text-align: center;
+                margin-bottom: 30px;
+            }
+            /* Toolbar */
+            .toolbar {
+                display: flex;
+                gap: 12px;
+                justify-content: center;
+                align-items: center;
+                margin-bottom: 24px;
+                flex-wrap: wrap;
+            }
+            /* Toolbar dropdown menus -- View / Tags / Filter / Fold all share
+               this one generic pattern (button + absolutely-positioned
+               panel); Download is a plain button using .dropdown-btn's look
+               with no panel. */
+            .dropdown-wrap {
+                position: relative;
+                display: inline-flex;
+                align-items: center;
+            }
+            .dropdown-btn {
+                display: inline-flex;
+                align-items: center;
+                gap: 6px;
+                padding: 8px 18px;
+                border-radius: 20px;
+                border: 2px solid #007bff;
+                background-color: white;
+                color: #007bff;
+                font-size: 13px;
+                font-weight: 600;
+                cursor: pointer;
+                transition:
+                    background-color 0.2s ease,
+                    color 0.2s ease;
+                user-select: none;
+            }
+            .dropdown-btn:hover {
+                background-color: #e8f0fe;
+            }
+            .dropdown-btn.open {
+                background-color: #007bff;
+                color: white;
+            }
+            .dropdown-btn.active {
+                border-color: #0056b3;
+            }
+            .dropdown-panel {
+                display: none;
+                position: absolute;
+                top: calc(100% + 6px);
+                left: 0;
+                z-index: 100;
+                background: white;
+                border: 2px solid #007bff;
+                border-radius: 12px;
+                padding: 10px 14px;
+                min-width: 200px;
+                max-height: 320px;
+                overflow-y: auto;
+                box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+                flex-direction: column;
+                gap: 6px;
+            }
+            .dropdown-panel.open {
+                display: flex;
+            }
+            .dropdown-check-item {
+                display: flex;
+                align-items: center;
+                gap: 8px;
+                font-size: 13px;
+                font-weight: 500;
+                color: #333;
+                cursor: pointer;
+                padding: 3px 0;
+                white-space: nowrap;
+            }
+            .dropdown-check-item input[type="checkbox"] {
+                accent-color: #007bff;
+                width: 14px;
+                height: 14px;
+                cursor: pointer;
+            }
+            .dropdown-check-item:has(input:disabled) {
+                color: #999;
+                cursor: not-allowed;
+            }
+            .dropdown-action-item {
+                display: block;
+                width: 100%;
+                text-align: left;
+                background: none;
+                border: none;
+                font-size: 13px;
+                font-weight: 500;
+                color: #333;
+                cursor: pointer;
+                padding: 6px 4px;
+                border-radius: 6px;
+                white-space: nowrap;
+            }
+            .dropdown-action-item:hover {
+                background-color: #e8f0fe;
+                color: #007bff;
+            }
+            .dropdown-section-label {
+                font-size: 11px;
+                font-weight: 700;
+                text-transform: uppercase;
+                letter-spacing: 0.03em;
+                color: #999;
+                padding: 4px 0 2px;
+            }
+            .dropdown-separator {
+                height: 1px;
+                background: #eee;
+                margin: 4px 0;
+            }
+            /* Legend */
+            .legend {
+                background-color: white;
+                padding: 20px;
+                margin-bottom: 30px;
+                border-radius: 8px;
+                box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+            }
+            .legend-title {
+                font-size: 18px;
+                font-weight: bold;
+                margin-bottom: 15px;
+                color: #333;
+            }
+            .legend-items {
+                display: grid;
+                grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+                gap: 10px;
+            }
+            .legend-item {
+                display: flex;
+                align-items: center;
+                gap: 8px;
+            }
+            .legend-color {
+                width: 40px;
+                height: 20px;
+                border-radius: 3px;
+                border: 1px solid #ccc;
+                flex-shrink: 0;
+            }
+            .legend-label {
+                font-size: 13px;
+                color: #555;
+            }
+            /* Tags that occurred in the AI coding but aren't in the predefined codebook */
+            .legend-item.undefined .legend-color {
+                border: 2px dashed #333;
+            }
+            .legend-item.undefined .legend-label {
+                font-style: italic;
+            }
+            .tag-badge.undefined,
+            .quote-tooltip-tag.undefined .quote-tooltip-color {
+                border: 2px dashed #333;
+            }
+            /* Undefined tags -- shown by default, hidden via the Tags dropdown's
+               "Show undefined tags" checkbox (opposite polarity from system
+               tags, which are hidden by default). */
+            body.drop-undefined-tags .legend-item.undefined,
+            body.drop-undefined-tags .tag-badge.undefined,
+            body.drop-undefined-tags .quote-tooltip-tag.undefined {
+                display: none;
+            }
+            /* Per-document score blocks: one per drop_undefined_tags variant when
+               the undefined-tags feature is enabled (two data-variant blocks);
+               a single, unattributed block otherwise. Default state shows the
+               "including" variant. */
+            .document-scores[data-variant="excluding"] {
+                display: none;
+            }
+            body.drop-undefined-tags .document-scores[data-variant="including"] {
+                display: none;
+            }
+            body.drop-undefined-tags .document-scores[data-variant="excluding"] {
+                display: flex;
+            }
+            /* System (administrative/meta) tags -- hidden by default, revealed
+               via the Tags dropdown's "Show system tags" checkbox; dotted
+               border distinguishes them from undefined tags' dashed border
+               when shown. */
+            .legend-item.system,
+            .tag-badge.system,
+            .quote-tooltip-tag.system {
+                display: none;
+            }
+            body.show-system-tags .legend-item.system {
+                display: flex;
+            }
+            body.show-system-tags .tag-badge.system {
+                display: inline-flex;
+            }
+            body.show-system-tags .quote-tooltip-tag.system {
+                display: flex;
+            }
+            .legend-item.system .legend-color,
+            .tag-badge.system,
+            .quote-tooltip-tag.system .quote-tooltip-color {
+                border: 2px dotted #333;
+            }
+            /* Document section */
+            .document {
+                background-color: white;
+                margin-bottom: 40px;
+                border-radius: 8px;
+                box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+                overflow: hidden;
+            }
+            .document-title {
+                font-size: 20px;
+                font-weight: bold;
+                color: #333;
+                border-bottom: 3px solid #007bff;
+                padding: 16px 20px;
+                background-color: #f0f6ff;
+            }
+            .document-scores {
+                background-color: #f9f9f9;
+                padding: 8px 20px;
+                display: flex;
+                gap: 20px;
+                font-size: 14px;
+                border-bottom: 1px solid #ddd;
+                color: #555;
+            }
+            /* Comparison table */
+            .comparison-table {
+                width: 100%;
+                border-collapse: collapse;
+                table-layout: fixed;
+                font-size: 14px;
+                color: #444;
+            }
+            .comparison-table thead th {
+                position: sticky;
+                top: 0;
+                background-color: #007bff;
+                color: white;
+                font-weight: 600;
+                padding: 10px 16px;
+                text-align: left;
+                z-index: 10;
+            }
+            .comparison-table tbody tr {
+                border-bottom: 2px solid #c8c8c8;
+                vertical-align: top;
+                position: relative;
+                z-index: 1;
+            }
+            .comparison-table tbody tr:last-child {
+                border-bottom: none;
+            }
+            .comparison-table tbody tr:nth-child(even) {
+                background-color: #fafafa;
+            }
+            .comparison-table tbody tr:hover {
+                background-color: #eef4ff;
+                z-index: 20;
+            }
+            .col-para-num {
+                width: 90px;
+                min-width: 70px;
+                max-width: 130px;
+                text-align: center;
+                padding: 10px 8px;
+                font-size: 12px;
+                white-space: normal;
+                overflow: hidden;
+                word-break: break-word;
+                border-right: 1px solid #c8c8c8;
+                vertical-align: top;
+            }
+            .para-num-primary {
+                font-size: 11px;
+                color: #999;
+                display: block;
+            }
+            /* Each meta value span is hidden by default; JS shows the active one */
+            .para-num-meta {
+                display: none;
+                font-size: 12px;
+                color: #444;
+                font-weight: 500;
+            }
+            .col-coder {
+                width: auto;
+                padding: 10px 16px;
+                white-space: normal;
+                line-height: 1.7;
+                vertical-align: top;
+            }
+            .col-coder + .col-coder {
+                border-left: 2px solid #c8c8c8;
+            }
+            .coder-text {
+                margin-bottom: 8px;
+            }
+            .coder-badges {
+                display: flex;
+                flex-wrap: wrap;
+                gap: 4px;
+                border-top: 1px dashed #c8c8c8;
+                padding-top: 6px;
+                min-height: 24px;
+            }
+            /* Hide all badge rows when tags are toggled off */
+            body.hide-tags .coder-badges {
+                display: none;
+            }
+            /* Duplicate badges are hidden by default; JS adds this class to reveal them */
+            .tag-badge.duplicate {
+                display: none;
+            }
+            body.show-dupes .tag-badge.duplicate {
+                display: inline-flex;
+            }
+            /* A badge that is both a duplicate and an undefined/system tag
+               must stay governed by its category's own toggle -- these
+               compound selectors are deliberately more specific (4 classes)
+               than body.show-dupes .tag-badge.duplicate (3 classes) above,
+               so "show duplicate tags" can never resurrect a tag category
+               that's currently turned off. */
+            body.drop-undefined-tags .tag-badge.undefined.duplicate,
+            body:not(.show-system-tags) .tag-badge.system.duplicate {
+                display: none;
+            }
+            /* Tag badges inside rating cells */
+            .tag-badge {
+                display: inline-flex;
+                align-items: center;
+                gap: 5px;
+                margin: 2px 3px 2px 0;
+                padding: 2px 8px;
+                border-radius: 12px;
+                font-size: 11px;
+                font-weight: 500;
+                color: #fff;
+                white-space: nowrap;
+            }
+            /* Inline quote highlight inside text column */
+            .quote {
+                position: relative;
+                display: inline;
+                cursor: help;
+                padding: 2px 0;
+                border-radius: 3px;
+                transition: all 0.2s ease;
+                border: 1px solid transparent;
+            }
+            .quote-tooltip {
+                visibility: hidden;
+                position: absolute;
+                z-index: 1000;
+                background-color: #333;
+                color: white;
+                border-radius: 6px;
+                font-size: 12px;
+                white-space: nowrap;
+                bottom: 125%;
+                left: 50%;
+                transform: translateX(-50%);
+                opacity: 0;
+                transition: opacity 0.3s;
+                box-shadow: 0 2px 8px rgba(0, 0, 0, 0.3);
+                min-width: 150px;
+            }
+            .quote-tooltip-tag {
+                padding: 6px 10px;
+                border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+                display: flex;
+                align-items: center;
+                gap: 8px;
+            }
+            .quote-tooltip-tag:last-child {
+                border-bottom: none;
+            }
+            .quote-tooltip-color {
+                width: 16px;
+                height: 16px;
+                border-radius: 3px;
+                border: 1px solid rgba(255, 255, 255, 0.3);
+                flex-shrink: 0;
+            }
+            .quote-tooltip-label {
+                flex: 1;
+            }
+            .quote-tooltip::after {
+                content: "";
+                position: absolute;
+                top: 100%;
+                left: 50%;
+                margin-left: -5px;
+                border-width: 5px;
+                border-style: solid;
+                border-color: #333 transparent transparent transparent;
+            }
+            .quote:hover .quote-tooltip {
+                visibility: visible;
+                opacity: 1;
+            }
+            .quote-highlight {
+                filter: brightness(0.7) saturate(1.3);
+                border: 1px solid rgba(0, 0, 0, 0.3);
+                box-shadow: 0 2px 6px rgba(0, 0, 0, 0.25);
+                transform: translateY(-1px);
+                transition: all 0.2s ease;
+            }
+            /* Tag Filter: emphasize spans/badges for the currently selected
+               tag(s) (see applyTagEmphasis() in the script below). */
+            .quote.tag-emphasized {
+                filter: saturate(1.6) brightness(0.95);
+                outline: 2px solid #333;
+                outline-offset: 1px;
+                box-shadow: 0 1px 4px rgba(0, 0, 0, 0.35);
+            }
+            .tag-badge.tag-emphasized {
+                outline: 2px solid #333;
+                outline-offset: 1px;
+                font-weight: 600;
+            }
+            /* Document fold */
+            .doc-fold-toggle {
+                background: none;
+                border: none;
+                cursor: pointer;
+                font-size: 12px;
+                color: #666;
+                margin-right: 4px;
+                padding: 2px 4px;
+            }
+            .doc-fold-toggle::before {
+                content: "\25bc";
+                display: inline-block;
+                transition: transform 0.1s;
+            }
+            .document.collapsed .doc-fold-toggle::before {
+                transform: rotate(-90deg);
+            }
+            .doc-progress {
+                margin-left: 12px;
+                font-size: 12px;
+                font-weight: 400;
+                color: #777;
+            }
+            .doc-progress.complete {
+                color: #2e8b57;
+                font-weight: 600;
+            }
+            .document.collapsed .comparison-table,
+            .document.collapsed .document-scores {
+                display: none;
+            }
+            /* Paragraph fold: collapsed rows keep the para-num cell and a
+               single-line preview per coder column (tag badges hidden). */
+            .para-fold-toggle {
+                background: none;
+                border: none;
+                cursor: pointer;
+                font-size: 10px;
+                color: #999;
+                display: block;
+                margin: 0 auto 2px;
+                padding: 0;
+            }
+            .para-fold-toggle::before {
+                content: "\25bc";
+                display: inline-block;
+                transition: transform 0.1s;
+            }
+            tr.paragraph-collapsed .para-fold-toggle::before {
+                transform: rotate(-90deg);
+            }
+            .para-reviewed {
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                gap: 3px;
+                font-size: 10px;
+                color: #666;
+                cursor: pointer;
+                user-select: none;
+                margin-top: 4px;
+            }
+            .para-reviewed input {
+                cursor: pointer;
+            }
+            tr.paragraph-collapsed .coder-text {
+                white-space: nowrap;
+                overflow: hidden;
+                text-overflow: ellipsis;
+                max-width: 100%;
+            }
+            tr.paragraph-collapsed .coder-badges {
+                display: none;
+            }
+            /* Metadata spans (scores, patient info, etc. -- toggled by the
+               meta-selector's checkboxes via inline display styles) are
+               always hidden when collapsed, regardless of which columns are
+               selected -- !important is needed since applyMetaColumns() sets
+               .style.display inline, which otherwise outranks a plain class
+               rule. Only para-num-primary/the fold toggle/the reviewed
+               checkbox remain. */
+            tr.paragraph-collapsed .para-num-meta {
+                display: none !important;
+            }
+            /* Restore banner (mirrors the autosave-restore prompt pattern) */
+            #restore-banner {
+                display: none;
+                align-items: center;
+                gap: 12px;
+                justify-content: center;
+                background-color: #fff8e1;
+                border: 1px solid #ffca28;
+                border-radius: 8px;
+                padding: 10px 16px;
+                margin-bottom: 16px;
+                font-size: 13px;
+                color: #5d4a00;
+            }
+            #restore-banner.show {
+                display: flex;
+            }
+            #restore-banner button {
+                padding: 4px 14px;
+                border-radius: 14px;
+                border: 1px solid #ffca28;
+                background: white;
+                cursor: pointer;
+                font-size: 12px;
+                font-weight: 600;
+            }
+            #restore-banner button:hover {
+                background: #fff3cd;
+            }
+        </style>
+        <script>
+            document.addEventListener("DOMContentLoaded", function () {
+                // ── Generic dropdown-menu open/close wiring, shared by View/
+                //    Tags/Filter/Fold ────────────────────────────────────────
+                function closeAllDropdowns() {
+                    document.querySelectorAll(".dropdown-panel.open").forEach(function (p) {
+                        p.classList.remove("open");
+                    });
+                    document.querySelectorAll(".dropdown-btn.open").forEach(function (b) {
+                        b.classList.remove("open");
+                        b.setAttribute("aria-expanded", "false");
+                    });
+                }
+
+                function wireDropdown(btnId, panelId) {
+                    const btn = document.getElementById(btnId);
+                    const panel = document.getElementById(panelId);
+                    btn.addEventListener("click", function (e) {
+                        e.stopPropagation();
+                        const wasOpen = panel.classList.contains("open");
+                        closeAllDropdowns();
+                        if (!wasOpen) {
+                            panel.classList.add("open");
+                            btn.classList.add("open");
+                            btn.setAttribute("aria-expanded", "true");
+                        }
+                    });
+                    panel.addEventListener("click", function (e) {
+                        e.stopPropagation();
+                    });
+                }
+
+                ["view", "tags", "filter", "tagfilter", "fold"].forEach(function (name) {
+                    wireDropdown("dropdown-btn-" + name, "dropdown-panel-" + name);
+                });
+
+                // Close all dropdowns when clicking outside any of them.
+                document.addEventListener("click", closeAllDropdowns);
+
+                // ── View: metadata/score column checkboxes ───────────────────────
+                const metaCheckboxes = document.querySelectorAll(".meta-col-checkbox");
+
+                function applyMetaColumns() {
+                    const activeCols = new Set(
+                        Array.from(metaCheckboxes)
+                            .filter(function (cb) {
+                                return cb.checked;
+                            })
+                            .map(function (cb) {
+                                return cb.value;
+                            }),
+                    );
+
+                    // Which drop_undefined_tags variant's score spans to show
+                    // (spans without a data-variant attribute always match).
+                    const activeVariant = document.body.classList.contains("drop-undefined-tags")
+                        ? "excluding"
+                        : "including";
+
+                    // Show/hide per-column meta spans
+                    document.querySelectorAll(".para-num-meta").forEach(function (el) {
+                        const colMatch = activeCols.has(el.dataset.col);
+                        const variantMatch = !el.dataset.variant || el.dataset.variant === activeVariant;
+                        el.style.display = colMatch && variantMatch ? "block" : "none";
+                    });
+                }
+
+                metaCheckboxes.forEach(function (cb) {
+                    cb.addEventListener("change", function () {
+                        applyMetaColumns();
+                        persistLocal();
+                    });
+                });
+
+                // Initialise: nothing extra shown
+                applyMetaColumns();
+
+                // ── Quote cross-highlight ────────────────────────────────────────
+                const segments = document.querySelectorAll(".quote");
+
+                segments.forEach((segment) => {
+                    const quoteIds = segment.dataset.quoteIds ? segment.dataset.quoteIds.split(",") : [];
+
+                    segment.addEventListener("mouseenter", function () {
+                        segments.forEach((otherSegment) => {
+                            const otherIds = otherSegment.dataset.quoteIds
+                                ? otherSegment.dataset.quoteIds.split(",")
+                                : [];
+                            const hasSharedQuote = quoteIds.some((id) => otherIds.includes(id));
+                            if (hasSharedQuote) {
+                                otherSegment.classList.add("quote-highlight");
+                            }
+                        });
+                    });
+
+                    segment.addEventListener("mouseleave", function () {
+                        segments.forEach((otherSegment) => {
+                            otherSegment.classList.remove("quote-highlight");
+                        });
+                    });
+                });
+
+                // ── Recompute quote text highlighting for undefined/system
+                //    tag visibility -- the background is baked in at render
+                //    time from ALL of a quote's tags, so turning a tag
+                //    category off must recolour (or clear) it client-side,
+                //    not just hide its badge/legend entry. Mirrors
+                //    DocumentProcessor._build_background_style() in
+                //    src/report/html.py. ───────────────────────────────────────
+                function hexToRgba(hex, alpha) {
+                    hex = (hex || "").replace("#", "");
+                    if (hex.length !== 6) {
+                        return "rgba(128, 128, 128, " + alpha + ")";
+                    }
+                    const r = parseInt(hex.substring(0, 2), 16);
+                    const g = parseInt(hex.substring(2, 4), 16);
+                    const b = parseInt(hex.substring(4, 6), 16);
+                    return "rgba(" + r + ", " + g + ", " + b + ", " + alpha + ")";
+                }
+
+                function buildBackgroundStyle(colors) {
+                    if (colors.length === 0) {
+                        return "none";
+                    }
+                    if (colors.length === 1) {
+                        return hexToRgba(colors[0], 0.3);
+                    }
+                    const stripeHeight = 100 / colors.length;
+                    const parts = colors.map(function (color, i) {
+                        return (
+                            hexToRgba(color, 0.3) +
+                            " " +
+                            i * stripeHeight +
+                            "%, " +
+                            hexToRgba(color, 0.3) +
+                            " " +
+                            (i + 1) * stripeHeight +
+                            "%"
+                        );
+                    });
+                    return "linear-gradient(to bottom, " + parts.join(", ") + ")";
+                }
+
+                function recomputeQuoteHighlights() {
+                    const dropUndefined = document.body.classList.contains("drop-undefined-tags");
+                    const showSystem = document.body.classList.contains("show-system-tags");
+                    document.querySelectorAll(".quote").forEach(function (quoteEl) {
+                        const colors = [];
+                        quoteEl.querySelectorAll(".quote-tooltip-tag").forEach(function (tagEl) {
+                            if (tagEl.classList.contains("undefined") && dropUndefined) return;
+                            if (tagEl.classList.contains("system") && !showSystem) return;
+                            const colorEl = tagEl.querySelector(".quote-tooltip-color");
+                            if (colorEl && colorEl.dataset.color) {
+                                colors.push(colorEl.dataset.color);
+                            }
+                        });
+                        quoteEl.style.background = buildBackgroundStyle(colors);
+                    });
+                }
+
+                // Initialise: the server-rendered background bakes in every
+                // tag regardless of category, so it needs correcting once
+                // up front to match the default show-system-tags=off state
+                // (undefined tags default to shown, matching the render).
+                recomputeQuoteHighlights();
+
+                // ── View: Show tags ──────────────────────────────────────────────
+                const tagsCheckbox = document.getElementById("chk-tags");
+                function applyTagsToggle(hiding) {
+                    document.body.classList.toggle("hide-tags", hiding);
+                    tagsCheckbox.checked = !hiding;
+                }
+                tagsCheckbox.addEventListener("change", function () {
+                    applyTagsToggle(!tagsCheckbox.checked);
+                    persistLocal();
+                });
+
+                // ── Mark duplicate badges within each .coder-badges container ────
+                // A badge is a duplicate if an earlier badge in the same container
+                // already carries the same data-tag-name value.
+                document.querySelectorAll(".coder-badges").forEach((container) => {
+                    const seen = new Set();
+                    container.querySelectorAll(".tag-badge").forEach((badge) => {
+                        const name = badge.dataset.tagName;
+                        if (seen.has(name)) {
+                            badge.classList.add("duplicate");
+                        } else {
+                            seen.add(name);
+                        }
+                    });
+                });
+
+                // ── View: Show Combined View ──────────────────────────────────────
+                const combinedCheckbox = document.getElementById("chk-combined");
+                function applyCombinedToggle(isCombined) {
+                    document.body.classList.toggle("show-combined", isCombined);
+                    combinedCheckbox.checked = isCombined;
+
+                    document.querySelectorAll(".col-combined").forEach((el) => {
+                        el.style.display = isCombined ? "table-cell" : "none";
+                    });
+                    document.querySelectorAll(".col-coder, .col-coder-header").forEach((el) => {
+                        el.style.display = isCombined ? "none" : "table-cell";
+                    });
+                }
+                combinedCheckbox.addEventListener("change", function () {
+                    applyCombinedToggle(combinedCheckbox.checked);
+                    persistLocal();
+                });
+
+                // ── View: Show duplicate tags ─────────────────────────────────────
+                const dupesCheckbox = document.getElementById("chk-dupes");
+                function applyDupesToggle(showingDupes) {
+                    document.body.classList.toggle("show-dupes", showingDupes);
+                    dupesCheckbox.checked = showingDupes;
+                }
+                dupesCheckbox.addEventListener("change", function () {
+                    applyDupesToggle(dupesCheckbox.checked);
+                    persistLocal();
+                });
+
+                // ── Tags: Show system (administrative/meta) tags ─────────────────
+                const systemCheckbox = document.getElementById("chk-system");
+                function applySystemToggle(showingSystem) {
+                    document.body.classList.toggle("show-system-tags", showingSystem);
+                    systemCheckbox.checked = showingSystem;
+                    recomputeQuoteHighlights();
+                }
+                systemCheckbox.addEventListener("change", function () {
+                    applySystemToggle(systemCheckbox.checked);
+                    persistLocal();
+                });
+
+                // ── Tags: Show undefined tags (also drives calculation) ───────────
+                // Absent entirely when the undefined-tags feature is disabled in
+                // config (see this file's Tags panel, gated on
+                // undefined_tags_feature_enabled).
+                const undefinedCheckbox = document.getElementById("chk-undefined");
+                function applyUndefinedToggle(dropping) {
+                    document.body.classList.toggle("drop-undefined-tags", dropping);
+                    if (undefinedCheckbox) undefinedCheckbox.checked = !dropping;
+                    applyMetaColumns();
+                    recomputeQuoteHighlights();
+                }
+                if (undefinedCheckbox) {
+                    undefinedCheckbox.addEventListener("change", function () {
+                        applyUndefinedToggle(!undefinedCheckbox.checked);
+                        persistLocal();
+                    });
+                }
+
+                // ── Filter: one section per config_project.DOCUMENT_NAME_TEMPLATE
+                //    column (e.g. think_aloud_id/condition/cycle_id), merged into
+                //    a single dropdown panel. ───────────────────────────────────
+                const documentIdentity = JSON.parse(
+                    document.getElementById("document-identity").textContent,
+                );
+                const filterColumnsList = JSON.parse(
+                    document.getElementById("filter-columns").textContent,
+                ); // [{col, label}]
+                const prefix = JSON.parse(document.getElementById("report-prefix").textContent);
+                const STORAGE_KEY = "quallm-base-report-" + prefix;
+                const displayLabel = JSON.parse(document.getElementById("display-label").textContent);
+
+                const activeFilters = new Map(filterColumnsList.map(({ col }) => [col, new Set()]));
+                const filterCheckboxesByCol = new Map(filterColumnsList.map(({ col }) => [col, []]));
+
+                function refreshFilterBtnLabel() {
+                    const btn = document.getElementById("dropdown-btn-filter");
+                    let total = 0;
+                    activeFilters.forEach(function (set) {
+                        total += set.size;
+                    });
+                    btn.textContent = total ? "Filter (" + total + ") ▾" : "Filter ▾";
+                    btn.classList.toggle("active", total > 0);
+                }
+
+                function applyDocumentFilters() {
+                    document.querySelectorAll(".document").forEach(function (docEl) {
+                        const identity = documentIdentity[docEl.dataset.docName] || {};
+                        let visible = true;
+                        activeFilters.forEach(function (activeSet, col) {
+                            if (activeSet.size && !activeSet.has(identity[col])) {
+                                visible = false;
+                            }
+                        });
+                        docEl.style.display = visible ? "" : "none";
+                    });
+                }
+
+                function buildFilterSection(col, label) {
+                    const section = document.createElement("div");
+                    const heading = document.createElement("div");
+                    heading.className = "dropdown-section-label";
+                    heading.textContent = label;
+                    section.appendChild(heading);
+
+                    const values = Array.from(
+                        new Set(
+                            Object.values(documentIdentity).map(function (v) {
+                                return v[col];
+                            }),
+                        ),
+                    ).filter(function (v) {
+                        return v !== undefined && v !== null && v !== "";
+                    });
+                    values.sort(function (a, b) {
+                        return String(a).localeCompare(String(b), undefined, { numeric: true });
+                    });
+
+                    if (values.length === 0) {
+                        const empty = document.createElement("div");
+                        empty.style.fontSize = "12px";
+                        empty.style.color = "#999";
+                        empty.textContent = "No documents.";
+                        section.appendChild(empty);
+                        return section;
+                    }
+
+                    const activeSet = activeFilters.get(col);
+                    const checkboxes = filterCheckboxesByCol.get(col);
+                    values.forEach(function (value) {
+                        const item = document.createElement("label");
+                        item.className = "dropdown-check-item";
+                        const checkbox = document.createElement("input");
+                        checkbox.type = "checkbox";
+                        checkbox.checked = activeSet.has(value);
+                        checkbox.dataset.value = String(value);
+                        checkboxes.push(checkbox);
+                        item.appendChild(checkbox);
+                        item.appendChild(document.createTextNode(" " + String(value)));
+                        checkbox.addEventListener("change", function () {
+                            if (checkbox.checked) {
+                                activeSet.add(value);
+                            } else {
+                                activeSet.delete(value);
+                            }
+                            refreshFilterBtnLabel();
+                            applyDocumentFilters();
+                            persistLocal();
+                        });
+                        section.appendChild(item);
+                    });
+                    return section;
+                }
+
+                const filterPanel = document.getElementById("dropdown-panel-filter");
+                filterColumnsList.forEach(function (entry, index) {
+                    filterPanel.appendChild(buildFilterSection(entry.col, entry.label));
+                    if (index < filterColumnsList.length - 1) {
+                        const sep = document.createElement("div");
+                        sep.className = "dropdown-separator";
+                        filterPanel.appendChild(sep);
+                    }
+                });
+                refreshFilterBtnLabel();
+
+                // ── Tag Filter: select one or more tags to isolate. Selecting any
+                //    tag hides every paragraph that doesn't use it (in any coder
+                //    column) and visually emphasizes its highlighted spans/badges,
+                //    mirroring the document-identity Filter section above but at
+                //    tag granularity instead of document granularity. ────────────
+                const tagFilterOptions = JSON.parse(
+                    document.getElementById("tag-filter-options").textContent,
+                ); // [{name, color}]
+                const activeTagFilters = new Set();
+                const tagFilterCheckboxes = [];
+
+                function refreshTagFilterBtnLabel() {
+                    const btn = document.getElementById("dropdown-btn-tagfilter");
+                    btn.textContent = activeTagFilters.size
+                        ? "Tag Filter (" + activeTagFilters.size + ") ▾"
+                        : "Tag Filter ▾";
+                    btn.classList.toggle("active", activeTagFilters.size > 0);
+                }
+
+                function applyParagraphTagFilters() {
+                    document.querySelectorAll("tr[data-row]").forEach(function (row) {
+                        if (!activeTagFilters.size) {
+                            row.style.removeProperty("display");
+                            return;
+                        }
+                        const rowTags = (row.dataset.tags || "").split("|").filter(Boolean);
+                        const visible = rowTags.some(function (name) {
+                            return activeTagFilters.has(name);
+                        });
+                        row.style.display = visible ? "" : "none";
+                    });
+                }
+
+                function applyTagEmphasis() {
+                    document.querySelectorAll(".quote[data-tags]").forEach(function (span) {
+                        const tags = span.dataset.tags.split("|").filter(Boolean);
+                        const emphasized = tags.some(function (name) {
+                            return activeTagFilters.has(name);
+                        });
+                        span.classList.toggle("tag-emphasized", emphasized);
+                    });
+                    document.querySelectorAll(".tag-badge[data-tag]").forEach(function (badge) {
+                        badge.classList.toggle(
+                            "tag-emphasized",
+                            activeTagFilters.has(badge.dataset.tag),
+                        );
+                    });
+                }
+
+                function applyTagFilters() {
+                    applyParagraphTagFilters();
+                    applyTagEmphasis();
+                }
+
+                const tagFilterPanel = document.getElementById("dropdown-panel-tagfilter");
+                if (tagFilterOptions.length === 0) {
+                    const empty = document.createElement("div");
+                    empty.style.fontSize = "12px";
+                    empty.style.color = "#999";
+                    empty.textContent = "No tags.";
+                    tagFilterPanel.appendChild(empty);
+                } else {
+                    tagFilterOptions.forEach(function (tag) {
+                        const item = document.createElement("label");
+                        item.className = "dropdown-check-item";
+                        const checkbox = document.createElement("input");
+                        checkbox.type = "checkbox";
+                        checkbox.dataset.value = tag.name;
+                        tagFilterCheckboxes.push(checkbox);
+                        const swatch = document.createElement("span");
+                        swatch.style.cssText =
+                            "display:inline-block;width:14px;height:14px;border-radius:3px;" +
+                            "border:1px solid #ccc;vertical-align:middle;margin:0 4px 0 2px;";
+                        swatch.style.backgroundColor = tag.color;
+                        item.appendChild(checkbox);
+                        item.appendChild(swatch);
+                        item.appendChild(document.createTextNode(" " + tag.name));
+                        checkbox.addEventListener("change", function () {
+                            if (checkbox.checked) {
+                                activeTagFilters.add(tag.name);
+                            } else {
+                                activeTagFilters.delete(tag.name);
+                            }
+                            refreshTagFilterBtnLabel();
+                            applyTagFilters();
+                            persistLocal();
+                        });
+                        tagFilterPanel.appendChild(item);
+                    });
+                }
+                refreshTagFilterBtnLabel();
+
+                // ── Document-level fold ────────────────────────────────────────────
+                const docCollapsedOverride = {};
+
+                function setDocCollapsed(docEl, collapsed) {
+                    docEl.classList.toggle("collapsed", collapsed);
+                }
+
+                document.querySelectorAll(".document").forEach(function (docEl) {
+                    const toggle = docEl.querySelector(".doc-fold-toggle");
+                    if (!toggle) return;
+                    toggle.addEventListener("click", function () {
+                        const collapsed = !docEl.classList.contains("collapsed");
+                        docCollapsedOverride[docEl.dataset.docName] = collapsed;
+                        setDocCollapsed(docEl, collapsed);
+                        persistLocal();
+                    });
+                });
+
+                document.getElementById("btn-collapse-all-docs").addEventListener("click", function () {
+                    document.querySelectorAll(".document").forEach(function (docEl) {
+                        docCollapsedOverride[docEl.dataset.docName] = true;
+                        setDocCollapsed(docEl, true);
+                    });
+                    persistLocal();
+                    closeAllDropdowns();
+                });
+                document.getElementById("btn-expand-all-docs").addEventListener("click", function () {
+                    document.querySelectorAll(".document").forEach(function (docEl) {
+                        docCollapsedOverride[docEl.dataset.docName] = false;
+                        setDocCollapsed(docEl, false);
+                    });
+                    persistLocal();
+                    closeAllDropdowns();
+                });
+
+                // ── Paragraph-level fold + reviewed tracking ────────────────────────
+                const reviewed = {};
+                const paraCollapsedOverride = {};
+
+                function paraKey(docName, rowIdx) {
+                    return docName + ":" + rowIdx;
+                }
+
+                function setParaCollapsed(rowEl, collapsed) {
+                    rowEl.classList.toggle("paragraph-collapsed", collapsed);
+                }
+
+                function defaultParaCollapsed(key) {
+                    return key in paraCollapsedOverride ? paraCollapsedOverride[key] : !!reviewed[key];
+                }
+
+                function refreshDocProgress(docEl) {
+                    const rows = docEl.querySelectorAll("tr[data-row]");
+                    let checkedCount = 0;
+                    rows.forEach(function (row) {
+                        if (reviewed[paraKey(docEl.dataset.docName, row.dataset.row)]) {
+                            checkedCount++;
+                        }
+                    });
+                    const progressEl = docEl.querySelector(".doc-progress");
+                    if (!progressEl) return;
+                    const total = rows.length;
+                    const complete = total > 0 && checkedCount === total;
+                    progressEl.textContent =
+                        checkedCount + "/" + total + " " + displayLabel + " reviewed" + (complete ? " · fully reviewed" : "");
+                    progressEl.classList.toggle("complete", complete);
+                }
+
+                document.querySelectorAll(".document").forEach(function (docEl) {
+                    const docName = docEl.dataset.docName;
+                    docEl.querySelectorAll("tr[data-row]").forEach(function (row) {
+                        const key = paraKey(docName, row.dataset.row);
+                        const toggle = row.querySelector(".para-fold-toggle");
+                        const checkbox = row.querySelector(".para-reviewed-checkbox");
+
+                        setParaCollapsed(row, defaultParaCollapsed(key));
+
+                        if (toggle) {
+                            toggle.addEventListener("click", function () {
+                                const collapsed = !row.classList.contains("paragraph-collapsed");
+                                paraCollapsedOverride[key] = collapsed;
+                                setParaCollapsed(row, collapsed);
+                                persistLocal();
+                            });
+                        }
+                        if (checkbox) {
+                            checkbox.addEventListener("change", function () {
+                                reviewed[key] = checkbox.checked;
+                                delete paraCollapsedOverride[key];
+                                setParaCollapsed(row, defaultParaCollapsed(key));
+                                refreshDocProgress(docEl);
+                                persistLocal();
+                            });
+                        }
+                    });
+                    refreshDocProgress(docEl);
+                });
+
+                document.getElementById("btn-collapse-all-paras").addEventListener("click", function () {
+                    document.querySelectorAll("tr[data-row]").forEach(function (row) {
+                        const docEl = row.closest(".document");
+                        const key = paraKey(docEl.dataset.docName, row.dataset.row);
+                        paraCollapsedOverride[key] = true;
+                        setParaCollapsed(row, true);
+                    });
+                    persistLocal();
+                    closeAllDropdowns();
+                });
+                document.getElementById("btn-expand-all-paras").addEventListener("click", function () {
+                    document.querySelectorAll("tr[data-row]").forEach(function (row) {
+                        const docEl = row.closest(".document");
+                        const key = paraKey(docEl.dataset.docName, row.dataset.row);
+                        paraCollapsedOverride[key] = false;
+                        setParaCollapsed(row, false);
+                    });
+                    persistLocal();
+                    closeAllDropdowns();
+                });
+
+                // ── Save / restore / download ───────────────────────────────────────
+                function collectState() {
+                    const filters = {};
+                    activeFilters.forEach(function (set, col) {
+                        filters[col] = Array.from(set);
+                    });
+                    return {
+                        savedAt: Date.now(),
+                        filters: filters,
+                        tagFilters: Array.from(activeTagFilters),
+                        collapsedDocs: docCollapsedOverride,
+                        collapsedParagraphs: paraCollapsedOverride,
+                        reviewed: reviewed,
+                        toggles: {
+                            hideTags: document.body.classList.contains("hide-tags"),
+                            showCombined: document.body.classList.contains("show-combined"),
+                            showDupes: document.body.classList.contains("show-dupes"),
+                            showSystemTags: document.body.classList.contains("show-system-tags"),
+                            dropUndefinedTags: document.body.classList.contains("drop-undefined-tags"),
+                            activeMetaCols: Array.from(metaCheckboxes)
+                                .filter(function (cb) {
+                                    return cb.checked;
+                                })
+                                .map(function (cb) {
+                                    return cb.value;
+                                }),
+                        },
+                    };
+                }
+
+                function persistLocal() {
+                    try {
+                        localStorage.setItem(STORAGE_KEY, JSON.stringify(collectState()));
+                    } catch (e) {
+                        // Storage unavailable/full -- state simply won't survive a reload.
+                    }
+                }
+
+                function applyState(state) {
+                    activeFilters.forEach(function (set) {
+                        set.clear();
+                    });
+                    if (state.filters) {
+                        Object.keys(state.filters).forEach(function (col) {
+                            const set = activeFilters.get(col);
+                            if (set) {
+                                state.filters[col].forEach(function (v) {
+                                    set.add(v);
+                                });
+                            }
+                        });
+                    }
+                    filterColumnsList.forEach(function (entry) {
+                        const activeSet = activeFilters.get(entry.col);
+                        (filterCheckboxesByCol.get(entry.col) || []).forEach(function (cb) {
+                            cb.checked = activeSet.has(cb.dataset.value);
+                        });
+                    });
+                    refreshFilterBtnLabel();
+                    applyDocumentFilters();
+
+                    activeTagFilters.clear();
+                    (state.tagFilters || []).forEach(function (name) {
+                        activeTagFilters.add(name);
+                    });
+                    tagFilterCheckboxes.forEach(function (cb) {
+                        cb.checked = activeTagFilters.has(cb.dataset.value);
+                    });
+                    refreshTagFilterBtnLabel();
+                    applyTagFilters();
+
+                    Object.assign(docCollapsedOverride, state.collapsedDocs || {});
+                    Object.assign(paraCollapsedOverride, state.collapsedParagraphs || {});
+                    Object.assign(reviewed, state.reviewed || {});
+
+                    document.querySelectorAll(".document").forEach(function (docEl) {
+                        const docName = docEl.dataset.docName;
+                        setDocCollapsed(docEl, !!docCollapsedOverride[docName]);
+                        docEl.querySelectorAll("tr[data-row]").forEach(function (row) {
+                            const key = paraKey(docName, row.dataset.row);
+                            const checkbox = row.querySelector(".para-reviewed-checkbox");
+                            if (checkbox) {
+                                checkbox.checked = !!reviewed[key];
+                            }
+                            setParaCollapsed(row, defaultParaCollapsed(key));
+                        });
+                        refreshDocProgress(docEl);
+                    });
+
+                    const toggles = state.toggles || {};
+                    applyTagsToggle(!!toggles.hideTags);
+                    applyCombinedToggle(!!toggles.showCombined);
+                    applyDupesToggle(!!toggles.showDupes);
+                    applySystemToggle(!!toggles.showSystemTags);
+                    applyUndefinedToggle(!!toggles.dropUndefinedTags);
+                    if (toggles.activeMetaCols) {
+                        metaCheckboxes.forEach(function (cb) {
+                            cb.checked = toggles.activeMetaCols.indexOf(cb.value) !== -1;
+                        });
+                    }
+                    applyMetaColumns();
+                }
+
+                let saveFileHandle = null;
+                async function saveToDisk() {
+                    document.getElementById("view-state").textContent = JSON.stringify(
+                        collectState(),
+                        null,
+                        2,
+                    ).replace(/<\//g, "<\\/");
+                    const htmlText = "<!doctype html>\n" + document.documentElement.outerHTML;
+                    const suggestedName =
+                        JSON.parse(document.getElementById("suggested-filename").textContent) ||
+                        "comparison_interface_" + (prefix || "report") + ".html";
+
+                    if (window.showSaveFilePicker) {
+                        try {
+                            const handle =
+                                saveFileHandle ||
+                                (await window.showSaveFilePicker({
+                                    suggestedName: suggestedName,
+                                    types: [{ description: "HTML file", accept: { "text/html": [".html"] } }],
+                                }));
+                            saveFileHandle = handle;
+                            const writable = await handle.createWritable();
+                            await writable.write(htmlText);
+                            await writable.close();
+                            return;
+                        } catch (e) {
+                            if (e && e.name === "AbortError") {
+                                return;
+                            }
+                            console.warn("File System Access save failed, falling back to download.", e);
+                        }
+                    }
+                    const blob = new Blob([htmlText], { type: "text/html" });
+                    const a = document.createElement("a");
+                    a.href = URL.createObjectURL(blob);
+                    a.download = suggestedName;
+                    a.click();
+                }
+                document.getElementById("btn-download-state").addEventListener("click", saveToDisk);
+
+                // ── Initial load: embedded view-state (reopened save) takes
+                //    priority over a localStorage autosave (offered via the
+                //    restore banner); otherwise start fresh. ────────────────────
+                const embeddedState = JSON.parse(document.getElementById("view-state").textContent || "{}");
+                if (embeddedState && Object.keys(embeddedState).length > 0) {
+                    applyState(embeddedState);
+                } else {
+                    const cached = localStorage.getItem(STORAGE_KEY);
+                    if (cached) {
+                        try {
+                            const parsedState = JSON.parse(cached);
+                            const banner = document.getElementById("restore-banner");
+                            banner.classList.add("show");
+                            document.getElementById("btn-restore-state").addEventListener("click", function () {
+                                applyState(parsedState);
+                                banner.classList.remove("show");
+                                persistLocal();
+                            });
+                            document.getElementById("btn-discard-state").addEventListener("click", function () {
+                                localStorage.removeItem(STORAGE_KEY);
+                                banner.classList.remove("show");
+                            });
+                        } catch (e) {
+                            localStorage.removeItem(STORAGE_KEY);
+                        }
+                    }
+                }
+            });
+        </script>
+    </head>
+    <body>
+        <script type="application/json" id="document-identity">{{ document_identity|tojson }}</script>
+        <script type="application/json" id="filter-columns">{{ filter_columns|tojson }}</script>
+        <script type="application/json" id="tag-filter-options">{{ tag_filter_options|tojson }}</script>
+        <script type="application/json" id="report-prefix">{{ prefix|tojson }}</script>
+        <script type="application/json" id="suggested-filename">{{ suggested_filename|default("")|tojson }}</script>
+        <script type="application/json" id="display-label">{{ display_label|tojson }}</script>
+        <script type="application/json" id="view-state">{}</script>
+        <h1>HeadCT Think Aloud - Coded Quotes Visualization</h1>
+        <div id="restore-banner">
+            <span>Autosaved changes from an earlier visit were found in this browser.</span>
+            <button type="button" id="btn-restore-state">Restore</button>
+            <button type="button" id="btn-discard-state">Discard</button>
+        </div>
+        <div class="toolbar">
+            <div class="dropdown-wrap">
+                <button type="button" class="dropdown-btn" id="dropdown-btn-view" aria-expanded="false">View &#9662;</button>
+                <div class="dropdown-panel" id="dropdown-panel-view">
+                    <label class="dropdown-check-item">
+                        <input type="checkbox" id="chk-combined" /> Show Combined View
+                    </label>
+                    <label class="dropdown-check-item">
+                        <input type="checkbox" id="chk-tags" checked /> Show tags
+                    </label>
+                    <label class="dropdown-check-item">
+                        <input type="checkbox" id="chk-dupes" /> Show duplicate tags
+                    </label>
+                    <div class="dropdown-separator"></div>
+                    {{ meta_checkboxes_html|safe }}
+                </div>
+            </div>
+            <div class="dropdown-wrap">
+                <button type="button" class="dropdown-btn" id="dropdown-btn-tags" aria-expanded="false">Tags &#9662;</button>
+                <div class="dropdown-panel" id="dropdown-panel-tags">
+                    <label class="dropdown-check-item" title="{{ system_tags_tooltip }}">
+                        <input type="checkbox" id="chk-system"{% if not has_system_tags %} disabled{% endif %} /> Show system tags
+                    </label>
+                    {% if undefined_tags_feature_enabled %}
+                    <label class="dropdown-check-item" title="{{ undefined_tags_tooltip }}">
+                        <input type="checkbox" id="chk-undefined" checked{% if not has_undefined_tags %} disabled{% endif %} /> Show undefined tags
+                    </label>
+                    {% endif %}
+                </div>
+            </div>
+            <div class="dropdown-wrap">
+                <button type="button" class="dropdown-btn" id="dropdown-btn-filter" aria-expanded="false">Filter &#9662;</button>
+                <div class="dropdown-panel" id="dropdown-panel-filter"></div>
+            </div>
+            <div class="dropdown-wrap">
+                <button type="button" class="dropdown-btn" id="dropdown-btn-tagfilter" aria-expanded="false">Tag Filter &#9662;</button>
+                <div class="dropdown-panel" id="dropdown-panel-tagfilter"></div>
+            </div>
+            <div class="dropdown-wrap">
+                <button type="button" class="dropdown-btn" id="dropdown-btn-fold" aria-expanded="false">Fold &#9662;</button>
+                <div class="dropdown-panel" id="dropdown-panel-fold">
+                    <button type="button" class="dropdown-action-item" id="btn-collapse-all-docs">Collapse all documents</button>
+                    <button type="button" class="dropdown-action-item" id="btn-expand-all-docs">Expand all documents</button>
+                    <div class="dropdown-separator"></div>
+                    <button type="button" class="dropdown-action-item" id="btn-collapse-all-paras">Collapse all {{ display_label|lower }}s</button>
+                    <button type="button" class="dropdown-action-item" id="btn-expand-all-paras">Expand all {{ display_label|lower }}s</button>
+                </div>
+            </div>
+            <button type="button" class="dropdown-btn" id="btn-download-state">Download report copy</button>
+        </div>
+        {{ legend_html|safe }} {% for doc in documents %}{{ doc|safe }}{% endfor %}
+    </body>
+</html>

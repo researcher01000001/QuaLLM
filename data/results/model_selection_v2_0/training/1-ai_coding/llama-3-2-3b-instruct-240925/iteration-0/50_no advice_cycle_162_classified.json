@@ -1,0 +1,1190 @@
+[
+  {
+    "phrase": "schon eine Blutung",
+    "context": "Dann45, weiblich, GCS 13, das okay, das vermindert ein bisschen. Okay, also hier sehen wir, auf jeden Fall, schon eine Blutung.",
+    "tags": [
+      "indicator: anomaly_detected",
+      "interpretation: bleeding"
+    ],
+    "rationale": "Der Befund einer Blutung ist ein typisches Anzeichen für eine Blutung.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\50_no advice_cycle_162.txt",
+      "row": 2
+    },
+    "model": "meta-llama/llama-3.2-3b-instruct",
+    "provider": "Cloudflare",
+    "configuration_name": "llama-3-2-3b-instruct-240925"
+  },
+  {
+    "phrase": "Ähm, okay, älterer Mann, Trauma.",
+    "context": "Weiter. 71, männlich von der Leiter gefallen. Da steht jetzt nicht wie hoch, oder wie. Ähm, okay, älterer Mann, Trauma. Vielleicht hier links, Olongata?. Ja es ist hier überall mit rein.  Ja, aber da bin ich mir nicht so sicher, wie bei der anderen Frau.",
+    "tags": [
+      "awareness_of_task: easy",
+      "control: missing_information",
+      "interpretation: bleeding"
+    ],
+    "rationale": "Der Sprecher scheint sich über die Identifizierung des Traumas im Mann aus dem 71. Fall zu bewusst sein. Er möchte jedoch mehr Informationen über die genaue Lokalisation des Traumas haben. Der Sprecher interpretiert das Trauma als eine Blutung.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\50_no advice_cycle_162.txt",
+      "row": 3
+    },
+    "model": "meta-llama/llama-3.2-3b-instruct",
+    "provider": "Cloudflare",
+    "configuration_name": "llama-3-2-3b-instruct-240925"
+  },
+  {
+    "error": "JSONDecodeError",
+    "message": "Expecting ':' delimiter: line 12 column 40 (char 671)",
+    "raw_output": "{\n  \"classifications\": [\n    {\n      \"phrase\": \"Ich finde die Bildqualität sehr schlecht.\",\n      \"context\": \"Ich glaube, dass der schon Einblutungen hat. Ich finde die Bildqualität sehr schlecht. finde ich bei dem.\",\n      \"tags\": [\"awareness_of_task: image_quality\"],\n      \"rationale\": \"Der Sprecher ist sich der Bildqualität bewusst und findet sie schlecht, was zu einer Verzögerung im Bildverarbeitungsprozess führen kann.\"\n    },\n    {\n      \"phrase\": \"Ich glaube, dass der schon Einblutungen hat.\",\n      \"context\": \"Ich glaube, dass der schon Einblutungen hat. Ich finde die Bildqualität sehr schlecht. finde ich bei dem.\",\n      \"tags: [interpretation: bleeding\"],\n      \"rationale\": \"Der Sprecher interpretiert die Bildung von Einblutungen als Anzeichen für eine Blutung.\"\n    },\n    {\n      \"phrase\": \"Ich finde die Bildqualität sehr schlecht.\",\n      \"context\": \"Ich glaube, dass der schon Einblutungen hat. Ich finde die Bildqualität sehr schlecht. finde ich bei dem.\",\n      \"tags\": [\"awareness_of_task: image_quality\"],\n      \"rationale\": \"Der Sprecher ist sich der Bildqualität bewusst und findet sie schlecht, was zu einer Verzögerung im Bildverarbeitungsprozess führen kann.\"\n    }\n  ]\n}",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\50_no advice_cycle_162.txt",
+      "row": 8
+    },
+    "model": "meta-llama/llama-3.2-3b-instruct",
+    "provider": "Cloudflare",
+    "configuration_name": "llama-3-2-3b-instruct-240925"
+  },
+  {
+    "error": "JSONDecodeError",
+    "message": "Expecting ':' delimiter: line 6 column 43 (char 512)",
+    "raw_output": "{\n  \"classifications\": [\n    {\n      \"phrase\": \"Ich glaube, das ist nicht aufgrund einer Blutung.\",\n      \"context\": \"Ähm, 74, weiblich, Kopfschmerzen und Bluthochdruck. Okay, eine Patientin mit Kopfschmerzen, weiblich. Da steht jetzt nicht, ob die irgendwie, die Pille oder so, nimmt. Ich sehe hier schon ein bisschen unterschiedliche Densitäten. Ja, frontal, das ist aber keine Verschiebung. Ist nicht so auffällig. Ich glaube, das ist nicht aufgrund einer Blutung.\",\n      \"tags: [interpretation: no_bleeding\"],\n      \"rationale\": \"Der Sprecher gibt an, dass er die Möglichkeit einer Blutung ausgeschlossen hat.\"\n    },\n    {\n      \"phrase\": \"Ich glaube, das ist nicht aufgrund einer Blutung.\",\n      \"context\": \"Ähm, 74, weiblich, Kopfschmerzen und Bluthochdruck. Okay, eine Patientin mit Kopfschmerzen, weiblich. Da steht jetzt nicht, ob die irgendwie, die Pille oder so, nimmt. Ich sehe hier schon ein bisschen unterschiedliche Densitäten. Ja, frontal, das ist aber keine Verschiebung. Ist nicht so auffällig. Ich glaube, das ist nicht aufgrund einer Blutung.\",\n      \"tags: [interpretation: bleeding_localization_unclear\"],\n      \"rationale\": \"Der Sprecher gibt an, dass er die Möglichkeit einer Blutung nicht ausschließen kann, aber auch nicht bestätigen kann.\"\n    }\n  ]\n}",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\50_no advice_cycle_162.txt",
+      "row": 4
+    },
+    "model": "meta-llama/llama-3.2-3b-instruct",
+    "provider": "Cloudflare",
+    "configuration_name": "llama-3-2-3b-instruct-240925"
+  },
+  {
+    "phrase": "Ich sehe jetzt keine irgendwie Eindrückungen, auch nicht in die, den Subarachnoidalraum, oder so.",
+    "context": "Ich vergleiche Beide Seiten, um zu sehen, ob ich irgendwelche Unterschiede in den Intensitäten bemerken kann.",
+    "tags": [
+      "indicator: no_bleeding"
+    ],
+    "rationale": "Der Sprecher gibt an, dass er keine akute Blutung sehen kann, auch nicht in den Subarachnoidalraum.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\50_no advice_cycle_162.txt",
+      "row": 6
+    },
+    "model": "meta-llama/llama-3.2-3b-instruct",
+    "provider": "Parasail",
+    "configuration_name": "llama-3-2-3b-instruct-240925"
+  },
+  {
+    "phrase": "Ich kann jetzt hier keine akute Blutung sehen.",
+    "context": "Der Sprecher gibt an, dass er keine akute Blutung sehen kann.",
+    "tags": [
+      "indicator: no_bleeding"
+    ],
+    "rationale": "Der Sprecher gibt an, dass er keine akute Blutung sehen kann.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\50_no advice_cycle_162.txt",
+      "row": 6
+    },
+    "model": "meta-llama/llama-3.2-3b-instruct",
+    "provider": "Parasail",
+    "configuration_name": "llama-3-2-3b-instruct-240925"
+  },
+  {
+    "phrase": "Ähm, 62, männlich, Kopfschmerzen.",
+    "context": "Ähm, 62, männlich, Kopfschmerzen. Gleiche Sache, wie eben. Okay, also ich achte wieder.",
+    "tags": [
+      "control: missing_information"
+    ],
+    "rationale": "Der Patient äußert Interesse an der Untersuchung und möchte mehr über die Symptome erfahren.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\50_no advice_cycle_162.txt",
+      "row": 7
+    },
+    "model": "meta-llama/llama-3.2-3b-instruct",
+    "provider": "Parasail",
+    "configuration_name": "llama-3-2-3b-instruct-240925"
+  },
+  {
+    "phrase": "Ja okay, hier haben wir, zum Beispiel an der Mittellinie eher ocipital und dann auf Ventrikelebene nichts.",
+    "context": "Ähm, 62, männlich, Kopfschmerzen. Gleiche Sache, wie eben. Okay, also ich achte wieder. Ja okay, hier haben wir, zum Beispiel an der Mittellinie eher ocipital und dann auf Ventrikelebene nichts.",
+    "tags": [
+      "interpretation: bleeding"
+    ],
+    "rationale": "Der Patient beschreibt eine Anomalie in der linken Seite des Gehirns, die er als mögliche Blutung interpretiert.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\50_no advice_cycle_162.txt",
+      "row": 7
+    },
+    "model": "meta-llama/llama-3.2-3b-instruct",
+    "provider": "Parasail",
+    "configuration_name": "llama-3-2-3b-instruct-240925"
+  },
+  {
+    "phrase": "Infarkt?",
+    "context": "Patient beschreibt starke Kopfschmerzen und fragt sich, ob es ein Infarkt sein könnte.",
+    "tags": [
+      "indicator: anomaly_detected",
+      "interpretation: bleeding"
+    ],
+    "rationale": "Der Patient beschreibt starke Kopfschmerzen und fragt sich, ob es ein Infarkt sein könnte, was ein Anzeichen für eine Blutung ist.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\50_no advice_cycle_162.txt",
+      "row": 5
+    },
+    "model": "meta-llama/llama-3.2-3b-instruct",
+    "provider": "Parasail",
+    "configuration_name": "llama-3-2-3b-instruct-240925"
+  },
+  {
+    "phrase": "oder jetzt hier hinten, vielleicht ocipital",
+    "context": "Patient beschreibt mögliche Ursachen für die Kopfschmerzen, einschließlich eines Infarkts in der Ohrregion.",
+    "tags": [
+      "control: control_repeat",
+      "interpretation: bleeding"
+    ],
+    "rationale": "Der Patient wiederholt mögliche Ursachen für die Kopfschmerzen, einschließlich eines Infarkts in der Ohrregion, was ein Anzeichen für eine Blutung ist.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\50_no advice_cycle_162.txt",
+      "row": 5
+    },
+    "model": "meta-llama/llama-3.2-3b-instruct",
+    "provider": "Parasail",
+    "configuration_name": "llama-3-2-3b-instruct-240925"
+  },
+  {
+    "error": "JSONDecodeError",
+    "message": "Expecting ':' delimiter: line 5 column 213 (char 297)",
+    "raw_output": "{\n  \"classifications\": [\n    {\n      \"phrase\": \"Ich glaube, das ist keine Blutung.\",\n      \"context: Ich meine, das ist ja Trauma gegen den Kopf, das ist ja auch eher akute Epidurale Blutung, wahrscheinlicher. Aber ich sehe hier keine Siche, die hier irgendwie die Hemisphären eindrückt, oder so.\",\n      \"tags: [interpretation: no_bleeding\"],\n      \"rationale\": \"Der Sprecher zweifelt an der Existenz einer Blutung und erwähnt stattdessen die Möglichkeit einer akuten Epidurale Blutung.\"\n    },\n    {\n      \"phrase: Das könnte für mich eine Blutung sein.\",\n      \"context\": \"linken Seite im Gehirn. Das könnte für mich eine Blutung sein. Ja. Genau.\",\n      \"tags: [interpretation: bleeding\"],\n      \"rationale\": \"Der Sprecher erwähnt die Möglichkeit einer Blutung, aber später zweifelt er an dieser Annahme.\"\n    }\n  ]\n}",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\50_no advice_cycle_162.txt",
+      "row": 10
+    },
+    "model": "meta-llama/llama-3.2-3b-instruct",
+    "provider": "Cloudflare",
+    "configuration_name": "llama-3-2-3b-instruct-240925"
+  },
+  {
+    "error": "JSONDecodeError",
+    "message": "Expecting ':' delimiter: line 6 column 40 (char 260)",
+    "raw_output": "{\n  \"classifications\": [\n    {\n      \"phrase\": \"Dann wäre es ja eher Epiduralblutung, möglich auch oder wahrscheinlich eher.\",\n      \"context\": \"linken Seite im Gehirn. Das könnte für mich eine Blutung sein. Ja. Genau.\",\n      \"tags: [interpretation: bleeding\", \"indicator: no_bleeding\"],\n      \"rationale\": \"Der VPN spricht eine Epiduralblutung oder eine Verschiebung der Hemisphären als mögliche Ursache an, aber dann sagt er auch, dass er keine Blutung sieht, was zu einem Konflikt zwischen diesen beiden Interpretationen führt.\"\n    },\n    {\n      \"phrase\": \"Ja genau, ok.\",\n      \"context\": \"linken Seite im Gehirn. Das könnte für mich eine Blutung sein. Ja. Genau.\",\n      \"tags\": [\"control: control_repeat\"],\n      \"rationale\": \"Der VPN wiederholt sich selbst, was als Kontrollmechanismus interpretiert werden kann.\"\n    },\n    {\n      \"phrase\": \"Dann ist es ja eher ein Trauma gegen den Kopf.\",\n      \"context\": \"linken Seite im Gehirn. Das könnte für mich eine Blutung sein. Ja. Genau.\",\n      \"tags: [interpretation: bleeding\"],\n      \"rationale\": \"Der VPN spricht ein Trauma gegen den Kopf als mögliche Ursache für die Blutung.\"\n    },\n    {\n      \"phrase\": \"Oder eine Verschiebung der Hemisphären, irgendwie einen Druck oder ein sichelförmige Sinus.\",\n      \"context\": \"linken Seite im Gehirn. Das könnte für mich eine Blutung sein. Ja. Genau.\",\n      \"tags: [interpretation: bleeding\"],\n      \"rationale\": \"Der VPN spricht eine Verschiebung der Hemisphären oder einen Druck als mögliche Ursache für die Blutung.\"\n    }\n  ]\n}",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\50_no advice_cycle_162.txt",
+      "row": 1
+    },
+    "model": "meta-llama/llama-3.2-3b-instruct",
+    "provider": "Cloudflare",
+    "configuration_name": "llama-3-2-3b-instruct-240925"
+  },
+  {
+    "phrase": "Ich schaue wieder auf unterschiedliche, auffällige Densitäten.",
+    "context": "EXPERIMENTER: Dann laut zu denken. Es läuft. VPN: Okay, also wieder laut denken, nicht wahr. Ähm, 50 Jahre, headache, Warfarin nimmt der. Okay also, ähm, ich schaue wieder auf unterschiedliche, auffällige Densitäten. Und, achso, hier habe ich keine KI, deswegen. Ok, verstehe. Okay, also habe ich eine Verschiebung der ?.",
+    "tags": [
+      "visual_search: description_of_own_approach_without_external_help"
+    ],
+    "rationale": "Der Sprecher beschreibt seinen eigenen Suchprozess, indem er auf unterschiedliche, auffällige Densitäten schaut, was darauf hindeutet, dass er versucht, ein bestimmtes Muster oder Anzeichen zu finden.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\50_no advice_cycle_162.txt",
+      "row": 0
+    },
+    "model": "meta-llama/llama-3.2-3b-instruct",
+    "provider": "Parasail",
+    "configuration_name": "llama-3-2-3b-instruct-240925"
+  },
+  {
+    "phrase": "Ich habe eine Verschiebung der ?.",
+    "context": "EXPERIMENTER: Dann laut zu denken. Es läuft. VPN: Okay, also wieder laut denken, nicht wahr. Ähm, 50 Jahre, headache, Warfarin nimmt der. Okay also, ähm, ich schaue wieder auf unterschiedliche, auffällige Densitäten. Und, achso, hier habe ich keine KI, deswegen. Ok, verstehe. Okay, also habe ich eine Verschiebung der ?.",
+    "tags": [
+      "interpretation: bleeding"
+    ],
+    "rationale": "Der Sprecher erwähnt eine 'Verschiebung', was auf eine Veränderung oder Anpassung an ein bestimmtes Muster hinweist, möglicherweise auf eine Blutung.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\50_no advice_cycle_162.txt",
+      "row": 0
+    },
+    "model": "meta-llama/llama-3.2-3b-instruct",
+    "provider": "Parasail",
+    "configuration_name": "llama-3-2-3b-instruct-240925"
+  },
+  {
+    "phrase": "Ich find hier hinten ein bisschen auffällig, also ocipital.",
+    "context": "Patient beschreibt eine auffällige Anomalie im Ohrbereich, aber ist unsicher.",
+    "tags": [
+      "interpretation: bleeding",
+      "interpretation: no_bleeding",
+      "reflection: diagnostic_uncertainty"
+    ],
+    "rationale": "Der Patient beschreibt eine auffällige Anomalie, aber ist unsicher, ob es sich um eine Blutung handelt oder nicht. Die Unsicherheit wird durch die Verwendung von 'Ich find' und 'aber ist mir auch nicht sicher' deutlich gemacht.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\50_no advice_cycle_162.txt",
+      "row": 11
+    },
+    "model": "meta-llama/llama-3.2-3b-instruct",
+    "provider": "Parasail",
+    "configuration_name": "llama-3-2-3b-instruct-240925"
+  },
+  {
+    "phrase": "Ich kann es mir vorstellen, aber hier bin ich mir auch nicht sicher.",
+    "context": "Patient beschreibt eine Anomalie, die er sich vorstellen kann, aber ist unsicher, ob es sich um eine Blutung handelt.",
+    "tags": [
+      "reflection: diagnostic_uncertainty"
+    ],
+    "rationale": "Der Patient beschreibt eine Anomalie, die er sich vorstellen kann, aber ist unsicher, ob es sich um eine Blutung handelt. Dies deutet darauf hin, dass er sich nicht sicher ist, ob er die Anomalie richtig interpretieren kann.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\50_no advice_cycle_162.txt",
+      "row": 11
+    },
+    "model": "meta-llama/llama-3.2-3b-instruct",
+    "provider": "Parasail",
+    "configuration_name": "llama-3-2-3b-instruct-240925"
+  },
+  {
+    "error": "JSONDecodeError",
+    "message": "Expecting ':' delimiter: line 6 column 43 (char 244)",
+    "raw_output": "{\n  \"classifications\": [\n    {\n      \"phrase\": \"Das ist auf jeden Fall nicht normal.\",\n      \"context\": \"Hier hinten, an der Mittellinie, ein bisschen auffällig. Auch wenn das auf beiden ähnlich ist.\",\n      \"tags: [interpretation: no_bleeding\"],\n      \"rationale\": \"Der Sprecher interpretiert das Areal als unnormal, aber gibt keine explizite Erwähnung von Blutungen.\"\n    },\n    {\n      \"phrase\": \"Ich kann mir vorstellen, dass das hämorrhagisch bedingt ist.\",\n      \"context: Da bin ich mir nicht sicher.\",\n      \"tags: [interpretation: bleeding\"],\n      \"rationale\": \"Der Sprecher gibt eine mögliche Erklärung für das Areal, nämlich eine Blutung, aber ist sich nicht sicher.\"\n    },\n    {\n      \"phrase: Das könnte für mich eine Blutung sein.\",\n      \"context\": \"linken Seite im Gehirn. Das könnte für mich eine Blutung sein.\",\n      \"tags: [interpretation: bleeding\"],\n      \"rationale\": \"Der Sprecher gibt eine mögliche Erklärung für das Areal, nämlich eine Blutung, aber ist sich nicht sicher.\"\n    }\n  ]\n}",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\50_no advice_cycle_162.txt",
+      "row": 9
+    },
+    "model": "meta-llama/llama-3.2-3b-instruct",
+    "provider": "Cloudflare",
+    "configuration_name": "llama-3-2-3b-instruct-240925"
+  },
+  {
+    "phrase": "Hm, ich glaub da hat definitiv eine Blutung stattgefunden.",
+    "context": "Ventrikel ist jetzt hier, viel später sichtbar, als auf der linken Seite. Auch so eine Verschiebung. Hm, ich glaub da hat definitiv eine Blutung stattgefunden.",
+    "tags": [
+      "interpretation: bleeding",
+      "confidence_high: secondary"
+    ],
+    "rationale": "Der Sprecher ist sehr sicher, dass eine Blutung stattgefunden hat, aber seine Sicherheit ist nicht absolut.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\50_no advice_cycle_162.txt",
+      "row": 20
+    },
+    "model": "meta-llama/llama-3.2-3b-instruct",
+    "provider": "Parasail",
+    "configuration_name": "llama-3-2-3b-instruct-240925"
+  },
+  {
+    "phrase": "Das könnte für mich eine Blutung sein.",
+    "context": "64, 46, bewusstlos gefunden. Okay, also Ventrikel auf der linken Seite. Hier sieht man eindeutig den Unterschied zwischen links und rechts. Also das ist ja rechts komplett verwaschen.",
+    "tags": [
+      "interpretation: bleeding"
+    ],
+    "rationale": "Der Sprecher ist nicht sicher, ob es eine Blutung ist, aber er denkt, es könnte sein.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\50_no advice_cycle_162.txt",
+      "row": 20
+    },
+    "model": "meta-llama/llama-3.2-3b-instruct",
+    "provider": "Parasail",
+    "configuration_name": "llama-3-2-3b-instruct-240925"
+  },
+  {
+    "error": "JSONDecodeError",
+    "message": "Expecting ':' delimiter: line 6 column 43 (char 287)",
+    "raw_output": "{\n  \"classifications\": [\n    {\n      \"phrase\": \"Ich denke, hier ist keine Blutung, nach meiner Einschätzung.\",\n      \"context\": \"Ich denke, hier ist keine Blutung, nach meiner Einschätzung. Große Ventrikel, keine Verschiebung der Mittellinie.\",\n      \"tags: [interpretation: no_bleeding\"],\n      \"rationale\": \"Der Sprecher gibt seine eigene Einschätzung ab, dass es keine Blutung gibt.\"\n    },\n    {\n      \"phrase\": \"Das ist natürlich besser.\",\n      \"context\": \"Das ist natürlich besser. Äh, die Gefäße. Aber hier würde ich, ich meine ich sehe frontal jetzt nichts super auffälliges.\",\n      \"tags\": [\"control: missing_information\"],\n      \"rationale\": \"Der Sprecher äußert eine Wünschans, mehr Informationen zu haben, aber gibt keine spezifischen Anzeichen dafür.\"\n    },\n    {\n      \"phrase\": \"Ich mag das Fenster hier irgendwie gar nicht.\",\n      \"context\": \"41, Migräne, Clusterattack. Oder eins von beiden. Okay, das ist irgendwie ein ganz merkwürdiges Fenster hier. Okay, ähm, ja, ich meine das ist eine Clusterattack, also die sind ja oft auch frontal lokalisiert.\",\n      \"tags\": [\"control: control_repeat\"],\n      \"rationale\": \"Der Sprecher äußert eine negative Meinung über das Fenster, aber gibt keine spezifischen Anzeichen dafür.\"\n    }\n  ]\n}",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\50_no advice_cycle_162.txt",
+      "row": 12
+    },
+    "model": "meta-llama/llama-3.2-3b-instruct",
+    "provider": "Cloudflare",
+    "configuration_name": "llama-3-2-3b-instruct-240925"
+  },
+  {
+    "error": "JSONDecodeError",
+    "message": "Expecting ':' delimiter: line 12 column 43 (char 791)",
+    "raw_output": "{\n  \"classifications\": [\n    {\n      \"phrase\": \"Ich würde nochmal in das Gefäding springen.\",\n      \"context\": \"Der ist gestürzt, Halsknochen? intakt. Intakt. Okay, ich würde nochmal in das Gefäding springen. Von denen geht keiner raus.\",\n      \"tags\": [\"control: control_repeat\"],\n      \"rationale\": \"Der Sprecher wiederholt einen Teil des Bildes, indem er \\\"in das Gefäding springen\\\" sagt, was darauf hindeutet, dass er wieder durch den Bildbereich navigieren möchte.\"\n    },\n    {\n      \"phrase\": \"So ein Knochenvorsprung ist das, hat nichts mit einer Blutung zu tun.\",\n      \"context\": \"Von denen geht keiner raus. Dann glaube ich, das ist hier nur physiologisch einfach. So ein Knochenvorsprung ist das, hat nichts mit einer Blutung zu tun.\",\n      \"tags: [interpretation: no_bleeding\"],\n      \"rationale\": \"Der Sprecher verneint die Möglichkeit einer Blutung und beschreibt stattdessen einen physiologischen Knochenvorsprung als Erklärung für das Anzeichen.\"\n    }\n  ]\n}",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\50_no advice_cycle_162.txt",
+      "row": 19
+    },
+    "model": "meta-llama/llama-3.2-3b-instruct",
+    "provider": "Cloudflare",
+    "configuration_name": "llama-3-2-3b-instruct-240925"
+  },
+  {
+    "error": "JSONDecodeError",
+    "message": "Expecting ':' delimiter: line 4 column 55 (char 85)",
+    "raw_output": "{\n  \"classifications\": [\n    {\n      \"phrase: Das könnte für mich eine Blutung sein.\",\n      \"context\": \"linken Seite im Gehirn. Das könnte für mich eine Blutung sein. Ja. Genau.\",\n      \"tags: [interpretation: bleeding\"],\n      \"rationale\": \"Der Ausdruck \\\"Das könnte für mich eine Blutung sein\\\" deutet darauf hin, dass der Radiologe eine Blutung als mögliche Erklärung für das gefundenen Anomalie betrachtet.\"\n    },\n    {\n      \"phrase\": \"Ich sehe bis jetzt ? Mastoidhöhe. Augen rund. Richtung kranial ab. Frontal, ocipital nirgendwo Unterbrechungen der Kortikalis zu sehen.\",\n      \"context\": \"linken Seite im Gehirn. Ich sehe bis jetzt ? Mastoidhöhe. Augen rund. Richtung kranial ab. Frontal, ocipital nirgendwo Unterbrechungen der Kortikalis zu sehen.\",\n      \"tags\": [\"control: control_repeat\", \"visual_search: triggered_by_finding\"],\n      \"rationale\": \"Der Radiologe wiederholt den Scan und überprüft die Mastoidhöhe, Augen und die Richtung des Kranials, bevor er sich auf die Kortikalis konzentriert.\"\n    },\n    {\n      \"phrase\": \"Hm, ich glaube das ist keine und das passt nicht zu dem Fall.\",\n      \"context\": \"Hm, ich glaube das ist keine und das passt nicht zu dem Fall.\",\n      \"tags: [other\"],\n      \"rationale\": \"Der Radiologe ist unsicher und glaubt, dass das gefundenen Anomalie nicht zu dem Fall passt.\"\n    }\n  ]\n}",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\50_no advice_cycle_162.txt",
+      "row": 14
+    },
+    "model": "meta-llama/llama-3.2-3b-instruct",
+    "provider": "Cloudflare",
+    "configuration_name": "llama-3-2-3b-instruct-240925"
+  },
+  {
+    "error": "JSONDecodeError",
+    "message": "Expecting property name enclosed in double quotes: line 12 column 3 (char 703)",
+    "raw_output": "{\n  \"classifications\": [\n    {\n      \"phrase\": \"Das kann auch einfach altersbedingt sein, hier, ich meine die ist ja auch schon 70.\",\n      \"context\": \"Das ist ein Bild von einer 70-jährigen Frau, die von den Treppen gestürzt ist. Der Arzt möchte wissen, ob es Knochenbrüche gibt.\",\n      \"tags\": [\"awareness_of_task: easy\", \"interpretation: no_bleeding\", \"other\"],\n      \"rationale\": \"Der Arzt hat ein gutes Gefühl über die Situation und denkt, dass es keine Blutung gibt. Er ist sich jedoch nicht sicher und möchte weitere Informationen sammeln.\"\n    },\n    {\n      \"phrase\": \"Das kann sein.\",\n      \"context\": \"Der Arzt denkt, dass es eine kleine Blutung sein könnte, aber ist sich nicht sicher.\",\n  tags: [\"confidence_low: secondary\"],\n      \"rationale\": \"Der Arzt ist nicht sicher, ob es eine Blutung gibt, aber denkt, dass es eine Möglichkeit ist.\"\n    },\n    {\n      \"phrase\": \"Hier und hier.\",\n      \"context\": \"Der Arzt zeigt auf zwei Stellen im Bild, an denen er eine Verletzung sieht.\",\n      \"tags\": [\"control: control_repeat\"],\n      \"rationale\": \"Der Arzt zeigt auf zwei Stellen im Bild, um sicherzustellen, dass er alles richtig sieht.\"\n    },\n    {\n      \"phrase\": \"Das kann auch einfach altersbedingt sein.\",\n      \"context\": \"Der Arzt denkt, dass die Verletzung möglicherweise altersbedingt ist.\",\n      \"tags\": [\"reasoning: alternative_medical_cause\"],\n      \"rationale\": \"Der Arzt denkt, dass die Verletzung möglicherweise auf das Alter der Frau zurückzuführen ist.\"\n    }\n  ]\n}",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\50_no advice_cycle_162.txt",
+      "row": 17
+    },
+    "model": "meta-llama/llama-3.2-3b-instruct",
+    "provider": "Cloudflare",
+    "configuration_name": "llama-3-2-3b-instruct-240925"
+  },
+  {
+    "error": "JSONDecodeError",
+    "message": "Expecting ':' delimiter: line 24 column 43 (char 1414)",
+    "raw_output": "{\n  \"classifications\": [\n    {\n      \"phrase\": \"Es wäre ja auch irgendwie wichtig zu wissen, wieviel Höhe, ob das jetzt starkes Trauma war gegen den Kopf.\",\n      \"context\": \"Es ist ein Bild von der linken Seite des Gehirns. Der Patient spricht über das Trauma, das er erlitten hat.\",\n      \"tags\": [\"control: missing_information\"],\n      \"rationale\": \"Der Patient zeigt Interesse an der Höhe des Traumas und seiner möglichen Auswirkungen auf das Gehirn.\"\n    },\n    {\n      \"phrase\": \"Hier, auf Ventrikelebene, keine Auffälligkeiten.\",\n      \"context\": \"Der Patient untersucht das Bild von der linken Seite des Gehirns auf Ventrikeln.\",\n      \"tags\": [\"visual_search: description_of_medical_image_features\"],\n      \"rationale\": \"Der Patient beschreibt die Auffälligkeiten auf dem Bild, insbesondere die Abwesenheit von Auffälligkeiten auf Ventrikeln.\"\n    },\n    {\n      \"phrase\": \"Rund um die Ventrikel.\",\n      \"context\": \"Der Patient untersucht das Bild von der linken Seite des Gehirns auf Ventrikeln.\",\n      \"tags\": [\"visual_search: description_of_medical_image_features\"],\n      \"rationale\": \"Der Patient beschreibt die Position der Ventrikeln auf dem Bild.\"\n    },\n    {\n      \"phrase\": \"Ich denke, hier war es nicht der Fall.\",\n      \"context\": \"Der Patient untersucht das Bild von der linken Seite des Gehirns und zieht eine Schlussfolgerung über das Trauma.\",\n      \"tags: [interpretation: no_bleeding\"],\n      \"rationale\": \"Der Patient zieht eine Schlussfolgerung über das Trauma und gibt an, dass er keine Auffälligkeiten auf Ventrikeln gefunden hat.\"\n    }\n  ]\n}",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\50_no advice_cycle_162.txt",
+      "row": 18
+    },
+    "model": "meta-llama/llama-3.2-3b-instruct",
+    "provider": "Cloudflare",
+    "configuration_name": "llama-3-2-3b-instruct-240925"
+  },
+  {
+    "phrase": "51, weiblich, verschwommenes Sehen und Kopfschmerzen.",
+    "context": "Patientenbeschreibung, Anfang der Diagnose",
+    "tags": [
+      "indicator: anomaly_detected",
+      "other"
+    ],
+    "rationale": "Der Patient beschreibt verschwommene Sehen und Kopfschmerzen, was auf eine Anomalie hinweist, aber die Beschreibung ist nicht spezifisch genug, um eine klare Diagnose zu machen.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\50_no advice_cycle_162.txt",
+      "row": 15
+    },
+    "model": "meta-llama/llama-3.2-3b-instruct",
+    "provider": "Parasail",
+    "configuration_name": "llama-3-2-3b-instruct-240925"
+  },
+  {
+    "phrase": "Könnte ja eher eine SAB sein.",
+    "context": "Diagnose, mögliche Ursache",
+    "tags": [
+      "confidence_low: secondary"
+    ],
+    "rationale": "Der Patient ist nicht sicher, ob es sich um eine Subarachnoidhemorrhage (SAB) handelt, aber gibt es Hinweise darauf.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\50_no advice_cycle_162.txt",
+      "row": 15
+    },
+    "model": "meta-llama/llama-3.2-3b-instruct",
+    "provider": "Parasail",
+    "configuration_name": "llama-3-2-3b-instruct-240925"
+  },
+  {
+    "phrase": "subarachnoidal sehe ich.",
+    "context": "Diagnose, Subarachnoidhemorrhage",
+    "tags": [
+      "interpretation: bleeding"
+    ],
+    "rationale": "Der Patient sieht eine Subarachnoidhemorrhage, aber ist nicht sicher, ob es sich um eine echte Blutung handelt.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\50_no advice_cycle_162.txt",
+      "row": 15
+    },
+    "model": "meta-llama/llama-3.2-3b-instruct",
+    "provider": "Parasail",
+    "configuration_name": "llama-3-2-3b-instruct-240925"
+  },
+  {
+    "phrase": "Ja ich meine das ist immer auf beiden Seiten, jetzt hier, das würde ich nicht als eine Blutung sehen.",
+    "context": "Diagnose, Subarachnoidhemorrhage",
+    "tags": [
+      "interpretation: bleeding_localization_unclear"
+    ],
+    "rationale": "Der Patient sieht eine Subarachnoidhemorrhage, aber ist nicht sicher, wo genau die Blutung liegt.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\50_no advice_cycle_162.txt",
+      "row": 15
+    },
+    "model": "meta-llama/llama-3.2-3b-instruct",
+    "provider": "Parasail",
+    "configuration_name": "llama-3-2-3b-instruct-240925"
+  },
+  {
+    "phrase": "Hier sind sichtbar, so kleine, kleine Probleme?",
+    "context": "Diagnose, Subarachnoidhemorrhage",
+    "tags": [
+      "interpretation: bleeding"
+    ],
+    "rationale": "Der Patient sieht kleine Probleme, die auf eine Blutung hinweisen könnten.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\50_no advice_cycle_162.txt",
+      "row": 15
+    },
+    "model": "meta-llama/llama-3.2-3b-instruct",
+    "provider": "Parasail",
+    "configuration_name": "llama-3-2-3b-instruct-240925"
+  },
+  {
+    "phrase": "Hm, und hier an der Mittellinie, da wäre es möglich.",
+    "context": "Diagnose, Subarachnoidhemorrhage",
+    "tags": [
+      "interpretation: bleeding"
+    ],
+    "rationale": "Der Patient denkt, dass es an der Mittellinie möglich wäre, dass es sich um eine Blutung handelt.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\50_no advice_cycle_162.txt",
+      "row": 15
+    },
+    "model": "meta-llama/llama-3.2-3b-instruct",
+    "provider": "Parasail",
+    "configuration_name": "llama-3-2-3b-instruct-240925"
+  },
+  {
+    "phrase": "Ja, vielleicht, aber bin ich mir nicht so sicher.",
+    "context": "Diagnose, Subarachnoidhemorrhage",
+    "tags": [
+      "confidence_low: secondary"
+    ],
+    "rationale": "Der Patient ist nicht sicher, ob es sich um eine Blutung handelt, aber gibt es Hinweise darauf.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\50_no advice_cycle_162.txt",
+      "row": 15
+    },
+    "model": "meta-llama/llama-3.2-3b-instruct",
+    "provider": "Parasail",
+    "configuration_name": "llama-3-2-3b-instruct-240925"
+  },
+  {
+    "phrase": "Bin mir bei allen irgendwie, nicht so sicher.",
+    "context": "Diagnose, Allgemeine Unsicherheit",
+    "tags": [
+      "confidence_low: secondary"
+    ],
+    "rationale": "Der Patient ist in seiner eigenen Unsicherheit, ob es sich um eine Blutung handelt.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\50_no advice_cycle_162.txt",
+      "row": 15
+    },
+    "model": "meta-llama/llama-3.2-3b-instruct",
+    "provider": "Parasail",
+    "configuration_name": "llama-3-2-3b-instruct-240925"
+  },
+  {
+    "error": "JSONDecodeError",
+    "message": "Expecting ':' delimiter: line 12 column 21 (char 774)",
+    "raw_output": "{\n  \"classifications\": [\n    {\n      \"phrase\": \"Das ist natürlich alles rundherum nicht so hyperdens.\",\n      \"context\": \"linken Seite im Gehirn. Das ist natürlich alles rundherum nicht so hyperdens. Hm, ja der hat halt schon weniger Substanz, aber der ist auch schon 85.\",\n      \"tags\": [\"awareness_of_task: image_quality\"],\n      \"rationale\": \"Der Sprecher ist sich der Bildqualität bewusst und erwähnt, dass es sich um ein akutes Trauma handelt, aber nicht auf die Bildqualität selbst eingeht.\"\n    },\n    {\n      \"phrase\": \"Das ist natürlich alles rundherum nicht so hyperdens.\",\n      \"context\": \"linken Seite im Gehirn. Das ist natürlich alles rundherum nicht so hyperdens. Hm, ja der hat halt schon weniger Substanz, aber der ist auch schon 85.\",\n      \"tags: [other\"],\n      \"rationale\": \"Es gibt keine klaren Hinweise auf eine bestimmte Diagnose oder Interpretation, die den Text genau beschreiben würde.\"\n    }\n  ]\n}",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\50_no advice_cycle_162.txt",
+      "row": 21
+    },
+    "model": "meta-llama/llama-3.2-3b-instruct",
+    "provider": "Cloudflare",
+    "configuration_name": "llama-3-2-3b-instruct-240925"
+  },
+  {
+    "phrase": "Das sieht nicht so gut aus.",
+    "context": "Hier auf der rechten, ocipitalen Hälfte. Dann 74, männlich, kurz bewusstlos. Ja, das finde ich hier ziemlich eindrucklich.",
+    "tags": [
+      "indicator: anomaly_detected",
+      "interpretation: bleeding"
+    ],
+    "rationale": "Der Befund auf der rechten Hälfte des Gehirns wird als ungewöhnlich oder bedenklich beschrieben.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\50_no advice_cycle_162.txt",
+      "row": 24
+    },
+    "model": "meta-llama/llama-3.2-3b-instruct",
+    "provider": "Parasail",
+    "configuration_name": "llama-3-2-3b-instruct-240925"
+  },
+  {
+    "error": "JSONDecodeError",
+    "message": "Expecting ':' delimiter: line 4 column 55 (char 85)",
+    "raw_output": "{\n  \"classifications\": [\n    {\n      \"phrase: Das könnte für mich eine Blutung sein.\",\n      \"context\": \"linken Seite im Gehirn. Das könnte für mich eine Blutung sein. Ja. Genau.\",\n      \"tags: [interpretation: bleeding\"],\n      \"rationale\": \"Der Ausdruck 'könnte für mich eine Blutung sein' deutet darauf hin, dass der Arzt eine Blutung als mögliche Erklärung für die Symptome des Patienten in Betracht zieht.\"\n    },\n    {\n      \"phrase\": \"Eine ganz junge Patientin jetzt.\",\n      \"context\": \"Eine ganz junge Patientin jetzt. Ventrikelebene irgendwie unaufällig, Gefäße.\",\n      \"tags\": [\"indicator: anomaly_detected\"],\n      \"rationale\": \"Der Ausdruck 'ganz junge Patientin' deutet darauf hin, dass der Arzt aufgrund der jungen Altersgruppe des Patienten eine Abnormität oder Anomalie in Betracht zieht.\"\n    },\n    {\n      \"phrase: Und die Rechte so ein bisschen verwaschener aussieht, als die Linke.\",\n      \"context: Und die Rechte so ein bisschen verwaschener aussieht, als die Linke. So in dem Bereich hier.\",\n      \"tags\": [\"control: control_repeat\"],\n      \"rationale\": \"Der Ausdruck 'so ein bisschen verwaschener aussieht' deutet darauf hin, dass der Arzt eine Wiederholung oder Überprüfung des Bereichs in Betracht zieht, um sicherzustellen, dass er die Symptome korrekt interpretiert.\"\n    },\n    {\n      \"phrase\": \"Und das es hier auch lokal aussieht, auffällig aussieht.\",\n      \"context\": \"Und das es hier auch lokal aussieht, auffällig aussieht. Auch hier denke ich, kann es sei, dass es eine kleine Blutung ist.\",\n      \"tags\": [\"indicator: anomaly_detected\"],\n      \"rationale\": \"Der Ausdruck 'auffällig aussieht' deutet darauf hin, dass der Arzt eine Abnormität oder Anomalie in Betracht zieht.\"\n    },\n    {\n      \"phrase\": \"Und das es hier auch lokal aussieht, auffällig aussieht.\",\n      \"context\": \"Und das es hier auch lokal aussieht, auffällig aussieht. Auch hier denke ich, kann es sei, dass es eine kleine Blutung ist.\",\n      \"tags\": [\"control: control_repeat\"],\n      \"rationale\": \"Der Ausdruck 'auffällig aussieht' deutet darauf hin, dass der Arzt eine Wiederholung oder Überprüfung des Bereichs in Betracht zieht, um sicherzustellen, dass er die Symptome korrekt interpretiert.\"\n    },\n    {\n      \"phrase\": \"Auch hier denke ich, kann es sei, dass es eine kleine Blutung ist.\",\n      \"context\": \"Und das es hier auch lokal aussieht, auffällig aussieht. Auch hier denke ich, kann es sei, dass es eine kleine Blutung ist.\",\n      \"tags: [interpretation: bleeding\"],\n      \"rationale\": \"Der Ausdruck 'kann es sei, dass es eine kleine Blutung ist' deutet darauf hin, dass der Arzt eine Blutung als mögliche Erklärung für die Symptome des Patienten in Betracht zieht.\"\n    }\n  ]\n}",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\50_no advice_cycle_162.txt",
+      "row": 13
+    },
+    "model": "meta-llama/llama-3.2-3b-instruct",
+    "provider": "Cloudflare",
+    "configuration_name": "llama-3-2-3b-instruct-240925"
+  },
+  {
+    "error": "JSONDecodeError",
+    "message": "Expecting property name enclosed in double quotes: line 6 column 3 (char 150)",
+    "raw_output": "{\n  \"classifications\": [\n    {\n      \"phrase\": \"Ah, okay, ich bin mir sehr sicher.\",\n      \"context\": \"Person ist sehr sicher über ihre Diagnose.\",\n  tags: [\"confidence_high: secondary\"],\n      \"rationale\": \"Person verwendet eine starke Formulierung, um ihre Sicherheit auszudrücken, aber es ist nicht explizit 'definitiv' oder 'bestimmt'.\"\n    },\n    {\n      \"phrase: Das könnte für mich eine Blutung sein.\",\n      \"context\": \"Person diskutiert mögliche Diagnosen und ist sich nicht sicher.\",\n      \"tags: [interpretation: bleeding\"],\n      \"rationale\": \"Person erwähnt eine mögliche Blutung, aber es ist nicht klar, ob sie dies als wahrscheinlich oder unwahrscheinlich betrachtet.\"\n    }\n  ]\n}",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\50_no advice_cycle_162.txt",
+      "row": 29
+    },
+    "model": "meta-llama/llama-3.2-3b-instruct",
+    "provider": "Cloudflare",
+    "configuration_name": "llama-3-2-3b-instruct-240925"
+  },
+  {
+    "error": "JSONDecodeError",
+    "message": "Expecting ':' delimiter: line 6 column 40 (char 549)",
+    "raw_output": "{\n  \"classifications\": [\n    {\n      \"phrase\": \"Ich hab das Gefühl, hier hat es an mehreren Stellen geblutet.\",\n      \"context\": \"Ich schau einmal rundherum. Was war das hier gerade. Nee, auch nichts. Bis jetzt noch kein Kortikalis Defekt gesehen. Dann gehe ich mal ins Gehirn Fenster. Richtung kranial. Okay, achten auf die Mittellinie. Die ist ja sehr jung, aber die Gef\\u00e4ße, Ventrikel sind jetzt erst zu sehen. Sehr verwaschen, Gyri kaum auszumachen. Das sieht allgemein, finde ich, nicht so gut aus.\",\n      \"tags: [interpretation: bleeding\"],\n      \"rationale\": \"Der Befund 'Ich hab das Gef\\u00fchl, hier hat es an mehreren Stellen geblutet' deutet darauf hin, dass der Beobachter eine Blutung im Gehirn vermutet.\"\n    }\n  ]\n}",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\50_no advice_cycle_162.txt",
+      "row": 26
+    },
+    "model": "meta-llama/llama-3.2-3b-instruct",
+    "provider": "Cloudflare",
+    "configuration_name": "llama-3-2-3b-instruct-240925"
+  },
+  {
+    "error": "JSONDecodeError",
+    "message": "Expecting ':' delimiter: line 6 column 40 (char 466)",
+    "raw_output": "{\n  \"classifications\": [\n    {\n      \"phrase\": \"Ich finde schon, das hier die Mittellinie verschoben ist, obwohl ich das Gefühl öfter auf der Ventrikelebene habe.\",\n      \"context\": \"linken Seite im Gehirn. Ich finde schon, das hier die Mittellinie verschoben ist, obwohl ich das Gefühl öfter auf der Ventrikelebene habe. Das heißt wir schauen, zum Beispiel, nach einer Epiduralen Sichel, einer Verschiebung der Mittellinie.\",\n      \"tags: [interpretation: bleeding\", \"control: control_repeat\", \"reflection: diagnostic_uncertainty\"],\n      \"rationale\": \"Der Patient beschreibt eine Verschiebung der Mittellinie, was ein Hinweis auf eine mögliche Blutung sein könnte. Der Arzt wiederholt die Untersuchung, um sicherzustellen, dass er die richtige Diagnose stellt. Der Patient zeigt jedoch auch Unsicherheit in seiner Diagnose, was zu einer weiteren Untersuchung führt.\"\n    }\n  ]\n}",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\50_no advice_cycle_162.txt",
+      "row": 30
+    },
+    "model": "meta-llama/llama-3.2-3b-instruct",
+    "provider": "Cloudflare",
+    "configuration_name": "llama-3-2-3b-instruct-240925"
+  },
+  {
+    "error": "JSONDecodeError",
+    "message": "Expecting ':' delimiter: line 6 column 43 (char 305)",
+    "raw_output": "{\n  \"classifications\": [\n    {\n      \"phrase\": \"Ich finde es auf jeden Fall nicht so normal.\",\n      \"context\": \"Übelkeit. Ich finde es auf jeden Fall nicht so normal. Ich kann mir vorstellen, dass das hier, aber ich sehe die Blutung nicht. Deswegen, unsicher.\",\n      \"tags: [interpretation: no_bleeding\", \"reflection: diagnostic_uncertainty\"],\n      \"rationale\": \"Der Sprecher ist unsicher, ob es eine Blutung gibt, aber denkt, dass es nicht normal ist.\"\n    },\n    {\n      \"phrase\": \"Ich finde es auf jeden Fall nicht so normal.\",\n      \"context\": \"Übelkeit. Ich finde es auf jeden Fall nicht so normal. Ich kann mir vorstellen, dass das hier, aber ich sehe die Blutung nicht. Deswegen, unsicher.\",\n      \"tags\": [\"interpretation: no_bleeding\"],\n      \"rationale\": \"Der Sprecher denkt, dass es nicht normal ist, aber ist unsicher, ob es eine Blutung gibt.\"\n    },\n    {\n      \"phrase\": \"Ich finde es auf jeden Fall nicht so normal.\",\n      \"context\": \"Übelkeit. Ich finde es auf jeden Fall nicht so normal. Ich kann mir vorstellen, dass das hier, aber ich sehe die Blutung nicht. Deswegen, unsicher.\",\n  tags: [\"reflection: diagnostic_uncertainty\"],\n      \"rationale\": \"Der Sprecher ist unsicher, ob es eine Blutung gibt, aber denkt, dass es nicht normal ist.\"\n    }\n  ]\n}",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\50_no advice_cycle_162.txt",
+      "row": 22
+    },
+    "model": "meta-llama/llama-3.2-3b-instruct",
+    "provider": "Cloudflare",
+    "configuration_name": "llama-3-2-3b-instruct-240925"
+  },
+  {
+    "phrase": "Ich glaube da hat sich es schon die Venen zerissen.",
+    "context": "Ich schaue jetzt auch eher frontal und sehe da schon, jetzt hier, so in Frame 19, 20 sehr gut Intensitätsunterschiede, aber in beiden Seiten.",
+    "tags": [
+      "indicator: anomaly_detected",
+      "interpretation: bleeding",
+      "confidence_high: concrete"
+    ],
+    "rationale": "Der Sprecher hat eine Verletzung oder einen Schaden in den Venen festgestellt und glaubt, dass es sich um eine Blutung handelt.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\50_no advice_cycle_162.txt",
+      "row": 27
+    },
+    "model": "meta-llama/llama-3.2-3b-instruct",
+    "provider": "Parasail",
+    "configuration_name": "llama-3-2-3b-instruct-240925"
+  },
+  {
+    "phrase": "Ich glaube da hat sich es schon die Venen zerissen.",
+    "context": "Ich schaue jetzt auch eher frontal und sehe da schon, jetzt hier, so in Frame 19, 20 sehr gut Intensitätsunterschiede, aber in beiden Seiten.",
+    "tags": [
+      "confidence_high: concrete"
+    ],
+    "rationale": "Der Sprecher ist sehr sicher in seiner Diagnose und glaubt, dass es sich um eine Blutung handelt.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\50_no advice_cycle_162.txt",
+      "row": 27
+    },
+    "model": "meta-llama/llama-3.2-3b-instruct",
+    "provider": "Parasail",
+    "configuration_name": "llama-3-2-3b-instruct-240925"
+  },
+  {
+    "error": "JSONDecodeError",
+    "message": "Expecting ':' delimiter: line 6 column 43 (char 453)",
+    "raw_output": "{\n  \"classifications\": [\n    {\n      \"phrase\": \"Ich sehe hier keine Blutung.\",\n      \"context\": \"linken Seite im Gehirn. Auf jeden Fall ein Hämatom außen. Ist hier ocipital irgendwie ein Unterschied. Ich meine, Fahrradunfall ohne Helm, 66. Ja auch eher, erstmal Epidural ein Trauma, nicht so alt. ?. Frontal, das kann auch sein, dass sie einfach abnimmt, die Gehirnmasse, weil das ist ja jetzt hier das oben.\",\n      \"tags: [interpretation: no_bleeding\"],\n      \"rationale\": \"Der Sprecher sagt explizit, dass er keine Blutung sieht, obwohl er ein Hämatom außen beschreibt.\"\n    }\n  ]\n}",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\50_no advice_cycle_162.txt",
+      "row": 32
+    },
+    "model": "meta-llama/llama-3.2-3b-instruct",
+    "provider": "Cloudflare",
+    "configuration_name": "llama-3-2-3b-instruct-240925"
+  },
+  {
+    "phrase": "Fahrradunfall, könnte ja auch irgendwie typisch sein, irgendwie dass da die Meningea Media reisst.",
+    "context": "Ähm, 66, männlich, Fahrradunfall. Mhm, okay, also. Wir sind hier auf Ventrikelebene und das sah schon so ein bisschen nach so einer Verschiebung aus, jedenfalls in dieser Ebene.",
+    "tags": [
+      "indicator: anomaly_detected",
+      "reasoning: alternative_medical_cause"
+    ],
+    "rationale": "Der Text erwähnt einen Fahrradunfall und eine mögliche Verschiebung der Meningea Media, was auf eine Anomalie hinweist.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\50_no advice_cycle_162.txt",
+      "row": 16
+    },
+    "model": "meta-llama/llama-3.2-3b-instruct",
+    "provider": "Cloudflare",
+    "configuration_name": "llama-3-2-3b-instruct-240925"
+  },
+  {
+    "phrase": "Hier verwaschen, hinten. Gefäße gut sichtbar.",
+    "context": "Ähm, 66, männlich, Fahrradunfall. Mhm, okay, also. Wir sind hier auf Ventrikelebene und das sah schon so ein bisschen nach so einer Verschiebung aus, jedenfalls in dieser Ebene.",
+    "tags": [
+      "indicator: no_bleeding"
+    ],
+    "rationale": "Der Text beschreibt eine Verwaschung und gute Sichtbarkeit von Gefäßen, was darauf hindeutet, dass keine Blutung vorhanden ist.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\50_no advice_cycle_162.txt",
+      "row": 16
+    },
+    "model": "meta-llama/llama-3.2-3b-instruct",
+    "provider": "Cloudflare",
+    "configuration_name": "llama-3-2-3b-instruct-240925"
+  },
+  {
+    "phrase": "Hier so ein bisschen unterschiedliche Densitäten von außen.",
+    "context": "Ähm, 66, männlich, Fahrradunfall. Mhm, okay, also. Wir sind hier auf Ventrikelebene und das sah schon so ein bisschen nach so einer Verschiebung aus, jedenfalls in dieser Ebene.",
+    "tags": [
+      "indicator: anomaly_detected"
+    ],
+    "rationale": "Der Text beschreibt unterschiedliche Densitäten von außen, was auf eine Anomalie hinweist.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\50_no advice_cycle_162.txt",
+      "row": 16
+    },
+    "model": "meta-llama/llama-3.2-3b-instruct",
+    "provider": "Cloudflare",
+    "configuration_name": "llama-3-2-3b-instruct-240925"
+  },
+  {
+    "phrase": "Hier so ein bisschen unterschiedliche Densitäten von außen. Fahrradunfall, könnte ja auch irgendwie typisch sein, irgendwie dass da die Meningea Media reisst.",
+    "context": "Ähm, 66, männlich, Fahrradunfall. Mhm, okay, also. Wir sind hier auf Ventrikelebene und das sah schon so ein bisschen nach so einer Verschiebung aus, jedenfalls in dieser Ebene.",
+    "tags": [
+      "indicator: anomaly_detected",
+      "reasoning: alternative_medical_cause"
+    ],
+    "rationale": "Der Text beschreibt unterschiedliche Densitäten von außen und erwähnt einen Fahrradunfall und eine mögliche Verschiebung der Meningea Media, was auf eine Anomalie hinweist.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\50_no advice_cycle_162.txt",
+      "row": 16
+    },
+    "model": "meta-llama/llama-3.2-3b-instruct",
+    "provider": "Cloudflare",
+    "configuration_name": "llama-3-2-3b-instruct-240925"
+  },
+  {
+    "error": "JSONDecodeError",
+    "message": "Expecting ':' delimiter: line 12 column 61 (char 662)",
+    "raw_output": "{\n  \"classifications\": [\n    {\n      \"phrase\": \"Kopfschmerzen\",\n      \"context\": \"78, mit Kopfschmerzen. Okay, also mal so eine leichte Neigung, hier, also links größer als rechts.\",\n      \"tags\": [\"indicator: no_bleeding\"],\n      \"rationale\": \"Der Begriff Kopfschmerzen wird verwendet, ohne dass eine Blutung explizit erwähnt wird.\"\n    },\n    {\n      \"phrase\": \"Mittellinienverschiebung auf Ventrikelebene\",\n      \"context\": \"Ähm, also eine Mittellinienverschiebung auf Ventrikelebene. Beide gut einsehbar, aber hier haben wir schon unterschiedliche Densitäten, hier auf der linken Seite konstant.\",\n      \"tags: [interpretation: bleeding_localization_unclear\"],\n      \"rationale\": \"Die Begriffe Mittellinienverschiebung und unterschiedliche Densitäten deuten auf eine mögliche Blutung hin, aber die genaue Lokalisation ist unklar.\"\n    },\n    {\n      \"phrase\": \"chronische Blutungen\",\n      \"context\": \"Kann mir auch vorstellen, dass das da auch chronische Blutungen sein können.\",\n      \"tags: [interpretation: bleeding\"],\n      \"rationale\": \"Der Begriff chronische Blutungen wird verwendet, was auf eine mögliche Blutung hinweist.\"\n    }\n  ]\n}",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\50_no advice_cycle_162.txt",
+      "row": 34
+    },
+    "model": "meta-llama/llama-3.2-3b-instruct",
+    "provider": "Cloudflare",
+    "configuration_name": "llama-3-2-3b-instruct-240925"
+  },
+  {
+    "error": "JSONDecodeError",
+    "message": "Expecting ':' delimiter: line 24 column 40 (char 1905)",
+    "raw_output": "{\n  \"classifications\": [\n    {\n      \"phrase\": \"Das kann ja dann auch ein Hochrasanztrauma sein, wo die Schädeldecke frakturiert ist.\",\n      \"context\": \"linken Seite im Gehirn. Das kann ja dann auch ein Hochrasanztrauma sein, wo die Schädeldecke frakturiert ist. Ja. Genau.\",\n      \"tags\": [\"indicator: anomaly_detected\", \"interpretation: bleeding\"],\n      \"rationale\": \"Der Sprecher erwähnt ein Hochrasanztrauma und eine frakturierte Schädeldecke, was auf eine Anomalie im Gehirn hinweist. Er erwähnt auch Blutungen, was auf eine Bleeding interpretiert werden kann.\"\n    },\n    {\n      \"phrase\": \"Das ich jetzt hier nicht denke, ich check trotzdem mal ganz kurz im Knochenfenster, ob es hier einen Defekt gibt.\",\n      \"context\": \"linken Seite im Gehirn. Das ich jetzt hier nicht denke, ich check trotzdem mal ganz kurz im Knochenfenster, ob es hier einen Defekt gibt. Vielleicht.\",\n      \"tags\": [\"control: control_repeat\", \"visual_search: triggered_by_finding\"],\n      \"rationale\": \"Der Sprecher erwähnt, dass er trotz seiner Unsicherheit im Knochenfenster nach Defekten suchen wird, was darauf hindeutet, dass er bereits ein bestimmtes Ergebnis im Sinn hat und nun nach Bestätigung sucht.\"\n    },\n    {\n      \"phrase\": \"Vielleicht. Vielleicht so ein bisschen parietal.\",\n      \"context\": \"linken Seite im Gehirn. Vielleicht. Vielleicht so ein bisschen parietal.\",\n      \"tags\": [\"control: control_repeat\", \"visual_search: triggered_by_finding\"],\n      \"rationale\": \"Der Sprecher erwähnt, dass er möglicherweise ein Defekt im parietalen Bereich des Gehirns sucht, was darauf hindeutet, dass er bereits ein bestimmtes Ergebnis im Sinn hat und nun nach Bestätigung sucht.\"\n    },\n    {\n      \"phrase\": \"Das wäre eher Subdural, wie das hier reingeblutet hat, ?\",\n      \"context\": \"linken Seite im Gehirn. Das wäre eher Subdural, wie das hier reingeblutet hat, ?.\",\n      \"tags: [interpretation: bleeding\", \"interpretation: bleeding_localization_unclear\"],\n      \"rationale\": \"Der Sprecher erwähnt, dass das Blutungsmuster eher Subdural ist, was darauf hindeutet, dass er eine Bleeding interpretiert, aber die genaue Lokalisation ist unsicher.\"\n    },\n    {\n      \"phrase\": \"Wie alt ist die denn. 53. Äh, ja das kann schon sein.\",\n      \"context\": \"Wie alt ist die denn. 53. Äh, ja das kann schon sein.\",\n      \"tags\": [\"reference: past_case\"],\n      \"rationale\": \"Der Sprecher fragt nach dem Alter der Person, was darauf hindeutet, dass er sich auf einen vorherigen Fall oder eine vorherige Erfahrung bezieht.\"\n    },\n    {\n      \"phrase\": \"Das da auch so Schleudertrauma mäßig, kann ich ausschließen.\",\n      \"context\": \"linken Seite im Gehirn. Das da auch so Schleudertrauma mäßig, kann ich ausschließen.\",\n      \"tags\": [\"control: control_repeat\", \"interpretation: bleeding\"],\n      \"rationale\": \"Der Sprecher erwähnt, dass er Schleudertrauma ausschließen kann, was darauf hindeutet, dass er bereits ein bestimmtes Ergebnis im Sinn hat und nun nach Bestätigung sucht.\"\n    }\n  ]\n}",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\50_no advice_cycle_162.txt",
+      "row": 25
+    },
+    "model": "meta-llama/llama-3.2-3b-instruct",
+    "provider": "Cloudflare",
+    "configuration_name": "llama-3-2-3b-instruct-240925"
+  },
+  {
+    "phrase": "Das ist alles sehr verwaschen, ich finde das hier super schwer Gyri und Sulci abzugrenzen.",
+    "context": "linken Seite im Gehirn. Wieder nicht so das geile Bild. Hm, ok, wie sieht denn hier aus. Also ocipital, rechts, auffällig. Jetzt Ventrikelebene, ist da eine Verschiebung.",
+    "tags": [
+      "awareness_of_task: image_quality"
+    ],
+    "rationale": "Person explicitly complains about image quality or acquisition method.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\50_no advice_cycle_162.txt",
+      "row": 31
+    },
+    "model": "meta-llama/llama-3.2-3b-instruct",
+    "provider": "Cloudflare",
+    "configuration_name": "llama-3-2-3b-instruct-240925"
+  },
+  {
+    "phrase": "Bisschen nervig, wird hier ein bisschen besser, aber es ist irgendwie eine sehr schlechte Aufnahmen oder es ist jetzt wirklich verwaschen, aufgrund von Einblutungen.",
+    "context": "linken Seite im Gehirn. Wieder nicht so das geile Bild. Hm, ok, wie sieht denn hier aus. Also ocipital, rechts, auffällig. Jetzt Ventrikelebene, ist da eine Verschiebung.",
+    "tags": [
+      "awareness_of_task: image_quality"
+    ],
+    "rationale": "Person explicitly complains about image quality or acquisition method.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\50_no advice_cycle_162.txt",
+      "row": 31
+    },
+    "model": "meta-llama/llama-3.2-3b-instruct",
+    "provider": "Cloudflare",
+    "configuration_name": "llama-3-2-3b-instruct-240925"
+  },
+  {
+    "phrase": "Zum Beispiel hier ist auffällig. Da könnte man an dem Punkt auch gucken, ob das von außen auch auffällig ist.",
+    "context": "linken Seite im Gehirn. Wieder nicht so das geile Bild. Hm, ok, wie sieht denn hier aus. Also ocipital, rechts, auffällig. Jetzt Ventrikelebene, ist da eine Verschiebung.",
+    "tags": [
+      "indicator: anomaly_detected"
+    ],
+    "rationale": "Person notices an abnormality atypical for a healthy skull.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\50_no advice_cycle_162.txt",
+      "row": 31
+    },
+    "model": "meta-llama/llama-3.2-3b-instruct",
+    "provider": "Cloudflare",
+    "configuration_name": "llama-3-2-3b-instruct-240925"
+  },
+  {
+    "phrase": "Hier vielleicht so ein bisschen.",
+    "context": "linken Seite im Gehirn. Wieder nicht so das geile Bild. Hm, ok, wie sieht denn hier aus. Also ocipital, rechts, auffällig. Jetzt Ventrikelebene, ist da eine Verschiebung.",
+    "tags": [
+      "indicator: anomaly_detected"
+    ],
+    "rationale": "Person notices an abnormality atypical for a healthy skull.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\50_no advice_cycle_162.txt",
+      "row": 31
+    },
+    "model": "meta-llama/llama-3.2-3b-instruct",
+    "provider": "Cloudflare",
+    "configuration_name": "llama-3-2-3b-instruct-240925"
+  },
+  {
+    "error": "JSONDecodeError",
+    "message": "Expecting ':' delimiter: line 12 column 40 (char 685)",
+    "raw_output": "{\n  \"classifications\": [\n    {\n      \"phrase\": \"Ich achte drumherum, ein bisschen verschoben.\",\n      \"context\": \"Die Ventrikel kann man hier gut einsehen. Hm, ich achte drumherum, ein bisschen verschoben.\",\n      \"tags\": [\"control: missing_information\"],\n      \"rationale\": \"Der Sprecher zeigt, dass er sich nicht sicher ist, ob die Mittellinie verschoben ist, und fragt sich, ob es vielleicht ein anderes Problem gibt.\"\n    },\n    {\n      \"phrase\": \"Kann ich mir vorstellen, dass das eine kleine Blutung ist.\",\n      \"context\": \"Und hier, sieht man was, glaube ich kein Knochen ist. Kann ich mir vorstellen, dass das eine kleine Blutung ist.\",\n      \"tags: [interpretation: bleeding\"],\n      \"rationale\": \"Der Sprecher interpretiert das gefundenen Anomalie als eine kleine Blutung.\"\n    }\n  ]\n}",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\50_no advice_cycle_162.txt",
+      "row": 37
+    },
+    "model": "meta-llama/llama-3.2-3b-instruct",
+    "provider": "Cloudflare",
+    "configuration_name": "llama-3-2-3b-instruct-240925"
+  },
+  {
+    "error": "JSONDecodeError",
+    "message": "Expecting ':' delimiter: line 6 column 43 (char 298)",
+    "raw_output": "{\n  \"classifications\": [\n    {\n      \"phrase\": \"Ich sehe jetzt keine frische Blutung, irgendwie nach diesem Autounfall.\",\n      \"context\": \"Hier sieht es besser aus. Aber eigentlich müsste es dann ein frische Blutung dann sein. Die sehe ich jetzt nicht.\",\n      \"tags: [interpretation: no_bleeding\"],\n      \"rationale\": \"Der Sprecher äußert seine Unsicherheit über die Existenz einer frischen Blutung und gibt an, dass er sie nicht sehen kann, nach dem Autounfall.\"\n    },\n    {\n      \"phrase: Das könnte für mich eine Blutung sein.\",\n      \"context\": \"Okay, weiter. 73, GCS von 13. War im Autounfall. Okay, leicht reduzierter GCS. Autonunfall. Jetzt also Schleudertraume, oder so.\",\n      \"tags: [interpretation: bleeding\"],\n      \"rationale\": \"Der Sprecher äußert seine Vermutung, dass es sich um eine Blutung handeln könnte.\"\n    }\n  ]\n}",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\50_no advice_cycle_162.txt",
+      "row": 38
+    },
+    "model": "meta-llama/llama-3.2-3b-instruct",
+    "provider": "Cloudflare",
+    "configuration_name": "llama-3-2-3b-instruct-240925"
+  },
+  {
+    "error": "JSONDecodeError",
+    "message": "Expecting ':' delimiter: line 6 column 43 (char 229)",
+    "raw_output": "{\n  \"classifications\": [\n    {\n      \"phrase\": \"Ich glaube, der hat keine akute Blutung.\",\n      \"context\": \"Die Frage ist jetzt akute Blutung. Ich glaube, der hat keine akute Blutung.\",\n      \"tags: [interpretation: no_bleeding\"],\n      \"rationale\": \"Der Sprecher zweifelt an der Akutheit einer Blutung.\"\n    },\n    {\n      \"phrase\": \"Ja. Genau.\",\n      \"context: Das könnte für mich eine Blutung sein. Ja. Genau.\",\n  tags: [\"confidence_high: concrete\"],\n      \"rationale\": \"Der Sprecher ist sehr sicher in seiner Diagnose.\"\n    },\n    {\n      \"phrase\": \"Ich glaube, der hat keine akute Blutung.\",\n      \"context\": \"Ich glaube, der hat keine akute Blutung.\",\n  tags: [\"confidence_low: secondary\"],\n      \"rationale\": \"Der Sprecher ist nicht sehr sicher in seiner Diagnose, aber gibt es dennoch Anlass zur Zweifel.\"\n    }\n  ]\n}",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\50_no advice_cycle_162.txt",
+      "row": 39
+    },
+    "model": "meta-llama/llama-3.2-3b-instruct",
+    "provider": "Cloudflare",
+    "configuration_name": "llama-3-2-3b-instruct-240925"
+  },
+  {
+    "error": "JSONDecodeError",
+    "message": "Expecting ':' delimiter: line 6 column 43 (char 406)",
+    "raw_output": "{\n  \"classifications\": [\n    {\n      \"phrase\": \"Keine Blutung. Keine Blutung. Keine Blutung.\",\n      \"context\": \"Keine Blutung. Keine Blutung. Keine Blutung. Mittellinie nicht verschoben, Gyri und Sulci gut zu sehen. Rundherum keine unterschiedliche Densität. Hm, vielleicht hier vorne, aber im nächsten Fenster, war es schon wieder weg. Tja, der hat das nicht.\",\n      \"tags: [interpretation: no_bleeding\"],\n      \"rationale\": \"Der Sprecher wiederholt mehrmals, dass es keine Blutung gibt, was darauf hindeutet, dass er die Vorstellung, dass es eine Blutung ist, ablehnt.\"\n    },\n    {\n      \"phrase\": \"Mittellinie nicht verschoben, Gyri und Sulci gut zu sehen.\",\n      \"context\": \"Keine Blutung. Keine Blutung. Keine Blutung. Mittellinie nicht verschoben, Gyri und Sulci gut zu sehen. Rundherum keine unterschiedliche Densität. Hm, vielleicht hier vorne, aber im nächsten Fenster, war es schon wieder weg. Tja, der hat das nicht.\",\n      \"tags\": [\"indicator: no_bleeding\"],\n      \"rationale\": \"Die Beschreibung der Mittellinie und der Gyri und Sulci als gut zu sehen deutet darauf hin, dass es keine Anomalie gibt.\"\n    }\n  ]\n}",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\50_no advice_cycle_162.txt",
+      "row": 40
+    },
+    "model": "meta-llama/llama-3.2-3b-instruct",
+    "provider": "Cloudflare",
+    "configuration_name": "llama-3-2-3b-instruct-240925"
+  },
+  {
+    "error": "JSONDecodeError",
+    "message": "Expecting ':' delimiter: line 4 column 55 (char 85)",
+    "raw_output": "{\n  \"classifications\": [\n    {\n      \"phrase: Das könnte für mich eine Blutung sein.\",\n      \"context\": \"linken Seite im Gehirn. Das könnte für mich eine Blutung sein. Ja. Genau.\",\n      \"tags: [interpretation: bleeding\"],\n      \"rationale\": \"Brief explanation of why this tag applies. Das könnte für mich eine Blutung sein. Der Text deutet darauf hin, dass der Sprecher eine Blutung im Gehirn vermutet, da er ein Hämatom außen und einen Druck auf der Seite sieht.\"\n    },\n    {\n      \"phrase\": \"Bin ich schon sicher\",\n      \"context\": \"linken Seite im Gehirn. Bin ich schon sicher.\",\n  tags: [\"confidence_low: secondary\"],\n      \"rationale\": \"Der Sprecher ist nicht sicher, ob er eine Blutung im Gehirn hat, da er fragt, ob er \\\"schon sicher\\\" ist. Dies deutet darauf hin, dass er eine gewisse Unsicherheit hat, aber nicht so stark, dass er eine niedrige Sicherheit ausdrücklich ausspricht.\"\n    },\n    {\n      \"phrase\": \"Hier kann man gucken, ob man das auch im Knochenfenster sieht\",\n      \"context\": \"linken Seite im Gehirn. Hier kann man gucken, ob man das auch im Knochenfenster sieht.\",\n      \"tags\": [\"control: missing_information\"],\n      \"rationale\": \"Der Sprecher möchte mehr Informationen über die Situation haben, indem er fragt, ob das Hämatom auch im Knochenfenster zu sehen ist. Dies deutet darauf hin, dass er nicht genug Informationen hat, um eine fundierte Entscheidung zu treffen.\"\n    }\n  ]\n}",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\50_no advice_cycle_162.txt",
+      "row": 41
+    },
+    "model": "meta-llama/llama-3.2-3b-instruct",
+    "provider": "Cloudflare",
+    "configuration_name": "llama-3-2-3b-instruct-240925"
+  },
+  {
+    "error": "JSONDecodeError",
+    "message": "Expecting ':' delimiter: line 6 column 40 (char 509)",
+    "raw_output": "{\n  \"classifications\": [\n    {\n      \"phrase\": \"56, könnte auch schon sein, dass da chronisch was ist, aber ich sehe jetzt kein Epidurales Problem.\",\n      \"context\": \"Patientenalter 56, Autounfall, Schwer zu sehen, Gyri sind auch noch zu sehen. Bisschen verwaschene Ventrikel. 56, könnte auch schon sein, dass da chronisch was ist, aber ich sehe jetzt kein Epidurales Problem. Sehe ich ein subdurales Problem oder ein subarachnoidales Problem. Eigentlich auch nicht.\",\n      \"tags: [interpretation: bleeding\", \"interpretation: no_bleeding\"],\n      \"rationale\": \"Der Patient beschreibt eine mögliche chronische Erkrankung, aber gibt keine Hinweise auf eine Blutung. Er diskutiert jedoch über subdurales und subarachnoidales Problem, was darauf hindeutet, dass er keine klare Diagnose hat.\"\n    }\n  ]\n}",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\50_no advice_cycle_162.txt",
+      "row": 42
+    },
+    "model": "meta-llama/llama-3.2-3b-instruct",
+    "provider": "Cloudflare",
+    "configuration_name": "llama-3-2-3b-instruct-240925"
+  },
+  {
+    "error": "JSONDecodeError",
+    "message": "Expecting ':' delimiter: line 4 column 55 (char 85)",
+    "raw_output": "{\n  \"classifications\": [\n    {\n      \"phrase: Das könnte für mich eine Blutung sein.\",\n      \"context\": \"linken Seite im Gehirn. Das könnte für mich eine Blutung sein. Ja. Genau.\",\n      \"tags: [interpretation: bleeding\"],\n      \"rationale\": \"Brief explanation of why this tag applies. Das wird durch die Beschreibung des 'schräg' ausgerichtet, was auf eine Blutung hinweist.\"\n    },\n    {\n      \"phrase\": \"Ich bin mir unsicher, weil das schräg ist.\",\n      \"context\": \"Ich sehe hier, das ist alles so ein bisschen verwaschen, also man Gyri und Sulic nicht gut abgrenzen. So auf einmal auf der Seite, auf der rechten Seite. Aber ich sehe keine akute.\",\n  tags: [\"reflection: diagnostic_uncertainty\"],\n      \"rationale\": \"Der Befund wird als unsicher beschrieben, da der Diagnostiker sich nicht sicher ist, ob es sich um eine Blutung handelt.\"\n    },\n    {\n      \"phrase\": \"Bin ich mir unsicher, weil das schräg ist.\",\n      \"context\": \"Ich bin mir unsicher, weil das schräg ist.\",\n  tags: [\"reflection: diagnostic_uncertainty\"],\n      \"rationale\": \"Der Befund wird als unsicher beschrieben, da der Diagnostiker sich nicht sicher ist, ob es sich um eine Blutung handelt.\"\n    },\n    {\n      \"phrase\": \"Das sieht nicht so super aus.\",\n      \"context\": \"Ich sehe hier, das ist alles so ein bisschen verwaschen, also man Gyri und Sulic nicht gut abgrenzen. So auf einmal auf der Seite, auf der rechten Seite. Aber ich sehe keine akute.\",\n      \"tags: [interpretation: no_bleeding\"],\n      \"rationale\": \"Der Befund wird als ungewöhnlich beschrieben, aber es gibt keine explizite Erwähnung einer Blutung.\"\n    }\n  ]\n}",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\50_no advice_cycle_162.txt",
+      "row": 44
+    },
+    "model": "meta-llama/llama-3.2-3b-instruct",
+    "provider": "Cloudflare",
+    "configuration_name": "llama-3-2-3b-instruct-240925"
+  },
+  {
+    "error": "JSONDecodeError",
+    "message": "Expecting ':' delimiter: line 6 column 21 (char 208)",
+    "raw_output": "{\n  \"classifications\": [\n    {\n      \"phrase\": \"93, ?, sehr alte Frau. Bewusstlos gefunden.\",\n      \"context\": \"Patienteninformationen, aber keine spezifischen Diagnose oder Ergebnisse.\",\n      \"tags: [other\"],\n      \"rationale\": \"Keine klaren Hinweise auf eine bestimmte Diagnose oder eindeutige Anzeichen für eine bestimmte Erkrankung.\"\n    },\n    {\n      \"phrase\": \"Bewusstlos gefunden.\",\n      \"context\": \"Patienteninformationen, aber keine spezifischen Diagnose oder Ergebnisse.\",\n      \"tags\": [\"indicator: anomaly_detected\"],\n      \"rationale\": \"Das Bewusstlossein kann ein Anzeichen für eine ernsthafte Erkrankung sein.\"\n    },\n    {\n      \"phrase\": \"Erstmal nach kaudal.\",\n      \"context\": \"Anatomische Beschreibung des Kopfes, aber keine spezifischen Diagnose oder Ergebnisse.\",\n      \"tags\": [\"control: control_repeat\"],\n      \"rationale\": \"Der Arzt wiederholt die anatomische Beschreibung des Kopfes, um sicherzustellen, dass er alle relevanten Bereiche abdeckt.\"\n    },\n    {\n      \"phrase\": \"Haben wir eine Verschiebung der Mittellinie.\",\n      \"context\": \"Anatomische Beschreibung des Kopfes, aber keine spezifischen Diagnose oder Ergebnisse.\",\n      \"tags\": [\"control: control_repeat\"],\n      \"rationale\": \"Der Arzt wiederholt die Frage, ob es eine Verschiebung der Mittellinie gibt, um sicherzustellen, dass er alle relevanten Bereiche abdeckt.\"\n    },\n    {\n      \"phrase\": \"Bis jetzt nicht.\",\n      \"context\": \"Anatomische Beschreibung des Kopfes, aber keine spezifischen Diagnose oder Ergebnisse.\",\n      \"tags\": [\"control: control_repeat\"],\n      \"rationale\": \"Der Arzt wiederholt die Frage, ob es eine Verschiebung der Mittellinie gibt, um sicherzustellen, dass er alle relevanten Bereiche abdeckt.\"\n    },\n    {\n      \"phrase\": \"Man kann Gyri und Zeichnung gut sehen.\",\n      \"context\": \"Anatomische Beschreibung des Kopfes, aber keine spezifischen Diagnose oder Ergebnisse.\",\n      \"tags\": [\"control: control_repeat\"],\n      \"rationale\": \"Der Arzt wiederholt die Beschreibung der Gyri und Zeichnung, um sicherzustellen, dass er alle relevanten Bereiche abdeckt.\"\n    },\n    {\n      \"phrase\": \"Die Ventrikel auch gut abzugrenzen.\",\n      \"context\": \"Anatomische Beschreibung des Kopfes, aber keine spezifischen Diagnose oder Ergebnisse.\",\n      \"tags\": [\"control: control_repeat\"],\n      \"rationale\": \"Der Arzt wiederholt die Beschreibung der Ventrikel, um sicherzustellen, dass er alle relevanten Bereiche abdeckt.\"\n    },\n    {\n      \"phrase\": \"Vielleicht hier, ocipital so ein bisschen auffällig.\",\n      \"context\": \"Anatomische Beschreibung des Kopfes, aber keine spezifischen Diagnose oder Ergebnisse.\",\n      \"tags\": [\"control: control_repeat\"],\n      \"rationale\": \"Der Arzt wiederholt die Beschreibung des Ozipitals, um sicherzustellen, dass er alle relevanten Bereiche abdeckt.\"\n    },\n    {\n      \"phrase\": \"Gefäße gut zu sehen.\",\n      \"context\": \"Anatomische Beschreibung des Kopfes, aber keine spezifischen Diagnose oder Ergebnisse.\",\n      \"tags\": [\"control: control_repeat\"],\n      \"rationale\": \"Der Arzt wiederholt die Beschreibung der Gefäße, um sicherzustellen, dass er alle relevanten Bereiche abdeckt.\"\n    },\n    {\n      \"phrase\": \"Hier vereinzelt, aber schon gefüllt.\",\n      \"context\": \"Anatomische Beschreibung des Kopfes, aber keine spezifischen Diagnose oder Ergebnisse.\",\n      \"tags\": [\"control: control_repeat\"],\n      \"rationale\": \"Der Arzt wiederholt die Beschreibung der Gefäße, um sicherzustellen, dass er alle relevanten Bereiche abdeckt.\"\n    },\n    {\n      \"phrase\": \"Können natürlich auch Verkalkungen sein.\",\n      \"context\": \"Anatomische Beschreibung des Kopfes, aber keine spezifischen Diagnose oder Ergebnisse.\",\n      \"tags\": [\"control: control_repeat\"],\n      \"rationale\": \"Der Arzt wiederholt die Möglichkeit von Verkalkungen, um sicherzustellen, dass er alle relevanten Bereiche abdeckt.\"\n    },\n    {\n      \"phrase\": \"Das sieht schon aufälliger aus hier.\",\n      \"context\": \"Anatomische Beschreibung des Kopfes, aber keine spezifischen Diagnose oder Ergebnisse.\",\n      \"tags\": [\"control: control_repeat\"],\n      \"rationale\": \"Der Arzt wiederholt die Beschreibung des Ozipitals, um sicherzustellen, dass er alle relevanten Bereiche abdeckt.\"\n    },\n    {\n      \"phrase\": \"Vorallem links.\",\n      \"context\": \"Anatomische Beschreibung des Kopfes, aber keine spezifischen Diagnose oder Ergebnisse.\",\n      \"tags\": [\"control: control_repeat\"],\n      \"rationale\": \"Der Arzt wiederholt die Beschreibung des linken Bereichs, um sicherzustellen, dass er alle relevanten Bereiche abdeckt.\"\n    },\n    {\n      \"phrase\": \"Ist natürlich auch schon 93, kann auch sein, dass das einen anderen Grund hat.\",\n      \"context\": \"Patienteninformationen, aber keine spezifischen Diagnose oder Ergebnisse.\",\n      \"tags: [other\"],\n      \"rationale\": \"Der Arzt berücksichtigt die Altersangabe des Patienten und denkt an andere mögliche Ursachen für die Symptome.\"\n    }\n  ]\n}",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\50_no advice_cycle_162.txt",
+      "row": 23
+    },
+    "model": "meta-llama/llama-3.2-3b-instruct",
+    "provider": "Cloudflare",
+    "configuration_name": "llama-3-2-3b-instruct-240925"
+  },
+  {
+    "error": "JSONDecodeError",
+    "message": "Expecting ':' delimiter: line 10 column 55 (char 328)",
+    "raw_output": "{\n  \"classifications\": [\n    {\n      \"phrase\": \"Vielleicht ?\",\n      \"context\": \"Also junger männlicher Patient. Autounfall. Vielleicht ?.\",\n      \"tags\": [\"indicator: anomaly_detected\"],\n      \"rationale\": \"Der Patient ist unsicher, ob es eine Anomalie gibt.\"\n    },\n    {\n      \"phrase: Das könnte für mich eine Blutung sein.\",\n      \"context\": \"So, 37, Autounfall. Also junger männlicher Patient. Autounfall. Vielleicht ?. Also ist vielleicht teil des Mastoids. Dann frontal ist zu sehen, wir unsere Mittellinie, die Ventrikel.\",\n      \"tags: [interpretation: bleeding\"],\n      \"rationale\": \"Der Arzt denkt, dass es eine Blutung sein könnte.\"\n    },\n    {\n      \"phrase\": \"Ich würde noch ganz hoch gehen, kranial.\",\n      \"context\": \"So, 37, Autounfall. Also junger männlicher Patient. Autounfall. Vielleicht ?. Also ist vielleicht teil des Mastoids. Dann frontal ist zu sehen, wir unsere Mittellinie, die Ventrikel. Ich würde noch ganz hoch gehen, kranial.\",\n      \"tags\": [\"control: control_repeat\"],\n      \"rationale\": \"Der Arzt möchte die Untersuchung weiter fortsetzen.\"\n    },\n    {\n      \"phrase\": \"Ventrikel gut zu sehen.\",\n      \"context\": \"So, 37, Autounfall. Also junger männlicher Patient. Autounfall. Vielleicht ?. Also ist vielleicht teil des Mastoids. Dann frontal ist zu sehen, wir unsere Mittellinie, die Ventrikel. Ich würde noch ganz hoch gehen, kranial. Ventrikel gut zu sehen.\",\n      \"tags\": [\"indicator: no_bleeding\"],\n      \"rationale\": \"Der Ventrikel ist gut sichtbar, keine Anomalie.\"\n    },\n    {\n      \"phrase: Keine Verschiebung, keine epidurale Sichel.\",\n      \"context\": \"So, 37, Autounfall. Also junger männlicher Patient. Autounfall. Vielleicht ?. Also ist vielleicht teil des Mastoids. Dann frontal ist zu sehen, wir unsere Mittellinie, die Ventrikel. Ich würde noch ganz hoch gehen, kranial. Ventrikel gut zu sehen. Keine Verschiebung, keine epidurale Sichel.\",\n      \"tags\": [\"indicator: no_bleeding\"],\n      \"rationale\": \"Es gibt keine Verschiebung oder epidurale Sichel.\"\n    },\n    {\n      \"phrase\": \"Aber ich sehe keine, was war das nochmal, Autounfall, keine irgendwie akute Blutung durch Trauma epidural.\",\n      \"context\": \"So, 37, Autounfall. Also junger männlicher Patient. Autounfall. Vielleicht ?. Also ist vielleicht teil des Mastoids. Dann frontal ist zu sehen, wir unsere Mittellinie, die Ventrikel. Ich würde noch ganz hoch gehen, kranial. Ventrikel gut zu sehen. Keine Verschiebung, keine epidurale Sichel. Aber ich sehe keine, was war das nochmal, Autounfall, keine irgendwie akute Blutung durch Trauma epidural.\",\n      \"tags\": [\"indicator: no_bleeding\"],\n      \"rationale\": \"Der Arzt ist sich nicht sicher, ob es eine akute Blutung gibt.\"\n    }\n  ]\n}",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\50_no advice_cycle_162.txt",
+      "row": 43
+    },
+    "model": "meta-llama/llama-3.2-3b-instruct",
+    "provider": "Cloudflare",
+    "configuration_name": "llama-3-2-3b-instruct-240925"
+  },
+  {
+    "error": "JSONDecodeError",
+    "message": "Expecting ':' delimiter: line 6 column 43 (char 584)",
+    "raw_output": "{\n  \"classifications\": [\n    {\n      \"phrase\": \"Ich seh jetz, ich finde die so ein bisschen verwaschen, aber keine akute, also das drückt nur irgendwo stark, gegen die Hemisphären.\",\n      \"context\": \"linken Seite im Gehirn. Haben wir eine verwaschene Mittellinie. Nein. Ventrikelebene, Gefäße. Ich seh jetz, ich finde die so ein bisschen verwaschen, aber keine akute, also das drückt nur irgendwo stark, gegen die Hemisphären. Und ich meine in dem Alter. Bei einem Faustkampf, wäre es dann eher auch, dass man da eine Epiduralblutung hat.\",\n      \"tags: [interpretation: no_bleeding\"],\n      \"rationale\": \"Der Sprecher findet die Verwaschung im Gehirn nicht akut und drückt nur stark gegen die Hemisphären, was darauf hindeutet, dass es keine Blutung gibt.\"\n    },\n    {\n      \"phrase: Ich denke, die hat keine Blutung.\",\n      \"context\": \"Ich seh jetz, ich finde die so ein bisschen verwaschen, aber keine akute, also das drückt nur irgendwo stark, gegen die Hemisphären. Und ich meine in dem Alter. Bei einem Faustkampf, wäre es dann eher auch, dass man da eine Epiduralblutung hat. Und wenn ich jetzt einmal rundrum schaue, sehe ich nirgendwo, irgendwo eine Sichel, die das eindrückt oder irgendwie zu einer Verschiebung führt. Weder frontal noch ocipital, oder so.\",\n      \"tags: [interpretation: no_bleeding\"],\n      \"rationale\": \"Der Sprecher ist sich sicher, dass es keine Blutung gibt.\"\n    }\n  ]\n}",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\50_no advice_cycle_162.txt",
+      "row": 45
+    },
+    "model": "meta-llama/llama-3.2-3b-instruct",
+    "provider": "Cloudflare",
+    "configuration_name": "llama-3-2-3b-instruct-240925"
+  },
+  {
+    "phrase": "Die Gyri hier links, vor allem links parietal-ocipital schwierig abzugrenzen, die Zeichnung ist nicht so allgemein.",
+    "context": "linken Seite im Gehirn. Fußball. Also junger Patient. Und jetzt, hier zumindest die Mittellinie nicht ganz gerade. Gehe ich nach kaudal. Ich finde die Gyri hier links, vor allem links parietal-ocipital schwierig abzugrenzen, die Zeichnung ist nicht so allgemein.",
+    "tags": [
+      "control: control_strategies",
+      "interpretation: bleeding_localization_unclear"
+    ],
+    "rationale": "Der Patient diskutiert mit sich selbst, wie er die Gyri im Gehirn abgrenzen soll, und gibt zu, dass die Zeichnung nicht allgemein ist. Dies deutet darauf hin, dass er Schwierigkeiten hat, die Blutung zu lokalisieren.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\50_no advice_cycle_162.txt",
+      "row": 33
+    },
+    "model": "meta-llama/llama-3.2-3b-instruct",
+    "provider": "Parasail",
+    "configuration_name": "llama-3-2-3b-instruct-240925"
+  },
+  {
+    "phrase": "Das gefällt mir nicht.",
+    "context": "linken Seite im Gehirn. Fußball. Also junger Patient. Und jetzt, hier zumindest die Mittellinie nicht ganz gerade. Gehe ich nach kaudal. Ich finde die Gyri hier links, vor allem links parietal-ocipital schwierig abzugrenzen, die Zeichnung ist nicht so allgemein. Das gefällt mir nicht.",
+    "tags": [
+      "control: control_repeat",
+      "interpretation: bleeding"
+    ],
+    "rationale": "Der Patient äußert seine Unzufriedenheit mit der Zeichnung und gibt zu, dass er Schwierigkeiten hat, die Blutung zu lokalisieren.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\50_no advice_cycle_162.txt",
+      "row": 33
+    },
+    "model": "meta-llama/llama-3.2-3b-instruct",
+    "provider": "Parasail",
+    "configuration_name": "llama-3-2-3b-instruct-240925"
+  },
+  {
+    "error": "JSONDecodeError",
+    "message": "Expecting ':' delimiter: line 4 column 55 (char 85)",
+    "raw_output": "{\n  \"classifications\": [\n    {\n      \"phrase: Das könnte für mich eine Blutung sein.\",\n      \"context\": \"linken Seite im Gehirn. Das könnte für mich eine Blutung sein. Ja. Genau.\",\n      \"tags: [interpretation: bleeding\"],\n      \"rationale\": \"Person interpretiert die Abnormität als eine Blutung.\"\n    },\n    {\n      \"phrase\": \"Schmale Ventrikel hier, finde ich.\",\n      \"context\": \"Hm, hier punktuell, aber auf beiden Seiten. Unterschiede in der Densität.\",\n      \"tags\": [\"indicator: no_bleeding\"],\n      \"rationale\": \"Person findet keine akute Blutung, aber findet auch keine Anzeichen für eine normale Ventrikelstruktur.\"\n    },\n    {\n      \"phrase: Vielleicht ist es ein Schädelbruch.\",\n      \"context\": \"Mastoid?, Und frontal sehe ich auch keine Defekte der Kortikalis.\",\n      \"tags\": [\"indicator: anomaly_detected\"],\n      \"rationale\": \"Person bemerkt Anomalien, aber keine klaren Anzeichen für eine Blutung oder einen Schädelbruch.\"\n    },\n    {\n      \"phrase\": \"Das ist echt so ein bisschen verwaschen.\",\n      \"context\": \"Hm, hier punktuell, aber auf beiden Seiten. Unterschiede in der Densität.\",\n      \"tags: [other\"],\n      \"rationale\": \"Person beschreibt die Abnormität als etwas, das nicht klar ist.\"\n    }\n  ]\n}",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\50_no advice_cycle_162.txt",
+      "row": 49
+    },
+    "model": "meta-llama/llama-3.2-3b-instruct",
+    "provider": "Cloudflare",
+    "configuration_name": "llama-3-2-3b-instruct-240925"
+  },
+  {
+    "phrase": "Ich bin mir sehr unsicher.",
+    "context": "Ich bin mir sehr unsicher. Aufgrund der Verwaschenheit, könnte ich mir vorstellen, dass es so ist, aber es ist sehr global. Was irgendwie nicht ganz passt, zum Alter und allem.",
+    "tags": [
+      "reflection: diagnostic_uncertainty",
+      "interpretation: bleeding",
+      "other"
+    ],
+    "rationale": "Der Text zeigt, dass der Arzt sich über die Interpretation der Bildgebung unsicher ist und möglicherweise eine Blutung in Betracht zieht, aber die Verwaschenheit der Bildgebung macht es schwierig, eine klare Entscheidung zu treffen.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\50_no advice_cycle_162.txt",
+      "row": 36
+    },
+    "model": "meta-llama/llama-3.2-3b-instruct",
+    "provider": "Parasail",
+    "configuration_name": "llama-3-2-3b-instruct-240925"
+  },
+  {
+    "phrase": "Ich sehe noch kein Defekt bis jetzt, kortikal.",
+    "context": "Ich sehe noch kein Defekt bis jetzt, kortikal. Ich fand es schon sehr verwaschen, aber ich sehe jetzt keine lokale Läsionen.",
+    "tags": [
+      "indicator: no_bleeding"
+    ],
+    "rationale": "Der Text zeigt, dass der Arzt noch keinen Defekt oder Läsionen in der kortikalen Schicht sieht, was darauf hindeutet, dass es keine Blutung gibt.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\50_no advice_cycle_162.txt",
+      "row": 36
+    },
+    "model": "meta-llama/llama-3.2-3b-instruct",
+    "provider": "Parasail",
+    "configuration_name": "llama-3-2-3b-instruct-240925"
+  },
+  {
+    "phrase": "Ich kann die Ventrikel, kann die Gefäße einsehen.",
+    "context": "Ich kann die Ventrikel, kann die Gefäße einsehen. Hm, schwer hier bei ihr.",
+    "tags": [
+      "indicator: no_bleeding"
+    ],
+    "rationale": "Der Text zeigt, dass der Arzt die Ventrikel und Gefäße sehen kann, was darauf hindeutet, dass es keine Blutung gibt.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\50_no advice_cycle_162.txt",
+      "row": 36
+    },
+    "model": "meta-llama/llama-3.2-3b-instruct",
+    "provider": "Parasail",
+    "configuration_name": "llama-3-2-3b-instruct-240925"
+  },
+  {
+    "phrase": "Das finde ich ein bisschen auffällig hier.",
+    "context": "Kollision mit dem Kopf, von welcher Seite. Hm, außer es hat halt irgendwie in die Ventrikel geblutet oder so, dann wäre das auffällig. Was sein kann, ist dass das hier auf der Ventrikelebene passiert ist. Das kann ich mir vorstellen, dass das hier der Fall ist.",
+    "tags": [
+      "indicator: anomaly_detected",
+      "interpretation: bleeding",
+      "control: missing_information"
+    ],
+    "rationale": "Der Sprecher bemerkt eine auffällige Kollision mit dem Kopf und vermutet, dass dies auf der Ventrikelebene passiert ist, was als Anomalie oder Blutung interpretiert werden kann. Der Sprecher fehlt jedoch Informationen über die genaue Lokalisation der Kollision.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\50_no advice_cycle_162.txt",
+      "row": 48
+    },
+    "model": "meta-llama/llama-3.2-3b-instruct",
+    "provider": "Parasail",
+    "configuration_name": "llama-3-2-3b-instruct-240925"
+  },
+  {
+    "phrase": "Ich finde es hier auch nicht so schön, hier irgendwie die Gyri zu sehen?",
+    "context": "linken Seite im Gehirn. Okay, ein bisschen schräg aufgenommen. 44, männlich, verschwommenes Sehen, Kopfschmerzen, Schwindel. Okay, erstmal unaufällig, Richtung kaudal. Mir fällt hier immer so dieser Punkt hier auf, aber der ist irgendwie öfter auf der Mittellinie. Verschwommene Ventrikel. Jetzt kein Defekt, irgendwie drumherum. Keine Sichel. Gefäße. Ich weiß ja nicht, wie viel davon, irgendwie an dem Bild liegt. Ähm, also ich sehe jetzt hier, glaube ich, keine akute Blutung. Nee, glaube ich nicht, auch wenn ich das schon ein bisschen verschwommen finde. Aber 44. Hm, aber da bin ich mir nicht sicher, also gar nicht sicher.",
+    "tags": [
+      "other"
+    ],
+    "rationale": "Keine klaren Hinweise auf eine bestimmte Diagnose, die sich aus dem Text ableiten lassen.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\50_no advice_cycle_162.txt",
+      "row": 35
+    },
+    "model": "meta-llama/llama-3.2-3b-instruct",
+    "provider": "Parasail",
+    "configuration_name": "llama-3-2-3b-instruct-240925"
+  },
+  {
+    "phrase": "Ich weiß ja nicht, wie viel davon, irgendwie an dem Bild liegt.",
+    "context": "linken Seite im Gehirn. Okay, ein bisschen schräg aufgenommen. 44, männlich, verschwommenes Sehen, Kopfschmerzen, Schwindel. Okay, erstmal unaufällig, Richtung kaudal. Mir fällt hier immer so dieser Punkt hier auf, aber der ist irgendwie öfter auf der Mittellinie. Verschwommene Ventrikel. Jetzt kein Defekt, irgendwie drumherum. Keine Sichel. Gefäße. Ich finde es hier auch nicht so schön, hier irgendwie die Gyri zu sehen?. Ich weiß ja nicht, wie viel davon, irgendwie an dem Bild liegt. Ähm, also ich sehe jetzt hier, glaube ich, keine akute Blutung. Nee, glaube ich nicht, auch wenn ich das schon ein bisschen verschwommen finde. Aber 44. Hm, aber da bin ich mir nicht sicher, also gar nicht sicher.",
+    "tags": [
+      "interpretation: no_bleeding"
+    ],
+    "rationale": "Der Sprecher gibt keine klaren Hinweise auf eine Blutung, sondern eher auf eine Verschwommheit oder ein Defekt, der nicht eindeutig identifizierbar ist.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\50_no advice_cycle_162.txt",
+      "row": 35
+    },
+    "model": "meta-llama/llama-3.2-3b-instruct",
+    "provider": "Parasail",
+    "configuration_name": "llama-3-2-3b-instruct-240925"
+  },
+  {
+    "phrase": "Das könnte für mich eine Blutung sein.",
+    "context": "linken Seite im Gehirn. Das könnte für mich eine Blutung sein. Ja. Genau.",
+    "tags": [
+      "interpretation: bleeding"
+    ],
+    "rationale": "Der Ausdruck 'Das könnte für mich eine Blutung sein' deutet darauf hin, dass der Sprecher eine Blutung im Gehirn vermutet.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\50_no advice_cycle_162.txt",
+      "row": 46
+    },
+    "model": "meta-llama/llama-3.2-3b-instruct",
+    "provider": "Parasail",
+    "configuration_name": "llama-3-2-3b-instruct-240925"
+  },
+  {
+    "phrase": "Ocipital ein bisschen auffällig ist.",
+    "context": "linken Seite im Gehirn. Ocipital ein bisschen auffällig ist. Aber die nimmt Eliquis. Das erhöht natürlich das Blutungsrisiko.",
+    "tags": [
+      "indicator: anomaly_detected",
+      "interpretation: bleeding"
+    ],
+    "rationale": "Der Sprecher bemerkt eine auffällige Struktur im Ocipital, was auf eine Anomalie hinweist. Zudem erwähnt er, dass das Risiko eines Blutungsereignisses durch Eliquis erhöht ist.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\50_no advice_cycle_162.txt",
+      "row": 46
+    },
+    "model": "meta-llama/llama-3.2-3b-instruct",
+    "provider": "Parasail",
+    "configuration_name": "llama-3-2-3b-instruct-240925"
+  },
+  {
+    "phrase": "Ich weiß nicht, wie ich das hier einschätzen soll, hier hinten.",
+    "context": "linken Seite im Gehirn. Ich weiß nicht, wie ich das hier einschätzen soll, hier hinten. Aber in dem Alter, weiß ich nicht, ob das auffällig ist.",
+    "tags": [
+      "reflection: diagnostic_uncertainty"
+    ],
+    "rationale": "Der Sprecher zeigt Unsicherheit bei der Einschätzung der Anomalie, da er sich nicht sicher ist, ob es sich um ein normales Verhalten im Alter handelt.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\50_no advice_cycle_162.txt",
+      "row": 46
+    },
+    "model": "meta-llama/llama-3.2-3b-instruct",
+    "provider": "Parasail",
+    "configuration_name": "llama-3-2-3b-instruct-240925"
+  },
+  {
+    "error": "JSONDecodeError",
+    "message": "Expecting ':' delimiter: line 4 column 46 (char 76)",
+    "raw_output": "{\n  \"classifications\": [\n    {\n      \"phrase: Ich glaub, die hat das nicht.\",\n      \"context\": \"Hm, wäre auch eher irgendwie akutes Trauma von außen. Ich glaub, die hat das nicht.\",\n      \"tags\": [\"indicator: no_bleeding\"],\n      \"rationale\": \"Der Sprecher ist sich nicht sicher, ob es eine Blutung gibt.\"\n    },\n    {\n      \"phrase\": \"Ich achte auf Frontal. Erstmal sehe ich keinen Defekt.\",\n      \"context\": \"Okay,26, jung, E-Scooter Unfall. Also einmal rundrum schauen, nochmal kurz im Knochenfenster gucken, ob es da irgendwie mit dem E-Scooter, durch die hohe Geschwindigkeit, einen Defekt in der Kortikalis gibt. Ähm, ich achte auf Frontal. Erstmal sehe ich keinen Defekt.\",\n      \"tags\": [\"control: control_strategies\"],\n      \"rationale\": \"Der Sprecher überlegt, ob er die Frontalregion überprüfen sollte.\"\n    },\n    {\n      \"phrase\": \"Ich achte auf Frontal. Erstmal sehe ich keinen Defekt. Dann parietal, sehe ich auch keinen Defekt und ocipital auch nicht.\",\n      \"context\": \"Okay,26, jung, E-Scooter Unfall. Also einmal rundrum schauen, nochmal kurz im Knochenfenster gucken, ob es da irgendwie mit dem E-Scooter, durch die hohe Geschwindigkeit, einen Defekt in der Kortikalis gibt. Ähm, ich achte auf Frontal. Erstmal sehe ich keinen Defekt. Dann parietal, sehe ich auch keinen Defekt und ocipital auch nicht.\",\n      \"tags\": [\"control: control_strategies\"],\n      \"rationale\": \"Der Sprecher überlegt, ob er die Parietal- und Ocipitalregionen überprüfen sollte.\"\n    },\n    {\n      \"phrase\": \"Ich achte auf Frontal. Erstmal sehe ich keinen Defekt. Dann parietal, sehe ich auch keinen Defekt und ocipital auch nicht. Dann im Gehirn Modus, Gefäße mitverfolgen.\",\n      \"context\": \"Okay,26, jung, E-Scooter Unfall. Also einmal rundrum schauen, nochmal kurz im Knochenfenster gucken, ob es da irgendwie mit dem E-Scooter, durch die hohe Geschwindigkeit, einen Defekt in der Kortikalis gibt. Ähm, ich achte auf Frontal. Erstmal sehe ich keinen Defekt. Dann parietal, sehe ich auch keinen Defekt und ocipital auch nicht. Dann im Gehirn Modus, Gefäße mitverfolgen.\",\n      \"tags\": [\"indicator: anomaly_detected\"],\n      \"rationale\": \"Der Sprecher überprüft die Gehirnregionen und findet eine Anomalie.\"\n    },\n    {\n      \"phrase\": \"Ich achte auf Frontal. Erstmal sehe ich keinen Defekt. Dann parietal, sehe ich auch keinen Defekt und ocipital auch nicht. Dann im Gehirn Modus, Gefäße mitverfolgen. Okay, also ich finde eine leichte Mittellinenverschiebung hier.\",\n      \"context\": \"Okay,26, jung, E-Scooter Unfall. Also einmal rundrum schauen, nochmal kurz im Knochenfenster gucken, ob es da irgendwie mit dem E-Scooter, durch die hohe Geschwindigkeit, einen Defekt in der Kortikalis gibt. Ähm, ich achte auf Frontal. Erstmal sehe ich keinen Defekt. Dann parietal, sehe ich auch keinen Defekt und ocipital auch nicht. Dann im Gehirn Modus, Gefäße mitverfolgen. Okay, also ich finde eine leichte Mittellinenverschiebung hier.\",\n      \"tags: [interpretation: bleeding\"],\n      \"rationale\": \"Der Sprecher findet eine leichte Mittellinenverschiebung, die auf eine Blutung hinweist.\"\n    },\n    {\n      \"phrase\": \"Ventrikelebene ein bisschen verwaschen, so links, auch um den linken Ventrikel auch rum.\",\n      \"context\": \"Okay,26, jung, E-Scooter Unfall. Also einmal rundrum schauen, nochmal kurz im Knochenfenster gucken, ob es da irgendwie mit dem E-Scooter, durch die hohe Geschwindigkeit, einen Defekt in der Kortikalis gibt. Ähm, ich achte auf Frontal. Erstmal sehe ich keinen Defekt. Dann parietal, sehe ich auch keinen Defekt und ocipital auch nicht. Dann im Gehirn Modus, Gefäße mitverfolgen. Okay, also ich finde eine leichte Mittellinenverschiebung hier. Ventrikelebene ein bisschen verwaschen, so links, auch um den linken Ventrikel auch rum.\",\n      \"tags: [interpretation: bleeding\"],\n      \"rationale\": \"Der Sprecher beschreibt die Verwaschung der Ventrikeln und die Anwesenheit des linken Ventrikels.\"\n    },\n    {\n      \"phrase\": \"Hm, das Mastoid.\",\n      \"context\": \"Okay,26, jung, E-Scooter Unfall. Also einmal rundrum schauen, nochmal kurz im Knochenfenster gucken, ob es da irgendwie mit dem E-Scooter, durch die hohe Geschwindigkeit, einen Defekt in der Kortikalis gibt. Ähm, ich achte auf Frontal. Erstmal sehe ich keinen Defekt. Dann parietal, sehe ich auch keinen Defekt und ocipital auch nicht. Dann im Gehirn Modus, Gefäße mitverfolgen. Okay, also ich finde eine leichte Mittellinenverschiebung hier. Ventrikelebene ein bisschen verwaschen, so links, auch um den linken Ventrikel auch rum. Hm, das Mastoid.\",\n      \"tags\": [\"control: control_strategies\"],\n      \"rationale\": \"Der Sprecher überlegt, ob er die Mastoidregion überprüfen sollte.\"\n    },\n    {\n      \"phrase\": \"Hm, wäre auch eher irgendwie akutes Trauma von außen.\",\n      \"context\": \"Okay,26, jung, E-Scooter Unfall. Also einmal rundrum schauen, nochmal kurz im Knochenfenster gucken, ob es da irgendwie mit dem E-Scooter, durch die hohe Geschwindigkeit, einen Defekt in der Kortikalis gibt. Ähm, ich achte auf Frontal. Erstmal sehe ich keinen Defekt. Dann parietal, sehe ich auch keinen Defekt und ocipital auch nicht. Dann im Gehirn Modus, Gefäße mitverfolgen. Okay, also ich finde eine leichte Mittellinenverschiebung hier. Ventrikelebene ein bisschen verwaschen, so links, auch um den linken Ventrikel auch rum. Hm, das Mastoid. Hm, wäre auch eher irgendwie akutes Trauma von außen.\",\n      \"tags\": [\"indicator: no_bleeding\"],\n      \"rationale\": \"Der Sprecher ist sich nicht sicher, ob es eine Blutung gibt und denkt an akutes Trauma von außen.\"\n    }\n  ]\n}",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\50_no advice_cycle_162.txt",
+      "row": 47
+    },
+    "model": "meta-llama/llama-3.2-3b-instruct",
+    "provider": "Cloudflare",
+    "configuration_name": "llama-3-2-3b-instruct-240925"
+  },
+  {
+    "phrase": "Hier finde ich irgendwie alles sehr auff-merkwürdig.",
+    "context": "linken Seite im Gehirn. Hier ist nichts. Nichts, keine Verschiebung. War schon?. Was ist hier vorne. Wie alt ist die. 63. ? So knöchern auffällig hier, aber wir sind ja noch relativ weit oben.",
+    "tags": [
+      "control: missing_information"
+    ],
+    "rationale": "Der Sprecher scheint sich nicht sicher zu sein, was er sieht, und fragt sich, ob er etwas vermisst hat.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\50_no advice_cycle_162.txt",
+      "row": 28
+    },
+    "model": "meta-llama/llama-3.2-3b-instruct",
+    "provider": "Parasail",
+    "configuration_name": "llama-3-2-3b-instruct-240925"
+  },
+  {
+    "phrase": "Aber das ist ja eher hart.",
+    "context": "linken Seite im Gehirn. Hier ist nichts. Nichts, keine Verschiebung. War schon?. Was ist hier vorne. Wie alt ist die. 63. ? So knöchern auffällig hier, aber wir sind ja noch relativ weit oben.",
+    "tags": [
+      "control: missing_information"
+    ],
+    "rationale": "Der Sprecher scheint sich nicht sicher zu sein, was er sieht, und fragt sich, ob er etwas vermisst hat.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\50_no advice_cycle_162.txt",
+      "row": 28
+    },
+    "model": "meta-llama/llama-3.2-3b-instruct",
+    "provider": "Parasail",
+    "configuration_name": "llama-3-2-3b-instruct-240925"
+  },
+  {
+    "phrase": "Finde ich jetzt irgendwie merkwürdig, was der hat.",
+    "context": "linken Seite im Gehirn. Hier ist nichts. Nichts, keine Verschiebung. War schon?. Was ist hier vorne. Wie alt ist die. 63. ? So knöchern auffällig hier, aber wir sind ja noch relativ weit oben.",
+    "tags": [
+      "interpretation: bleeding"
+    ],
+    "rationale": "Der Sprecher interpretiert das, was er sieht, als eine Blutung.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\50_no advice_cycle_162.txt",
+      "row": 28
+    },
+    "model": "meta-llama/llama-3.2-3b-instruct",
+    "provider": "Parasail",
+    "configuration_name": "llama-3-2-3b-instruct-240925"
+  },
+  {
+    "phrase": "Ist das jetzt Nasennebenhölen bedingt?",
+    "context": "linken Seite im Gehirn. Hier ist nichts. Nichts, keine Verschiebung. War schon?. Was ist hier vorne. Wie alt ist die. 63. ? So knöchern auffällig hier, aber wir sind ja noch relativ weit oben.",
+    "tags": [
+      "interpretation: bleeding"
+    ],
+    "rationale": "Der Sprecher fragt sich, ob die Blutung durch Nasennebenhöhlen bedingt ist.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\50_no advice_cycle_162.txt",
+      "row": 28
+    },
+    "model": "meta-llama/llama-3.2-3b-instruct",
+    "provider": "Parasail",
+    "configuration_name": "llama-3-2-3b-instruct-240925"
+  },
+  {
+    "phrase": "Ah, jetzt habe ich gar nicht so krass aufs Gehirn geschaut.",
+    "context": "linken Seite im Gehirn. Hier ist nichts. Nichts, keine Verschiebung. War schon?. Was ist hier vorne. Wie alt ist die. 63. ? So knöchern auffällig hier, aber wir sind ja noch relativ weit oben.",
+    "tags": [
+      "control: missing_information"
+    ],
+    "rationale": "Der Sprecher scheint sich nicht sicher zu sein, was er sieht, und fragt sich, ob er etwas vermisst hat.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\50_no advice_cycle_162.txt",
+      "row": 28
+    },
+    "model": "meta-llama/llama-3.2-3b-instruct",
+    "provider": "Parasail",
+    "configuration_name": "llama-3-2-3b-instruct-240925"
+  },
+  {
+    "phrase": "Die Frage ist ja, habe ich einen kortikalen Defekt.",
+    "context": "linken Seite im Gehirn. Hier ist nichts. Nichts, keine Verschiebung. War schon?. Was ist hier vorne. Wie alt ist die. 63. ? So knöchern auffällig hier, aber wir sind ja noch relativ weit oben.",
+    "tags": [
+      "interpretation: bleeding"
+    ],
+    "rationale": "Der Sprecher fragt sich, ob die Blutung durch einen kortikalen Defekt bedingt ist.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\50_no advice_cycle_162.txt",
+      "row": 28
+    },
+    "model": "meta-llama/llama-3.2-3b-instruct",
+    "provider": "Parasail",
+    "configuration_name": "llama-3-2-3b-instruct-240925"
+  },
+  {
+    "phrase": "Was wahrscheinlich auch das hier bedingen kann.",
+    "context": "linken Seite im Gehirn. Hier ist nichts. Nichts, keine Verschiebung. War schon?. Was ist hier vorne. Wie alt ist die. 63. ? So knöchern auffällig hier, aber wir sind ja noch relativ weit oben.",
+    "tags": [
+      "interpretation: bleeding"
+    ],
+    "rationale": "Der Sprecher fragt sich, ob die Blutung durch einen kortikalen Defekt bedingt ist.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\50_no advice_cycle_162.txt",
+      "row": 28
+    },
+    "model": "meta-llama/llama-3.2-3b-instruct",
+    "provider": "Parasail",
+    "configuration_name": "llama-3-2-3b-instruct-240925"
+  },
+  {
+    "phrase": "Der Mittellinie hier.",
+    "context": "linken Seite im Gehirn. Hier ist nichts. Nichts, keine Verschiebung. War schon?. Was ist hier vorne. Wie alt ist die. 63. ? So knöchern auffällig hier, aber wir sind ja noch relativ weit oben.",
+    "tags": [
+      "interpretation: bleeding"
+    ],
+    "rationale": "Der Sprecher verweist auf eine bestimmte Linie im Gehirn, die möglicherweise mit der Blutung in Verbindung steht.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\50_no advice_cycle_162.txt",
+      "row": 28
+    },
+    "model": "meta-llama/llama-3.2-3b-instruct",
+    "provider": "Parasail",
+    "configuration_name": "llama-3-2-3b-instruct-240925"
+  },
+  {
+    "phrase": "Auf jeden Fall merkwürdig, vorne.",
+    "context": "linken Seite im Gehirn. Hier ist nichts. Nichts, keine Verschiebung. War schon?. Was ist hier vorne. Wie alt ist die. 63. ? So knöchern auffällig hier, aber wir sind ja noch relativ weit oben.",
+    "tags": [
+      "interpretation: bleeding"
+    ],
+    "rationale": "Der Sprecher betont, dass das, was er sieht, merkwürdig ist.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\50_no advice_cycle_162.txt",
+      "row": 28
+    },
+    "model": "meta-llama/llama-3.2-3b-instruct",
+    "provider": "Parasail",
+    "configuration_name": "llama-3-2-3b-instruct-240925"
+  }
+]

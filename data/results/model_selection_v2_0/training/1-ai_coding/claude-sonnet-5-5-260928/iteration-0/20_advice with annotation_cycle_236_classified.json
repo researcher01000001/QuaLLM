@@ -1,0 +1,3335 @@
+[
+  {
+    "phrase": "Auch hier ist es symetrisch",
+    "context": "Auch hier ist es symetrisch … und …",
+    "tags": [
+      "indicator: no_bleeding"
+    ],
+    "rationale": "The person classifies the image area as symmetric, i.e. unremarkable, which indicates no abnormality or bleeding in this region.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 9
+    },
+    "model": "anthropic/claude-sonnet-5.5",
+    "provider": "Claude Platform on AWS",
+    "configuration_name": "claude-sonnet-5-5-260928"
+  },
+  {
+    "phrase": "und …",
+    "context": "Auch hier ist es symetrisch … und …",
+    "tags": [
+      "paused_in_process"
+    ],
+    "rationale": "The trailing 'und …' is only a filler or pause in the speech flow and carries no content.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 9
+    },
+    "model": "anthropic/claude-sonnet-5.5",
+    "provider": "Claude Platform on AWS",
+    "configuration_name": "claude-sonnet-5-5-260928"
+  },
+  {
+    "phrase": "So, Mittellienie mitte wir habe hir alles symetrich",
+    "context": "So, Mittellienie mitte wir habe hir alles symetrich und keine Signalverstärkung, ja",
+    "tags": [
+      "visual_search: description_of_medical_image_features"
+    ],
+    "rationale": "The person names the anatomical structure they are checking (the midline) and describes its symmetry, which is a description of the image features being examined.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 5
+    },
+    "model": "anthropic/claude-sonnet-5.5",
+    "provider": "Claude Platform on AWS",
+    "configuration_name": "claude-sonnet-5-5-260928"
+  },
+  {
+    "phrase": "und keine Signalverstärkung, ja",
+    "context": "So, Mittellienie mitte wir habe hir alles symetrich und keine Signalverstärkung, ja",
+    "tags": [
+      "indicator: no_bleeding"
+    ],
+    "rationale": "The person classifies the examined area as unremarkable, since there is no signal enhancement.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 5
+    },
+    "model": "anthropic/claude-sonnet-5.5",
+    "provider": "Claude Platform on AWS",
+    "configuration_name": "claude-sonnet-5-5-260928"
+  },
+  {
+    "phrase": "Fang ich wieder von vorne an und schau auf die Mittellinie.",
+    "context": "Fang ich wieder von vorne an und schau auf die Mittellinie. Und auf die Ränder vom Knochen",
+    "tags": [
+      "control: control_repeat"
+    ],
+    "rationale": "The person starts again from the beginning, returning to image areas already viewed. The mention of the midline is a description of the structure being checked, but the tag that best fits the segment is the repeat of the search.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 8
+    },
+    "model": "anthropic/claude-sonnet-5.5",
+    "provider": "Claude Platform on AWS",
+    "configuration_name": "claude-sonnet-5-5-260928"
+  },
+  {
+    "phrase": "Und auf die Ränder vom Knochen, es sind aber keine Unterschiede zu sehen.",
+    "context": "Und auf die Ränder vom Knochen, es sind aber keine Unterschiede zu sehen.",
+    "tags": [
+      "indicator: no_bleeding"
+    ],
+    "rationale": "The person checks the bone margins and classifies the area as unremarkable, since no differences are visible.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 8
+    },
+    "model": "anthropic/claude-sonnet-5.5",
+    "provider": "Claude Platform on AWS",
+    "configuration_name": "claude-sonnet-5-5-260928"
+  },
+  {
+    "phrase": "So, fangen wir wieder oben an …",
+    "context": "So, fangen wir wieder oben an … und hier sieht man auch erstmal, mhm keine Veränderung.",
+    "tags": [
+      "visual_search: description_of_own_approach_without_external_help",
+      "reference: past_trial"
+    ],
+    "rationale": "The person describes their own search procedure (starting at the top again). 'Wieder' implies a repeated approach from earlier runs.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 7
+    },
+    "model": "anthropic/claude-sonnet-5.5",
+    "provider": "Claude Platform on AWS",
+    "configuration_name": "claude-sonnet-5-5-260928"
+  },
+  {
+    "phrase": "und hier sieht man auch erstmal, mhm keine Veränderung.",
+    "context": "So, fangen wir wieder oben an … und hier sieht man auch erstmal, mhm keine Veränderung. Ich gucke mal, beidseitig,",
+    "tags": [
+      "indicator: no_bleeding"
+    ],
+    "rationale": "The person classifies the currently viewed image area as unremarkable ('keine Veränderung').",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 7
+    },
+    "model": "anthropic/claude-sonnet-5.5",
+    "provider": "Claude Platform on AWS",
+    "configuration_name": "claude-sonnet-5-5-260928"
+  },
+  {
+    "phrase": "Ich gucke mal, beidseitig, aber …",
+    "context": "mhm keine Veränderung. Ich gucke mal, beidseitig, aber … ah ja, da ist der,",
+    "tags": [
+      "visual_search: description_of_own_approach_without_external_help"
+    ],
+    "rationale": "The person comments on their own search procedure, checking both sides.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 7
+    },
+    "model": "anthropic/claude-sonnet-5.5",
+    "provider": "Claude Platform on AWS",
+    "configuration_name": "claude-sonnet-5-5-260928"
+  },
+  {
+    "phrase": "ah ja, da ist der, auf der Seite ist ein Saum",
+    "context": "Ich gucke mal, beidseitig, aber … ah ja, da ist der, auf der Seite ist ein Saum, was auf eine Blutung hindeuten könnte",
+    "tags": [
+      "indicator: anomaly_detected"
+    ],
+    "rationale": "The person notices an abnormality (a rim or fringe) on one side.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 7
+    },
+    "model": "anthropic/claude-sonnet-5.5",
+    "provider": "Claude Platform on AWS",
+    "configuration_name": "claude-sonnet-5-5-260928"
+  },
+  {
+    "phrase": "was auf eine Blutung hindeuten könnte, oder bestimmt hindeutet.",
+    "context": "auf der Seite ist ein Saum, was auf eine Blutung hindeuten könnte, oder bestimmt hindeutet.",
+    "tags": [
+      "interpretation: bleeding",
+      "confidence_high: secondary"
+    ],
+    "rationale": "The person interprets the finding as a hemorrhage. 'Oder bestimmt' is a self-correction that expresses implicit high certainty.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 7
+    },
+    "model": "anthropic/claude-sonnet-5.5",
+    "provider": "Claude Platform on AWS",
+    "configuration_name": "claude-sonnet-5-5-260928"
+  },
+  {
+    "phrase": "Fang ich wieder so an,",
+    "context": "Fang ich wieder so an, Mittellinien ist in der Mitte,",
+    "tags": [
+      "visual_search: description_of_own_approach_without_external_help",
+      "reference: past_trial"
+    ],
+    "rationale": "The person comments on their own search procedure and says they start 'again' in the same way, which refers to earlier trials.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 4
+    },
+    "model": "anthropic/claude-sonnet-5.5",
+    "provider": "Claude Platform on AWS",
+    "configuration_name": "claude-sonnet-5-5-260928"
+  },
+  {
+    "phrase": "Mittellinien ist in der Mitte, es sind keine Verschiebungen, Ventrikel sehen auch gleich aus",
+    "context": "Mittellinien ist in der Mitte, es sind keine Verschiebungen, Ventrikel sehen auch gleich aus … äh ja,",
+    "tags": [
+      "indicator: no_bleeding"
+    ],
+    "rationale": "The person classifies the midline, possible shifts and the ventricles as unremarkable.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 4
+    },
+    "model": "anthropic/claude-sonnet-5.5",
+    "provider": "Claude Platform on AWS",
+    "configuration_name": "claude-sonnet-5-5-260928"
+  },
+  {
+    "phrase": "äh ja,",
+    "context": "Ventrikel sehen auch gleich aus … äh ja, hier sieht man das schon deutlich",
+    "tags": [
+      "paused_in_process"
+    ],
+    "rationale": "Filler words.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 4
+    },
+    "model": "anthropic/claude-sonnet-5.5",
+    "provider": "Claude Platform on AWS",
+    "configuration_name": "claude-sonnet-5-5-260928"
+  },
+  {
+    "phrase": "hier sieht man das schon deutlich da an der Aufhellung",
+    "context": "äh ja, hier sieht man das schon deutlich da an der Aufhellung im Vergleich zu dem anderen Seite",
+    "tags": [
+      "indicator: anomaly_detected",
+      "confidence_high: secondary"
+    ],
+    "rationale": "The person notices a hyperdense area (Aufhellung) and says it is clearly visible, which signals high certainty.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 4
+    },
+    "model": "anthropic/claude-sonnet-5.5",
+    "provider": "Claude Platform on AWS",
+    "configuration_name": "claude-sonnet-5-5-260928"
+  },
+  {
+    "phrase": "im Vergleich zu dem anderen Seite ist eher nichts auch.",
+    "context": "an der Aufhellung im Vergleich zu dem anderen Seite ist eher nichts auch. Mhm …",
+    "tags": [
+      "indicator: no_bleeding"
+    ],
+    "rationale": "The person compares with the other side and finds nothing there, so that side is classed as unremarkable.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 4
+    },
+    "model": "anthropic/claude-sonnet-5.5",
+    "provider": "Claude Platform on AWS",
+    "configuration_name": "claude-sonnet-5-5-260928"
+  },
+  {
+    "phrase": "Mhm …",
+    "context": "ist eher nichts auch. Mhm …",
+    "tags": [
+      "paused_in_process"
+    ],
+    "rationale": "Filler sound.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 4
+    },
+    "model": "anthropic/claude-sonnet-5.5",
+    "provider": "Claude Platform on AWS",
+    "configuration_name": "claude-sonnet-5-5-260928"
+  },
+  {
+    "phrase": "Man sieht hier auch keine Knochen, ähm Defekt …",
+    "context": "Man sieht hier auch keine Knochen, ähm Defekt … Kein Zeichen für eine Blutung.",
+    "tags": [
+      "indicator: no_bleeding"
+    ],
+    "rationale": "The person classifies the bone structures as unremarkable, with no defect visible. This is a statement about a specific image area, not about the hemorrhage question as a whole.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 10
+    },
+    "model": "anthropic/claude-sonnet-5.5",
+    "provider": "Claude Platform on AWS",
+    "configuration_name": "claude-sonnet-5-5-260928"
+  },
+  {
+    "phrase": "Kein Zeichen für eine Blutung.",
+    "context": "ähm Defekt … Kein Zeichen für eine Blutung.",
+    "tags": [
+      "interpretation: no_bleeding"
+    ],
+    "rationale": "The person concludes there is no sign of a hemorrhage, so they interpret the findings as 'no hemorrhage'.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 10
+    },
+    "model": "anthropic/claude-sonnet-5.5",
+    "provider": "Claude Platform on AWS",
+    "configuration_name": "claude-sonnet-5-5-260928"
+  },
+  {
+    "phrase": "So, hier fange ich auch wieder von vorne an.",
+    "context": "So, hier fange ich auch wieder von vorne an. Sieht bis jetzt alles symmetrisch aus",
+    "tags": [
+      "visual_search: description_of_own_approach_without_external_help",
+      "reference: past_trial"
+    ],
+    "rationale": "Die Person beschreibt ihr eigenes Vorgehen (wieder von vorne beginnen) und verweist damit auf frühere Durchgänge.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 3
+    },
+    "model": "anthropic/claude-sonnet-5.5",
+    "provider": "Claude Platform on AWS",
+    "configuration_name": "claude-sonnet-5-5-260928"
+  },
+  {
+    "phrase": "Sieht bis jetzt alles symmetrisch aus",
+    "context": "von vorne an. Sieht bis jetzt alles symmetrisch aus und ich sehe noch keine Blutung.",
+    "tags": [
+      "indicator: no_bleeding"
+    ],
+    "rationale": "Die Person stuft die betrachteten Bildbereiche als symmetrisch und damit unauffällig ein.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 3
+    },
+    "model": "anthropic/claude-sonnet-5.5",
+    "provider": "Claude Platform on AWS",
+    "configuration_name": "claude-sonnet-5-5-260928"
+  },
+  {
+    "phrase": "ich sehe noch keine Blutung.",
+    "context": "alles symmetrisch aus und ich sehe noch keine Blutung. Hier wird mir, ach ja",
+    "tags": [
+      "interpretation: no_bleeding"
+    ],
+    "rationale": "Die Person stellt fest, dass bisher keine Blutung erkennbar ist.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 3
+    },
+    "model": "anthropic/claude-sonnet-5.5",
+    "provider": "Claude Platform on AWS",
+    "configuration_name": "claude-sonnet-5-5-260928"
+  },
+  {
+    "phrase": "Hier wird mir, ach ja, diese Punkte angezeigt, diese Aufhellung.",
+    "context": "noch keine Blutung. Hier wird mir, ach ja, diese Punkte angezeigt, diese Aufhellung. Das, es verschwindet danach",
+    "tags": [
+      "visual_search: triggered_by_ai",
+      "ai_report: ich_localization"
+    ],
+    "rationale": "Die Person bemerkt die von der KI markierten Punkte bzw. die Aufhellung und beschreibt, wo die KI etwas anzeigt.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 3
+    },
+    "model": "anthropic/claude-sonnet-5.5",
+    "provider": "Claude Platform on AWS",
+    "configuration_name": "claude-sonnet-5-5-260928"
+  },
+  {
+    "phrase": "Das, es verschwindet danach",
+    "context": "diese Aufhellung. Das, es verschwindet danach aber auf der anderen Seite ist auch nichts, ja.",
+    "tags": [
+      "interpretation: no_bleeding_explanation"
+    ],
+    "rationale": "Die Person erklärt, dass die Aufhellung nicht fortbesteht und daher vermutlich keine Blutung ist.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 3
+    },
+    "model": "anthropic/claude-sonnet-5.5",
+    "provider": "Claude Platform on AWS",
+    "configuration_name": "claude-sonnet-5-5-260928"
+  },
+  {
+    "phrase": "aber auf der anderen Seite ist auch nichts, ja.",
+    "context": "es verschwindet danach aber auf der anderen Seite ist auch nichts, ja.",
+    "tags": [
+      "indicator: no_bleeding"
+    ],
+    "rationale": "Die Person klassifiziert die andere Seite als unauffällig.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 3
+    },
+    "model": "anthropic/claude-sonnet-5.5",
+    "provider": "Claude Platform on AWS",
+    "configuration_name": "claude-sonnet-5-5-260928"
+  },
+  {
+    "phrase": "Achso ich muss das immer so machen dann.",
+    "context": "VPN: Achso ich muss das immer so machen dann. EXPERIMENTER: Ja du kannst das leider nicht übernehmen",
+    "tags": [
+      "technical_conversation"
+    ],
+    "rationale": "The person talks with the experimenter about how to operate the display tool (settings must be redone for each case).",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 1
+    },
+    "model": "anthropic/claude-sonnet-5.5",
+    "provider": "Claude Platform on AWS",
+    "configuration_name": "claude-sonnet-5-5-260928"
+  },
+  {
+    "phrase": "Mhm alles gut,",
+    "context": "also du musst bei jedem Fall das neu einstellen. VPN: Mhm alles gut, scroll ich jetzt systematsich",
+    "tags": [
+      "paused_in_process"
+    ],
+    "rationale": "Filler/acknowledgement phrase before continuing the task.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 1
+    },
+    "model": "anthropic/claude-sonnet-5.5",
+    "provider": "Claude Platform on AWS",
+    "configuration_name": "claude-sonnet-5-5-260928"
+  },
+  {
+    "phrase": "scroll ich jetzt systematsich von oben nach untern oder unten nach oben und gucke immer auf beiden Seiten auf Knochen, auf irgenwelche Defekte da sind",
+    "context": "scroll ich jetzt systematsich von oben nach untern oder unten nach oben und gucke immer auf beiden Seiten auf Knochen, auf irgenwelche Defekte da sind, die dann wo. ich dann eine Blutung vermuten könnte.",
+    "tags": [
+      "visual_search: description_of_own_approach_without_external_help"
+    ],
+    "rationale": "The person explicitly describes their systematic search procedure (scrolling, checking both sides, bones, defects).",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 1
+    },
+    "model": "anthropic/claude-sonnet-5.5",
+    "provider": "Claude Platform on AWS",
+    "configuration_name": "claude-sonnet-5-5-260928"
+  },
+  {
+    "phrase": "Aber hier sieht das alles, alles symetrisch und keine Aufhellung oder so",
+    "context": "Aber hier sieht das alles, alles symetrisch und keine Aufhellung oder so, deswegen mhm",
+    "tags": [
+      "indicator: no_bleeding"
+    ],
+    "rationale": "The person classifies the image as symmetric without hyperdensity/lucency, i.e. unremarkable.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 1
+    },
+    "model": "anthropic/claude-sonnet-5.5",
+    "provider": "Claude Platform on AWS",
+    "configuration_name": "claude-sonnet-5-5-260928"
+  },
+  {
+    "phrase": "das hilft mir wirklich zu sagen, das das wirklich keiner ist",
+    "context": "deswegen mhm das hilft mir wirklich zu sagen, das das wirklich keiner ist Ich würde schneller einfach durchgehen.",
+    "tags": [
+      "reflection_of_ai: helpful",
+      "ai_report: no_ich"
+    ],
+    "rationale": "The person finds the AI helpful and refers to its finding that there is no hemorrhage.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 1
+    },
+    "model": "anthropic/claude-sonnet-5.5",
+    "provider": "Claude Platform on AWS",
+    "configuration_name": "claude-sonnet-5-5-260928"
+  },
+  {
+    "phrase": "Ich würde schneller einfach durchgehen.",
+    "context": "das wirklich keiner ist Ich würde schneller einfach durchgehen.",
+    "tags": [
+      "reflection: recurring_perceptual_pattern"
+    ],
+    "rationale": "The person reflects on their general approach/behavior, saying they would normally go through faster.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 1
+    },
+    "model": "anthropic/claude-sonnet-5.5",
+    "provider": "Claude Platform on AWS",
+    "configuration_name": "claude-sonnet-5-5-260928"
+  },
+  {
+    "phrase": "ja normal fange ich immer irgwendwie von oben oder von untern an, dass ich nichts verpasse.",
+    "context": "Mhm, ja normal fange ich immer irgwendwie von oben oder von untern an, dass ich nichts verpasse.",
+    "tags": [
+      "visual_search: description_of_own_approach_without_external_help"
+    ],
+    "rationale": "The person explicitly describes their usual search strategy (starting from the top or bottom so as not to miss anything).",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 2
+    },
+    "model": "anthropic/claude-sonnet-5.5",
+    "provider": "Claude Platform on AWS",
+    "configuration_name": "claude-sonnet-5-5-260928"
+  },
+  {
+    "phrase": "Mittellinie ist in der Mitte, sehe keine Knochen ähm Brüche",
+    "context": "Mhm Mittellinie ist in der Mitte, sehe keine Knochen ähm Brüche, mhm hier zeigt der mir gerade ne Blutung",
+    "tags": [
+      "visual_search: description_of_medical_image_features"
+    ],
+    "rationale": "The person verbalizes which structures they are checking (midline, bone fractures) and finds nothing abnormal.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 2
+    },
+    "model": "anthropic/claude-sonnet-5.5",
+    "provider": "Claude Platform on AWS",
+    "configuration_name": "claude-sonnet-5-5-260928"
+  },
+  {
+    "phrase": "hier zeigt der mir gerade ne Blutung in dem Bereich",
+    "context": "sehe keine Knochen ähm Brüche, mhm hier zeigt der mir gerade ne Blutung in dem Bereich, das ist sehr sehr dezent",
+    "tags": [
+      "ai_report: ich"
+    ],
+    "rationale": "The person says the AI is showing a hemorrhage.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 2
+    },
+    "model": "anthropic/claude-sonnet-5.5",
+    "provider": "Claude Platform on AWS",
+    "configuration_name": "claude-sonnet-5-5-260928"
+  },
+  {
+    "phrase": "das ist sehr sehr dezent, zumindest in meinem Bildschirm hätte ich das auf jeden Fall nicht erkannt sonnst",
+    "context": "in dem Bereich, das ist sehr sehr dezent, zumindest in meinem Bildschirm hätte ich das auf jeden Fall nicht erkannt sonnst, deswegen,",
+    "tags": [
+      "reflection_of_ai: ich_not_recognized_without_ai"
+    ],
+    "rationale": "The person states they would definitely not have recognized the subtle hemorrhage without the AI.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 2
+    },
+    "model": "anthropic/claude-sonnet-5.5",
+    "provider": "Claude Platform on AWS",
+    "configuration_name": "claude-sonnet-5-5-260928"
+  },
+  {
+    "phrase": "ist nicht, wo war das nochmal? ... Da angeblich,",
+    "context": "deswegen, ist nicht, wo war das nochmal? ... Da angeblich, ja ich hätte das nicht gesehen.",
+    "tags": [
+      "control: control_repeat",
+      "reflection_of_ai: distrust_in_ai"
+    ],
+    "rationale": "The person goes back to find the location again ('wo war das nochmal?'); 'angeblich' (allegedly) signals slight distrust of the AI finding.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 2
+    },
+    "model": "anthropic/claude-sonnet-5.5",
+    "provider": "Claude Platform on AWS",
+    "configuration_name": "claude-sonnet-5-5-260928"
+  },
+  {
+    "phrase": "ja ich hätte das nicht gesehen.",
+    "context": "Da angeblich, ja ich hätte das nicht gesehen.",
+    "tags": [
+      "reflection_of_ai: ich_not_recognized_without_ai"
+    ],
+    "rationale": "The person reaffirms they would not have seen the hemorrhage without the AI.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 2
+    },
+    "model": "anthropic/claude-sonnet-5.5",
+    "provider": "Claude Platform on AWS",
+    "configuration_name": "claude-sonnet-5-5-260928"
+  },
+  {
+    "phrase": "Das hilft einem sowohl beim Ausschluss, das man ein bisschen eher auf der sichern Seite, dass man nichts verpasst hat,",
+    "context": "Das hilft einem sowohl beim Ausschluss, das man ein bisschen eher auf der sichern Seite, dass man nichts verpasst hat, auf jeden Fall schneller vorbei hier.",
+    "tags": [
+      "reflection_of_ai: helpful"
+    ],
+    "rationale": "The person says the AI helps with ruling out a hemorrhage and gives more safety that nothing was missed, so they perceive it as helpful.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 11
+    },
+    "model": "anthropic/claude-sonnet-5.5",
+    "provider": "Claude Platform on AWS",
+    "configuration_name": "claude-sonnet-5-5-260928"
+  },
+  {
+    "phrase": "auf jeden Fall schneller vorbei hier.",
+    "context": "dass man nichts verpasst hat, auf jeden Fall schneller vorbei hier. Ja wann da was dabei ist,",
+    "tags": [
+      "reflection_of_ai: helpful"
+    ],
+    "rationale": "The person says the AI speeds up the process, which is a further helpful aspect.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 11
+    },
+    "model": "anthropic/claude-sonnet-5.5",
+    "provider": "Claude Platform on AWS",
+    "configuration_name": "claude-sonnet-5-5-260928"
+  },
+  {
+    "phrase": "Ja wann da was dabei ist, dass man ein bisschen besser drauf achtet.",
+    "context": "auf jeden Fall schneller vorbei hier. Ja wann da was dabei ist, dass man ein bisschen besser drauf achtet.",
+    "tags": [
+      "reflection_of_ai: helpful"
+    ],
+    "rationale": "The person says the AI draws attention to findings when something is present, which they perceive as helpful.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 11
+    },
+    "model": "anthropic/claude-sonnet-5.5",
+    "provider": "Claude Platform on AWS",
+    "configuration_name": "claude-sonnet-5-5-260928"
+  },
+  {
+    "phrase": "Oh, oh no … mhm …",
+    "context": "Oh, oh no … mhm … oben in der Mittellinie sieht man ein Aufhellung.",
+    "tags": [
+      "paused_in_process"
+    ],
+    "rationale": "Filler sounds and exclamations without diagnostic content.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 12
+    },
+    "model": "anthropic/claude-sonnet-5.5",
+    "provider": "Claude Platform on AWS",
+    "configuration_name": "claude-sonnet-5-5-260928"
+  },
+  {
+    "phrase": "oben in der Mittellinie sieht man ein Aufhellung.",
+    "context": "mhm … oben in der Mittellinie sieht man ein Aufhellung. ???",
+    "tags": [
+      "indicator: anomaly_detected"
+    ],
+    "rationale": "Person notices a hyperdense/bright area (Aufhellung) in the midline, which is an abnormality.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 12
+    },
+    "model": "anthropic/claude-sonnet-5.5",
+    "provider": "Claude Platform on AWS",
+    "configuration_name": "claude-sonnet-5-5-260928"
+  },
+  {
+    "phrase": "Oben ist aber schon nichts mehr",
+    "context": "??? Oben ist aber schon nichts mehr, aber da ist was auffälliges dran",
+    "tags": [
+      "control: control_repeat"
+    ],
+    "rationale": "Person looks again at the upper region, checking the area further up and noting nothing is there anymore.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 12
+    },
+    "model": "anthropic/claude-sonnet-5.5",
+    "provider": "Claude Platform on AWS",
+    "configuration_name": "claude-sonnet-5-5-260928"
+  },
+  {
+    "phrase": "aber da ist was auffälliges dran",
+    "context": "Oben ist aber schon nichts mehr, aber da ist was auffälliges dran",
+    "tags": [
+      "reflection: diagnostic_uncertainty"
+    ],
+    "rationale": "Person senses something is abnormal but cannot specify or classify it clearly.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 12
+    },
+    "model": "anthropic/claude-sonnet-5.5",
+    "provider": "Claude Platform on AWS",
+    "configuration_name": "claude-sonnet-5-5-260928"
+  },
+  {
+    "phrase": "Ja schau ich wieder auf die Mittellinie und auf den Schädelknochen",
+    "context": "VPN: … Ja schau ich wieder auf die Mittellinie und auf den Schädelknochen …",
+    "tags": [
+      "visual_search: description_of_medical_image_features",
+      "control: control_repeat"
+    ],
+    "rationale": "The person names the anatomical structures they are checking (midline, skull bone) and says they are looking at them again. The two tags are not mutually exclusive in practice, although the tag definitions suggest they cannot co-occur, so this label is a judgment call.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 6
+    },
+    "model": "anthropic/claude-sonnet-5.5",
+    "provider": "Claude Platform on AWS",
+    "configuration_name": "claude-sonnet-5-5-260928"
+  },
+  {
+    "phrase": "ich guck mir schon auf der anderen Seite vom AI an, ob ich irgendwas verpasst hab.",
+    "context": "ich guck mir schon auf der anderen Seite vom AI an, ob ich irgendwas verpasst hab. Aber hier wird mir nicht angezeigt",
+    "tags": [
+      "control: relying_on_ai"
+    ],
+    "rationale": "The person uses the AI output to check whether they missed anything.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 6
+    },
+    "model": "anthropic/claude-sonnet-5.5",
+    "provider": "Claude Platform on AWS",
+    "configuration_name": "claude-sonnet-5-5-260928"
+  },
+  {
+    "phrase": "Aber hier wird mir nicht angezeigt, wo das ist ha? Also dieses Viereck ist jetzt nicht da.",
+    "context": "Aber hier wird mir nicht angezeigt, wo das ist ha? Also dieses Viereck ist jetzt nicht da.",
+    "tags": [
+      "technical_conversation"
+    ],
+    "rationale": "The person notes that the AI marker (the square) is missing in this image and questions the display.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 6
+    },
+    "model": "anthropic/claude-sonnet-5.5",
+    "provider": "Claude Platform on AWS",
+    "configuration_name": "claude-sonnet-5-5-260928"
+  },
+  {
+    "phrase": "Wo die Blutung sein sollte, jetzt als Frage.",
+    "context": "Also dieses Viereck ist jetzt nicht da. Wo die Blutung sein sollte, jetzt als Frage. Tschuldigung.",
+    "tags": [
+      "technical_conversation"
+    ],
+    "rationale": "The person is asking the experimenter where the hemorrhage marker should be.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 6
+    },
+    "model": "anthropic/claude-sonnet-5.5",
+    "provider": "Claude Platform on AWS",
+    "configuration_name": "claude-sonnet-5-5-260928"
+  },
+  {
+    "phrase": "bei diesem Bild zeigt mir das jetzt nicht an, wo das ist, ist das richtig? Ist das nur manchmal, oder?",
+    "context": "Achso, ja also bei diesem Bild zeigt mir das jetzt nicht an, wo das ist, ist das richtig? Ist das nur manchmal, oder?",
+    "tags": [
+      "technical_conversation"
+    ],
+    "rationale": "The person asks the experimenter about the missing AI marker.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 6
+    },
+    "model": "anthropic/claude-sonnet-5.5",
+    "provider": "Claude Platform on AWS",
+    "configuration_name": "claude-sonnet-5-5-260928"
+  },
+  {
+    "phrase": "Ah da, ja dankeschön, aber auch das hätte ich gar nicht gesehen.",
+    "context": "ganz klein oben. VPN: Ah da, ja dankeschön, aber auch das hätte ich gar nicht gesehen.",
+    "tags": [
+      "reflection_of_ai: ich_not_recognized_without_ai"
+    ],
+    "rationale": "The person finds the marker and says they would not have seen it themselves.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 6
+    },
+    "model": "anthropic/claude-sonnet-5.5",
+    "provider": "Claude Platform on AWS",
+    "configuration_name": "claude-sonnet-5-5-260928"
+  },
+  {
+    "phrase": "ohne AI hätte ich gedacht, dass ist irgendwie einen Artefakt",
+    "context": "Mhm ohne AI hätte ich gedacht, dass ist irgendwie einen Artefakt, hätte ich nicht gesehen",
+    "tags": [
+      "reasoning: artifact"
+    ],
+    "rationale": "The person says that without the AI they would have taken the finding for an artifact.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 6
+    },
+    "model": "anthropic/claude-sonnet-5.5",
+    "provider": "Claude Platform on AWS",
+    "configuration_name": "claude-sonnet-5-5-260928"
+  },
+  {
+    "phrase": "finde es immernich schwer, so es sieht so aus, wie ein Artefakt irgendwie",
+    "context": "hätte ich nicht gesehen, finde es immernich schwer, so es sieht so aus, wie ein Artefakt irgendwie",
+    "tags": [
+      "awareness_of_task: difficult"
+    ],
+    "rationale": "The person explicitly calls the task difficult.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 6
+    },
+    "model": "anthropic/claude-sonnet-5.5",
+    "provider": "Claude Platform on AWS",
+    "configuration_name": "claude-sonnet-5-5-260928"
+  },
+  {
+    "phrase": "ich will ja wissen, dass ich nichts verpasst habe.",
+    "context": "Hier kann ich aber, ich will ja wissen, dass ich nichts verpasst habe.",
+    "tags": [
+      "control: reflective_question"
+    ],
+    "rationale": "The person explains in their own words that they want to make sure they have missed nothing. This is a check on their own thought process and search. It is not a question about the AI or a request for more information, so 'control: reflective_question' fits best.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 15
+    },
+    "model": "anthropic/claude-sonnet-5.5",
+    "provider": "Claude Platform on AWS",
+    "configuration_name": "claude-sonnet-5-5-260928"
+  },
+  {
+    "phrase": "Ja hier, sieht man nichts",
+    "context": "Ja hier, sieht man nichts und AI sagt auch es ist nichts da",
+    "tags": [
+      "indicator: no_bleeding"
+    ],
+    "rationale": "The person classifies the viewed image area as unremarkable because they see nothing.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 18
+    },
+    "model": "anthropic/claude-sonnet-5.5",
+    "provider": "Claude Platform on AWS",
+    "configuration_name": "claude-sonnet-5-5-260928"
+  },
+  {
+    "phrase": "und AI sagt auch es ist nichts da",
+    "context": "Ja hier, sieht man nichts und AI sagt auch es ist nichts da",
+    "tags": [
+      "ai_report: no_ich"
+    ],
+    "rationale": "The person states that the AI has not found a hemorrhage.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 18
+    },
+    "model": "anthropic/claude-sonnet-5.5",
+    "provider": "Claude Platform on AWS",
+    "configuration_name": "claude-sonnet-5-5-260928"
+  },
+  {
+    "phrase": "So, ich probiere auf der Siete ohne AI erstmal nach was zu schauen.",
+    "context": "… So, ich probiere auf der Siete ohne AI erstmal nach was zu schauen. Und auf symetrie schauen",
+    "tags": [
+      "visual_search: description_of_own_approach_without_external_help"
+    ],
+    "rationale": "The person explicitly describes their own search procedure, starting on the side without AI.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 13
+    },
+    "model": "anthropic/claude-sonnet-5.5",
+    "provider": "Claude Platform on AWS",
+    "configuration_name": "claude-sonnet-5-5-260928"
+  },
+  {
+    "phrase": "Und auf symetrie schauen, auf Knochendefekte",
+    "context": "Und auf symetrie schauen, auf Knochendefekte und dann auf der AI Seite",
+    "tags": [
+      "visual_search: description_of_medical_image_features"
+    ],
+    "rationale": "The person names the image features they check: symmetry and bone defects.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 13
+    },
+    "model": "anthropic/claude-sonnet-5.5",
+    "provider": "Claude Platform on AWS",
+    "configuration_name": "claude-sonnet-5-5-260928"
+  },
+  {
+    "phrase": "und dann auf der AI Seite, ob ich irgendwas verpasst habe",
+    "context": "auf Knochendefekte und dann auf der AI Seite, ob ich irgendwas verpasst habe, sieht nicht so aus",
+    "tags": [
+      "visual_search: description_of_own_approach_without_external_help"
+    ],
+    "rationale": "The person describes the next step of their approach: using the AI side to check for anything missed.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 13
+    },
+    "model": "anthropic/claude-sonnet-5.5",
+    "provider": "Claude Platform on AWS",
+    "configuration_name": "claude-sonnet-5-5-260928"
+  },
+  {
+    "phrase": "sieht nicht so aus",
+    "context": "ob ich irgendwas verpasst habe, sieht nicht so aus",
+    "tags": [
+      "ai_report: no_ich",
+      "decision_with_ai: implicitly_agreeing_with_ai"
+    ],
+    "rationale": "The person states nothing was missed after viewing the AI side, so the AI shows no hemorrhage and agrees with their own assessment.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 13
+    },
+    "model": "anthropic/claude-sonnet-5.5",
+    "provider": "Claude Platform on AWS",
+    "configuration_name": "claude-sonnet-5-5-260928"
+  },
+  {
+    "phrase": "So … das habe ich auch, in dem Teil ist es so ein bisschen deutlicher zu sehen",
+    "context": "… So … das habe ich auch, in dem Teil ist es so ein bisschen deutlicher zu sehen und auf der anderen Seite sehe ich das",
+    "tags": [
+      "interpretation: description_bleeding",
+      "decision_with_ai: implicitly_agreeing_with_ai"
+    ],
+    "rationale": "The person says they see the same finding and describes it as more clearly visible in this part. This is a more detailed description of an already identified finding, and 'das habe ich auch' implies agreement with the AI.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 16
+    },
+    "model": "anthropic/claude-sonnet-5.5",
+    "provider": "Claude Platform on AWS",
+    "configuration_name": "claude-sonnet-5-5-260928"
+  },
+  {
+    "phrase": "auf der anderen Seite sehe ich das, eigentlich zeigt mir das das gleiche.",
+    "context": "und auf der anderen Seite sehe ich das, eigentlich zeigt mir das das gleiche. … Ja, gut",
+    "tags": [
+      "visual_search: description_of_medical_image_features"
+    ],
+    "rationale": "The person compares the other side of the image and says it shows the same thing, which describes the image features they are checking.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 16
+    },
+    "model": "anthropic/claude-sonnet-5.5",
+    "provider": "Claude Platform on AWS",
+    "configuration_name": "claude-sonnet-5-5-260928"
+  },
+  {
+    "phrase": "Ja, gut",
+    "context": "eigentlich zeigt mir das das gleiche. … Ja, gut",
+    "tags": [
+      "paused_in_process"
+    ],
+    "rationale": "This is a filler phrase that closes the statement and has no diagnostic content.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 16
+    },
+    "model": "anthropic/claude-sonnet-5.5",
+    "provider": "Claude Platform on AWS",
+    "configuration_name": "claude-sonnet-5-5-260928"
+  },
+  {
+    "phrase": "Ich fange so an, dass ich das alles einmal gesehen habe und schue mir die Ventrikel und die Mittellinie an, Schädelknochen und direkt dadrunter [?] Konvex oder konkav.",
+    "context": "Ich fange so an, dass ich das alles einmal gesehen habe und schue mir die Ventrikel und die Mittellinie an, Schädelknochen und direkt dadrunter [?] Konvex oder konkav.",
+    "tags": [
+      "visual_search: description_of_own_approach_without_external_help"
+    ],
+    "rationale": "The person explicitly describes their own search procedure (overview first, then ventricles, midline, skull bones, and checking whether the area just beneath is convex or concave).",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 14
+    },
+    "model": "anthropic/claude-sonnet-5.5",
+    "provider": "Claude Platform on AWS",
+    "configuration_name": "claude-sonnet-5-5-260928"
+  },
+  {
+    "phrase": "Hier, hätte ich das verpasst, ich habe erst mal auf der nicht AI Seite gesehen,",
+    "context": "Hier, hätte ich das verpasst, ich habe erst mal auf der nicht AI Seite gesehen, und jetzt hier wird mir aber was angezeigt.",
+    "tags": [
+      "reflection_of_ai: ich_not_recognized_without_ai"
+    ],
+    "rationale": "The person says they would have missed the finding on the non-AI side, which means they would not have recognized the hemorrhage without the AI.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 14
+    },
+    "model": "anthropic/claude-sonnet-5.5",
+    "provider": "Claude Platform on AWS",
+    "configuration_name": "claude-sonnet-5-5-260928"
+  },
+  {
+    "phrase": "und jetzt hier wird mir aber was angezeigt.",
+    "context": "ich habe erst mal auf der nicht AI Seite gesehen, und jetzt hier wird mir aber was angezeigt.",
+    "tags": [
+      "ai_report: ich"
+    ],
+    "rationale": "The person verbalizes that the AI is now showing them something, meaning it has found a hemorrhage.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 14
+    },
+    "model": "anthropic/claude-sonnet-5.5",
+    "provider": "Claude Platform on AWS",
+    "configuration_name": "claude-sonnet-5-5-260928"
+  },
+  {
+    "phrase": "Ja, das hätte ich nicht ohne AI gemerkt.",
+    "context": "wird mir aber was angezeigt. Ja, das hätte ich nicht ohne AI gemerkt.",
+    "tags": [
+      "reflection_of_ai: ich_not_recognized_without_ai"
+    ],
+    "rationale": "The person explicitly states they would not have noticed the finding without the AI.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 14
+    },
+    "model": "anthropic/claude-sonnet-5.5",
+    "provider": "Claude Platform on AWS",
+    "configuration_name": "claude-sonnet-5-5-260928"
+  },
+  {
+    "phrase": "Hier ist jetzt alles wieder, unaufällig aus, beiden Sieten",
+    "context": "Hier ist jetzt alles wieder, unaufällig aus, beiden Sieten und AI sagt auch nichts da",
+    "tags": [
+      "indicator: no_bleeding"
+    ],
+    "rationale": "The person classifies the viewed image areas on both sides as unremarkable.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 22
+    },
+    "model": "anthropic/claude-sonnet-5.5",
+    "provider": "Claude Platform on AWS",
+    "configuration_name": "claude-sonnet-5-5-260928"
+  },
+  {
+    "phrase": "AI sagt auch nichts da",
+    "context": "unaufällig aus, beiden Sieten und AI sagt auch nichts da",
+    "tags": [
+      "ai_report: no_ich",
+      "decision_with_ai: implicitly_agreeing_with_ai"
+    ],
+    "rationale": "The person states that the AI also reports nothing, i.e. no hemorrhage found. The word 'auch' shows their own assessment matches the AI's.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 22
+    },
+    "model": "anthropic/claude-sonnet-5.5",
+    "provider": "Claude Platform on AWS",
+    "configuration_name": "claude-sonnet-5-5-260928"
+  },
+  {
+    "phrase": "Dann scrolle ich wieder und schaue ob ich immer beidseitig irgendwelche Unterschiede merke.",
+    "context": "Okay, ja, danke, gut. Dann scrolle ich wieder und schaue ob ich immer beidseitig irgendwelche Unterschiede merke. Mit ähm, schauen wir immer auf die Symmetrie",
+    "tags": [
+      "visual_search: description_of_own_approach_without_external_help"
+    ],
+    "rationale": "The person describes their own search procedure: scrolling and comparing both sides.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 0
+    },
+    "model": "anthropic/claude-sonnet-5.5",
+    "provider": "Claude Platform on AWS",
+    "configuration_name": "claude-sonnet-5-5-260928"
+  },
+  {
+    "phrase": "Mit ähm, schauen wir immer auf die Symmetrie und auf der Mittellinie, ob es eine Verschiebung da ist oder nicht.",
+    "context": "Mit ähm, schauen wir immer auf die Symmetrie und auf der Mittellinie, ob es eine Verschiebung da ist oder nicht. Ähm!",
+    "tags": [
+      "visual_search: description_of_medical_image_features"
+    ],
+    "rationale": "The person names the structures they check (symmetry, midline shift).",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 0
+    },
+    "model": "anthropic/claude-sonnet-5.5",
+    "provider": "Claude Platform on AWS",
+    "configuration_name": "claude-sonnet-5-5-260928"
+  },
+  {
+    "phrase": "Ich hätte jetzt persönlich nicht erkannt, dass es jetzt unbedingt eine Blutung da ist,",
+    "context": "Ähm! Ich hätte jetzt persönlich nicht erkannt, dass es jetzt unbedingt eine Blutung da ist, weil auf der anderen Seite sieht es also von der Hemisphäre sieht es auch so ähnlich aus",
+    "tags": [
+      "interpretation: no_bleeding",
+      "confidence_low: secondary"
+    ],
+    "rationale": "The person would not have identified a hemorrhage on their own; the wording ('nicht unbedingt') is hedged.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 0
+    },
+    "model": "anthropic/claude-sonnet-5.5",
+    "provider": "Claude Platform on AWS",
+    "configuration_name": "claude-sonnet-5-5-260928"
+  },
+  {
+    "phrase": "weil auf der anderen Seite sieht es also von der Hemisphäre sieht es auch so ähnlich aus und es wurde halt von der AI nicht erkannt.",
+    "context": "unbedingt eine Blutung da ist, weil auf der anderen Seite sieht es also von der Hemisphäre sieht es auch so ähnlich aus und es wurde halt von der AI nicht erkannt.",
+    "tags": [
+      "interpretation: no_bleeding_explanation"
+    ],
+    "rationale": "The person explains that the other hemisphere looks similar, so the finding is probably not a hemorrhage.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 0
+    },
+    "model": "anthropic/claude-sonnet-5.5",
+    "provider": "Claude Platform on AWS",
+    "configuration_name": "claude-sonnet-5-5-260928"
+  },
+  {
+    "phrase": "und es wurde halt von der AI nicht erkannt.",
+    "context": "sieht es auch so ähnlich aus und es wurde halt von der AI nicht erkannt. Ich habe da nicht so Erfahrung mit,",
+    "tags": [
+      "ai_report: no_ich"
+    ],
+    "rationale": "The person states that the AI did not detect a hemorrhage on the other side.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 0
+    },
+    "model": "anthropic/claude-sonnet-5.5",
+    "provider": "Claude Platform on AWS",
+    "configuration_name": "claude-sonnet-5-5-260928"
+  },
+  {
+    "phrase": "Ich habe da nicht so Erfahrung mit, aber ich hätte gedacht, vielleicht ist es irgendwie normal, wenn es irgendwie beidseitig ist.",
+    "context": "Ich habe da nicht so Erfahrung mit, aber ich hätte gedacht, vielleicht ist es irgendwie normal, wenn es irgendwie beidseitig ist. Deswegen...",
+    "tags": [
+      "reflection: experience_limitation",
+      "confidence_low: secondary"
+    ],
+    "rationale": "The person refers to their limited experience and tentatively considers the finding normal ('vielleicht').",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 0
+    },
+    "model": "anthropic/claude-sonnet-5.5",
+    "provider": "Claude Platform on AWS",
+    "configuration_name": "claude-sonnet-5-5-260928"
+  },
+  {
+    "phrase": "Ich muss trotzdem selber erkennen, ob das also das ist, jetzt nicht.",
+    "context": "Deswegen... Ich muss trotzdem selber erkennen, ob das also das ist, jetzt nicht. Wenn das AI sagt,",
+    "tags": [
+      "control: make_own_judgement"
+    ],
+    "rationale": "The person stresses that they have to decide for themselves.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 0
+    },
+    "model": "anthropic/claude-sonnet-5.5",
+    "provider": "Claude Platform on AWS",
+    "configuration_name": "claude-sonnet-5-5-260928"
+  },
+  {
+    "phrase": "Wenn das AI sagt, dass es, dass es eine Blutung da ist, muss es nicht unbedingt sein, oder?",
+    "context": "jetzt nicht. Wenn das AI sagt, dass es, dass es eine Blutung da ist, muss es nicht unbedingt sein, oder? Also, ich kenn,",
+    "tags": [
+      "reflection_of_ai: distrust_in_ai",
+      "ai_report: ich"
+    ],
+    "rationale": "The person questions whether the AI's hemorrhage report is necessarily correct and mentions that the AI reported a hemorrhage.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 0
+    },
+    "model": "anthropic/claude-sonnet-5.5",
+    "provider": "Claude Platform on AWS",
+    "configuration_name": "claude-sonnet-5-5-260928"
+  },
+  {
+    "phrase": "Okay, ich gehe schon davon aus, dass es ist.",
+    "context": "Ich weiß es leider nicht. Okay, ich gehe schon davon aus, dass es ist. Hm!",
+    "tags": [
+      "interpretation: bleeding",
+      "decision_with_ai: implicitly_agreeing_with_ai"
+    ],
+    "rationale": "The person assumes a hemorrhage is present, in line with the AI.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 0
+    },
+    "model": "anthropic/claude-sonnet-5.5",
+    "provider": "Claude Platform on AWS",
+    "configuration_name": "claude-sonnet-5-5-260928"
+  },
+  {
+    "phrase": "ich sage einfach ja, und ich bin nicht so kompetent, eben weil die andere Seite nicht detektiert wurde, und das sieht sehr ähnlich aus.",
+    "context": "Ja, aber gut, ich sage einfach ja, und ich bin nicht so kompetent, eben weil die andere Seite nicht detektiert wurde, und das sieht sehr ähnlich aus. Aber keine Ahnung.",
+    "tags": [
+      "interpretation: bleeding",
+      "confidence_low: concrete",
+      "reflection: experience_limitation"
+    ],
+    "rationale": "The person decides 'yes' (hemorrhage) but says they are not competent and are unsure because the other side looks similar and was not detected.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 0
+    },
+    "model": "anthropic/claude-sonnet-5.5",
+    "provider": "Claude Platform on AWS",
+    "configuration_name": "claude-sonnet-5-5-260928"
+  },
+  {
+    "phrase": "Aber keine Ahnung.",
+    "context": "und das sieht sehr ähnlich aus. Aber keine Ahnung. Ja.",
+    "tags": [
+      "confidence_low: concrete"
+    ],
+    "rationale": "The person explicitly expresses uncertainty.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 0
+    },
+    "model": "anthropic/claude-sonnet-5.5",
+    "provider": "Claude Platform on AWS",
+    "configuration_name": "claude-sonnet-5-5-260928"
+  },
+  {
+    "phrase": "Ok mhm …",
+    "context": "Ok mhm … Hier soll nichts sein und ich sehe auch nichts",
+    "tags": [
+      "paused_in_process"
+    ],
+    "rationale": "Reine Füllwörter ohne inhaltliche Aussage.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 20
+    },
+    "model": "anthropic/claude-sonnet-5.5",
+    "provider": "Claude Platform on AWS",
+    "configuration_name": "claude-sonnet-5-5-260928"
+  },
+  {
+    "phrase": "Hier soll nichts sein und ich sehe auch nichts",
+    "context": "Ok mhm … Hier soll nichts sein und ich sehe auch nichts  und ist beides symetrisch",
+    "tags": [
+      "interpretation: no_bleeding"
+    ],
+    "rationale": "Die Person stellt fest, dass hier keine Blutung vorliegt und nichts zu sehen ist (zugleich Verweis auf die KI-Angabe, aber vor allem eigene Interpretation: keine Blutung).",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 20
+    },
+    "model": "anthropic/claude-sonnet-5.5",
+    "provider": "Claude Platform on AWS",
+    "configuration_name": "claude-sonnet-5-5-260928"
+  },
+  {
+    "phrase": "und ist beides symetrisch und Ventrikel frei.",
+    "context": "und ich sehe auch nichts  und ist beides symetrisch und Ventrikel frei. Unterhalb des Schädelknochen ist alles frei",
+    "tags": [
+      "visual_search: description_of_medical_image_features"
+    ],
+    "rationale": "Die Person benennt die geprüften Strukturen (Symmetrie, Ventrikel).",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 20
+    },
+    "model": "anthropic/claude-sonnet-5.5",
+    "provider": "Claude Platform on AWS",
+    "configuration_name": "claude-sonnet-5-5-260928"
+  },
+  {
+    "phrase": "Unterhalb des Schädelknochen ist alles frei",
+    "context": "Ventrikel frei. Unterhalb des Schädelknochen ist alles frei",
+    "tags": [
+      "indicator: no_bleeding"
+    ],
+    "rationale": "Ein spezifischer Bildbereich (unterhalb des Schädelknochens) wird als unauffällig eingestuft.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 20
+    },
+    "model": "anthropic/claude-sonnet-5.5",
+    "provider": "Claude Platform on AWS",
+    "configuration_name": "claude-sonnet-5-5-260928"
+  },
+  {
+    "phrase": "Bis jetzt auch alles symetrisch und Mittellinie ist nicht verschoben",
+    "context": "… Mhm da … Bis jetzt auch alles symetrisch und Mittellinie ist nicht verschoben … Ist mir so noch nicht so direkt",
+    "tags": [
+      "indicator: no_bleeding"
+    ],
+    "rationale": "The person classifies the image as symmetric with no midline shift, so these areas are unremarkable.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 19
+    },
+    "model": "anthropic/claude-sonnet-5.5",
+    "provider": "Claude Platform on AWS",
+    "configuration_name": "claude-sonnet-5-5-260928"
+  },
+  {
+    "phrase": "Ist mir so noch nicht so direkt mhm ja, das wär ja,",
+    "context": "Mittellinie ist nicht verschoben … Ist mir so noch nicht so direkt mhm ja, das wär ja, … auf der Seite sieht das irgendwie",
+    "tags": [
+      "reflection: diagnostic_uncertainty",
+      "confidence_low: secondary"
+    ],
+    "rationale": "The person hesitates and is unsure whether anything is noticeable or abnormal.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 19
+    },
+    "model": "anthropic/claude-sonnet-5.5",
+    "provider": "Claude Platform on AWS",
+    "configuration_name": "claude-sonnet-5-5-260928"
+  },
+  {
+    "phrase": "auf der Seite sieht das irgendwie die Gyri ander aus als auf dieser Seite",
+    "context": "das wär ja, … auf der Seite sieht das irgendwie die Gyri ander aus als auf dieser Seite und auf der AI Seite zeigt",
+    "tags": [
+      "indicator: anomaly_detected"
+    ],
+    "rationale": "The person notices an asymmetry in the gyri between the two sides, which is an abnormality.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 19
+    },
+    "model": "anthropic/claude-sonnet-5.5",
+    "provider": "Claude Platform on AWS",
+    "configuration_name": "claude-sonnet-5-5-260928"
+  },
+  {
+    "phrase": "auf der AI Seite zeigt, wird mir auch angezeigt, dass hier was ist, ja",
+    "context": "als auf dieser Seite und auf der AI Seite zeigt, wird mir auch angezeigt, dass hier was ist, ja",
+    "tags": [
+      "ai_report: ich",
+      "reflection_of_ai: confirmed_by_ai"
+    ],
+    "rationale": "The person says the AI also indicates that something is there, which confirms their own finding.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 19
+    },
+    "model": "anthropic/claude-sonnet-5.5",
+    "provider": "Claude Platform on AWS",
+    "configuration_name": "claude-sonnet-5-5-260928"
+  },
+  {
+    "phrase": "Genaue, erst mal auf der Seite ohne AI, auf Unterschiede beidseitig bei den Hemisphären,",
+    "context": "Ja. Genaue, erst mal auf der Seite ohne AI, auf Unterschiede beidseitig bei den Hemisphären, und hier hab ich nichts direkt gesehen",
+    "tags": [
+      "visual_search: description_of_own_approach_without_external_help"
+    ],
+    "rationale": "The person describes their own search procedure: first looking at the side without AI and comparing both hemispheres.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 17
+    },
+    "model": "anthropic/claude-sonnet-5.5",
+    "provider": "Claude Platform on AWS",
+    "configuration_name": "claude-sonnet-5-5-260928"
+  },
+  {
+    "phrase": "und hier hab ich nichts direkt gesehen",
+    "context": "beidseitig bei den Hemisphären, und hier hab ich nichts direkt gesehen und auf der Seite mir aber was angezeigt.",
+    "tags": [
+      "indicator: no_bleeding"
+    ],
+    "rationale": "The person classifies the image without AI as having no directly visible abnormality.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 17
+    },
+    "model": "anthropic/claude-sonnet-5.5",
+    "provider": "Claude Platform on AWS",
+    "configuration_name": "claude-sonnet-5-5-260928"
+  },
+  {
+    "phrase": "und auf der Seite mir aber was angezeigt.",
+    "context": "und hier hab ich nichts direkt gesehen und auf der Seite mir aber was angezeigt. Das hätte ich ohne so ohne so große Erfahrung nicht gemerkt.",
+    "tags": [
+      "ai_report: ich"
+    ],
+    "rationale": "The person verbalizes that the AI displayed something (a finding) on the AI side.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 17
+    },
+    "model": "anthropic/claude-sonnet-5.5",
+    "provider": "Claude Platform on AWS",
+    "configuration_name": "claude-sonnet-5-5-260928"
+  },
+  {
+    "phrase": "Das hätte ich ohne so ohne so große Erfahrung nicht gemerkt.",
+    "context": "und auf der Seite mir aber was angezeigt. Das hätte ich ohne so ohne so große Erfahrung nicht gemerkt. Aber wenn man das weiß, dann sieht man es da auch doch.",
+    "tags": [
+      "reflection_of_ai: ich_not_recognized_without_ai"
+    ],
+    "rationale": "The person states they would not have noticed the finding without the AI, citing limited experience.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 17
+    },
+    "model": "anthropic/claude-sonnet-5.5",
+    "provider": "Claude Platform on AWS",
+    "configuration_name": "claude-sonnet-5-5-260928"
+  },
+  {
+    "phrase": "Aber wenn man das weiß, dann sieht man es da auch doch.",
+    "context": "ohne so große Erfahrung nicht gemerkt. Aber wenn man das weiß, dann sieht man es da auch doch.",
+    "tags": [
+      "visual_search: triggered_by_ai",
+      "decision_with_ai: implicitly_agreeing_with_ai"
+    ],
+    "rationale": "Once the person knows where the AI points, they can see the finding, so their visual search is guided by the AI and they implicitly agree with it.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 17
+    },
+    "model": "anthropic/claude-sonnet-5.5",
+    "provider": "Claude Platform on AWS",
+    "configuration_name": "claude-sonnet-5-5-260928"
+  },
+  {
+    "phrase": "Schau erstmal wieder auf meine Seite",
+    "context": "… Schau erstmal wieder auf meine Seite … Ich seh keine Unterschied",
+    "tags": [
+      "paused_in_process"
+    ],
+    "rationale": "Das ist eine Äußerung ohne diagnostischen Inhalt (Aufmerksamkeitslenkung bzw. Füllsatz). Es wird weder ein Befund noch eine Interpretation genannt.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 25
+    },
+    "model": "anthropic/claude-sonnet-5.5",
+    "provider": "Claude Platform on AWS",
+    "configuration_name": "claude-sonnet-5-5-260928"
+  },
+  {
+    "phrase": "Ich seh keine Unterschied",
+    "context": "… Schau erstmal wieder auf meine Seite … Ich seh keine Unterschied",
+    "tags": [
+      "indicator: no_bleeding"
+    ],
+    "rationale": "Die Person klassifiziert den betrachteten Bildbereich als unauffällig, weil sie keinen Unterschied erkennt.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 25
+    },
+    "model": "anthropic/claude-sonnet-5.5",
+    "provider": "Claude Platform on AWS",
+    "configuration_name": "claude-sonnet-5-5-260928"
+  },
+  {
+    "phrase": "Okay.",
+    "context": "Okay. Jetzt wieder schneller, weil ich gesagt bekomme",
+    "tags": [
+      "paused_in_process"
+    ],
+    "rationale": "Pure filler word at the start of the utterance, with no diagnostic content.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 24
+    },
+    "model": "anthropic/claude-sonnet-5.5",
+    "provider": "Claude Platform on AWS",
+    "configuration_name": "claude-sonnet-5-5-260928"
+  },
+  {
+    "phrase": "Jetzt wieder schneller, weil ich gesagt bekomme, dass da nichts da ist",
+    "context": "Jetzt wieder schneller, weil ich gesagt bekomme, dass da nichts da ist, und mir fällt auch nichts auf.",
+    "tags": [
+      "ai_report: no_ich",
+      "control: relying_on_ai",
+      "reference: past_trial"
+    ],
+    "rationale": "The person reports that they are told nothing is there (the AI found no hemorrhage) and adapts their search speed to this. They rely on the AI during the search. 'Wieder schneller' refers to how they behaved in earlier runs.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 24
+    },
+    "model": "anthropic/claude-sonnet-5.5",
+    "provider": "Claude Platform on AWS",
+    "configuration_name": "claude-sonnet-5-5-260928"
+  },
+  {
+    "phrase": "und mir fällt auch nichts auf.",
+    "context": "dass da nichts da ist, und mir fällt auch nichts auf.",
+    "tags": [
+      "indicator: no_bleeding",
+      "decision_with_ai: implicitly_agreeing_with_ai"
+    ],
+    "rationale": "The person notices no abnormalities themselves, which implicitly agrees with the AI's 'no hemorrhage' assessment.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 24
+    },
+    "model": "anthropic/claude-sonnet-5.5",
+    "provider": "Claude Platform on AWS",
+    "configuration_name": "claude-sonnet-5-5-260928"
+  },
+  {
+    "phrase": "Genau so hier mhm",
+    "context": "Genau so hier mhm nichts was auffällig aussieht",
+    "tags": [
+      "paused_in_process"
+    ],
+    "rationale": "Filler words and a short pause without diagnostic content.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 27
+    },
+    "model": "anthropic/claude-sonnet-5.5",
+    "provider": "Claude Platform on AWS",
+    "configuration_name": "claude-sonnet-5-5-260928"
+  },
+  {
+    "phrase": "nichts was auffällig aussieht",
+    "context": "Genau so hier mhm nichts was auffällig aussieht",
+    "tags": [
+      "indicator: no_bleeding"
+    ],
+    "rationale": "The person classifies the currently viewed image area as unremarkable, with nothing that looks abnormal.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 27
+    },
+    "model": "anthropic/claude-sonnet-5.5",
+    "provider": "Claude Platform on AWS",
+    "configuration_name": "claude-sonnet-5-5-260928"
+  },
+  {
+    "phrase": "Mhm",
+    "context": "Mhm hier wieder Mittelinie und Schädelkalotte",
+    "tags": [
+      "paused_in_process"
+    ],
+    "rationale": "Pure filler word without diagnostic content.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 26
+    },
+    "model": "anthropic/claude-sonnet-5.5",
+    "provider": "Claude Platform on AWS",
+    "configuration_name": "claude-sonnet-5-5-260928"
+  },
+  {
+    "phrase": "hier wieder Mittelinie und Schädelkalotte",
+    "context": "Mhm hier wieder Mittelinie und Schädelkalotte und da drunter auch kein Saum",
+    "tags": [
+      "visual_search: description_of_medical_image_features"
+    ],
+    "rationale": "Person names the anatomical structures (midline, calvarium) they are currently checking.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 26
+    },
+    "model": "anthropic/claude-sonnet-5.5",
+    "provider": "Claude Platform on AWS",
+    "configuration_name": "claude-sonnet-5-5-260928"
+  },
+  {
+    "phrase": "und da drunter auch kein Saum, ist alles ok",
+    "context": "Schädelkalotte und da drunter auch kein Saum, ist alles ok",
+    "tags": [
+      "indicator: no_bleeding"
+    ],
+    "rationale": "Person classifies the area beneath the calvarium as unremarkable (no hemorrhage fringe), stating everything is fine.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 26
+    },
+    "model": "anthropic/claude-sonnet-5.5",
+    "provider": "Claude Platform on AWS",
+    "configuration_name": "claude-sonnet-5-5-260928"
+  },
+  {
+    "phrase": "So ich guck erstmal ohne AI.",
+    "context": "So ich guck erstmal ohne AI. Ich schau auf Mittellinie und auf Knochendefekte.",
+    "tags": [
+      "visual_search: description_of_own_approach_without_external_help"
+    ],
+    "rationale": "The person comments on their own search procedure: they first look at the image without the AI.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 21
+    },
+    "model": "anthropic/claude-sonnet-5.5",
+    "provider": "Claude Platform on AWS",
+    "configuration_name": "claude-sonnet-5-5-260928"
+  },
+  {
+    "phrase": "Ich schau auf Mittellinie und auf Knochendefekte.",
+    "context": "Ich schau auf Mittellinie und auf Knochendefekte. … Auf Unterschiede auf beiden Seiten",
+    "tags": [
+      "visual_search: description_of_medical_image_features"
+    ],
+    "rationale": "The person names the anatomical structures they are checking (midline, bone defects).",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 21
+    },
+    "model": "anthropic/claude-sonnet-5.5",
+    "provider": "Claude Platform on AWS",
+    "configuration_name": "claude-sonnet-5-5-260928"
+  },
+  {
+    "phrase": "Auf Unterschiede auf beiden Seiten, ist mir nichts aufgefallen,",
+    "context": "Auf Unterschiede auf beiden Seiten, ist mir nichts aufgefallen, aber sollte da was sein?",
+    "tags": [
+      "indicator: no_bleeding"
+    ],
+    "rationale": "The person classifies the comparison of both sides as unremarkable.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 21
+    },
+    "model": "anthropic/claude-sonnet-5.5",
+    "provider": "Claude Platform on AWS",
+    "configuration_name": "claude-sonnet-5-5-260928"
+  },
+  {
+    "phrase": "aber sollte da was sein?",
+    "context": "ist mir nichts aufgefallen, aber sollte da was sein? Ich guck jetzt auf der AI Seite",
+    "tags": [
+      "control: reflective_question"
+    ],
+    "rationale": "The person asks themselves whether they might have missed something, to verify their own assessment.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 21
+    },
+    "model": "anthropic/claude-sonnet-5.5",
+    "provider": "Claude Platform on AWS",
+    "configuration_name": "claude-sonnet-5-5-260928"
+  },
+  {
+    "phrase": "Ich guck jetzt auf der AI Seite,",
+    "context": "aber sollte da was sein? Ich guck jetzt auf der AI Seite, da ist schon ah,",
+    "tags": [
+      "control: relying_on_ai"
+    ],
+    "rationale": "The person turns to the AI view to support the visual search.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 21
+    },
+    "model": "anthropic/claude-sonnet-5.5",
+    "provider": "Claude Platform on AWS",
+    "configuration_name": "claude-sonnet-5-5-260928"
+  },
+  {
+    "phrase": "da ist schon angeblich unter deer Schädelkalotte was",
+    "context": "da ist schon ah, da ist schon angeblich unter deer Schädelkalotte was was ich nicht gesehen hätte unbedingt.",
+    "tags": [
+      "ai_report: ich_localization"
+    ],
+    "rationale": "The person describes where the AI locates the finding (under the skull cap).",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 21
+    },
+    "model": "anthropic/claude-sonnet-5.5",
+    "provider": "Claude Platform on AWS",
+    "configuration_name": "claude-sonnet-5-5-260928"
+  },
+  {
+    "phrase": "was was ich nicht gesehen hätte unbedingt.",
+    "context": "unter deer Schädelkalotte was was ich nicht gesehen hätte unbedingt.",
+    "tags": [
+      "reflection_of_ai: ich_not_recognized_without_ai"
+    ],
+    "rationale": "The person says they would not necessarily have seen the finding without the AI.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 21
+    },
+    "model": "anthropic/claude-sonnet-5.5",
+    "provider": "Claude Platform on AWS",
+    "configuration_name": "claude-sonnet-5-5-260928"
+  },
+  {
+    "phrase": "So, hier ist wieder ne extra Sicherheit da, dass AI sagt, dass da nichts ist.",
+    "context": "So, hier ist wieder ne extra Sicherheit da, dass AI sagt, dass da nichts ist. Deswegen kann ich ein bisschen schneller gehen",
+    "tags": [
+      "ai_report: no_ich",
+      "confidence_high: increased_through_ai",
+      "reference: past_trial"
+    ],
+    "rationale": "The person states that the AI reports nothing is there (no hemorrhage). They describe this as an extra safety, which shows increased certainty. 'wieder' refers back to earlier trials.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 30
+    },
+    "model": "anthropic/claude-sonnet-5.5",
+    "provider": "Claude Platform on AWS",
+    "configuration_name": "claude-sonnet-5-5-260928"
+  },
+  {
+    "phrase": "Deswegen kann ich ein bisschen schneller gehen, das hilf mir schon.",
+    "context": "dass AI sagt, dass da nichts ist. Deswegen kann ich ein bisschen schneller gehen, das hilf mir schon.",
+    "tags": [
+      "reflection_of_ai: helpful",
+      "control: relying_on_ai"
+    ],
+    "rationale": "The person says the AI helps them and lets them proceed faster, so they rely on it during the search.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 30
+    },
+    "model": "anthropic/claude-sonnet-5.5",
+    "provider": "Claude Platform on AWS",
+    "configuration_name": "claude-sonnet-5-5-260928"
+  },
+  {
+    "phrase": "Hier soll was sein,",
+    "context": "Hier soll was sein, ich guck erstmal auf meine Seite ohne AI,",
+    "tags": [
+      "ai_report: ich"
+    ],
+    "rationale": "The person states that something is supposed to be here, which reflects the AI's report of a finding.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 23
+    },
+    "model": "anthropic/claude-sonnet-5.5",
+    "provider": "Claude Platform on AWS",
+    "configuration_name": "claude-sonnet-5-5-260928"
+  },
+  {
+    "phrase": "ich guck erstmal auf meine Seite ohne AI, ob irgendwelche Auffälligkeite,",
+    "context": "ich guck erstmal auf meine Seite ohne AI, ob irgendwelche Auffälligkeite, bis jetzt ist die Mittellinie",
+    "tags": [
+      "visual_search: description_of_own_approach_without_external_help"
+    ],
+    "rationale": "The person explicitly describes their own search procedure: first looking without the AI.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 23
+    },
+    "model": "anthropic/claude-sonnet-5.5",
+    "provider": "Claude Platform on AWS",
+    "configuration_name": "claude-sonnet-5-5-260928"
+  },
+  {
+    "phrase": "bis jetzt ist die Mittellinie in der Mitte nicht vershcoben,",
+    "context": "bis jetzt ist die Mittellinie in der Mitte nicht vershcoben, Knochendefekte sehe ich nicht,",
+    "tags": [
+      "indicator: no_bleeding"
+    ],
+    "rationale": "The person classifies the midline as unremarkable (not shifted).",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 23
+    },
+    "model": "anthropic/claude-sonnet-5.5",
+    "provider": "Claude Platform on AWS",
+    "configuration_name": "claude-sonnet-5-5-260928"
+  },
+  {
+    "phrase": "Knochendefekte sehe ich nicht,",
+    "context": "Knochendefekte sehe ich nicht, Unterschiede zwischen den beiden hemisphären",
+    "tags": [
+      "indicator: no_bleeding"
+    ],
+    "rationale": "The person finds no bone defects, so the area is unremarkable.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 23
+    },
+    "model": "anthropic/claude-sonnet-5.5",
+    "provider": "Claude Platform on AWS",
+    "configuration_name": "claude-sonnet-5-5-260928"
+  },
+  {
+    "phrase": "Unterschiede zwischen den beiden hemisphären kann ich auch auf die Schnelle nicht gesehen.",
+    "context": "Unterschiede zwischen den beiden hemisphären kann ich auch auf die Schnelle nicht gesehen. Geh nochmal durch",
+    "tags": [
+      "indicator: no_bleeding"
+    ],
+    "rationale": "The person sees no differences between the hemispheres, so the area is unremarkable.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 23
+    },
+    "model": "anthropic/claude-sonnet-5.5",
+    "provider": "Claude Platform on AWS",
+    "configuration_name": "claude-sonnet-5-5-260928"
+  },
+  {
+    "phrase": "Geh nochmal durch nochmal ...",
+    "context": "auf die Schnelle nicht gesehen. Geh nochmal durch nochmal ... ja da ist was,",
+    "tags": [
+      "control: control_repeat"
+    ],
+    "rationale": "The person goes through the previously viewed images again.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 23
+    },
+    "model": "anthropic/claude-sonnet-5.5",
+    "provider": "Claude Platform on AWS",
+    "configuration_name": "claude-sonnet-5-5-260928"
+  },
+  {
+    "phrase": "ja da ist was, da war was helles da",
+    "context": "nochmal ... ja da ist was, da war was helles da und bekomm ich auch gesagt von der AI,",
+    "tags": [
+      "indicator: anomaly_detected"
+    ],
+    "rationale": "The person notices a bright abnormality.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 23
+    },
+    "model": "anthropic/claude-sonnet-5.5",
+    "provider": "Claude Platform on AWS",
+    "configuration_name": "claude-sonnet-5-5-260928"
+  },
+  {
+    "phrase": "und bekomm ich auch gesagt von der AI, dass da was ist.",
+    "context": "da war was helles da und bekomm ich auch gesagt von der AI, dass da was ist.",
+    "tags": [
+      "ai_report: ich",
+      "reflection_of_ai: confirmed_by_ai"
+    ],
+    "rationale": "The person reports that the AI also indicates a finding, which confirms their own observation.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 23
+    },
+    "model": "anthropic/claude-sonnet-5.5",
+    "provider": "Claude Platform on AWS",
+    "configuration_name": "claude-sonnet-5-5-260928"
+  },
+  {
+    "phrase": "Und hier sieht man schon auch, ich guck trotzdem von oben nach untern",
+    "context": "Und hier sieht man schon auch, ich guck trotzdem von oben nach untern und hier ist der Saum schon zu sehen",
+    "tags": [
+      "visual_search: description_of_own_approach_without_external_help"
+    ],
+    "rationale": "The person comments on their own search procedure (looking from top to bottom) independent of the AI.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 29
+    },
+    "model": "anthropic/claude-sonnet-5.5",
+    "provider": "Claude Platform on AWS",
+    "configuration_name": "claude-sonnet-5-5-260928"
+  },
+  {
+    "phrase": "hier ist der Saum schon zu sehen",
+    "context": "von oben nach untern und hier ist der Saum schon zu sehen, also AI zeigt mir das erst später",
+    "tags": [
+      "interpretation: description_bleeding"
+    ],
+    "rationale": "The person describes the rim (Saum) of the already identified hemorrhage in more detail.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 29
+    },
+    "model": "anthropic/claude-sonnet-5.5",
+    "provider": "Claude Platform on AWS",
+    "configuration_name": "claude-sonnet-5-5-260928"
+  },
+  {
+    "phrase": "also AI zeigt mir das erst später, aber man sieht schon ne Blutung",
+    "context": "also AI zeigt mir das erst später, aber man sieht schon ne Blutung und da brauchte ich jetzt das nicht so.",
+    "tags": [
+      "reflection_of_ai: ich_recognized_without_ai"
+    ],
+    "rationale": "The person states they saw the hemorrhage earlier than the AI showed it, i.e., would have recognized it without the AI.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 29
+    },
+    "model": "anthropic/claude-sonnet-5.5",
+    "provider": "Claude Platform on AWS",
+    "configuration_name": "claude-sonnet-5-5-260928"
+  },
+  {
+    "phrase": "und da brauchte ich jetzt das nicht so.",
+    "context": "aber man sieht schon ne Blutung und da brauchte ich jetzt das nicht so.",
+    "tags": [
+      "reflection_of_ai: unhelpful/unnecessary"
+    ],
+    "rationale": "The person says they did not really need the AI here, which makes it unnecessary.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 29
+    },
+    "model": "anthropic/claude-sonnet-5.5",
+    "provider": "Claude Platform on AWS",
+    "configuration_name": "claude-sonnet-5-5-260928"
+  },
+  {
+    "phrase": "Jetzt wird mir schon angezeigt, dass eine Blutung da ist",
+    "context": "Jetzt wird mir schon angezeigt, dass eine Blutung da ist und mir erstmal selber zu schauen.",
+    "tags": [
+      "ai_report: ich"
+    ],
+    "rationale": "The person verbalizes that the AI indicates a hemorrhage is present.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 28
+    },
+    "model": "anthropic/claude-sonnet-5.5",
+    "provider": "Claude Platform on AWS",
+    "configuration_name": "claude-sonnet-5-5-260928"
+  },
+  {
+    "phrase": "und mir erstmal selber zu schauen.",
+    "context": "dass eine Blutung da ist und mir erstmal selber zu schauen. Die Mittellinie ist nicht verschoben",
+    "tags": [
+      "visual_search: description_of_own_approach_without_external_help"
+    ],
+    "rationale": "The person comments on their own search procedure, namely first looking for themselves.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 28
+    },
+    "model": "anthropic/claude-sonnet-5.5",
+    "provider": "Claude Platform on AWS",
+    "configuration_name": "claude-sonnet-5-5-260928"
+  },
+  {
+    "phrase": "Die Mittellinie ist nicht verschoben",
+    "context": "mir erstmal selber zu schauen. Die Mittellinie ist nicht verschoben, aber jetzt sieht man aber direkt hier schon",
+    "tags": [
+      "indicator: no_bleeding"
+    ],
+    "rationale": "The person classifies the midline as unremarkable (not shifted).",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 28
+    },
+    "model": "anthropic/claude-sonnet-5.5",
+    "provider": "Claude Platform on AWS",
+    "configuration_name": "claude-sonnet-5-5-260928"
+  },
+  {
+    "phrase": "aber jetzt sieht man aber direkt hier schon einen Saun un dem Knochen …",
+    "context": "nicht verschoben, aber jetzt sieht man aber direkt hier schon einen Saun un dem Knochen … Das ist dann schon eindeutiger",
+    "tags": [
+      "indicator: anomaly_detected"
+    ],
+    "rationale": "The person notices an abnormal fringe/rim along the bone, which is atypical for a healthy skull.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 28
+    },
+    "model": "anthropic/claude-sonnet-5.5",
+    "provider": "Claude Platform on AWS",
+    "configuration_name": "claude-sonnet-5-5-260928"
+  },
+  {
+    "phrase": "Das ist dann schon eindeutiger",
+    "context": "einen Saun un dem Knochen … Das ist dann schon eindeutiger",
+    "tags": [
+      "confidence_high: increased_through_ai"
+    ],
+    "rationale": "The finding combined with the AI information makes the person more certain about the diagnosis.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 28
+    },
+    "model": "anthropic/claude-sonnet-5.5",
+    "provider": "Claude Platform on AWS",
+    "configuration_name": "claude-sonnet-5-5-260928"
+  },
+  {
+    "phrase": "So, soll aber auch was da sein, schau auf meine Seite erstmal.",
+    "context": "So, soll aber auch was da sein, schau auf meine Seite erstmal. Und bis jetzt ist mir nichts aufgefallen.",
+    "tags": [
+      "visual_search: description_of_own_approach_without_external_help"
+    ],
+    "rationale": "The person comments on their own search procedure (looking at their side first) and on the expectation that something should be there.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 34
+    },
+    "model": "anthropic/claude-sonnet-5.5",
+    "provider": "Claude Platform on AWS",
+    "configuration_name": "claude-sonnet-5-5-260928"
+  },
+  {
+    "phrase": "Und bis jetzt ist mir nichts aufgefallen.",
+    "context": "schau auf meine Seite erstmal. Und bis jetzt ist mir nichts aufgefallen. Aber das sieht so ein bisschen auffällig aus",
+    "tags": [
+      "indicator: no_bleeding"
+    ],
+    "rationale": "The person states that nothing noticeable has been found so far, classifying the viewed areas as unremarkable.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 34
+    },
+    "model": "anthropic/claude-sonnet-5.5",
+    "provider": "Claude Platform on AWS",
+    "configuration_name": "claude-sonnet-5-5-260928"
+  },
+  {
+    "phrase": "Aber das sieht so ein bisschen auffällig aus, überhaupt mhm das alles so gefüllt ist.",
+    "context": "Und bis jetzt ist mir nichts aufgefallen. Aber das sieht so ein bisschen auffällig aus, überhaupt mhm das alles so gefüllt ist.",
+    "tags": [
+      "indicator: anomaly_detected"
+    ],
+    "rationale": "The person notices something atypical (the area appears filled), i.e. an abnormality, though uncertain about its nature.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 34
+    },
+    "model": "anthropic/claude-sonnet-5.5",
+    "provider": "Claude Platform on AWS",
+    "configuration_name": "claude-sonnet-5-5-260928"
+  },
+  {
+    "phrase": "Mhm",
+    "context": "Mhm hier ist wieder angeblich keine Blutung",
+    "tags": [
+      "paused_in_process"
+    ],
+    "rationale": "Filler word without diagnostic content.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 32
+    },
+    "model": "anthropic/claude-sonnet-5.5",
+    "provider": "Claude Platform on AWS",
+    "configuration_name": "claude-sonnet-5-5-260928"
+  },
+  {
+    "phrase": "hier ist wieder angeblich keine Blutung",
+    "context": "Mhm hier ist wieder angeblich keine Blutung und ich kann ein bisschen schneller scrollen.",
+    "tags": [
+      "ai_report: no_ich",
+      "reflection_of_ai: distrust_in_ai",
+      "reference: past_case"
+    ],
+    "rationale": "The person reports that the AI shows no hemorrhage. 'Angeblich' (supposedly) signals distrust, and 'wieder' refers to previous cases with the same AI result.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 32
+    },
+    "model": "anthropic/claude-sonnet-5.5",
+    "provider": "Claude Platform on AWS",
+    "configuration_name": "claude-sonnet-5-5-260928"
+  },
+  {
+    "phrase": "ich kann ein bisschen schneller scrollen",
+    "context": "angeblich keine Blutung und ich kann ein bisschen schneller scrollen. Und sehe dass ich keine Unterschied merke",
+    "tags": [
+      "control: relying_on_ai"
+    ],
+    "rationale": "The person adapts their search speed because the AI reports no hemorrhage, so they rely on the AI during the visual search.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 32
+    },
+    "model": "anthropic/claude-sonnet-5.5",
+    "provider": "Claude Platform on AWS",
+    "configuration_name": "claude-sonnet-5-5-260928"
+  },
+  {
+    "phrase": "Und sehe dass ich keine Unterschied merke",
+    "context": "ein bisschen schneller scrollen. Und sehe dass ich keine Unterschied merke und auf der anderen Seite",
+    "tags": [
+      "indicator: no_bleeding",
+      "reflection: self-monitoring"
+    ],
+    "rationale": "The person comments on their own process (scrolling faster) and notes that they see no abnormality or difference.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 32
+    },
+    "model": "anthropic/claude-sonnet-5.5",
+    "provider": "Claude Platform on AWS",
+    "configuration_name": "claude-sonnet-5-5-260928"
+  },
+  {
+    "phrase": "auf der anderen Seite wird auch keine Blututng angezeigt",
+    "context": "keine Unterschied merke und auf der anderen Seite wird auch keine Blututng angezeigt.",
+    "tags": [
+      "ai_report: no_ich"
+    ],
+    "rationale": "The person states that the AI also shows no hemorrhage on the other side.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 32
+    },
+    "model": "anthropic/claude-sonnet-5.5",
+    "provider": "Claude Platform on AWS",
+    "configuration_name": "claude-sonnet-5-5-260928"
+  },
+  {
+    "phrase": "Hier ist wieder keine Blutung,",
+    "context": "Hier ist wieder keine Blutung, ich gucke alleine und dann auf der anderen Seite, der AI Seite.",
+    "tags": [
+      "interpretation: no_bleeding",
+      "reference: past_case"
+    ],
+    "rationale": "The person states that there is no hemorrhage here. 'Wieder' (again) refers back to previous cases without a hemorrhage.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 35
+    },
+    "model": "anthropic/claude-sonnet-5.5",
+    "provider": "Claude Platform on AWS",
+    "configuration_name": "claude-sonnet-5-5-260928"
+  },
+  {
+    "phrase": "ich gucke alleine und dann auf der anderen Seite, der AI Seite.",
+    "context": "ich gucke alleine und dann auf der anderen Seite, der AI Seite. Es wird nichts angezeigt, und ich kann weiter machen.",
+    "tags": [
+      "visual_search: description_of_own_approach_without_external_help"
+    ],
+    "rationale": "The person explicitly describes their own search procedure: first looking alone, then at the AI side.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 35
+    },
+    "model": "anthropic/claude-sonnet-5.5",
+    "provider": "Claude Platform on AWS",
+    "configuration_name": "claude-sonnet-5-5-260928"
+  },
+  {
+    "phrase": "Es wird nichts angezeigt,",
+    "context": "der AI Seite. Es wird nichts angezeigt, und ich kann weiter machen.",
+    "tags": [
+      "ai_report: no_ich"
+    ],
+    "rationale": "The person states that the AI displays nothing, meaning it has found no hemorrhage.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 35
+    },
+    "model": "anthropic/claude-sonnet-5.5",
+    "provider": "Claude Platform on AWS",
+    "configuration_name": "claude-sonnet-5-5-260928"
+  },
+  {
+    "phrase": "und ich kann weiter machen.",
+    "context": "Es wird nichts angezeigt, und ich kann weiter machen.",
+    "tags": [
+      "decision_with_ai: implicitly_agreeing_with_ai"
+    ],
+    "rationale": "The person moves on because the AI shows nothing, which implicitly agrees with their own 'no hemorrhage' judgement.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 35
+    },
+    "model": "anthropic/claude-sonnet-5.5",
+    "provider": "Claude Platform on AWS",
+    "configuration_name": "claude-sonnet-5-5-260928"
+  },
+  {
+    "phrase": "Hier soll nichts sein.",
+    "context": "Hier soll nichts sein. Gucke auf meine Seite und dann auf die AI Siete und kann weiter machen",
+    "tags": [
+      "indicator: no_bleeding"
+    ],
+    "rationale": "The person classifies the image area they are looking at as unremarkable (nothing there).",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 38
+    },
+    "model": "anthropic/claude-sonnet-5.5",
+    "provider": "Claude Platform on AWS",
+    "configuration_name": "claude-sonnet-5-5-260928"
+  },
+  {
+    "phrase": "Gucke auf meine Seite und dann auf die AI Siete und kann weiter machen",
+    "context": "Hier soll nichts sein. Gucke auf meine Seite und dann auf die AI Siete und kann weiter machen",
+    "tags": [
+      "visual_search: description_of_own_approach_without_external_help"
+    ],
+    "rationale": "The person comments on their own search procedure: first their own image side, then the AI side, before moving on.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 38
+    },
+    "model": "anthropic/claude-sonnet-5.5",
+    "provider": "Claude Platform on AWS",
+    "configuration_name": "claude-sonnet-5-5-260928"
+  },
+  {
+    "phrase": "Und ich geh von oben und guck allein erstmal,",
+    "context": "Und ich geh von oben und guck allein erstmal, noch sehe keine Unterschied mhm",
+    "tags": [
+      "visual_search: description_of_own_approach_without_external_help"
+    ],
+    "rationale": "The person describes their own search procedure: they scan from the top and look on their own first, without the AI.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 31
+    },
+    "model": "anthropic/claude-sonnet-5.5",
+    "provider": "Claude Platform on AWS",
+    "configuration_name": "claude-sonnet-5-5-260928"
+  },
+  {
+    "phrase": "noch sehe keine Unterschied mhm",
+    "context": "guck allein erstmal, noch sehe keine Unterschied mhm … Ich bin noch nicht so viel was aufgefallen,",
+    "tags": [
+      "indicator: no_bleeding"
+    ],
+    "rationale": "The person sees no difference or abnormality in the image area so far, which classifies it as unremarkable.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 31
+    },
+    "model": "anthropic/claude-sonnet-5.5",
+    "provider": "Claude Platform on AWS",
+    "configuration_name": "claude-sonnet-5-5-260928"
+  },
+  {
+    "phrase": "Ich bin noch nicht so viel was aufgefallen,",
+    "context": "noch sehe keine Unterschied mhm … Ich bin noch nicht so viel was aufgefallen, vielleicht gucke ich auf der AI Seite erstmal.",
+    "tags": [
+      "indicator: no_bleeding"
+    ],
+    "rationale": "The person states that little has caught their attention so far, so no abnormality has been found.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 31
+    },
+    "model": "anthropic/claude-sonnet-5.5",
+    "provider": "Claude Platform on AWS",
+    "configuration_name": "claude-sonnet-5-5-260928"
+  },
+  {
+    "phrase": "vielleicht gucke ich auf der AI Seite erstmal.",
+    "context": "Ich bin noch nicht so viel was aufgefallen, vielleicht gucke ich auf der AI Seite erstmal. Ah, je das hatte ich nicht gesehn.",
+    "tags": [
+      "control: relying_on_ai",
+      "confidence_low: secondary"
+    ],
+    "rationale": "The person turns to the AI side for help in the visual search because they have found nothing themselves. 'Vielleicht' signals tentativeness.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 31
+    },
+    "model": "anthropic/claude-sonnet-5.5",
+    "provider": "Claude Platform on AWS",
+    "configuration_name": "claude-sonnet-5-5-260928"
+  },
+  {
+    "phrase": "Ah, je das hatte ich nicht gesehn.",
+    "context": "vielleicht gucke ich auf der AI Seite erstmal. Ah, je das hatte ich nicht gesehn. Aber wenn mans weis, dann ja.",
+    "tags": [
+      "reflection_of_ai: ich_not_recognized_without_ai"
+    ],
+    "rationale": "The person admits they had not seen the finding before the AI pointed it out.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 31
+    },
+    "model": "anthropic/claude-sonnet-5.5",
+    "provider": "Claude Platform on AWS",
+    "configuration_name": "claude-sonnet-5-5-260928"
+  },
+  {
+    "phrase": "Aber wenn mans weis, dann ja.",
+    "context": "Ah, je das hatte ich nicht gesehn. Aber wenn mans weis, dann ja. Das hilft da",
+    "tags": [
+      "visual_search: triggered_by_ai"
+    ],
+    "rationale": "Once the person knows where the AI points, they can see the finding. Their search is aligned with the AI information.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 31
+    },
+    "model": "anthropic/claude-sonnet-5.5",
+    "provider": "Claude Platform on AWS",
+    "configuration_name": "claude-sonnet-5-5-260928"
+  },
+  {
+    "phrase": "Das hilft da",
+    "context": "Aber wenn mans weis, dann ja. Das hilft da",
+    "tags": [
+      "reflection_of_ai: helpful"
+    ],
+    "rationale": "The person explicitly says the AI helps.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 31
+    },
+    "model": "anthropic/claude-sonnet-5.5",
+    "provider": "Claude Platform on AWS",
+    "configuration_name": "claude-sonnet-5-5-260928"
+  },
+  {
+    "phrase": "Sehe wieder auf meine Seite alleine …",
+    "context": "Sehe wieder auf meine Seite alleine … Und hier soll eine Blutung sein …",
+    "tags": [
+      "visual_search: description_of_own_approach_without_external_help"
+    ],
+    "rationale": "Die Person kommentiert ihr eigenes Suchvorgehen, nämlich zunächst allein auf ihrer Seite ohne KI zu schauen.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 33
+    },
+    "model": "anthropic/claude-sonnet-5.5",
+    "provider": "Claude Platform on AWS",
+    "configuration_name": "claude-sonnet-5-5-260928"
+  },
+  {
+    "phrase": "Und hier soll eine Blutung sein …",
+    "context": "Sehe wieder auf meine Seite alleine … Und hier soll eine Blutung sein … Ich hab die jetzt nicht so bemerkt",
+    "tags": [
+      "ai_report: ich"
+    ],
+    "rationale": "Die Person berichtet, dass laut KI eine Blutung vorliegen soll.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 33
+    },
+    "model": "anthropic/claude-sonnet-5.5",
+    "provider": "Claude Platform on AWS",
+    "configuration_name": "claude-sonnet-5-5-260928"
+  },
+  {
+    "phrase": "Ich hab die jetzt nicht so bemerkt",
+    "context": "Ich hab die jetzt nicht so bemerkt, deswegen schau ich jetzt auf der anderen Seite",
+    "tags": [
+      "reflection_of_ai: ich_not_recognized_without_ai"
+    ],
+    "rationale": "Die Person hat die Blutung selbst nicht bemerkt, also ohne KI nicht erkannt.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 33
+    },
+    "model": "anthropic/claude-sonnet-5.5",
+    "provider": "Claude Platform on AWS",
+    "configuration_name": "claude-sonnet-5-5-260928"
+  },
+  {
+    "phrase": "deswegen schau ich jetzt auf der anderen Seite, auf der AI Seite wo das sein soll.",
+    "context": "deswegen schau ich jetzt auf der anderen Seite, auf der AI Seite wo das sein soll. Ah, da oben",
+    "tags": [
+      "visual_search: triggered_by_ai"
+    ],
+    "rationale": "Die Person sucht gezielt an der von der KI angezeigten Stelle.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 33
+    },
+    "model": "anthropic/claude-sonnet-5.5",
+    "provider": "Claude Platform on AWS",
+    "configuration_name": "claude-sonnet-5-5-260928"
+  },
+  {
+    "phrase": "Ah, da oben, eigentlich ist das eindeutig.",
+    "context": "Ah, da oben, eigentlich ist das eindeutig. Ah, ja eigentlich eindeutig",
+    "tags": [
+      "confidence_high: concrete"
+    ],
+    "rationale": "Die Person bezeichnet den Befund explizit als eindeutig, was hohe Sicherheit ausdrückt.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 33
+    },
+    "model": "anthropic/claude-sonnet-5.5",
+    "provider": "Claude Platform on AWS",
+    "configuration_name": "claude-sonnet-5-5-260928"
+  },
+  {
+    "phrase": "ich habe mehr auf die Mitte geguckt und jetzt nicht gesehen.",
+    "context": "ich habe mehr auf die Mitte geguckt und jetzt nicht gesehen. Das hat jetzt geholfen",
+    "tags": [
+      "reflection: self-monitoring"
+    ],
+    "rationale": "Die Person reflektiert ihren eigenen Suchprozess und erklärt, warum sie die Blutung übersehen hat.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 33
+    },
+    "model": "anthropic/claude-sonnet-5.5",
+    "provider": "Claude Platform on AWS",
+    "configuration_name": "claude-sonnet-5-5-260928"
+  },
+  {
+    "phrase": "Das hat jetzt geholfen",
+    "context": "jetzt nicht gesehen. Das hat jetzt geholfen",
+    "tags": [
+      "reflection_of_ai: helpful"
+    ],
+    "rationale": "Die Person empfindet die KI als hilfreich.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 33
+    },
+    "model": "anthropic/claude-sonnet-5.5",
+    "provider": "Claude Platform on AWS",
+    "configuration_name": "claude-sonnet-5-5-260928"
+  },
+  {
+    "phrase": "Hier sollte nichts sein,",
+    "context": "Hier sollte nichts sein, ich finde es sehr schwer, dieses Bild zu interpretieren",
+    "tags": [
+      "interpretation: no_bleeding",
+      "confidence_high: secondary"
+    ],
+    "rationale": "The person states that nothing should be present, which is an interpretation of 'no hemorrhage'. The wording 'sollte' conveys moderate, implicit certainty.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 40
+    },
+    "model": "anthropic/claude-sonnet-5.5",
+    "provider": "Claude Platform on AWS",
+    "configuration_name": "claude-sonnet-5-5-260928"
+  },
+  {
+    "phrase": "ich finde es sehr schwer, dieses Bild zu interpretieren,",
+    "context": "ich finde es sehr schwer, dieses Bild zu interpretieren, aber deswegen hoffentlich mit der AI die richtige Entscheidung getroffen",
+    "tags": [
+      "awareness_of_task: difficult"
+    ],
+    "rationale": "The person explicitly perceives the task of interpreting the image as difficult.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 40
+    },
+    "model": "anthropic/claude-sonnet-5.5",
+    "provider": "Claude Platform on AWS",
+    "configuration_name": "claude-sonnet-5-5-260928"
+  },
+  {
+    "phrase": "aber deswegen hoffentlich mit der AI die richtige Entscheidung getroffen",
+    "context": "dieses Bild zu interpretieren, aber deswegen hoffentlich mit der AI die richtige Entscheidung getroffen",
+    "tags": [
+      "control: relying_on_ai",
+      "confidence_low: secondary",
+      "reflection_of_ai: helpful"
+    ],
+    "rationale": "The person relies on the AI to compensate for the difficulty ('deswegen ... mit der AI'). 'hoffentlich' implies low certainty, and the AI is seen as helpful for making the right decision.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 40
+    },
+    "model": "anthropic/claude-sonnet-5.5",
+    "provider": "Claude Platform on AWS",
+    "configuration_name": "claude-sonnet-5-5-260928"
+  },
+  {
+    "phrase": "So hier sieht man schon einen Unterschied zu der Gegenseite",
+    "context": "So hier sieht man schon einen Unterschied zu der Gegenseite, ich schau mal weiter",
+    "tags": [
+      "indicator: anomaly_detected"
+    ],
+    "rationale": "The person notices an asymmetry compared with the opposite side, which is an abnormality atypical for a healthy skull.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 41
+    },
+    "model": "anthropic/claude-sonnet-5.5",
+    "provider": "Claude Platform on AWS",
+    "configuration_name": "claude-sonnet-5-5-260928"
+  },
+  {
+    "phrase": "ich schau mal weiter, ob das irgendwie sonst wonaders irgendwas auffälliges aussieht",
+    "context": "ich schau mal weiter, ob das irgendwie sonst wonaders irgendwas auffälliges aussieht … Ne, ich gucke mal jetzt auf der AI Seite",
+    "tags": [
+      "visual_search: description_of_own_approach_without_external_help"
+    ],
+    "rationale": "The person comments on their own search procedure: they keep looking for other conspicuous findings elsewhere, without AI help.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 41
+    },
+    "model": "anthropic/claude-sonnet-5.5",
+    "provider": "Claude Platform on AWS",
+    "configuration_name": "claude-sonnet-5-5-260928"
+  },
+  {
+    "phrase": "Ne, ich gucke mal jetzt auf der AI Seite, das wird mir hier auch angezeigt",
+    "context": "irgendwas auffälliges aussieht … Ne, ich gucke mal jetzt auf der AI Seite, das wird mir hier auch angezeigt",
+    "tags": [
+      "control: relying_on_ai"
+    ],
+    "rationale": "The person turns to the AI side and uses the AI display during the visual search.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 41
+    },
+    "model": "anthropic/claude-sonnet-5.5",
+    "provider": "Claude Platform on AWS",
+    "configuration_name": "claude-sonnet-5-5-260928"
+  },
+  {
+    "phrase": "Wieder auf meiner nicht AI Seite, kuck mir das alleine an,",
+    "context": "Wieder auf meiner nicht AI Seite, kuck mir das alleine an, Mittellinie, Schädelknochen, Unterschiede",
+    "tags": [
+      "visual_search: description_of_own_approach_without_external_help"
+    ],
+    "rationale": "Die Person kommentiert explizit ihr eigenes Vorgehen: Sie schaut sich das Bild zuerst ohne KI an.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 37
+    },
+    "model": "anthropic/claude-sonnet-5.5",
+    "provider": "Claude Platform on AWS",
+    "configuration_name": "claude-sonnet-5-5-260928"
+  },
+  {
+    "phrase": "Mittellinie, Schädelknochen, Unterschiede",
+    "context": "kuck mir das alleine an, Mittellinie, Schädelknochen, Unterschiede und merke alleine nichts.",
+    "tags": [
+      "visual_search: description_of_medical_image_features"
+    ],
+    "rationale": "Die Person nennt die anatomischen Strukturen, die sie gerade prüft.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 37
+    },
+    "model": "anthropic/claude-sonnet-5.5",
+    "provider": "Claude Platform on AWS",
+    "configuration_name": "claude-sonnet-5-5-260928"
+  },
+  {
+    "phrase": "und merke alleine nichts.",
+    "context": "Schädelknochen, Unterschiede und merke alleine nichts. Ich gucke auf der AI Seite",
+    "tags": [
+      "indicator: no_bleeding"
+    ],
+    "rationale": "Ohne KI findet die Person nichts Auffälliges und stuft den Bildbereich als unauffällig ein.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 37
+    },
+    "model": "anthropic/claude-sonnet-5.5",
+    "provider": "Claude Platform on AWS",
+    "configuration_name": "claude-sonnet-5-5-260928"
+  },
+  {
+    "phrase": "Ich gucke auf der AI Seite und da wird mir was angezeigt, was ich nicht gesehen hatte,",
+    "context": "und merke alleine nichts. Ich gucke auf der AI Seite und da wird mir was angezeigt, was ich nicht gesehen hatte, deswegen hat mir das auf jeden Fall sehr geholfen",
+    "tags": [
+      "reflection_of_ai: ich_not_recognized_without_ai"
+    ],
+    "rationale": "Die KI zeigt etwas an, das die Person allein nicht gesehen hatte. Sie hätte die Blutung ohne KI nicht erkannt.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 37
+    },
+    "model": "anthropic/claude-sonnet-5.5",
+    "provider": "Claude Platform on AWS",
+    "configuration_name": "claude-sonnet-5-5-260928"
+  },
+  {
+    "phrase": "deswegen hat mir das auf jeden Fall sehr geholfen",
+    "context": "was ich nicht gesehen hatte, deswegen hat mir das auf jeden Fall sehr geholfen",
+    "tags": [
+      "reflection_of_ai: helpful",
+      "confidence_high: secondary"
+    ],
+    "rationale": "Die Person bewertet die KI ausdrücklich als hilfreich. 'Auf jeden Fall' zeigt implizit hohe Sicherheit.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 37
+    },
+    "model": "anthropic/claude-sonnet-5.5",
+    "provider": "Claude Platform on AWS",
+    "configuration_name": "claude-sonnet-5-5-260928"
+  },
+  {
+    "phrase": "Probier ich auch selber erstmal zu gucken",
+    "context": "Probier ich auch selber erstmal zu gucken und seh das die, sieht so aus",
+    "tags": [
+      "visual_search: description_of_own_approach_without_external_help"
+    ],
+    "rationale": "The person explicitly comments on their own search procedure: they first try to look at the image themselves.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 39
+    },
+    "model": "anthropic/claude-sonnet-5.5",
+    "provider": "Claude Platform on AWS",
+    "configuration_name": "claude-sonnet-5-5-260928"
+  },
+  {
+    "phrase": "sieht so aus, alswäre die Mittellinie verschoben",
+    "context": "seh das die, sieht so aus, alswäre die Mittellinie verschoben, aber …",
+    "tags": [
+      "indicator: anomaly_detected"
+    ],
+    "rationale": "The person notices a possible midline shift, which is an abnormality atypical for a healthy skull.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 39
+    },
+    "model": "anthropic/claude-sonnet-5.5",
+    "provider": "Claude Platform on AWS",
+    "configuration_name": "claude-sonnet-5-5-260928"
+  },
+  {
+    "phrase": "ich finde der ventrikel sieht auch nicht so ähm weiß ich nicht, gleich aus",
+    "context": "aber … ich finde der ventrikel sieht auch nicht so ähm weiß ich nicht, gleich aus.",
+    "tags": [
+      "reflection: diagnostic_uncertainty"
+    ],
+    "rationale": "The person is unsure whether the ventricle looks normal or abnormal (asymmetry) and cannot classify the finding clearly.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 39
+    },
+    "model": "anthropic/claude-sonnet-5.5",
+    "provider": "Claude Platform on AWS",
+    "configuration_name": "claude-sonnet-5-5-260928"
+  },
+  {
+    "phrase": "Ich hätte die Blutung nicht gefunden",
+    "context": "gleich aus. Ich hätte die Blutung nicht gefunden, gucke ich auf der AI Siete",
+    "tags": [
+      "reflection_of_ai: ich_not_recognized_without_ai"
+    ],
+    "rationale": "The person states they would not have found the hemorrhage without the AI.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 39
+    },
+    "model": "anthropic/claude-sonnet-5.5",
+    "provider": "Claude Platform on AWS",
+    "configuration_name": "claude-sonnet-5-5-260928"
+  },
+  {
+    "phrase": "gucke ich auf der AI Siete und da wird mir das hier angezeigt",
+    "context": "Ich hätte die Blutung nicht gefunden, gucke ich auf der AI Siete und da wird mir das hier angezeigt, das hätte ich jetzt nicht gesehen",
+    "tags": [
+      "ai_report: ich_localization"
+    ],
+    "rationale": "The person describes that the AI page shows them the location of the hemorrhage.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 39
+    },
+    "model": "anthropic/claude-sonnet-5.5",
+    "provider": "Claude Platform on AWS",
+    "configuration_name": "claude-sonnet-5-5-260928"
+  },
+  {
+    "phrase": "das hätte ich jetzt nicht gesehen, deswegen",
+    "context": "da wird mir das hier angezeigt, das hätte ich jetzt nicht gesehen, deswegen",
+    "tags": [
+      "reflection_of_ai: helpful"
+    ],
+    "rationale": "The person indicates that the AI display showed something they would have missed, meaning the AI was helpful.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 39
+    },
+    "model": "anthropic/claude-sonnet-5.5",
+    "provider": "Claude Platform on AWS",
+    "configuration_name": "claude-sonnet-5-5-260928"
+  },
+  {
+    "phrase": "Mhm.",
+    "context": "Mhm. Hier sieht man schon eine Raumforderung",
+    "tags": [
+      "paused_in_process"
+    ],
+    "rationale": "Pure filler word without diagnostic content.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 36
+    },
+    "model": "anthropic/claude-sonnet-5.5",
+    "provider": "Claude Platform on AWS",
+    "configuration_name": "claude-sonnet-5-5-260928"
+  },
+  {
+    "phrase": "Hier sieht man schon eine Raumforderung",
+    "context": "Mhm. Hier sieht man schon eine Raumforderung, weiß jetzt nicht, ob es deswegen dann...",
+    "tags": [
+      "indicator: anomaly_detected"
+    ],
+    "rationale": "Person notices a mass lesion, which is an abnormality atypical for a healthy skull.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 36
+    },
+    "model": "anthropic/claude-sonnet-5.5",
+    "provider": "Claude Platform on AWS",
+    "configuration_name": "claude-sonnet-5-5-260928"
+  },
+  {
+    "phrase": "weiß jetzt nicht, ob es deswegen dann...",
+    "context": "Hier sieht man schon eine Raumforderung, weiß jetzt nicht, ob es deswegen dann... Also jetzt wird keine Blutung angezeigt.",
+    "tags": [
+      "reflection: diagnostic_uncertainty"
+    ],
+    "rationale": "Person is unsure how to classify the finding and whether it explains the AI's output.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 36
+    },
+    "model": "anthropic/claude-sonnet-5.5",
+    "provider": "Claude Platform on AWS",
+    "configuration_name": "claude-sonnet-5-5-260928"
+  },
+  {
+    "phrase": "Also jetzt wird keine Blutung angezeigt.",
+    "context": "weiß jetzt nicht, ob es deswegen dann... Also jetzt wird keine Blutung angezeigt. Ich bin mir einfach unsicher",
+    "tags": [
+      "ai_report: no_ich"
+    ],
+    "rationale": "Person states that the AI does not show a hemorrhage.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 36
+    },
+    "model": "anthropic/claude-sonnet-5.5",
+    "provider": "Claude Platform on AWS",
+    "configuration_name": "claude-sonnet-5-5-260928"
+  },
+  {
+    "phrase": "Ich bin mir einfach unsicher, ob es einfach nur eine Raumforderung ist, die nicht blutet",
+    "context": "Ich bin mir einfach unsicher, ob es einfach nur eine Raumforderung ist, die nicht blutet und deswegen denke ich",
+    "tags": [
+      "confidence_low: concrete"
+    ],
+    "rationale": "Person explicitly expresses uncertainty about the diagnosis.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 36
+    },
+    "model": "anthropic/claude-sonnet-5.5",
+    "provider": "Claude Platform on AWS",
+    "configuration_name": "claude-sonnet-5-5-260928"
+  },
+  {
+    "phrase": "deswegen denke ich, wahrscheinlich dann also das wahrscheinlich dann eher ein Tumor.",
+    "context": "die nicht blutet und deswegen denke ich, wahrscheinlich dann also das wahrscheinlich dann eher ein Tumor. Das ist auch ein inhomogen.",
+    "tags": [
+      "reasoning: alternative_medical_cause",
+      "confidence_high: secondary"
+    ],
+    "rationale": "Person names a tumor as an alternative medical cause rather than a hemorrhage, using 'wahrscheinlich' to show probable certainty.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 36
+    },
+    "model": "anthropic/claude-sonnet-5.5",
+    "provider": "Claude Platform on AWS",
+    "configuration_name": "claude-sonnet-5-5-260928"
+  },
+  {
+    "phrase": "Das ist auch ein inhomogen.",
+    "context": "wahrscheinlich dann eher ein Tumor. Das ist auch ein inhomogen. Ja, gehen wir davon aus",
+    "tags": [
+      "visual_search: description_of_medical_image_features"
+    ],
+    "rationale": "Person describes the image characteristic (inhomogeneity) of the lesion.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 36
+    },
+    "model": "anthropic/claude-sonnet-5.5",
+    "provider": "Claude Platform on AWS",
+    "configuration_name": "claude-sonnet-5-5-260928"
+  },
+  {
+    "phrase": "Ja, gehen wir davon aus, dass deswegen das nicht als Blutung gezeigt wird.",
+    "context": "Ja, gehen wir davon aus, dass deswegen das nicht als Blutung gezeigt wird.",
+    "tags": [
+      "decision_with_ai: implicitly_agreeing_with_ai",
+      "interpretation: no_bleeding"
+    ],
+    "rationale": "Person settles on no hemorrhage, accepting the AI's lack of a hemorrhage marking.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 36
+    },
+    "model": "anthropic/claude-sonnet-5.5",
+    "provider": "Claude Platform on AWS",
+    "configuration_name": "claude-sonnet-5-5-260928"
+  },
+  {
+    "phrase": "So, hier ist alles anscheined auch unaufällig und ich sehe auch nichts",
+    "context": "So, hier ist alles anscheined auch unaufällig und ich sehe auch nichts und AI sagt auch ist nichts",
+    "tags": [
+      "indicator: no_bleeding"
+    ],
+    "rationale": "The person classifies the viewed image area as unremarkable and says they see nothing, which is their own judgement of a specific area.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 45
+    },
+    "model": "anthropic/claude-sonnet-5.5",
+    "provider": "Claude Platform on AWS",
+    "configuration_name": "claude-sonnet-5-5-260928"
+  },
+  {
+    "phrase": "und AI sagt auch ist nichts",
+    "context": "ich sehe auch nichts und AI sagt auch ist nichts und ich fühle mich da bestätigt",
+    "tags": [
+      "ai_report: no_ich"
+    ],
+    "rationale": "The person states that the AI has not found a hemorrhage.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 45
+    },
+    "model": "anthropic/claude-sonnet-5.5",
+    "provider": "Claude Platform on AWS",
+    "configuration_name": "claude-sonnet-5-5-260928"
+  },
+  {
+    "phrase": "und ich fühle mich da bestätigt",
+    "context": "AI sagt auch ist nichts und ich fühle mich da bestätigt",
+    "tags": [
+      "reflection_of_ai: confirmed_by_ai"
+    ],
+    "rationale": "The person explicitly says they feel confirmed in their assessment by the AI.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 45
+    },
+    "model": "anthropic/claude-sonnet-5.5",
+    "provider": "Claude Platform on AWS",
+    "configuration_name": "claude-sonnet-5-5-260928"
+  },
+  {
+    "phrase": "Mal wieder, help wie geht das nochmal? Nein.",
+    "context": "VPN: ??? Mal wieder, help wie geht das nochmal? Nein. EXPERIMENTER:",
+    "tags": [
+      "technical_conversation"
+    ],
+    "rationale": "Person struggles with the display tool and asks how it works.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 43
+    },
+    "model": "anthropic/claude-sonnet-5.5",
+    "provider": "Claude Platform on AWS",
+    "configuration_name": "claude-sonnet-5-5-260928"
+  },
+  {
+    "phrase": "Ja, danke, ist ein bisschen besser,",
+    "context": "genau jetzt hast dus gefunden. VPN: Ja, danke, ist ein bisschen besser, aber naja",
+    "tags": [
+      "technical_conversation"
+    ],
+    "rationale": "Person responds to the experimenter's help with the display settings.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 43
+    },
+    "model": "anthropic/claude-sonnet-5.5",
+    "provider": "Claude Platform on AWS",
+    "configuration_name": "claude-sonnet-5-5-260928"
+  },
+  {
+    "phrase": "es ist sowieso hier schon die Blutung zu sehen.",
+    "context": "aber naja es ist sowieso hier schon die Blutung zu sehen. Ist jetzt egal,",
+    "tags": [
+      "interpretation: bleeding",
+      "confidence_high: secondary"
+    ],
+    "rationale": "Person identifies a hemorrhage as visible; 'sowieso' implies certainty.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 43
+    },
+    "model": "anthropic/claude-sonnet-5.5",
+    "provider": "Claude Platform on AWS",
+    "configuration_name": "claude-sonnet-5-5-260928"
+  },
+  {
+    "phrase": "da ist ein Saum,",
+    "context": "Ist jetzt egal, aber da ist ein Saum, irgendwie kann grieg ich das nicht so super gut eingestellt",
+    "tags": [
+      "interpretation: description_bleeding"
+    ],
+    "rationale": "Person describes the hemorrhage in more detail (a rim/edge around it).",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 43
+    },
+    "model": "anthropic/claude-sonnet-5.5",
+    "provider": "Claude Platform on AWS",
+    "configuration_name": "claude-sonnet-5-5-260928"
+  },
+  {
+    "phrase": "irgendwie kann grieg ich das nicht so super gut eingestellt, aber das war da zu sehen",
+    "context": "da ist ein Saum, irgendwie kann grieg ich das nicht so super gut eingestellt, aber das war da zu sehen",
+    "tags": [
+      "technical_conversation"
+    ],
+    "rationale": "Person comments on difficulty adjusting the display settings, while noting the finding was still visible.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 43
+    },
+    "model": "anthropic/claude-sonnet-5.5",
+    "provider": "Claude Platform on AWS",
+    "configuration_name": "claude-sonnet-5-5-260928"
+  },
+  {
+    "phrase": "Gucke ich erst mal auf meine Seite.",
+    "context": "Gucke ich erst mal auf meine Seite. Habe noch nichts gemerkt, wo eine Blutung sein soll.",
+    "tags": [
+      "visual_search: description_of_own_approach_without_external_help"
+    ],
+    "rationale": "Die Person kommentiert ihr eigenes Vorgehen: Sie schaut zuerst selbst auf ihre Bildseite, bevor sie die KI-Anzeige betrachtet.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 42
+    },
+    "model": "anthropic/claude-sonnet-5.5",
+    "provider": "Claude Platform on AWS",
+    "configuration_name": "claude-sonnet-5-5-260928"
+  },
+  {
+    "phrase": "Habe noch nichts gemerkt, wo eine Blutung sein soll.",
+    "context": "Gucke ich erst mal auf meine Seite. Habe noch nichts gemerkt, wo eine Blutung sein soll. Was?",
+    "tags": [
+      "interpretation: no_bleeding"
+    ],
+    "rationale": "Die Person hat bisher keine Blutung gefunden und interpretiert den Befund daher als 'keine Blutung'.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 42
+    },
+    "model": "anthropic/claude-sonnet-5.5",
+    "provider": "Claude Platform on AWS",
+    "configuration_name": "claude-sonnet-5-5-260928"
+  },
+  {
+    "phrase": "Was?",
+    "context": "wo eine Blutung sein soll. Was? Hier wird mir dann von AI gezeigt",
+    "tags": [
+      "reflection_of_ai: confused_by_ai"
+    ],
+    "rationale": "Die Person reagiert überrascht bzw. verwirrt auf die KI-Anzeige.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 42
+    },
+    "model": "anthropic/claude-sonnet-5.5",
+    "provider": "Claude Platform on AWS",
+    "configuration_name": "claude-sonnet-5-5-260928"
+  },
+  {
+    "phrase": "Hier wird mir dann von AI gezeigt, dass wäre eine Blutung",
+    "context": "Was? Hier wird mir dann von AI gezeigt, dass wäre eine Blutung, das hätte ich auf keinen Fall erkannt.",
+    "tags": [
+      "ai_report: ich"
+    ],
+    "rationale": "Die Person gibt wieder, dass die KI eine Blutung anzeigt.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 42
+    },
+    "model": "anthropic/claude-sonnet-5.5",
+    "provider": "Claude Platform on AWS",
+    "configuration_name": "claude-sonnet-5-5-260928"
+  },
+  {
+    "phrase": "das hätte ich auf keinen Fall erkannt.",
+    "context": "dass wäre eine Blutung, das hätte ich auf keinen Fall erkannt.",
+    "tags": [
+      "reflection_of_ai: ich_not_recognized_without_ai"
+    ],
+    "rationale": "Die Person sagt explizit, dass sie die Blutung ohne die KI nicht erkannt hätte.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 42
+    },
+    "model": "anthropic/claude-sonnet-5.5",
+    "provider": "Claude Platform on AWS",
+    "configuration_name": "claude-sonnet-5-5-260928"
+  },
+  {
+    "phrase": "So, fangen wieder von vorne an",
+    "context": "So, fangen wieder von vorne an und hier soll keine Blutung sein.",
+    "tags": [
+      "paused_in_process"
+    ],
+    "rationale": "Filler or transitional statement that opens the new case and contains no diagnostic content.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 44
+    },
+    "model": "anthropic/claude-sonnet-5.5",
+    "provider": "Claude Platform on AWS",
+    "configuration_name": "claude-sonnet-5-5-260928"
+  },
+  {
+    "phrase": "und hier soll keine Blutung sein.",
+    "context": "So, fangen wieder von vorne an und hier soll keine Blutung sein. Guck direkt schon mit der AI Seite",
+    "tags": [
+      "ai_report: no_ich"
+    ],
+    "rationale": "Person states that no hemorrhage is supposed to be present, which reflects the AI's report of no ICH.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 44
+    },
+    "model": "anthropic/claude-sonnet-5.5",
+    "provider": "Claude Platform on AWS",
+    "configuration_name": "claude-sonnet-5-5-260928"
+  },
+  {
+    "phrase": "Guck direkt schon mit der AI Seite und es wird mir nichts angezeigt",
+    "context": "Guck direkt schon mit der AI Seite und es wird mir nichts angezeigt, sieht auch unauffällig aus.",
+    "tags": [
+      "control: relying_on_ai"
+    ],
+    "rationale": "Person consults the AI page directly during the visual search and relies on it. It showing nothing is covered by the separate ai_report tag below, so only the reliance is coded here.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 44
+    },
+    "model": "anthropic/claude-sonnet-5.5",
+    "provider": "Claude Platform on AWS",
+    "configuration_name": "claude-sonnet-5-5-260928"
+  },
+  {
+    "phrase": "es wird mir nichts angezeigt",
+    "context": "Guck direkt schon mit der AI Seite und es wird mir nichts angezeigt, sieht auch unauffällig aus.",
+    "tags": [
+      "ai_report: no_ich"
+    ],
+    "rationale": "Person verbalizes that the AI displays nothing, meaning it found no hemorrhage.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 44
+    },
+    "model": "anthropic/claude-sonnet-5.5",
+    "provider": "Claude Platform on AWS",
+    "configuration_name": "claude-sonnet-5-5-260928"
+  },
+  {
+    "phrase": "sieht auch unauffällig aus.",
+    "context": "es wird mir nichts angezeigt, sieht auch unauffällig aus.",
+    "tags": [
+      "indicator: no_bleeding",
+      "decision_with_ai: implicitly_agreeing_with_ai"
+    ],
+    "rationale": "Person classifies the image as unremarkable, which matches the AI's assessment ('auch' marks the agreement).",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 44
+    },
+    "model": "anthropic/claude-sonnet-5.5",
+    "provider": "Claude Platform on AWS",
+    "configuration_name": "claude-sonnet-5-5-260928"
+  },
+  {
+    "phrase": "Und hier soll auch nichts sein,",
+    "context": "Und hier soll auch nichts sein, schau auf meine Seite ohne AI an,",
+    "tags": [
+      "ai_report: no_ich"
+    ],
+    "rationale": "The person says that the AI shows nothing in this area, i.e. it has not found a hemorrhage.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 48
+    },
+    "model": "anthropic/claude-sonnet-5.5",
+    "provider": "Claude Platform on AWS",
+    "configuration_name": "claude-sonnet-5-5-260928"
+  },
+  {
+    "phrase": "schau auf meine Seite ohne AI an,",
+    "context": "Und hier soll auch nichts sein, schau auf meine Seite ohne AI an, ich seh auch keine Asymetrien,",
+    "tags": [
+      "control: make_own_judgement"
+    ],
+    "rationale": "The person deliberately looks at their own side without the AI and forms their own judgement.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 48
+    },
+    "model": "anthropic/claude-sonnet-5.5",
+    "provider": "Claude Platform on AWS",
+    "configuration_name": "claude-sonnet-5-5-260928"
+  },
+  {
+    "phrase": "ich seh auch keine Asymetrien, Unterschiede",
+    "context": "schau auf meine Seite ohne AI an, ich seh auch keine Asymetrien, Unterschiede und dann",
+    "tags": [
+      "indicator: no_bleeding"
+    ],
+    "rationale": "The person classifies the image area as unremarkable, with no asymmetries or differences.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 48
+    },
+    "model": "anthropic/claude-sonnet-5.5",
+    "provider": "Claude Platform on AWS",
+    "configuration_name": "claude-sonnet-5-5-260928"
+  },
+  {
+    "phrase": "Ja und hier …",
+    "context": "Ja und hier … Ich weiß nicht, was dieser Unterschied zu der anderen Seiten mit den Ventrikeln ist",
+    "tags": [
+      "paused_in_process"
+    ],
+    "rationale": "Filler phrase while the person continues searching; no content-related statement.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 46
+    },
+    "model": "anthropic/claude-sonnet-5.5",
+    "provider": "Claude Platform on AWS",
+    "configuration_name": "claude-sonnet-5-5-260928"
+  },
+  {
+    "phrase": "Ich weiß nicht, was dieser Unterschied zu der anderen Seiten mit den Ventrikeln ist",
+    "context": "Ich weiß nicht, was dieser Unterschied zu der anderen Seiten mit den Ventrikeln ist, AI sagt, dass ist keine Blutung",
+    "tags": [
+      "reflection: diagnostic_uncertainty"
+    ],
+    "rationale": "Person notices a difference between the ventricles of the two sides and cannot classify it.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 46
+    },
+    "model": "anthropic/claude-sonnet-5.5",
+    "provider": "Claude Platform on AWS",
+    "configuration_name": "claude-sonnet-5-5-260928"
+  },
+  {
+    "phrase": "AI sagt, dass ist keine Blutung",
+    "context": "mit den Ventrikeln ist, AI sagt, dass ist keine Blutung, ich weiß es nicht.",
+    "tags": [
+      "ai_report: no_ich"
+    ],
+    "rationale": "Person verbalizes that the AI has not found a hemorrhage.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 46
+    },
+    "model": "anthropic/claude-sonnet-5.5",
+    "provider": "Claude Platform on AWS",
+    "configuration_name": "claude-sonnet-5-5-260928"
+  },
+  {
+    "phrase": "ich weiß es nicht",
+    "context": "AI sagt, dass ist keine Blutung, ich weiß es nicht. Ich sag mal keine Blutung",
+    "tags": [
+      "confidence_low: concrete"
+    ],
+    "rationale": "Person explicitly expresses uncertainty about the diagnostic assessment.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 46
+    },
+    "model": "anthropic/claude-sonnet-5.5",
+    "provider": "Claude Platform on AWS",
+    "configuration_name": "claude-sonnet-5-5-260928"
+  },
+  {
+    "phrase": "Ich sag mal keine Blutung",
+    "context": "ich weiß es nicht. Ich sag mal keine Blutung, aber ich bin mir nicht so sicher",
+    "tags": [
+      "interpretation: no_bleeding",
+      "decision_with_ai: implicitly_agreeing_with_ai"
+    ],
+    "rationale": "Person decides on 'no hemorrhage', which matches the AI assessment.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 46
+    },
+    "model": "anthropic/claude-sonnet-5.5",
+    "provider": "Claude Platform on AWS",
+    "configuration_name": "claude-sonnet-5-5-260928"
+  },
+  {
+    "phrase": "aber ich bin mir nicht so sicher",
+    "context": "Ich sag mal keine Blutung, aber ich bin mir nicht so sicher",
+    "tags": [
+      "confidence_low: concrete"
+    ],
+    "rationale": "Person explicitly states low certainty about the decision.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 46
+    },
+    "model": "anthropic/claude-sonnet-5.5",
+    "provider": "Claude Platform on AWS",
+    "configuration_name": "claude-sonnet-5-5-260928"
+  },
+  {
+    "phrase": "So ich guck erstmal wieder auf meine Seite, ohne AI erstmal und ob mir irgendwas auffällt.",
+    "context": "So ich guck erstmal wieder auf meine Seite, ohne AI erstmal und ob mir irgendwas auffällt. Beidseiten …",
+    "tags": [
+      "visual_search: description_of_own_approach_without_external_help",
+      "reference: past_trial"
+    ],
+    "rationale": "Person comments on their own search procedure (first looking without AI). 'wieder' refers back to previous trials.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 47
+    },
+    "model": "anthropic/claude-sonnet-5.5",
+    "provider": "Claude Platform on AWS",
+    "configuration_name": "claude-sonnet-5-5-260928"
+  },
+  {
+    "phrase": "Beidseiten … Das war es noch nicht …",
+    "context": "ob mir irgendwas auffällt. Beidseiten … Das war es noch nicht … Vielleicht das hier …",
+    "tags": [
+      "indicator: no_bleeding"
+    ],
+    "rationale": "Person classifies the checked areas as unremarkable ('that was not it yet').",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 47
+    },
+    "model": "anthropic/claude-sonnet-5.5",
+    "provider": "Claude Platform on AWS",
+    "configuration_name": "claude-sonnet-5-5-260928"
+  },
+  {
+    "phrase": "Vielleicht das hier …",
+    "context": "Das war es noch nicht … Vielleicht das hier … Ich guck mal auf der AI Seite",
+    "tags": [
+      "indicator: anomaly_detected",
+      "confidence_low: secondary"
+    ],
+    "rationale": "Person notices a possible abnormality; 'Vielleicht' signals low certainty.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 47
+    },
+    "model": "anthropic/claude-sonnet-5.5",
+    "provider": "Claude Platform on AWS",
+    "configuration_name": "claude-sonnet-5-5-260928"
+  },
+  {
+    "phrase": "Ich guck mal auf der AI Seite, ob mir das hier mit angezeigt wird …",
+    "context": "Vielleicht das hier … Ich guck mal auf der AI Seite, ob mir das hier mit angezeigt wird … Ist bei der AI einfach nicht",
+    "tags": [
+      "control: relying_on_ai",
+      "visual_search: triggered_by_finding"
+    ],
+    "rationale": "Person checks the AI side to verify whether the found finding is also shown, relying on AI during search, triggered by their own finding.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 47
+    },
+    "model": "anthropic/claude-sonnet-5.5",
+    "provider": "Claude Platform on AWS",
+    "configuration_name": "claude-sonnet-5-5-260928"
+  },
+  {
+    "phrase": "Ist bei der AI einfach nicht, ah da ja, dass könnte fast",
+    "context": "ob mir das hier mit angezeigt wird … Ist bei der AI einfach nicht, ah da ja, dass könnte fast",
+    "tags": [
+      "ai_report: ich_localization",
+      "visual_search: triggered_by_ai"
+    ],
+    "rationale": "Person first notes the AI does not show it, then finds an AI marking at a location and searches there; the statement is unfinished but describes the AI's location.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 47
+    },
+    "model": "anthropic/claude-sonnet-5.5",
+    "provider": "Claude Platform on AWS",
+    "configuration_name": "claude-sonnet-5-5-260928"
+  },
+  {
+    "phrase": "Hier sieht man schon ein Ventrikel",
+    "context": "Hier sieht man schon ein Ventrikel und überhaupt hier eine große Blutung",
+    "tags": [
+      "visual_search: description_of_medical_image_features"
+    ],
+    "rationale": "The person names the anatomical structure (ventricle) they are looking at.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 49
+    },
+    "model": "anthropic/claude-sonnet-5.5",
+    "provider": "Claude Platform on AWS",
+    "configuration_name": "claude-sonnet-5-5-260928"
+  },
+  {
+    "phrase": "überhaupt hier eine große Blutung",
+    "context": "Ventrikel und überhaupt hier eine große Blutung, ich bräuchte jetzt",
+    "tags": [
+      "interpretation: bleeding",
+      "confidence_high: secondary"
+    ],
+    "rationale": "The person identifies a large hemorrhage. The wording 'große Blutung' signals implicit high certainty.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 49
+    },
+    "model": "anthropic/claude-sonnet-5.5",
+    "provider": "Claude Platform on AWS",
+    "configuration_name": "claude-sonnet-5-5-260928"
+  },
+  {
+    "phrase": "muss schau trotzdem von vorne an",
+    "context": "ich bräuchte jetzt, muss schau trotzdem von vorne an, mal das der Ventrikel da auffällig aussieht",
+    "tags": [
+      "control: control_repeat"
+    ],
+    "rationale": "The person goes back to the start of the images to check again.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 49
+    },
+    "model": "anthropic/claude-sonnet-5.5",
+    "provider": "Claude Platform on AWS",
+    "configuration_name": "claude-sonnet-5-5-260928"
+  },
+  {
+    "phrase": "mal das der Ventrikel da auffällig aussieht, also da eineengt",
+    "context": "mal das der Ventrikel da auffällig aussieht, also da eineengt und die Blutung hat man hier gesehen",
+    "tags": [
+      "indicator: anomaly_detected"
+    ],
+    "rationale": "The person notes that the ventricle looks abnormal and compressed.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 49
+    },
+    "model": "anthropic/claude-sonnet-5.5",
+    "provider": "Claude Platform on AWS",
+    "configuration_name": "claude-sonnet-5-5-260928"
+  },
+  {
+    "phrase": "die Blutung hat man hier gesehen",
+    "context": "also da eineengt und die Blutung hat man hier gesehen. Ich hab das jetzt nicht gebraucht",
+    "tags": [
+      "interpretation: description_bleeding"
+    ],
+    "rationale": "The person refers back to the hemorrhage they already identified.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 49
+    },
+    "model": "anthropic/claude-sonnet-5.5",
+    "provider": "Claude Platform on AWS",
+    "configuration_name": "claude-sonnet-5-5-260928"
+  },
+  {
+    "phrase": "Ich hab das jetzt nicht gebraucht und fertig.",
+    "context": "die Blutung hat man hier gesehen. Ich hab das jetzt nicht gebraucht und fertig.",
+    "tags": [
+      "reflection_of_ai: unhelpful/unnecessary",
+      "reflection_of_ai: ich_recognized_without_ai"
+    ],
+    "rationale": "The person says they did not need the AI and would have found the hemorrhage without it.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 49
+    },
+    "model": "anthropic/claude-sonnet-5.5",
+    "provider": "Claude Platform on AWS",
+    "configuration_name": "claude-sonnet-5-5-260928"
+  }
+]

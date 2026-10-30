@@ -1,0 +1,879 @@
+[
+  {
+    "error": "JSONDecodeError",
+    "message": "Expecting ':' delimiter: line 6 column 43 (char 629)",
+    "raw_output": "{\n  \"classifications\": [\n    {\n      \"phrase\": \"Das Kleinhirn hier könnte ich mir vorstellen, dass da irgendwie sieht so ein bisschen ? aus, aber auch im Gewebe des Kleinhirns sehe ich jetzt keine Änderungen, das heißt, ich würde hier jetzt der AI zustimmen und sagen, hier ist keine Blutung.\",\n      \"context\": \"Das Kleinhirn hier könnte ich mir vorstellen, dass da irgendwie sieht so ein bisschen ? aus, aber auch im Gewebe des Kleinhirns sehe ich jetzt keine Änderungen, das heißt, ich würde hier jetzt der AI zustimmen und sagen, hier ist keine Blutung. Da bin ich relativ sicher.\",\n      \"tags: [interpretation: no_bleeding\", \"interpretation: bleeding_localization_unclear\"],\n      \"rationale\": \"Der Sprecher interpretiert die Anomalie als keine Blutung, aber gibt zu, dass er nicht sicher ist, wo die Blutung liegt.\"\n    }\n  ]\n}",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\42_advice with annotation_cycle_117.txt",
+      "row": 1
+    },
+    "model": "meta-llama/llama-3.2-3b-instruct",
+    "provider": "Cloudflare",
+    "configuration_name": "llama-3-2-3b-instruct-240925"
+  },
+  {
+    "error": "JSONDecodeError",
+    "message": "Expecting ':' delimiter: line 4 column 55 (char 85)",
+    "raw_output": "{\n  \"classifications\": [\n    {\n      \"phrase: Das könnte für mich eine Blutung sein.\",\n      \"context\": \"linken Seite im Gehirn. Das könnte für mich eine Blutung sein. Ja. Genau.\",\n      \"tags: [interpretation: bleeding\"],\n      \"rationale\": \"Brief explanation of why this tag applies. Das könnte für mich eine Blutung sein. ist ein Hinweis auf eine mögliche Blutung.\"\n    },\n    {\n      \"phrase\": \"Aber da würde ich mich jetzt von der AI leiten lassen und sagen, das ist keine Blutung.\",\n      \"context\": \"Im Kleinhirn sieht es ein bisschen, mmh hier ist dann ein bisschen dunkler.\",\n      \"tags\": [\"decision_with_ai: explicitly_disagreeing_with_ai\"],\n      \"rationale\": \"Der Sprecher entscheidet sich gegen die Annahme einer Blutung, basierend auf der Einschätzung der AI.\"\n    }\n  ]\n}",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\42_advice with annotation_cycle_117.txt",
+      "row": 7
+    },
+    "model": "meta-llama/llama-3.2-3b-instruct",
+    "provider": "Cloudflare",
+    "configuration_name": "llama-3-2-3b-instruct-240925"
+  },
+  {
+    "error": "JSONDecodeError",
+    "message": "Expecting ':' delimiter: line 6 column 40 (char 1319)",
+    "raw_output": "{\n  \"classifications\": [\n    {\n      \"phrase\": \"Das wäre dann auf jeden Fall intrazerebral und nicht irgendwie über der Dura oder direkt unter der Dura, weil das Hingebe ist eigentlich nicht verdrängt, die Mittellinie ist klar, in den Ventrikeln ist auf jeden Fall etwas zu sehen.\",\n      \"context\": \"EXPERIMENTER: Mit Blick auf die Zeit würde ich dich bitten, etwas schneller über die nächsten Fälle drüber zu gehen, sodass wir gegen 10 nach fünf auf jeden Fall durch sind mit den Fällen VPN: ja. Ja, ja, okay, das ist jetzt eine Frau, 53 nach dem Motorbike Crash. Hier wurde eine Blutung entdeckt. Ich gehe von oben durch, sehe die Seitenventrikel. Die sind ein bisschen asymetrisch. Hier ist im Seitenventrikel eine Aufhellung, und hier vorne wäre eine Blutung. Das wäre dann auf jeden Fall intrazerebral und nicht irgendwie über der Dura oder direkt unter der Dura, weil das Hingebe ist eigentlich nicht verdrängt, die Mittellinie ist klar, in den Ventrikeln ist auf jeden Fall etwas zu sehen. Das ist aber nicht das, was er erkannt hat. Mhm. Ähm! Ich, ach so, ich muss laut denken. Entschuldigung, also, es ist etwas aufgehellt, da ich sage, das ist eine Blutung, aber kommt wahrscheinlich wahrscheinlich, weil er es auch mir gesagt hat, sonst hätte ich das nicht gesehen.\",\n      \"tags: [interpretation: bleeding\"],\n      \"rationale\": \"Der EXPERIMENTER beschreibt eine Blutung in einem Patienten und diskutiert die mögliche Lokalisation der Blutung. Er erwähnt, dass die Blutung intrazerebral sein könnte, was bedeutet, dass sie innerhalb des Gehirns liegt, und nicht über der Dura oder direkt unter der Dura. Dies wird durch die Asymmetrie der Seitenventrikel und die Aufhellung in diesem Bereich unterstützt. Der EXPERIMENTER ist jedoch unsicher, ob er die Blutung tatsächlich gesehen hat, da er sagt, dass er es auch dem Patienten gesagt hat, was er gesehen hat. Dies deutet darauf hin, dass der EXPERIMENTER möglicherweise nicht sicher ist, ob die Blutung tatsächlich vorhanden ist.\"\n    }\n  ]\n}",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\42_advice with annotation_cycle_117.txt",
+      "row": 3
+    },
+    "model": "meta-llama/llama-3.2-3b-instruct",
+    "provider": "Cloudflare",
+    "configuration_name": "llama-3-2-3b-instruct-240925"
+  },
+  {
+    "error": "JSONDecodeError",
+    "message": "Expecting ':' delimiter: line 5 column 417 (char 525)",
+    "raw_output": "{\n  \"classifications\": [\n    {\n      \"phrase\": \"Das heißt, es könnte schon sein, dass da eine Blutung ist.\",\n      \"context: Hier schau ich mir wieder von an. Hier hat er wieder frontal direkt unter der Schädelkalotte diese Blutung detektiert. Was ich jetzt hier sehe, ist, dass auf der anderen Seite eben auch so eine so ein dunkler Bereich ist. Das heißt, ich finde schon, dass es so aussieht, als würde das Hirngewebe so ein bisschen von dem Knochen weggedrückt. Das heißt, es könnte schon sein, dass da eine Blutung ist.\",\n      \"tags: [interpretation: bleeding\", \"interpretation: no_bleeding\"],\n      \"rationale\": \"Der Sprecher diskutiert die Möglichkeit einer Blutung, aber auch die Möglichkeit, dass es sich um einen dunklen Bereich handelt, der nicht unbedingt eine Blutung ist.\"\n    },\n    {\n      \"phrase\": \"Das heißt, es wäre eher eine arachnoidale als eine subdurale Blutung.\",\n      \"context\": \"Das heißt, es könnte schon sein, dass da eine Blutung ist. Aber ich würde sagen, dass auf der anderen Seite dann auch eine Blutung wäre, und wenn man sich das anschaut, sieht es eher so ein bisschen sichelförmig am Hirngewebe aus, obwohl es auch in die Sulci reingeht. Das heißt, es wäre eher eine arachnoidale als eine subdurale Blutung.\",\n      \"tags: [interpretation: bleeding\", \"interpretation: bleeding_localization_unclear\"],\n      \"rationale\": \"Der Sprecher diskutiert die Art der Blutung, ob es sich um eine arachnoidale oder subdurale Blutung handelt.\"\n    },\n    {\n      \"phrase\": \"Ich weiß nicht, warum es nicht hell ist, aber es ist Flüssigkeit, würde ich sagen, und es ist nicht Gewerbe an sich.\",\n      \"context: Vielleicht ist es dann. Ich weiß nicht, warum es nicht hell ist, aber es ist Flüssigkeit, würde ich sagen, und es ist nicht Gewerbe an sich.\",\n      \"tags: [interpretation: no_bleeding\", \"interpretation: no_bleeding_explanation\"],\n      \"rationale\": \"Der Sprecher diskutiert die Natur der Flüssigkeit, die er sieht, und versucht, sie von Gewerbe zu unterscheiden.\"\n    }\n  ]\n}",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\42_advice with annotation_cycle_117.txt",
+      "row": 2
+    },
+    "model": "meta-llama/llama-3.2-3b-instruct",
+    "provider": "Cloudflare",
+    "configuration_name": "llama-3-2-3b-instruct-240925"
+  },
+  {
+    "error": "JSONDecodeError",
+    "message": "Expecting ':' delimiter: line 12 column 61 (char 1141)",
+    "raw_output": "{\n  \"classifications\": [\n    {\n      \"phrase\": \"Hier wurde eine hemorrhage detected.\",\n      \"context\": \"Hier wurde eine hemorrhage detected. Das ist hier zwischen den Hemisphären, so eine ganz leicht kleine Aufhellung, das wäre dann ja, einfach der eine subdurale Blutung oder eine intrazerebrale Blutung, sonst sieht hier alles in Ordnung aus.\",\n      \"tags\": [\"ai_report: ich\", \"indicator: anomaly_detected\", \"interpretation: bleeding\"],\n      \"rationale\": \"Der Text bestätigt die Diagnose einer Blutung, die durch die Anamnese und die hyperdense Struktur im Bild bestätigt wird.\"\n    },\n    {\n      \"phrase\": \"Das ist hier zwischen den Hemisphären, so eine ganz leicht kleine Aufhellung, das wäre dann ja, einfach der eine subdurale Blutung oder eine intrazerebrale Blutung, sonst sieht hier alles in Ordnung aus.\",\n      \"context\": \"Hier wurde eine hemorrhage detected. Das ist hier zwischen den Hemisphären, so eine ganz leicht kleine Aufhellung, das wäre dann ja, einfach der eine subdurale Blutung oder eine intrazerebrale Blutung, sonst sieht hier alles in Ordnung aus.\",\n      \"tags: [interpretation: bleeding_localization_unclear\"],\n      \"rationale\": \"Der Text beschreibt die Lokalisation der Blutung als \" \n    },\n    {\n      \"phrase\": \"Ich stimme da der AI zu und sage, das ist eine Blutung, weil es eben hyperdens ist und genau und eben auch die Anamnese dazu besteht.\",\n      \"context\": \"Hier wurde eine hemorrhage detected. Das ist hier zwischen den Hemisphären, so eine ganz leicht kleine Aufhellung, das wäre dann ja, einfach der eine subdurale Blutung oder eine intrazerebrale Blutung, sonst sieht hier alles in Ordnung aus. Ich stimme da der AI zu und sage, das ist eine Blutung, weil es eben hyperdens ist und genau und eben auch die Anamnese dazu besteht.\",\n      \"tags\": [\"decision_with_ai: explicitly_agreeing_with_ai\", \"confidence_high: concrete\"],\n      \"rationale\": \"Der Patient stimmt der Diagnose der Blutung durch die AI zu und bestätigt sie mit der Anamnese und der hyperdensen Struktur im Bild.\"\n    }\n  ]\n}",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\42_advice with annotation_cycle_117.txt",
+      "row": 11
+    },
+    "model": "meta-llama/llama-3.2-3b-instruct",
+    "provider": "Cloudflare",
+    "configuration_name": "llama-3-2-3b-instruct-240925"
+  },
+  {
+    "error": "JSONDecodeError",
+    "message": "Expecting ':' delimiter: line 10 column 134 (char 537)",
+    "raw_output": "{\n  \"classifications\": [\n    {\n      \"phrase\": \"Hier wurde dann jetzt wieder eine Blutung gefunden.\",\n      \"context\": \"linken Seite im Gehirn. Das könnte für mich eine Blutung sein. Ja. Genau.\",\n      \"tags\": [\"indicator: anomaly_detected\", \"interpretation: bleeding\"],\n      \"rationale\": \"Der Sprecher vermerkt eine neue Blutung, die er durch Symmetrie und Mittellinie identifiziert hat.\"\n    },\n    {\n      \"phrase: Die Seitenventrikel sind symmetrisch, die Mittellinie liegt in der Mitte, ich gehe mal durch sieht okay es Kleinhirn.\",\n      \"context: \",\n      \"tags\": [\"control: control_repeat\"],\n      \"rationale\": \"Der Sprecher wiederholt die Symmetrie und Mittellinie der Seitenventrikel und überprüft das Kleinhirn.\"\n    },\n    {\n      \"phrase\": \"Hier ist irgendwas hinten im Kleinhirn, was ich nicht so richtig sehen kann.\",\n      \"context: \",\n      \"tags\": [\"indicator: no_bleeding\"],\n      \"rationale\": \"Der Sprecher bemerkt ein unklareres Gebiet im Kleinhirn, das er nicht genau sehen kann.\"\n    },\n    {\n      \"phrase: Die Seitenventrikel sind in Ordnung, und wo sehe, wo hat er das?\",\n      \"context: \",\n      \"tags\": [\"control: control_repeat\"],\n      \"rationale\": \"Der Sprecher wiederholt die Frage nach dem unklaren Gebiet im Kleinhirn.\"\n    },\n    {\n      \"phrase\": \"Hier ja, genau da hinten, das sehe ich hier nicht so richtig, weil da was vorliegt.\",\n      \"context: \",\n      \"tags\": [\"indicator: anomaly_detected\"],\n      \"rationale\": \"Der Sprecher identifiziert das unklare Gebiet im Kleinhirn als Anomalie.\"\n    },\n    {\n      \"phrase\": \"Aber es sieht auf jeden Fall nicht normal aus, und hier, wir haben so ein verdunkelten Bereich, und es kann halt sein, dass da irgendwie so eine Art zystische oder ja, auf jeden Fall ist da irgendwas vor, und dann könnte das Blut hier hinten liegen.\",\n      \"context: \",\n      \"tags: [interpretation: bleeding\"],\n      \"rationale\": \"Der Sprecher interpretiert das unklare Gebiet im Kleinhirn als Blutung und diskutiert mögliche Ursachen.\"\n    },\n    {\n      \"phrase\": \"Und da im Autounfall war, glaube ich, dass das eine Blutung ist.\",\n      \"context: \",\n      \"tags\": [\"indicator: anomaly_detected\"],\n      \"rationale\": \"Der Sprecher verbindet das unklare Gebiet im Kleinhirn mit dem Autounfall und vermutet eine Blutung.\"\n    },\n    {\n      \"phrase\": \"Ja, ich glaube da.\",\n      \"context: \",\n      \"tags: [interpretation: bleeding\"],\n      \"rationale\": \"Der Sprecher bestätigt seine Vermutung einer Blutung.\"\n    },\n    {\n      \"phrase\": \"Und sie glauben das auch, oder die AI ich glaubt dass auch deswegen genau.\",\n      \"context: \",\n  tags: [\"reflection_of_ai: trust_in_ai\"],\n      \"rationale\": \"Der Sprecher vertraut der AI und teilt ihre Meinung über die Blutung.\"\n    }\n  ]\n}",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\42_advice with annotation_cycle_117.txt",
+      "row": 9
+    },
+    "model": "meta-llama/llama-3.2-3b-instruct",
+    "provider": "Cloudflare",
+    "configuration_name": "llama-3-2-3b-instruct-240925"
+  },
+  {
+    "phrase": "Ich gehe wieder von oben durch.",
+    "context": "dann fünfzigjähriger Mann mit Kopfschmerzen und Warfarin, hier ist keine Blutung entdeckt worden. Ich gehe wieder von oben durch. Das sieht wieder sehr atrophisch aus, weil die, weil die Sulci so weit auseinander liegen, und da ist oben so bisschen flüssigkeitreich aussieht. Aber vielleicht ist das auch nochmal. Ich sehe keine Aufhellung bisher, das ist alles symmetrisch. Und im Hirnstamm und im Kleinhirn sieht es auch echt in Ordnung aus. Genau die Ventrikel liegen symmetrisch offen, und deswegen sage ich, hier ist keine Blutung relativ sicher. Und. Ja, es unterstützt wieder meine These, dass keine Blutung da ist.",
+    "tags": [
+      "control: make_own_judgement",
+      "interpretation: no_bleeding",
+      "interpretation: bleeding_localization_unclear"
+    ],
+    "rationale": "Der Sprecher entscheidet sich selbst, dass keine Blutung vorhanden ist, obwohl er nicht sicher ist, wo die Blutung liegt. Er findet keine Aufhellung und die Symmetrie der Ventrikel unterstützt seine These.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\42_advice with annotation_cycle_117.txt",
+      "row": 6
+    },
+    "model": "meta-llama/llama-3.2-3b-instruct",
+    "provider": "Parasail",
+    "configuration_name": "llama-3-2-3b-instruct-240925"
+  },
+  {
+    "error": "JSONDecodeError",
+    "message": "Expecting ':' delimiter: line 24 column 43 (char 2710)",
+    "raw_output": "{\n  \"classifications\": [\n    {\n      \"phrase\": \"Ich gehe wieder von oben durch.\",\n      \"context\": \"Dann ist ein 38 jähriger Mann mit sehr starken Kopfschmerzen. Hier wurde keine Blutung entdeckt. Ich gehe wieder von oben durch.\",\n      \"tags\": [\"control: control_repeat\"],\n      \"rationale\": \"Der Sprecher wechselt zwischen verschiedenen Teilen des Gehirns, um eine Blutung zu suchen.\"\n    },\n    {\n      \"phrase\": \"Das heißt, vielleicht hat er einen erhöhten Hirndruck, was mich dann auf eine Blutung bringen würde.\",\n      \"context\": \"Dann ist ein 38 jähriger Mann mit sehr starken Kopfschmerzen. Hier wurde keine Blutung entdeckt. Ich gehe wieder von oben durch. Oh, sehe, dass die Sulci, finde ich, sehr aufgetrieben aussehen, also dazwischen sehr viel Platz ist, und außerdem, hier sehen wir die Sulci eben sehr wenig, das heißt, vielleicht hat er einen erhöhten Hirndruck, was mich dann auf eine Blutung bringen würde.\",\n      \"tags\": [\"reasoning: alternative_medical_cause\"],\n      \"rationale\": \"Der Sprecher diskutiert die Möglichkeit eines erhöhten Hirndrucks als Ursache für die Kopfschmerzen.\"\n    },\n    {\n      \"phrase\": \"Ich sehe aber wieder keine Mittellinienverlagerung.\",\n      \"context\": \"Dann ist ein 38 jähriger Mann mit sehr starken Kopfschmerzen. Hier wurde keine Blutung entdeckt. Ich gehe wieder von oben durch. Oh, sehe, dass die Sulci, finde ich, sehr aufgetrieben aussehen, also dazwischen sehr viel Platz ist, und außerdem, hier sehen wir die Sulci eben sehr wenig, das heißt, vielleicht hat er einen erhöhten Hirndruck, was mich dann auf eine Blutung bringen würde. Achso und genau Ich sehe aber wieder keine Mittellinienverlagerung.\",\n      \"tags\": [\"indicator: no_bleeding\"],\n      \"rationale\": \"Der Sprecher findet keine Mittellinienverlagerung, was darauf hindeutet, dass es keine Blutung gibt.\"\n    },\n    {\n      \"phrase\": \"Die Ventrikel sind einigermaßen offen, also nicht zur Seite verlagert, und wenn schon, würde ich oben sagen, dass die Sulci so ein bisschen weit auseinander liegen.\",\n      \"context\": \"Dann ist ein 38 jähriger Mann mit sehr starken Kopfschmerzen. Hier wurde keine Blutung entdeckt. Ich gehe wieder von oben durch. Oh, sehe, dass die Sulci, finde ich, sehr aufgetrieben aussehen, also dazwischen sehr viel Platz ist, und außerdem, hier sehen wir die Sulci eben sehr wenig, das heißt, vielleicht hat er einen erhöhten Hirndruck, was mich dann auf eine Blutung bringen würde. Achso und genau Ich sehe aber wieder keine Mittellinienverlagerung. Die Ventrikel sind einigermaßen offen, also nicht zur Seite verlagert, und wenn schon, würde ich oben sagen, dass die Sulci so ein bisschen weit auseinander liegen.\",\n      \"tags: [interpretation: no_bleeding\"],\n      \"rationale\": \"Der Sprecher beschreibt die Ventrikel als offen, was darauf hindeutet, dass es keine Blutung gibt.\"\n    },\n    {\n      \"phrase\": \"Ich glaube, das ist keine Blutung, die Kopfschmerzen kommen von was anderem, und das würde mit ihm übereinstimmen.\",\n      \"context\": \"Dann ist ein 38 jähriger Mann mit sehr starken Kopfschmerzen. Hier wurde keine Blutung entdeckt. Ich gehe wieder von oben durch. Oh, sehe, dass die Sulci, finde ich, sehr aufgetrieben aussehen, also dazwischen sehr viel Platz ist, und außerdem, hier sehen wir die Sulci eben sehr wenig, das heißt, vielleicht hat er einen erhöhten Hirndruck, was mich dann auf eine Blutung bringen würde. Achso und genau Ich sehe aber wieder keine Mittellinienverlagerung. Die Ventrikel sind einigermaßen offen, also nicht zur Seite verlagert, und wenn schon, würde ich oben sagen, dass die Sulci so ein bisschen weit auseinander liegen. Ich glaube, das ist keine Blutung, die Kopfschmerzen kommen von was anderem, und das würde mit ihm übereinstimmen.\",\n      \"tags: [interpretation: no_bleeding\"],\n      \"rationale\": \"Der Sprecher zieht eine Schlussfolgerung, dass es keine Blutung gibt und dass die Kopfschmerzen durch andere Ursachen verursacht werden könnten.\"\n    }\n  ]\n}",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\42_advice with annotation_cycle_117.txt",
+      "row": 4
+    },
+    "model": "meta-llama/llama-3.2-3b-instruct",
+    "provider": "Cloudflare",
+    "configuration_name": "llama-3-2-3b-instruct-240925"
+  },
+  {
+    "error": "JSONDecodeError",
+    "message": "Expecting ':' delimiter: line 12 column 61 (char 774)",
+    "raw_output": "{\n  \"classifications\": [\n    {\n      \"phrase\": \"Hier ist kein hemorrhage detected.\",\n      \"context\": \"Dann 53 Frau Mountainbikeunfall ohne Helm. Hier ist kein hemorrhage detected. Die Seitenventrikel sind in Ordnung.\",\n      \"tags\": [\"ai_report: no_ich\"],\n      \"rationale\": \"Der Sprecher bestätigt, dass die künstliche Intelligenz keine Blutung (Hemorrhage) gefunden hat.\"\n    },\n    {\n      \"phrase\": \"Ich sehe hier ähm, so ein Sulcus, aber der ist wahrscheinlich einfach nur anatomisch.\",\n      \"context\": \"Dann 53 Frau Mountainbikeunfall ohne Helm. Hier ist kein hemorrhage detected. Die Seitenventrikel sind in Ordnung. Ich sehe hier ähm, so ein Sulcus, aber der ist wahrscheinlich einfach nur anatomisch.\",\n      \"tags: [interpretation: bleeding_localization_unclear\"],\n      \"rationale\": \"Der Sprecher beschreibt eine Struktur (Sulcus) im Gehirn, die möglicherweise nicht eine Blutung ist, sondern eine anatomische Struktur.\"\n    },\n    {\n      \"phrase\": \"Mhm hier ist so eine Aufweitung, der Sulci wieder so temporal gelegen, und der Temporallappen sieht mir ein bisschen nach hinten gedrückt aus, und deswegen hat sie, sie ist ja erst 53, aber wenn, dann hätte sie eine symmetrische Blutung, weil es dunkel ist, aber dunkel heißt, oder sie hat eine superarachnoidal Blutung, weil hier wieder die hier so ne Aufhellung ist, aber es können das mmh.\",\n      \"context\": \"Dann 53 Frau Mountainbikeunfall ohne Helm. Hier ist kein hemorrhage detected. Die Seitenventrikel sind in Ordnung. Ich sehe hier ähm, so ein Sulcus, aber der ist wahrscheinlich einfach nur anatomisch. Mhm hier ist so eine Aufweitung, der Sulci wieder so temporal gelegen, und der Temporallappen sieht mir ein bisschen nach hinten gedrückt aus, und deswegen hat sie, sie ist ja erst 53, aber wenn, dann hätte sie eine symmetrische Blutung, weil es dunkel ist, aber dunkel heißt, oder sie hat eine superarachnoidal Blutung, weil hier wieder die hier so ne Aufhellung ist, aber es können das mmh.\",\n      \"tags: [interpretation: bleeding\"],\n      \"rationale\": \"Der Sprecher beschreibt mögliche Symptome einer Blutung (Hemorrhage) im Gehirn, aber ist unsicher, ob es tatsächlich eine Blutung ist.\"\n    },\n    {\n      \"phrase\": \"Ich bin aber nicht sicher. Ja, dann wird es mir nicht helfen.\",\n      \"context\": \"Dann 53 Frau Mountainbikeunfall ohne Helm. Hier ist kein hemorrhage detected. Die Seitenventrikel sind in Ordnung. Ich sehe hier ähm, so ein Sulcus, aber der ist wahrscheinlich einfach nur anatomisch. Mhm hier ist so eine Aufweitung, der Sulci wieder so temporal gelegen, und der Temporallappen sieht mir ein bisschen nach hinten gedrückt aus, und deswegen hat sie, sie ist ja erst 53, aber wenn, dann hätte sie eine symmetrische Blutung, weil es dunkel ist, aber dunkel heißt, oder sie hat eine superarachnoidal Blutung, weil hier wieder die hier so ne Aufhellung ist, aber es können das mmh. Ich bin aber nicht sicher. Ja, dann wird es mir nicht helfen.\",\n  tags: [\"reflection: diagnostic_uncertainty\"],\n      \"rationale\": \"Der Sprecher ist unsicher, ob es eine Blutung im Gehirn gibt und gibt seine Zweifel an der Diagnose.\"\n    }\n  ]\n}",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\42_advice with annotation_cycle_117.txt",
+      "row": 10
+    },
+    "model": "meta-llama/llama-3.2-3b-instruct",
+    "provider": "Cloudflare",
+    "configuration_name": "llama-3-2-3b-instruct-240925"
+  },
+  {
+    "phrase": "nein, keine Blutung",
+    "context": "Frau sagt, dass sie keine Blutung gefunden hat, und die künstliche Intelligenz hat das auch bestätigt.",
+    "tags": [
+      "ai_report: no_ich",
+      "interpretation: no_bleeding",
+      "decision_with_ai: explicitly_agreeing_with_ai"
+    ],
+    "rationale": "Die Frau bestätigt explizit, dass keine Blutung gefunden wurde, und die künstliche Intelligenz hat dies ebenfalls bestätigt. Dies deutet darauf hin, dass die Frau und die künstliche Intelligenz einig sind, dass keine Blutung vorhanden ist.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\42_advice with annotation_cycle_117.txt",
+      "row": 13
+    },
+    "model": "meta-llama/llama-3.2-3b-instruct",
+    "provider": "Parasail",
+    "configuration_name": "llama-3-2-3b-instruct-240925"
+  },
+  {
+    "error": "JSONDecodeError",
+    "message": "Expecting ':' delimiter: line 4 column 55 (char 85)",
+    "raw_output": "{\n  \"classifications\": [\n    {\n      \"phrase: Das könnte für mich eine Blutung sein.\",\n      \"context\": \"linken Seite im Gehirn. Das könnte für mich eine Blutung sein. Ja. Genau.\",\n      \"tags: [interpretation: bleeding\"],\n      \"rationale\": \"Der Patient beschreibt eine Blutung im Frontallappen und ist sich relativ sicher, dass dies eine Blutung ist.\"\n    },\n    {\n      \"phrase: Die Seitenventrikel sind sehr stark erweitert.\",\n      \"context\": \"linken Seite im Gehirn. Die Seitenventrikel sind sehr stark erweitert. Und das ist asymmetrisch sie ist wahrscheinlich gefallen deswegen sage ich, da ist ne Blutung.\",\n      \"tags\": [\"indicator: anomaly_detected\", \"interpretation: bleeding\"],\n      \"rationale\": \"Der Patient beschreibt eine Erweiterung der Seitenventrikel, die asymmetrisch ist und wahrscheinlich auf eine Blutung hinweist.\"\n    }\n  ]\n}",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\42_advice with annotation_cycle_117.txt",
+      "row": 16
+    },
+    "model": "meta-llama/llama-3.2-3b-instruct",
+    "provider": "Cloudflare",
+    "configuration_name": "llama-3-2-3b-instruct-240925"
+  },
+  {
+    "error": "JSONDecodeError",
+    "message": "Expecting ':' delimiter: line 12 column 43 (char 1190)",
+    "raw_output": "{\n  \"classifications\": [\n    {\n      \"phrase\": \"Das wäre dann aber eben nicht intrazerebral, sondern halt eher vielleicht auch subdural mhm.\",\n      \"context\": \"Hier ist hier hinten in der Mittellinie zwischen den beiden Hemisphären so eine Aufhellung. Das wäre dann aber eben nicht intrazerebral, sondern halt eher vielleicht auch subdural mhm.\",\n      \"tags\": [\"indicator: no_bleeding\", \"interpretation: bleeding_localization_unclear\"],\n      \"rationale\": \"Der Sprecher diskutiert die mögliche Lokalisation der Aufhellung und lehnt eine intrazerebrale Blutung ab, aber kann die genaue Lokalisation nicht bestimmen.\"\n    },\n    {\n      \"phrase\": \"Das Gewebe, des Gehirns, sieht eigentlich recht homogen aus das Kleinhirn sieht in Ordnung aus und die ? auch.\",\n      \"context\": \"62 Jahre, männlich, mit Kopfschmerzen, so keine Blutung wurde erkannt. Hier ist hier hinten in der Mittellinie zwischen den beiden Hemisphären so eine Aufhellung. Das wäre dann aber eben nicht intrazerebral, sondern halt eher vielleicht auch subdural mhm. Das Gewebe, des Gehirns, sieht eigentlich recht homogen aus das Kleinhirn sieht in Ordnung aus und die ? auch.\",\n      \"tags: [interpretation: no_bleeding\"],\n      \"rationale\": \"Der Sprecher beschreibt das Gehirn als homogen und lehnt eine Blutung ab.\"\n    },\n    {\n      \"phrase\": \"Ähm, genau, ich würde aber sagen, das ist keine Blutung.\",\n      \"context\": \"62 Jahre, männlich, mit Kopfschmerzen, so keine Blutung wurde erkannt. Hier ist hier hinten in der Mittellinie zwischen den beiden Hemisphären so eine Aufhellung. Das wäre dann aber eben nicht intrazerebral, sondern halt eher vielleicht auch subdural mhm. Das Gewebe, des Gehirns, sieht eigentlich recht homogen aus das Kleinhirn sieht in Ordnung aus und die ? auch. Ähm, genau, ich würde aber sagen, das ist keine Blutung.\",\n      \"tags: [interpretation: no_bleeding\"],\n      \"rationale\": \"Der Sprecher bestätigt abschließend, dass es keine Blutung gibt.\"\n    }\n  ]\n}",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\42_advice with annotation_cycle_117.txt",
+      "row": 14
+    },
+    "model": "meta-llama/llama-3.2-3b-instruct",
+    "provider": "Cloudflare",
+    "configuration_name": "llama-3-2-3b-instruct-240925"
+  },
+  {
+    "phrase": "Ich weiß nicht, was es sonst sein soll, deswegen sage ich, das ist eine Blutung.",
+    "context": "Ich weiß nicht, was es sonst sein soll, deswegen sage ich, das ist eine Blutung. Ähm, sonst sind ist es eigentlich recht symmetrisch die Hemisphären. Ich bin nicht sicher, und die künstliche Intelligenz hat sie nicht entdeckt.",
+    "tags": [
+      "interpretation: bleeding",
+      "reflection: diagnostic_uncertainty"
+    ],
+    "rationale": "Der Sprecher ist unsicher über die Identität der Struktur und gibt es als Blutung an, obwohl die künstliche Intelligenz sie nicht entdeckt hat.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\42_advice with annotation_cycle_117.txt",
+      "row": 12
+    },
+    "model": "meta-llama/llama-3.2-3b-instruct",
+    "provider": "Parasail",
+    "configuration_name": "llama-3-2-3b-instruct-240925"
+  },
+  {
+    "error": "JSONDecodeError",
+    "message": "Expecting ':' delimiter: line 6 column 43 (char 661)",
+    "raw_output": "{\n  \"classifications\": [\n    {\n      \"phrase\": \"Das könnte Knochen sein, genau das Kleinhirn ist nicht betroffen, würde ich sagen, und ich sage, hier liegt keine Blutung vor, und es ist natürlich sicherer, wenn mir das auch so gesagt wurde.\",\n      \"context\": \"Dann, sie ist runtergefallen, drei Stufen und nimmt Eliquis. Hier ist keine Blutung erkannt worden, ist wieder symmetrisch. Seitenventrikel sind auch symmetrisch. Das könnte Knochen sein, genau das Kleinhirn ist nicht betroffen, würde ich sagen, und ich sage, hier liegt keine Blutung vor, und es ist natürlich sicherer, wenn mir das auch so gesagt wurde.\",\n      \"tags: [interpretation: no_bleeding\", \"interpretation: bleeding_localization_unclear\", \"control: make_own_judgement\"],\n      \"rationale\": \"Der Sprecher verneint die Anwesenheit einer Blutung und ist sich nicht sicher, wo die Blutung liegt, aber entscheidet sich für eine eigene Einschätzung.\"\n    }\n  ]\n}",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\42_advice with annotation_cycle_117.txt",
+      "row": 18
+    },
+    "model": "meta-llama/llama-3.2-3b-instruct",
+    "provider": "Cloudflare",
+    "configuration_name": "llama-3-2-3b-instruct-240925"
+  },
+  {
+    "error": "JSONDecodeError",
+    "message": "Expecting ':' delimiter: line 6 column 40 (char 585)",
+    "raw_output": "{\n  \"classifications\": [\n    {\n      \"phrase\": \"Das ist links okzipital oder parietal eher genau.\",\n      \"context\": \"linken Seite im Gehirn. Dann 82mit Kopfschmerz und GCS von 11. Der hat eine Blutung laut AI. Oh, ja, okay, also hier würde ich auf jeden Fall Blutung sagen. Ich würde sagen, es ist eine epidurale Blutung, weil die so eierförmig ist. Das ist links okzipital oder parietal eher genau. Es ist hyperdens, und das würde ich eindeutig als Blutung identifizieren. Ja, da bin ich mir relativ sicher, und das wird auch übereinstimmen.\",\n      \"tags: [interpretation: bleeding\", \"control: make_own_judgement\"],\n      \"rationale\": \"Der Teil des Textes, in dem der Arzt die Blutung als epidurale Blutung identifiziert und sie als hyperdens beschreibt, deutet darauf hin, dass er eine Blutung vermutet. Der Arzt ist sich auch relativ sicher, dass es sich um eine Blutung handelt, und erwähnt, dass dies übereinstimmen wird. Dies deutet darauf hin, dass der Arzt eine eigene Meinung über die Blutung hat und nicht nur die Ergebnisse der AI vertraut.\"\n    }\n  ]\n}",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\42_advice with annotation_cycle_117.txt",
+      "row": 17
+    },
+    "model": "meta-llama/llama-3.2-3b-instruct",
+    "provider": "Cloudflare",
+    "configuration_name": "llama-3-2-3b-instruct-240925"
+  },
+  {
+    "error": "JSONDecodeError",
+    "message": "Expecting ':' delimiter: line 6 column 40 (char 549)",
+    "raw_output": "{\n  \"classifications\": [\n    {\n      \"phrase\": \"Das ist hier im Kleinhirn und zwar ist da wieder eine hyperdense Struktur ganz okzipital und da würde ich auch zustimmen, dass das eine Blutung sein müsste\",\n      \"context\": \"linken Seite im Gehirn. Das ist hier im Kleinhirn und zwar ist da wieder eine hyperdense Struktur ganz okzipital und da würde ich auch zustimmen, dass das eine Blutung sein müsste, und das ist auf der linken Seite, und da hat mir das sehr geholfen, dass das direkt gezeigt wurde, wo.\",\n      \"tags: [interpretation: bleeding\", \"indicator: anomaly_detected\", \"control: relying_on_ai\"],\n      \"rationale\": \"Der Sprecher beschreibt eine hyperdense Struktur im okzipitalen Bereich des Kleinhirns als eine Blutung und stimmt mit der Diagnose überein. Er erwähnt auch, dass die Anzeige des AI direkt geholfen hat, die Blutung zu lokalisieren.\"\n    }\n  ]\n}",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\42_advice with annotation_cycle_117.txt",
+      "row": 20
+    },
+    "model": "meta-llama/llama-3.2-3b-instruct",
+    "provider": "Cloudflare",
+    "configuration_name": "llama-3-2-3b-instruct-240925"
+  },
+  {
+    "phrase": "Ich sehe keine Mittelinienverlagerung, die Seitenventrikel sind recht offen, hier ist eine leichte Aufhellung da, wo die Blutung angeblich sein soll, das wäre eben eher temporal, aber eher so bei Basalganglien.",
+    "context": "linken Seite im Gehirn. Dann 22 jährige Frau. Ähm. Ist bewusstlos und ist wahrscheinlich gefallen. Sie, hier ist eine Blutung gesehen worden von der AI. Ich sehe keine Mittelinienverlagerung, die Seitenventrikel sind recht offen, hier ist eine leichte Aufhellung da, wo die Blutung angeblich sein soll, das wäre eben eher temporal, aber eher so bei Basalganglien.",
+    "tags": [
+      "interpretation: bleeding",
+      "indicator: no_bleeding"
+    ],
+    "rationale": "Der Sprecher beschreibt eine leichte Aufhellung in der Region der angeblichen Blutung, aber gibt keine klaren Anzeichen für eine Blutung. Er erwähnt auch, dass die Seitenventrikel offen sind und dass die Aufhellung eher temporal ist, was darauf hindeutet, dass es keine Blutung gibt.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\42_advice with annotation_cycle_117.txt",
+      "row": 5
+    },
+    "model": "meta-llama/llama-3.2-3b-instruct",
+    "provider": "Parasail",
+    "configuration_name": "llama-3-2-3b-instruct-240925"
+  },
+  {
+    "phrase": "Das heißt, es wäre eine Aufhellung da, und deswegen würde ich sagen, vielleicht ist da so eine diffuse Blutung neben dem, neben dem Gefäßzyklus zu sehen.",
+    "context": "linken Seite im Gehirn. Dann 22 jährige Frau. Ähm. Ist bewusstlos und ist wahrscheinlich gefallen. Sie, hier ist eine Blutung gesehen worden von der AI. Ich sehe keine Mittelinienverlagerung, die Seitenventrikel sind recht offen, hier ist eine leichte Aufhellung da, wo die Blutung angeblich sein soll, das wäre eben eher temporal, aber eher so bei Basalganglien.",
+    "tags": [
+      "interpretation: bleeding"
+    ],
+    "rationale": "Der Sprecher erwähnt, dass es eine Aufhellung gibt, die er als mögliche diffuse Blutung neben dem Gefäßzyklus interpretieren könnte.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\42_advice with annotation_cycle_117.txt",
+      "row": 5
+    },
+    "model": "meta-llama/llama-3.2-3b-instruct",
+    "provider": "Parasail",
+    "configuration_name": "llama-3-2-3b-instruct-240925"
+  },
+  {
+    "phrase": "Hier ist eine Blutung entdeckt worden, und zwar frontal und das ist auch recht eindeutig.",
+    "context": "Dann ist jemand von einem Baum getroffen worden. Hier ist eine Blutung entdeckt worden, und zwar frontal und das ist auch recht eindeutig. Ich würde sagen, das ist wieder eine epidurale Blutung, rechts frontal man sieht wieder das aufgehellte Gewebe und das Hinrgewebe könnte dann wieder etwas verdrängt sein, und deswegen stimme ich da der AI zu.",
+    "tags": [
+      "indicator: anomaly_detected",
+      "interpretation: bleeding",
+      "control: relying_on_ai"
+    ],
+    "rationale": "Der Text beschreibt eine Blutung, die frontal und eindeutig ist, und der Sprecher stimmt der AI zu, da er eine epidurale Blutung vermutet. Der Sprecher verwendet auch die Phrase \"rechts frontal man sieht wieder das aufgehellte Gewebe und das Hinrgewebe könnte dann wieder etwas verdrängt sein\", was darauf hindeutet, dass er die Anomalie lokalisiert hat.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\42_advice with annotation_cycle_117.txt",
+      "row": 24
+    },
+    "model": "meta-llama/llama-3.2-3b-instruct",
+    "provider": "Cloudflare",
+    "configuration_name": "llama-3-2-3b-instruct-240925"
+  },
+  {
+    "phrase": "Das heißt, ich stimme zu und bin mir relativ sicher, dass es eine Blutung ist.",
+    "context": "Ich stimme zu und bin mir relativ sicher, dass es eine Blutung ist. Das war hilfreich, dass man direkt sieht, wo die Blutung sein soll.",
+    "tags": [
+      "interpretation: bleeding",
+      "confidence_high: concrete"
+    ],
+    "rationale": "Der Sprecher stimmt zu, dass es eine Blutung ist und ist sich relativ sicher. Dies deutet darauf hin, dass die Konfidenz des Sprechers hoch ist und die Diagnose wahrscheinlich ist.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\42_advice with annotation_cycle_117.txt",
+      "row": 19
+    },
+    "model": "meta-llama/llama-3.2-3b-instruct",
+    "provider": "Parasail",
+    "configuration_name": "llama-3-2-3b-instruct-240925"
+  },
+  {
+    "phrase": "Ich würde jetzt denken, dass da keine Blutung ist, weil es eben auch nicht hell ist, also nicht sehr kontrastreich ist, und deswegen würde ich sagen, es ist keine akute Blutung.",
+    "context": "Ich sehe jetzt in den Sulci erst mal nichts, und ich sehe auch keine Aufhellung des Gewebes erstmal. Aber hier kann es, kann es eben in der Mitte, also hier wo so die Subarachnoidalblutungen typischerweise sind, bei diesem Circulus Willisii könnte es sein. Und hier haben wir ein bisschen hellere Gefäße, denke ich, sind das aber eher und hier vorne habe ich jetzt einmal ein bisschen Aufhellung im CT, aber da gucke ich jetzt erst mal, das könnte natürlich auch noch der Knochen aus dem Gesichtsschädel sein. Mit meiner Maus geht das sehr schwierig. Ja, ich glaube, das ist einfach nur der Knochen. Jetzt gucke ich mir einmal das CT, was schon hier ausgewertet war, an und gucke da, wo da der, hier oben. Okay also. Oh, hier, okay, also hier sieht man in dem CT, was schon ausgewertet wurde, dass eben frontal sehr nah an der Schädelkalotte eine Blutung sein soll. Ich sehe jetzt auch keine Mittellinienverlagerung, das heißt, wenn es einseitig ist, dann könnte ich da eben noch schauen, ob das irgendwie so einen Druck ausübt. Außerdem hat er keine Verletzung von dem Schädel selber, also von der von der Knochen. Ähm, also, ich würde jetzt denken, dass da keine Blutung ist, weil es eben auch nicht hell ist, also nicht sehr kontrastreich ist, und deswegen würde ich sagen, es ist keine akute Blutung. Was theoretisch noch sein könnte, ist, dass es vielleicht chronisch wäre und dass deswegen schon abgedunkelt wäre. Ähm, aber ich würde jetzt erstmal sagen, das ist keine Blutung. Hm, ja, ich bin jetzt nicht super sicher. Und es ist auf jeden Fall schon mal gut, dass man gesehen hat, wo eventuell die Blutung wäre durch diese AI. Aber genau ich meine, es sieht anders aus als auf der anderen Seite. Deswegen könnte es sein, aber auf jeden Fall war das hilfreich erstmal. Ich würde trotzdem dagegen sagen.",
+    "tags": [
+      "interpretation: no_bleeding"
+    ],
+    "rationale": "Der Sprecher entscheidet sich letztendlich, dass es keine Blutung gibt, obwohl er zunächst Zweifel hat und sich nicht sicher ist. Er erkennt die Hilfsfunktion der AI an, aber ist trotzdem nicht überzeugt.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\42_advice with annotation_cycle_117.txt",
+      "row": 0
+    },
+    "model": "meta-llama/llama-3.2-3b-instruct",
+    "provider": "Parasail",
+    "configuration_name": "llama-3-2-3b-instruct-240925"
+  },
+  {
+    "error": "JSONDecodeError",
+    "message": "Expecting ':' delimiter: line 4 column 55 (char 85)",
+    "raw_output": "{\n  \"classifications\": [\n    {\n      \"phrase: Das könnte für mich eine Blutung sein.\",\n      \"context\": \"linken Seite im Gehirn. Das könnte für mich eine Blutung sein. Ja. Genau.\",\n      \"tags: [interpretation: bleeding\"],\n      \"rationale\": \"Der Patient beschreibt eine Blutung im Gehirn und ist sich sicher, dass es sich um eine Blutung handelt.\"\n    },\n    {\n      \"phrase\": \"Hier wurde eine Blutung entdeckt, und zwar im Temporal lappen, das ist auch sehr eindeutig, eben hyperdens, und ich würde sagen, dass da eine intrazerebrale Blutung oder eine Kontusionsblutung des Hirngewebes selber vorliegt.\",\n      \"context\": \"linken Seite im Gehirn. Hier wurde eine Blutung entdeckt, und zwar im Temporal lappen, das ist auch sehr eindeutig, eben hyperdens, und ich würde sagen, dass da eine intrazerebrale Blutung oder eine Kontusionsblutung des Hirngewebes selber vorliegt. Genau da stimme ich zu.\",\n      \"tags: [interpretation: bleeding\", \"interpretation: bleeding_localization_unclear\"],\n      \"rationale\": \"Der Patient beschreibt eine Blutung im Gehirn und ist sich sicher, dass es sich um eine Blutung handelt. Er beschreibt auch die Lokalisation der Blutung als Temporal lappen, aber ist sich nicht sicher, ob es sich um eine intrazerebrale oder eine Kontusionsblutung handelt.\"\n    }\n  ]\n}",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\42_advice with annotation_cycle_117.txt",
+      "row": 26
+    },
+    "model": "meta-llama/llama-3.2-3b-instruct",
+    "provider": "Cloudflare",
+    "configuration_name": "llama-3-2-3b-instruct-240925"
+  },
+  {
+    "error": "JSONDecodeError",
+    "message": "Expecting ':' delimiter: line 18 column 61 (char 1106)",
+    "raw_output": "{\n  \"classifications\": [\n    {\n      \"phrase\": \"Eine Frau, hier ist keine Blutung entdeckt worden.\",\n      \"context\": \"Dann Kopfschmerzen und Erbrechen. Eine Frau, hier ist keine Blutung entdeckt worden. Ich sehe wieder symmetrische Hirnstrukturen.\",\n      \"tags\": [\"indicator: no_bleeding\"],\n      \"rationale\": \"Person classifiziert eine bestimmte Imagebereich als unremarkable.\"\n    },\n    {\n      \"phrase\": \"Ich sehe wieder symmetrische Hirnstrukturen.\",\n      \"context\": \"Dann Kopfschmerzen und Erbrechen. Eine Frau, hier ist keine Blutung entdeckt worden. Ich sehe wieder symmetrische Hirnstrukturen.\",\n      \"tags\": [\"control: control_repeat\"],\n      \"rationale\": \"Person kehrt zu einer vorherig gesehenen Imagebereich zurück.\"\n    },\n    {\n      \"phrase\": \"Ich sehe keine Aufhellung des Gewebes, die nicht symmetrisch ist\",\n      \"context\": \"Dann Kopfschmerzen und Erbrechen. Eine Frau, hier ist keine Blutung entdeckt worden. Ich sehe wieder symmetrische Hirnstrukturen. Ich sehe keine Aufhellung des Gewebes, die nicht symmetrisch ist\",\n      \"tags: [interpretation: bleeding_localization_unclear\"],\n      \"rationale\": \"Person berücksichtigt eine mögliche Blutung, aber kann sie nicht genau lokalisieren.\"\n    },\n    {\n      \"phrase\": \"und natürlich verlasse ich mich dann wieder mehr auf die Aussage, dass keine Blutung vorliegt\",\n      \"context\": \"Dann Kopfschmerzen und Erbrechen. Eine Frau, hier ist keine Blutung entdeckt worden. Ich sehe wieder symmetrische Hirnstrukturen. Ich sehe keine Aufhellung des Gewebes, die nicht symmetrisch ist\",\n      \"tags\": [\"control: control_repeat\"],\n      \"rationale\": \"Person vertraut wieder auf die Aussage des Systems, dass keine Blutung vorliegt.\"\n    },\n    {\n      \"phrase\": \"sehe auch keine und sage, das hat mir geholfen\",\n      \"context\": \"Dann Kopfschmerzen und Erbrechen. Eine Frau, hier ist keine Blutung entdeckt worden. Ich sehe wieder symmetrische Hirnstrukturen. Ich sehe keine Aufhellung des Gewebes, die nicht symmetrisch ist und natürlich verlasse ich mich dann wieder mehr auf die Aussage, dass keine Blutung vorliegt. sehe auch keine und sage, das hat mir geholfen\",\n      \"tags\": [\"control: control_repeat\"],\n      \"rationale\": \"Person bestätigt, dass die Aussage des Systems hilfreich war.\"\n    }\n  ]\n}",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\42_advice with annotation_cycle_117.txt",
+      "row": 22
+    },
+    "model": "meta-llama/llama-3.2-3b-instruct",
+    "provider": "Cloudflare",
+    "configuration_name": "llama-3-2-3b-instruct-240925"
+  },
+  {
+    "error": "JSONDecodeError",
+    "message": "Expecting ':' delimiter: line 6 column 43 (char 444)",
+    "raw_output": "{\n  \"classifications\": [\n    {\n      \"phrase\": \"Es ist keine Blutung, und ich verlasse mich wieder auf die AI ein bisschen.\",\n      \"context\": \"Ja 81, bewusstlos, vielleicht mit irgendeiner Überdosis? Ähm, das Gewebe sieht mir soweit eher homogen aus. Es ist wieder so ja die Sulci sind so ein bisschen erweitert, aber sie ist ja auch schon 81. Und ich sehe keine Aufhellung, deswegen stimme ich zu.\",\n      \"tags: [interpretation: no_bleeding\", \"control: relying_on_ai\"],\n      \"rationale\": \"Der Sprecher bestätigt, dass es keine Blutung gibt und sich auf die AI verlässt, um die Diagnose zu bestätigen.\"\n    }\n  ]\n}",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\42_advice with annotation_cycle_117.txt",
+      "row": 27
+    },
+    "model": "meta-llama/llama-3.2-3b-instruct",
+    "provider": "Cloudflare",
+    "configuration_name": "llama-3-2-3b-instruct-240925"
+  },
+  {
+    "error": "JSONDecodeError",
+    "message": "Expecting ':' delimiter: line 18 column 61 (char 1112)",
+    "raw_output": "{\n  \"classifications\": [\n    {\n      \"phrase\": \"Ähm so hier ist keine Blutung entdeckt worden.\",\n      \"context\": \"Ähm so hier ist keine Blutung entdeckt worden. Seitenventrikel sind symmetrisch, die Mittellinie symmetrisch.\",\n      \"tags\": [\"ai_report: no_ich\"],\n      \"rationale\": \"Der Sprecher verneint die Existenz einer Blutung.\"\n    },\n    {\n      \"phrase\": \"Seitenventrikel sind symmetrisch, die Mittellinie symmetrisch.\",\n      \"context\": \"Ähm so hier ist keine Blutung entdeckt worden. Seitenventrikel sind symmetrisch, die Mittellinie symmetrisch.\",\n      \"tags\": [\"indicator: no_bleeding\"],\n      \"rationale\": \"Der Sprecher beschreibt die Symmetrie der Seitenventrikel und der Mittellinie, was darauf hindeutet, dass keine Blutung vorhanden ist.\"\n    },\n    {\n      \"phrase\": \"Hier sind sind so leichte hypodense, Areale in den Temporallappen\",\n      \"context\": \"Ähm so hier ist keine Blutung entdeckt worden. Seitenventrikel sind symmetrisch, die Mittellinie symmetrisch. Hier sind sind so leichte hypodense, Areale in den Temporallappen\",\n      \"tags: [interpretation: bleeding_localization_unclear\"],\n      \"rationale\": \"Der Sprecher beschreibt leichte hypodense Areale in den Temporallappen, was darauf hindeutet, dass die Blutungslokalisierung unklar ist.\"\n    },\n    {\n      \"phrase\": \"Ich sehe jetzt zumindest eins\",\n      \"context\": \"Ähm so hier ist keine Blutung entdeckt worden. Seitenventrikel sind symmetrisch, die Mittellinie symmetrisch. Hier sind sind so leichte hypodense, Areale in den Temporallappen ich sehe jetzt zumindest eins\",\n  tags: [\"reflection: diagnostic_uncertainty\"],\n      \"rationale\": \"Der Sprecher ist unsicher, ob er tatsächlich eine Blutung gefunden hat.\"\n    },\n    {\n      \"phrase\": \"und da sie erst17ist, würde ich jetzt nicht sagen, dass das irgendwas hyperintensive Einblutungen sein könnten\",\n      \"context\": \"Ähm so hier ist keine Blutung entdeckt worden. Seitenventrikel sind symmetrisch, die Mittellinie symmetrisch. Hier sind sind so leichte hypodense, Areale in den Temporallappen ich sehe jetzt zumindest eins und da sie erst17ist, würde ich jetzt nicht sagen, dass das irgendwas hyperintensive Einblutungen sein könnten\",\n      \"tags: [interpretation: bleeding\"],\n      \"rationale\": \"Der Sprecher schätzt, dass die Blutung wahrscheinlich nicht hyperintensiv ist.\"\n    },\n    {\n      \"phrase\": \"und ja. Also eigentlich wäre das Blut ja hyperdens, deswegen glaub ich nicht, dass das eine Einblutung ist\",\n      \"context\": \"Ähm so hier ist keine Blutung entdeckt worden. Seitenventrikel sind symmetrisch, die Mittellinie symmetrisch. Hier sind sind so leichte hypodense, Areale in den Temporallappen ich sehe jetzt zumindest eins und da sie erst17ist, würde ich jetzt nicht sagen, dass das irgendwas hyperintensive Einblutungen sein könnten und ja. Also eigentlich wäre das Blut ja hyperdens, deswegen glaub ich nicht, dass das eine Einblutung ist\",\n      \"tags: [interpretation: no_bleeding\"],\n      \"rationale\": \"Der Sprecher argumentiert, dass die Blutung wahrscheinlich keine Einblutung ist, da das Blut hyperdens wäre.\"\n    }\n  ]\n}",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\42_advice with annotation_cycle_117.txt",
+      "row": 15
+    },
+    "model": "meta-llama/llama-3.2-3b-instruct",
+    "provider": "Cloudflare",
+    "configuration_name": "llama-3-2-3b-instruct-240925"
+  },
+  {
+    "error": "JSONDecodeError",
+    "message": "Expecting ':' delimiter: line 12 column 43 (char 620)",
+    "raw_output": "{\n  \"classifications\": [\n    {\n      \"phrase\": \"Fahrradunfall, keine Blutung wurde entdeckt.\",\n      \"context\": \"Fahrradunfall, keine Blutung wurde entdeckt. Ich wieder symmetrische Strukturen.\",\n      \"tags\": [\"indicator: no_bleeding\"],\n      \"rationale\": \"Der Text beschreibt einen Unfall und gibt an, dass keine Blutung entdeckt wurde.\"\n    },\n    {\n      \"phrase\": \"Das Kleinhirn sieht in Ordnung aus, die Temporallappen auch\",\n      \"context\": \"Das Kleinhirn sieht in Ordnung aus, die Temporallappen auch, weil das ist, glaube ich, einfach nur Knochen, was ich hier sehe\",\n      \"tags: [interpretation: no_bleeding\"],\n      \"rationale\": \"Der Text beschreibt die Symmetrie der Strukturen im Gehirn und gibt an, dass das Kleinhirn und die Temporallappen in Ordnung sind.\"\n    },\n    {\n      \"phrase: Das heißt, ich sehe keine Aufhellung im Gewebe\",\n      \"context\": \"Das heißt, ich sehe keine Aufhellung im Gewebe, und ich sehe keine Strukturen am Knochen, die das Gewerbe verdrängen.\",\n      \"tags: [interpretation: no_bleeding\"],\n      \"rationale\": \"Der Text beschreibt die Mangelnde Aufhellung im Gewebe und gibt an, dass keine Strukturen am Knochen gefunden wurden, die das Gewerbe verdrängen.\"\n    },\n    {\n      \"phrase\": \"und ich sehe keine Strukturen am Knochen, die das Gewerbe verdrängen\",\n      \"context\": \"und ich sehe keine Strukturen am Knochen, die das Gewerbe verdrängen.\",\n      \"tags: [interpretation: no_bleeding\"],\n      \"rationale\": \"Der Text beschreibt die Mangelnde Anwesenheit von Strukturen am Knochen, die das Gewerbe verdrängen.\"\n    },\n    {\n      \"phrase\": \"Deswegen sage ich hier keine Blutung\",\n      \"context\": \"Deswegen sage ich hier keine Blutung und da verlasse ich mich wieder auf den Report.\",\n      \"tags: [interpretation: no_bleeding\"],\n      \"rationale\": \"Der Text gibt an, dass keine Blutung gefunden wurde und dass der Report vertrauenswürdig ist.\"\n    },\n    {\n      \"phrase\": \"und da verlasse ich mich wieder auf den Report\",\n      \"context\": \"Deswegen sage ich hier keine Blutung und da verlasse ich mich wieder auf den Report.\",\n      \"tags\": [\"control: missing_information\"],\n      \"rationale\": \"Der Text gibt an, dass der Report vertrauenswürdig ist und dass weitere Informationen nicht benötigt werden.\"\n    }\n  ]\n}",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\42_advice with annotation_cycle_117.txt",
+      "row": 23
+    },
+    "model": "meta-llama/llama-3.2-3b-instruct",
+    "provider": "Cloudflare",
+    "configuration_name": "llama-3-2-3b-instruct-240925"
+  },
+  {
+    "error": "JSONDecodeError",
+    "message": "Expecting ':' delimiter: line 12 column 43 (char 829)",
+    "raw_output": "{\n  \"classifications\": [\n    {\n      \"phrase\": \"Es wurde keine Blutung entdeckt, es ist sehr symmetrisch, die Hemisphären sind gut sichtbar, die Ventrikel sind gut sichtbar.\",\n      \"context\": \"Es wurde keine Blutung entdeckt, es ist sehr symmetrisch, die Hemisphären sind gut sichtbar, die Ventrikel sind gut sichtbar. Ich sehe im Kleinhirn keinerlei Aufhellung oder Verdunkelung. Die Temporallappen sind in Ordnung.\",\n      \"tags\": [\"ai_report: no_ich\"],\n      \"rationale\": \"Der Sprecher bestätigt, dass keine Blutung gefunden wurde und die Symmetrie des Gehirns gut ist.\"\n    },\n    {\n      \"phrase\": \"Ich sehe im Kleinhirn keinerlei Aufhellung oder Verdunkelung.\",\n      \"context\": \"Ich sehe im Kleinhirn keinerlei Aufhellung oder Verdunkelung. Die Temporallappen sind in Ordnung.\",\n      \"tags: [interpretation: no_bleeding\"],\n      \"rationale\": \"Der Sprecher bestätigt, dass im Kleinhirn keine Aufhellung oder Verdunkelung gefunden wurde.\"\n    },\n    {\n      \"phrase\": \"Die Temporallappen sind in Ordnung.\",\n      \"context\": \"Die Temporallappen sind in Ordnung. Ich sehe im Kleinhirn keinerlei Aufhellung oder Verdunkelung.\",\n      \"tags: [interpretation: no_bleeding\"],\n      \"rationale\": \"Der Sprecher bestätigt, dass die Temporallappen im ordentlichen Zustand sind.\"\n    },\n    {\n      \"phrase\": \"Es ist wieder. Für mich sieht es wieder so aus, als wäre das Kleinhirn wie vorhin das Gewebe eben nicht am Schädel anliegend.\",\n      \"context\": \"Es ist wieder. Für mich sieht es wieder so aus, als wäre das Kleinhirn wie vorhin das Gewebe eben nicht am Schädel anliegend, das heißt, ich würde wieder, dadurch, dass auch in die Sulci eben so eine Verdunklung ist, könnte es Liquor sein.\",\n      \"tags: [interpretation: bleeding_localization_unclear\"],\n      \"rationale\": \"Der Sprecher ist unsicher, ob das Kleinhirn noch am Schädel anliegt oder nicht.\"\n    },\n    {\n      \"phrase\": \"Und sie schon 81 ist, kann es auch sein, dass einfach so ein bisschen atrophisches Gewebe vorliegt, und deswegen sage ich keine Blutung, und es ist auch nichts hyperdenses und das stimmt überein.\",\n      \"context\": \"Und sie schon 81 ist, kann es auch sein, dass einfach so ein bisschen atrophisches Gewebe vorliegt, und deswegen sage ich keine Blutung, und es ist auch nichts hyperdenses und das stimmt überein.\",\n      \"tags\": [\"ai_report: no_ich\"],\n      \"rationale\": \"Der Sprecher ist unsicher, ob es eine Blutung gibt oder nicht, aber er denkt, dass es möglicherweise atrophisches Gewebe gibt.\"\n    }\n  ]\n}",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\42_advice with annotation_cycle_117.txt",
+      "row": 25
+    },
+    "model": "meta-llama/llama-3.2-3b-instruct",
+    "provider": "Cloudflare",
+    "configuration_name": "llama-3-2-3b-instruct-240925"
+  },
+  {
+    "phrase": "Das sieht man hier auch, wenn man das Bild ein bisschen heller hat, dass da auf jeden Fall so eine Hyperdense Struktur ist, es könnte eher vielleicht eine epidurale Blutung sein.",
+    "context": "linken Seite im Gehirn. Dann haben wir hier wieder nach einem E-Bike accident eine Blutung detektiert. Das sieht man hier auch, wenn man das Bild ein bisschen heller hat, dass da auf jeden Fall so eine Hyperdense Struktur ist, es könnte eher vielleicht eine epidurale Blutung sein. Es ist sehr weit so parietal links genau, und da stimme ich ihm zu, dass das eine Blutung ist, und das war sehr hilfreich.",
+    "tags": [
+      "indicator: anomaly_detected",
+      "interpretation: bleeding",
+      "confidence_high: secondary"
+    ],
+    "rationale": "Der Text bestätigt die Anwesenheit einer Blutung (indikator: anomaly_detected) und interpretiert sie als eine Blutung (interpretation: bleeding). Der Text zeigt auch eine hohe Sicherheit in der Diagnose (confidence_high: secondary), da der Arzt denkt, dass es sich um eine Blutung handelt, aber nicht genau weiß, wo sie sich befindet.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\42_advice with annotation_cycle_117.txt",
+      "row": 31
+    },
+    "model": "meta-llama/llama-3.2-3b-instruct",
+    "provider": "Cloudflare",
+    "configuration_name": "llama-3-2-3b-instruct-240925"
+  },
+  {
+    "error": "JSONDecodeError",
+    "message": "Expecting ':' delimiter: line 18 column 40 (char 1582)",
+    "raw_output": "{\n  \"classifications\": [\n    {\n      \"phrase\": \"Hier ist keine Blutung entdeckt worden nach einem plötzlichen Kopfschmerz.\",\n      \"context\": \"Hier ist keine Blutung entdeckt worden nach einem plötzlichen Kopfschmerz. Ich sehe wieder symmetrische Hemisphären. Ich sehe die Seitenventrikel symetrisch, eventuell etwas aufgeweitet.\",\n      \"tags\": [\"ai_report: no_ich\"],\n      \"rationale\": \"Der Sprecher verneint die Existenz einer Blutung und gibt an, dass keine Blutung entdeckt wurde.\"\n    },\n    {\n      \"phrase\": \"Ich sehe die Seitenventrikel symetrisch, eventuell etwas aufgeweitet.\",\n      \"context\": \"Ich sehe die Seitenventrikel symetrisch, eventuell etwas aufgeweitet. Hier da ist das Hirngewebe sehr inhomogen und es gibt so Aufhellungen oder so hyperdense Strukturen eben zwischen den Frontal und dem Temporallappen rechts.\",\n      \"tags\": [\"control: missing_information\"],\n      \"rationale\": \"Der Sprecher gibt an, dass die Seitenventrikel symetrisch sind, aber nicht sicher ist, ob es etwas aufgeweitet ist.\"\n    },\n    {\n      \"phrase\": \"Hier da ist das Hirngewebe sehr inhomogen und es gibt so Aufhellungen oder so hyperdense Strukturen eben zwischen den Frontal und dem Temporallappen rechts.\",\n      \"context\": \"Hier da ist das Hirngewebe sehr inhomogen und es gibt so Aufhellungen oder so hyperdense Strukturen eben zwischen den Frontal und dem Temporallappen rechts. Deswegen würde ich da fast eher sagen, es ist eine Blutung vorliegend, wahrscheinlich eine subarachnoidalblutung, was auch zu dem Kopfschmerz passen würde.\",\n      \"tags: [interpretation: bleeding\"],\n      \"rationale\": \"Der Sprecher interpretiert die Strukturen im Hirngewebe als mögliche Anzeichen für eine Blutung.\"\n    },\n    {\n      \"phrase\": \"Deswegen würde ich da fast eher sagen, es ist eine Blutung vorliegend, wahrscheinlich eine subarachnoidalblutung, was auch zu dem Kopfschmerz passen würde.\",\n      \"context\": \"Deswegen würde ich da fast eher sagen, es ist eine Blutung vorliegend, wahrscheinlich eine subarachnoidalblutung, was auch zu dem Kopfschmerz passen würde. Ich bin mir relativ sicher und dann hat mir das hier nicht geholfen, weil hier keine Blutung detektiert wurde.\",\n      \"tags: [interpretation: bleeding\"],\n      \"rationale\": \"Der Sprecher gibt an, dass er eine Blutung vorliegen lassen würde, aber ist sich nicht sicher und hat sich nicht durch die Ergebnisse des Tests bestätigen lassen.\"\n    },\n    {\n      \"phrase\": \"Ich bin mir relativ sicher und dann hat mir das hier nicht geholfen, weil hier keine Blutung detektiert wurde.\",\n      \"context\": \"Deswegen würde ich da fast eher sagen, es ist eine Blutung vorliegend, wahrscheinlich eine subarachnoidalblutung, was auch zu dem Kopfschmerz passen würde. Ich bin mir relativ sicher und dann hat mir das hier nicht geholfen, weil hier keine Blutung detektiert wurde.\",\n      \"tags\": [\"ai_report: ich_localization\"],\n      \"rationale\": \"Der Sprecher gibt an, dass er sich sicher ist, dass es eine Blutung gibt, aber die Ergebnisse des Tests bestätigen dies nicht.\"\n    }\n  ]\n}",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\42_advice with annotation_cycle_117.txt",
+      "row": 21
+    },
+    "model": "meta-llama/llama-3.2-3b-instruct",
+    "provider": "Cloudflare",
+    "configuration_name": "llama-3-2-3b-instruct-240925"
+  },
+  {
+    "error": "JSONDecodeError",
+    "message": "Expecting ':' delimiter: line 8 column 5 (char 508)",
+    "raw_output": "{\n  \"classifications\": [\n    {\n      \"phrase\": \"Hier wurde eine Blutung entdeckt und das ist ein ganz schlimmer Kopfschmerz.\",\n      \"context\": \"Hier wurde eine Blutung entdeckt und das ist ein ganz schlimmer Kopfschmerz. Wo ist die Blutung hier?\",\n      \"tags\": [\"indicator: anomaly_detected\", \"interpretation: bleeding\"],\n      \"rationale: Die Person hat eine Blutung entdeckt und beschreibt sie als einen \\\"Kopfschmerz\\\". Dies deutet auf eine Anomalie hin, die als Blutung interpretiert werden kann.\"\n    },\n    {\n      \"phrase\": \"Okay, frontal, da könnte so ein bisschen Mittellinienverlagerung sein,\",\n      \"context\": \"Okay, frontal, da könnte so ein bisschen Mittellinienverlagerung sein, aber dann wäre das also, ich sehe hier keine Aufhellung, das Gewebe ist keine Inhomogenität.\",\n      \"tags\": [\"control: control_repeat\", \"reasoning: alternative_medical_cause\"],\n      \"rationale\": \"Die Person beschreibt eine mögliche Ursache für die Blutung (Mittellinienverlagerung) und diskutiert, ob dies die richtige Erklärung ist. Sie wiederholt auch ein bestimmtes Gebiet (frONTAL) und diskutiert, ob dies die richtige Stelle ist.\"\n    },\n    {\n      \"phrase: Das heißt, ich hätte die Blutung nicht gesehen und stimme dem hier nicht zu, bin mir da aber ehrlich nicht sicher\",\n      \"context: Das heißt, ich hätte die Blutung nicht gesehen und stimme dem hier nicht zu, bin mir da aber ehrlich nicht sicher und das hat mir dann zumindest nicht geholfen, in dem Sinne, dass ich es nicht gesehen hab.\",\n      \"tags: [interpretation: bleeding_localization_unclear\", \"reflection: diagnostic_uncertainty\"],\n      \"rationale\": \"Die Person beschreibt, dass sie die Blutung nicht gesehen hat und nicht sicher ist, ob sie die richtige Diagnose gestellt hat. Dies deutet auf eine Unsicherheit in der Diagnose hin.\"\n    }\n  ]\n}",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\42_advice with annotation_cycle_117.txt",
+      "row": 29
+    },
+    "model": "meta-llama/llama-3.2-3b-instruct",
+    "provider": "Cloudflare",
+    "configuration_name": "llama-3-2-3b-instruct-240925"
+  },
+  {
+    "error": "JSONDecodeError",
+    "message": "Expecting ':' delimiter: line 18 column 61 (char 1166)",
+    "raw_output": "{\n  \"classifications\": [\n    {\n      \"phrase\": \"Ich stimme zu, dass da keine Blutung ist\",\n      \"context\": \"Ich stimme zu, dass da keine Blutung ist, und vertraue ihm wieder.\",\n      \"tags\": [\"decision_with_ai: explicitly_agreeing_with_ai\"],\n      \"rationale\": \"Der Sprecher stimmt der Diagnose des AIs zu und vertraut ihr wieder.\"\n    },\n    {\n      \"phrase\": \"Ich sehe erst mal keine Aufhellungen im Gewebe\",\n      \"context\": \"Hier wieder einen Autounfall. Ich sehe die symmetrischen Hemisphären, die Seitenventrikel sind offen, sehen etwas verschmälert aus. Ich sehe erst mal keine Aufhellungen im Gewebe, im Kleinhirn auch nichts.\",\n      \"tags\": [\"indicator: no_bleeding\"],\n      \"rationale\": \"Der Sprecher gibt an, keine Aufhellungen im Gewebe zu sehen, was auf einen fehlenden Blutauflauf hindeutet.\"\n    },\n    {\n      \"phrase\": \"Ich sehe die symmetrischen Hemisphären\",\n      \"context\": \"Hier wieder einen Autounfall. Ich sehe die symmetrischen Hemisphären, die Seitenventrikel sind offen, sehen etwas verschmälert aus. Ich sehe erst mal keine Aufhellungen im Gewebe, im Kleinhirn auch nichts.\",\n      \"tags: [interpretation: bleeding_localization_unclear\"],\n      \"rationale\": \"Der Sprecher beschreibt die symmetrischen Hemisphären, was auf eine mögliche Blutung in einem der beiden Hemisphären hindeutet, aber die genaue Lokalisation ist unklar.\"\n    }\n  ]\n}",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\42_advice with annotation_cycle_117.txt",
+      "row": 30
+    },
+    "model": "meta-llama/llama-3.2-3b-instruct",
+    "provider": "Cloudflare",
+    "configuration_name": "llama-3-2-3b-instruct-240925"
+  },
+  {
+    "error": "JSONDecodeError",
+    "message": "Expecting ':' delimiter: line 10 column 105 (char 476)",
+    "raw_output": "{\n  \"classifications\": [\n    {\n      \"phrase\": \"es wurde eine Blutung gefunden\",\n      \"context\": \"Dann Fahrradunfall,66, männlich, es wurde eine Blutung gefunden, und zwar so zwischen den Hemisphären.\",\n      \"tags\": [\"ai_report: ich\", \"indicator: anomaly_detected\"],\n      \"rationale\": \"Der Sprecher vermerkt eine Blutung, was als Anomalie im Gehirn gilt.\"\n    },\n    {\n      \"phrase: dann sieht man auch eindeutig, dass da genau auch wieder eine Aufhellung des Gewebes ist\",\n      \"context\": \"Hm, ähm, und da sieht man auch eindeutig, dass da genau auch wieder eine Aufhellung des Gewebes ist.\",\n      \"tags: [interpretation: bleeding_localization_unclear\"],\n      \"rationale\": \"Der Sprecher beschreibt eine Aufhellung des Gewebes, was als mögliche Blutung interpretiert werden kann, aber die genaue Lokalisation ist unklar.\"\n    },\n    {\n      \"phrase\": \"Das hätte ich, glaube ich, ohne die Hilfe nicht direkt gesehen\",\n      \"context\": \"Das hätte ich, glaube ich, ohne die Hilfe nicht direkt gesehen.\",\n  tags: [\"confidence_high: increased_through_ai\"],\n      \"rationale\": \"Der Sprecher gibt zu, dass er ohne die Hilfe des AI-Systems die Blutung nicht direkt gesehen hätte.\"\n    },\n    {\n      \"phrase: sonst sehe ich hier auch keine weitere Blutung\",\n      \"context: sonst sehe ich hier auch keine weitere Blutung.\",\n      \"tags\": [\"indicator: no_bleeding\"],\n      \"rationale\": \"Der Sprecher gibt zu, dass er keine weitere Blutung im Bereich sieht.\"\n    },\n    {\n      \"phrase\": \"Aber es stimme zu, dass das hier auf jeden Fall eine Aufhehllung ist\",\n      \"context\": \"Aber es stimme zu, dass das hier auf jeden Fall eine Aufhehllung ist.\",\n      \"tags: [interpretation: bleeding\"],\n      \"rationale\": \"Der Sprecher bestätigt, dass es sich um eine Aufhellung handelt, was als mögliche Blutung interpretiert werden kann.\"\n    }\n  ]\n}",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\42_advice with annotation_cycle_117.txt",
+      "row": 32
+    },
+    "model": "meta-llama/llama-3.2-3b-instruct",
+    "provider": "Cloudflare",
+    "configuration_name": "llama-3-2-3b-instruct-240925"
+  },
+  {
+    "error": "JSONDecodeError",
+    "message": "Expecting ':' delimiter: line 4 column 55 (char 85)",
+    "raw_output": "{\n  \"classifications\": [\n    {\n      \"phrase: Das könnte für mich eine Blutung sein.\",\n      \"context\": \"linken Seite im Gehirn. Das könnte für mich eine Blutung sein. Ja. Genau.\",\n      \"tags: [interpretation: bleeding\"],\n      \"rationale\": \"Brief explanation of why this tag applies.\"\n    },\n    {\n      \"phrase\": \"Es könnte aber auch wieder nur ganz normal erweiterte Liquor sein, und da es nicht hyperdens ist.\",\n      \"context\": \"Keine Blutung entdeckt. Symmetrische Seitenventrikel. Keine Inhomogenitäten im Kleinhirn. Starke Abstände zwischen Temporal und Frontallappen.\",\n      \"tags\": [\"indicator: no_bleeding\"],\n      \"rationale\": \"Keine Hinweise auf eine Blutung. Symmetrische Seitenventrikel und keine Inhomogenitäten im Kleinhirn.\"\n    },\n    {\n      \"phrase\": \"Und ja, genau.\",\n      \"context\": \"Keine Blutung entdeckt. Symmetrische Seitenventrikel. Keine Inhomogenitäten im Kleinhirn. Starke Abstände zwischen Temporal und Frontallappen.\",\n      \"tags\": [\"control: reflective_question\"],\n      \"rationale\": \"Person bestätigt ihre eigene Einschätzung.\"\n    },\n    {\n      \"phrase\": \"Das könnte eine Blutung sein, weil es eben nicht symmetrisch mit der anderen Seite ist.\",\n      \"context\": \"Rechter Occipitallappen. Leichte Aufhellung. Keine Blutung entdeckt.\",\n      \"tags: [interpretation: bleeding_localization_unclear\"],\n      \"rationale\": \"Person zieht eine mögliche Blutung in Betracht, aber ist unsicher über die Lokalisation.\"\n    }\n  ]\n}",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\42_advice with annotation_cycle_117.txt",
+      "row": 33
+    },
+    "model": "meta-llama/llama-3.2-3b-instruct",
+    "provider": "Cloudflare",
+    "configuration_name": "llama-3-2-3b-instruct-240925"
+  },
+  {
+    "error": "JSONDecodeError",
+    "message": "Expecting ':' delimiter: line 6 column 40 (char 525)",
+    "raw_output": "{\n  \"classifications\": [\n    {\n      \"phrase\": \"Es ist jetzt nicht so klar abgegrenzt, das heißt, es sieht nicht so eindeutig nach einer Subdural- oder Epidural Blutung aus.\",\n      \"context\": \"Es ist jetzt nicht so klar abgegrenzt, das heißt, es sieht nicht so eindeutig nach einer Subdural- oder Epidural Blutung aus. Dann haben wir wieder einen Zusammenstoß. Hier wurde die Blutung detektiert, links, parietal, da sehe ich die Sulci sind auf jeden Fall sehen sehr verstrichen aus.\",\n      \"tags: [interpretation: bleeding\", \"indicator: no_bleeding\"],\n      \"rationale\": \"Der Sprecher ist unsicher, ob es sich um eine Blutung handelt, aber gibt auch Hinweise darauf, dass es keine klare Abgrenzung gibt, was es unwahrscheinlich macht, dass es sich um eine Subdural- oder Epidural Blutung handelt.\"\n    }\n  ]\n}",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\42_advice with annotation_cycle_117.txt",
+      "row": 35
+    },
+    "model": "meta-llama/llama-3.2-3b-instruct",
+    "provider": "Cloudflare",
+    "configuration_name": "llama-3-2-3b-instruct-240925"
+  },
+  {
+    "error": "JSONDecodeError",
+    "message": "Expecting ':' delimiter: line 5 column 233 (char 383)",
+    "raw_output": "{\n  \"classifications\": [\n    {\n      \"phrase\": \"Hier wurde eine Blutung entdeckt, und zwar so ganz frontal im Kleinhirn oder sogar noch in der Pons.\",\n      \"context: hier haben wir blurry vision dizziness und headache. Hier wurde eine Blutung entdeckt, und zwar so ganz frontal im Kleinhirn oder sogar noch in der Pons. Da haben wir auf jeden Fall ein bisschen aufgehelltes Gewebe.\",\n      \"tags\": [\"indicator: anomaly_detected\", \"interpretation: bleeding\", \"interpretation: bleeding_localization_unclear\"],\n      \"rationale: Die Person hat eine Blutung im Kleinhirn oder in der Pons entdeckt, was ein Anomalie ist. Sie interpretiert dies als eine Blutung, aber die genaue Lokalisation ist unklar.\"\n    },\n    {\n      \"phrase\": \"Könnte natürlich dazu auch passen, aber Ich würde auf jeden Fall zustimmen, dass da eine Blutung ist, vielleicht.\",\n      \"context: hier haben wir blurry vision dizziness und headache. Hier wurde eine Blutung entdeckt, und zwar so ganz frontal im Kleinhirn oder sogar noch in der Pons. Da haben wir auf jeden Fall ein bisschen aufgehelltes Gewebe. Ich finde auch, hier oben sieht es eben also ganz kranial ist der ist der Interhemisphärenspalt irgendwie so ein bisschen auf, ja aufgeweitet das sieht man eher fast wie so eine Venentrombose oder so aus.\",\n      \"tags\": [\"indicator: anomaly_detected\", \"interpretation: bleeding\", \"interpretation: no_bleeding\"],\n      \"rationale: Die Person ist unsicher, ob es eine Blutung gibt, aber sie denkt, dass es möglich ist.\"\n    }\n  ]\n}",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\42_advice with annotation_cycle_117.txt",
+      "row": 34
+    },
+    "model": "meta-llama/llama-3.2-3b-instruct",
+    "provider": "Cloudflare",
+    "configuration_name": "llama-3-2-3b-instruct-240925"
+  },
+  {
+    "phrase": "Hier wurde jetzt keine Blutung entdeckt, nach einem Autounfall von einer Frau.",
+    "context": "Hier wurde jetzt keine Blutung entdeckt, nach einem Autounfall von einer Frau. Ja. also Hemisphären sind symmetrisch, die Mittellinie ist in der Mitte, die Seitenventrikel sind gut zu sehen.",
+    "tags": [
+      "ai_report: no_ich"
+    ],
+    "rationale": "Der Sprecher bestätigt, dass keine Blutung gefunden wurde, nachdem er die Symmetrie des Gehirns und die Anwesenheit gut sichtbarer Strukturen überprüft hat.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\42_advice with annotation_cycle_117.txt",
+      "row": 38
+    },
+    "model": "meta-llama/llama-3.2-3b-instruct",
+    "provider": "Cloudflare",
+    "configuration_name": "llama-3-2-3b-instruct-240925"
+  },
+  {
+    "phrase": "Die hatte ja auch keine Symptome hier angegeben.",
+    "context": "Hier wurde jetzt keine Blutung entdeckt, nach einem Autounfall von einer Frau. Ja. also Hemisphären sind symmetrisch, die Mittellinie ist in der Mitte, die Seitenventrikel sind gut zu sehen. Die hatte ja auch keine Symptome hier angegeben.",
+    "tags": [
+      "indicator: no_bleeding"
+    ],
+    "rationale": "Der Sprecher erwähnt, dass die Frau keine Symptome in diesem Bereich hatte, was darauf hindeutet, dass keine Blutung vorliegt.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\42_advice with annotation_cycle_117.txt",
+      "row": 38
+    },
+    "model": "meta-llama/llama-3.2-3b-instruct",
+    "provider": "Cloudflare",
+    "configuration_name": "llama-3-2-3b-instruct-240925"
+  },
+  {
+    "phrase": "hier ist keine Blutung entdeckt worden, nach einem Fall.",
+    "context": "nach einem Fall. Das Gewebe sieht also, ich sehe keine Aufhellung, es liegt gut an, und man sieht die Sulci auch alle und es ist keine Verschiebung, und die Seitenventrikel sind gut sichtbar.",
+    "tags": [
+      "ai_report: no_ich"
+    ],
+    "rationale": "Der Sprecher verneint die Existenz einer Blutung und gibt verschiedene Gründe dafür an.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\42_advice with annotation_cycle_117.txt",
+      "row": 41
+    },
+    "model": "meta-llama/llama-3.2-3b-instruct",
+    "provider": "Cloudflare",
+    "configuration_name": "llama-3-2-3b-instruct-240925"
+  },
+  {
+    "phrase": "Wieder ein E-Scooter accident keine Blutung entdeckt.",
+    "context": "Wieder ein E-Scooter accident keine Blutung entdeckt. Die Hemisphären sind in Ordnung, ich sehe keine Verschiebungen oder so durch irgendwelche randständigen Blutungen.",
+    "tags": [
+      "ai_report: no_ich"
+    ],
+    "rationale": "Person verbalisiert, dass der AI keine Blutung entdeckt hat.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\42_advice with annotation_cycle_117.txt",
+      "row": 39
+    },
+    "model": "meta-llama/llama-3.2-3b-instruct",
+    "provider": "Cloudflare",
+    "configuration_name": "llama-3-2-3b-instruct-240925"
+  },
+  {
+    "phrase": "Die Mittellinie sieht sehr bei kranial so ein bisschen nach rechts verschoben aus,",
+    "context": "Die Mittellinie sieht sehr bei kranial so ein bisschen nach rechts verschoben aus, aber das Ähm.",
+    "tags": [
+      "control: make_own_judgement"
+    ],
+    "rationale": "Person macht ihre eigene Entscheidung über die Interpretation der Mittellinie.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\42_advice with annotation_cycle_117.txt",
+      "row": 39
+    },
+    "model": "meta-llama/llama-3.2-3b-instruct",
+    "provider": "Cloudflare",
+    "configuration_name": "llama-3-2-3b-instruct-240925"
+  },
+  {
+    "phrase": "also stimme ich zu.",
+    "context": "also stimme ich zu.",
+    "tags": [
+      "decision_with_ai: explicitly_agreeing_with_ai"
+    ],
+    "rationale": "Person stimmt der AI-Einschätzung zu.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\42_advice with annotation_cycle_117.txt",
+      "row": 39
+    },
+    "model": "meta-llama/llama-3.2-3b-instruct",
+    "provider": "Cloudflare",
+    "configuration_name": "llama-3-2-3b-instruct-240925"
+  },
+  {
+    "error": "JSONDecodeError",
+    "message": "Expecting ':' delimiter: line 4 column 91 (char 121)",
+    "raw_output": "{\n  \"classifications\": [\n    {\n      \"phrase: Dann haben wir keine Blutung nach einem car accident mit GCS 13 dtektiert.\",\n      \"context: nach einem car accident mit GCS13dtektiert. Sieht wieder symmetrisch aus die Hemisphären, die Seitenventrikel sieht man gut. Ich sehe keine Einblutungen so nah an der Schädelkalotte, das Kleinhirn sieht etwas inhomogenen aus, aber nicht so, dass man eindeutig eine Blutung erkennen könnte. Ansonsten sieht mir das Gewebe eigentlich sehr homogen aus. Deswegen sage ich, ist keine Blutung da, und ich vertraue dem Report.\",\n      \"tags\": [\"ai_report: no_ich\"],\n      \"rationale\": \"Der Sprecher gibt an, dass keine Blutung nach einem Car-Unfall mit GCS 13 detektiert wurde. Er beschreibt die Symmetrie der Hemisphären und die gute Sichtbarkeit der Seitenventrikel. Er sieht keine Einblutungen in der Nähe der Schädelkalotte und das Kleinhirn sieht inhomogen aus, aber nicht so, dass eine Blutung eindeutig erkennbar ist. Er vertraut dem Report und gibt daher die Meinung ab, dass keine Blutung vorhanden ist.\"\n    }\n  ]\n}",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\42_advice with annotation_cycle_117.txt",
+      "row": 36
+    },
+    "model": "meta-llama/llama-3.2-3b-instruct",
+    "provider": "Cloudflare",
+    "configuration_name": "llama-3-2-3b-instruct-240925"
+  },
+  {
+    "phrase": "Da hier wurde eine Blutung entdeckt nach einem Fahrradunfall, und zwar im Temporallappen, und ich schau grad, ob da jetzt gerne Verbiegung der Herrlichkeit die ich sehen kann, das.",
+    "context": "linken Seite im Gehirn. Da hier wurde eine Blutung entdeckt nach einem Fahrradunfall, und zwar im Temporallappen, und ich schau grad, ob da jetzt gerne Verbiegung der Herrlichkeit die ich sehen kann, das. Wenn ich ja, wenn ich es gesagt bekommen habe, dann kann ich mir vorstellen, dass hier so ein bisschen hyperdens ist aber ja, deswegen stimme ich ihm zu, dass da eine Blutung intrazerebral wäre. Ich bin mir da nicht sicher.",
+    "tags": [
+      "indicator: anomaly_detected",
+      "interpretation: bleeding",
+      "control: make_own_judgement"
+    ],
+    "rationale": "Der Teilnehmer hat eine Blutung im Temporallappen entdeckt und ist sich nicht sicher, ob es sich um eine intrazerebrale Blutung handelt. Er möchte jedoch die Möglichkeit in Betracht ziehen, dass es sich um eine Blutung handelt, und ist bereit, seine eigene Meinung zu bilden.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\42_advice with annotation_cycle_117.txt",
+      "row": 47
+    },
+    "model": "meta-llama/llama-3.2-3b-instruct",
+    "provider": "Cloudflare",
+    "configuration_name": "llama-3-2-3b-instruct-240925"
+  },
+  {
+    "error": "JSONDecodeError",
+    "message": "Expecting ':' delimiter: line 4 column 55 (char 85)",
+    "raw_output": "{\n  \"classifications\": [\n    {\n      \"phrase: Das könnte für mich eine Blutung sein.\",\n      \"context\": \"linken Seite im Gehirn. Das könnte für mich eine Blutung sein. Ja. Genau.\",\n      \"tags: [interpretation: bleeding\"],\n      \"rationale\": \"Der Ausdruck 'Das könnte für mich eine Blutung sein' deutet darauf hin, dass der Sprecher eine Blutung als mögliche Erklärung für das beobachtete Anzeichen betrachtet.\"\n    },\n    {\n      \"phrase: Die Seitenventrikel sind sehr schwierig abzugrenzen ist sieben Jahre alt.\",\n      \"context\": \"Frontal, da sieht man auf jeden Fall auch wieder ja, eine Aufhellung.\",\n      \"tags\": [\"awareness_of_task: difficult\"],\n      \"rationale\": \"Der Sprecher beschreibt die Schwierigkeit, die Seitenventrikel abzugrenzen, als eine Herausforderung, die er als 'schwierig' bezeichnet.\"\n    },\n    {\n      \"phrase\": \"Das Kleinhirn sieht Okay aus.\",\n      \"context\": \"Ja, die Seitenventrikel sehen sehr klein aus, aber es kann natürlich auch sein weil er einfach noch recht jung.\",\n      \"tags: [interpretation: bleeding\"],\n      \"rationale\": \"Der Sprecher interpretiert das Kleinhirn als 'Okay', was darauf hindeutet, dass er keine Anzeichen für eine Blutung oder andere Pathologien sieht.\"\n    },\n    {\n      \"phrase\": \"Ja, die Seitenventrikel sehen sehr klein aus, aber es kann natürlich auch sein weil er einfach noch recht jung.\",\n      \"context\": \"Das Kleinhirn sieht Okay aus.\",\n      \"tags\": [\"indicator: no_bleeding\"],\n      \"rationale\": \"Der Sprecher beschreibt die Seitenventrikel als 'sehr klein', was darauf hindeutet, dass er keine Anzeichen für eine Blutung sieht.\"\n    },\n    {\n      \"phrase: Hier sieht man schon auf jeden Fall, dass das nicht ganz homogen ist, dass das Gewebe von der Schädelkalotte  , ein bisschen abweicht, rechts fontal und das würde dann mit der Lokalisation der Blutung, was wahrscheinlich ne subdurale Blutung ist, zusammenpassen, deswegen stimme ich zu.\",\n      \"context\": \"Das Kleinhirn sieht Okay aus.\",\n      \"tags: [interpretation: bleeding\"],\n      \"rationale\": \"Der Sprecher interpretiert die Abweichung des Gewebes von der Schädelkalotte als Hinweis auf eine Blutung, die wahrscheinlich subdural ist.\"\n    }\n  ]\n}",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\42_advice with annotation_cycle_117.txt",
+      "row": 37
+    },
+    "model": "meta-llama/llama-3.2-3b-instruct",
+    "provider": "Cloudflare",
+    "configuration_name": "llama-3-2-3b-instruct-240925"
+  },
+  {
+    "error": "JSONDecodeError",
+    "message": "Expecting ':' delimiter: line 6 column 40 (char 630)",
+    "raw_output": "{\n  \"classifications\": [\n    {\n      \"phrase\": \"Eine interessante Kopfform und hier ich bin nicht sicher, was ich hier sehe, weil der Sch\\u00e4del sieht etwas deformiert aus, aber auf beiden Seiten, ob das einfach nur irgendwelche, aber da ist auf jeden Fall so eine.\",\n      \"context\": \"Hier hat jemand einen Schlag bekommen und hat keine Blutung, laut AI. Eine interessante Kopfform und hier ich bin nicht sicher, was ich hier sehe, weil der Sch\\u00e4del sieht etwas deformiert aus, aber auf beiden Seiten, ob das einfach nur irgendwelche, aber da ist auf jeden Fall so eine. Ja. Genau.\",\n      \"tags: [interpretation: bleeding\", \"indicator: no_bleeding\"],\n      \"rationale\": \"Der Sprecher ist unsicher, was er sieht, aber gibt an, dass er eine Blutung vermutet, obwohl die AI keine Blutung gefunden hat. Er beschreibt die Kopfform als deformiert und gibt an, dass er auf beiden Seiten etwas sieht, aber ist unsicher, ob es eine Blutung ist.\"\n    },\n    {\n      \"phrase\": \"Bei den Temporallappen hat man wieder sehr stark eben eine Erweiterung vielleicht der äußeren Liquorräume.\",\n      \"context\": \"Bei den Temporallappen hat man wieder sehr stark eben eine Erweiterung vielleicht der äußeren Liquorräume. Deswegen, da ich mich nicht sehr gut orientieren was diese Knochen hier sind, sage ich, da ist etwas falsch, und das ist eine Blutung da.\",\n      \"tags: [interpretation: bleeding\", \"reasoning: alternative_medical_cause\"],\n      \"rationale\": \"Der Sprecher beschreibt eine Erweiterung in den Temporallappen und gibt an, dass er denkt, es könnte eine Blutung sein, obwohl er nicht sicher ist, was die Erweiterung ist.\"\n    }\n  ]\n}",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\42_advice with annotation_cycle_117.txt",
+      "row": 46
+    },
+    "model": "meta-llama/llama-3.2-3b-instruct",
+    "provider": "Cloudflare",
+    "configuration_name": "llama-3-2-3b-instruct-240925"
+  },
+  {
+    "error": "JSONDecodeError",
+    "message": "Expecting ':' delimiter: line 12 column 40 (char 873)",
+    "raw_output": "{\n  \"classifications\": [\n    {\n      \"phrase\": \"Ja, und hier kleine Blutung nach einem Fahrradunfall entdeckt.\",\n      \"context\": \"Ja, und hier kleine Blutung nach einem Fahrradunfall entdeckt. Ich sehe symmetrische Hemisphären, das Klenhirn da sehe ich keinerlei Aufhellung, und die Seitenventrikel sind symmetrisch.\",\n      \"tags\": [\"indicator: no_bleeding\"],\n      \"rationale\": \"Der Sprecher findet keine Anzeichen für eine Blutung.\"\n    },\n    {\n      \"phrase\": \"Ich sehe symmetrische Hemisphären, das Klenhirn da sehe ich keinerlei Aufhellung, und die Seitenventrikel sind symmetrisch.\",\n      \"context\": \"Ich sehe symmetrische Hemisphären, das Klenhirn da sehe ich keinerlei Aufhellung, und die Seitenventrikel sind symmetrisch. Ich sehe keine Knochenverletzung, und ich sehe auch keine Sichel oder Blutung unter dem Knochen.\",\n      \"tags: [interpretation: bleeding\"],\n      \"rationale\": \"Der Sprecher interpretiert die Symmetrie der Hemisphären und des Klenhirns als Anzeichen für eine Blutung.\"\n    },\n    {\n      \"phrase\": \"Ich sehe keine Knochenverletzung, und ich sehe auch keine Sichel oder Blutung unter dem Knochen.\",\n      \"context\": \"Ich sehe keine Knochenverletzung, und ich sehe auch keine Sichel oder Blutung unter dem Knochen. Deswegen stimme ich zu, dass da keine Blutung ist.\",\n      \"tags\": [\"control: make_own_judgement\"],\n      \"rationale\": \"Der Sprecher basiert auf seinen eigenen Beobachtungen und stimmt zu, dass keine Blutung vorhanden ist.\"\n    },\n    {\n      \"phrase\": \"Deswegen stimme ich zu, dass da keine Blutung ist.\",\n      \"context\": \"Deswegen stimme ich zu, dass da keine Blutung ist. Ja, genau.\",\n      \"tags\": [\"decision_with_ai: explicitly_agreeing_with_ai\"],\n      \"rationale\": \"Der Sprecher bestätigt seine eigene Einschätzung mit einem 'Ja, genau'.\"\n    }\n  ]\n}",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\42_advice with annotation_cycle_117.txt",
+      "row": 43
+    },
+    "model": "meta-llama/llama-3.2-3b-instruct",
+    "provider": "Cloudflare",
+    "configuration_name": "llama-3-2-3b-instruct-240925"
+  },
+  {
+    "error": "JSONDecodeError",
+    "message": "Expecting ':' delimiter: line 4 column 55 (char 85)",
+    "raw_output": "{\n  \"classifications\": [\n    {\n      \"phrase: Das könnte für mich eine Blutung sein.\",\n      \"context\": \"linken Seite im Gehirn. Das könnte für mich eine Blutung sein. Ja. Genau.\",\n      \"tags: [interpretation: bleeding\"],\n      \"rationale\": \"Der Sprecher vermutet, dass die Blutung eine Blutung sein könnte, basierend auf den Anzeichen, die er beobachtet hat, wie der Frontalanschlag und die Hyperdensität im Bild. Er ist jedoch nicht sicher und erwähnt, dass es auch andere Erklärungen geben könnte.\"\n    },\n    {\n      \"phrase\": \"Es sind generell sehr wenig, also es sieht so ein bisschen nach Hirndruck aus.\",\n      \"context\": \"linken Seite im Gehirn. Es sind generell sehr wenig, also es sieht so ein bisschen nach Hirndruck aus.\",\n      \"tags\": [\"indicator: no_bleeding\"],\n      \"rationale\": \"Der Sprecher beobachtet, dass es in der linken Seite des Gehirns sehr wenig Blut ist, was darauf hindeutet, dass es keine Blutung gibt.\"\n    },\n    {\n      \"phrase\": \"Das wäre jetzt eine Blutung, die ich nicht so identifiziert hätte, wenn er es mir nicht gesagt hätte.\",\n      \"context\": \"linken Seite im Gehirn. Das wäre jetzt eine Blutung, die ich nicht so identifiziert hätte, wenn er es mir nicht gesagt hätte.\",\n      \"tags: [interpretation: bleeding\"],\n      \"rationale\": \"Der Sprecher würde die Blutung nicht so identifiziert haben, wenn der Patient es ihm nicht gesagt hätte. Dies deutet darauf hin, dass die Blutung tatsächlich vorhanden ist.\"\n    },\n    {\n      \"phrase\": \"Das könnte aber auch etwas anderes sein.\",\n      \"context\": \"linken Seite im Gehirn. Das könnte aber auch etwas anderes sein.\",\n      \"tags: [other\"],\n      \"rationale\": \"Der Sprecher ist nicht sicher, ob die Blutung tatsächlich eine Blutung ist, und erwähnt, dass es auch andere Erklärungen geben könnte.\"\n    }\n  ]\n}",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\42_advice with annotation_cycle_117.txt",
+      "row": 45
+    },
+    "model": "meta-llama/llama-3.2-3b-instruct",
+    "provider": "Cloudflare",
+    "configuration_name": "llama-3-2-3b-instruct-240925"
+  },
+  {
+    "error": "JSONDecodeError",
+    "message": "Expecting ':' delimiter: line 10 column 55 (char 519)",
+    "raw_output": "{\n  \"classifications\": [\n    {\n      \"phrase\": \"Dann ähm hier wurde eine Blutung gefunden.\",\n      \"context\": \"Dann ähm hier wurde eine Blutung gefunden. Nach einem Car accident mit GCS 13 sieht man auf jeden Fall im Interhemisphärenspalt.\",\n      \"tags\": [\"indicator: anomaly_detected\", \"interpretation: bleeding\"],\n      \"rationale\": \"Der Sprecher vermerkt eine Blutung, nachdem er im Rahmen eines Car-Unfalls mit einer GCS von 13 untersucht wurde.\"\n    },\n    {\n      \"phrase: Das könnte für mich eine Blutung sein.\",\n      \"context: Das könnte für mich eine Blutung sein. Ja. Genau.\",\n      \"tags: [interpretation: bleeding\"],\n      \"rationale\": \"Der Sprecher äußert Zweifel an der Diagnose einer Blutung, aber bestätigt sie letztendlich.\"\n    },\n    {\n      \"phrase\": \"Das ist nicht das, was er meint, sondern er meint hier rechts so frontotemporal.\",\n      \"context\": \"Dann ähm hier wurde eine Blutung gefunden. Nach einem Car accident mit GCS 13 sieht man auf jeden Fall im Interhemisphärenspalt. So eine sehr starke Aufhellung aber das ist nicht das, was er meint, sondern er meint hier rechts so frontotemporal.\",\n      \"tags: [interpretation: bleeding\"],\n      \"rationale\": \"Der Sprecher korrigiert sich selbst und bestätigt die Diagnose einer Blutung im frontotemporalen Bereich.\"\n    },\n    {\n      \"phrase: Hier sieht man auf jeden Fall genau, das müsste eine subdurale Blutung sein,\",\n      \"context\": \"Dann ähm hier wurde eine Blutung gefunden. Nach einem Car accident mit GCS 13 sieht man auf jeden Fall im Interhemisphärenspalt. So eine sehr starke Aufhellung aber das ist nicht das, was er meint, sondern er meint hier rechts so frontotemporal. Hier sieht man auf jeden Fall genau, das müsste eine subdurale Blutung sein,\",\n      \"tags\": [\"indicator: anomaly_detected\", \"interpretation: bleeding\"],\n      \"rationale\": \"Der Sprecher vermerkt eine subdurale Blutung, die sich an die Schädelkalotte angrenzt.\"\n    },\n    {\n      \"phrase\": \"was sich hier ebenso an die Schädelkalotte angrenzt,\",\n      \"context\": \"Dann ähm hier wurde eine Blutung gefunden. Nach einem Car accident mit GCS 13 sieht man auf jeden Fall im Interhemisphärenspalt. So eine sehr starke Aufhellung aber das ist nicht das, was er meint, sondern er meint hier rechts so frontotemporal. Hier sieht man auf jeden Fall genau, das müsste eine subdurale Blutung sein, was sich hier ebenso an die Schädelkalotte angrenzt,\",\n      \"tags\": [\"indicator: anomaly_detected\", \"interpretation: bleeding\"],\n      \"rationale\": \"Der Sprecher bestätigt die Diagnose einer subdurale Blutung, die sich an die Schädelkalotte angrenzt.\"\n    },\n    {\n      \"phrase\": \"und da stimme ich zu, dass das auf jeden Fall eine Blutung ist,\",\n      \"context\": \"Dann ähm hier wurde eine Blutung gefunden. Nach einem Car accident mit GCS 13 sieht man auf jeden Fall im Interhemisphärenspalt. So eine sehr starke Aufhellung aber das ist nicht das, was er meint, sondern er meint hier rechts so frontotemporal. Hier sieht man auf jeden Fall genau, das müsste eine subdurale Blutung sein, was sich hier ebenso an die Schädelkalotte angrenzt, und da stimme ich zu, dass das auf jeden Fall eine Blutung ist,\",\n      \"tags\": [\"indicator: anomaly_detected\", \"interpretation: bleeding\"],\n      \"rationale\": \"Der Sprecher bestätigt die Diagnose einer Blutung.\"\n    },\n    {\n      \"phrase\": \"es ist vielleicht sogar so ein bisschen Mittellinienverschiebung sichtbar und genau ja,\",\n      \"context\": \"Dann ähm hier wurde eine Blutung gefunden. Nach einem Car accident mit GCS 13 sieht man auf jeden Fall im Interhemisphärenspalt. So eine sehr starke Aufhellung aber das ist nicht das, was er meint, sondern er meint hier rechts so frontotemporal. Hier sieht man auf jeden Fall genau, das müsste eine subdurale Blutung sein, was sich hier ebenso an die Schädelkalotte angrenzt, und da stimme ich zu, dass das auf jeden Fall eine Blutung ist, es ist vielleicht sogar so ein bisschen Mittellinienverschiebung sichtbar und genau ja,\",\n      \"tags\": [\"indicator: anomaly_detected\", \"interpretation: bleeding\"],\n      \"rationale\": \"Der Sprecher erwähnt eine mögliche Mittellinienverschiebung, die sichtbar ist.\"\n    },\n    {\n      \"phrase\": \"das ist recht eindeutig, okay, dann bin ich mir recht sicher,\",\n      \"context\": \"Dann ähm hier wurde eine Blutung gefunden. Nach einem Car accident mit GCS 13 sieht man auf jeden Fall im Interhemisphärenspalt. So eine sehr starke Aufhellung aber das ist nicht das, was er meint, sondern er meint hier rechts so frontotemporal. Hier sieht man auf jeden Fall genau, das müsste eine subdurale Blutung sein, was sich hier ebenso an die Schädelkalotte angrenzt, und da stimme ich zu, dass das auf jeden Fall eine Blutung ist, es ist vielleicht sogar so ein bisschen Mittellinienverschiebung sichtbar und genau ja, das ist recht eindeutig, okay, dann bin ich mir recht sicher,\",\n      \"tags\": [\"indicator: anomaly_detected\", \"interpretation: bleeding\"],\n      \"rationale\": \"Der Sprecher bestätigt die Diagnose einer Blutung mit hoher Sicherheit.\"\n    },\n    {\n      \"phrase\": \"und das war hilfreich.\",\n      \"context\": \"Dann ähm hier wurde eine Blutung gefunden. Nach einem Car accident mit GCS 13 sieht man auf jeden Fall im Interhemisphärenspalt. So eine sehr starke Aufhellung aber das ist nicht das, was er meint, sondern er meint hier rechts so frontotemporal. Hier sieht man auf jeden Fall genau, das müsste eine subdurale Blutung sein, was sich hier ebenso an die Schädelkalotte angrenzt, und da stimme ich zu, dass das auf jeden Fall eine Blutung ist, es ist vielleicht sogar so ein bisschen Mittellinienverschiebung sichtbar und genau ja, das ist recht eindeutig, okay, dann bin ich mir recht sicher, und das war hilfreich.\",\n      \"tags\": [\"control: control_repeat\", \"control: control_strategies\", \"control: make_own_judgement\", \"control: missing_information\", \"control: reflective_question\", \"control: relying_on_ai\", \"decision_with_ai: explicitly_agreeing_with_ai\", \"decision_with_ai: explicitly_disagreeing_with_ai\", \"decision_with_ai: implicitly_agreeing_with_ai\", \"reflection: diagnostic_uncertainty\", \"reflection: experience_limitation\", \"reflection: perceptual_doubt\", \"reflection: prior_experiences\", \"reflection: self-affirmation\", \"reflection: self-correction\", \"reflection: self-monitoring\", \"reflection_of_ai: confirmed_by_ai\", \"reflection_of_ai: confused_by_ai\", \"reflection_of_ai: distrust_in_ai\", \"reflection_of_ai: helpful\", \"reflection_of_ai: trust_in_ai\", \"reflection_of_ai: unhelpful/unnecessary\", \"technical_conversation\", \"visual_search: based_on_contextual_information\", \"visual_search: triggered_by_ai\", \"visual_search: triggered_by_finding\", \"visual_search: description_of_medical_image_features\", \"visual_search: description_of_own_approach_without_external_help\", \"visual_search\"],\n      \"rationale\": \"Der Sprecher ist zufrieden mit der Diagnose und denkt, dass die Hilfe des AI hilfreich war.\"\n    }\n  ]\n}",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\42_advice with annotation_cycle_117.txt",
+      "row": 28
+    },
+    "model": "meta-llama/llama-3.2-3b-instruct",
+    "provider": "Cloudflare",
+    "configuration_name": "llama-3-2-3b-instruct-240925"
+  },
+  {
+    "error": "JSONDecodeError",
+    "message": "Expecting ':' delimiter: line 4 column 55 (char 85)",
+    "raw_output": "{\n  \"classifications\": [\n    {\n      \"phrase: Das könnte für mich eine Blutung sein.\",\n      \"context\": \"linken Seite im Gehirn. Das könnte für mich eine Blutung sein. Ja. Genau.\",\n      \"tags: [interpretation: bleeding\"],\n      \"rationale\": \"Der Ausdruck 'Das könnte für mich eine Blutung sein' deutet darauf hin, dass der Sprecher eine Blutung als mögliche Erklärung für das beobachtete Phänomen in Betracht zieht.\"\n    },\n    {\n      \"phrase\": \"Es wurde eine Blutung entdeckt\",\n      \"context\": \"Dann habe ich hier einen Bewusstlosen, und es wurde eine Blutung entdeckt, und zwar hier frontal.\",\n      \"tags\": [\"ai_report: ich\"],\n      \"rationale\": \"Der Sprecher bestätigt, dass eine Blutung entdeckt wurde, was ein wichtiger Hinweis für die Diagnose ist.\"\n    },\n    {\n      \"phrase\": \"Hier frontal\",\n      \"context\": \"Dann habe ich hier einen Bewusstlosen, und es wurde eine Blutung entdeckt, und zwar hier frontal.\",\n      \"tags\": [\"indicator: no_bleeding\"],\n      \"rationale\": \"Der Sprecher erwähnt, dass die Blutung frontal liegt, was darauf hindeutet, dass es keine Blutung in anderen Bereichen des Gehirns gibt.\"\n    },\n    {\n      \"phrase\": \"Mittellinieverlagerung\",\n      \"context\": \"Also man sieht auf jeden Fall auch sehr stark die Mittellinieverlagerung, dass das so ein bisschen asymmetrisch mit den Seitenventrikeln ist und die Mittellinie nach links verlagert ist.\",\n      \"tags: [interpretation: bleeding_localization_unclear\"],\n      \"rationale\": \"Der Sprecher erwähnt eine Mittellinieverlagerung, was darauf hindeutet, dass die Blutung möglicherweise nicht genau lokalisiert werden kann.\"\n    },\n    {\n      \"phrase\": \"Epiduralblutung\",\n      \"context\": \"Und man sieht eben auf der rechten, ich mein auf der linken Seite die Sulci noch ganz gut, und hier rechts, ist alles sehr, ja aufgetrieben, und das könnte gut mit einer, ich würde sagen, Epiduralblutung zusammenpassen, weil es eher so hier ins Hirngewebe rein ragt und auch zu dieser Mittellinienverlagerung führt, sonst sehe ich nichts.\",\n      \"tags\": [\"indicator: anomaly_detected\"],\n      \"rationale\": \"Der Sprecher erwähnt eine Epiduralblutung als mögliche Erklärung für das beobachtete Phänomen, was darauf hindeutet, dass es sich um eine ernsthafte Erkrankung handelt.\"\n    }\n  ]\n}",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\42_advice with annotation_cycle_117.txt",
+      "row": 42
+    },
+    "model": "meta-llama/llama-3.2-3b-instruct",
+    "provider": "Cloudflare",
+    "configuration_name": "llama-3-2-3b-instruct-240925"
+  },
+  {
+    "phrase": "Das sieht mir auf jeden Fall sehr, ein bisschen asymmetrisch aus, hier so im Bereich des unteren Temporallappens und so kurz vorm vom Hirnstamm eigentlich schon.",
+    "context": "So. Hier ist wieder eine entdeckt worden nach deinm Fall von der Treppe. Das sieht mir auf jeden Fall sehr, ein bisschen asymmetrisch aus, hier so im Bereich des unteren Temporallappens und so kurz vorm vom Hirnstamm eigentlich schon. Ähm, auch das hätte ich dann nur mit der Hilfe erkannt, sonst sehe ich keine Blutung.",
+    "tags": [
+      "indicator: anomaly_detected",
+      "interpretation: bleeding",
+      "control: missing_information"
+    ],
+    "rationale": "Der Sprecher bemerkt eine asymmetrische Struktur im Bereich des unteren Temporallappens und ist unsicher, ob es sich um eine Blutung handelt. Er möchte mehr Informationen haben, um sicherzustellen, dass es sich um eine echte Anomalie handelt.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\42_advice with annotation_cycle_117.txt",
+      "row": 48
+    },
+    "model": "meta-llama/llama-3.2-3b-instruct",
+    "provider": "Cloudflare",
+    "configuration_name": "llama-3-2-3b-instruct-240925"
+  },
+  {
+    "phrase": "Das könnte für mich eine Blutung sein.",
+    "context": "linken Seite im Gehirn. Das könnte für mich eine Blutung sein. Ja. Genau.",
+    "tags": [
+      "interpretation: bleeding"
+    ],
+    "rationale": "Der Patient beschreibt eine mögliche Blutung im Gehirn und stimmt zu, dass es sich um eine Blutung handeln könnte.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\42_advice with annotation_cycle_117.txt",
+      "row": 40
+    },
+    "model": "meta-llama/llama-3.2-3b-instruct",
+    "provider": "Parasail",
+    "configuration_name": "llama-3-2-3b-instruct-240925"
+  },
+  {
+    "phrase": "Es sieht so aus, als ob es eine Ausbuchtung oder eine subdurale Blutung sein könnte.",
+    "context": "linken Seite im Gehirn. Es sieht so aus, als ob es eine Ausbuchtung oder eine subdurale Blutung sein könnte.",
+    "tags": [
+      "indicator: anomaly_detected",
+      "interpretation: bleeding_localization_unclear"
+    ],
+    "rationale": "Der Patient beschreibt eine mögliche Ausbuchtung oder subdurale Blutung im Gehirn, aber kann die genaue Lokalisation nicht bestimmen.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\42_advice with annotation_cycle_117.txt",
+      "row": 40
+    },
+    "model": "meta-llama/llama-3.2-3b-instruct",
+    "provider": "Parasail",
+    "configuration_name": "llama-3-2-3b-instruct-240925"
+  },
+  {
+    "phrase": "Ich sehe im Hirngewebe an sich keinerlei Blutung.",
+    "context": "linken Seite im Gehirn. Ich sehe im Hirngewebe an sich keinerlei Blutung.",
+    "tags": [
+      "interpretation: no_bleeding"
+    ],
+    "rationale": "Der Patient gibt bekannt, dass er im Hirngewebe keine Blutung gefunden hat.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\42_advice with annotation_cycle_117.txt",
+      "row": 40
+    },
+    "model": "meta-llama/llama-3.2-3b-instruct",
+    "provider": "Parasail",
+    "configuration_name": "llama-3-2-3b-instruct-240925"
+  },
+  {
+    "error": "JSONDecodeError",
+    "message": "Expecting ':' delimiter: line 24 column 43 (char 1645)",
+    "raw_output": "{\n  \"classifications\": [\n    {\n      \"phrase\": \"Hier wurde eine Blutung entdeckt, nach Kopfschmerzen und Bluthochdruck.\",\n      \"context\": \"linken Seite im Gehirn. Hier wurde eine Blutung entdeckt, nach Kopfschmerzen und Bluthochdruck. Wo wurde die entdeckt?\",\n      \"tags\": [\"indicator: anomaly_detected\", \"interpretation: bleeding\"],\n      \"rationale\": \"Der Text beginnt mit der Ankündigung einer Blutung, was ein Anzeichen für eine Anomalie ist. Der Kontext gibt an, dass dies nach Kopfschmerzen und Bluthochdruck kam, was ebenfalls Anzeichen für eine mögliche Blutung sein könnte.\"\n    },\n    {\n      \"phrase\": \"Ich sehe jetzt gar nicht, wo er die Blutung entdeckt hat, aber ich schau mal selber.\",\n      \"context\": \"Mittellinie ist wieder in der Mitte. Seitenventrikel sind okay.\",\n      \"tags\": [\"control: control_repeat\"],\n      \"rationale\": \"Der Sprecher gibt an, dass er nicht mehr sehen kann, wo die Blutung entdeckt wurde, aber er schaut selbst nach.\"\n    },\n    {\n      \"phrase\": \"Es kann natürlich sein, dass er einige von so Hypertension kann man natürlich so eine, kleine Einblutungen bekommen\",\n      \"context\": \"Es kann natürlich sein, dass er einige von so Hypertension kann man natürlich so eine, kleine Einblutungen bekommen [?], das sehe ich hier aber nicht.\",\n      \"tags\": [\"reasoning: alternative_medical_cause\"],\n      \"rationale\": \"Der Sprecher erwähnt, dass es möglich ist, dass der Patient Hypertension hat, was zu kleinen Einblutungen führen kann.\"\n    },\n    {\n      \"phrase\": \"Deswegen sage ich, dass hier, glaube ich, keine Blutung vorliegt.\",\n      \"context\": \"Genau.\",\n      \"tags: [interpretation: no_bleeding\"],\n      \"rationale\": \"Der Sprecher gibt schließlich seine Meinung ab und sagt, dass er glaubt, dass keine Blutung vorliegt.\"\n    }\n  ]\n}",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\42_advice with annotation_cycle_117.txt",
+      "row": 49
+    },
+    "model": "meta-llama/llama-3.2-3b-instruct",
+    "provider": "Cloudflare",
+    "configuration_name": "llama-3-2-3b-instruct-240925"
+  },
+  {
+    "error": "JSONDecodeError",
+    "message": "Expecting ':' delimiter: line 10 column 55 (char 499)",
+    "raw_output": "{\n  \"classifications\": [\n    {\n      \"phrase\": \"Keine Blutung wurde entdeckt.\",\n      \"context\": \"So. Keine Blutung wurde entdeckt. Nach einem Kopfschmerz. Ist das wieder symmetrisch, die Seitenventrikel sind sichtbar, der [?]ventrikel ist auch sichtbar ist. [?] ist keine Aufhellung, im Kleinhirn ist keine Aufhellung.\",\n      \"tags\": [\"ai_report: no_ich\"],\n      \"rationale\": \"Der Sprecher verneint die Entdeckung einer Blutung.\"\n    },\n    {\n      \"phrase: Das könnte für mich eine Blutung sein.\",\n      \"context\": \"So. Keine Blutung wurde entdeckt. Nach einem Kopfschmerz. Ist das wieder symmetrisch, die Seitenventrikel sind sichtbar, der [?]ventrikel ist auch sichtbar ist. [?] ist keine Aufhellung, im Kleinhirn ist keine Aufhellung. Ähm, ich weiß nicht, ob es der Kleinhirnwurm ist, sonst wäre da im, also im Mittel des Kleinhirns irgendwas zu sehen, aber ist es auch nicht heller als das Gewebe drum herum oder dunkler.\",\n      \"tags: [interpretation: bleeding\"],\n      \"rationale\": \"Der Sprecher äußert Zweifel an der Entdeckung einer Blutung, aber denkt, dass es möglich ist.\"\n    },\n    {\n      \"phrase\": \"Die Sulci sind ein bisschen asymmetrisch.\",\n      \"context\": \"So. Keine Blutung wurde entdeckt. Nach einem Kopfschmerz. Ist das wieder symmetrisch, die Seitenventrikel sind sichtbar, der [?]ventrikel ist auch sichtbar ist. [?] ist keine Aufhellung, im Kleinhirn ist keine Aufhellung. Ähm, ich weiß nicht, ob es der Kleinhirnwurm ist, sonst wäre da im, also im Mittel des Kleinhirns irgendwas zu sehen, aber ist es auch nicht heller als das Gewebe drum herum oder dunkler. Die Sulci sind ein bisschen asymmetrisch.\",\n      \"tags\": [\"indicator: no_bleeding\"],\n      \"rationale\": \"Der Sprecher bemerkt Asymmetrie in den Sulci, was darauf hindeutet, dass keine Blutung vorhanden ist.\"\n    },\n    {\n      \"phrase\": \"Ich sehe nämlich auch kein circus zwischen dem Frontal und dem Temporallappen.\",\n      \"context\": \"So. Keine Blutung wurde entdeckt. Nach einem Kopfschmerz. Ist das wieder symmetrisch, die Seitenventrikel sind sichtbar, der [?]ventrikel ist auch sichtbar ist. [?] ist keine Aufhellung, im Kleinhirn ist keine Aufhellung. Ähm, ich weiß nicht, ob es der Kleinhirnwurm ist, sonst wäre da im, also im Mittel des Kleinhirns irgendwas zu sehen, aber ist es auch nicht heller als das Gewebe drum herum oder dunkler. Die Sulci sind ein bisschen asymmetrisch. Man sieht auf der rechten Seite weniger.\",\n      \"tags\": [\"indicator: no_bleeding\"],\n      \"rationale\": \"Der Sprecher bemerkt, dass kein 'Circus' zwischen den Frontal- und Temporallappen zu sehen ist, was darauf hindeutet, dass keine Blutung vorhanden ist.\"\n    },\n    {\n      \"phrase\": \"Ich bin da nicht ganz sicher, ob da nicht asymmetrisch irgendwas ist.\",\n      \"context\": \"So. Keine Blutung wurde entdeckt. Nach einem Kopfschmerz. Ist das wieder symmetrisch, die Seitenventrikel sind sichtbar, der [?]ventrikel ist auch sichtbar ist. [?] ist keine Aufhellung, im Kleinhirn ist keine Aufhellung. Ähm, ich weiß nicht, ob es der Kleinhirnwurm ist, sonst wäre da im, also im Mittel des Kleinhirns irgendwas zu sehen, aber ist es auch nicht heller als das Gewebe drum herum oder dunkler. Die Sulci sind ein bisschen asymmetrisch. Man sieht auf der rechten Seite weniger. Ich sehe nämlich auch kein circus zwischen dem Frontal und dem Temporallappen.\",\n      \"tags\": [\"indicator: no_bleeding\"],\n      \"rationale\": \"Der Sprecher ist unsicher, ob es asymmetrische Veränderungen gibt, aber gibt es keine Hinweise darauf, dass eine Blutung vorhanden ist.\"\n    },\n    {\n      \"phrase\": \"Ich sehe zwar die Blutung selber nicht, aber ich sehe die Auswirkungen und würde deshalb sagen, da ist eine Blutung.\",\n      \"context\": \"So. Keine Blutung wurde entdeckt. Nach einem Kopfschmerz. Ist das wieder symmetrisch, die Seitenventrikel sind sichtbar, der [?]ventrikel ist auch sichtbar ist. [?] ist keine Aufhellung, im Kleinhirn ist keine Aufhellung. Ähm, ich weiß nicht, ob es der Kleinhirnwurm ist, sonst wäre da im, also im Mittel des Kleinhirns irgendwas zu sehen, aber ist es auch nicht heller als das Gewebe drum herum oder dunkler. Die Sulci sind ein bisschen asymmetrisch. Man sieht auf der rechten Seite weniger. Ich sehe nämlich auch kein circus zwischen dem Frontal und dem Temporallappen.\",\n      \"tags: [interpretation: bleeding\"],\n      \"rationale\": \"Der Sprecher ist sich sicher, dass es eine Blutung gibt, obwohl er sie nicht selbst sehen kann.\"\n    }\n  ]\n}",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\42_advice with annotation_cycle_117.txt",
+      "row": 44
+    },
+    "model": "meta-llama/llama-3.2-3b-instruct",
+    "provider": "Cloudflare",
+    "configuration_name": "llama-3-2-3b-instruct-240925"
+  },
+  {
+    "phrase": "Eine Blutung wurde gefunden.",
+    "context": "So. Jetzt wieder einen Patienten mit Kopfschmerzen, 78 Jahre und männlich. Eine Blutung wurde gefunden. Das sieht so ein bisschen asymmetrisch aus von der von den Hemisphären, aber es könnte auch sein, dass das der Schnitt ist.",
+    "tags": [
+      "indicator: anomaly_detected",
+      "interpretation: bleeding"
+    ],
+    "rationale": "Der Patient hat eine Blutung gefunden, was ein Anomalie ist, und der Arzt interpretiert es als eine Blutung.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\42_advice with annotation_cycle_117.txt",
+      "row": 8
+    },
+    "model": "meta-llama/llama-3.2-3b-instruct",
+    "provider": "Parasail",
+    "configuration_name": "llama-3-2-3b-instruct-240925"
+  },
+  {
+    "phrase": "Das sieht so ein bisschen asymmetrisch aus von der von den Hemisphären",
+    "context": "So. Jetzt wieder einen Patienten mit Kopfschmerzen, 78 Jahre und männlich. Eine Blutung wurde gefunden. Das sieht so ein bisschen asymmetrisch aus von der von den Hemisphären, aber es könnte auch sein, dass das der Schnitt ist.",
+    "tags": [
+      "interpretation: bleeding_localization_unclear"
+    ],
+    "rationale": "Der Arzt bemerkt, dass die Blutung asymmetrisch ist, aber kann nicht genau bestimmen, wo sie liegt.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\42_advice with annotation_cycle_117.txt",
+      "row": 8
+    },
+    "model": "meta-llama/llama-3.2-3b-instruct",
+    "provider": "Parasail",
+    "configuration_name": "llama-3-2-3b-instruct-240925"
+  },
+  {
+    "phrase": "Das könnte auch sein, dass das der Schnitt ist",
+    "context": "So. Jetzt wieder einen Patienten mit Kopfschmerzen, 78 Jahre und männlich. Eine Blutung wurde gefunden. Das sieht so ein bisschen asymmetrisch aus von der von den Hemisphären, aber es könnte auch sein, dass das der Schnitt ist.",
+    "tags": [
+      "interpretation: bleeding_localization_unclear"
+    ],
+    "rationale": "Der Arzt ist unsicher, ob die Blutung ein Blutung oder ein Schnitt ist.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\42_advice with annotation_cycle_117.txt",
+      "row": 8
+    },
+    "model": "meta-llama/llama-3.2-3b-instruct",
+    "provider": "Parasail",
+    "configuration_name": "llama-3-2-3b-instruct-240925"
+  },
+  {
+    "phrase": "Das Kleinhirn sieht in Ordnung aus",
+    "context": "So. Jetzt wieder einen Patienten mit Kopfschmerzen, 78 Jahre und männlich. Eine Blutung wurde gefunden. Das sieht so ein bisschen asymmetrisch aus von der von den Hemisphären, aber es könnte auch sein, dass das der Schnitt ist. Das Kleinhirn sieht in Ordnung aus. Oh hier ist ist das? Achso, das ist das Seitenventrikelhorn.",
+    "tags": [
+      "interpretation: bleeding_localization_unclear"
+    ],
+    "rationale": "Der Arzt überprüft das Kleinhirn und findet, dass es in Ordnung ist, aber ist immer noch unsicher, wo die Blutung liegt.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\42_advice with annotation_cycle_117.txt",
+      "row": 8
+    },
+    "model": "meta-llama/llama-3.2-3b-instruct",
+    "provider": "Parasail",
+    "configuration_name": "llama-3-2-3b-instruct-240925"
+  },
+  {
+    "phrase": "Ich würde sagen, er hat auf jeden Fall entweder eine Liquorabflussstörung",
+    "context": "So. Jetzt wieder einen Patienten mit Kopfschmerzen, 78 Jahre und männlich. Eine Blutung wurde gefunden. Das sieht so ein bisschen asymmetrisch aus von der von den Hemisphären, aber es könnte auch sein, dass das der Schnitt ist. Das Kleinhirn sieht in Ordnung aus. Oh hier ist ist das? Achso, das ist das Seitenventrikelhorn. Ich würde sagen, er hat auf jeden Fall entweder eine Liquorabflussstörung, und hier könnte es irgendwie sein, dass die Ventrikel, also dass der Abfluss ein bisschen verlegt ist.",
+    "tags": [
+      "interpretation: bleeding_localization_unclear",
+      "reasoning: alternative_medical_cause"
+    ],
+    "rationale": "Der Arzt vermutet, dass der Patient eine Liquorabflussstörung hat, aber ist unsicher, wo die Blutung liegt.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\42_advice with annotation_cycle_117.txt",
+      "row": 8
+    },
+    "model": "meta-llama/llama-3.2-3b-instruct",
+    "provider": "Parasail",
+    "configuration_name": "llama-3-2-3b-instruct-240925"
+  },
+  {
+    "phrase": "Und hier könnte es irgendwie sein, dass die Ventrikel, also dass der Abfluss ein bisschen verlegt ist",
+    "context": "So. Jetzt wieder einen Patienten mit Kopfschmerzen, 78 Jahre und männlich. Eine Blutung wurde gefunden. Das sieht so ein bisschen asymmetrisch aus von der von den Hemisphären, aber es könnte auch sein, dass das der Schnitt ist. Das Kleinhirn sieht in Ordnung aus. Oh hier ist ist das? Achso, das ist das Seitenventrikelhorn. Ich würde sagen, er hat auf jeden Fall entweder eine Liquorabflussstörung, und hier könnte es irgendwie sein, dass die Ventrikel, also dass der Abfluss ein bisschen verlegt ist.",
+    "tags": [
+      "interpretation: bleeding_localization_unclear",
+      "reasoning: alternative_medical_cause"
+    ],
+    "rationale": "Der Arzt vermutet, dass die Ventrikel verlegt sind, was zu einer Liquorabflussstörung führen könnte.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\42_advice with annotation_cycle_117.txt",
+      "row": 8
+    },
+    "model": "meta-llama/llama-3.2-3b-instruct",
+    "provider": "Parasail",
+    "configuration_name": "llama-3-2-3b-instruct-240925"
+  },
+  {
+    "phrase": "Aber es sieht mir auch nicht nach Blutung aus",
+    "context": "So. Jetzt wieder einen Patienten mit Kopfschmerzen, 78 Jahre und männlich. Eine Blutung wurde gefunden. Das sieht so ein bisschen asymmetrisch aus von der von den Hemisphären, aber es könnte auch sein, dass das der Schnitt ist. Das Kleinhirn sieht in Ordnung aus. Oh hier ist ist das? Achso, das ist das Seitenventrikelhorn. Ich würde sagen, er hat auf jeden Fall entweder eine Liquorabflussstörung, und hier könnte es irgendwie sein, dass die Ventrikel, also dass der Abfluss ein bisschen verlegt ist. Aber es sieht mir auch nicht nach Blutung aus.",
+    "tags": [
+      "interpretation: bleeding_localization_unclear",
+      "interpretation: no_bleeding"
+    ],
+    "rationale": "Der Arzt ist unsicher, ob die Blutung ein Blutung oder kein Blutung ist.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\42_advice with annotation_cycle_117.txt",
+      "row": 8
+    },
+    "model": "meta-llama/llama-3.2-3b-instruct",
+    "provider": "Parasail",
+    "configuration_name": "llama-3-2-3b-instruct-240925"
+  },
+  {
+    "phrase": "Deswegen würde ich sagen, er hat einen anderen Grund für seinen, für seine Liquorabflussstörung",
+    "context": "So. Jetzt wieder einen Patienten mit Kopfschmerzen, 78 Jahre und männlich. Eine Blutung wurde gefunden. Das sieht so ein bisschen asymmetrisch aus von der von den Hemisphären, aber es könnte auch sein, dass das der Schnitt ist. Das Kleinhirn sieht in Ordnung aus. Oh hier ist ist das? Achso, das ist das Seitenventrikelhorn. Ich würde sagen, er hat auf jeden Fall entweder eine Liquorabflussstörung, und hier könnte es irgendwie sein, dass die Ventrikel, also dass der Abfluss ein bisschen verlegt ist. Aber es sieht mir auch nicht nach Blutung aus. Deswegen würde ich sagen, er hat einen anderen Grund für seinen, für seine Liquorabflussstörung, und da würde mich die AI wieder unterstützen.",
+    "tags": [
+      "interpretation: bleeding_localization_unclear",
+      "reasoning: alternative_medical_cause"
+    ],
+    "rationale": "Der Arzt vermutet, dass der Patient eine Liquorabflussstörung hat, aber ist unsicher, wo die Blutung liegt und was die Ursache ist.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\42_advice with annotation_cycle_117.txt",
+      "row": 8
+    },
+    "model": "meta-llama/llama-3.2-3b-instruct",
+    "provider": "Parasail",
+    "configuration_name": "llama-3-2-3b-instruct-240925"
+  },
+  {
+    "phrase": "Und da würde mich die AI wieder unterstützen",
+    "context": "So. Jetzt wieder einen Patienten mit Kopfschmerzen, 78 Jahre und männlich. Eine Blutung wurde gefunden. Das sieht so ein bisschen asymmetrisch aus von der von den Hemisphären, aber es könnte auch sein, dass das der Schnitt ist. Das Kleinhirn sieht in Ordnung aus. Oh hier ist ist das? Achso, das ist das Seitenventrikelhorn. Ich würde sagen, er hat auf jeden Fall entweder eine Liquorabflussstörung, und hier könnte es irgendwie sein, dass die Ventrikel, also dass der Abfluss ein bisschen verlegt ist. Aber es sieht mir auch nicht nach Blutung aus. Deswegen würde ich sagen, er hat einen anderen Grund für seinen, für seine Liquorabflussstörung, und da würde mich die AI wieder unterstützen.",
+    "tags": [
+      "interpretation: bleeding_localization_unclear",
+      "decision_with_ai: explicitly_agreeing_with_ai"
+    ],
+    "rationale": "Der Arzt wird die AI unterstützen, um die Ursache der Liquorabflussstörung zu bestimmen.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\42_advice with annotation_cycle_117.txt",
+      "row": 8
+    },
+    "model": "meta-llama/llama-3.2-3b-instruct",
+    "provider": "Parasail",
+    "configuration_name": "llama-3-2-3b-instruct-240925"
+  }
+]

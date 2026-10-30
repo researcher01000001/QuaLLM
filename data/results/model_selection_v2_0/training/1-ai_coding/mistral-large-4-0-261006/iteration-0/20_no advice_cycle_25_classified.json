@@ -1,0 +1,3813 @@
+[
+  {
+    "phrase": "ähm",
+    "context": "VPN: Okay, ähm..., also, was ich sehe, ist, dass da eine Mittellinienverlagerung nach rechts",
+    "tags": [
+      "paused_in_process"
+    ],
+    "rationale": "Filler word indicating hesitation.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_no advice_cycle_25.txt",
+      "row": 0
+    },
+    "model": "mistralai/mistral-large-4-0",
+    "provider": "Mistral",
+    "configuration_name": "mistral-large-4-0-261006"
+  },
+  {
+    "phrase": "also, was ich sehe, ist, dass da eine Mittellinienverlagerung nach rechts",
+    "context": "VPN: Okay, ähm..., also, was ich sehe, ist, dass da eine Mittellinienverlagerung nach rechts, ... und generell ... einen Unterschied in den temporalen Lappen von rechts und links.",
+    "tags": [
+      "indicator: anomaly_detected"
+    ],
+    "rationale": "Person notices a midline shift to the right, which is an abnormality atypical for a healthy skull.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_no advice_cycle_25.txt",
+      "row": 0
+    },
+    "model": "mistralai/mistral-large-4-0",
+    "provider": "Mistral",
+    "configuration_name": "mistral-large-4-0-261006"
+  },
+  {
+    "phrase": "und generell ... einen Unterschied in den temporalen Lappen von rechts und links",
+    "context": "dass da eine Mittellinienverlagerung nach rechts, ... und generell ... einen Unterschied in den temporalen Lappen von rechts und links. Also was soll ich jetzt hier antworten?",
+    "tags": [
+      "visual_search: description_of_medical_image_features"
+    ],
+    "rationale": "Person verbalizes the difference in the temporal lobes between right and left sides.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_no advice_cycle_25.txt",
+      "row": 0
+    },
+    "model": "mistralai/mistral-large-4-0",
+    "provider": "Mistral",
+    "configuration_name": "mistral-large-4-0-261006"
+  },
+  {
+    "phrase": "Also was soll ich jetzt hier antworten? Ob das eine Blutung ist oder nicht?",
+    "context": "einen Unterschied in den temporalen Lappen von rechts und links. Also was soll ich jetzt hier antworten? Ob das eine Blutung ist oder nicht? EXPERIMENTER: Genau",
+    "tags": [
+      "control: reflective_question"
+    ],
+    "rationale": "Person asks themselves a question to control or verify their own thought process regarding the task.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_no advice_cycle_25.txt",
+      "row": 0
+    },
+    "model": "mistralai/mistral-large-4-0",
+    "provider": "Mistral",
+    "configuration_name": "mistral-large-4-0-261006"
+  },
+  {
+    "phrase": "ich sehe von außen irgendwie,... Moment..., ich guck mal, ob ich irgendwelche Knochenschädigungen sehe, erstmal",
+    "context": "VPN: Ok,... ich sehe von außen irgendwie,... Moment..., ich guck mal, ob ich irgendwelche Knochenschädigungen sehe, erstmal. Ähm..., also im Schädel...",
+    "tags": [
+      "visual_search: description_of_medical_image_features",
+      "paused_in_process"
+    ],
+    "rationale": "Person describes looking at the outside of the skull for bone damage and uses filler word 'Moment'.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_no advice_cycle_25.txt",
+      "row": 0
+    },
+    "model": "mistralai/mistral-large-4-0",
+    "provider": "Mistral",
+    "configuration_name": "mistral-large-4-0-261006"
+  },
+  {
+    "phrase": "Ähm",
+    "context": "Knochenschädigungen sehe, erstmal. Ähm..., also im Schädel..., irgendwie sehe ich das, glaube ich nicht.",
+    "tags": [
+      "paused_in_process"
+    ],
+    "rationale": "Filler word indicating hesitation.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_no advice_cycle_25.txt",
+      "row": 0
+    },
+    "model": "mistralai/mistral-large-4-0",
+    "provider": "Mistral",
+    "configuration_name": "mistral-large-4-0-261006"
+  },
+  {
+    "phrase": "also im Schädel..., irgendwie sehe ich das, glaube ich nicht",
+    "context": "erstmal. Ähm..., also im Schädel..., irgendwie sehe ich das, glaube ich nicht. Ich probiere beidseitig zu schauen",
+    "tags": [
+      "visual_search: description_of_medical_image_features",
+      "confidence_low: secondary"
+    ],
+    "rationale": "Person describes not seeing bone damage in the skull and expresses low certainty with 'glaube ich nicht'.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_no advice_cycle_25.txt",
+      "row": 0
+    },
+    "model": "mistralai/mistral-large-4-0",
+    "provider": "Mistral",
+    "configuration_name": "mistral-large-4-0-261006"
+  },
+  {
+    "phrase": "Ich probiere beidseitig zu schauen, also nach Unterschieden",
+    "context": "glaube ich nicht. Ich probiere beidseitig zu schauen, also nach Unterschieden. Hmm, im Vergleich... sehe ich nicht",
+    "tags": [
+      "visual_search: description_of_own_approach_without_external_help"
+    ],
+    "rationale": "Person explicitly comments on their own search procedure of looking at both sides for differences.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_no advice_cycle_25.txt",
+      "row": 0
+    },
+    "model": "mistralai/mistral-large-4-0",
+    "provider": "Mistral",
+    "configuration_name": "mistral-large-4-0-261006"
+  },
+  {
+    "phrase": "Hmm, im Vergleich... sehe ich nicht, aber ich find das Parenchym, irgendwie unterschiedlich von rechts und links",
+    "context": "nach Unterschieden. Hmm, im Vergleich... sehe ich nicht, aber ich find das Parenchym, irgendwie unterschiedlich von rechts und links, aber da habe ich jetzt nicht so die Erfahrung.",
+    "tags": [
+      "visual_search: description_of_medical_image_features",
+      "paused_in_process"
+    ],
+    "rationale": "Person describes not seeing differences in comparison but finding the parenchyma different, with filler word 'Hmm'.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_no advice_cycle_25.txt",
+      "row": 0
+    },
+    "model": "mistralai/mistral-large-4-0",
+    "provider": "Mistral",
+    "configuration_name": "mistral-large-4-0-261006"
+  },
+  {
+    "phrase": "aber da habe ich jetzt nicht so die Erfahrung",
+    "context": "unterschiedlich von rechts und links, aber da habe ich jetzt nicht so die Erfahrung. Ich finde diese Mittellinienverlagerung irgendwie komisch.",
+    "tags": [
+      "reflection: experience_limitation"
+    ],
+    "rationale": "Person refers to their own limits of experience regarding the parenchyma difference.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_no advice_cycle_25.txt",
+      "row": 0
+    },
+    "model": "mistralai/mistral-large-4-0",
+    "provider": "Mistral",
+    "configuration_name": "mistral-large-4-0-261006"
+  },
+  {
+    "phrase": "Ich finde diese Mittellinienverlagerung irgendwie komisch",
+    "context": "nicht so die Erfahrung. Ich finde diese Mittellinienverlagerung irgendwie komisch. Also ich würde sagen ja",
+    "tags": [
+      "indicator: anomaly_detected"
+    ],
+    "rationale": "Person finds the midline shift strange/suspicious, indicating detection of an anomaly.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_no advice_cycle_25.txt",
+      "row": 0
+    },
+    "model": "mistralai/mistral-large-4-0",
+    "provider": "Mistral",
+    "configuration_name": "mistral-large-4-0-261006"
+  },
+  {
+    "phrase": "Also ich würde sagen ja",
+    "context": "irgendwie komisch. Also ich würde sagen ja, aber ich sehe jetzt keine sichelförmigen Muster oder auch nicht konvex",
+    "tags": [
+      "interpretation: bleeding"
+    ],
+    "rationale": "Person tentatively interprets the finding as a hemorrhage ('would say yes').",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_no advice_cycle_25.txt",
+      "row": 0
+    },
+    "model": "mistralai/mistral-large-4-0",
+    "provider": "Mistral",
+    "configuration_name": "mistral-large-4-0-261006"
+  },
+  {
+    "phrase": "aber ich sehe jetzt keine sichelförmigen Muster oder auch nicht konvex, also Epidural, Subdural Blutungen, sehe ich jetzt nicht",
+    "context": "Also ich würde sagen ja, aber ich sehe jetzt keine sichelförmigen Muster oder auch nicht konvex, also Epidural, Subdural Blutungen, sehe ich jetzt nicht, deswegen bin ich mir unsicher.",
+    "tags": [
+      "visual_search: description_of_medical_image_features"
+    ],
+    "rationale": "Person describes the absence of specific image characteristics (sickle-shaped, convex patterns) typical for epidural or subdural bleedings.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_no advice_cycle_25.txt",
+      "row": 0
+    },
+    "model": "mistralai/mistral-large-4-0",
+    "provider": "Mistral",
+    "configuration_name": "mistral-large-4-0-261006"
+  },
+  {
+    "phrase": "deswegen bin ich mir unsicher",
+    "context": "Subdural Blutungen, sehe ich jetzt nicht, deswegen bin ich mir unsicher. Aber könnte ja intraaxialer Bereich? sein.",
+    "tags": [
+      "confidence_low: concrete"
+    ],
+    "rationale": "Person explicitly expresses low certainty ('bin ich mir unsicher').",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_no advice_cycle_25.txt",
+      "row": 0
+    },
+    "model": "mistralai/mistral-large-4-0",
+    "provider": "Mistral",
+    "configuration_name": "mistral-large-4-0-261006"
+  },
+  {
+    "phrase": "Aber könnte ja intraaxialer Bereich? sein",
+    "context": "deswegen bin ich mir unsicher. Aber könnte ja intraaxialer Bereich? sein. Also ich bin sehr unsicher",
+    "tags": [
+      "interpretation: bleeding_localization_unclear"
+    ],
+    "rationale": "Person considers a hemorrhage likely but cannot find the exact location (intraaxial area).",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_no advice_cycle_25.txt",
+      "row": 0
+    },
+    "model": "mistralai/mistral-large-4-0",
+    "provider": "Mistral",
+    "configuration_name": "mistral-large-4-0-261006"
+  },
+  {
+    "phrase": "Also ich bin sehr unsicher",
+    "context": "sein. Also ich bin sehr unsicher, aber ich würde hier trotzdem ja sagen, einfach wegen der Mittellinienverlagerung.",
+    "tags": [
+      "confidence_low: concrete"
+    ],
+    "rationale": "Person explicitly expresses high uncertainty ('bin sehr unsicher').",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_no advice_cycle_25.txt",
+      "row": 0
+    },
+    "model": "mistralai/mistral-large-4-0",
+    "provider": "Mistral",
+    "configuration_name": "mistral-large-4-0-261006"
+  },
+  {
+    "phrase": "aber ich würde hier trotzdem ja sagen",
+    "context": "Also ich bin sehr unsicher, aber ich würde hier trotzdem ja sagen, einfach wegen der Mittellinienverlagerung. Aber ja, ich bin gar nicht sicher.",
+    "tags": [
+      "interpretation: bleeding"
+    ],
+    "rationale": "Person decides on 'yes' (bleeding) despite the expressed uncertainty.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_no advice_cycle_25.txt",
+      "row": 0
+    },
+    "model": "mistralai/mistral-large-4-0",
+    "provider": "Mistral",
+    "configuration_name": "mistral-large-4-0-261006"
+  },
+  {
+    "phrase": "einfach wegen der Mittellinienverlagerung",
+    "context": "trotzdem ja sagen, einfach wegen der Mittellinienverlagerung. Aber ja, ich bin gar nicht sicher.",
+    "tags": [
+      "reasoning: conclusion_findings"
+    ],
+    "rationale": "Person draws the conclusion from the found indicator (midline shift).",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_no advice_cycle_25.txt",
+      "row": 0
+    },
+    "model": "mistralai/mistral-large-4-0",
+    "provider": "Mistral",
+    "configuration_name": "mistral-large-4-0-261006"
+  },
+  {
+    "phrase": "Aber ja, ich bin gar nicht sicher",
+    "context": "der Mittellinienverlagerung. Aber ja, ich bin gar nicht sicher.",
+    "tags": [
+      "confidence_low: concrete"
+    ],
+    "rationale": "Person explicitly expresses complete uncertainty ('bin gar nicht sicher').",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_no advice_cycle_25.txt",
+      "row": 0
+    },
+    "model": "mistralai/mistral-large-4-0",
+    "provider": "Mistral",
+    "configuration_name": "mistral-large-4-0-261006"
+  },
+  {
+    "phrase": "Kann man das irgendwie größer machen? Das ist voll klein.",
+    "context": "Kann man das irgendwie größer machen? Das ist voll klein. EXPERIMENTER: Ähm, du kannstmal auf die drei Punkte oben rechts in dem Browser klicken und dann rauszoomen, weil dann wird das Interface kleiner.",
+    "tags": [
+      "technical_conversation"
+    ],
+    "rationale": "Person asks to enlarge the image and complains it is too small, indicating technical difficulties with the display tool.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_no advice_cycle_25.txt",
+      "row": 1
+    },
+    "model": "mistralai/mistral-large-4-0",
+    "provider": "Mistral",
+    "configuration_name": "mistral-large-4-0-261006"
+  },
+  {
+    "phrase": "EXPERIMENTER: Ähm, du kannstmal auf die drei Punkte oben rechts in dem Browser klicken und dann rauszoomen, weil dann wird das Interface kleiner. VPN: Also hier? EXPERIMENTER: Ja, genau. VPN: Okay, dann sehe ich das hier nicht so gut.",
+    "context": "Das ist voll klein. EXPERIMENTER: Ähm, du kannstmal auf die drei Punkte oben rechts in dem Browser klicken und dann rauszoomen, weil dann wird das Interface kleiner. VPN: Also hier? EXPERIMENTER: Ja, genau. VPN: Okay, dann sehe ich das hier nicht so gut. EXPERIMENTER: Ja nee, also auf Minus beim Zoomen",
+    "tags": [
+      "technical_conversation"
+    ],
+    "rationale": "Conversation between experimenter and participant about zooming and interface size, discussing technical aspects of the display tool.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_no advice_cycle_25.txt",
+      "row": 1
+    },
+    "model": "mistralai/mistral-large-4-0",
+    "provider": "Mistral",
+    "configuration_name": "mistral-large-4-0-261006"
+  },
+  {
+    "phrase": "so ich scrolle jetzt mal kurz runter und hoch.",
+    "context": "VPN: Okay,... so ich scrolle jetzt mal kurz runter und hoch. Ja, jetzt sehe ich hier rechts, ähm, so ein bisschen sichelförmige",
+    "tags": [
+      "visual_search: description_of_own_approach_without_external_help"
+    ],
+    "rationale": "Person explicitly comments on their own search procedure (scrolling down and up) to examine the image.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_no advice_cycle_25.txt",
+      "row": 1
+    },
+    "model": "mistralai/mistral-large-4-0",
+    "provider": "Mistral",
+    "configuration_name": "mistral-large-4-0-261006"
+  },
+  {
+    "phrase": "Ja, jetzt sehe ich hier rechts, ähm, so ein bisschen sichelförmige, also glaube ich zu meinen, als sichelförmige, wie heißt das, ja ich glaub Flüssigkeitsansammlungen.",
+    "context": "so ich scrolle jetzt mal kurz runter und hoch. Ja, jetzt sehe ich hier rechts, ähm, so ein bisschen sichelförmige, also glaube ich zu meinen, als sichelförmige, wie heißt das, ja ich glaub Flüssigkeitsansammlungen. Ähm, ja eher Frontoparietal",
+    "tags": [
+      "visual_search: description_of_medical_image_features",
+      "confidence_low: secondary"
+    ],
+    "rationale": "Person describes image characteristics (sickle-shaped, fluid accumulations) and expresses uncertainty with 'glaube ich' (I think).",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_no advice_cycle_25.txt",
+      "row": 1
+    },
+    "model": "mistralai/mistral-large-4-0",
+    "provider": "Mistral",
+    "configuration_name": "mistral-large-4-0-261006"
+  },
+  {
+    "phrase": "Ähm, ja eher Frontoparietal, oder so, meine ich.",
+    "context": "ja ich glaub Flüssigkeitsansammlungen. Ähm, ja eher Frontoparietal, oder so, meine ich. Hmm, ja also ganz dünn",
+    "tags": [
+      "visual_search: description_of_medical_image_features",
+      "confidence_low: secondary"
+    ],
+    "rationale": "Person describes the anatomical location (frontoparietal) with uncertainty markers 'oder so' (or something).",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_no advice_cycle_25.txt",
+      "row": 1
+    },
+    "model": "mistralai/mistral-large-4-0",
+    "provider": "Mistral",
+    "configuration_name": "mistral-large-4-0-261006"
+  },
+  {
+    "phrase": "Hmm, ja also ganz dünn, aber ich würd schon sagen ja.",
+    "context": "oder so, meine ich. Hmm, ja also ganz dünn, aber ich würd schon sagen ja. Ich bin eher, also ich denke das ich sicherer bin als davor",
+    "tags": [
+      "visual_search: description_of_medical_image_features"
+    ],
+    "rationale": "Person describes the thickness of the finding (thin) as an image characteristic.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_no advice_cycle_25.txt",
+      "row": 1
+    },
+    "model": "mistralai/mistral-large-4-0",
+    "provider": "Mistral",
+    "configuration_name": "mistral-large-4-0-261006"
+  },
+  {
+    "phrase": "Ich bin eher, also ich denke das ich sicherer bin als davor...",
+    "context": "aber ich würd schon sagen ja. Ich bin eher, also ich denke das ich sicherer bin als davor... Naja doch.",
+    "tags": [
+      "confidence_high: secondary"
+    ],
+    "rationale": "Person implicitly expresses high certainty by stating they are more confident than before.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_no advice_cycle_25.txt",
+      "row": 1
+    },
+    "model": "mistralai/mistral-large-4-0",
+    "provider": "Mistral",
+    "configuration_name": "mistral-large-4-0-261006"
+  },
+  {
+    "phrase": "Naja doch.",
+    "context": "als davor... Naja doch.",
+    "tags": [
+      "reflection: self-correction"
+    ],
+    "rationale": "Person corrects or reconsiders their previous statement about confidence with a hesitant affirmation.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_no advice_cycle_25.txt",
+      "row": 1
+    },
+    "model": "mistralai/mistral-large-4-0",
+    "provider": "Mistral",
+    "configuration_name": "mistral-large-4-0-261006"
+  },
+  {
+    "phrase": "So, ich guck einfach immer beidseitig im Vergleich.",
+    "context": "So, ich guck einfach immer beidseitig im Vergleich. Die Mittellinie sieht eigentlich ganz normal aus, in der Mitte, …., Knochen sehe ich auch keine Beschädigung.",
+    "tags": [
+      "visual_search: description_of_own_approach_without_external_help"
+    ],
+    "rationale": "The person explicitly comments on their own search procedure by stating they always compare both sides.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_no advice_cycle_25.txt",
+      "row": 2
+    },
+    "model": "mistralai/mistral-large-4-0",
+    "provider": "Mistral",
+    "configuration_name": "mistral-large-4-0-261006"
+  },
+  {
+    "phrase": "Die Mittellinie sieht eigentlich ganz normal aus, in der Mitte, …., Knochen sehe ich auch keine Beschädigung.",
+    "context": "So, ich guck einfach immer beidseitig im Vergleich. Die Mittellinie sieht eigentlich ganz normal aus, in der Mitte, …., Knochen sehe ich auch keine Beschädigung. Ja gut aber jetzt frontal, ähm, links ist da, ähm, hyper-",
+    "tags": [
+      "indicator: no_bleeding"
+    ],
+    "rationale": "The person classifies specific image areas (midline and bone) as unremarkable/normal, finding no damage.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_no advice_cycle_25.txt",
+      "row": 2
+    },
+    "model": "mistralai/mistral-large-4-0",
+    "provider": "Mistral",
+    "configuration_name": "mistral-large-4-0-261006"
+  },
+  {
+    "phrase": "Ja gut aber jetzt frontal, ähm, links ist da, ähm, hyper-",
+    "context": "Knochen sehe ich auch keine Beschädigung. Ja gut aber jetzt frontal, ähm, links ist da, ähm, hyper-, sind das CTs? Jetzt gerade, ich sehe nur CTs.",
+    "tags": [
+      "indicator: anomaly_detected"
+    ],
+    "rationale": "The person notices a hyperdense area on the left frontal side, which is atypical for a healthy skull and indicates an abnormality.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_no advice_cycle_25.txt",
+      "row": 2
+    },
+    "model": "mistralai/mistral-large-4-0",
+    "provider": "Mistral",
+    "configuration_name": "mistral-large-4-0-261006"
+  },
+  {
+    "phrase": "sind das CTs?",
+    "context": "links ist da, ähm, hyper-, sind das CTs? Jetzt gerade, ich sehe nur CTs. Dann sage ich hyperdens, ja... das ist eine Blutung.",
+    "tags": [
+      "reflection: diagnostic_uncertainty"
+    ],
+    "rationale": "The person expresses uncertainty about the image modality/acquisition method, questioning whether the images are CTs.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_no advice_cycle_25.txt",
+      "row": 2
+    },
+    "model": "mistralai/mistral-large-4-0",
+    "provider": "Mistral",
+    "configuration_name": "mistral-large-4-0-261006"
+  },
+  {
+    "phrase": "Jetzt gerade, ich sehe nur CTs.",
+    "context": "sind das CTs? Jetzt gerade, ich sehe nur CTs. Dann sage ich hyperdens, ja... das ist eine Blutung.",
+    "tags": [
+      "visual_search: description_of_medical_image_features"
+    ],
+    "rationale": "The person verbalizes the image characteristics they are currently viewing, confirming the modality is CT.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_no advice_cycle_25.txt",
+      "row": 2
+    },
+    "model": "mistralai/mistral-large-4-0",
+    "provider": "Mistral",
+    "configuration_name": "mistral-large-4-0-261006"
+  },
+  {
+    "phrase": "Dann sage ich hyperdens, ja... das ist eine Blutung.",
+    "context": "ich sehe nur CTs. Dann sage ich hyperdens, ja... das ist eine Blutung.",
+    "tags": [
+      "interpretation: bleeding"
+    ],
+    "rationale": "The person interprets the hyperdense finding as a hemorrhage (Blutung), using definitive language ('das ist').",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_no advice_cycle_25.txt",
+      "row": 2
+    },
+    "model": "mistralai/mistral-large-4-0",
+    "provider": "Mistral",
+    "configuration_name": "mistral-large-4-0-261006"
+  },
+  {
+    "phrase": "Hmm, hier sehe ich jetzt so schnell keinen Unterschied, oder keine Signalerhöhung…",
+    "context": "Hmm, hier sehe ich jetzt so schnell keinen Unterschied, oder keine Signalerhöhung… Also Schädelknochen zeigt nicht auf irgendwelche Traumata.",
+    "tags": [
+      "visual_search: description_of_medical_image_features"
+    ],
+    "rationale": "The person verbalizes image characteristics they are currently checking (no difference, no signal increase).",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_no advice_cycle_25.txt",
+      "row": 3
+    },
+    "model": "mistralai/mistral-large-4-0",
+    "provider": "Mistral",
+    "configuration_name": "mistral-large-4-0-261006"
+  },
+  {
+    "phrase": "Also Schädelknochen zeigt nicht auf irgendwelche Traumata.",
+    "context": "…keine Signalerhöhung… Also Schädelknochen zeigt nicht auf irgendwelche Traumata. Aber Moment, …",
+    "tags": [
+      "indicator: no_bleeding"
+    ],
+    "rationale": "The person classifies the skull bone as unremarkable (no trauma).",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_no advice_cycle_25.txt",
+      "row": 3
+    },
+    "model": "mistralai/mistral-large-4-0",
+    "provider": "Mistral",
+    "configuration_name": "mistral-large-4-0-261006"
+  },
+  {
+    "phrase": "Aber Moment, … ja und ich finde das Parenchym auch beidseitig gleich.",
+    "context": "…Traumata. Aber Moment, … ja und ich finde das Parenchym auch beidseitig gleich. Ich sag das sind keine Blutungen.",
+    "tags": [
+      "indicator: no_bleeding"
+    ],
+    "rationale": "The person classifies the parenchyma as unremarkable (equal on both sides).",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_no advice_cycle_25.txt",
+      "row": 3
+    },
+    "model": "mistralai/mistral-large-4-0",
+    "provider": "Mistral",
+    "configuration_name": "mistral-large-4-0-261006"
+  },
+  {
+    "phrase": "Ich sag das sind keine Blutungen.",
+    "context": "…beidseitig gleich. Ich sag das sind keine Blutungen.",
+    "tags": [
+      "interpretation: no_bleeding",
+      "confidence_high: secondary"
+    ],
+    "rationale": "The person interprets the overall finding as no hemorrhage and expresses high certainty through the assertive statement 'Ich sag' (I say/assert).",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_no advice_cycle_25.txt",
+      "row": 3
+    },
+    "model": "mistralai/mistral-large-4-0",
+    "provider": "Mistral",
+    "configuration_name": "mistral-large-4-0-261006"
+  },
+  {
+    "phrase": "Ich finde die Bilder ziemlich klein, auf meinem Bildschirm trotzdem, aber…",
+    "context": "...Ich finde die Bilder ziemlich klein, auf meinem Bildschirm trotzdem, aber… Hmm, …, hier sehe ich auch nichts…",
+    "tags": [
+      "awareness_of_task: image_quality"
+    ],
+    "rationale": "The person explicitly complains about the image size/quality on their screen, attributing the issue to the acquisition or display method rather than their own competence.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_no advice_cycle_25.txt",
+      "row": 4
+    },
+    "model": "mistralai/mistral-large-4-0",
+    "provider": "Mistral",
+    "configuration_name": "mistral-large-4-0-261006"
+  },
+  {
+    "phrase": "Hmm, …",
+    "context": "...trotzdem, aber… Hmm, …, hier sehe ich auch nichts… Das sieht für mich normal aus.",
+    "tags": [
+      "paused_in_process"
+    ],
+    "rationale": "This is a filler word/utterance indicating hesitation or a pause in the diagnostic process.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_no advice_cycle_25.txt",
+      "row": 4
+    },
+    "model": "mistralai/mistral-large-4-0",
+    "provider": "Mistral",
+    "configuration_name": "mistral-large-4-0-261006"
+  },
+  {
+    "phrase": "hier sehe ich auch nichts…",
+    "context": "...aber… Hmm, …, hier sehe ich auch nichts… Das sieht für mich normal aus.",
+    "tags": [
+      "indicator: no_bleeding"
+    ],
+    "rationale": "The person states they see nothing in a specific image area, thereby classifying that area as unremarkable.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_no advice_cycle_25.txt",
+      "row": 4
+    },
+    "model": "mistralai/mistral-large-4-0",
+    "provider": "Mistral",
+    "configuration_name": "mistral-large-4-0-261006"
+  },
+  {
+    "phrase": "Das sieht für mich normal aus.",
+    "context": "...hier sehe ich auch nichts… Das sieht für mich normal aus.",
+    "tags": [
+      "indicator: no_bleeding"
+    ],
+    "rationale": "The person explicitly classifies the specific image area as normal/unremarkable.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_no advice_cycle_25.txt",
+      "row": 4
+    },
+    "model": "mistralai/mistral-large-4-0",
+    "provider": "Mistral",
+    "configuration_name": "mistral-large-4-0-261006"
+  },
+  {
+    "phrase": "Hier sehe ich tatsächlich auch nichts",
+    "context": "… Hier sehe ich tatsächlich auch nichts… Ich das Gefühl, dass bei der Größe…",
+    "tags": [
+      "indicator: no_bleeding"
+    ],
+    "rationale": "The person classifies the specific image area as unremarkable, explicitly stating they see nothing there.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_no advice_cycle_25.txt",
+      "row": 5
+    },
+    "model": "mistralai/mistral-large-4-0",
+    "provider": "Mistral",
+    "configuration_name": "mistral-large-4-0-261006"
+  },
+  {
+    "phrase": "Ich das Gefühl, dass bei der Größe, könnte ich vielleicht schon, hoffentlich eine Subdurale oder Epidurale Blutung oder so sehen",
+    "context": "… auch nichts… Ich das Gefühl, dass bei der Größe, könnte ich vielleicht schon, hoffentlich eine Subdurale oder Epidurale Blutung oder so sehen, aber ähm…",
+    "tags": [
+      "confidence_low: secondary"
+    ],
+    "rationale": "Low certainty is implicitly shown through adverbs like 'vielleicht' (perhaps) and 'hoffentlich' (hopefully) regarding the expectation to see a hemorrhage.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_no advice_cycle_25.txt",
+      "row": 5
+    },
+    "model": "mistralai/mistral-large-4-0",
+    "provider": "Mistral",
+    "configuration_name": "mistral-large-4-0-261006"
+  },
+  {
+    "phrase": "aber ähm, Subdural, wüsste ich jetzt nicht, ob man das bei der Größe sehen konnte",
+    "context": "… Blutung oder so sehen, aber ähm, Subdural, wüsste ich jetzt nicht, ob man das bei der Größe sehen konnte, oder interessehalber…",
+    "tags": [
+      "confidence_low: concrete"
+    ],
+    "rationale": "The person explicitly expresses low certainty ('wüsste ich jetzt nicht') regarding whether a subdural hemorrhage would be visible at the given size.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_no advice_cycle_25.txt",
+      "row": 5
+    },
+    "model": "mistralai/mistral-large-4-0",
+    "provider": "Mistral",
+    "configuration_name": "mistral-large-4-0-261006"
+  },
+  {
+    "phrase": "oder interessehalber, aber hier ist auch nichts.",
+    "context": "… sehen konnte, oder interessehalber, aber hier ist auch nichts.",
+    "tags": [
+      "indicator: no_bleeding"
+    ],
+    "rationale": "The person again classifies the image area as unremarkable, stating there is nothing there.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_no advice_cycle_25.txt",
+      "row": 5
+    },
+    "model": "mistralai/mistral-large-4-0",
+    "provider": "Mistral",
+    "configuration_name": "mistral-large-4-0-261006"
+  },
+  {
+    "phrase": "also Mittellinie sieht gut aus, Schädelknochen auch",
+    "context": "So hier sehe ich ?, also Mittellinie sieht gut aus, Schädelknochen auch. Hm, im Vergleich,…",
+    "tags": [
+      "indicator: no_bleeding"
+    ],
+    "rationale": "The person classifies the midline and skull bone as looking good ('sieht gut aus'), indicating these specific image areas are unremarkable.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_no advice_cycle_25.txt",
+      "row": 6
+    },
+    "model": "mistralai/mistral-large-4-0",
+    "provider": "Mistral",
+    "configuration_name": "mistral-large-4-0-261006"
+  },
+  {
+    "phrase": "jetzt finde ich hier Occipital vielleicht",
+    "context": "Hm, im Vergleich,… ja,… jetzt finde ich hier Occipital vielleicht. Da sind ja zwei Signalerhöhungen.",
+    "tags": [
+      "visual_search: description_of_medical_image_features",
+      "confidence_low: secondary"
+    ],
+    "rationale": "The person verbalizes locating the Occipital region ('jetzt finde ich hier Occipital') and implicitly shows low certainty through the adverb 'vielleicht'.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_no advice_cycle_25.txt",
+      "row": 6
+    },
+    "model": "mistralai/mistral-large-4-0",
+    "provider": "Mistral",
+    "configuration_name": "mistral-large-4-0-261006"
+  },
+  {
+    "phrase": "Da sind ja zwei Signalerhöhungen",
+    "context": "jetzt finde ich hier Occipital vielleicht. Da sind ja zwei Signalerhöhungen. Bin ich mir nicht so sicher,…",
+    "tags": [
+      "indicator: anomaly_detected"
+    ],
+    "rationale": "The person notices two signal elevations, which constitutes an abnormality atypical for a healthy skull.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_no advice_cycle_25.txt",
+      "row": 6
+    },
+    "model": "mistralai/mistral-large-4-0",
+    "provider": "Mistral",
+    "configuration_name": "mistral-large-4-0-261006"
+  },
+  {
+    "phrase": "Bin ich mir nicht so sicher",
+    "context": "Da sind ja zwei Signalerhöhungen. Bin ich mir nicht so sicher,… aber ich glaube schon dass hier eine Blutung ist.",
+    "tags": [
+      "confidence_low: concrete"
+    ],
+    "rationale": "The person explicitly expresses low certainty regarding the diagnostic process and the finding just mentioned.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_no advice_cycle_25.txt",
+      "row": 6
+    },
+    "model": "mistralai/mistral-large-4-0",
+    "provider": "Mistral",
+    "configuration_name": "mistral-large-4-0-261006"
+  },
+  {
+    "phrase": "aber ich glaube schon dass hier eine Blutung ist",
+    "context": "Bin ich mir nicht so sicher,… aber ich glaube schon dass hier eine Blutung ist.",
+    "tags": [
+      "interpretation: bleeding"
+    ],
+    "rationale": "The person interprets the abnormality as a hemorrhage, explicitly mentioning 'eine Blutung' (a hemorrhage).",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_no advice_cycle_25.txt",
+      "row": 6
+    },
+    "model": "mistralai/mistral-large-4-0",
+    "provider": "Mistral",
+    "configuration_name": "mistral-large-4-0-261006"
+  },
+  {
+    "phrase": "Ja bin ich mir nicht so, geht so sicher",
+    "context": "…Ja bin ich mir nicht so, geht so sicher. Aber ich glaub, dass das keine ist.",
+    "tags": [
+      "confidence_low: concrete"
+    ],
+    "rationale": "The speaker explicitly expresses uncertainty about their assessment ('bin ich mir nicht so sicher' = 'I am not so sure'), indicating low confidence in the diagnostic process.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_no advice_cycle_25.txt",
+      "row": 7
+    },
+    "model": "mistralai/mistral-large-4-0",
+    "provider": "Mistral",
+    "configuration_name": "mistral-large-4-0-261006"
+  },
+  {
+    "phrase": "Aber ich glaub, dass das keine ist",
+    "context": "…Ja bin ich mir nicht so, geht so sicher. Aber ich glaub, dass das keine ist.",
+    "tags": [
+      "interpretation: no_bleeding"
+    ],
+    "rationale": "The speaker interprets the finding as not being a hemorrhage ('das keine ist' = 'that it is not one [a bleeding]'), explicitly ruling out a bleeding.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_no advice_cycle_25.txt",
+      "row": 7
+    },
+    "model": "mistralai/mistral-large-4-0",
+    "provider": "Mistral",
+    "configuration_name": "mistral-large-4-0-261006"
+  },
+  {
+    "phrase": "Sehe ich auch nichts. . Ups nein.",
+    "context": "… Sehe ich auch nichts. . Ups nein.",
+    "tags": [
+      "indicator: no_bleeding",
+      "reflection: self-correction"
+    ],
+    "rationale": "The phrase 'Sehe ich auch nichts' (I don't see anything either) indicates the person classifies the specific image area as unremarkable (no bleeding). The interjection 'Ups nein' (Oops no) signals a self-correction of a previous statement or thought process.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_no advice_cycle_25.txt",
+      "row": 8
+    },
+    "model": "mistralai/mistral-large-4-0",
+    "provider": "Mistral",
+    "configuration_name": "mistral-large-4-0-261006"
+  },
+  {
+    "phrase": "Ich hab das Gefühl, ich sehe es nur, wenn es richtig deutlich ist.",
+    "context": "...Ich hab das Gefühl, ich sehe es nur, wenn es richtig deutlich ist. Irgendwie sehe ich schon wieder nichts…. ?",
+    "tags": [
+      "reflection: experience_limitation"
+    ],
+    "rationale": "The person states that they can only perceive abnormalities when they are very obvious ('nur, wenn es richtig deutlich ist'), which refers to a self-identified limitation in their own experience or perceptual abilities.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_no advice_cycle_25.txt",
+      "row": 9
+    },
+    "model": "mistralai/mistral-large-4-0",
+    "provider": "Mistral",
+    "configuration_name": "mistral-large-4-0-261006"
+  },
+  {
+    "phrase": "Irgendwie sehe ich schon wieder nichts…. ?",
+    "context": "Ich hab das Gefühl, ich sehe es nur, wenn es richtig deutlich ist. Irgendwie sehe ich schon wieder nichts…. ?",
+    "tags": [
+      "reflection: perceptual_doubt"
+    ],
+    "rationale": "The person expresses doubt about their own perception by questioning their visual assessment ('Irgendwie... nichts...?'), indicating uncertainty about whether they are seeing the image correctly.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_no advice_cycle_25.txt",
+      "row": 9
+    },
+    "model": "mistralai/mistral-large-4-0",
+    "provider": "Mistral",
+    "configuration_name": "mistral-large-4-0-261006"
+  },
+  {
+    "phrase": "Auch hier habe ich das Gefühl, ich weiß nicht ob ich mir das einbilde, dass ich die Gyri nicht mehr so gut sehen kann",
+    "context": "… Auch hier habe ich das Gefühl, ich weiß nicht ob ich mir das einbilde, dass ich die Gyri nicht mehr so gut sehen kann…",
+    "tags": [
+      "reflection: perceptual_doubt"
+    ],
+    "rationale": "The person explicitly doubts their own perception by questioning whether they are imagining the reduced visibility of the gyri ('ich weiß nicht ob ich mir das einbilde').",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_no advice_cycle_25.txt",
+      "row": 10
+    },
+    "model": "mistralai/mistral-large-4-0",
+    "provider": "Mistral",
+    "configuration_name": "mistral-large-4-0-261006"
+  },
+  {
+    "phrase": "Ja, ähm",
+    "context": "EXPERIMENTER: Kannst auch gerne sagen, was dir aufällt und warum du zu einer Entscheidung kommst. VPN: Ja, ähm… EXPERIMENTER: Vielleicht auch was dir fehlt",
+    "tags": [
+      "paused_in_process"
+    ],
+    "rationale": "Pure filler words and hesitation sounds ('Ja', 'ähm') spoken by the participant.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_no advice_cycle_25.txt",
+      "row": 11
+    },
+    "model": "mistralai/mistral-large-4-0",
+    "provider": "Mistral",
+    "configuration_name": "mistral-large-4-0-261006"
+  },
+  {
+    "phrase": "Ja, ne",
+    "context": "EXPERIMENTER: Vielleicht auch was dir fehlt, um zu sagen, dass da eine Blutung vorliegt. VPN: Ja, ne , ich glaube bei dem Bild hier",
+    "tags": [
+      "paused_in_process"
+    ],
+    "rationale": "Filler/acknowledgment words ('Ja, ne') used as discourse markers before starting the substantive response.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_no advice_cycle_25.txt",
+      "row": 11
+    },
+    "model": "mistralai/mistral-large-4-0",
+    "provider": "Mistral",
+    "configuration_name": "mistral-large-4-0-261006"
+  },
+  {
+    "phrase": "ich glaube bei dem Bild hier sehe ich eher links, Hyperdense Strukturen und auch mittig",
+    "context": "Ja, ne , ich glaube bei dem Bild hier sehe ich eher links, Hyperdense Strukturen und auch mittig. Ich würde hier schon tendieren zu Blutung",
+    "tags": [
+      "visual_search: description_of_medical_image_features"
+    ],
+    "rationale": "The person verbalizes the specific image characteristics (hyperdense structures) and their anatomical location (left side, middle) that they are currently examining.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_no advice_cycle_25.txt",
+      "row": 11
+    },
+    "model": "mistralai/mistral-large-4-0",
+    "provider": "Mistral",
+    "configuration_name": "mistral-large-4-0-261006"
+  },
+  {
+    "phrase": "Ich würde hier schon tendieren zu Blutung",
+    "context": "Hyperdense Strukturen und auch mittig. Ich würde hier schon tendieren zu Blutung, aber jetzt nicht Epidural oder Subdural",
+    "tags": [
+      "interpretation: bleeding"
+    ],
+    "rationale": "The person interprets the observed hyperdense structures as a hemorrhage, explicitly using the term 'Blutung' (bleeding) and indicating they lean towards this diagnosis ('tendieren zu').",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_no advice_cycle_25.txt",
+      "row": 11
+    },
+    "model": "mistralai/mistral-large-4-0",
+    "provider": "Mistral",
+    "configuration_name": "mistral-large-4-0-261006"
+  },
+  {
+    "phrase": "aber jetzt nicht Epidural oder Subdural, sehe ich da, hm, eher nicht",
+    "context": "Ich würde hier schon tendieren zu Blutung, aber jetzt nicht Epidural oder Subdural, sehe ich da, hm, eher nicht... Aber mhm, ja.",
+    "tags": [
+      "interpretation: description_bleeding",
+      "confidence_low: secondary"
+    ],
+    "rationale": "The person describes the suspected hemorrhage in more detail by specifying the type (ruling out epidural and subdural). The adverb 'eher' in 'eher nicht' implicitly signals low certainty about this specific classification.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_no advice_cycle_25.txt",
+      "row": 11
+    },
+    "model": "mistralai/mistral-large-4-0",
+    "provider": "Mistral",
+    "configuration_name": "mistral-large-4-0-261006"
+  },
+  {
+    "phrase": "Aber mhm, ja",
+    "context": "...sehe ich da, hm, eher nicht... Aber mhm, ja.",
+    "tags": [
+      "paused_in_process"
+    ],
+    "rationale": "Closing filler words and acknowledgment sounds at the end of the statement.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_no advice_cycle_25.txt",
+      "row": 11
+    },
+    "model": "mistralai/mistral-large-4-0",
+    "provider": "Mistral",
+    "configuration_name": "mistral-large-4-0-261006"
+  },
+  {
+    "phrase": "Ja, da habe ich schon das Gefühl, dass die Mittellinie verlagert ist nach links vorallem.",
+    "context": "… Ja, da habe ich schon das Gefühl, dass die Mittellinie verlagert ist nach links vorallem. Ähm, Occipital, also…",
+    "tags": [
+      "indicator: anomaly_detected",
+      "confidence_low: secondary"
+    ],
+    "rationale": "The person notices a midline shift (abnormality) and expresses uncertainty through 'habe ich das Gefühl'.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_no advice_cycle_25.txt",
+      "row": 12
+    },
+    "model": "mistralai/mistral-large-4-0",
+    "provider": "Mistral",
+    "configuration_name": "mistral-large-4-0-261006"
+  },
+  {
+    "phrase": "Ähm, Occipital, also…",
+    "context": "… vorallem. Ähm, Occipital, also…, da probiere ich dann, ähm, links sehe ich auch eine Signalerhöhung…",
+    "tags": [
+      "visual_search: description_of_medical_image_features"
+    ],
+    "rationale": "The person verbalizes the anatomical location (occipital) they are examining.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_no advice_cycle_25.txt",
+      "row": 12
+    },
+    "model": "mistralai/mistral-large-4-0",
+    "provider": "Mistral",
+    "configuration_name": "mistral-large-4-0-261006"
+  },
+  {
+    "phrase": "da probiere ich dann",
+    "context": "… Occipital, also…, da probiere ich dann, ähm, links sehe ich auch eine Signalerhöhung, äh quatsch…",
+    "tags": [
+      "visual_search: description_of_own_approach_without_external_help"
+    ],
+    "rationale": "The person explicitly comments on their own search procedure ('probiere ich').",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_no advice_cycle_25.txt",
+      "row": 12
+    },
+    "model": "mistralai/mistral-large-4-0",
+    "provider": "Mistral",
+    "configuration_name": "mistral-large-4-0-261006"
+  },
+  {
+    "phrase": "links sehe ich auch eine Signalerhöhung",
+    "context": "… da probiere ich dann, ähm, links sehe ich auch eine Signalerhöhung, äh quatsch, Hyperdense Struktur…",
+    "tags": [
+      "indicator: anomaly_detected"
+    ],
+    "rationale": "The person notices a signal increase (hyperdense area), which is an abnormality.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_no advice_cycle_25.txt",
+      "row": 12
+    },
+    "model": "mistralai/mistral-large-4-0",
+    "provider": "Mistral",
+    "configuration_name": "mistral-large-4-0-261006"
+  },
+  {
+    "phrase": "äh quatsch, Hyperdense Struktur, occipital habe ich das Gefühl.",
+    "context": "… links sehe ich auch eine Signalerhöhung, äh quatsch, Hyperdense Struktur, occipital habe ich das Gefühl. Hmm, Ich glaub…",
+    "tags": [
+      "reflection: self-correction",
+      "visual_search: description_of_medical_image_features",
+      "confidence_low: secondary"
+    ],
+    "rationale": "The person corrects their previous statement ('quatsch'), describes the image feature ('Hyperdense Struktur', 'occipital'), and expresses uncertainty ('Gefühl').",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_no advice_cycle_25.txt",
+      "row": 12
+    },
+    "model": "mistralai/mistral-large-4-0",
+    "provider": "Mistral",
+    "configuration_name": "mistral-large-4-0-261006"
+  },
+  {
+    "phrase": "Hmm, Ich glaub hier ist dann schon eine Blutung.",
+    "context": "… occipital habe ich das Gefühl. Hmm, Ich glaub hier ist dann schon eine Blutung.",
+    "tags": [
+      "interpretation: bleeding",
+      "confidence_low: secondary"
+    ],
+    "rationale": "The person interprets the finding as a hemorrhage ('Blutung') and expresses low certainty ('glaub').",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_no advice_cycle_25.txt",
+      "row": 12
+    },
+    "model": "mistralai/mistral-large-4-0",
+    "provider": "Mistral",
+    "configuration_name": "mistral-large-4-0-261006"
+  },
+  {
+    "phrase": "Ähm",
+    "context": "…Ähm, hier rechts ist eine Hyperdense Struktur. Und… ich bin mir aber unsicher…",
+    "tags": [
+      "paused_in_process"
+    ],
+    "rationale": "Filler word indicating a pause in the diagnostic process.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_no advice_cycle_25.txt",
+      "row": 13
+    },
+    "model": "mistralai/mistral-large-4-0",
+    "provider": "Mistral",
+    "configuration_name": "mistral-large-4-0-261006"
+  },
+  {
+    "phrase": "hier rechts ist eine Hyperdense Struktur",
+    "context": "…Ähm, hier rechts ist eine Hyperdense Struktur. Und… ich bin mir aber unsicher…",
+    "tags": [
+      "indicator: anomaly_detected"
+    ],
+    "rationale": "Person notices a hyperdense structure, which is an abnormality atypical for a healthy skull.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_no advice_cycle_25.txt",
+      "row": 13
+    },
+    "model": "mistralai/mistral-large-4-0",
+    "provider": "Mistral",
+    "configuration_name": "mistral-large-4-0-261006"
+  },
+  {
+    "phrase": "ich bin mir aber unsicher",
+    "context": "…hier rechts ist eine Hyperdense Struktur. Und… ich bin mir aber unsicher, ob das schon im Knochen ist…",
+    "tags": [
+      "confidence_low: concrete"
+    ],
+    "rationale": "Person explicitly expresses uncertainty ('unsicher') about the finding.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_no advice_cycle_25.txt",
+      "row": 13
+    },
+    "model": "mistralai/mistral-large-4-0",
+    "provider": "Mistral",
+    "configuration_name": "mistral-large-4-0-261006"
+  },
+  {
+    "phrase": "ob das schon im Knochen ist",
+    "context": "…ich bin mir aber unsicher, ob das schon im Knochen ist, gerade schon was man sieht…",
+    "tags": [
+      "reasoning: alternative_medical_structure"
+    ],
+    "rationale": "Person considers attributing the abnormality to a healthy anatomical structure (bone/Knochen).",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_no advice_cycle_25.txt",
+      "row": 13
+    },
+    "model": "mistralai/mistral-large-4-0",
+    "provider": "Mistral",
+    "configuration_name": "mistral-large-4-0-261006"
+  },
+  {
+    "phrase": "Könnte sein",
+    "context": "…ob das schon im Knochen ist, gerade schon was man sieht. Könnte sein. Da bin ich mir jetzt grade sicher, unsicher…",
+    "tags": [
+      "confidence_low: secondary"
+    ],
+    "rationale": "Implicit expression of low certainty through the modal expression 'könnte sein' (could be/might be).",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_no advice_cycle_25.txt",
+      "row": 13
+    },
+    "model": "mistralai/mistral-large-4-0",
+    "provider": "Mistral",
+    "configuration_name": "mistral-large-4-0-261006"
+  },
+  {
+    "phrase": "Da bin ich mir jetzt grade sicher, unsicher",
+    "context": "…Könnte sein. Da bin ich mir jetzt grade sicher, unsicher. Ist einfach nur der Schnitt gerade…",
+    "tags": [
+      "reflection: self-correction",
+      "confidence_low: concrete"
+    ],
+    "rationale": "Person corrects their previous statement from 'sicher' (certain) to 'unsicher' (uncertain), explicitly expressing low confidence.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_no advice_cycle_25.txt",
+      "row": 13
+    },
+    "model": "mistralai/mistral-large-4-0",
+    "provider": "Mistral",
+    "configuration_name": "mistral-large-4-0-261006"
+  },
+  {
+    "phrase": "Ist einfach nur der Schnitt gerade",
+    "context": "…Da bin ich mir jetzt grade sicher, unsicher. Ist einfach nur der Schnitt gerade. Und das Artefakt für mich dann…",
+    "tags": [
+      "interpretation: no_bleeding_explanation"
+    ],
+    "rationale": "Person explains that the finding is just the slice/cut (normal anatomy), explaining why it cannot be a hemorrhage.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_no advice_cycle_25.txt",
+      "row": 13
+    },
+    "model": "mistralai/mistral-large-4-0",
+    "provider": "Mistral",
+    "configuration_name": "mistral-large-4-0-261006"
+  },
+  {
+    "phrase": "Und das Artefakt für mich dann... quasi, da ist so ein großer Fleck, könnte gut sein",
+    "context": "…Ist einfach nur der Schnitt gerade. Und das Artefakt für mich dann... quasi, da ist so ein großer Fleck, könnte gut sein... Deswegen würd ich hier sagen eher nein…",
+    "tags": [
+      "reasoning: artifact",
+      "confidence_low: secondary"
+    ],
+    "rationale": "Person refers to the abnormality as an artifact ('Artefakt') and expresses implicit uncertainty with 'könnte gut sein'.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_no advice_cycle_25.txt",
+      "row": 13
+    },
+    "model": "mistralai/mistral-large-4-0",
+    "provider": "Mistral",
+    "configuration_name": "mistral-large-4-0-261006"
+  },
+  {
+    "phrase": "Deswegen würd ich hier sagen eher nein",
+    "context": "…könnte gut sein... Deswegen würd ich hier sagen eher nein, bin ich mir aber nicht so sicher, eigentlich.",
+    "tags": [
+      "interpretation: no_bleeding"
+    ],
+    "rationale": "Person concludes that there is no hemorrhage ('eher nein' - rather no).",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_no advice_cycle_25.txt",
+      "row": 13
+    },
+    "model": "mistralai/mistral-large-4-0",
+    "provider": "Mistral",
+    "configuration_name": "mistral-large-4-0-261006"
+  },
+  {
+    "phrase": "bin ich mir aber nicht so sicher, eigentlich",
+    "context": "…Deswegen würd ich hier sagen eher nein, bin ich mir aber nicht so sicher, eigentlich.",
+    "tags": [
+      "confidence_low: concrete"
+    ],
+    "rationale": "Person explicitly expresses low certainty ('nicht so sicher') about their conclusion.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_no advice_cycle_25.txt",
+      "row": 13
+    },
+    "model": "mistralai/mistral-large-4-0",
+    "provider": "Mistral",
+    "configuration_name": "mistral-large-4-0-261006"
+  },
+  {
+    "phrase": "Hmm, ja hier, glaub ich, links parietal, seh ich da was…",
+    "context": "… Hmm, ja hier, glaub ich, links parietal, seh ich da was… Hmm…, eher glaube ich…",
+    "tags": [
+      "indicator: anomaly_detected"
+    ],
+    "rationale": "The person notices an abnormality ('seh ich da was') in the left parietal region.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_no advice_cycle_25.txt",
+      "row": 14
+    },
+    "model": "mistralai/mistral-large-4-0",
+    "provider": "Mistral",
+    "configuration_name": "mistral-large-4-0-261006"
+  },
+  {
+    "phrase": "Hmm…, eher glaube ich, konvex deswegen vielleicht eine kleine Durale Blutung…",
+    "context": "… seh ich da was… Hmm…, eher glaube ich, konvex deswegen vielleicht eine kleine Durale Blutung… Aber doch ich glaube schon.",
+    "tags": [
+      "interpretation: bleeding",
+      "confidence_low: secondary"
+    ],
+    "rationale": "The person interprets the finding as a small dural hemorrhage ('eine kleine Durale Blutung') with low confidence indicated by 'eher glaube ich' and 'vielleicht'.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_no advice_cycle_25.txt",
+      "row": 14
+    },
+    "model": "mistralai/mistral-large-4-0",
+    "provider": "Mistral",
+    "configuration_name": "mistral-large-4-0-261006"
+  },
+  {
+    "phrase": "Aber doch ich glaube schon.",
+    "context": "… eine kleine Durale Blutung… Aber doch ich glaube schon. Doch ich glaube schon.",
+    "tags": [
+      "reflection: self-affirmation",
+      "confidence_high: secondary"
+    ],
+    "rationale": "The person reaffirms their assessment ('Aber doch ich glaube schon') with increased confidence after initial uncertainty.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_no advice_cycle_25.txt",
+      "row": 14
+    },
+    "model": "mistralai/mistral-large-4-0",
+    "provider": "Mistral",
+    "configuration_name": "mistral-large-4-0-261006"
+  },
+  {
+    "phrase": "Doch ich glaube schon.",
+    "context": "… Aber doch ich glaube schon. Doch ich glaube schon. Sieht so aus würden die Gyri nach rechts gedrückt werden.",
+    "tags": [
+      "reflection: self-affirmation",
+      "confidence_high: secondary"
+    ],
+    "rationale": "Repetition of self-affirmation and expression of confidence.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_no advice_cycle_25.txt",
+      "row": 14
+    },
+    "model": "mistralai/mistral-large-4-0",
+    "provider": "Mistral",
+    "configuration_name": "mistral-large-4-0-261006"
+  },
+  {
+    "phrase": "Sieht so aus würden die Gyri nach rechts gedrückt werden.",
+    "context": "… Doch ich glaube schon. Sieht so aus würden die Gyri nach rechts gedrückt werden. Ich glaub ja.",
+    "tags": [
+      "interpretation: description_bleeding"
+    ],
+    "rationale": "The person describes the identified hemorrhage in more detail by noting the mass effect (gyri pushed to the right).",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_no advice_cycle_25.txt",
+      "row": 14
+    },
+    "model": "mistralai/mistral-large-4-0",
+    "provider": "Mistral",
+    "configuration_name": "mistral-large-4-0-261006"
+  },
+  {
+    "phrase": "Ich glaub ja.",
+    "context": "… würden die Gyri nach rechts gedrückt werden. Ich glaub ja.",
+    "tags": [
+      "confidence_high: secondary"
+    ],
+    "rationale": "Expression of high confidence ('I do believe so').",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_no advice_cycle_25.txt",
+      "row": 14
+    },
+    "model": "mistralai/mistral-large-4-0",
+    "provider": "Mistral",
+    "configuration_name": "mistral-large-4-0-261006"
+  },
+  {
+    "phrase": "Hm, jetzt bin ich mir sehr unsicher",
+    "context": "… Hm, jetzt bin ich mir sehr unsicher, aber hmm, eher frontal in Höhe der, ne warte Mal",
+    "tags": [
+      "confidence_low: concrete"
+    ],
+    "rationale": "The person explicitly states they are very uncertain ('sehr unsicher') about the diagnostic process.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_no advice_cycle_25.txt",
+      "row": 15
+    },
+    "model": "mistralai/mistral-large-4-0",
+    "provider": "Mistral",
+    "configuration_name": "mistral-large-4-0-261006"
+  },
+  {
+    "phrase": "aber hmm",
+    "context": "…jetzt bin ich mir sehr unsicher, aber hmm, eher frontal in Höhe der…",
+    "tags": [
+      "paused_in_process"
+    ],
+    "rationale": "Filler words indicating a pause in the thought process.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_no advice_cycle_25.txt",
+      "row": 15
+    },
+    "model": "mistralai/mistral-large-4-0",
+    "provider": "Mistral",
+    "configuration_name": "mistral-large-4-0-261006"
+  },
+  {
+    "phrase": "eher frontal in Höhe der",
+    "context": "…aber hmm, eher frontal in Höhe der, ne warte Mal, bei den Ventrikeln…",
+    "tags": [
+      "visual_search: description_of_medical_image_features"
+    ],
+    "rationale": "The person describes the anatomical location they are examining (frontal, at the level of...).",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_no advice_cycle_25.txt",
+      "row": 15
+    },
+    "model": "mistralai/mistral-large-4-0",
+    "provider": "Mistral",
+    "configuration_name": "mistral-large-4-0-261006"
+  },
+  {
+    "phrase": "ne warte Mal",
+    "context": "…in Höhe der, ne warte Mal, bei den Ventrikeln sieht das so aus…",
+    "tags": [
+      "reflection: self-correction"
+    ],
+    "rationale": "The person interrupts their own statement to correct or reconsider the location description.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_no advice_cycle_25.txt",
+      "row": 15
+    },
+    "model": "mistralai/mistral-large-4-0",
+    "provider": "Mistral",
+    "configuration_name": "mistral-large-4-0-261006"
+  },
+  {
+    "phrase": "bei den Ventrikeln sieht das so aus, als wären da hypodense Bereiche",
+    "context": "…ne warte Mal, bei den Ventrikeln sieht das so aus, als wären da hypodense Bereiche. Das könnte…",
+    "tags": [
+      "visual_search: description_of_medical_image_features"
+    ],
+    "rationale": "The person verbalizes the anatomical structures (ventricles) and image characteristics (hypodense areas) they are observing.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_no advice_cycle_25.txt",
+      "row": 15
+    },
+    "model": "mistralai/mistral-large-4-0",
+    "provider": "Mistral",
+    "configuration_name": "mistral-large-4-0-261006"
+  },
+  {
+    "phrase": "Das könnte jetzt auf eine chronische Blutung hindeuten",
+    "context": "…hypodense Bereiche. Das könnte jetzt auf eine chronische Blutung hindeuten. Vielleicht was…",
+    "tags": [
+      "interpretation: bleeding",
+      "confidence_low: secondary"
+    ],
+    "rationale": "The person interprets the hypodense areas as indicating a chronic hemorrhage ('chronische Blutung'). The word 'könnte' (could) indicates implicit low certainty.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_no advice_cycle_25.txt",
+      "row": 15
+    },
+    "model": "mistralai/mistral-large-4-0",
+    "provider": "Mistral",
+    "configuration_name": "mistral-large-4-0-261006"
+  },
+  {
+    "phrase": "Vielleicht was, äh, eine Hypertensive Erkrankung, oder so",
+    "context": "…chronische Blutung hindeuten. Vielleicht was, äh, eine Hypertensive Erkrankung, oder so. Nur da…",
+    "tags": [
+      "reasoning: alternative_medical_cause",
+      "confidence_low: secondary"
+    ],
+    "rationale": "The person names hypertensive disease ('Hypertensive Erkrankung') as an alternative medical cause. The word 'Vielleicht' (perhaps) indicates implicit low certainty.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_no advice_cycle_25.txt",
+      "row": 15
+    },
+    "model": "mistralai/mistral-large-4-0",
+    "provider": "Mistral",
+    "configuration_name": "mistral-large-4-0-261006"
+  },
+  {
+    "phrase": "Nur da bin ich mir sehr unsicher",
+    "context": "…Hypertensive Erkrankung, oder so. Nur da bin ich mir sehr unsicher.",
+    "tags": [
+      "confidence_low: concrete"
+    ],
+    "rationale": "The person explicitly expresses being very uncertain ('sehr unsicher') about the suggested diagnosis.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_no advice_cycle_25.txt",
+      "row": 15
+    },
+    "model": "mistralai/mistral-large-4-0",
+    "provider": "Mistral",
+    "configuration_name": "mistral-large-4-0-261006"
+  },
+  {
+    "phrase": "Hier sehe ich nichts.",
+    "context": "… Hier sehe ich nichts.",
+    "tags": [
+      "indicator: no_bleeding"
+    ],
+    "rationale": "The person states that they see nothing in a specific area, thereby classifying that image area as unremarkable or normal.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_no advice_cycle_25.txt",
+      "row": 16
+    },
+    "model": "mistralai/mistral-large-4-0",
+    "provider": "Mistral",
+    "configuration_name": "mistral-large-4-0-261006"
+  },
+  {
+    "phrase": "Ich weiß nicht ob mir das einbilde",
+    "context": "Okay, hmm. Ich weiß nicht ob mir das einbilde, aber es sieht so aus als wären da ganz diffuse, kleine Blutungen.",
+    "tags": [
+      "reflection: perceptual_doubt"
+    ],
+    "rationale": "The person explicitly doubts whether they are imagining the finding ('ob mir das einbilde'), indicating uncertainty about their own perception.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_no advice_cycle_25.txt",
+      "row": 17
+    },
+    "model": "mistralai/mistral-large-4-0",
+    "provider": "Mistral",
+    "configuration_name": "mistral-large-4-0-261006"
+  },
+  {
+    "phrase": "aber es sieht so aus als wären da ganz diffuse, kleine Blutungen",
+    "context": "Ich weiß nicht ob mir das einbilde, aber es sieht so aus als wären da ganz diffuse, kleine Blutungen. Hmm….",
+    "tags": [
+      "interpretation: bleeding"
+    ],
+    "rationale": "The person interprets the observed abnormality as hemorrhages ('Blutungen'), describing them as diffuse and small.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_no advice_cycle_25.txt",
+      "row": 17
+    },
+    "model": "mistralai/mistral-large-4-0",
+    "provider": "Mistral",
+    "configuration_name": "mistral-large-4-0-261006"
+  },
+  {
+    "phrase": "Hmm….",
+    "context": "aber es sieht so aus als wären da ganz diffuse, kleine Blutungen. Hmm…. Ist es richtig hier?",
+    "tags": [
+      "paused_in_process"
+    ],
+    "rationale": "'Hmm' is a filler word indicating a pause in the diagnostic process.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_no advice_cycle_25.txt",
+      "row": 17
+    },
+    "model": "mistralai/mistral-large-4-0",
+    "provider": "Mistral",
+    "configuration_name": "mistral-large-4-0-261006"
+  },
+  {
+    "phrase": "Ist es richtig hier?",
+    "context": "Hmm…. Ist es richtig hier? ... Ja ich bin mir nicht so sicher, aber ich glaub schon.",
+    "tags": [
+      "control: reflective_question"
+    ],
+    "rationale": "The person asks themselves a question to verify or control their thought process regarding the location of the finding.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_no advice_cycle_25.txt",
+      "row": 17
+    },
+    "model": "mistralai/mistral-large-4-0",
+    "provider": "Mistral",
+    "configuration_name": "mistral-large-4-0-261006"
+  },
+  {
+    "phrase": "Ja ich bin mir nicht so sicher, aber ich glaub schon.",
+    "context": "Ist es richtig hier? ... Ja ich bin mir nicht so sicher, aber ich glaub schon.",
+    "tags": [
+      "confidence_low: concrete"
+    ],
+    "rationale": "The person explicitly expresses low certainty ('nicht so sicher') regarding their diagnostic assessment.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_no advice_cycle_25.txt",
+      "row": 17
+    },
+    "model": "mistralai/mistral-large-4-0",
+    "provider": "Mistral",
+    "configuration_name": "mistral-large-4-0-261006"
+  },
+  {
+    "phrase": "Hier sieht der Schädel noch intakt aus, die Mittellinie in der Mitte.",
+    "context": "… Hier sieht der Schädel noch intakt aus, die Mittellinie in der Mitte. Im Parenchym sehe ich nichts besonderes…",
+    "tags": [
+      "visual_search: description_of_medical_image_features"
+    ],
+    "rationale": "The person verbalizes anatomical structures (skull, midline) and their image characteristics (intact, centered) that they are currently examining.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_no advice_cycle_25.txt",
+      "row": 18
+    },
+    "model": "mistralai/mistral-large-4-0",
+    "provider": "Mistral",
+    "configuration_name": "mistral-large-4-0-261006"
+  },
+  {
+    "phrase": "Im Parenchym sehe ich nichts besonderes",
+    "context": "… Hier sieht der Schädel noch intakt aus, die Mittellinie in der Mitte. Im Parenchym sehe ich nichts besonderes…",
+    "tags": [
+      "indicator: no_bleeding"
+    ],
+    "rationale": "The person explicitly classifies the parenchyma (brain tissue) as unremarkable ('nichts besonderes'), indicating no abnormality or bleeding in that specific area.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_no advice_cycle_25.txt",
+      "row": 18
+    },
+    "model": "mistralai/mistral-large-4-0",
+    "provider": "Mistral",
+    "configuration_name": "mistral-large-4-0-261006"
+  },
+  {
+    "phrase": "...Hmm…",
+    "context": "...Hmm… Hier sehe ich auch nichts…. Ich habe das Gefühl, ich sehe generell nichts.",
+    "tags": [
+      "paused_in_process"
+    ],
+    "rationale": "Filler word indicating hesitation or pause in the diagnostic process.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_no advice_cycle_25.txt",
+      "row": 19
+    },
+    "model": "mistralai/mistral-large-4-0",
+    "provider": "Mistral",
+    "configuration_name": "mistral-large-4-0-261006"
+  },
+  {
+    "phrase": "Hier sehe ich auch nichts…. ",
+    "context": "...Hmm… Hier sehe ich auch nichts…. Ich habe das Gefühl, ich sehe generell nichts.",
+    "tags": [
+      "indicator: no_bleeding"
+    ],
+    "rationale": "Person classifies a specific image area ('Hier') as unremarkable ('nichts').",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_no advice_cycle_25.txt",
+      "row": 19
+    },
+    "model": "mistralai/mistral-large-4-0",
+    "provider": "Mistral",
+    "configuration_name": "mistral-large-4-0-261006"
+  },
+  {
+    "phrase": "Ich habe das Gefühl, ich sehe generell nichts.",
+    "context": "Hier sehe ich auch nichts…. Ich habe das Gefühl, ich sehe generell nichts. Auch wenn, dass das…",
+    "tags": [
+      "reflection: perceptual_doubt"
+    ],
+    "rationale": "Person explicitly doubts their own perception ('habe das Gefühl, ich sehe... nichts').",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_no advice_cycle_25.txt",
+      "row": 19
+    },
+    "model": "mistralai/mistral-large-4-0",
+    "provider": "Mistral",
+    "configuration_name": "mistral-large-4-0-261006"
+  },
+  {
+    "phrase": "Auch wenn, dass das… Hmm… Hm, das ist nicht.",
+    "context": "Ich habe das Gefühl, ich sehe generell nichts. Auch wenn, dass das… Hmm… Hm, das ist nicht.",
+    "tags": [
+      "other"
+    ],
+    "rationale": "Fragmented, incomplete thought with high uncertainty; no clear code assignable from the given information.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_no advice_cycle_25.txt",
+      "row": 19
+    },
+    "model": "mistralai/mistral-large-4-0",
+    "provider": "Mistral",
+    "configuration_name": "mistral-large-4-0-261006"
+  },
+  {
+    "phrase": "Ah ich muss jetzt zugeben, ich sehe jetzt gerade, dass man Diagnosen da oben, oder Symptomatik, also Patienteninformationen.",
+    "context": "… Ah ich muss jetzt zugeben, ich sehe jetzt gerade, dass man Diagnosen da oben, oder Symptomatik, also Patienteninformationen. Das hilft natürlich, vielleicht mal…",
+    "tags": [
+      "reasoning: mentioning_contextual_information"
+    ],
+    "rationale": "Person mentions patient-related information (diagnoses, symptoms, patient information) that is available in the case.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_no advice_cycle_25.txt",
+      "row": 20
+    },
+    "model": "mistralai/mistral-large-4-0",
+    "provider": "Mistral",
+    "configuration_name": "mistral-large-4-0-261006"
+  },
+  {
+    "phrase": "Das hilft natürlich, vielleicht mal, ähm, wenn es da steht, ja, die Lokalisation oder so oder Kopfschmerzen oder sowas. Vielleicht hilft, das ja ein bisschen.",
+    "context": "…Patienteninformationen. Das hilft natürlich, vielleicht mal, ähm, wenn es da steht, ja, die Lokalisation oder so oder Kopfschmerzen oder sowas. Vielleicht hilft, das ja ein bisschen. Also jetzt sehe ich…",
+    "tags": [
+      "reasoning: conclusion_contextual_information"
+    ],
+    "rationale": "Person draws a conclusion about the utility of the medical history/contextual information, stating that it helps with localization or symptoms.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_no advice_cycle_25.txt",
+      "row": 20
+    },
+    "model": "mistralai/mistral-large-4-0",
+    "provider": "Mistral",
+    "configuration_name": "mistral-large-4-0-261006"
+  },
+  {
+    "phrase": "Also jetzt sehe ich hier das hier gerade deutlich, der Ventrikel wird, ähm, eingeengt.",
+    "context": "…Vielleicht hilft, das ja ein bisschen. Also jetzt sehe ich hier das hier gerade deutlich, der Ventrikel wird, ähm, eingeengt. Und ja das ist ein deutliches Bild…",
+    "tags": [
+      "visual_search: description_of_medical_image_features"
+    ],
+    "rationale": "Person verbalizes which anatomical structure (ventricle) they are currently looking at and describes the image characteristic (compression/eingeengt).",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_no advice_cycle_25.txt",
+      "row": 20
+    },
+    "model": "mistralai/mistral-large-4-0",
+    "provider": "Mistral",
+    "configuration_name": "mistral-large-4-0-261006"
+  },
+  {
+    "phrase": "Und ja das ist ein deutliches Bild für eine Epidurale? Blutung.",
+    "context": "…der Ventrikel wird, ähm, eingeengt. Und ja das ist ein deutliches Bild für eine Epidurale? Blutung. Da bin ich mir sehr sicher, eigentlich",
+    "tags": [
+      "interpretation: bleeding"
+    ],
+    "rationale": "Person interprets the abnormality as a hemorrhage/bleeding ('Blutung'), specifically identifying it as an epidural bleeding.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_no advice_cycle_25.txt",
+      "row": 20
+    },
+    "model": "mistralai/mistral-large-4-0",
+    "provider": "Mistral",
+    "configuration_name": "mistral-large-4-0-261006"
+  },
+  {
+    "phrase": "Da bin ich mir sehr sicher, eigentlich",
+    "context": "…für eine Epidurale? Blutung. Da bin ich mir sehr sicher, eigentlich",
+    "tags": [
+      "confidence_high: concrete"
+    ],
+    "rationale": "Person explicitly expresses high certainty ('sehr sicher') regarding the diagnostic interpretation.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_no advice_cycle_25.txt",
+      "row": 20
+    },
+    "model": "mistralai/mistral-large-4-0",
+    "provider": "Mistral",
+    "configuration_name": "mistral-large-4-0-261006"
+  },
+  {
+    "phrase": "Ja da sehe ich erstmal, dass die Person eine Migräne hat.",
+    "context": "… Ja da sehe ich erstmal, dass die Person eine Migräne hat. Das ist wahrscheinlich dann eine Verschlussdiagnose? hier.",
+    "tags": [
+      "reasoning: mentioning_contextual_information"
+    ],
+    "rationale": "Person mentions patient-related medical history (migraine).",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_no advice_cycle_25.txt",
+      "row": 21
+    },
+    "model": "mistralai/mistral-large-4-0",
+    "provider": "Mistral",
+    "configuration_name": "mistral-large-4-0-261006"
+  },
+  {
+    "phrase": "Das ist wahrscheinlich dann eine Verschlussdiagnose? hier.",
+    "context": "dass die Person eine Migräne hat. Das ist wahrscheinlich dann eine Verschlussdiagnose? hier. Das Bild finde ich jetzt nicht so gut.",
+    "tags": [
+      "control: reflective_question"
+    ],
+    "rationale": "Person asks themselves a question (indicated by '?') to verify their diagnostic reasoning about whether it is a diagnosis of exclusion.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_no advice_cycle_25.txt",
+      "row": 21
+    },
+    "model": "mistralai/mistral-large-4-0",
+    "provider": "Mistral",
+    "configuration_name": "mistral-large-4-0-261006"
+  },
+  {
+    "phrase": "Das Bild finde ich jetzt nicht so gut.",
+    "context": "Verschlussdiagnose? hier. Das Bild finde ich jetzt nicht so gut. EXPERIMENTER: Du kannst den Kontrast noch einstellen.",
+    "tags": [
+      "awareness_of_task: image_quality"
+    ],
+    "rationale": "Person explicitly complains about the image quality.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_no advice_cycle_25.txt",
+      "row": 21
+    },
+    "model": "mistralai/mistral-large-4-0",
+    "provider": "Mistral",
+    "configuration_name": "mistral-large-4-0-261006"
+  },
+  {
+    "phrase": "VPN: Was?",
+    "context": "Du kannst den Kontrast noch einstellen. VPN: Was? EXPERIMENTER: Du kannst den Kontrast noch einstellen.",
+    "tags": [
+      "paused_in_process"
+    ],
+    "rationale": "Filler word/interjection indicating pause or confusion.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_no advice_cycle_25.txt",
+      "row": 21
+    },
+    "model": "mistralai/mistral-large-4-0",
+    "provider": "Mistral",
+    "configuration_name": "mistral-large-4-0-261006"
+  },
+  {
+    "phrase": "VPN: Ah, warte mal. Ja.",
+    "context": "das zweite von links. VPN: Ah, warte mal. Ja. EXPERIMENTER: Jetzt hast du es invertiert.",
+    "tags": [
+      "paused_in_process"
+    ],
+    "rationale": "Filler words indicating pause.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_no advice_cycle_25.txt",
+      "row": 21
+    },
+    "model": "mistralai/mistral-large-4-0",
+    "provider": "Mistral",
+    "configuration_name": "mistral-large-4-0-261006"
+  },
+  {
+    "phrase": "VPN: Ja, so?",
+    "context": "Jetzt hast du es invertiert. VPN: Ja, so? EXPERIMENTER: Ähm, ja du kannst jetzt einmal, genau, auf den Mauszeiger nochmal klicken.",
+    "tags": [
+      "paused_in_process"
+    ],
+    "rationale": "Filler/confirmation seeking utterance.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_no advice_cycle_25.txt",
+      "row": 21
+    },
+    "model": "mistralai/mistral-large-4-0",
+    "provider": "Mistral",
+    "configuration_name": "mistral-large-4-0-261006"
+  },
+  {
+    "phrase": "VPN: Mhm, ich hätte es lieber, wie es vorher war.",
+    "context": "dann stellst du den Kontrast ein. VPN: Mhm, ich hätte es lieber, wie es vorher war. Oh man.",
+    "tags": [
+      "awareness_of_task: image_quality"
+    ],
+    "rationale": "Person expresses dissatisfaction with current image quality by preferring the previous setting.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_no advice_cycle_25.txt",
+      "row": 21
+    },
+    "model": "mistralai/mistral-large-4-0",
+    "provider": "Mistral",
+    "configuration_name": "mistral-large-4-0-261006"
+  },
+  {
+    "phrase": "Oh man. Das ist ja schlecht.",
+    "context": "wie es vorher war. Oh man. Das ist ja schlecht. Ja gut, das habe ich schlecht eingestellt.",
+    "tags": [
+      "awareness_of_task: image_quality"
+    ],
+    "rationale": "Person explicitly complains about the image quality ('schlecht').",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_no advice_cycle_25.txt",
+      "row": 21
+    },
+    "model": "mistralai/mistral-large-4-0",
+    "provider": "Mistral",
+    "configuration_name": "mistral-large-4-0-261006"
+  },
+  {
+    "phrase": "Ja gut, das habe ich schlecht eingestellt.",
+    "context": "Das ist ja schlecht. Ja gut, das habe ich schlecht eingestellt. Ah, das ist besser.",
+    "tags": [
+      "reflection: self-correction"
+    ],
+    "rationale": "Person acknowledges and corrects their own previous action (bad adjustment of contrast).",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_no advice_cycle_25.txt",
+      "row": 21
+    },
+    "model": "mistralai/mistral-large-4-0",
+    "provider": "Mistral",
+    "configuration_name": "mistral-large-4-0-261006"
+  },
+  {
+    "phrase": "Ah, das ist besser.",
+    "context": "das habe ich schlecht eingestellt. Ah, das ist besser. Ich habs jetzt ein bisschen schlecht eingestellt, aber ich sehe auch nichts.",
+    "tags": [
+      "awareness_of_task: image_quality"
+    ],
+    "rationale": "Person evaluates the image quality as improved.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_no advice_cycle_25.txt",
+      "row": 21
+    },
+    "model": "mistralai/mistral-large-4-0",
+    "provider": "Mistral",
+    "configuration_name": "mistral-large-4-0-261006"
+  },
+  {
+    "phrase": "Ich habs jetzt ein bisschen schlecht eingestellt, aber ich sehe auch nichts.",
+    "context": "Ah, das ist besser. Ich habs jetzt ein bisschen schlecht eingestellt, aber ich sehe auch nichts. Deswegen drücke ich auf nicht so sicher, weil vielleicht habe ich das jetzt schlecht eingestellt, aber ich sehe nichts.",
+    "tags": [
+      "awareness_of_task: image_quality"
+    ],
+    "rationale": "Person notes that the adjustment is still suboptimal, affecting their ability to see findings.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_no advice_cycle_25.txt",
+      "row": 21
+    },
+    "model": "mistralai/mistral-large-4-0",
+    "provider": "Mistral",
+    "configuration_name": "mistral-large-4-0-261006"
+  },
+  {
+    "phrase": "Deswegen drücke ich auf nicht so sicher",
+    "context": "aber ich sehe auch nichts. Deswegen drücke ich auf nicht so sicher, weil vielleicht habe ich das jetzt schlecht eingestellt, aber ich sehe nichts.",
+    "tags": [
+      "confidence_low: concrete"
+    ],
+    "rationale": "Person explicitly expresses low certainty ('nicht so sicher') about their diagnostic decision.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_no advice_cycle_25.txt",
+      "row": 21
+    },
+    "model": "mistralai/mistral-large-4-0",
+    "provider": "Mistral",
+    "configuration_name": "mistral-large-4-0-261006"
+  },
+  {
+    "phrase": "weil vielleicht habe ich das jetzt schlecht eingestellt, aber ich sehe nichts.",
+    "context": "Deswegen drücke ich auf nicht so sicher, weil vielleicht habe ich das jetzt schlecht eingestellt, aber ich sehe nichts.",
+    "tags": [
+      "awareness_of_task: image_quality"
+    ],
+    "rationale": "Person attributes their uncertainty to the image quality (bad adjustment) rather than their own competence.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_no advice_cycle_25.txt",
+      "row": 21
+    },
+    "model": "mistralai/mistral-large-4-0",
+    "provider": "Mistral",
+    "configuration_name": "mistral-large-4-0-261006"
+  },
+  {
+    "phrase": "Hier sehe ich wieder, linksseitig sieht es nach einer Einengung vom Ventrikel aus, und im Unterschied zu der Gegenseite.",
+    "context": "… Hmm. Hier sehe ich wieder, linksseitig sieht es nach einer Einengung vom Ventrikel aus, und im Unterschied zu der Gegenseite. Hmm… Und die Mittellinienverlagerung auch nach rechts.",
+    "tags": [
+      "visual_search: description_of_medical_image_features"
+    ],
+    "rationale": "The person verbalizes the anatomical structures and image characteristics they are currently observing, specifically describing a ventricular narrowing on the left side in comparison to the contralateral side.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_no advice_cycle_25.txt",
+      "row": 22
+    },
+    "model": "mistralai/mistral-large-4-0",
+    "provider": "Mistral",
+    "configuration_name": "mistral-large-4-0-261006"
+  },
+  {
+    "phrase": "Und die Mittellinienverlagerung auch nach rechts.",
+    "context": "… und im Unterschied zu der Gegenseite. Hmm… Und die Mittellinienverlagerung auch nach rechts. Hm, ich glaub schon, dass da eine Blutung ist.",
+    "tags": [
+      "visual_search: description_of_medical_image_features"
+    ],
+    "rationale": "The person describes another image characteristic, specifically noting a midline shift to the right.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_no advice_cycle_25.txt",
+      "row": 22
+    },
+    "model": "mistralai/mistral-large-4-0",
+    "provider": "Mistral",
+    "configuration_name": "mistral-large-4-0-261006"
+  },
+  {
+    "phrase": "ich glaub schon, dass da eine Blutung ist.",
+    "context": "… Und die Mittellinienverlagerung auch nach rechts. Hm, ich glaub schon, dass da eine Blutung ist.",
+    "tags": [
+      "interpretation: bleeding",
+      "confidence_high: secondary"
+    ],
+    "rationale": "The person interprets the observed abnormalities as a hemorrhage ('Blutung') and expresses implicit high certainty through the phrase 'ich glaub schon' (I do believe/think so).",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_no advice_cycle_25.txt",
+      "row": 22
+    },
+    "model": "mistralai/mistral-large-4-0",
+    "provider": "Mistral",
+    "configuration_name": "mistral-large-4-0-261006"
+  },
+  {
+    "phrase": "Ich glaube, hier auch.",
+    "context": "… Ich glaube, hier auch.",
+    "tags": [
+      "interpretation: bleeding",
+      "confidence_low: secondary"
+    ],
+    "rationale": "The phrase 'Ich glaube' (I think) expresses implicit low certainty about the finding, while 'hier auch' (here too) indicates the person is interpreting this area as a hemorrhage, similar to a previously identified one.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_no advice_cycle_25.txt",
+      "row": 23
+    },
+    "model": "mistralai/mistral-large-4-0",
+    "provider": "Mistral",
+    "configuration_name": "mistral-large-4-0-261006"
+  },
+  {
+    "phrase": "Hier bin ich mir nicht so sicher. Ich habe das Gefühl was zu sehen, aber ich bin nicht so sicher.",
+    "context": "… Hm...Hier bin ich mir nicht so sicher. Ich habe das Gefühl was zu sehen, aber ich bin nicht so sicher.",
+    "tags": [
+      "reflection: perceptual_doubt"
+    ],
+    "rationale": "The person explicitly doubts their own perception by stating they have the feeling of seeing something ('was zu sehen') but are not sure ('nicht so sicher'), indicating uncertainty about whether a finding is actually present at that location.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_no advice_cycle_25.txt",
+      "row": 24
+    },
+    "model": "mistralai/mistral-large-4-0",
+    "provider": "Mistral",
+    "configuration_name": "mistral-large-4-0-261006"
+  },
+  {
+    "phrase": "Ich glaub, hier ist es eher alles symmetrisch. Ich sehe nichts besonderes.",
+    "context": "… Ich glaub, hier ist es eher alles symmetrisch. Ich sehe nichts besonderes.",
+    "tags": [
+      "confidence_low: secondary",
+      "indicator: no_bleeding"
+    ],
+    "rationale": "'Ich glaub' (I think) implicitly signals low certainty about the diagnostic process, and 'Ich sehe nichts besonderes' (I see nothing special) classifies the examined image area as unremarkable.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_no advice_cycle_25.txt",
+      "row": 25
+    },
+    "model": "mistralai/mistral-large-4-0",
+    "provider": "Mistral",
+    "configuration_name": "mistral-large-4-0-261006"
+  },
+  {
+    "phrase": "Hier sehe ich im Schädel? keinen Defekt…",
+    "context": "Hmm… Hier sehe ich im Schädel? keinen Defekt… Und die Mittellinie ist nicht verlagert.",
+    "tags": [
+      "indicator: no_bleeding"
+    ],
+    "rationale": "Person classifies the skull area as unremarkable, finding no defect.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_no advice_cycle_25.txt",
+      "row": 26
+    },
+    "model": "mistralai/mistral-large-4-0",
+    "provider": "Mistral",
+    "configuration_name": "mistral-large-4-0-261006"
+  },
+  {
+    "phrase": "Und die Mittellinie ist nicht verlagert.",
+    "context": "keinen Defekt… Und die Mittellinie ist nicht verlagert. Komisch...",
+    "tags": [
+      "visual_search: description_of_medical_image_features"
+    ],
+    "rationale": "Person verbalizes which anatomical structure (midline) they are checking and its status (not shifted).",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_no advice_cycle_25.txt",
+      "row": 26
+    },
+    "model": "mistralai/mistral-large-4-0",
+    "provider": "Mistral",
+    "configuration_name": "mistral-large-4-0-261006"
+  },
+  {
+    "phrase": "Komisch...",
+    "context": "ist nicht verlagert. Komisch... Bei einem Autounfall, glaube ich, wäre dann, ah Moment…",
+    "tags": [
+      "paused_in_process"
+    ],
+    "rationale": "Filler word expressing surprise, pausing the diagnostic process.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_no advice_cycle_25.txt",
+      "row": 26
+    },
+    "model": "mistralai/mistral-large-4-0",
+    "provider": "Mistral",
+    "configuration_name": "mistral-large-4-0-261006"
+  },
+  {
+    "phrase": "Bei einem Autounfall, glaube ich, wäre dann, ah Moment…",
+    "context": "Komisch... Bei einem Autounfall, glaube ich, wäre dann, ah Moment… Jetzt bin ich mir unsicher.",
+    "tags": [
+      "reasoning: mentioning_contextual_information",
+      "confidence_low: secondary"
+    ],
+    "rationale": "Person mentions the cause of accident (car accident) and expresses implicit uncertainty through 'glaube ich' (I think).",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_no advice_cycle_25.txt",
+      "row": 26
+    },
+    "model": "mistralai/mistral-large-4-0",
+    "provider": "Mistral",
+    "configuration_name": "mistral-large-4-0-261006"
+  },
+  {
+    "phrase": "Jetzt bin ich mir unsicher.",
+    "context": "ah Moment… Jetzt bin ich mir unsicher. Ob es jetzt weiter Caudal… in den Liquorraum eingeblutet ist",
+    "tags": [
+      "confidence_low: concrete"
+    ],
+    "rationale": "Person explicitly expresses low certainty regarding the diagnostic process.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_no advice_cycle_25.txt",
+      "row": 26
+    },
+    "model": "mistralai/mistral-large-4-0",
+    "provider": "Mistral",
+    "configuration_name": "mistral-large-4-0-261006"
+  },
+  {
+    "phrase": "Ob es jetzt weiter Caudal… in den Liquorraum eingeblutet ist",
+    "context": "bin ich mir unsicher. Ob es jetzt weiter Caudal… in den Liquorraum eingeblutet ist, da bin ich mir nicht so sicher.",
+    "tags": [
+      "interpretation: bleeding_localization_unclear"
+    ],
+    "rationale": "Person considers a hemorrhage (bleeding into CSF space) likely but is uncertain about the exact location (caudal).",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_no advice_cycle_25.txt",
+      "row": 26
+    },
+    "model": "mistralai/mistral-large-4-0",
+    "provider": "Mistral",
+    "configuration_name": "mistral-large-4-0-261006"
+  },
+  {
+    "phrase": "da bin ich mir nicht so sicher",
+    "context": "eingeblutet ist, da bin ich mir nicht so sicher. Und Subarachnoidal irgendwas ist bin ich mir auch unsicher.",
+    "tags": [
+      "confidence_low: concrete"
+    ],
+    "rationale": "Person explicitly expresses low certainty about the bleeding interpretation.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_no advice_cycle_25.txt",
+      "row": 26
+    },
+    "model": "mistralai/mistral-large-4-0",
+    "provider": "Mistral",
+    "configuration_name": "mistral-large-4-0-261006"
+  },
+  {
+    "phrase": "Und Subarachnoidal irgendwas ist bin ich mir auch unsicher.",
+    "context": "nicht so sicher. Und Subarachnoidal irgendwas ist bin ich mir auch unsicher. Ich glaube ja, aber nicht so einfach.",
+    "tags": [
+      "confidence_low: concrete"
+    ],
+    "rationale": "Person explicitly expresses uncertainty about subarachnoid findings.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_no advice_cycle_25.txt",
+      "row": 26
+    },
+    "model": "mistralai/mistral-large-4-0",
+    "provider": "Mistral",
+    "configuration_name": "mistral-large-4-0-261006"
+  },
+  {
+    "phrase": "Ich glaube ja, aber nicht so einfach.",
+    "context": "auch unsicher. Ich glaube ja, aber nicht so einfach.",
+    "tags": [
+      "confidence_low: secondary"
+    ],
+    "rationale": "Person implicitly shows low certainty through 'glaube' (I think/believe).",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_no advice_cycle_25.txt",
+      "row": 26
+    },
+    "model": "mistralai/mistral-large-4-0",
+    "provider": "Mistral",
+    "configuration_name": "mistral-large-4-0-261006"
+  },
+  {
+    "phrase": "Das kann ich nicht so gut beurteilen.",
+    "context": "… Das kann ich nicht so gut beurteilen.",
+    "tags": [
+      "confidence_low: concrete"
+    ],
+    "rationale": "The speaker explicitly states that they cannot judge or assess something well ('nicht so gut beurteilen'), which is a direct expression of low certainty regarding the diagnostic process.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_no advice_cycle_25.txt",
+      "row": 27
+    },
+    "model": "mistralai/mistral-large-4-0",
+    "provider": "Mistral",
+    "configuration_name": "mistral-large-4-0-261006"
+  },
+  {
+    "phrase": "Ah ja, Entschuldigung. Ähm, ja, von vorne…",
+    "context": "VPN: Ah ja, Entschuldigung. Ähm, ja, von vorne… achte ich erstmal auf den Schädelknochen",
+    "tags": [
+      "paused_in_process"
+    ],
+    "rationale": "Filler words and hesitation markers at the beginning of the verbalization.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_no advice_cycle_25.txt",
+      "row": 28
+    },
+    "model": "mistralai/mistral-large-4-0",
+    "provider": "Mistral",
+    "configuration_name": "mistral-large-4-0-261006"
+  },
+  {
+    "phrase": "achte ich erstmal auf den Schädelknochen und Mittellinienventrikeln, ob es irgendwie symmetrisch ist oder nicht.",
+    "context": "von vorne… achte ich erstmal auf den Schädelknochen und Mittellinienventrikeln, ob es irgendwie symmetrisch ist oder nicht. Hier sieht es nicht so aus.",
+    "tags": [
+      "visual_search: description_of_medical_image_features"
+    ],
+    "rationale": "The person verbalizes which anatomical structures (skull bone, midline ventricles) and image characteristics (symmetry) they are currently examining.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_no advice_cycle_25.txt",
+      "row": 28
+    },
+    "model": "mistralai/mistral-large-4-0",
+    "provider": "Mistral",
+    "configuration_name": "mistral-large-4-0-261006"
+  },
+  {
+    "phrase": "Hier sieht es nicht so aus.",
+    "context": "ob es irgendwie symmetrisch ist oder nicht. Hier sieht es nicht so aus. Hm, also ich finde es sieht auffällig aus.",
+    "tags": [
+      "indicator: anomaly_detected"
+    ],
+    "rationale": "The person notices that the expected symmetry is not present, detecting an abnormality.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_no advice_cycle_25.txt",
+      "row": 28
+    },
+    "model": "mistralai/mistral-large-4-0",
+    "provider": "Mistral",
+    "configuration_name": "mistral-large-4-0-261006"
+  },
+  {
+    "phrase": "Hm, also ich finde es sieht auffällig aus.",
+    "context": "Hier sieht es nicht so aus. Hm, also ich finde es sieht auffällig aus. Hm, Moment.",
+    "tags": [
+      "indicator: anomaly_detected"
+    ],
+    "rationale": "The person explicitly states that the image area looks conspicuous or abnormal.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_no advice_cycle_25.txt",
+      "row": 28
+    },
+    "model": "mistralai/mistral-large-4-0",
+    "provider": "Mistral",
+    "configuration_name": "mistral-large-4-0-261006"
+  },
+  {
+    "phrase": "Hm, Moment.",
+    "context": "ich finde es sieht auffällig aus. Hm, Moment. Ich schaue nach",
+    "tags": [
+      "paused_in_process"
+    ],
+    "rationale": "Pure filler words indicating a pause in the diagnostic process.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_no advice_cycle_25.txt",
+      "row": 28
+    },
+    "model": "mistralai/mistral-large-4-0",
+    "provider": "Mistral",
+    "configuration_name": "mistral-large-4-0-261006"
+  },
+  {
+    "phrase": "Ich schaue nach, ob ich irgendwelche sichelförmigen oder konvexe Blutungen sehe.",
+    "context": "Hm, Moment. Ich schaue nach, ob ich irgendwelche sichelförmigen oder konvexe Blutungen sehe. Also ja in der Schädel?",
+    "tags": [
+      "visual_search: triggered_by_finding"
+    ],
+    "rationale": "The person aligns their visual search with the previously detected asymmetry by specifically looking for types of hemorrhage (sickle-shaped or convex).",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_no advice_cycle_25.txt",
+      "row": 28
+    },
+    "model": "mistralai/mistral-large-4-0",
+    "provider": "Mistral",
+    "configuration_name": "mistral-large-4-0-261006"
+  },
+  {
+    "phrase": "Also ja in der Schädel?, sehe ich die nicht,",
+    "context": "konvexe Blutungen sehe. Also ja in der Schädel?, sehe ich die nicht, aber ich finde die Mittellinie",
+    "tags": [
+      "reflection: diagnostic_uncertainty"
+    ],
+    "rationale": "The person expresses uncertainty (indicated by the question mark) about whether they can see the hemorrhage, reflecting doubt about the finding.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_no advice_cycle_25.txt",
+      "row": 28
+    },
+    "model": "mistralai/mistral-large-4-0",
+    "provider": "Mistral",
+    "configuration_name": "mistral-large-4-0-261006"
+  },
+  {
+    "phrase": "aber ich finde die Mittellinie schon ein bisschen nach rechts verlagert, und die Ventrikel sind da auch nicht symmetrisch.",
+    "context": "sehe ich die nicht, aber ich finde die Mittellinie schon ein bisschen nach rechts verlagert, und die Ventrikel sind da auch nicht symmetrisch. Deswegen entscheide ich mich",
+    "tags": [
+      "indicator: anomaly_detected"
+    ],
+    "rationale": "The person detects specific abnormalities: a midline shift to the right and asymmetrical ventricles.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_no advice_cycle_25.txt",
+      "row": 28
+    },
+    "model": "mistralai/mistral-large-4-0",
+    "provider": "Mistral",
+    "configuration_name": "mistral-large-4-0-261006"
+  },
+  {
+    "phrase": "Deswegen entscheide ich mich für eine Blutung.",
+    "context": "Ventrikel sind da auch nicht symmetrisch. Deswegen entscheide ich mich für eine Blutung.",
+    "tags": [
+      "interpretation: bleeding"
+    ],
+    "rationale": "Based on the detected anomalies, the person concludes and interprets the finding as a hemorrhage.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_no advice_cycle_25.txt",
+      "row": 28
+    },
+    "model": "mistralai/mistral-large-4-0",
+    "provider": "Mistral",
+    "configuration_name": "mistral-large-4-0-261006"
+  },
+  {
+    "phrase": "Hier sehe ich schon direkt, dass im Seitenvergleich, recht, äh, so eine, nicht so stark, aber eine hyperdense, glaube ich, Blutung da ist.",
+    "context": "… Hmm. Hier sehe ich schon direkt, dass im Seitenvergleich, recht, äh, so eine, nicht so stark, aber eine hyperdense, glaube ich, Blutung da ist. Die Gyri sind auch nicht symmetrisch auf der Gegenseite.",
+    "tags": [
+      "interpretation: bleeding",
+      "confidence_low: secondary"
+    ],
+    "rationale": "The person explicitly identifies a hyperdense area as a 'Blutung' (hemorrhage), matching interpretation: bleeding. The phrase 'glaube ich' (I believe) implicitly indicates low certainty, matching confidence_low: secondary.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_no advice_cycle_25.txt",
+      "row": 29
+    },
+    "model": "mistralai/mistral-large-4-0",
+    "provider": "Mistral",
+    "configuration_name": "mistral-large-4-0-261006"
+  },
+  {
+    "phrase": "Die Gyri sind auch nicht symmetrisch auf der Gegenseite.",
+    "context": "… Blutung da ist. Die Gyri sind auch nicht symmetrisch auf der Gegenseite. Ich kann nicht so genau erkennen, ob das jetzt Epi- oder Subdural ist.",
+    "tags": [
+      "visual_search: description_of_medical_image_features"
+    ],
+    "rationale": "The person verbalizes an image characteristic (asymmetry of the Gyri/gyri between sides), describing what they are currently looking at, matching visual_search: description_of_medical_image_features.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_no advice_cycle_25.txt",
+      "row": 29
+    },
+    "model": "mistralai/mistral-large-4-0",
+    "provider": "Mistral",
+    "configuration_name": "mistral-large-4-0-261006"
+  },
+  {
+    "phrase": "Ich kann nicht so genau erkennen, ob das jetzt Epi- oder Subdural ist.",
+    "context": "… auf der Gegenseite. Ich kann nicht so genau erkennen, ob das jetzt Epi- oder Subdural ist. Ähm, oder gar diffus.",
+    "tags": [
+      "interpretation: bleeding_localization_unclear"
+    ],
+    "rationale": "The person considers a hemorrhage likely but cannot determine the exact type/localization (epidural vs. subdural), matching interpretation: bleeding_localization_unclear.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_no advice_cycle_25.txt",
+      "row": 29
+    },
+    "model": "mistralai/mistral-large-4-0",
+    "provider": "Mistral",
+    "configuration_name": "mistral-large-4-0-261006"
+  },
+  {
+    "phrase": "Ähm, oder gar diffus.",
+    "context": "… Epi- oder Subdural ist. Ähm, oder gar diffus. Ich weiß es nicht genau, aber ich schon, dass das nicht symmetrisch aussieht.",
+    "tags": [
+      "paused_in_process",
+      "interpretation: bleeding_localization_unclear"
+    ],
+    "rationale": "The filler word 'Ähm' indicates a pause in the process (paused_in_process), while 'oder gar diffus' continues the uncertainty about the bleeding type/localization (interpretation: bleeding_localization_unclear).",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_no advice_cycle_25.txt",
+      "row": 29
+    },
+    "model": "mistralai/mistral-large-4-0",
+    "provider": "Mistral",
+    "configuration_name": "mistral-large-4-0-261006"
+  },
+  {
+    "phrase": "Ich weiß es nicht genau, aber ich schon, dass das nicht symmetrisch aussieht.",
+    "context": "… oder gar diffus. Ich weiß es nicht genau, aber ich schon, dass das nicht symmetrisch aussieht. Vorallem hier hinten, Occipital.",
+    "tags": [
+      "confidence_low: concrete"
+    ],
+    "rationale": "The phrase 'Ich weiß es nicht genau' (I don't know exactly) explicitly expresses low certainty regarding the diagnostic process, matching confidence_low: concrete.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_no advice_cycle_25.txt",
+      "row": 29
+    },
+    "model": "mistralai/mistral-large-4-0",
+    "provider": "Mistral",
+    "configuration_name": "mistral-large-4-0-261006"
+  },
+  {
+    "phrase": "Vorallem hier hinten, Occipital.",
+    "context": "… nicht symmetrisch aussieht. Vorallem hier hinten, Occipital. Das könnte sogar, ?.",
+    "tags": [
+      "visual_search: description_of_medical_image_features"
+    ],
+    "rationale": "The person specifies the anatomical location 'hier hinten, Occipital' (here at the back, occipital), describing which area they are examining, matching visual_search: description_of_medical_image_features.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_no advice_cycle_25.txt",
+      "row": 29
+    },
+    "model": "mistralai/mistral-large-4-0",
+    "provider": "Mistral",
+    "configuration_name": "mistral-large-4-0-261006"
+  },
+  {
+    "phrase": "Das könnte sogar, ?.",
+    "context": "… Occipital. Das könnte sogar, ?. Ich weiß nicht so genau, jetzt der Unterschied.",
+    "tags": [
+      "confidence_low: secondary"
+    ],
+    "rationale": "The modal verb 'könnte' (could) implicitly shows low certainty, matching confidence_low: secondary.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_no advice_cycle_25.txt",
+      "row": 29
+    },
+    "model": "mistralai/mistral-large-4-0",
+    "provider": "Mistral",
+    "configuration_name": "mistral-large-4-0-261006"
+  },
+  {
+    "phrase": "Ich weiß nicht so genau, jetzt der Unterschied.",
+    "context": "… Das könnte sogar, ?. Ich weiß nicht so genau, jetzt der Unterschied. Ist nicht so deutlich finde ich, aber ich denke schon dass hier was ist, wenn man so guckt.",
+    "tags": [
+      "confidence_low: concrete"
+    ],
+    "rationale": "The phrase 'Ich weiß nicht so genau' (I don't know exactly) explicitly expresses low certainty, matching confidence_low: concrete.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_no advice_cycle_25.txt",
+      "row": 29
+    },
+    "model": "mistralai/mistral-large-4-0",
+    "provider": "Mistral",
+    "configuration_name": "mistral-large-4-0-261006"
+  },
+  {
+    "phrase": "Ist nicht so deutlich finde ich, aber ich denke schon dass hier was ist, wenn man so guckt.",
+    "context": "… jetzt der Unterschied. Ist nicht so deutlich finde ich, aber ich denke schon dass hier was ist, wenn man so guckt.",
+    "tags": [
+      "confidence_low: secondary",
+      "indicator: anomaly_detected"
+    ],
+    "rationale": "The phrases 'nicht so deutlich' (not so clear) and 'denke schon' (I think so) implicitly show low certainty (confidence_low: secondary), while 'hier was ist' (there is something here) indicates the person notices an abnormality (indicator: anomaly_detected).",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_no advice_cycle_25.txt",
+      "row": 29
+    },
+    "model": "mistralai/mistral-large-4-0",
+    "provider": "Mistral",
+    "configuration_name": "mistral-large-4-0-261006"
+  },
+  {
+    "phrase": "Wieviel Zeit habe ich nochmal?",
+    "context": "Wieviel Zeit habe ich nochmal? EXPERIMENTER: Also, eine direkte Begrenzung gibt es nicht.",
+    "tags": [
+      "other"
+    ],
+    "rationale": "The participant asks about the time limit, which is unrelated to the diagnostic task or medical image analysis.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_no advice_cycle_25.txt",
+      "row": 30
+    },
+    "model": "mistralai/mistral-large-4-0",
+    "provider": "Mistral",
+    "configuration_name": "mistral-large-4-0-261006"
+  },
+  {
+    "phrase": "So, jetzt achte ich hier nochmal auf die Seitenunterschiede und Knochen, Mittellinie.",
+    "context": "VPN: So, jetzt achte ich hier nochmal auf die Seitenunterschiede und Knochen, Mittellinie. Also direkt ist mir jetzt noch nichts aufgefallen.",
+    "tags": [
+      "visual_search: description_of_medical_image_features"
+    ],
+    "rationale": "The participant verbalizes which anatomical structures (side differences, bone, midline) they are currently examining.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_no advice_cycle_25.txt",
+      "row": 30
+    },
+    "model": "mistralai/mistral-large-4-0",
+    "provider": "Mistral",
+    "configuration_name": "mistral-large-4-0-261006"
+  },
+  {
+    "phrase": "Also direkt ist mir jetzt noch nichts aufgefallen.",
+    "context": "Mittellinie. Also direkt ist mir jetzt noch nichts aufgefallen. Ob das hier eine Mittellinienverlagerung gibt oder nicht, weiß ich grad nicht.",
+    "tags": [
+      "indicator: no_bleeding"
+    ],
+    "rationale": "The participant classifies the examined area as unremarkable, stating that nothing abnormal has been noticed.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_no advice_cycle_25.txt",
+      "row": 30
+    },
+    "model": "mistralai/mistral-large-4-0",
+    "provider": "Mistral",
+    "configuration_name": "mistral-large-4-0-261006"
+  },
+  {
+    "phrase": "Ob das hier eine Mittellinienverlagerung gibt oder nicht, weiß ich grad nicht.",
+    "context": "nichts aufgefallen. Ob das hier eine Mittellinienverlagerung gibt oder nicht, weiß ich grad nicht. Hinten... hm, ich glaub nicht.",
+    "tags": [
+      "confidence_low: concrete"
+    ],
+    "rationale": "The participant explicitly expresses low certainty ('weiß ich grad nicht') regarding the presence of a midline shift.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_no advice_cycle_25.txt",
+      "row": 30
+    },
+    "model": "mistralai/mistral-large-4-0",
+    "provider": "Mistral",
+    "configuration_name": "mistral-large-4-0-261006"
+  },
+  {
+    "phrase": "Hinten... hm, ich glaub nicht.",
+    "context": "weiß ich grad nicht. Hinten... hm, ich glaub nicht. Ich bin mir aber nicht so sicher ob das Ventrikel hier so eingeengt ist",
+    "tags": [
+      "indicator: no_bleeding",
+      "confidence_low: secondary",
+      "paused_in_process"
+    ],
+    "rationale": "The participant tentatively classifies the posterior area as unremarkable ('ich glaub nicht' - implicit low certainty) and uses a filler word ('hm').",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_no advice_cycle_25.txt",
+      "row": 30
+    },
+    "model": "mistralai/mistral-large-4-0",
+    "provider": "Mistral",
+    "configuration_name": "mistral-large-4-0-261006"
+  },
+  {
+    "phrase": "Ich bin mir aber nicht so sicher ob das Ventrikel hier so eingeengt ist",
+    "context": "ich glaub nicht. Ich bin mir aber nicht so sicher ob das Ventrikel hier so eingeengt ist, oder, also sieht so zumindest bei dem Anschnitt anders aus",
+    "tags": [
+      "confidence_low: concrete"
+    ],
+    "rationale": "The participant explicitly expresses low certainty ('nicht so sicher') regarding the assessment of ventricular compression.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_no advice_cycle_25.txt",
+      "row": 30
+    },
+    "model": "mistralai/mistral-large-4-0",
+    "provider": "Mistral",
+    "configuration_name": "mistral-large-4-0-261006"
+  },
+  {
+    "phrase": "also sieht so zumindest bei dem Anschnitt anders aus, als auf der Gegenseite.",
+    "context": "eingeengt ist, oder, also sieht so zumindest bei dem Anschnitt anders aus, als auf der Gegenseite. Eine Sichel sehe ich jetzt nicht grade",
+    "tags": [
+      "visual_search: description_of_medical_image_features"
+    ],
+    "rationale": "The participant describes image characteristics, noting that the current slice looks different compared to the opposite side.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_no advice_cycle_25.txt",
+      "row": 30
+    },
+    "model": "mistralai/mistral-large-4-0",
+    "provider": "Mistral",
+    "configuration_name": "mistral-large-4-0-261006"
+  },
+  {
+    "phrase": "Eine Sichel sehe ich jetzt nicht grade",
+    "context": "Gegenseite. Eine Sichel sehe ich jetzt nicht grade, aber ich könnte einfach mal den Schnitt den ich hier sehe",
+    "tags": [
+      "indicator: no_bleeding"
+    ],
+    "rationale": "The participant classifies the area as unremarkable by stating they do not see a sickle-shaped structure (likely referring to a hemorrhage).",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_no advice_cycle_25.txt",
+      "row": 30
+    },
+    "model": "mistralai/mistral-large-4-0",
+    "provider": "Mistral",
+    "configuration_name": "mistral-large-4-0-261006"
+  },
+  {
+    "phrase": "aber ich könnte einfach mal den Schnitt den ich hier sehe, also wenn ich hier scrolle, dann sieht das gleich aus.",
+    "context": "nicht grade, aber ich könnte einfach mal den Schnitt den ich hier sehe, also wenn ich hier scrolle, dann sieht das gleich aus. Deswegen sage ich mal jetzt nicht so confident",
+    "tags": [
+      "visual_search: description_of_own_approach_without_external_help"
+    ],
+    "rationale": "The participant explicitly comments on their own search procedure, describing how they plan to scroll through slices to compare appearances.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_no advice_cycle_25.txt",
+      "row": 30
+    },
+    "model": "mistralai/mistral-large-4-0",
+    "provider": "Mistral",
+    "configuration_name": "mistral-large-4-0-261006"
+  },
+  {
+    "phrase": "Deswegen sage ich mal jetzt nicht so confident",
+    "context": "sieht das gleich aus. Deswegen sage ich mal jetzt nicht so confident, das ist nichts",
+    "tags": [
+      "confidence_low: concrete"
+    ],
+    "rationale": "The participant explicitly expresses low confidence ('nicht so confident') in their assessment.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_no advice_cycle_25.txt",
+      "row": 30
+    },
+    "model": "mistralai/mistral-large-4-0",
+    "provider": "Mistral",
+    "configuration_name": "mistral-large-4-0-261006"
+  },
+  {
+    "phrase": "das ist nichts",
+    "context": "nicht so confident, das ist nichts",
+    "tags": [
+      "interpretation: no_bleeding"
+    ],
+    "rationale": "The participant interprets the findings as indicating no hemorrhage ('das ist nichts' - that's nothing).",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_no advice_cycle_25.txt",
+      "row": 30
+    },
+    "model": "mistralai/mistral-large-4-0",
+    "provider": "Mistral",
+    "configuration_name": "mistral-large-4-0-261006"
+  },
+  {
+    "phrase": "Hier sehe ich auch keine Auffälligkeiten",
+    "context": "… Hier sehe ich auch keine Auffälligkeiten, aber warte.",
+    "tags": [
+      "indicator: no_bleeding"
+    ],
+    "rationale": "The person explicitly classifies the specific image area as unremarkable ('keine Auffälligkeiten').",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_no advice_cycle_25.txt",
+      "row": 31
+    },
+    "model": "mistralai/mistral-large-4-0",
+    "provider": "Mistral",
+    "configuration_name": "mistral-large-4-0-261006"
+  },
+  {
+    "phrase": "aber warte. Doch, manchmal bin ich mir unsicher",
+    "context": "aber warte. Doch, manchmal bin ich mir unsicher, ob das einfach so angeschnittene Gefäße",
+    "tags": [
+      "reflection: self-correction",
+      "reflection: diagnostic_uncertainty"
+    ],
+    "rationale": "The person corrects their previous statement ('aber warte. Doch') and expresses uncertainty about classifying the finding ('manchmal bin ich mir unsicher').",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_no advice_cycle_25.txt",
+      "row": 31
+    },
+    "model": "mistralai/mistral-large-4-0",
+    "provider": "Mistral",
+    "configuration_name": "mistral-large-4-0-261006"
+  },
+  {
+    "phrase": "ob das einfach so angeschnittene Gefäße, oder ob das irgendwie Hyperdense Strukturen sind im Parenchym",
+    "context": "manchmal bin ich mir unsicher, ob das einfach so angeschnittene Gefäße, oder ob das irgendwie Hyperdense Strukturen sind im Parenchym. Das könnten",
+    "tags": [
+      "visual_search: description_of_medical_image_features"
+    ],
+    "rationale": "The person verbalizes the anatomical structures and image characteristics they are currently examining (cut vessels vs. hyperdense structures in the parenchyma).",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_no advice_cycle_25.txt",
+      "row": 31
+    },
+    "model": "mistralai/mistral-large-4-0",
+    "provider": "Mistral",
+    "configuration_name": "mistral-large-4-0-261006"
+  },
+  {
+    "phrase": "Das könnten einfach nur Gefäße und Kontrastmittel sein.",
+    "context": "im Parenchym. Das könnten einfach nur Gefäße und Kontrastmittel sein. Glaube ich",
+    "tags": [
+      "reasoning: alternative_medical_structure"
+    ],
+    "rationale": "The person attributes the observed hyperdensity to a healthy anatomical structure (vessels with contrast agent) rather than a pathological finding.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_no advice_cycle_25.txt",
+      "row": 31
+    },
+    "model": "mistralai/mistral-large-4-0",
+    "provider": "Mistral",
+    "configuration_name": "mistral-large-4-0-261006"
+  },
+  {
+    "phrase": "Glaube ich, ist es auch.",
+    "context": "Kontrastmittel sein. Glaube ich, ist es auch. Finde ich",
+    "tags": [
+      "confidence_low: secondary"
+    ],
+    "rationale": "Low certainty is implicitly shown through the hedging phrase 'Glaube ich' (I believe/I think).",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_no advice_cycle_25.txt",
+      "row": 31
+    },
+    "model": "mistralai/mistral-large-4-0",
+    "provider": "Mistral",
+    "configuration_name": "mistral-large-4-0-261006"
+  },
+  {
+    "phrase": "mit meiner wenigen Erfahrung",
+    "context": "ist es auch. Finde ich, mit meiner wenigen Erfahrung, bisschen kompliziert, aber",
+    "tags": [
+      "reflection: experience_limitation"
+    ],
+    "rationale": "The person explicitly refers to their own limited experience ('wenigen Erfahrung') as a factor in their assessment.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_no advice_cycle_25.txt",
+      "row": 31
+    },
+    "model": "mistralai/mistral-large-4-0",
+    "provider": "Mistral",
+    "configuration_name": "mistral-large-4-0-261006"
+  },
+  {
+    "phrase": "bisschen kompliziert",
+    "context": "mit meiner wenigen Erfahrung, bisschen kompliziert, aber ich glaube",
+    "tags": [
+      "awareness_of_task: difficult"
+    ],
+    "rationale": "The person perceives the current diagnostic task as difficult ('kompliziert').",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_no advice_cycle_25.txt",
+      "row": 31
+    },
+    "model": "mistralai/mistral-large-4-0",
+    "provider": "Mistral",
+    "configuration_name": "mistral-large-4-0-261006"
+  },
+  {
+    "phrase": "aber ich glaube es ist nichts.",
+    "context": "bisschen kompliziert, aber ich glaube es ist nichts.",
+    "tags": [
+      "interpretation: no_bleeding",
+      "confidence_low: secondary"
+    ],
+    "rationale": "The person interprets the finding as 'no hemorrhage' ('es ist nichts') and expresses low certainty implicitly through 'ich glaube' (I believe).",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_no advice_cycle_25.txt",
+      "row": 31
+    },
+    "model": "mistralai/mistral-large-4-0",
+    "provider": "Mistral",
+    "configuration_name": "mistral-large-4-0-261006"
+  },
+  {
+    "phrase": "wonach ich hier achte, nochmal Kopf und Schädelbruch oder sowas, und probiere irgendwie die Gyri anzugucken, ob man die gut begrenzen kann",
+    "context": "Ähm, ja wonach ich hier achte, nochmal Kopf und Schädelbruch oder sowas, und probiere irgendwie die Gyri anzugucken, ob man die gut begrenzen kann. Aber ich finde das hier",
+    "tags": [
+      "visual_search: description_of_medical_image_features"
+    ],
+    "rationale": "The person verbalizes which anatomical structures (Gyri) they are currently looking at and checking for delineation.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_no advice_cycle_25.txt",
+      "row": 32
+    },
+    "model": "mistralai/mistral-large-4-0",
+    "provider": "Mistral",
+    "configuration_name": "mistral-large-4-0-261006"
+  },
+  {
+    "phrase": "Aber ich finde das hier, ab einem bestimmten Punkt, nicht so gut",
+    "context": "die Gyri anzugucken, ob man die gut begrenzen kann. Aber ich finde das hier, ab einem bestimmten Punkt, nicht so gut. Und irgendwie, als wäre dazwischen eingeblutet",
+    "tags": [
+      "indicator: anomaly_detected"
+    ],
+    "rationale": "The person notices an abnormality in the image area, describing it as 'not good' from a certain point onwards.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_no advice_cycle_25.txt",
+      "row": 32
+    },
+    "model": "mistralai/mistral-large-4-0",
+    "provider": "Mistral",
+    "configuration_name": "mistral-large-4-0-261006"
+  },
+  {
+    "phrase": "als wäre dazwischen eingeblutet, könnte ich mir vorstellen",
+    "context": "nicht so gut. Und irgendwie, als wäre dazwischen eingeblutet, könnte ich mir vorstellen. Deswegen, ich dachte es sind schon Blutungen",
+    "tags": [
+      "interpretation: bleeding",
+      "confidence_low: secondary"
+    ],
+    "rationale": "The person interprets the finding as possible bleeding ('als wäre eingeblutet') and implicitly expresses uncertainty through 'könnte ich mir vorstellen' (I could imagine).",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_no advice_cycle_25.txt",
+      "row": 32
+    },
+    "model": "mistralai/mistral-large-4-0",
+    "provider": "Mistral",
+    "configuration_name": "mistral-large-4-0-261006"
+  },
+  {
+    "phrase": "ich dachte es sind schon Blutungen, hmm, aber so sicher bin ich mir eigentlich doch nicht",
+    "context": "könnte ich mir vorstellen. Deswegen, ich dachte es sind schon Blutungen, hmm, aber so sicher bin ich mir eigentlich doch nicht.",
+    "tags": [
+      "interpretation: bleeding",
+      "confidence_low: concrete",
+      "reflection: diagnostic_uncertainty"
+    ],
+    "rationale": "The person states they thought it was bleeding, explicitly expresses low certainty ('so sicher bin ich mir nicht'), and reflects on their uncertainty about the classification.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_no advice_cycle_25.txt",
+      "row": 32
+    },
+    "model": "mistralai/mistral-large-4-0",
+    "provider": "Mistral",
+    "configuration_name": "mistral-large-4-0-261006"
+  },
+  {
+    "phrase": "Hier sehe ich, glaube ich, nichts auffälliges.",
+    "context": "… Hier sehe ich, glaube ich, nichts auffälliges. Ich hab sowieso das Gefühl, das wir in der Uni…",
+    "tags": [
+      "indicator: no_bleeding",
+      "confidence_low: secondary"
+    ],
+    "rationale": "The person classifies the specific image area as unremarkable ('nichts auffälliges') while expressing implicit low certainty ('glaube ich').",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_no advice_cycle_25.txt",
+      "row": 33
+    },
+    "model": "mistralai/mistral-large-4-0",
+    "provider": "Mistral",
+    "configuration_name": "mistral-large-4-0-261006"
+  },
+  {
+    "phrase": "Ich hab sowieso das Gefühl, das wir in der Uni, nur diese typischen Bilder von Epi- und Subduraler Blutung, sich einprägen kann.",
+    "context": "… nichts auffälliges. Ich hab sowieso das Gefühl, das wir in der Uni, nur diese typischen Bilder von Epi- und Subduraler Blutung, sich einprägen kann. Ja das ist nichts.",
+    "tags": [
+      "reflection: experience_limitation"
+    ],
+    "rationale": "The person explicitly refers to the limits of their own experience and knowledge acquired at university, feeling restricted to typical textbook images.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_no advice_cycle_25.txt",
+      "row": 33
+    },
+    "model": "mistralai/mistral-large-4-0",
+    "provider": "Mistral",
+    "configuration_name": "mistral-large-4-0-261006"
+  },
+  {
+    "phrase": "Ja das ist nichts.",
+    "context": "… sich einprägen kann. Ja das ist nichts.",
+    "tags": [
+      "interpretation: no_bleeding"
+    ],
+    "rationale": "The person draws the conclusion that there is no hemorrhage present ('das ist nichts').",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_no advice_cycle_25.txt",
+      "row": 33
+    },
+    "model": "mistralai/mistral-large-4-0",
+    "provider": "Mistral",
+    "configuration_name": "mistral-large-4-0-261006"
+  },
+  {
+    "phrase": "hier sieht man schon deutlich rechs hier, irgendwie Einblutungen",
+    "context": "Okay, hier sieht man schon deutlich rechs hier, irgendwie Einblutungen. Weiter Frontalparetal",
+    "tags": [
+      "interpretation: bleeding"
+    ],
+    "rationale": "The person identifies the abnormality as hemorrhage ('Einblutungen').",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_no advice_cycle_25.txt",
+      "row": 34
+    },
+    "model": "mistralai/mistral-large-4-0",
+    "provider": "Mistral",
+    "configuration_name": "mistral-large-4-0-261006"
+  },
+  {
+    "phrase": "Weiter Frontalparetal, keine Ahnung, Frontaltemporal, wollte ich sagen",
+    "context": "irgendwie Einblutungen. Weiter Frontalparetal, keine Ahnung, Frontaltemporal, wollte ich sagen. Hmm",
+    "tags": [
+      "interpretation: description_bleeding",
+      "confidence_low: secondary",
+      "reflection: self-correction"
+    ],
+    "rationale": "The person describes the location of the bleeding (frontoparietal/frontotemporal), expresses uncertainty ('keine Ahnung'), and corrects themselves ('wollte ich sagen').",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_no advice_cycle_25.txt",
+      "row": 34
+    },
+    "model": "mistralai/mistral-large-4-0",
+    "provider": "Mistral",
+    "configuration_name": "mistral-large-4-0-261006"
+  },
+  {
+    "phrase": "Hmm, die ist so, glaub ich konvex, also eher Epidural",
+    "context": "wollte ich sagen. Hmm, die ist so, glaub ich konvex, also eher Epidural. Drückt",
+    "tags": [
+      "interpretation: description_bleeding",
+      "confidence_low: secondary"
+    ],
+    "rationale": "The person describes the bleeding as convex and likely epidural, with uncertainty ('glaub ich').",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_no advice_cycle_25.txt",
+      "row": 34
+    },
+    "model": "mistralai/mistral-large-4-0",
+    "provider": "Mistral",
+    "configuration_name": "mistral-large-4-0-261006"
+  },
+  {
+    "phrase": "Drückt auf den Ventrikel",
+    "context": "also eher Epidural. Drückt auf den Ventrikel und denke mir da hinten auch noch. Da bin ich mir sehr sicher.",
+    "tags": [
+      "interpretation: description_bleeding"
+    ],
+    "rationale": "The person describes the effect of the bleeding (pressing on the ventricle).",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_no advice_cycle_25.txt",
+      "row": 34
+    },
+    "model": "mistralai/mistral-large-4-0",
+    "provider": "Mistral",
+    "configuration_name": "mistral-large-4-0-261006"
+  },
+  {
+    "phrase": "und denke mir da hinten auch noch",
+    "context": "Drückt auf den Ventrikel und denke mir da hinten auch noch. Da bin ich mir sehr sicher.",
+    "tags": [
+      "indicator: anomaly_detected"
+    ],
+    "rationale": "The person notices another abnormality or extension at the back ('da hinten auch noch').",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_no advice_cycle_25.txt",
+      "row": 34
+    },
+    "model": "mistralai/mistral-large-4-0",
+    "provider": "Mistral",
+    "configuration_name": "mistral-large-4-0-261006"
+  },
+  {
+    "phrase": "Da bin ich mir sehr sicher",
+    "context": "und denke mir da hinten auch noch. Da bin ich mir sehr sicher.",
+    "tags": [
+      "confidence_high: concrete"
+    ],
+    "rationale": "The person explicitly expresses high certainty ('sehr sicher').",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_no advice_cycle_25.txt",
+      "row": 34
+    },
+    "model": "mistralai/mistral-large-4-0",
+    "provider": "Mistral",
+    "configuration_name": "mistral-large-4-0-261006"
+  },
+  {
+    "phrase": "Hier sehe ich keinen weiteren Unterschied, glaube da ist alles ok.",
+    "context": "… Hier sehe ich keinen weiteren Unterschied, glaube da ist alles ok.",
+    "tags": [
+      "indicator: no_bleeding"
+    ],
+    "rationale": "The person explicitly states that they see no further difference and that everything is okay, thereby classifying the specific image area as unremarkable.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_no advice_cycle_25.txt",
+      "row": 35
+    },
+    "model": "mistralai/mistral-large-4-0",
+    "provider": "Mistral",
+    "configuration_name": "mistral-large-4-0-261006"
+  },
+  {
+    "phrase": "Ja rechts, weiß ich nicht ob ich was sehe, oder nicht.",
+    "context": "… Ja rechts, weiß ich nicht ob ich was sehe, oder nicht. Ob das irgendwie normal ist oder nicht.",
+    "tags": [
+      "reflection: perceptual_doubt"
+    ],
+    "rationale": "The person explicitly doubts their own perception by stating they do not know whether they see something on the right side.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_no advice_cycle_25.txt",
+      "row": 36
+    },
+    "model": "mistralai/mistral-large-4-0",
+    "provider": "Mistral",
+    "configuration_name": "mistral-large-4-0-261006"
+  },
+  {
+    "phrase": "Ob das irgendwie normal ist oder nicht.",
+    "context": "… weiß ich nicht ob ich was sehe, oder nicht. Ob das irgendwie normal ist oder nicht. Ob das einfach ein Gyri…",
+    "tags": [
+      "reflection: diagnostic_uncertainty"
+    ],
+    "rationale": "The person assesses whether the observed finding is normal or abnormal, indicating uncertainty in classification.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_no advice_cycle_25.txt",
+      "row": 36
+    },
+    "model": "mistralai/mistral-large-4-0",
+    "provider": "Mistral",
+    "configuration_name": "mistral-large-4-0-261006"
+  },
+  {
+    "phrase": "Ob das einfach ein Gyri, die grade angeschnitten wurde.",
+    "context": "… Ob das irgendwie normal ist oder nicht. Ob das einfach ein Gyri, die grade angeschnitten wurde. Das sieht für mich…",
+    "tags": [
+      "reasoning: alternative_medical_structure"
+    ],
+    "rationale": "The person attributes the observed structure to a healthy anatomical structure (a gyrus that was cut), offering an alternative explanation for the finding.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_no advice_cycle_25.txt",
+      "row": 36
+    },
+    "model": "mistralai/mistral-large-4-0",
+    "provider": "Mistral",
+    "configuration_name": "mistral-large-4-0-261006"
+  },
+  {
+    "phrase": "Das sieht für mich so aus wie etwas Hyperdenses,",
+    "context": "… Ob das einfach ein Gyri, die grade angeschnitten wurde. Das sieht für mich so aus wie etwas Hyperdenses, aber ich vermute ist nichts.",
+    "tags": [
+      "indicator: anomaly_detected"
+    ],
+    "rationale": "The person notices a hyperdense area, which represents an abnormality atypical for healthy brain tissue.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_no advice_cycle_25.txt",
+      "row": 36
+    },
+    "model": "mistralai/mistral-large-4-0",
+    "provider": "Mistral",
+    "configuration_name": "mistral-large-4-0-261006"
+  },
+  {
+    "phrase": "aber ich vermute ist nichts.",
+    "context": "… Das sieht für mich so aus wie etwas Hyperdenses, aber ich vermute ist nichts. Bin ich mir nicht so sicher…",
+    "tags": [
+      "interpretation: no_bleeding",
+      "confidence_low: secondary"
+    ],
+    "rationale": "The person interprets the hyperdense finding as 'nothing' (no hemorrhage) and uses the verb 'vermute' (suspect/presume) to indicate implicit low certainty.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_no advice_cycle_25.txt",
+      "row": 36
+    },
+    "model": "mistralai/mistral-large-4-0",
+    "provider": "Mistral",
+    "configuration_name": "mistral-large-4-0-261006"
+  },
+  {
+    "phrase": "Bin ich mir nicht so sicher,",
+    "context": "… aber ich vermute ist nichts. Bin ich mir nicht so sicher, aber ich glaube nicht.",
+    "tags": [
+      "confidence_low: concrete"
+    ],
+    "rationale": "The person explicitly expresses low certainty regarding the diagnostic process with the phrase 'nicht so sicher' (not so sure).",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_no advice_cycle_25.txt",
+      "row": 36
+    },
+    "model": "mistralai/mistral-large-4-0",
+    "provider": "Mistral",
+    "configuration_name": "mistral-large-4-0-261006"
+  },
+  {
+    "phrase": "aber ich glaube nicht.",
+    "context": "… Bin ich mir nicht so sicher, aber ich glaube nicht.",
+    "tags": [
+      "interpretation: no_bleeding"
+    ],
+    "rationale": "The person concludes that there is no hemorrhage, interpreting the finding as negative ('I don't think so').",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_no advice_cycle_25.txt",
+      "row": 36
+    },
+    "model": "mistralai/mistral-large-4-0",
+    "provider": "Mistral",
+    "configuration_name": "mistral-large-4-0-261006"
+  },
+  {
+    "phrase": "Ich weiß nicht ob, ich hier etwas Occipitales sehe, ich glaube schon.",
+    "context": "… Ich weiß nicht ob, ich hier etwas Occipitales sehe, ich glaube schon. Im Knochen ist nichts …",
+    "tags": [
+      "reflection: diagnostic_uncertainty",
+      "confidence_low: secondary"
+    ],
+    "rationale": "The person expresses uncertainty about whether they see an occipital finding ('Ich weiß nicht ob') and implicitly indicates low certainty with 'ich glaube schon'.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_no advice_cycle_25.txt",
+      "row": 37
+    },
+    "model": "mistralai/mistral-large-4-0",
+    "provider": "Mistral",
+    "configuration_name": "mistral-large-4-0-261006"
+  },
+  {
+    "phrase": "Im Knochen ist nichts",
+    "context": "… ich glaube schon. Im Knochen ist nichts, ich finde trotzdem, dass das hier was ist. …",
+    "tags": [
+      "indicator: no_bleeding"
+    ],
+    "rationale": "The person classifies the specific bone area as unremarkable ('nichts').",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_no advice_cycle_25.txt",
+      "row": 37
+    },
+    "model": "mistralai/mistral-large-4-0",
+    "provider": "Mistral",
+    "configuration_name": "mistral-large-4-0-261006"
+  },
+  {
+    "phrase": "ich finde trotzdem, dass das hier was ist",
+    "context": "… Im Knochen ist nichts, ich finde trotzdem, dass das hier was ist. Ich bin mir nicht so sicher …",
+    "tags": [
+      "indicator: anomaly_detected"
+    ],
+    "rationale": "The person notices an abnormality ('was ist') despite the bone being clear.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_no advice_cycle_25.txt",
+      "row": 37
+    },
+    "model": "mistralai/mistral-large-4-0",
+    "provider": "Mistral",
+    "configuration_name": "mistral-large-4-0-261006"
+  },
+  {
+    "phrase": "Ich bin mir nicht so sicher, aber ich glaub schon.",
+    "context": "… dass das hier was ist. Ich bin mir nicht so sicher, aber ich glaub schon.",
+    "tags": [
+      "confidence_low: concrete",
+      "confidence_low: secondary"
+    ],
+    "rationale": "The person explicitly expresses low certainty ('Ich bin mir nicht so sicher') and implicitly through 'ich glaub schon'.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_no advice_cycle_25.txt",
+      "row": 37
+    },
+    "model": "mistralai/mistral-large-4-0",
+    "provider": "Mistral",
+    "configuration_name": "mistral-large-4-0-261006"
+  },
+  {
+    "phrase": "dass das irgendeine traumatische,… traumatische Muster sein sollte, aber das sehe ich nicht",
+    "context": "… Mhm, also ich denke gerade, dass ähm, bei der, also bei der ?, dass das irgendeine traumatische,… traumatische Muster sein sollte, aber das sehe ich nicht. Deswegen, ich glaube nicht.",
+    "tags": [
+      "reflection: diagnostic_uncertainty"
+    ],
+    "rationale": "The person considers whether the finding should be a traumatic pattern (suggesting possible hemorrhage) but states they do not see it, indicating uncertainty about classifying the finding as normal or abnormal.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_no advice_cycle_25.txt",
+      "row": 38
+    },
+    "model": "mistralai/mistral-large-4-0",
+    "provider": "Mistral",
+    "configuration_name": "mistral-large-4-0-261006"
+  },
+  {
+    "phrase": "Deswegen, ich glaube nicht",
+    "context": "aber das sehe ich nicht. Deswegen, ich glaube nicht.",
+    "tags": [
+      "interpretation: no_bleeding"
+    ],
+    "rationale": "The person concludes that there is no hemorrhage (traumatic pattern) because they do not see it, explicitly stating they do not believe it is present.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_no advice_cycle_25.txt",
+      "row": 38
+    },
+    "model": "mistralai/mistral-large-4-0",
+    "provider": "Mistral",
+    "configuration_name": "mistral-large-4-0-261006"
+  },
+  {
+    "phrase": "Und jetzt steht da Hypertension und Kopfschmerzen.",
+    "context": "… Und jetzt steht da Hypertension und Kopfschmerzen. Ich bin mir da nicht so sicher ob ich was interessantes sehen würde.",
+    "tags": [
+      "reasoning: mentioning_contextual_information"
+    ],
+    "rationale": "Person mentions patient-related information (medical history: hypertension and headaches).",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_no advice_cycle_25.txt",
+      "row": 39
+    },
+    "model": "mistralai/mistral-large-4-0",
+    "provider": "Mistral",
+    "configuration_name": "mistral-large-4-0-261006"
+  },
+  {
+    "phrase": "Ich bin mir da nicht so sicher ob ich was interessantes sehen würde.",
+    "context": "Und jetzt steht da Hypertension und Kopfschmerzen. Ich bin mir da nicht so sicher ob ich was interessantes sehen würde. ?. Weil es so klein ist.",
+    "tags": [
+      "confidence_low: concrete"
+    ],
+    "rationale": "Person explicitly expresses low certainty regarding the diagnostic process ('nicht so sicher').",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_no advice_cycle_25.txt",
+      "row": 39
+    },
+    "model": "mistralai/mistral-large-4-0",
+    "provider": "Mistral",
+    "configuration_name": "mistral-large-4-0-261006"
+  },
+  {
+    "phrase": "Könnte sein.",
+    "context": "Ich bin mir da nicht so sicher ob ich was interessantes sehen würde. ?. Weil es so klein ist. Könnte sein. Ich weiß nicht genau, sehr ungewiss?",
+    "tags": [
+      "confidence_low: secondary"
+    ],
+    "rationale": "Low certainty is implicitly shown through the modal verb 'könnte'.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_no advice_cycle_25.txt",
+      "row": 39
+    },
+    "model": "mistralai/mistral-large-4-0",
+    "provider": "Mistral",
+    "configuration_name": "mistral-large-4-0-261006"
+  },
+  {
+    "phrase": "Ich weiß nicht genau, sehr ungewiss?",
+    "context": "Weil es so klein ist. Könnte sein. Ich weiß nicht genau, sehr ungewiss?. Hm, das finde ich hier schwer zu beurteilen.",
+    "tags": [
+      "confidence_low: concrete"
+    ],
+    "rationale": "Person explicitly expresses low certainty ('weiß nicht genau', 'ungewiss').",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_no advice_cycle_25.txt",
+      "row": 39
+    },
+    "model": "mistralai/mistral-large-4-0",
+    "provider": "Mistral",
+    "configuration_name": "mistral-large-4-0-261006"
+  },
+  {
+    "phrase": "Hm, das finde ich hier schwer zu beurteilen.",
+    "context": "Ich weiß nicht genau, sehr ungewiss?. Hm, das finde ich hier schwer zu beurteilen. Das hier vielleicht.",
+    "tags": [
+      "awareness_of_task: difficult"
+    ],
+    "rationale": "Person perceives the current task as difficult ('schwer zu beurteilen').",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_no advice_cycle_25.txt",
+      "row": 39
+    },
+    "model": "mistralai/mistral-large-4-0",
+    "provider": "Mistral",
+    "configuration_name": "mistral-large-4-0-261006"
+  },
+  {
+    "phrase": "Das hier vielleicht.",
+    "context": "Hm, das finde ich hier schwer zu beurteilen. Das hier vielleicht. Okay, ich bin sehr unsicher, ob ja oder nein.",
+    "tags": [
+      "confidence_low: secondary"
+    ],
+    "rationale": "Low certainty is implicitly shown through 'vielleicht'.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_no advice_cycle_25.txt",
+      "row": 39
+    },
+    "model": "mistralai/mistral-large-4-0",
+    "provider": "Mistral",
+    "configuration_name": "mistral-large-4-0-261006"
+  },
+  {
+    "phrase": "Okay, ich bin sehr unsicher, ob ja oder nein.",
+    "context": "Das hier vielleicht. Okay, ich bin sehr unsicher, ob ja oder nein. Hm, ich weiß nicht ob das ein Artefakt ist oder so.",
+    "tags": [
+      "confidence_low: concrete"
+    ],
+    "rationale": "Person explicitly expresses low certainty ('sehr unsicher').",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_no advice_cycle_25.txt",
+      "row": 39
+    },
+    "model": "mistralai/mistral-large-4-0",
+    "provider": "Mistral",
+    "configuration_name": "mistral-large-4-0-261006"
+  },
+  {
+    "phrase": "Hm, ich weiß nicht ob das ein Artefakt ist oder so.",
+    "context": "Okay, ich bin sehr unsicher, ob ja oder nein. Hm, ich weiß nicht ob das ein Artefakt ist oder so. Ich glaube schon, oder.",
+    "tags": [
+      "reasoning: artifact"
+    ],
+    "rationale": "Person refers to a potential abnormality as an artifact ('Artefakt').",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_no advice_cycle_25.txt",
+      "row": 39
+    },
+    "model": "mistralai/mistral-large-4-0",
+    "provider": "Mistral",
+    "configuration_name": "mistral-large-4-0-261006"
+  },
+  {
+    "phrase": "Ich glaube schon, oder.",
+    "context": "Hm, ich weiß nicht ob das ein Artefakt ist oder so. Ich glaube schon, oder. Ich enter? das, aber ich weiß nicht.",
+    "tags": [
+      "confidence_high: secondary"
+    ],
+    "rationale": "High certainty is implicitly shown through 'glaube schon'.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_no advice_cycle_25.txt",
+      "row": 39
+    },
+    "model": "mistralai/mistral-large-4-0",
+    "provider": "Mistral",
+    "configuration_name": "mistral-large-4-0-261006"
+  },
+  {
+    "phrase": "Ich enter? das, aber ich weiß nicht.",
+    "context": "Ich glaube schon, oder. Ich enter? das, aber ich weiß nicht.",
+    "tags": [
+      "confidence_low: concrete"
+    ],
+    "rationale": "Person explicitly expresses low certainty ('weiß nicht').",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_no advice_cycle_25.txt",
+      "row": 39
+    },
+    "model": "mistralai/mistral-large-4-0",
+    "provider": "Mistral",
+    "configuration_name": "mistral-large-4-0-261006"
+  },
+  {
+    "phrase": "So, das sieht schon, anders aus, also ja. Der rechte sieht da anders aus.",
+    "context": "So, das sieht schon, anders aus, also ja. Der rechte sieht da anders aus. Hmm, das sieht auffällig aus…",
+    "tags": [
+      "visual_search: description_of_medical_image_features"
+    ],
+    "rationale": "Person verbalizes that the image area looks different ('anders aus'), describing image characteristics they are currently observing.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_no advice_cycle_25.txt",
+      "row": 40
+    },
+    "model": "mistralai/mistral-large-4-0",
+    "provider": "Mistral",
+    "configuration_name": "mistral-large-4-0-261006"
+  },
+  {
+    "phrase": "Hmm, das sieht auffällig aus…",
+    "context": "Der rechte sieht da anders aus. Hmm, das sieht auffällig aus… Aber ansonsten sehe ich eigentlich nichts.",
+    "tags": [
+      "indicator: anomaly_detected"
+    ],
+    "rationale": "Person notices a conspicuous or abnormal appearance ('auffällig'), indicating detection of an anomaly atypical for a healthy skull.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_no advice_cycle_25.txt",
+      "row": 40
+    },
+    "model": "mistralai/mistral-large-4-0",
+    "provider": "Mistral",
+    "configuration_name": "mistral-large-4-0-261006"
+  },
+  {
+    "phrase": "Aber ansonsten sehe ich eigentlich nichts.",
+    "context": "Hmm, das sieht auffällig aus… Aber ansonsten sehe ich eigentlich nichts. Hm, ne ich weiß nicht genau.",
+    "tags": [
+      "indicator: no_bleeding"
+    ],
+    "rationale": "Person classifies the remaining image areas as unremarkable ('nichts' = nothing), indicating no bleeding or abnormality elsewhere.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_no advice_cycle_25.txt",
+      "row": 40
+    },
+    "model": "mistralai/mistral-large-4-0",
+    "provider": "Mistral",
+    "configuration_name": "mistral-large-4-0-261006"
+  },
+  {
+    "phrase": "Hm, ne ich weiß nicht genau.",
+    "context": "Aber ansonsten sehe ich eigentlich nichts. Hm, ne ich weiß nicht genau. Aber ich glaub schon, dass das was ist.",
+    "tags": [
+      "confidence_low: concrete"
+    ],
+    "rationale": "Person explicitly expresses low certainty regarding the diagnostic process ('ich weiß nicht genau' = I don't know exactly).",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_no advice_cycle_25.txt",
+      "row": 40
+    },
+    "model": "mistralai/mistral-large-4-0",
+    "provider": "Mistral",
+    "configuration_name": "mistral-large-4-0-261006"
+  },
+  {
+    "phrase": "Aber ich glaub schon, dass das was ist.",
+    "context": "Hm, ne ich weiß nicht genau. Aber ich glaub schon, dass das was ist. Obwohl hier schon wieder normal aussieht, aber ich glaub schon.",
+    "tags": [
+      "confidence_low: secondary"
+    ],
+    "rationale": "Person expresses tentative belief through 'glaub schon' (I think so/believe so), indicating implicit low certainty about the finding.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_no advice_cycle_25.txt",
+      "row": 40
+    },
+    "model": "mistralai/mistral-large-4-0",
+    "provider": "Mistral",
+    "configuration_name": "mistral-large-4-0-261006"
+  },
+  {
+    "phrase": "Obwohl hier schon wieder normal aussieht, aber ich glaub schon.",
+    "context": "Aber ich glaub schon, dass das was ist. Obwohl hier schon wieder normal aussieht, aber ich glaub schon.",
+    "tags": [
+      "reflection: diagnostic_uncertainty",
+      "confidence_low: secondary"
+    ],
+    "rationale": "Person assesses whether the finding is normal ('normal aussieht') while maintaining tentative belief ('glaub schon'), showing uncertainty about classifying the finding and implicit low confidence.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_no advice_cycle_25.txt",
+      "row": 40
+    },
+    "model": "mistralai/mistral-large-4-0",
+    "provider": "Mistral",
+    "configuration_name": "mistral-large-4-0-261006"
+  },
+  {
+    "phrase": "Hier ist die Mittellinie ein bisschen gebogen, sieht so aus zumindest.",
+    "context": "… Hier ist die Mittellinie ein bisschen gebogen, sieht so aus zumindest. Ist aber normal, hm…",
+    "tags": [
+      "visual_search: description_of_medical_image_features"
+    ],
+    "rationale": "Person verbalizes which anatomical structure (midline) they are looking at and describes its characteristic (bent).",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_no advice_cycle_25.txt",
+      "row": 41
+    },
+    "model": "mistralai/mistral-large-4-0",
+    "provider": "Mistral",
+    "configuration_name": "mistral-large-4-0-261006"
+  },
+  {
+    "phrase": "Ist aber normal, hm…",
+    "context": "Hier ist die Mittellinie ein bisschen gebogen, sieht so aus zumindest. Ist aber normal, hm…, Ich weiß nicht ob ich mir das einbilde",
+    "tags": [
+      "indicator: no_bleeding"
+    ],
+    "rationale": "Person classifies the specific image area (the midline) as unremarkable/normal.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_no advice_cycle_25.txt",
+      "row": 41
+    },
+    "model": "mistralai/mistral-large-4-0",
+    "provider": "Mistral",
+    "configuration_name": "mistral-large-4-0-261006"
+  },
+  {
+    "phrase": "Ich weiß nicht ob ich mir das einbilde",
+    "context": "Ist aber normal, hm…, Ich weiß nicht ob ich mir das einbilde, aber das sieht so ein bisschen Hyperdens aus hier.",
+    "tags": [
+      "reflection: perceptual_doubt"
+    ],
+    "rationale": "Person explicitly doubts their own perception ('sich einbilden' = to imagine things, to be mistaken about what they see).",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_no advice_cycle_25.txt",
+      "row": 41
+    },
+    "model": "mistralai/mistral-large-4-0",
+    "provider": "Mistral",
+    "configuration_name": "mistral-large-4-0-261006"
+  },
+  {
+    "phrase": "aber das sieht so ein bisschen Hyperdens aus hier",
+    "context": "Ich weiß nicht ob ich mir das einbilde, aber das sieht so ein bisschen Hyperdens aus hier. Ja schon.",
+    "tags": [
+      "visual_search: description_of_medical_image_features"
+    ],
+    "rationale": "Person verbalizes the image characteristic (hyperdensity) they are currently observing.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_no advice_cycle_25.txt",
+      "row": 41
+    },
+    "model": "mistralai/mistral-large-4-0",
+    "provider": "Mistral",
+    "configuration_name": "mistral-large-4-0-261006"
+  },
+  {
+    "phrase": "Ja schon. Ich sag ja.",
+    "context": "aber das sieht so ein bisschen Hyperdens aus hier. Ja schon. Ich sag ja.",
+    "tags": [
+      "reflection: self-affirmation"
+    ],
+    "rationale": "Person reaffirms their previous statement/observation within the same context.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_no advice_cycle_25.txt",
+      "row": 41
+    },
+    "model": "mistralai/mistral-large-4-0",
+    "provider": "Mistral",
+    "configuration_name": "mistral-large-4-0-261006"
+  },
+  {
+    "phrase": "Da bin ich mir unsicher",
+    "context": "… Da bin ich mir unsicher, wieder ob das vom Knochen ist oder nicht. Das…Gefäß… Ich glaube nicht.",
+    "tags": [
+      "reflection: diagnostic_uncertainty"
+    ],
+    "rationale": "The person explicitly states uncertainty about classifying the finding (whether it originates from bone or not).",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_no advice_cycle_25.txt",
+      "row": 42
+    },
+    "model": "mistralai/mistral-large-4-0",
+    "provider": "Mistral",
+    "configuration_name": "mistral-large-4-0-261006"
+  },
+  {
+    "phrase": "wieder ob das vom Knochen ist oder nicht",
+    "context": "… Da bin ich mir unsicher, wieder ob das vom Knochen ist oder nicht. Das…Gefäß… Ich glaube nicht.",
+    "tags": [
+      "reasoning: alternative_medical_structure"
+    ],
+    "rationale": "The person considers whether the abnormality is caused by bone, a healthy anatomical structure.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_no advice_cycle_25.txt",
+      "row": 42
+    },
+    "model": "mistralai/mistral-large-4-0",
+    "provider": "Mistral",
+    "configuration_name": "mistral-large-4-0-261006"
+  },
+  {
+    "phrase": "Das…Gefäß…",
+    "context": "… Da bin ich mir unsicher, wieder ob das vom Knochen ist oder nicht. Das…Gefäß… Ich glaube nicht.",
+    "tags": [
+      "visual_search: description_of_medical_image_features"
+    ],
+    "rationale": "The person verbalizes an anatomical structure (vessel/Gefäß) they are currently examining.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_no advice_cycle_25.txt",
+      "row": 42
+    },
+    "model": "mistralai/mistral-large-4-0",
+    "provider": "Mistral",
+    "configuration_name": "mistral-large-4-0-261006"
+  },
+  {
+    "phrase": "Ich glaube nicht",
+    "context": "… Da bin ich mir unsicher, wieder ob das vom Knochen ist oder nicht. Das…Gefäß… Ich glaube nicht.",
+    "tags": [
+      "reflection: self-correction"
+    ],
+    "rationale": "The person rejects or corrects their previous consideration (likely regarding the bone or vessel hypothesis).",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_no advice_cycle_25.txt",
+      "row": 42
+    },
+    "model": "mistralai/mistral-large-4-0",
+    "provider": "Mistral",
+    "configuration_name": "mistral-large-4-0-261006"
+  },
+  {
+    "phrase": "Ähm",
+    "context": "… Ähm, hier finde wieder, irgendwie, die Gyri nicht mehr so deutlich.",
+    "tags": [
+      "paused_in_process"
+    ],
+    "rationale": "Pure filler word indicating a pause in the diagnostic process.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_no advice_cycle_25.txt",
+      "row": 43
+    },
+    "model": "mistralai/mistral-large-4-0",
+    "provider": "Mistral",
+    "configuration_name": "mistral-large-4-0-261006"
+  },
+  {
+    "phrase": "hier finde wieder, irgendwie, die Gyri nicht mehr so deutlich",
+    "context": "… Ähm, hier finde wieder, irgendwie, die Gyri nicht mehr so deutlich. Aber eigentlich beidseitig,",
+    "tags": [
+      "visual_search: description_of_medical_image_features"
+    ],
+    "rationale": "Person verbalizes observing the gyri (anatomical structure) and their unclear appearance (image characteristic).",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_no advice_cycle_25.txt",
+      "row": 43
+    },
+    "model": "mistralai/mistral-large-4-0",
+    "provider": "Mistral",
+    "configuration_name": "mistral-large-4-0-261006"
+  },
+  {
+    "phrase": "Aber eigentlich beidseitig",
+    "context": "… die Gyri nicht mehr so deutlich. Aber eigentlich beidseitig, Als wäre dazwischen eingeblutet.",
+    "tags": [
+      "visual_search: description_of_medical_image_features"
+    ],
+    "rationale": "Person describes the bilateral distribution of the observed image features.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_no advice_cycle_25.txt",
+      "row": 43
+    },
+    "model": "mistralai/mistral-large-4-0",
+    "provider": "Mistral",
+    "configuration_name": "mistral-large-4-0-261006"
+  },
+  {
+    "phrase": "Als wäre dazwischen eingeblutet",
+    "context": "… Aber eigentlich beidseitig, Als wäre dazwischen eingeblutet. Hier ist es besser, aber…",
+    "tags": [
+      "interpretation: bleeding"
+    ],
+    "rationale": "Person interprets the abnormality as a hemorrhage ('eingeblutet' = bled into).",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_no advice_cycle_25.txt",
+      "row": 43
+    },
+    "model": "mistralai/mistral-large-4-0",
+    "provider": "Mistral",
+    "configuration_name": "mistral-large-4-0-261006"
+  },
+  {
+    "phrase": "Hier ist es besser, aber…",
+    "context": "… Als wäre dazwischen eingeblutet. Hier ist es besser, aber… Hier in der Ventrikel,",
+    "tags": [
+      "visual_search: description_of_medical_image_features"
+    ],
+    "rationale": "Person describes image quality or features in another area ('better' = clearer/better visible).",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_no advice_cycle_25.txt",
+      "row": 43
+    },
+    "model": "mistralai/mistral-large-4-0",
+    "provider": "Mistral",
+    "configuration_name": "mistral-large-4-0-261006"
+  },
+  {
+    "phrase": "Hier in der Ventrikel, ist es auch nicht symmetrisch zur Gegenseite",
+    "context": "… Hier ist es besser, aber… Hier in der Ventrikel, ist es auch nicht symmetrisch zur Gegenseite. Ziemlich eng da alles.",
+    "tags": [
+      "visual_search: description_of_medical_image_features"
+    ],
+    "rationale": "Person verbalizes observing the ventricles (anatomical structure) and their asymmetry (image characteristic).",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_no advice_cycle_25.txt",
+      "row": 43
+    },
+    "model": "mistralai/mistral-large-4-0",
+    "provider": "Mistral",
+    "configuration_name": "mistral-large-4-0-261006"
+  },
+  {
+    "phrase": "Ziemlich eng da alles",
+    "context": "… nicht symmetrisch zur Gegenseite. Ziemlich eng da alles. Ich glaub schon.",
+    "tags": [
+      "visual_search: description_of_medical_image_features"
+    ],
+    "rationale": "Person describes the narrowness/tightness of the anatomical structures (image characteristic).",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_no advice_cycle_25.txt",
+      "row": 43
+    },
+    "model": "mistralai/mistral-large-4-0",
+    "provider": "Mistral",
+    "configuration_name": "mistral-large-4-0-261006"
+  },
+  {
+    "phrase": "Ich glaub schon",
+    "context": "… Ziemlich eng da alles. Ich glaub schon.",
+    "tags": [
+      "confidence_high: secondary"
+    ],
+    "rationale": "Person implicitly expresses high certainty ('I think so'/'I believe so') regarding the diagnosis of bleeding.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_no advice_cycle_25.txt",
+      "row": 43
+    },
+    "model": "mistralai/mistral-large-4-0",
+    "provider": "Mistral",
+    "configuration_name": "mistral-large-4-0-261006"
+  },
+  {
+    "phrase": "… Hmm, glaube ist nichts.",
+    "context": "… Hmm, glaube ist nichts.",
+    "tags": [
+      "interpretation: no_bleeding",
+      "confidence_low: secondary"
+    ],
+    "rationale": "The phrase 'glaube ist nichts' (I think it's nothing) indicates the person interprets the finding as no hemorrhage, while 'glaube' (I think/believe) expresses implicit low certainty about this assessment.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_no advice_cycle_25.txt",
+      "row": 44
+    },
+    "model": "mistralai/mistral-large-4-0",
+    "provider": "Mistral",
+    "configuration_name": "mistral-large-4-0-261006"
+  },
+  {
+    "phrase": "Ich finde hier die Ventrikel, irgendwie schlecht zu erkennen",
+    "context": "… Ich finde hier die Ventrikel, irgendwie schlecht zu erkennen, ich weiß nicht, ob das bei Kindern normal ist. Das sieht so eng aus, irgendwie.",
+    "tags": [
+      "visual_search: description_of_medical_image_features"
+    ],
+    "rationale": "The person verbalizes which anatomical structures (ventricles) they are currently examining and describes their visibility characteristics (difficult to recognize).",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_no advice_cycle_25.txt",
+      "row": 45
+    },
+    "model": "mistralai/mistral-large-4-0",
+    "provider": "Mistral",
+    "configuration_name": "mistral-large-4-0-261006"
+  },
+  {
+    "phrase": "ich weiß nicht, ob das bei Kindern normal ist",
+    "context": "Ich finde hier die Ventrikel, irgendwie schlecht zu erkennen, ich weiß nicht, ob das bei Kindern normal ist. Das sieht so eng aus, irgendwie.",
+    "tags": [
+      "reflection: diagnostic_uncertainty"
+    ],
+    "rationale": "The person expresses uncertainty about classifying the finding, specifically assessing whether the appearance is normal or abnormal for children.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_no advice_cycle_25.txt",
+      "row": 45
+    },
+    "model": "mistralai/mistral-large-4-0",
+    "provider": "Mistral",
+    "configuration_name": "mistral-large-4-0-261006"
+  },
+  {
+    "phrase": "Das sieht so eng aus, irgendwie",
+    "context": "ich weiß nicht, ob das bei Kindern normal ist. Das sieht so eng aus, irgendwie. Ansonsten, sehe ich sonst keine Epi- oder Subdurale Blutung, aber ich finde das schon komisch.",
+    "tags": [
+      "visual_search: description_of_medical_image_features"
+    ],
+    "rationale": "The person describes the visual characteristics of the anatomical structure (appearing narrow/tight).",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_no advice_cycle_25.txt",
+      "row": 45
+    },
+    "model": "mistralai/mistral-large-4-0",
+    "provider": "Mistral",
+    "configuration_name": "mistral-large-4-0-261006"
+  },
+  {
+    "phrase": "Ansonsten, sehe ich sonst keine Epi- oder Subdurale Blutung",
+    "context": "Das sieht so eng aus, irgendwie. Ansonsten, sehe ich sonst keine Epi- oder Subdurale Blutung, aber ich finde das schon komisch. Ich glaube schon, ich bin mir nicht so sicher, glaube ja.",
+    "tags": [
+      "interpretation: no_bleeding"
+    ],
+    "rationale": "The person explicitly interprets the findings as showing no epidural or subdural hemorrhage.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_no advice_cycle_25.txt",
+      "row": 45
+    },
+    "model": "mistralai/mistral-large-4-0",
+    "provider": "Mistral",
+    "configuration_name": "mistral-large-4-0-261006"
+  },
+  {
+    "phrase": "aber ich finde das schon komisch",
+    "context": "Ansonsten, sehe ich sonst keine Epi- oder Subdurale Blutung, aber ich finde das schon komisch. Ich glaube schon, ich bin mir nicht so sicher, glaube ja.",
+    "tags": [
+      "reflection: perceptual_doubt"
+    ],
+    "rationale": "The person doubts their own perception or assessment, finding the situation strange despite not detecting bleeding.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_no advice_cycle_25.txt",
+      "row": 45
+    },
+    "model": "mistralai/mistral-large-4-0",
+    "provider": "Mistral",
+    "configuration_name": "mistral-large-4-0-261006"
+  },
+  {
+    "phrase": "Ich glaube schon, ich bin mir nicht so sicher, glaube ja",
+    "context": "aber ich finde das schon komisch. Ich glaube schon, ich bin mir nicht so sicher, glaube ja.",
+    "tags": [
+      "confidence_low: concrete"
+    ],
+    "rationale": "The person explicitly expresses low certainty regarding their diagnostic process and conclusion.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_no advice_cycle_25.txt",
+      "row": 45
+    },
+    "model": "mistralai/mistral-large-4-0",
+    "provider": "Mistral",
+    "configuration_name": "mistral-large-4-0-261006"
+  },
+  {
+    "phrase": "… Hmm, ich finde, hier hm. Dieses Gefühl das ich da, rechts die Gyri besser eingrenzen kann, besser sehen kann als links.",
+    "context": "… Hmm, ich finde, hier hm. Dieses Gefühl das ich da, rechts die Gyri besser eingrenzen kann, besser sehen kann als links. Nicht so sicher, aber hier so. Das macht… Ich sag sehr unsicher, ja.",
+    "tags": [
+      "visual_search: description_of_medical_image_features",
+      "paused_in_process"
+    ],
+    "rationale": "The participant verbalizes comparing the delineation and visibility of the gyri (anatomical structures) between the right and left sides, describing image characteristics. The interjections 'Hmm' and 'hm' are filler words indicating pauses in the diagnostic process.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_no advice_cycle_25.txt",
+      "row": 46
+    },
+    "model": "mistralai/mistral-large-4-0",
+    "provider": "Mistral",
+    "configuration_name": "mistral-large-4-0-261006"
+  },
+  {
+    "phrase": "Nicht so sicher, aber hier so. Das macht… Ich sag sehr unsicher, ja.",
+    "context": "… Hmm, ich finde, hier hm. Dieses Gefühl das ich da, rechts die Gyri besser eingrenzen kann, besser sehen kann als links. Nicht so sicher, aber hier so. Das macht… Ich sag sehr unsicher, ja.",
+    "tags": [
+      "confidence_low: concrete",
+      "paused_in_process"
+    ],
+    "rationale": "The participant explicitly expresses low certainty regarding their diagnostic assessment using phrases like 'Nicht so sicher' (not so sure) and 'sehr unsicher' (very uncertain). 'Das macht…' is a filler indicating a pause in speech.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_no advice_cycle_25.txt",
+      "row": 46
+    },
+    "model": "mistralai/mistral-large-4-0",
+    "provider": "Mistral",
+    "configuration_name": "mistral-large-4-0-261006"
+  },
+  {
+    "phrase": "Da sehe ich nichts auffälliges.",
+    "context": "… Da sehe ich nichts auffälliges.",
+    "tags": [
+      "indicator: no_bleeding"
+    ],
+    "rationale": "The person explicitly states that they see nothing conspicuous or abnormal in a specific location ('Da'), thereby classifying that image area as unremarkable.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_no advice_cycle_25.txt",
+      "row": 47
+    },
+    "model": "mistralai/mistral-large-4-0",
+    "provider": "Mistral",
+    "configuration_name": "mistral-large-4-0-261006"
+  },
+  {
+    "phrase": "Hm, da sehe ich jetzt keinen Unterschied zur linken Seite, außer… Ne…, Hm.",
+    "context": "… Hm, da sehe ich jetzt keinen Unterschied zur linken Seite, außer… Ne…, Hm.",
+    "tags": [
+      "reflection: diagnostic_uncertainty",
+      "paused_in_process"
+    ],
+    "rationale": "The speaker initially states they see no difference compared to the left side, but then hesitates with 'außer…' (except) before correcting themselves with 'Ne…' (no), indicating uncertainty about classifying the finding as normal or abnormal. The 'Hm' utterances at the beginning and end are filler words indicating pauses in the diagnostic process.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_no advice_cycle_25.txt",
+      "row": 48
+    },
+    "model": "mistralai/mistral-large-4-0",
+    "provider": "Mistral",
+    "configuration_name": "mistral-large-4-0-261006"
+  },
+  {
+    "phrase": "Hm, das finde ich schon ein bisschen auffällig da.",
+    "context": "Hm, das finde ich schon ein bisschen auffällig da. Mhm, würde auch zu plötzlichen Kopfschmerzen passen.",
+    "tags": [
+      "indicator: anomaly_detected"
+    ],
+    "rationale": "The person notices an abnormality ('auffällig') in the image, indicating detection of an anomaly atypical for a healthy skull.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_no advice_cycle_25.txt",
+      "row": 49
+    },
+    "model": "mistralai/mistral-large-4-0",
+    "provider": "Mistral",
+    "configuration_name": "mistral-large-4-0-261006"
+  },
+  {
+    "phrase": "Mhm, würde auch zu plötzlichen Kopfschmerzen passen.",
+    "context": "das finde ich schon ein bisschen auffällig da. Mhm, würde auch zu plötzlichen Kopfschmerzen passen. Man muss gucken",
+    "tags": [
+      "reasoning: conclusion_contextual_information"
+    ],
+    "rationale": "The person connects the found abnormality with the patient's medical history (sudden headaches), drawing a conclusion from contextual information.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_no advice_cycle_25.txt",
+      "row": 49
+    },
+    "model": "mistralai/mistral-large-4-0",
+    "provider": "Mistral",
+    "configuration_name": "mistral-large-4-0-261006"
+  },
+  {
+    "phrase": "Man muss gucken, ob die Person Nackensteifigkeit? hat.",
+    "context": "würde auch zu plötzlichen Kopfschmerzen passen. Man muss gucken, ob die Person Nackensteifigkeit? hat. Aber ich glaube schon",
+    "tags": [
+      "control: missing_information"
+    ],
+    "rationale": "The person expresses the need for additional clinical information (checking for neck stiffness) to verify or complete the diagnostic process.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_no advice_cycle_25.txt",
+      "row": 49
+    },
+    "model": "mistralai/mistral-large-4-0",
+    "provider": "Mistral",
+    "configuration_name": "mistral-large-4-0-261006"
+  },
+  {
+    "phrase": "Aber ich glaube schon, dass das da eine Blutung ist.",
+    "context": "ob die Person Nackensteifigkeit? hat. Aber ich glaube schon, dass das da eine Blutung ist. Ja, hier.",
+    "tags": [
+      "interpretation: bleeding"
+    ],
+    "rationale": "The person interprets the previously detected abnormality as a hemorrhage ('Blutung').",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_no advice_cycle_25.txt",
+      "row": 49
+    },
+    "model": "mistralai/mistral-large-4-0",
+    "provider": "Mistral",
+    "configuration_name": "mistral-large-4-0-261006"
+  },
+  {
+    "phrase": "Ja, hier.",
+    "context": "Aber ich glaube schon, dass das da eine Blutung ist. Ja, hier.",
+    "tags": [
+      "interpretation: description_bleeding"
+    ],
+    "rationale": "The person specifies the location ('hier') of the already identified hemorrhage, describing it in more detail.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_no advice_cycle_25.txt",
+      "row": 49
+    },
+    "model": "mistralai/mistral-large-4-0",
+    "provider": "Mistral",
+    "configuration_name": "mistral-large-4-0-261006"
+  }
+]

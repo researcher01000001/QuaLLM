@@ -1,0 +1,71 @@
+{
+  "timestamp_start": "2026-10-23T16:59:41.462908",
+  "timestamp_end": "2026-10-23T17:17:59.731395",
+  "iteration": 0,
+  "coding_configuration": {
+    "configuration_name": "mistral-small-4-2603-260316",
+    "model_name": "mistralai/mistral-small-2603",
+    "short_name": "mistral-small-4-2603_260316",
+    "temperature": 0,
+    "seed": null,
+    "provider_names": null,
+    "prompt_caching": true,
+    "max_threads": 1,
+    "iterations": 1,
+    "consensus_threshold": 0.5,
+    "system_prompt_name": "SYSTEM_PROMPT_BASE",
+    "user_prompt_name": "USER_PROMPT_BASE",
+    "reasoning": false,
+    "reasoning_effort": null
+  },
+  "system_prompt": "Please label the following texts segment-wise with the given codes.\nGive the exact quote with the corresponding labels. Also give a context window that is unique and has the quote uniquely in it.\nUse the given response format.\n\nHere are the ALLOWED TAGS:\n<tag>ai_report: ich</tag>: Person verbalizes that the AI has found a hemorrhage.; Cannot co-occur with other tags that also cannot co-occur.\n<tag>ai_report: ich_localization</tag>: Person describes where the AI locates the hemorrhage.; Cannot co-occur with other tags that also cannot co-occur.\n<tag>ai_report: no_ich</tag>: Person verbalizes that the AI has not found a hemorrhage.; Cannot co-occur with other tags that also cannot co-occur.\n<tag>awareness_of_task: difficult</tag>: Person perceives the current task as difficult.; Cannot co-occur with other tags that also cannot co-occur.\n<tag>awareness_of_task: easy</tag>: Person perceives the current task as easy.; Cannot co-occur with other tags that also cannot co-occur.\n<tag>awareness_of_task: image_quality</tag>: Person explicitly complains about image quality or acquisition method. Resulting uncertainty is attributed to the acquisition or image quality, not to their own competence.; Cannot co-occur with other tags that also cannot co-occur.\n<tag>confidence_high: concrete</tag>: Person explicitly expresses high certainty regarding the diagnostic process.; Cannot co-occur with other tags that also cannot co-occur.\n<tag>confidence_high: increased_through_ai</tag>: Person reports the AI has increased their diagnostic certainty.; Cannot co-occur with other tags that also cannot co-occur.\n<tag>confidence_high: secondary</tag>: High certainty is implicitly shown through expressions like 'definitely', 'probably'.; Can co-occur with other tags\n<tag>confidence_low: concrete</tag>: Person explicitly expresses low certainty regarding the diagnostic process.; Cannot co-occur with other tags that also cannot co-occur.\n<tag>confidence_low: decreased_through_ai</tag>: Person reports the AI has decreased their diagnostic certainty.; Cannot co-occur with other tags that also cannot co-occur.\n<tag>confidence_low: secondary</tag>: Low certainty is implicitly shown through adverbs like 'perhaps'.; Can co-occur with other tags\n<tag>control: control_repeat</tag>: Person returns to a previously viewed image area.; Cannot co-occur with other tags that also cannot co-occur.\n<tag>control: control_strategies</tag>: Person wants to discuss the case with others or get a second opinion.; Cannot co-occur with other tags that also cannot co-occur.\n<tag>control: make_own_judgement</tag>: Person makes their own decision without considering the AI's assessment.; Cannot co-occur with other tags that also cannot co-occur.\n<tag>control: missing_information</tag>: Person wants or needs more information about the case.; Cannot co-occur with other tags that also cannot co-occur.\n<tag>control: reflective_question</tag>: Person asks themselves a question to control or verify their own thought process.; Cannot co-occur with other tags that also cannot co-occur.\n<tag>control: relying_on_ai</tag>: Person relies on the AI during the visual search.; Cannot co-occur with other tags that also cannot co-occur.\n<tag>decision_with_ai: explicitly_agreeing_with_ai</tag>: Person explicitly agrees with the AI assessment.; Cannot co-occur with other tags that also cannot co-occur.\n<tag>decision_with_ai: explicitly_disagreeing_with_ai</tag>: Person disagrees with the AI assessment.; Cannot co-occur with other tags that also cannot co-occur.\n<tag>decision_with_ai: implicitly_agreeing_with_ai</tag>: Person implicitly agrees with the AI assessment.; Can co-occur with other tags\n<tag>indicator: anomaly_detected</tag>: Person notices an abnormality atypical for a healthy skull.; Cannot co-occur with other tags that also cannot co-occur.\n<tag>indicator: no_bleeding</tag>: Person classifies a specific image area as unremarkable.; Cannot co-occur with other tags that also cannot co-occur.\n<tag>interpretation: bleeding</tag>: Person interprets the abnormality as a hemorrhage (term 'hemorrhage' or ICH or ICB is mentioned or inferable from context).; Cannot co-occur with other tags that also cannot co-occur.\n<tag>interpretation: bleeding_localization_unclear</tag>: Person considers a hemorrhage likely but cannot find the exact location.; Cannot co-occur with other tags that also cannot co-occur.\n<tag>interpretation: description_bleeding</tag>: Person describes an already identified hemorrhage in more detail.; Cannot co-occur with other tags that also cannot co-occur.\n<tag>interpretation: no_bleeding</tag>: Person interprets the finding or lack thereof as 'no hemorrhage'.; Cannot co-occur with other tags that also cannot co-occur.\n<tag>interpretation: no_bleeding_explanation</tag>: Person explains why the abnormality cannot be a hemorrhage.; Cannot co-occur with other tags that also cannot co-occur.\n<tag>other</tag>: This code states that no clear code can be assigned with the given information. Used when the coding system has high uncertainty.; Cannot co-occur with other tags that also cannot co-occur.\n<tag>paused_in_process</tag>: The code is assigned when pure filler words or sentences are spoken.; Can co-occur with other tags\n<tag>reasoning: alternative_medical_cause</tag>: Person names another possible medical cause or explanation.; Cannot co-occur with other tags that also cannot co-occur.\n<tag>reasoning: alternative_medical_structure</tag>: Person attributes the abnormality to a healthy anatomical structure (e.g. bone).; Cannot co-occur with other tags that also cannot co-occur.\n<tag>reasoning: artifact</tag>: Person refers to an abnormality as an artifact.; Cannot co-occur with other tags that also cannot co-occur.\n<tag>reasoning: conclusion_contextual_information</tag>: Person connects the medical history with found indicators or draws conclusions from it.; Cannot co-occur with other tags that also cannot co-occur.\n<tag>reasoning: conclusion_findings</tag>: Person draws conclusions from the found indicators.; Cannot co-occur with other tags that also cannot co-occur.\n<tag>reasoning: mentioning_contextual_information</tag>: Person mentions cause of accident or patient-related information (medical history).; Cannot co-occur with other tags that also cannot co-occur.\n<tag>reasoning: not_matching_contextual_information</tag>: Findings and/or diagnosis do not match the provided medical history.; Cannot co-occur with other tags that also cannot co-occur.\n<tag>reference: past_case</tag>: Person refers to a previous case.; Can co-occur with other tags\n<tag>reference: past_trial</tag>: Person refers to a previous trial or run.; Can co-occur with other tags\n<tag>reflection: diagnostic_uncertainty</tag>: Person is uncertain about classifying a finding (cannot justify or assign)., Person assesses whether a finding is normal, unremarkable, or abnormal., Person reflects whether another diagnosis would be considered.; Cannot co-occur with other tags that also cannot co-occur.\n<tag>reflection: experience_limitation</tag>: Person refers to their own limits of experience or knowledge.; Cannot co-occur with other tags that also cannot co-occur.\n<tag>reflection: perceptual_doubt</tag>: Person doubts their own perception.; Cannot co-occur with other tags that also cannot co-occur.\n<tag>reflection: prior_experiences</tag>: Person explicitly draws on their own prior experience.; Cannot co-occur with other tags that also cannot co-occur.\n<tag>reflection: recurring_perceptual_pattern</tag>: Person reflects on a recurring, case-independent perceptual or judgmental pattern in themselves.; Cannot co-occur with other tags that also cannot co-occur.\n<tag>reflection: self-affirmation</tag>: Person reaffirms themselves within the same statement or context.; Cannot co-occur with other tags that also cannot co-occur.\n<tag>reflection: self-correction</tag>: Person corrects or improves their own previous statement.; Can co-occur with other tags\n<tag>reflection: self-monitoring</tag>: Person explicitly observes or comments on their own diagnostic process as it unfolds.; Cannot co-occur with other tags that also cannot co-occur.\n<tag>reflection_of_ai: confirmed_by_ai</tag>: Person feels confirmed in their assessment by the AI.; Cannot co-occur with other tags that also cannot co-occur.\n<tag>reflection_of_ai: confused_by_ai</tag>: Person is confused by the AI.; Cannot co-occur with other tags that also cannot co-occur.\n<tag>reflection_of_ai: distrust_in_ai</tag>: Person distrusts the AI.; Cannot co-occur with other tags that also cannot co-occur.\n<tag>reflection_of_ai: helpful</tag>: Person perceives the AI as helpful.; Cannot co-occur with other tags that also cannot co-occur.\n<tag>reflection_of_ai: trust_in_ai</tag>: Person trusts the AI.; Cannot co-occur with other tags that also cannot co-occur.\n<tag>reflection_of_ai: unhelpful/unnecessary</tag>: Person perceives the AI as unhelpful and/or unnecessary.; Cannot co-occur with other tags that also cannot co-occur.\n<tag>reflection_of_ai: ich_not_recognized_without_ai</tag>: Person would not have recognized the hemorrhage without the AI.; Cannot co-occur with other tags that also cannot co-occur.\n<tag>reflection_of_ai: ich_recognized_without_ai</tag>: Person would have recognized the hemorrhage even without the AI.; Cannot co-occur with other tags that also cannot co-occur.\n<tag>technical_conversation</tag>: Person discusses technical difficulties with the display tool or task with the experimenter.; Cannot co-occur with other tags that also cannot co-occur.\n<tag>visual_search: based_on_contextual_information</tag>: Person specifically searches for abnormalities or clues based on the medical history.; Cannot co-occur with other tags that also cannot co-occur.\n<tag>visual_search: triggered_by_ai</tag>: Person aligns their visual approach with the AI information or searches for the hemorrhage location indicated by the AI.; Cannot co-occur with other tags that also cannot co-occur.\n<tag>visual_search: triggered_by_finding</tag>: Person aligns their visual approach with an already found indicator.; Cannot co-occur with other tags that also cannot co-occur.\n<tag>visual_search: description_of_medical_image_features</tag>: Person verbalizes which anatomical structures or image characteristics they are currently looking at or checking.; Cannot co-occur with other tags that also cannot co-occur.\n<tag>visual_search: description_of_own_approach_without_external_help</tag>: Person explicitly comments on their own search procedure.; Cannot co-occur with other tags that also cannot co-occur.\n<tag>visual_search</tag>: Cannot co-occur with other tags that also cannot co-occur.\n\nEXPECTED JSON FORMAT:\n{\n  \"classifications\": [\n    {\n      \"phrase\": \"Das könnte für mich eine Blutung sein.\",\n      \"context\": \"linken Seite im Gehirn. Das könnte für mich eine Blutung sein. Ja. Genau.\",\n      \"tags\": [\"interpretation: bleeding\"],\n      \"rationale\": \"Brief explanation of why this tag applies.\"\n    }\n  ]\n}\n",
+  "user_prompt_template": "Text to analyze:\n\n[paragraph text]",
+  "models": [
+    "mistralai/mistral-small-2603"
+  ],
+  "providers": [
+    "Mistral"
+  ],
+  "coded_files": [
+    {
+      "source_file": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "total_paragraphs": 50,
+      "processed_paragraphs": 50
+    },
+    {
+      "source_file": "data\\sources\\atlas_import\\training\\20_no advice_cycle_25.txt",
+      "total_paragraphs": 50,
+      "processed_paragraphs": 50
+    },
+    {
+      "source_file": "data\\sources\\atlas_import\\training\\42_advice with annotation_cycle_117.txt",
+      "total_paragraphs": 50,
+      "processed_paragraphs": 50
+    },
+    {
+      "source_file": "data\\sources\\atlas_import\\training\\42_no advice_cycle_188.txt",
+      "total_paragraphs": 50,
+      "processed_paragraphs": 50
+    },
+    {
+      "source_file": "data\\sources\\atlas_import\\training\\45_advice with annotation_cycle_224.txt",
+      "total_paragraphs": 50,
+      "processed_paragraphs": 50
+    },
+    {
+      "source_file": "data\\sources\\atlas_import\\training\\45_no advice_cycle_63.txt",
+      "total_paragraphs": 48,
+      "processed_paragraphs": 48
+    },
+    {
+      "source_file": "data\\sources\\atlas_import\\training\\50_advice with annotation_cycle_225.txt",
+      "total_paragraphs": 50,
+      "processed_paragraphs": 50
+    },
+    {
+      "source_file": "data\\sources\\atlas_import\\training\\50_no advice_cycle_162.txt",
+      "total_paragraphs": 50,
+      "processed_paragraphs": 50
+    }
+  ]
+}

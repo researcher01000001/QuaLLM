@@ -1,0 +1,13 @@
+# Secrets
+.env
+
+# Local environments and tool caches
+.venv/
+.claude/
+.pytest_cache/
+.ruff_cache/
+__pycache__/
+
+# Generated cache
+data/cache/*
+!data/cache/.gitkeep

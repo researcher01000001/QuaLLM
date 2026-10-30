@@ -1,0 +1,4352 @@
+[
+  {
+    "phrase": "Auch hier ist es symetrisch",
+    "context": "Auch hier ist es symetrisch … und …",
+    "tags": [
+      "indicator: no_bleeding"
+    ],
+    "rationale": "The speaker assesses the brain structures as symmetrical, which serves as an indicator that the image area appears normal and unremarkable.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 9
+    },
+    "model": "google/gemini-3.8-flash",
+    "provider": "Google",
+    "configuration_name": "gemini-3-8-flash-260902"
+  },
+  {
+    "phrase": "Achso ich muss das immer so machen dann. EXPERIMENTER: Ja du kannst das leider nicht übernehmen, also du musst bei jedem Fall das neu einstellen. VPN: Mhm alles gut",
+    "context": "VPN: Achso ich muss das immer so machen dann. EXPERIMENTER: Ja du kannst das leider nicht übernehmen, also du musst bei jedem Fall das neu einstellen. VPN: Mhm alles gut, scroll ich jetzt systematsich",
+    "tags": [
+      "technical_conversation"
+    ],
+    "rationale": "Exchange with the experimenter regarding the handling/settings of the software interface.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 1
+    },
+    "model": "google/gemini-3.8-flash",
+    "provider": "Google",
+    "configuration_name": "gemini-3-8-flash-260902"
+  },
+  {
+    "phrase": "scroll ich jetzt systematsich von oben nach untern oder unten nach oben",
+    "context": "Mhm alles gut, scroll ich jetzt systematsich von oben nach untern oder unten nach oben und gucke immer auf",
+    "tags": [
+      "visual_search: description_of_own_approach_without_external_help"
+    ],
+    "rationale": "The participant describes their own scrolling and viewing procedure across the slices.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 1
+    },
+    "model": "google/gemini-3.8-flash",
+    "provider": "Google",
+    "configuration_name": "gemini-3-8-flash-260902"
+  },
+  {
+    "phrase": "gucke immer auf beiden Seiten auf Knochen, auf irgenwelche Defekte",
+    "context": "unten nach oben und gucke immer auf beiden Seiten auf Knochen, auf irgenwelche Defekte da sind, die dann",
+    "tags": [
+      "visual_search: description_of_medical_image_features"
+    ],
+    "rationale": "Verbalization of specific anatomical structures (bone) and image features (defects) being checked.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 1
+    },
+    "model": "google/gemini-3.8-flash",
+    "provider": "Google",
+    "configuration_name": "gemini-3-8-flash-260902"
+  },
+  {
+    "phrase": "hier sieht das alles, alles symetrisch und keine Aufhellung oder so",
+    "context": "vermuten könnte. Aber hier sieht das alles, alles symetrisch und keine Aufhellung oder so, deswegen mhm das hilft",
+    "tags": [
+      "indicator: no_bleeding"
+    ],
+    "rationale": "The participant describes the findings as symmetrical with no hyperdense areas (Aufhellung).",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 1
+    },
+    "model": "google/gemini-3.8-flash",
+    "provider": "Google",
+    "configuration_name": "gemini-3-8-flash-260902"
+  },
+  {
+    "phrase": "mhm",
+    "context": "oder so, deswegen mhm das hilft mir wirklich",
+    "tags": [
+      "paused_in_process"
+    ],
+    "rationale": "Non-lexical filler sound indicating a pause in the thought process.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 1
+    },
+    "model": "google/gemini-3.8-flash",
+    "provider": "Google",
+    "configuration_name": "gemini-3-8-flash-260902"
+  },
+  {
+    "phrase": "das das wirklich keiner ist",
+    "context": "hilft mir wirklich zu sagen, das das wirklich keiner ist Ich würde schneller",
+    "tags": [
+      "interpretation: no_bleeding"
+    ],
+    "rationale": "Concluding interpretation that there is no hemorrhage.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 1
+    },
+    "model": "google/gemini-3.8-flash",
+    "provider": "Google",
+    "configuration_name": "gemini-3-8-flash-260902"
+  },
+  {
+    "phrase": "wirklich",
+    "context": "zu sagen, das das wirklich keiner ist Ich würde",
+    "tags": [
+      "confidence_high: secondary"
+    ],
+    "rationale": "Adverb implicitly showing high diagnostic certainty.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 1
+    },
+    "model": "google/gemini-3.8-flash",
+    "provider": "Google",
+    "configuration_name": "gemini-3-8-flash-260902"
+  },
+  {
+    "phrase": "Ich würde schneller einfach durchgehen.",
+    "context": "das wirklich keiner ist Ich würde schneller einfach durchgehen.",
+    "tags": [
+      "visual_search: description_of_own_approach_without_external_help"
+    ],
+    "rationale": "The participant explicitly comments on their own procedure for viewing/scrolling through the remaining images.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 1
+    },
+    "model": "google/gemini-3.8-flash",
+    "provider": "Google",
+    "configuration_name": "gemini-3-8-flash-260902"
+  },
+  {
+    "phrase": "So",
+    "context": "So, Mittellienie mitte",
+    "tags": [
+      "paused_in_process"
+    ],
+    "rationale": "The word 'So' is used as an opening filler word bridging a thought.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 5
+    },
+    "model": "google/gemini-3.8-flash",
+    "provider": "Google",
+    "configuration_name": "gemini-3-8-flash-260902"
+  },
+  {
+    "phrase": "Mittellienie mitte wir habe hir alles symetrich und keine Signalverstärkung",
+    "context": "So, Mittellienie mitte wir habe hir alles symetrich und keine Signalverstärkung, ja",
+    "tags": [
+      "indicator: no_bleeding"
+    ],
+    "rationale": "The participant describes the specific brain structures as unremarkable (midline centered, symmetrical, and without signal enhancement/hyperdensity).",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 5
+    },
+    "model": "google/gemini-3.8-flash",
+    "provider": "Google",
+    "configuration_name": "gemini-3-8-flash-260902"
+  },
+  {
+    "phrase": "ja",
+    "context": "keine Signalverstärkung, ja",
+    "tags": [
+      "paused_in_process"
+    ],
+    "rationale": "Trailing filler word ending the utterance without adding diagnostic content.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 5
+    },
+    "model": "google/gemini-3.8-flash",
+    "provider": "Google",
+    "configuration_name": "gemini-3-8-flash-260902"
+  },
+  {
+    "phrase": "Mhm",
+    "context": "Mhm, ja normal fange",
+    "tags": [
+      "paused_in_process"
+    ],
+    "rationale": "Non-lexical filler sound bridging a pause.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 2
+    },
+    "model": "google/gemini-3.8-flash",
+    "provider": "Google",
+    "configuration_name": "gemini-3-8-flash-260902"
+  },
+  {
+    "phrase": "normal fange ich immer irgwendwie von oben oder von untern an, dass ich nichts verpasse",
+    "context": "ja normal fange ich immer irgwendwie von oben oder von untern an, dass ich nichts verpasse. Mhm Mittellinie",
+    "tags": [
+      "visual_search: description_of_own_approach_without_external_help"
+    ],
+    "rationale": "The person explicitly describes their standard systematic search procedure across slices.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 2
+    },
+    "model": "google/gemini-3.8-flash",
+    "provider": "Google",
+    "configuration_name": "gemini-3-8-flash-260902"
+  },
+  {
+    "phrase": "Mhm",
+    "context": "verpasse. Mhm Mittellinie ist",
+    "tags": [
+      "paused_in_process"
+    ],
+    "rationale": "Non-lexical filler sound.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 2
+    },
+    "model": "google/gemini-3.8-flash",
+    "provider": "Google",
+    "configuration_name": "gemini-3-8-flash-260902"
+  },
+  {
+    "phrase": "Mittellinie ist in der Mitte",
+    "context": "Mhm Mittellinie ist in der Mitte, sehe keine",
+    "tags": [
+      "indicator: no_bleeding"
+    ],
+    "rationale": "Identifies an anatomical structure (midline) as normal and symmetrical.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 2
+    },
+    "model": "google/gemini-3.8-flash",
+    "provider": "Google",
+    "configuration_name": "gemini-3-8-flash-260902"
+  },
+  {
+    "phrase": "sehe keine Knochen ähm Brüche",
+    "context": "Mitte, sehe keine Knochen ähm Brüche, mhm hier",
+    "tags": [
+      "indicator: no_bleeding"
+    ],
+    "rationale": "Classifies the bone structures as intact/unremarkable without fractures.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 2
+    },
+    "model": "google/gemini-3.8-flash",
+    "provider": "Google",
+    "configuration_name": "gemini-3-8-flash-260902"
+  },
+  {
+    "phrase": "mhm",
+    "context": "Brüche, mhm hier zeigt",
+    "tags": [
+      "paused_in_process"
+    ],
+    "rationale": "Non-lexical filler utterance.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 2
+    },
+    "model": "google/gemini-3.8-flash",
+    "provider": "Google",
+    "configuration_name": "gemini-3-8-flash-260902"
+  },
+  {
+    "phrase": "hier zeigt der mir gerade ne Blutung in dem Bereich",
+    "context": "mhm hier zeigt der mir gerade ne Blutung in dem Bereich, das ist",
+    "tags": [
+      "ai_report: ich_localization"
+    ],
+    "rationale": "The person describes where the AI is currently pointing out a hemorrhage ('hier ... in dem Bereich').",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 2
+    },
+    "model": "google/gemini-3.8-flash",
+    "provider": "Google",
+    "configuration_name": "gemini-3-8-flash-260902"
+  },
+  {
+    "phrase": "auf jeden Fall",
+    "context": "Bildschirm hätte ich das auf jeden Fall nicht erkannt sonnst, deswegen",
+    "tags": [
+      "confidence_high: secondary"
+    ],
+    "rationale": "Adverbial expression conveying high certainty.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 2
+    },
+    "model": "google/gemini-3.8-flash",
+    "provider": "Google",
+    "configuration_name": "gemini-3-8-flash-260902"
+  },
+  {
+    "phrase": "hätte ich das auf jeden Fall nicht erkannt sonnst",
+    "context": "meinem Bildschirm hätte ich das auf jeden Fall nicht erkannt sonnst, deswegen, ist",
+    "tags": [
+      "reflection_of_ai: ich_not_recognized_without_ai"
+    ],
+    "rationale": "Counterfactual statement that the person would not have detected this finding without the AI.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 2
+    },
+    "model": "google/gemini-3.8-flash",
+    "provider": "Google",
+    "configuration_name": "gemini-3-8-flash-260902"
+  },
+  {
+    "phrase": "wo war das nochmal?",
+    "context": "deswegen, ist nicht, wo war das nochmal? ... Da angeblich",
+    "tags": [
+      "visual_search: triggered_by_ai"
+    ],
+    "rationale": "Searching again for the location indicated by the AI ('where was that again?').",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 2
+    },
+    "model": "google/gemini-3.8-flash",
+    "provider": "Google",
+    "configuration_name": "gemini-3-8-flash-260902"
+  },
+  {
+    "phrase": "ich hätte das nicht gesehen",
+    "context": "Da angeblich, ja ich hätte das nicht gesehen.",
+    "tags": [
+      "reflection_of_ai: ich_not_recognized_without_ai"
+    ],
+    "rationale": "Counterfactual expression that the person would not have noticed the finding without the AI's prompt.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 2
+    },
+    "model": "google/gemini-3.8-flash",
+    "provider": "Google",
+    "configuration_name": "gemini-3-8-flash-260902"
+  },
+  {
+    "phrase": "Man sieht hier auch keine Knochen, ähm Defekt",
+    "context": "Man sieht hier auch keine Knochen, ähm Defekt … Kein Zeichen",
+    "tags": [
+      "indicator: no_bleeding"
+    ],
+    "rationale": "The person classifies the specific area as unremarkable with regard to bony injury (no bone defect).",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 10
+    },
+    "model": "google/gemini-3.8-flash",
+    "provider": "Google",
+    "configuration_name": "gemini-3-8-flash-260902"
+  },
+  {
+    "phrase": "ähm",
+    "context": "keine Knochen, ähm Defekt …",
+    "tags": [
+      "paused_in_process"
+    ],
+    "rationale": "Non-lexical filler sound uttered during speech.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 10
+    },
+    "model": "google/gemini-3.8-flash",
+    "provider": "Google",
+    "configuration_name": "gemini-3-8-flash-260902"
+  },
+  {
+    "phrase": "Kein Zeichen für eine Blutung.",
+    "context": "ähm Defekt … Kein Zeichen für eine Blutung.",
+    "tags": [
+      "interpretation: no_bleeding"
+    ],
+    "rationale": "The person interprets the overall finding as showing no evidence of hemorrhage.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 10
+    },
+    "model": "google/gemini-3.8-flash",
+    "provider": "Google",
+    "configuration_name": "gemini-3-8-flash-260902"
+  },
+  {
+    "phrase": "Fang ich wieder von vorne an",
+    "context": "Fang ich wieder von vorne an und schau auf die Mittellinie.",
+    "tags": [
+      "visual_search: description_of_own_approach_without_external_help"
+    ],
+    "rationale": "The speaker explicitly describes their own search procedure (starting from the beginning again) without external help.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 8
+    },
+    "model": "google/gemini-3.8-flash",
+    "provider": "Google",
+    "configuration_name": "gemini-3-8-flash-260902"
+  },
+  {
+    "phrase": "schau auf die Mittellinie",
+    "context": "Fang ich wieder von vorne an und schau auf die Mittellinie. Und auf die Ränder",
+    "tags": [
+      "visual_search: description_of_medical_image_features"
+    ],
+    "rationale": "The speaker states the specific anatomical structure they are currently checking (midline).",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 8
+    },
+    "model": "google/gemini-3.8-flash",
+    "provider": "Google",
+    "configuration_name": "gemini-3-8-flash-260902"
+  },
+  {
+    "phrase": "auf die Ränder vom Knochen",
+    "context": "schau auf die Mittellinie. Und auf die Ränder vom Knochen, es sind aber",
+    "tags": [
+      "visual_search: description_of_medical_image_features"
+    ],
+    "rationale": "The speaker names the anatomical structure/feature they are looking at (bone margins).",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 8
+    },
+    "model": "google/gemini-3.8-flash",
+    "provider": "Google",
+    "configuration_name": "gemini-3-8-flash-260902"
+  },
+  {
+    "phrase": "keine Unterschiede zu sehen",
+    "context": "Und auf die Ränder vom Knochen, es sind aber keine Unterschiede zu sehen.",
+    "tags": [
+      "indicator: no_bleeding"
+    ],
+    "rationale": "The speaker evaluates the specific structures as symmetrical and unremarkable (no differences visible).",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 8
+    },
+    "model": "google/gemini-3.8-flash",
+    "provider": "Google",
+    "configuration_name": "gemini-3-8-flash-260902"
+  },
+  {
+    "phrase": "Fang ich wieder so an",
+    "context": "Fang ich wieder so an, Mittellinien ist in",
+    "tags": [
+      "visual_search: description_of_own_approach_without_external_help"
+    ],
+    "rationale": "The speaker explicitly comments on their own procedure for beginning the image search.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 4
+    },
+    "model": "google/gemini-3.8-flash",
+    "provider": "Google",
+    "configuration_name": "gemini-3-8-flash-260902"
+  },
+  {
+    "phrase": "Mittellinien ist in der Mitte, es sind keine Verschiebungen",
+    "context": "Fang ich wieder so an, Mittellinien ist in der Mitte, es sind keine Verschiebungen, Ventrikel sehen auch",
+    "tags": [
+      "indicator: no_bleeding"
+    ],
+    "rationale": "The speaker identifies the midline as unremarkable with no shift.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 4
+    },
+    "model": "google/gemini-3.8-flash",
+    "provider": "Google",
+    "configuration_name": "gemini-3-8-flash-260902"
+  },
+  {
+    "phrase": "Ventrikel sehen auch gleich aus",
+    "context": "keine Verschiebungen, Ventrikel sehen auch gleich aus … äh ja,",
+    "tags": [
+      "indicator: no_bleeding"
+    ],
+    "rationale": "The speaker assesses the ventricles as symmetric and unremarkable.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 4
+    },
+    "model": "google/gemini-3.8-flash",
+    "provider": "Google",
+    "configuration_name": "gemini-3-8-flash-260902"
+  },
+  {
+    "phrase": "äh",
+    "context": "gleich aus … äh ja, hier sieht",
+    "tags": [
+      "paused_in_process"
+    ],
+    "rationale": "A non-lexical filler sound indicating a pause in thought.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 4
+    },
+    "model": "google/gemini-3.8-flash",
+    "provider": "Google",
+    "configuration_name": "gemini-3-8-flash-260902"
+  },
+  {
+    "phrase": "hier sieht man das schon deutlich da an der Aufhellung",
+    "context": "äh ja, hier sieht man das schon deutlich da an der Aufhellung im Vergleich zu",
+    "tags": [
+      "indicator: anomaly_detected"
+    ],
+    "rationale": "The speaker identifies a hyperdense area/abnormality (Aufhellung) at a specific location.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 4
+    },
+    "model": "google/gemini-3.8-flash",
+    "provider": "Google",
+    "configuration_name": "gemini-3-8-flash-260902"
+  },
+  {
+    "phrase": "deutlich",
+    "context": "sieht man das schon deutlich da an der",
+    "tags": [
+      "confidence_high: secondary"
+    ],
+    "rationale": "The adverb 'deutlich' expresses high confidence implicitly.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 4
+    },
+    "model": "google/gemini-3.8-flash",
+    "provider": "Google",
+    "configuration_name": "gemini-3-8-flash-260902"
+  },
+  {
+    "phrase": "im Vergleich zu dem anderen Seite ist eher nichts auch",
+    "context": "an der Aufhellung im Vergleich zu dem anderen Seite ist eher nichts auch. Mhm …",
+    "tags": [
+      "indicator: no_bleeding"
+    ],
+    "rationale": "The speaker notes that the contralateral side is unremarkable/has no findings.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 4
+    },
+    "model": "google/gemini-3.8-flash",
+    "provider": "Google",
+    "configuration_name": "gemini-3-8-flash-260902"
+  },
+  {
+    "phrase": "Mhm",
+    "context": "ist eher nichts auch. Mhm …",
+    "tags": [
+      "paused_in_process"
+    ],
+    "rationale": "Non-lexical vocalization indicating a pause.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 4
+    },
+    "model": "google/gemini-3.8-flash",
+    "provider": "Google",
+    "configuration_name": "gemini-3-8-flash-260902"
+  },
+  {
+    "phrase": "fangen wir wieder oben an",
+    "context": "So, fangen wir wieder oben an … und hier",
+    "tags": [
+      "visual_search: description_of_own_approach_without_external_help"
+    ],
+    "rationale": "The speaker comments on their own procedure and direction of image inspection without external assistance.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 7
+    },
+    "model": "google/gemini-3.8-flash",
+    "provider": "Google",
+    "configuration_name": "gemini-3-8-flash-260902"
+  },
+  {
+    "phrase": "mhm",
+    "context": "auch erstmal, mhm keine Veränderung.",
+    "tags": [
+      "paused_in_process"
+    ],
+    "rationale": "A non-lexical vocalization representing a brief thinking pause.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 7
+    },
+    "model": "google/gemini-3.8-flash",
+    "provider": "Google",
+    "configuration_name": "gemini-3-8-flash-260902"
+  },
+  {
+    "phrase": "hier sieht man auch erstmal, mhm keine Veränderung",
+    "context": "oben an … und hier sieht man auch erstmal, mhm keine Veränderung. Ich gucke mal,",
+    "tags": [
+      "indicator: no_bleeding"
+    ],
+    "rationale": "The speaker evaluates the specific image region at the top as unremarkable/showing no abnormalities.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 7
+    },
+    "model": "google/gemini-3.8-flash",
+    "provider": "Google",
+    "configuration_name": "gemini-3-8-flash-260902"
+  },
+  {
+    "phrase": "Ich gucke mal, beidseitig",
+    "context": "keine Veränderung. Ich gucke mal, beidseitig, aber … ah",
+    "tags": [
+      "visual_search: description_of_own_approach_without_external_help"
+    ],
+    "rationale": "The speaker describes their search strategy of inspecting both sides.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 7
+    },
+    "model": "google/gemini-3.8-flash",
+    "provider": "Google",
+    "configuration_name": "gemini-3-8-flash-260902"
+  },
+  {
+    "phrase": "da ist der, auf der Seite ist ein Saum",
+    "context": "aber … ah ja, da ist der, auf der Seite ist ein Saum, was auf eine",
+    "tags": [
+      "indicator: anomaly_detected"
+    ],
+    "rationale": "The speaker notices a specific atypical finding ('Saum') on one side of the skull.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 7
+    },
+    "model": "google/gemini-3.8-flash",
+    "provider": "Google",
+    "configuration_name": "gemini-3-8-flash-260902"
+  },
+  {
+    "phrase": "was auf eine Blutung hindeuten könnte, oder bestimmt hindeutet",
+    "context": "ist ein Saum, was auf eine Blutung hindeuten könnte, oder bestimmt hindeutet.",
+    "tags": [
+      "interpretation: bleeding"
+    ],
+    "rationale": "The speaker explicitly interprets the noticed abnormality as an indication of a hemorrhage.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 7
+    },
+    "model": "google/gemini-3.8-flash",
+    "provider": "Google",
+    "configuration_name": "gemini-3-8-flash-260902"
+  },
+  {
+    "phrase": "bestimmt",
+    "context": "hindeuten könnte, oder bestimmt hindeutet.",
+    "tags": [
+      "confidence_high: secondary"
+    ],
+    "rationale": "The adverb 'bestimmt' implicitly signals high certainty in the assessment.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 7
+    },
+    "model": "google/gemini-3.8-flash",
+    "provider": "Google",
+    "configuration_name": "gemini-3-8-flash-260902"
+  },
+  {
+    "phrase": "Oh, oh no … mhm …",
+    "context": "Oh, oh no … mhm … oben in der",
+    "tags": [
+      "paused_in_process"
+    ],
+    "rationale": "Utterance of filler words and non-lexical sounds during reflection.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 12
+    },
+    "model": "google/gemini-3.8-flash",
+    "provider": "Google",
+    "configuration_name": "gemini-3-8-flash-260902"
+  },
+  {
+    "phrase": "oben in der Mittellinie sieht man ein Aufhellung.",
+    "context": "mhm … oben in der Mittellinie sieht man ein Aufhellung. ??? Oben",
+    "tags": [
+      "indicator: anomaly_detected"
+    ],
+    "rationale": "The participant detects an abnormal finding (brightening/lucency) in a specific anatomical region (top of the midline).",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 12
+    },
+    "model": "google/gemini-3.8-flash",
+    "provider": "Google",
+    "configuration_name": "gemini-3-8-flash-260902"
+  },
+  {
+    "phrase": "Oben ist aber schon nichts mehr",
+    "context": "??? Oben ist aber schon nichts mehr, aber da",
+    "tags": [
+      "indicator: no_bleeding"
+    ],
+    "rationale": "The participant classifies a specific slice level/region as unremarkable ('nichts mehr').",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 12
+    },
+    "model": "google/gemini-3.8-flash",
+    "provider": "Google",
+    "configuration_name": "gemini-3-8-flash-260902"
+  },
+  {
+    "phrase": "da ist was auffälliges dran",
+    "context": "nichts mehr, aber da ist was auffälliges dran",
+    "tags": [
+      "indicator: anomaly_detected"
+    ],
+    "rationale": "The participant notes an abnormality at a specific location ('da').",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 12
+    },
+    "model": "google/gemini-3.8-flash",
+    "provider": "Google",
+    "configuration_name": "gemini-3-8-flash-260902"
+  },
+  {
+    "phrase": "Das hilft einem sowohl beim Ausschluss, das man ein bisschen eher auf der sichern Seite, dass man nichts verpasst hat",
+    "context": "Das hilft einem sowohl beim Ausschluss, das man ein bisschen eher auf der sichern Seite, dass man nichts verpasst hat, auf jeden Fall",
+    "tags": [
+      "reflection_of_ai: helpful"
+    ],
+    "rationale": "The speaker explicitly evaluates the AI as helpful in ruling out findings and providing extra security not to miss anything.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 11
+    },
+    "model": "google/gemini-3.8-flash",
+    "provider": "Google",
+    "configuration_name": "gemini-3-8-flash-260902"
+  },
+  {
+    "phrase": "auf jeden Fall",
+    "context": "dass man nichts verpasst hat, auf jeden Fall schneller vorbei hier.",
+    "tags": [
+      "confidence_high: secondary"
+    ],
+    "rationale": "Implicit marker of high confidence expressed via the phrase 'auf jeden Fall'.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 11
+    },
+    "model": "google/gemini-3.8-flash",
+    "provider": "Google",
+    "configuration_name": "gemini-3-8-flash-260902"
+  },
+  {
+    "phrase": "schneller vorbei hier",
+    "context": "auf jeden Fall schneller vorbei hier. Ja wann da",
+    "tags": [
+      "other"
+    ],
+    "rationale": "Fragment cannot be clearly mapped to any diagnostic or procedural category.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 11
+    },
+    "model": "google/gemini-3.8-flash",
+    "provider": "Google",
+    "configuration_name": "gemini-3-8-flash-260902"
+  },
+  {
+    "phrase": "Ja",
+    "context": "schneller vorbei hier. Ja wann da was dabei",
+    "tags": [
+      "paused_in_process"
+    ],
+    "rationale": "Filler word used as a conversational pause/transition.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 11
+    },
+    "model": "google/gemini-3.8-flash",
+    "provider": "Google",
+    "configuration_name": "gemini-3-8-flash-260902"
+  },
+  {
+    "phrase": "wann da was dabei ist, dass man ein bisschen besser drauf achtet",
+    "context": "vorbei hier. Ja wann da was dabei ist, dass man ein bisschen besser drauf achtet.",
+    "tags": [
+      "reflection_of_ai: helpful"
+    ],
+    "rationale": "The speaker assesses the AI as helpful for directing attention more closely when something is flagged.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 11
+    },
+    "model": "google/gemini-3.8-flash",
+    "provider": "Google",
+    "configuration_name": "gemini-3-8-flash-260902"
+  },
+  {
+    "phrase": "ich will ja wissen, dass ich nichts verpasst habe",
+    "context": "Hier kann ich aber, ich will ja wissen, dass ich nichts verpasst habe.",
+    "tags": [
+      "reflection: self-monitoring"
+    ],
+    "rationale": "The speaker explicitly comments on their own diagnostic process and standards (ensuring that nothing has been missed).",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 15
+    },
+    "model": "google/gemini-3.8-flash",
+    "provider": "Google",
+    "configuration_name": "gemini-3-8-flash-260902"
+  },
+  {
+    "phrase": "Ich fange so an, dass ich das alles einmal gesehen habe",
+    "context": "Ich fange so an, dass ich das alles einmal gesehen habe und schue mir die",
+    "tags": [
+      "visual_search: description_of_own_approach_without_external_help"
+    ],
+    "rationale": "The person explicitly describes their own initial approach to reviewing the scan.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 14
+    },
+    "model": "google/gemini-3.8-flash",
+    "provider": "Google",
+    "configuration_name": "gemini-3-8-flash-260902"
+  },
+  {
+    "phrase": "schue mir die Ventrikel und die Mittellinie an, Schädelknochen und direkt dadrunter [?] Konvex oder konkav",
+    "context": "gesehen habe und schue mir die Ventrikel und die Mittellinie an, Schädelknochen und direkt dadrunter [?] Konvex oder konkav. Hier, hätte ich das",
+    "tags": [
+      "visual_search: description_of_medical_image_features"
+    ],
+    "rationale": "The person lists the specific anatomical structures and image features they are inspecting.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 14
+    },
+    "model": "google/gemini-3.8-flash",
+    "provider": "Google",
+    "configuration_name": "gemini-3-8-flash-260902"
+  },
+  {
+    "phrase": "Hier, hätte ich das verpasst",
+    "context": "Konvex oder konkav. Hier, hätte ich das verpasst, ich habe erst mal",
+    "tags": [
+      "reflection_of_ai: ich_not_recognized_without_ai"
+    ],
+    "rationale": "The participant states counterfactually that they would have missed the finding.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 14
+    },
+    "model": "google/gemini-3.8-flash",
+    "provider": "Google",
+    "configuration_name": "gemini-3-8-flash-260902"
+  },
+  {
+    "phrase": "ich habe erst mal auf der nicht AI Seite gesehen",
+    "context": "hätte ich das verpasst, ich habe erst mal auf der nicht AI Seite gesehen, und jetzt hier wird",
+    "tags": [
+      "control: make_own_judgement"
+    ],
+    "rationale": "The participant explicitly notes that they first reviewed the scan on the side without AI assistance.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 14
+    },
+    "model": "google/gemini-3.8-flash",
+    "provider": "Google",
+    "configuration_name": "gemini-3-8-flash-260902"
+  },
+  {
+    "phrase": "hier wird mir aber was angezeigt",
+    "context": "nicht AI Seite gesehen, und jetzt hier wird mir aber was angezeigt. Ja, das hätte",
+    "tags": [
+      "ai_report: ich"
+    ],
+    "rationale": "The participant verbalizes that the AI is indicating an abnormality/hemorrhage.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 14
+    },
+    "model": "google/gemini-3.8-flash",
+    "provider": "Google",
+    "configuration_name": "gemini-3-8-flash-260902"
+  },
+  {
+    "phrase": "Ja",
+    "context": "aber was angezeigt. Ja, das hätte ich",
+    "tags": [
+      "paused_in_process"
+    ],
+    "rationale": "Filler word used as a conversational transition/pause.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 14
+    },
+    "model": "google/gemini-3.8-flash",
+    "provider": "Google",
+    "configuration_name": "gemini-3-8-flash-260902"
+  },
+  {
+    "phrase": "das hätte ich nicht ohne AI gemerkt",
+    "context": "angezeigt. Ja, das hätte ich nicht ohne AI gemerkt.",
+    "tags": [
+      "reflection_of_ai: ich_not_recognized_without_ai"
+    ],
+    "rationale": "The participant explicitly reflects that they would not have recognized the finding without the AI's assistance.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 14
+    },
+    "model": "google/gemini-3.8-flash",
+    "provider": "Google",
+    "configuration_name": "gemini-3-8-flash-260902"
+  },
+  {
+    "phrase": "So",
+    "context": "… So … das habe",
+    "tags": [
+      "paused_in_process"
+    ],
+    "rationale": "Filler word used during a pause in thought.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 16
+    },
+    "model": "google/gemini-3.8-flash",
+    "provider": "Google",
+    "configuration_name": "gemini-3-8-flash-260902"
+  },
+  {
+    "phrase": "das habe ich auch, in dem Teil ist es so ein bisschen deutlicher zu sehen und auf der anderen Seite sehe ich das, eigentlich zeigt mir das das gleiche.",
+    "context": "… So … das habe ich auch, in dem Teil ist es so ein bisschen deutlicher zu sehen und auf der anderen Seite sehe ich das, eigentlich zeigt mir das das gleiche. … Ja, gut",
+    "tags": [
+      "reflection_of_ai: confirmed_by_ai"
+    ],
+    "rationale": "The person notes that the AI display shows the same thing they identified, feeling confirmed by the AI.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 16
+    },
+    "model": "google/gemini-3.8-flash",
+    "provider": "Google",
+    "configuration_name": "gemini-3-8-flash-260902"
+  },
+  {
+    "phrase": "eigentlich",
+    "context": "sehe ich das, eigentlich zeigt mir",
+    "tags": [
+      "confidence_low: secondary"
+    ],
+    "rationale": "The adverb 'eigentlich' indicates implicit low certainty/qualification.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 16
+    },
+    "model": "google/gemini-3.8-flash",
+    "provider": "Google",
+    "configuration_name": "gemini-3-8-flash-260902"
+  },
+  {
+    "phrase": "Ja, gut",
+    "context": "das gleiche. … Ja, gut",
+    "tags": [
+      "paused_in_process"
+    ],
+    "rationale": "Filler words closing the thought without diagnostic content.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 16
+    },
+    "model": "google/gemini-3.8-flash",
+    "provider": "Google",
+    "configuration_name": "gemini-3-8-flash-260902"
+  },
+  {
+    "phrase": "So",
+    "context": "… So, ich probiere auf",
+    "tags": [
+      "paused_in_process"
+    ],
+    "rationale": "Filler word used as a conversational transition without medical content.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 13
+    },
+    "model": "google/gemini-3.8-flash",
+    "provider": "Google",
+    "configuration_name": "gemini-3-8-flash-260902"
+  },
+  {
+    "phrase": "ich probiere auf der Siete ohne AI erstmal nach was zu schauen",
+    "context": "So, ich probiere auf der Siete ohne AI erstmal nach was zu schauen. Und auf symetrie",
+    "tags": [
+      "control: make_own_judgement"
+    ],
+    "rationale": "The person explicitly decides to examine the CT image without the AI first to make their own independent assessment.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 13
+    },
+    "model": "google/gemini-3.8-flash",
+    "provider": "Google",
+    "configuration_name": "gemini-3-8-flash-260902"
+  },
+  {
+    "phrase": "auf symetrie schauen, auf Knochendefekte",
+    "context": "nach was zu schauen. Und auf symetrie schauen, auf Knochendefekte und dann auf der AI Seite",
+    "tags": [
+      "visual_search: description_of_medical_image_features"
+    ],
+    "rationale": "The person verbalizes specific image features and anatomical structures (symmetry, bone defects) they intend to check.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 13
+    },
+    "model": "google/gemini-3.8-flash",
+    "provider": "Google",
+    "configuration_name": "gemini-3-8-flash-260902"
+  },
+  {
+    "phrase": "auf der AI Seite, ob ich irgendwas verpasst habe",
+    "context": "Knochendefekte und dann auf der AI Seite, ob ich irgendwas verpasst habe, sieht nicht so aus",
+    "tags": [
+      "visual_search: triggered_by_ai"
+    ],
+    "rationale": "The person directs their visual search towards the AI output to verify if any findings were missed.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 13
+    },
+    "model": "google/gemini-3.8-flash",
+    "provider": "Google",
+    "configuration_name": "gemini-3-8-flash-260902"
+  },
+  {
+    "phrase": "sieht nicht so aus",
+    "context": "ob ich irgendwas verpasst habe, sieht nicht so aus",
+    "tags": [
+      "interpretation: no_bleeding"
+    ],
+    "rationale": "A summarizing assessment inferring from the context that no abnormality or hemorrhage is present.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 13
+    },
+    "model": "google/gemini-3.8-flash",
+    "provider": "Google",
+    "configuration_name": "gemini-3-8-flash-260902"
+  },
+  {
+    "phrase": "Ok mhm …",
+    "context": "Ok mhm … Hier soll nichts sein",
+    "tags": [
+      "paused_in_process"
+    ],
+    "rationale": "Utterance of conversational filler words and non-lexical sounds with a pause.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 20
+    },
+    "model": "google/gemini-3.8-flash",
+    "provider": "Google",
+    "configuration_name": "gemini-3-8-flash-260902"
+  },
+  {
+    "phrase": "Hier soll nichts sein",
+    "context": "Ok mhm … Hier soll nichts sein und ich sehe auch",
+    "tags": [
+      "ai_report: no_ich"
+    ],
+    "rationale": "Verbalizes that according to the AI there is no hemorrhage present.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 20
+    },
+    "model": "google/gemini-3.8-flash",
+    "provider": "Google",
+    "configuration_name": "gemini-3-8-flash-260902"
+  },
+  {
+    "phrase": "ich sehe auch nichts",
+    "context": "Hier soll nichts sein und ich sehe auch nichts  und ist beides symetrisch",
+    "tags": [
+      "interpretation: no_bleeding"
+    ],
+    "rationale": "Person assesses the overall finding as negative for hemorrhage.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 20
+    },
+    "model": "google/gemini-3.8-flash",
+    "provider": "Google",
+    "configuration_name": "gemini-3-8-flash-260902"
+  },
+  {
+    "phrase": "auch",
+    "context": "sein und ich sehe auch nichts  und ist beides",
+    "tags": [
+      "decision_with_ai: implicitly_agreeing_with_ai"
+    ],
+    "rationale": "The word 'auch' implicitly demonstrates agreement with the AI's negative assessment.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 20
+    },
+    "model": "google/gemini-3.8-flash",
+    "provider": "Google",
+    "configuration_name": "gemini-3-8-flash-260902"
+  },
+  {
+    "phrase": "ist beides symetrisch und Ventrikel frei",
+    "context": "sehe auch nichts  und ist beides symetrisch und Ventrikel frei. Unterhalb des Schädelknochen",
+    "tags": [
+      "indicator: no_bleeding"
+    ],
+    "rationale": "Classifies specific anatomical structures (hemispheres/symmetry, ventricles) as unremarkable.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 20
+    },
+    "model": "google/gemini-3.8-flash",
+    "provider": "Google",
+    "configuration_name": "gemini-3-8-flash-260902"
+  },
+  {
+    "phrase": "Unterhalb des Schädelknochen ist alles frei",
+    "context": "und Ventrikel frei. Unterhalb des Schädelknochen ist alles frei",
+    "tags": [
+      "indicator: no_bleeding"
+    ],
+    "rationale": "Classifies a specific image area (subcranial space) as unremarkable.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 20
+    },
+    "model": "google/gemini-3.8-flash",
+    "provider": "Google",
+    "configuration_name": "gemini-3-8-flash-260902"
+  },
+  {
+    "phrase": "Ja",
+    "context": "Ja hier, sieht man nichts",
+    "tags": [
+      "paused_in_process"
+    ],
+    "rationale": "Utterance of a conversational filler word at the start of the thought process.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 18
+    },
+    "model": "google/gemini-3.8-flash",
+    "provider": "Google",
+    "configuration_name": "gemini-3-8-flash-260902"
+  },
+  {
+    "phrase": "hier, sieht man nichts",
+    "context": "Ja hier, sieht man nichts und AI sagt",
+    "tags": [
+      "indicator: no_bleeding"
+    ],
+    "rationale": "The speaker assesses the current area/image slice as unremarkable.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 18
+    },
+    "model": "google/gemini-3.8-flash",
+    "provider": "Google",
+    "configuration_name": "gemini-3-8-flash-260902"
+  },
+  {
+    "phrase": "AI sagt auch es ist nichts da",
+    "context": "sieht man nichts und AI sagt auch es ist nichts da",
+    "tags": [
+      "ai_report: no_ich"
+    ],
+    "rationale": "The participant verbalizes that the AI found no hemorrhage/reported nothing.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 18
+    },
+    "model": "google/gemini-3.8-flash",
+    "provider": "Google",
+    "configuration_name": "gemini-3-8-flash-260902"
+  },
+  {
+    "phrase": "auch",
+    "context": "und AI sagt auch es ist nichts",
+    "tags": [
+      "decision_with_ai: implicitly_agreeing_with_ai"
+    ],
+    "rationale": "Implicit agreement with the AI's assessment expressed through the word 'auch'.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 18
+    },
+    "model": "google/gemini-3.8-flash",
+    "provider": "Google",
+    "configuration_name": "gemini-3-8-flash-260902"
+  },
+  {
+    "phrase": "ich guck erstmal ohne AI",
+    "context": "So ich guck erstmal ohne AI. Ich schau auf",
+    "tags": [
+      "control: make_own_judgement"
+    ],
+    "rationale": "The person explicitly decides to view and judge the image independently before looking at the AI.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 21
+    },
+    "model": "google/gemini-3.8-flash",
+    "provider": "Google",
+    "configuration_name": "gemini-3-8-flash-260902"
+  },
+  {
+    "phrase": "Ich schau auf Mittellinie und auf Knochendefekte",
+    "context": "ohne AI. Ich schau auf Mittellinie und auf Knochendefekte. … Auf Unterschiede",
+    "tags": [
+      "visual_search: description_of_medical_image_features"
+    ],
+    "rationale": "The person describes the anatomical structures/features they are actively checking.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 21
+    },
+    "model": "google/gemini-3.8-flash",
+    "provider": "Google",
+    "configuration_name": "gemini-3-8-flash-260902"
+  },
+  {
+    "phrase": "Auf Unterschiede auf beiden Seiten, ist mir nichts aufgefallen",
+    "context": "Knochendefekte. … Auf Unterschiede auf beiden Seiten, ist mir nichts aufgefallen, aber sollte da",
+    "tags": [
+      "indicator: no_bleeding"
+    ],
+    "rationale": "The person assesses the symmetry/hemispheres and notes that no abnormalities are visible.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 21
+    },
+    "model": "google/gemini-3.8-flash",
+    "provider": "Google",
+    "configuration_name": "gemini-3-8-flash-260902"
+  },
+  {
+    "phrase": "sollte da was sein?",
+    "context": "mir nichts aufgefallen, aber sollte da was sein? Ich guck jetzt",
+    "tags": [
+      "control: reflective_question"
+    ],
+    "rationale": "The participant asks themselves a self-directed question to verify and check their own diagnostic thoughts.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 21
+    },
+    "model": "google/gemini-3.8-flash",
+    "provider": "Google",
+    "configuration_name": "gemini-3-8-flash-260902"
+  },
+  {
+    "phrase": "Ich guck jetzt auf der AI Seite",
+    "context": "sollte da was sein? Ich guck jetzt auf der AI Seite, da ist schon",
+    "tags": [
+      "visual_search: triggered_by_ai"
+    ],
+    "rationale": "The person directs their visual attention to the AI output.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 21
+    },
+    "model": "google/gemini-3.8-flash",
+    "provider": "Google",
+    "configuration_name": "gemini-3-8-flash-260902"
+  },
+  {
+    "phrase": "angeblich unter deer Schädelkalotte was",
+    "context": "da ist schon angeblich unter deer Schädelkalotte was was ich nicht",
+    "tags": [
+      "ai_report: ich_localization"
+    ],
+    "rationale": "The person reports where the AI locates the suspected finding ('unter deer Schädelkalotte').",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 21
+    },
+    "model": "google/gemini-3.8-flash",
+    "provider": "Google",
+    "configuration_name": "gemini-3-8-flash-260902"
+  },
+  {
+    "phrase": "was ich nicht gesehen hätte unbedingt",
+    "context": "unter deer Schädelkalotte was was ich nicht gesehen hätte unbedingt.",
+    "tags": [
+      "reflection_of_ai: ich_not_recognized_without_ai"
+    ],
+    "rationale": "Counterfactual statement expressing that they would likely not have detected this finding without the AI.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 21
+    },
+    "model": "google/gemini-3.8-flash",
+    "provider": "Google",
+    "configuration_name": "gemini-3-8-flash-260902"
+  },
+  {
+    "phrase": "schau ich wieder auf die Mittellinie und auf den Schädelknochen",
+    "context": "VPN: … Ja schau ich wieder auf die Mittellinie und auf den Schädelknochen … ich guck mir",
+    "tags": [
+      "visual_search: description_of_medical_image_features"
+    ],
+    "rationale": "The participant names specific anatomical structures (Mittellinie, Schädelknochen) they are currently inspecting.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 6
+    },
+    "model": "google/gemini-3.8-flash",
+    "provider": "Google",
+    "configuration_name": "gemini-3-8-flash-260902"
+  },
+  {
+    "phrase": "ich guck mir schon auf der anderen Seite vom AI an, ob ich irgendwas verpasst hab.",
+    "context": "den Schädelknochen … ich guck mir schon auf der anderen Seite vom AI an, ob ich irgendwas verpasst hab. Aber hier wird mir",
+    "tags": [
+      "visual_search: triggered_by_ai"
+    ],
+    "rationale": "The participant looks at the AI display to check if anything was missed.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 6
+    },
+    "model": "google/gemini-3.8-flash",
+    "provider": "Google",
+    "configuration_name": "gemini-3-8-flash-260902"
+  },
+  {
+    "phrase": "Aber hier wird mir nicht angezeigt, wo das ist ha? Also dieses Viereck ist jetzt nicht da. Wo die Blutung sein sollte, jetzt als Frage. Tschuldigung. EXPERIMENTER: Ja bitte VPN: Achso, ja also bei diesem Bild zeigt mir das jetzt nicht an, wo das ist, ist das richtig? Ist das nur manchmal, oder? EXPERIMENTER: Äh, ne da müsste auch ein Quadrat sein. Also du kannst Bild für Bild durchgehen, ja da oben wars, ganz klein oben. VPN: Ah da, ja dankeschön",
+    "context": "verpasst hab. Aber hier wird mir nicht angezeigt, wo das ist ha? Also dieses Viereck ist jetzt nicht da. Wo die Blutung sein sollte, jetzt als Frage. Tschuldigung. EXPERIMENTER: Ja bitte VPN: Achso, ja also bei diesem Bild zeigt mir das jetzt nicht an, wo das ist, ist das richtig? Ist das nur manchmal, oder? EXPERIMENTER: Äh, ne da müsste auch ein Quadrat sein. Also du kannst Bild für Bild durchgehen, ja da oben wars, ganz klein oben. VPN: Ah da, ja dankeschön, aber auch das",
+    "tags": [
+      "technical_conversation"
+    ],
+    "rationale": "The participant asks the experimenter why the AI bounding box is not visible, and the experimenter explains how to navigate through the slices to see it.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 6
+    },
+    "model": "google/gemini-3.8-flash",
+    "provider": "Google",
+    "configuration_name": "gemini-3-8-flash-260902"
+  },
+  {
+    "phrase": "aber auch das hätte ich gar nicht gesehen.",
+    "context": "Ah da, ja dankeschön, aber auch das hätte ich gar nicht gesehen. Mhm ohne AI",
+    "tags": [
+      "reflection_of_ai: ich_not_recognized_without_ai"
+    ],
+    "rationale": "Counterfactual statement indicating that the person would not have recognized the finding without the AI.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 6
+    },
+    "model": "google/gemini-3.8-flash",
+    "provider": "Google",
+    "configuration_name": "gemini-3-8-flash-260902"
+  },
+  {
+    "phrase": "Mhm",
+    "context": "gar nicht gesehen. Mhm ohne AI hätte",
+    "tags": [
+      "paused_in_process"
+    ],
+    "rationale": "Filler utterance representing a pause in the thought process.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 6
+    },
+    "model": "google/gemini-3.8-flash",
+    "provider": "Google",
+    "configuration_name": "gemini-3-8-flash-260902"
+  },
+  {
+    "phrase": "ohne AI hätte ich gedacht, dass ist irgendwie einen Artefakt, hätte ich nicht gesehen",
+    "context": "gar nicht gesehen. Mhm ohne AI hätte ich gedacht, dass ist irgendwie einen Artefakt, hätte ich nicht gesehen, finde es immernich",
+    "tags": [
+      "reflection_of_ai: ich_not_recognized_without_ai"
+    ],
+    "rationale": "The participant states that without the AI they would have dismissed the abnormality as an artifact and not recognized it as a hemorrhage.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 6
+    },
+    "model": "google/gemini-3.8-flash",
+    "provider": "Google",
+    "configuration_name": "gemini-3-8-flash-260902"
+  },
+  {
+    "phrase": "finde es immernich schwer",
+    "context": "hätte ich nicht gesehen, finde es immernich schwer, so es sieht",
+    "tags": [
+      "awareness_of_task: difficult"
+    ],
+    "rationale": "The participant explicitly expresses that they find evaluating the finding/task difficult.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 6
+    },
+    "model": "google/gemini-3.8-flash",
+    "provider": "Google",
+    "configuration_name": "gemini-3-8-flash-260902"
+  },
+  {
+    "phrase": "so es sieht so aus, wie ein Artefakt irgendwie",
+    "context": "finde es immernich schwer, so es sieht so aus, wie ein Artefakt irgendwie",
+    "tags": [
+      "reasoning: artifact"
+    ],
+    "rationale": "The participant attributes the appearance of the finding to an artifact.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 6
+    },
+    "model": "google/gemini-3.8-flash",
+    "provider": "Google",
+    "configuration_name": "gemini-3-8-flash-260902"
+  },
+  {
+    "phrase": "Hier ist jetzt alles wieder, unaufällig aus, beiden Sieten",
+    "context": "Hier ist jetzt alles wieder, unaufällig aus, beiden Sieten und AI sagt",
+    "tags": [
+      "indicator: no_bleeding"
+    ],
+    "rationale": "The speaker assesses specific regions (both sides) as unremarkable/normal.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 22
+    },
+    "model": "google/gemini-3.8-flash",
+    "provider": "Google",
+    "configuration_name": "gemini-3-8-flash-260902"
+  },
+  {
+    "phrase": "AI sagt auch nichts da",
+    "context": "beiden Sieten und AI sagt auch nichts da",
+    "tags": [
+      "ai_report: no_ich"
+    ],
+    "rationale": "The speaker reports that the AI did not detect any hemorrhage.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 22
+    },
+    "model": "google/gemini-3.8-flash",
+    "provider": "Google",
+    "configuration_name": "gemini-3-8-flash-260902"
+  },
+  {
+    "phrase": "auch",
+    "context": "und AI sagt auch nichts da",
+    "tags": [
+      "decision_with_ai: implicitly_agreeing_with_ai"
+    ],
+    "rationale": "The word 'auch' implicitly signals agreement between the participant's observation and the AI's negative finding.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 22
+    },
+    "model": "google/gemini-3.8-flash",
+    "provider": "Google",
+    "configuration_name": "gemini-3-8-flash-260902"
+  },
+  {
+    "phrase": "Schau erstmal wieder auf meine Seite",
+    "context": "… Schau erstmal wieder auf meine Seite … Ich",
+    "tags": [
+      "control: make_own_judgement"
+    ],
+    "rationale": "The person explicitly decides to first look at their own non-AI side independently.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 25
+    },
+    "model": "google/gemini-3.8-flash",
+    "provider": "Google",
+    "configuration_name": "gemini-3-8-flash-260902"
+  },
+  {
+    "phrase": "Ich seh keine Unterschied",
+    "context": "meine Seite … Ich seh keine Unterschied",
+    "tags": [
+      "indicator: no_bleeding"
+    ],
+    "rationale": "The person notes symmetry/no difference between hemispheres or structures, assessing it as unremarkable.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 25
+    },
+    "model": "google/gemini-3.8-flash",
+    "provider": "Google",
+    "configuration_name": "gemini-3-8-flash-260902"
+  },
+  {
+    "phrase": "Mhm",
+    "context": "… Mhm da … Bis",
+    "tags": [
+      "paused_in_process"
+    ],
+    "rationale": "Utterance of a non-lexical sound serving as a pause/filler.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 19
+    },
+    "model": "google/gemini-3.8-flash",
+    "provider": "Google",
+    "configuration_name": "gemini-3-8-flash-260902"
+  },
+  {
+    "phrase": "Bis jetzt auch alles symetrisch und Mittellinie ist nicht verschoben",
+    "context": "Mhm da … Bis jetzt auch alles symetrisch und Mittellinie ist nicht verschoben … Ist mir so",
+    "tags": [
+      "indicator: no_bleeding"
+    ],
+    "rationale": "The participant describes anatomical structures (symmetry, midline not shifted) as normal and unremarkable.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 19
+    },
+    "model": "google/gemini-3.8-flash",
+    "provider": "Google",
+    "configuration_name": "gemini-3-8-flash-260902"
+  },
+  {
+    "phrase": "Ist mir so noch nicht so direkt",
+    "context": "nicht verschoben … Ist mir so noch nicht so direkt mhm ja, das",
+    "tags": [
+      "other"
+    ],
+    "rationale": "An incomplete, fragmented statement that cannot be clearly classified into any predefined category.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 19
+    },
+    "model": "google/gemini-3.8-flash",
+    "provider": "Google",
+    "configuration_name": "gemini-3-8-flash-260902"
+  },
+  {
+    "phrase": "mhm",
+    "context": "noch nicht so direkt mhm ja, das wär ja,",
+    "tags": [
+      "paused_in_process"
+    ],
+    "rationale": "Non-lexical sound functioning as a pause filler.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 19
+    },
+    "model": "google/gemini-3.8-flash",
+    "provider": "Google",
+    "configuration_name": "gemini-3-8-flash-260902"
+  },
+  {
+    "phrase": "auf der Seite sieht das irgendwie die Gyri ander aus als auf dieser Seite",
+    "context": "das wär ja, … auf der Seite sieht das irgendwie die Gyri ander aus als auf dieser Seite und auf der AI",
+    "tags": [
+      "indicator: anomaly_detected"
+    ],
+    "rationale": "The participant notices a visual asymmetry/abnormality in the gyri comparing both sides.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 19
+    },
+    "model": "google/gemini-3.8-flash",
+    "provider": "Google",
+    "configuration_name": "gemini-3-8-flash-260902"
+  },
+  {
+    "phrase": "auf der AI Seite zeigt, wird mir auch angezeigt, dass hier was ist",
+    "context": "auf dieser Seite und auf der AI Seite zeigt, wird mir auch angezeigt, dass hier was ist, ja",
+    "tags": [
+      "ai_report: ich"
+    ],
+    "rationale": "The participant verbalizes that the AI output indicates the presence of a finding/hemorrhage.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 19
+    },
+    "model": "google/gemini-3.8-flash",
+    "provider": "Google",
+    "configuration_name": "gemini-3-8-flash-260902"
+  },
+  {
+    "phrase": "auch",
+    "context": "zeigt, wird mir auch angezeigt, dass hier was",
+    "tags": [
+      "decision_with_ai: implicitly_agreeing_with_ai"
+    ],
+    "rationale": "The word 'auch' implicitly conveys agreement with the AI's detection.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 19
+    },
+    "model": "google/gemini-3.8-flash",
+    "provider": "Google",
+    "configuration_name": "gemini-3-8-flash-260902"
+  },
+  {
+    "phrase": "ja",
+    "context": "dass hier was ist, ja",
+    "tags": [
+      "paused_in_process"
+    ],
+    "rationale": "Filler word at the end of the thought sequence.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 19
+    },
+    "model": "google/gemini-3.8-flash",
+    "provider": "Google",
+    "configuration_name": "gemini-3-8-flash-260902"
+  },
+  {
+    "phrase": "Mhm",
+    "context": "Mhm hier wieder Mittelinie",
+    "tags": [
+      "paused_in_process"
+    ],
+    "rationale": "Filler utterance without semantic content bridging thought process.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 26
+    },
+    "model": "google/gemini-3.8-flash",
+    "provider": "Google",
+    "configuration_name": "gemini-3-8-flash-260902"
+  },
+  {
+    "phrase": "hier wieder Mittelinie und Schädelkalotte",
+    "context": "Mhm hier wieder Mittelinie und Schädelkalotte und da drunter",
+    "tags": [
+      "visual_search: description_of_medical_image_features"
+    ],
+    "rationale": "The speaker names specific anatomical structures being inspected (midline and skull vault).",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 26
+    },
+    "model": "google/gemini-3.8-flash",
+    "provider": "Google",
+    "configuration_name": "gemini-3-8-flash-260902"
+  },
+  {
+    "phrase": "da drunter auch kein Saum",
+    "context": "Schädelkalotte und da drunter auch kein Saum, ist alles ok",
+    "tags": [
+      "indicator: no_bleeding"
+    ],
+    "rationale": "The speaker assesses a specific localized area (underneath the skull vault) as unremarkable, noting the absence of any rim/hemorrhagic margin.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 26
+    },
+    "model": "google/gemini-3.8-flash",
+    "provider": "Google",
+    "configuration_name": "gemini-3-8-flash-260902"
+  },
+  {
+    "phrase": "ist alles ok",
+    "context": "auch kein Saum, ist alles ok",
+    "tags": [
+      "interpretation: no_bleeding"
+    ],
+    "rationale": "A summarizing, non-spatial diagnostic conclusion that the overall scan is normal / free of hemorrhage.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 26
+    },
+    "model": "google/gemini-3.8-flash",
+    "provider": "Google",
+    "configuration_name": "gemini-3-8-flash-260902"
+  },
+  {
+    "phrase": "Hier soll was sein",
+    "context": "Hier soll was sein, ich guck erstmal",
+    "tags": [
+      "ai_report: ich"
+    ],
+    "rationale": "The person verbalizes the AI's detection that there is supposed to be a hemorrhage/abnormality.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 23
+    },
+    "model": "google/gemini-3.8-flash",
+    "provider": "Google",
+    "configuration_name": "gemini-3-8-flash-260902"
+  },
+  {
+    "phrase": "ich guck erstmal auf meine Seite ohne AI, ob irgendwelche Auffälligkeite",
+    "context": "Hier soll was sein, ich guck erstmal auf meine Seite ohne AI, ob irgendwelche Auffälligkeite, bis jetzt ist die",
+    "tags": [
+      "control: make_own_judgement"
+    ],
+    "rationale": "The person decides to inspect the image independently first without looking at the AI.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 23
+    },
+    "model": "google/gemini-3.8-flash",
+    "provider": "Google",
+    "configuration_name": "gemini-3-8-flash-260902"
+  },
+  {
+    "phrase": "bis jetzt ist die Mittellinie in der Mitte nicht vershcoben",
+    "context": "ob irgendwelche Auffälligkeite, bis jetzt ist die Mittellinie in der Mitte nicht vershcoben, Knochendefekte sehe ich",
+    "tags": [
+      "indicator: no_bleeding"
+    ],
+    "rationale": "The person identifies a specific anatomical structure (midline) as unremarkable/not shifted.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 23
+    },
+    "model": "google/gemini-3.8-flash",
+    "provider": "Google",
+    "configuration_name": "gemini-3-8-flash-260902"
+  },
+  {
+    "phrase": "Knochendefekte sehe ich nicht",
+    "context": "Mitte nicht vershcoben, Knochendefekte sehe ich nicht, Unterschiede zwischen den",
+    "tags": [
+      "indicator: no_bleeding"
+    ],
+    "rationale": "The person confirms the absence of bone defects, assessing this aspect as unremarkable.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 23
+    },
+    "model": "google/gemini-3.8-flash",
+    "provider": "Google",
+    "configuration_name": "gemini-3-8-flash-260902"
+  },
+  {
+    "phrase": "Unterschiede zwischen den beiden hemisphären kann ich auch auf die Schnelle nicht gesehen",
+    "context": "sehe ich nicht, Unterschiede zwischen den beiden hemisphären kann ich auch auf die Schnelle nicht gesehen. Geh nochmal durch",
+    "tags": [
+      "indicator: no_bleeding"
+    ],
+    "rationale": "The person assesses the symmetry between the hemispheres as unremarkable.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 23
+    },
+    "model": "google/gemini-3.8-flash",
+    "provider": "Google",
+    "configuration_name": "gemini-3-8-flash-260902"
+  },
+  {
+    "phrase": "Geh nochmal durch nochmal",
+    "context": "Schnelle nicht gesehen. Geh nochmal durch nochmal ... ja da ist",
+    "tags": [
+      "control: control_repeat"
+    ],
+    "rationale": "The person explicitly decides to go through the slices/images once more.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 23
+    },
+    "model": "google/gemini-3.8-flash",
+    "provider": "Google",
+    "configuration_name": "gemini-3-8-flash-260902"
+  },
+  {
+    "phrase": "da ist was, da war was helles da",
+    "context": "durch nochmal ... ja da ist was, da war was helles da und bekomm ich",
+    "tags": [
+      "indicator: anomaly_detected"
+    ],
+    "rationale": "The person detects a hyperdense/bright spot as a suspicious finding.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 23
+    },
+    "model": "google/gemini-3.8-flash",
+    "provider": "Google",
+    "configuration_name": "gemini-3-8-flash-260902"
+  },
+  {
+    "phrase": "bekomm ich auch gesagt von der AI, dass da was ist",
+    "context": "war was helles da und bekomm ich auch gesagt von der AI, dass da was ist.",
+    "tags": [
+      "reflection_of_ai: confirmed_by_ai"
+    ],
+    "rationale": "The person notes that the AI confirms the abnormality they just found independently.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 23
+    },
+    "model": "google/gemini-3.8-flash",
+    "provider": "Google",
+    "configuration_name": "gemini-3-8-flash-260902"
+  },
+  {
+    "phrase": "Okay",
+    "context": "Okay. Jetzt wieder schneller",
+    "tags": [
+      "paused_in_process"
+    ],
+    "rationale": "Filler word bridging a pause before proceeding.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 24
+    },
+    "model": "google/gemini-3.8-flash",
+    "provider": "Google",
+    "configuration_name": "gemini-3-8-flash-260902"
+  },
+  {
+    "phrase": "Jetzt wieder schneller",
+    "context": "Okay. Jetzt wieder schneller, weil ich gesagt",
+    "tags": [
+      "visual_search: description_of_own_approach_without_external_help"
+    ],
+    "rationale": "The person explicitly comments on their own approach and viewing speed.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 24
+    },
+    "model": "google/gemini-3.8-flash",
+    "provider": "Google",
+    "configuration_name": "gemini-3-8-flash-260902"
+  },
+  {
+    "phrase": "dass da nichts da ist",
+    "context": "gesagt bekomme, dass da nichts da ist, und mir fällt",
+    "tags": [
+      "ai_report: no_ich"
+    ],
+    "rationale": "The person verbalizes that the AI reported no finding/hemorrhage.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 24
+    },
+    "model": "google/gemini-3.8-flash",
+    "provider": "Google",
+    "configuration_name": "gemini-3-8-flash-260902"
+  },
+  {
+    "phrase": "mir fällt auch nichts auf",
+    "context": "da ist, und mir fällt auch nichts auf.",
+    "tags": [
+      "interpretation: no_bleeding"
+    ],
+    "rationale": "The participant draws the overarching conclusion that there is no abnormal finding.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 24
+    },
+    "model": "google/gemini-3.8-flash",
+    "provider": "Google",
+    "configuration_name": "gemini-3-8-flash-260902"
+  },
+  {
+    "phrase": "auch",
+    "context": "mir fällt auch nichts auf.",
+    "tags": [
+      "decision_with_ai: implicitly_agreeing_with_ai"
+    ],
+    "rationale": "The word 'auch' implicitly signals agreement with the negative AI assessment.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 24
+    },
+    "model": "google/gemini-3.8-flash",
+    "provider": "Google",
+    "configuration_name": "gemini-3-8-flash-260902"
+  },
+  {
+    "phrase": "mhm",
+    "context": "Genau so hier mhm nichts was auffällig",
+    "tags": [
+      "paused_in_process"
+    ],
+    "rationale": "The speaker utters a non-lexical sound/filler representing a pause in thought.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 27
+    },
+    "model": "google/gemini-3.8-flash",
+    "provider": "Google",
+    "configuration_name": "gemini-3-8-flash-260902"
+  },
+  {
+    "phrase": "nichts was auffällig aussieht",
+    "context": "hier mhm nichts was auffällig aussieht",
+    "tags": [
+      "indicator: no_bleeding"
+    ],
+    "rationale": "The speaker evaluates the currently inspected area as unremarkable and showing no abnormalities.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 27
+    },
+    "model": "google/gemini-3.8-flash",
+    "provider": "Google",
+    "configuration_name": "gemini-3-8-flash-260902"
+  },
+  {
+    "phrase": "ich guck trotzdem von oben nach untern",
+    "context": "schon auch, ich guck trotzdem von oben nach untern und hier ist",
+    "tags": [
+      "visual_search: description_of_own_approach_without_external_help"
+    ],
+    "rationale": "The person explicitly describes their own visual search approach across the slices.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 29
+    },
+    "model": "google/gemini-3.8-flash",
+    "provider": "Google",
+    "configuration_name": "gemini-3-8-flash-260902"
+  },
+  {
+    "phrase": "hier ist der Saum schon zu sehen",
+    "context": "nach untern und hier ist der Saum schon zu sehen, also AI zeigt",
+    "tags": [
+      "indicator: anomaly_detected"
+    ],
+    "rationale": "The person points out a specific atypical image feature (the visible margin/rim).",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 29
+    },
+    "model": "google/gemini-3.8-flash",
+    "provider": "Google",
+    "configuration_name": "gemini-3-8-flash-260902"
+  },
+  {
+    "phrase": "AI zeigt mir das erst später",
+    "context": "zu sehen, also AI zeigt mir das erst später, aber man sieht",
+    "tags": [
+      "ai_report: ich_localization"
+    ],
+    "rationale": "The person reports where/at which slice level the AI indicates the hemorrhage.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 29
+    },
+    "model": "google/gemini-3.8-flash",
+    "provider": "Google",
+    "configuration_name": "gemini-3-8-flash-260902"
+  },
+  {
+    "phrase": "man sieht schon ne Blutung",
+    "context": "erst später, aber man sieht schon ne Blutung und da brauchte",
+    "tags": [
+      "interpretation: bleeding"
+    ],
+    "rationale": "The person explicitly interprets the finding as a hemorrhage.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 29
+    },
+    "model": "google/gemini-3.8-flash",
+    "provider": "Google",
+    "configuration_name": "gemini-3-8-flash-260902"
+  },
+  {
+    "phrase": "da brauchte ich jetzt das nicht so",
+    "context": "schon ne Blutung und da brauchte ich jetzt das nicht so.",
+    "tags": [
+      "reflection_of_ai: ich_recognized_without_ai"
+    ],
+    "rationale": "The person indicates that the AI was not necessary because they recognized the hemorrhage on their own.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 29
+    },
+    "model": "google/gemini-3.8-flash",
+    "provider": "Google",
+    "configuration_name": "gemini-3-8-flash-260902"
+  },
+  {
+    "phrase": "Ja.",
+    "context": "Ja. Genaue, erst mal",
+    "tags": [
+      "paused_in_process"
+    ],
+    "rationale": "Utterance of a filler word / pause at the beginning of the thought process.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 17
+    },
+    "model": "google/gemini-3.8-flash",
+    "provider": "Google",
+    "configuration_name": "gemini-3-8-flash-260902"
+  },
+  {
+    "phrase": "erst mal auf der Seite ohne AI",
+    "context": "Ja. Genaue, erst mal auf der Seite ohne AI, auf Unterschiede beidseitig",
+    "tags": [
+      "control: make_own_judgement"
+    ],
+    "rationale": "The person explicitly chooses to inspect the scan independently on the side without AI assistance first.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 17
+    },
+    "model": "google/gemini-3.8-flash",
+    "provider": "Google",
+    "configuration_name": "gemini-3-8-flash-260902"
+  },
+  {
+    "phrase": "auf Unterschiede beidseitig bei den Hemisphären",
+    "context": "Seite ohne AI, auf Unterschiede beidseitig bei den Hemisphären, und hier hab ich",
+    "tags": [
+      "visual_search: description_of_medical_image_features"
+    ],
+    "rationale": "The person verbalizes looking at specific anatomical structures and image features (hemispheres, side differences).",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 17
+    },
+    "model": "google/gemini-3.8-flash",
+    "provider": "Google",
+    "configuration_name": "gemini-3-8-flash-260902"
+  },
+  {
+    "phrase": "hier hab ich nichts direkt gesehen",
+    "context": "bei den Hemisphären, und hier hab ich nichts direkt gesehen und auf der Seite",
+    "tags": [
+      "indicator: no_bleeding"
+    ],
+    "rationale": "The person describes the examined area as unremarkable / having no visible abnormality.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 17
+    },
+    "model": "google/gemini-3.8-flash",
+    "provider": "Google",
+    "configuration_name": "gemini-3-8-flash-260902"
+  },
+  {
+    "phrase": "auf der Seite mir aber was angezeigt",
+    "context": "nichts direkt gesehen und auf der Seite mir aber was angezeigt. Das hätte ich",
+    "tags": [
+      "ai_report: ich"
+    ],
+    "rationale": "The person verbalizes that the AI side indicated/displayed a finding (hemorrhage).",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 17
+    },
+    "model": "google/gemini-3.8-flash",
+    "provider": "Google",
+    "configuration_name": "gemini-3-8-flash-260902"
+  },
+  {
+    "phrase": "Das hätte ich ohne so ohne so große Erfahrung nicht gemerkt.",
+    "context": "mir aber was angezeigt. Das hätte ich ohne so ohne so große Erfahrung nicht gemerkt. Aber wenn man das",
+    "tags": [
+      "reflection: experience_limitation"
+    ],
+    "rationale": "The person explicitly refers to their own limited experience as the reason they would not have noticed it.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 17
+    },
+    "model": "google/gemini-3.8-flash",
+    "provider": "Google",
+    "configuration_name": "gemini-3-8-flash-260902"
+  },
+  {
+    "phrase": "Aber wenn man das weiß, dann sieht man es da auch doch.",
+    "context": "Erfahrung nicht gemerkt. Aber wenn man das weiß, dann sieht man es da auch doch.",
+    "tags": [
+      "reflection_of_ai: helpful"
+    ],
+    "rationale": "The person reflects that knowing the AI's indication helps to make the finding visible.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 17
+    },
+    "model": "google/gemini-3.8-flash",
+    "provider": "Google",
+    "configuration_name": "gemini-3-8-flash-260902"
+  },
+  {
+    "phrase": "auch",
+    "context": "sieht man es da auch doch.",
+    "tags": [
+      "decision_with_ai: implicitly_agreeing_with_ai"
+    ],
+    "rationale": "Implicit agreement with the AI's detection indicated by the word 'auch'.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 17
+    },
+    "model": "google/gemini-3.8-flash",
+    "provider": "Google",
+    "configuration_name": "gemini-3-8-flash-260902"
+  },
+  {
+    "phrase": "Jetzt wird mir schon angezeigt, dass eine Blutung da ist",
+    "context": "Jetzt wird mir schon angezeigt, dass eine Blutung da ist und mir erstmal",
+    "tags": [
+      "ai_report: ich"
+    ],
+    "rationale": "The participant verbalizes that the AI has detected/indicated a hemorrhage.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 28
+    },
+    "model": "google/gemini-3.8-flash",
+    "provider": "Google",
+    "configuration_name": "gemini-3-8-flash-260902"
+  },
+  {
+    "phrase": "mir erstmal selber zu schauen",
+    "context": "eine Blutung da ist und mir erstmal selber zu schauen. Die Mittellinie ist",
+    "tags": [
+      "control: make_own_judgement"
+    ],
+    "rationale": "The participant states an intention to look and evaluate the scan independently first.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 28
+    },
+    "model": "google/gemini-3.8-flash",
+    "provider": "Google",
+    "configuration_name": "gemini-3-8-flash-260902"
+  },
+  {
+    "phrase": "Die Mittellinie ist nicht verschoben",
+    "context": "selber zu schauen. Die Mittellinie ist nicht verschoben, aber jetzt sieht",
+    "tags": [
+      "indicator: no_bleeding"
+    ],
+    "rationale": "The participant evaluates a specific anatomical structure (midline) as normal/unremarkable.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 28
+    },
+    "model": "google/gemini-3.8-flash",
+    "provider": "Google",
+    "configuration_name": "gemini-3-8-flash-260902"
+  },
+  {
+    "phrase": "jetzt sieht man aber direkt hier schon einen Saun un dem Knochen",
+    "context": "nicht verschoben, aber jetzt sieht man aber direkt hier schon einen Saun un dem Knochen … Das ist dann",
+    "tags": [
+      "indicator: anomaly_detected"
+    ],
+    "rationale": "The participant identifies a suspicious abnormality at a specific location ('Saum unter dem Knochen').",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 28
+    },
+    "model": "google/gemini-3.8-flash",
+    "provider": "Google",
+    "configuration_name": "gemini-3-8-flash-260902"
+  },
+  {
+    "phrase": "Das ist dann schon eindeutiger",
+    "context": "Saun un dem Knochen … Das ist dann schon eindeutiger",
+    "tags": [
+      "interpretation: bleeding"
+    ],
+    "rationale": "In the context of the task and the previously detected anomaly, this is evaluated as a clear indication/interpretation of a hemorrhage.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 28
+    },
+    "model": "google/gemini-3.8-flash",
+    "provider": "Google",
+    "configuration_name": "gemini-3-8-flash-260902"
+  },
+  {
+    "phrase": "eindeutiger",
+    "context": "Das ist dann schon eindeutiger",
+    "tags": [
+      "confidence_high: secondary"
+    ],
+    "rationale": "The adverb/comparative 'eindeutiger' implicitly signals high certainty.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 28
+    },
+    "model": "google/gemini-3.8-flash",
+    "provider": "Google",
+    "configuration_name": "gemini-3-8-flash-260902"
+  },
+  {
+    "phrase": "So",
+    "context": "So, hier ist wieder ne",
+    "tags": [
+      "paused_in_process"
+    ],
+    "rationale": "Filler word used as a conversational starter/transition without semantic diagnostic content.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 30
+    },
+    "model": "google/gemini-3.8-flash",
+    "provider": "Google",
+    "configuration_name": "gemini-3-8-flash-260902"
+  },
+  {
+    "phrase": "hier ist wieder ne extra Sicherheit da",
+    "context": "So, hier ist wieder ne extra Sicherheit da, dass AI sagt, dass",
+    "tags": [
+      "confidence_high: increased_through_ai"
+    ],
+    "rationale": "The person explicitly reports an increase in certainty/security due to the AI's assessment.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 30
+    },
+    "model": "google/gemini-3.8-flash",
+    "provider": "Google",
+    "configuration_name": "gemini-3-8-flash-260902"
+  },
+  {
+    "phrase": "AI sagt, dass da nichts ist",
+    "context": "extra Sicherheit da, dass AI sagt, dass da nichts ist. Deswegen kann ich",
+    "tags": [
+      "ai_report: no_ich"
+    ],
+    "rationale": "The person verbalizes that the AI did not detect any hemorrhage/abnormality.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 30
+    },
+    "model": "google/gemini-3.8-flash",
+    "provider": "Google",
+    "configuration_name": "gemini-3-8-flash-260902"
+  },
+  {
+    "phrase": "das hilf mir schon",
+    "context": "ein bisschen schneller gehen, das hilf mir schon.",
+    "tags": [
+      "reflection_of_ai: helpful"
+    ],
+    "rationale": "The person explicitly evaluates the AI as helpful in their diagnostic workflow.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 30
+    },
+    "model": "google/gemini-3.8-flash",
+    "provider": "Google",
+    "configuration_name": "gemini-3-8-flash-260902"
+  },
+  {
+    "phrase": "So",
+    "context": "So, soll aber auch was",
+    "tags": [
+      "paused_in_process"
+    ],
+    "rationale": "Filler word used at the beginning of the thought process.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 34
+    },
+    "model": "google/gemini-3.8-flash",
+    "provider": "Google",
+    "configuration_name": "gemini-3-8-flash-260902"
+  },
+  {
+    "phrase": "soll aber auch was da sein",
+    "context": "So, soll aber auch was da sein, schau auf meine Seite",
+    "tags": [
+      "ai_report: ich"
+    ],
+    "rationale": "The speaker verbalizes that the AI has reported/detected an abnormality or hemorrhage in this case.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 34
+    },
+    "model": "google/gemini-3.8-flash",
+    "provider": "Google",
+    "configuration_name": "gemini-3-8-flash-260902"
+  },
+  {
+    "phrase": "schau auf meine Seite erstmal",
+    "context": "da sein, schau auf meine Seite erstmal. Und bis jetzt ist",
+    "tags": [
+      "control: make_own_judgement"
+    ],
+    "rationale": "The participant decides to look at their own (unannotated/independent) side first before relying on the AI.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 34
+    },
+    "model": "google/gemini-3.8-flash",
+    "provider": "Google",
+    "configuration_name": "gemini-3-8-flash-260902"
+  },
+  {
+    "phrase": "bis jetzt ist mir nichts aufgefallen",
+    "context": "erstmal. Und bis jetzt ist mir nichts aufgefallen. Aber das sieht so",
+    "tags": [
+      "indicator: no_bleeding"
+    ],
+    "rationale": "The participant states that the image areas inspected up to this point have appeared unremarkable.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 34
+    },
+    "model": "google/gemini-3.8-flash",
+    "provider": "Google",
+    "configuration_name": "gemini-3-8-flash-260902"
+  },
+  {
+    "phrase": "Aber das sieht so ein bisschen auffällig aus, überhaupt mhm das alles so gefüllt ist",
+    "context": "nichts aufgefallen. Aber das sieht so ein bisschen auffällig aus, überhaupt mhm das alles so gefüllt ist.",
+    "tags": [
+      "indicator: anomaly_detected"
+    ],
+    "rationale": "The participant notices a specific abnormality atypical of healthy anatomy ('that everything is so filled').",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 34
+    },
+    "model": "google/gemini-3.8-flash",
+    "provider": "Google",
+    "configuration_name": "gemini-3-8-flash-260902"
+  },
+  {
+    "phrase": "mhm",
+    "context": "aus, überhaupt mhm das alles so gefüllt",
+    "tags": [
+      "paused_in_process"
+    ],
+    "rationale": "Non-lexical sound uttered during thought.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 34
+    },
+    "model": "google/gemini-3.8-flash",
+    "provider": "Google",
+    "configuration_name": "gemini-3-8-flash-260902"
+  },
+  {
+    "phrase": "Mhm",
+    "context": "Mhm hier ist wieder",
+    "tags": [
+      "paused_in_process"
+    ],
+    "rationale": "Non-lexical utterance acting as a pause/filler.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 32
+    },
+    "model": "google/gemini-3.8-flash",
+    "provider": "Google",
+    "configuration_name": "gemini-3-8-flash-260902"
+  },
+  {
+    "phrase": "hier ist wieder angeblich keine Blutung",
+    "context": "Mhm hier ist wieder angeblich keine Blutung und ich kann",
+    "tags": [
+      "ai_report: no_ich"
+    ],
+    "rationale": "Verbalizes the AI's negative finding (that the AI supposedly detected no hemorrhage).",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 32
+    },
+    "model": "google/gemini-3.8-flash",
+    "provider": "Google",
+    "configuration_name": "gemini-3-8-flash-260902"
+  },
+  {
+    "phrase": "ich kann ein bisschen schneller scrollen",
+    "context": "keine Blutung und ich kann ein bisschen schneller scrollen. Und sehe dass",
+    "tags": [
+      "visual_search: description_of_own_approach_without_external_help"
+    ],
+    "rationale": "Explicitly comments on own search approach/procedure (scrolling faster).",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 32
+    },
+    "model": "google/gemini-3.8-flash",
+    "provider": "Google",
+    "configuration_name": "gemini-3-8-flash-260902"
+  },
+  {
+    "phrase": "sehe dass ich keine Unterschied merke",
+    "context": "schneller scrollen. Und sehe dass ich keine Unterschied merke und auf der",
+    "tags": [
+      "indicator: no_bleeding"
+    ],
+    "rationale": "Describes the image as unremarkable/symmetrical without noticeable differences.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 32
+    },
+    "model": "google/gemini-3.8-flash",
+    "provider": "Google",
+    "configuration_name": "gemini-3-8-flash-260902"
+  },
+  {
+    "phrase": "auf der anderen Seite wird auch keine Blututng angezeigt",
+    "context": "Unterschied merke und auf der anderen Seite wird auch keine Blututng angezeigt.",
+    "tags": [
+      "ai_report: no_ich"
+    ],
+    "rationale": "Verbalizes that no hemorrhage is displayed/reported by the AI.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 32
+    },
+    "model": "google/gemini-3.8-flash",
+    "provider": "Google",
+    "configuration_name": "gemini-3-8-flash-260902"
+  },
+  {
+    "phrase": "Wieder auf meiner nicht AI Seite, kuck mir das alleine an",
+    "context": "Wieder auf meiner nicht AI Seite, kuck mir das alleine an, Mittellinie, Schädelknochen,",
+    "tags": [
+      "control: make_own_judgement"
+    ],
+    "rationale": "The participant explicitly decides to review the scan independently without AI assistance first.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 37
+    },
+    "model": "google/gemini-3.8-flash",
+    "provider": "Google",
+    "configuration_name": "gemini-3-8-flash-260902"
+  },
+  {
+    "phrase": "Mittellinie, Schädelknochen, Unterschiede",
+    "context": "kuck mir das alleine an, Mittellinie, Schädelknochen, Unterschiede und merke alleine nichts.",
+    "tags": [
+      "visual_search: description_of_medical_image_features"
+    ],
+    "rationale": "The participant lists specific anatomical structures and image features they are checking.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 37
+    },
+    "model": "google/gemini-3.8-flash",
+    "provider": "Google",
+    "configuration_name": "gemini-3-8-flash-260902"
+  },
+  {
+    "phrase": "merke alleine nichts",
+    "context": "Schädelknochen, Unterschiede und merke alleine nichts. Ich gucke auf der AI",
+    "tags": [
+      "interpretation: no_bleeding"
+    ],
+    "rationale": "Overarching assessment that no pathological signs/hemorrhage were identified by the participant on their own.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 37
+    },
+    "model": "google/gemini-3.8-flash",
+    "provider": "Google",
+    "configuration_name": "gemini-3-8-flash-260902"
+  },
+  {
+    "phrase": "Ich gucke auf der AI Seite",
+    "context": "merke alleine nichts. Ich gucke auf der AI Seite und da wird mir was",
+    "tags": [
+      "visual_search: triggered_by_ai"
+    ],
+    "rationale": "The participant turns to the AI output to guide their viewing.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 37
+    },
+    "model": "google/gemini-3.8-flash",
+    "provider": "Google",
+    "configuration_name": "gemini-3-8-flash-260902"
+  },
+  {
+    "phrase": "da wird mir was angezeigt",
+    "context": "auf der AI Seite und da wird mir was angezeigt, was ich nicht gesehen",
+    "tags": [
+      "ai_report: ich"
+    ],
+    "rationale": "The participant verbalizes that the AI detected/highlighted a finding.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 37
+    },
+    "model": "google/gemini-3.8-flash",
+    "provider": "Google",
+    "configuration_name": "gemini-3-8-flash-260902"
+  },
+  {
+    "phrase": "was ich nicht gesehen hatte",
+    "context": "wird mir was angezeigt, was ich nicht gesehen hatte, deswegen hat mir das",
+    "tags": [
+      "reflection_of_ai: ich_not_recognized_without_ai"
+    ],
+    "rationale": "The participant explicitly states they did not recognize the finding on their own prior to the AI's indication.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 37
+    },
+    "model": "google/gemini-3.8-flash",
+    "provider": "Google",
+    "configuration_name": "gemini-3-8-flash-260902"
+  },
+  {
+    "phrase": "auf jeden Fall",
+    "context": "deswegen hat mir das auf jeden Fall sehr geholfen",
+    "tags": [
+      "confidence_high: secondary"
+    ],
+    "rationale": "Adverbial expression implicitly conveying high certainty.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 37
+    },
+    "model": "google/gemini-3.8-flash",
+    "provider": "Google",
+    "configuration_name": "gemini-3-8-flash-260902"
+  },
+  {
+    "phrase": "deswegen hat mir das auf jeden Fall sehr geholfen",
+    "context": "nicht gesehen hatte, deswegen hat mir das auf jeden Fall sehr geholfen",
+    "tags": [
+      "reflection_of_ai: helpful"
+    ],
+    "rationale": "The participant evaluates the AI's assistance positively as helpful.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 37
+    },
+    "model": "google/gemini-3.8-flash",
+    "provider": "Google",
+    "configuration_name": "gemini-3-8-flash-260902"
+  },
+  {
+    "phrase": "ich geh von oben",
+    "context": "Und ich geh von oben und guck allein",
+    "tags": [
+      "visual_search: description_of_own_approach_without_external_help"
+    ],
+    "rationale": "The participant describes their own scrolling and viewing procedure from the top down without external help.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 31
+    },
+    "model": "google/gemini-3.8-flash",
+    "provider": "Google",
+    "configuration_name": "gemini-3-8-flash-260902"
+  },
+  {
+    "phrase": "guck allein erstmal",
+    "context": "von oben und guck allein erstmal, noch sehe keine",
+    "tags": [
+      "control: make_own_judgement"
+    ],
+    "rationale": "The participant decides to look at the scan on their own first without relying on the AI.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 31
+    },
+    "model": "google/gemini-3.8-flash",
+    "provider": "Google",
+    "configuration_name": "gemini-3-8-flash-260902"
+  },
+  {
+    "phrase": "noch sehe keine Unterschied",
+    "context": "guck allein erstmal, noch sehe keine Unterschied mhm … Ich bin",
+    "tags": [
+      "indicator: no_bleeding"
+    ],
+    "rationale": "The participant notes that they do not see any differences or abnormal asymmetry in the image.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 31
+    },
+    "model": "google/gemini-3.8-flash",
+    "provider": "Google",
+    "configuration_name": "gemini-3-8-flash-260902"
+  },
+  {
+    "phrase": "mhm",
+    "context": "keine Unterschied mhm … Ich bin noch",
+    "tags": [
+      "paused_in_process"
+    ],
+    "rationale": "A non-lexical utterance representing a thinking pause.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 31
+    },
+    "model": "google/gemini-3.8-flash",
+    "provider": "Google",
+    "configuration_name": "gemini-3-8-flash-260902"
+  },
+  {
+    "phrase": "Ich bin noch nicht so viel was aufgefallen",
+    "context": "Unterschied mhm … Ich bin noch nicht so viel was aufgefallen, vielleicht gucke ich",
+    "tags": [
+      "indicator: no_bleeding"
+    ],
+    "rationale": "The participant indicates that nothing noticeable or suspicious has caught their attention so far.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 31
+    },
+    "model": "google/gemini-3.8-flash",
+    "provider": "Google",
+    "configuration_name": "gemini-3-8-flash-260902"
+  },
+  {
+    "phrase": "vielleicht",
+    "context": "was aufgefallen, vielleicht gucke ich auf",
+    "tags": [
+      "confidence_low: secondary"
+    ],
+    "rationale": "The adverb 'vielleicht' indicates low certainty/indecision regarding the next step.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 31
+    },
+    "model": "google/gemini-3.8-flash",
+    "provider": "Google",
+    "configuration_name": "gemini-3-8-flash-260902"
+  },
+  {
+    "phrase": "gucke ich auf der AI Seite erstmal",
+    "context": "aufgefallen, vielleicht gucke ich auf der AI Seite erstmal. Ah, je das",
+    "tags": [
+      "visual_search: triggered_by_ai"
+    ],
+    "rationale": "The participant actively turns to the AI-annotated side to guide their search.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 31
+    },
+    "model": "google/gemini-3.8-flash",
+    "provider": "Google",
+    "configuration_name": "gemini-3-8-flash-260902"
+  },
+  {
+    "phrase": "das hatte ich nicht gesehn. Aber wenn mans weis, dann ja.",
+    "context": "Ah, je das hatte ich nicht gesehn. Aber wenn mans weis, dann ja. Das hilft da",
+    "tags": [
+      "reflection_of_ai: ich_not_recognized_without_ai"
+    ],
+    "rationale": "The participant states counterfactually that they had not seen the finding on their own, but can recognize it now that the AI pointed it out.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 31
+    },
+    "model": "google/gemini-3.8-flash",
+    "provider": "Google",
+    "configuration_name": "gemini-3-8-flash-260902"
+  },
+  {
+    "phrase": "Das hilft da",
+    "context": "dann ja. Das hilft da",
+    "tags": [
+      "reflection_of_ai: helpful"
+    ],
+    "rationale": "The participant evaluates the AI's assistance as helpful.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 31
+    },
+    "model": "google/gemini-3.8-flash",
+    "provider": "Google",
+    "configuration_name": "gemini-3-8-flash-260902"
+  },
+  {
+    "phrase": "Mhm.",
+    "context": "Mhm. Hier sieht man schon",
+    "tags": [
+      "paused_in_process"
+    ],
+    "rationale": "Non-lexical vocalization/filler sound used as a pause for thought.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 36
+    },
+    "model": "google/gemini-3.8-flash",
+    "provider": "Google",
+    "configuration_name": "gemini-3-8-flash-260902"
+  },
+  {
+    "phrase": "Hier sieht man schon eine Raumforderung",
+    "context": "Mhm. Hier sieht man schon eine Raumforderung, weiß jetzt nicht, ob",
+    "tags": [
+      "indicator: anomaly_detected"
+    ],
+    "rationale": "The speaker notices an abnormality (a space-occupying lesion) atypical for a normal scan.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 36
+    },
+    "model": "google/gemini-3.8-flash",
+    "provider": "Google",
+    "configuration_name": "gemini-3-8-flash-260902"
+  },
+  {
+    "phrase": "weiß jetzt nicht",
+    "context": "eine Raumforderung, weiß jetzt nicht, ob es deswegen dann...",
+    "tags": [
+      "confidence_low: concrete"
+    ],
+    "rationale": "Explicit verbalization of uncertainty regarding the interpretation.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 36
+    },
+    "model": "google/gemini-3.8-flash",
+    "provider": "Google",
+    "configuration_name": "gemini-3-8-flash-260902"
+  },
+  {
+    "phrase": "jetzt wird keine Blutung angezeigt",
+    "context": "dann... Also jetzt wird keine Blutung angezeigt. Ich bin mir einfach",
+    "tags": [
+      "ai_report: no_ich"
+    ],
+    "rationale": "The speaker verbalizes that the AI report does not show/indicate a hemorrhage.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 36
+    },
+    "model": "google/gemini-3.8-flash",
+    "provider": "Google",
+    "configuration_name": "gemini-3-8-flash-260902"
+  },
+  {
+    "phrase": "Ich bin mir einfach unsicher",
+    "context": "Blutung angezeigt. Ich bin mir einfach unsicher, ob es einfach nur",
+    "tags": [
+      "confidence_low: concrete"
+    ],
+    "rationale": "Explicit statement of diagnostic uncertainty.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 36
+    },
+    "model": "google/gemini-3.8-flash",
+    "provider": "Google",
+    "configuration_name": "gemini-3-8-flash-260902"
+  },
+  {
+    "phrase": "ob es einfach nur eine Raumforderung ist, die nicht blutet",
+    "context": "unsicher, ob es einfach nur eine Raumforderung ist, die nicht blutet und deswegen denke ich,",
+    "tags": [
+      "reflection: diagnostic_uncertainty"
+    ],
+    "rationale": "The participant reflects on whether the finding is a non-bleeding mass rather than a hemorrhage.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 36
+    },
+    "model": "google/gemini-3.8-flash",
+    "provider": "Google",
+    "configuration_name": "gemini-3-8-flash-260902"
+  },
+  {
+    "phrase": "wahrscheinlich",
+    "context": "denke ich, wahrscheinlich dann also das wahrscheinlich",
+    "tags": [
+      "confidence_high: secondary"
+    ],
+    "rationale": "Adverb indicating probability/implicit certainty.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 36
+    },
+    "model": "google/gemini-3.8-flash",
+    "provider": "Google",
+    "configuration_name": "gemini-3-8-flash-260902"
+  },
+  {
+    "phrase": "eher ein Tumor",
+    "context": "das wahrscheinlich dann eher ein Tumor. Das ist auch ein",
+    "tags": [
+      "reasoning: alternative_medical_cause"
+    ],
+    "rationale": "The speaker names a tumor as an alternative pathological medical cause.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 36
+    },
+    "model": "google/gemini-3.8-flash",
+    "provider": "Google",
+    "configuration_name": "gemini-3-8-flash-260902"
+  },
+  {
+    "phrase": "Das ist auch ein inhomogen.",
+    "context": "eher ein Tumor. Das ist auch ein inhomogen. Ja, gehen wir davon",
+    "tags": [
+      "indicator: anomaly_detected"
+    ],
+    "rationale": "The speaker describes an anomalous feature (inhomogeneity) of the identified lesion.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 36
+    },
+    "model": "google/gemini-3.8-flash",
+    "provider": "Google",
+    "configuration_name": "gemini-3-8-flash-260902"
+  },
+  {
+    "phrase": "gehen wir davon aus, dass deswegen das nicht als Blutung gezeigt wird",
+    "context": "inhomogen. Ja, gehen wir davon aus, dass deswegen das nicht als Blutung gezeigt wird.",
+    "tags": [
+      "decision_with_ai: explicitly_agreeing_with_ai"
+    ],
+    "rationale": "The speaker agrees with the AI's negative assessment based on their reasoning that it is a non-bleeding mass/tumor.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 36
+    },
+    "model": "google/gemini-3.8-flash",
+    "provider": "Google",
+    "configuration_name": "gemini-3-8-flash-260902"
+  },
+  {
+    "phrase": "Hier ist wieder keine Blutung",
+    "context": "Hier ist wieder keine Blutung, ich gucke alleine",
+    "tags": [
+      "interpretation: no_bleeding"
+    ],
+    "rationale": "The participant concludes that there is no hemorrhage present in the scan.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 35
+    },
+    "model": "google/gemini-3.8-flash",
+    "provider": "Google",
+    "configuration_name": "gemini-3-8-flash-260902"
+  },
+  {
+    "phrase": "ich gucke alleine",
+    "context": "wieder keine Blutung, ich gucke alleine und dann auf",
+    "tags": [
+      "control: make_own_judgement"
+    ],
+    "rationale": "The participant explicitly notes that they inspect the scan independently on their own first.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 35
+    },
+    "model": "google/gemini-3.8-flash",
+    "provider": "Google",
+    "configuration_name": "gemini-3-8-flash-260902"
+  },
+  {
+    "phrase": "Es wird nichts angezeigt",
+    "context": "der AI Seite. Es wird nichts angezeigt, und ich kann",
+    "tags": [
+      "ai_report: no_ich"
+    ],
+    "rationale": "The participant verbalizes that the AI side does not show or detect any hemorrhage.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 35
+    },
+    "model": "google/gemini-3.8-flash",
+    "provider": "Google",
+    "configuration_name": "gemini-3-8-flash-260902"
+  },
+  {
+    "phrase": "Hier sollte nichts sein",
+    "context": "Hier sollte nichts sein, ich finde es sehr",
+    "tags": [
+      "indicator: no_bleeding"
+    ],
+    "rationale": "The speaker assesses a specific area as unremarkable/having no pathological findings.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 40
+    },
+    "model": "google/gemini-3.8-flash",
+    "provider": "Google",
+    "configuration_name": "gemini-3-8-flash-260902"
+  },
+  {
+    "phrase": "ich finde es sehr schwer, dieses Bild zu interpretieren",
+    "context": "Hier sollte nichts sein, ich finde es sehr schwer, dieses Bild zu interpretieren, aber deswegen hoffentlich",
+    "tags": [
+      "awareness_of_task: difficult"
+    ],
+    "rationale": "The speaker explicitly perceives and expresses that the task of interpreting the current scan is difficult.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 40
+    },
+    "model": "google/gemini-3.8-flash",
+    "provider": "Google",
+    "configuration_name": "gemini-3-8-flash-260902"
+  },
+  {
+    "phrase": "deswegen hoffentlich mit der AI die richtige Entscheidung getroffen",
+    "context": "dieses Bild zu interpretieren, aber deswegen hoffentlich mit der AI die richtige Entscheidung getroffen",
+    "tags": [
+      "control: relying_on_ai"
+    ],
+    "rationale": "The participant relies on the AI to help make the diagnostic decision in a difficult case.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 40
+    },
+    "model": "google/gemini-3.8-flash",
+    "provider": "Google",
+    "configuration_name": "gemini-3-8-flash-260902"
+  },
+  {
+    "phrase": "Okay, du hast heute pro Fall zwei CT. Der Linke, also das linke, CT ist das roh CT, das rechte CT ist mit Anmerkungen der künstlichen Intelligenz. Falls eine Blutung erkannt wurde, findest du auf einer Ebene ein rotes Rechteck. Da soll die Blutung dann lokalisiert worden sein. Mhm, du hast sonst wie immer Patient Information oben links. In der Mitte, ist jetzt eben die Angabe, ob eine Blutung erkannt wurde oder nicht. Großes Achtungszeichen heißt, das wurde anerkannt, und Haken ist keine erkannt. Oben rechts der Fortschritt eins von 50, und du sollst wieder entscheiden, ob eine Blutung vorliegt oder nicht, wie sicher du dir mit deiner Entscheidung bist und wie nützlich der AI Report für deine Entscheidung war. Du kannst über dieses Kachel sowohl, in dem man also neben dem Mauszeiger, links davon, genau, und da kannst du dann den Blutung auswählen, das zweite von links, und dann kannst du beide gleichzeitig reinziehen. Dann kannst du mit dem Ketten Symbol, das ist auch in dem gleichen, neben diesem Mülleimer etwas weiter rechts, genau. Synchronized Browsing kannst du anschalten. Jetzt kannst du da durchscrollen und eben durch beiden weiß zeitig schauen, ähm, genau, sonst noch irgendwelche Fragen vorab? Ah, okay, jetzt verstehe ich. Diese Vierecke wird angezeigt. Ne! Richtig. Ah, okay, okay, ja, nee, alles gut! Okay, dann schaue ich wieder auf die Zeit und ob du genug erzählst. Genau Think aloud ist ja wieder, wie die letzten Male auch genau, und bei Fragen, wenn man zwischendurch, einfach melden. Okay, ja, danke, gut.",
+    "context": "Okay, du hast heute pro Fall zwei CT. Der Linke, also das linke, CT ist das roh CT, das rechte CT ist mit Anmerkungen der künstlichen Intelligenz. Falls eine Blutung erkannt wurde, findest du auf einer Ebene ein rotes Rechteck. Da soll die Blutung dann lokalisiert worden sein. Mhm, du hast sonst wie immer Patient Information oben links. In der Mitte, ist jetzt eben die Angabe, ob eine Blutung erkannt wurde oder nicht. Großes Achtungszeichen heißt, das wurde anerkannt, und Haken ist keine erkannt. Oben rechts der Fortschritt eins von 50, und du sollst wieder entscheiden, ob eine Blutung vorliegt oder nicht, wie sicher du dir mit deiner Entscheidung bist und wie nützlich der AI Report für deine Entscheidung war. Du kannst über dieses Kachel sowohl, in dem man also neben dem Mauszeiger, links davon, genau, und da kannst du dann den Blutung auswählen, das zweite von links, und dann kannst du beide gleichzeitig reinziehen. Dann kannst du mit dem Ketten Symbol, das ist auch in dem gleichen, neben diesem Mülleimer etwas weiter rechts, genau. Synchronized Browsing kannst du anschalten. Jetzt kannst du da durchscrollen und eben durch beiden weiß zeitig schauen, ähm, genau, sonst noch irgendwelche Fragen vorab? Ah, okay, jetzt verstehe ich. Diese Vierecke wird angezeigt. Ne! Richtig. Ah, okay, okay, ja, nee, alles gut! Okay, dann schaue ich wieder auf die Zeit und ob du genug erzählst. Genau Think aloud ist ja wieder, wie die letzten Male auch genau, und bei Fragen, wenn man zwischendurch, einfach melden. Okay, ja, danke, gut. Dann scrolle ich wieder",
+    "tags": [
+      "technical_conversation"
+    ],
+    "rationale": "Introductory exchange and technical instructions between the experimenter and the participant regarding the display setup and task rules.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 0
+    },
+    "model": "google/gemini-3.8-flash",
+    "provider": "Google",
+    "configuration_name": "gemini-3-8-flash-260902"
+  },
+  {
+    "phrase": "Dann scrolle ich wieder und schaue ob ich immer beidseitig irgendwelche Unterschiede merke.",
+    "context": "Okay, ja, danke, gut. Dann scrolle ich wieder und schaue ob ich immer beidseitig irgendwelche Unterschiede merke. Mit ähm, schauen",
+    "tags": [
+      "visual_search: description_of_own_approach_without_external_help"
+    ],
+    "rationale": "Participant describes their own scanning procedure without relying on external cues.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 0
+    },
+    "model": "google/gemini-3.8-flash",
+    "provider": "Google",
+    "configuration_name": "gemini-3-8-flash-260902"
+  },
+  {
+    "phrase": "ähm",
+    "context": "Mit ähm, schauen wir",
+    "tags": [
+      "paused_in_process"
+    ],
+    "rationale": "Filler utterance indicating a pause in thought.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 0
+    },
+    "model": "google/gemini-3.8-flash",
+    "provider": "Google",
+    "configuration_name": "gemini-3-8-flash-260902"
+  },
+  {
+    "phrase": "schauen wir immer auf die Symmetrie und auf der Mittellinie, ob es eine Verschiebung da ist oder nicht.",
+    "context": "Mit ähm, schauen wir immer auf die Symmetrie und auf der Mittellinie, ob es eine Verschiebung da ist oder nicht. Ähm! Ich hätte",
+    "tags": [
+      "visual_search: description_of_medical_image_features"
+    ],
+    "rationale": "Participant specifies the anatomical features and image characteristics (symmetry, midline shift) they are checking.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 0
+    },
+    "model": "google/gemini-3.8-flash",
+    "provider": "Google",
+    "configuration_name": "gemini-3-8-flash-260902"
+  },
+  {
+    "phrase": "Ähm!",
+    "context": "da ist oder nicht. Ähm! Ich hätte jetzt persönlich",
+    "tags": [
+      "paused_in_process"
+    ],
+    "rationale": "Non-lexical filler sound representing a brief pause in processing.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 0
+    },
+    "model": "google/gemini-3.8-flash",
+    "provider": "Google",
+    "configuration_name": "gemini-3-8-flash-260902"
+  },
+  {
+    "phrase": "Ich hätte jetzt persönlich nicht erkannt, dass es jetzt unbedingt eine Blutung da ist",
+    "context": "Ähm! Ich hätte jetzt persönlich nicht erkannt, dass es jetzt unbedingt eine Blutung da ist, weil auf der anderen",
+    "tags": [
+      "decision_with_ai: explicitly_disagreeing_with_ai"
+    ],
+    "rationale": "Participant explicitly expresses disagreement or inability to identify what the AI flagged as a hemorrhage.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 0
+    },
+    "model": "google/gemini-3.8-flash",
+    "provider": "Google",
+    "configuration_name": "gemini-3-8-flash-260902"
+  },
+  {
+    "phrase": "es wurde halt von der AI nicht erkannt",
+    "context": "sieht es auch so ähnlich aus und es wurde halt von der AI nicht erkannt. Ich habe da nicht so",
+    "tags": [
+      "ai_report: no_ich"
+    ],
+    "rationale": "Participant notes that the AI did not detect a hemorrhage in the other hemisphere.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 0
+    },
+    "model": "google/gemini-3.8-flash",
+    "provider": "Google",
+    "configuration_name": "gemini-3-8-flash-260902"
+  },
+  {
+    "phrase": "Ich habe da nicht so Erfahrung mit",
+    "context": "nicht erkannt. Ich habe da nicht so Erfahrung mit, aber ich hätte gedacht",
+    "tags": [
+      "reflection: experience_limitation"
+    ],
+    "rationale": "Participant explicitly refers to their own limited clinical experience.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 0
+    },
+    "model": "google/gemini-3.8-flash",
+    "provider": "Google",
+    "configuration_name": "gemini-3-8-flash-260902"
+  },
+  {
+    "phrase": "aber ich hätte gedacht, vielleicht ist es irgendwie normal, wenn es irgendwie beidseitig ist.",
+    "context": "so Erfahrung mit, aber ich hätte gedacht, vielleicht ist es irgendwie normal, wenn es irgendwie beidseitig ist. Deswegen... Ich muss",
+    "tags": [
+      "reflection: diagnostic_uncertainty"
+    ],
+    "rationale": "Participant reflects on whether the observed bilateral appearance might simply be a normal finding.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 0
+    },
+    "model": "google/gemini-3.8-flash",
+    "provider": "Google",
+    "configuration_name": "gemini-3-8-flash-260902"
+  },
+  {
+    "phrase": "vielleicht",
+    "context": "aber ich hätte gedacht, vielleicht ist es irgendwie normal",
+    "tags": [
+      "confidence_low: secondary"
+    ],
+    "rationale": "Adverb implicitly signaling diagnostic uncertainty.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 0
+    },
+    "model": "google/gemini-3.8-flash",
+    "provider": "Google",
+    "configuration_name": "gemini-3-8-flash-260902"
+  },
+  {
+    "phrase": "Ich muss trotzdem selber erkennen",
+    "context": "Deswegen... Ich muss trotzdem selber erkennen, ob das also das",
+    "tags": [
+      "control: make_own_judgement"
+    ],
+    "rationale": "Participant emphasizes the necessity to evaluate and make an independent judgment.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 0
+    },
+    "model": "google/gemini-3.8-flash",
+    "provider": "Google",
+    "configuration_name": "gemini-3-8-flash-260902"
+  },
+  {
+    "phrase": "Wenn das AI sagt, dass es, dass es eine Blutung da ist, muss es nicht unbedingt sein, oder? Also, ich kenn, ich hab die Studie nicht selbst desgigned. Ich kann dir nicht garantieren, dass es stimmt. Ich weiß es leider nicht.",
+    "context": "jetzt nicht. Wenn das AI sagt, dass es, dass es eine Blutung da ist, muss es nicht unbedingt sein, oder? Also, ich kenn, ich hab die Studie nicht selbst desgigned. Ich kann dir nicht garantieren, dass es stimmt. Ich weiß es leider nicht. Okay, ich gehe schon",
+    "tags": [
+      "technical_conversation"
+    ],
+    "rationale": "Participant directs a question to the experimenter regarding the reliability of the AI in the study context, and the experimenter responds.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 0
+    },
+    "model": "google/gemini-3.8-flash",
+    "provider": "Google",
+    "configuration_name": "gemini-3-8-flash-260902"
+  },
+  {
+    "phrase": "ich gehe schon davon aus, dass es ist",
+    "context": "weiß es leider nicht. Okay, ich gehe schon davon aus, dass es ist. Hm! Ja, aber gut",
+    "tags": [
+      "interpretation: bleeding"
+    ],
+    "rationale": "Participant concludes that a hemorrhage is present.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 0
+    },
+    "model": "google/gemini-3.8-flash",
+    "provider": "Google",
+    "configuration_name": "gemini-3-8-flash-260902"
+  },
+  {
+    "phrase": "Hm!",
+    "context": "dass es ist. Hm! Ja, aber gut",
+    "tags": [
+      "paused_in_process"
+    ],
+    "rationale": "Filler utterance indicating a pause.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 0
+    },
+    "model": "google/gemini-3.8-flash",
+    "provider": "Google",
+    "configuration_name": "gemini-3-8-flash-260902"
+  },
+  {
+    "phrase": "ich bin nicht so kompetent",
+    "context": "ich sage einfach ja, und ich bin nicht so kompetent, eben weil die andere",
+    "tags": [
+      "reflection: experience_limitation"
+    ],
+    "rationale": "Participant explicitly comments on their own limited competence or expertise.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 0
+    },
+    "model": "google/gemini-3.8-flash",
+    "provider": "Google",
+    "configuration_name": "gemini-3-8-flash-260902"
+  },
+  {
+    "phrase": "Aber keine Ahnung",
+    "context": "sieht sehr ähnlich aus. Aber keine Ahnung. Ja.",
+    "tags": [
+      "confidence_low: concrete"
+    ],
+    "rationale": "Explicit verbalization of low diagnostic certainty ('keine Ahnung').",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 0
+    },
+    "model": "google/gemini-3.8-flash",
+    "provider": "Google",
+    "configuration_name": "gemini-3-8-flash-260902"
+  },
+  {
+    "phrase": "fangen wieder von vorne an",
+    "context": "So, fangen wieder von vorne an und hier soll",
+    "tags": [
+      "visual_search: description_of_own_approach_without_external_help"
+    ],
+    "rationale": "The person explicitly describes their own search procedure starting from the beginning.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 44
+    },
+    "model": "google/gemini-3.8-flash",
+    "provider": "Google",
+    "configuration_name": "gemini-3-8-flash-260902"
+  },
+  {
+    "phrase": "hier soll keine Blutung sein",
+    "context": "von vorne an und hier soll keine Blutung sein. Guck direkt",
+    "tags": [
+      "ai_report: no_ich"
+    ],
+    "rationale": "The person verbalizes that according to the AI there is no hemorrhage.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 44
+    },
+    "model": "google/gemini-3.8-flash",
+    "provider": "Google",
+    "configuration_name": "gemini-3-8-flash-260902"
+  },
+  {
+    "phrase": "Guck direkt schon mit der AI Seite",
+    "context": "keine Blutung sein. Guck direkt schon mit der AI Seite und es wird",
+    "tags": [
+      "visual_search: triggered_by_ai"
+    ],
+    "rationale": "The person aligns their visual viewing approach with the AI-assisted image directly.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 44
+    },
+    "model": "google/gemini-3.8-flash",
+    "provider": "Google",
+    "configuration_name": "gemini-3-8-flash-260902"
+  },
+  {
+    "phrase": "es wird mir nichts angezeigt",
+    "context": "mit der AI Seite und es wird mir nichts angezeigt, sieht auch",
+    "tags": [
+      "ai_report: no_ich"
+    ],
+    "rationale": "The person states that the AI displays no findings/hemorrhage.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 44
+    },
+    "model": "google/gemini-3.8-flash",
+    "provider": "Google",
+    "configuration_name": "gemini-3-8-flash-260902"
+  },
+  {
+    "phrase": "auch",
+    "context": "angezeigt, sieht auch unauffällig aus.",
+    "tags": [
+      "decision_with_ai: implicitly_agreeing_with_ai"
+    ],
+    "rationale": "The word 'auch' shows implicit agreement with the AI's negative assessment.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 44
+    },
+    "model": "google/gemini-3.8-flash",
+    "provider": "Google",
+    "configuration_name": "gemini-3-8-flash-260902"
+  },
+  {
+    "phrase": "sieht auch unauffällig aus",
+    "context": "nichts angezeigt, sieht auch unauffällig aus.",
+    "tags": [
+      "interpretation: no_bleeding"
+    ],
+    "rationale": "A general, overarching statement concluding that the scan appears normal/unremarkable (no hemorrhage).",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 44
+    },
+    "model": "google/gemini-3.8-flash",
+    "provider": "Google",
+    "configuration_name": "gemini-3-8-flash-260902"
+  },
+  {
+    "phrase": "Gucke ich erst mal auf meine Seite.",
+    "context": "Gucke ich erst mal auf meine Seite. Habe noch nichts gemerkt,",
+    "tags": [
+      "control: make_own_judgement"
+    ],
+    "rationale": "The person explicitly decides to examine their own side first without the AI.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 42
+    },
+    "model": "google/gemini-3.8-flash",
+    "provider": "Google",
+    "configuration_name": "gemini-3-8-flash-260902"
+  },
+  {
+    "phrase": "Habe noch nichts gemerkt, wo eine Blutung sein soll.",
+    "context": "auf meine Seite. Habe noch nichts gemerkt, wo eine Blutung sein soll. Was? Hier wird mir",
+    "tags": [
+      "indicator: no_bleeding"
+    ],
+    "rationale": "The person assesses their visual search so far as unremarkable, having noticed no signs of hemorrhage.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 42
+    },
+    "model": "google/gemini-3.8-flash",
+    "provider": "Google",
+    "configuration_name": "gemini-3-8-flash-260902"
+  },
+  {
+    "phrase": "Was?",
+    "context": "Blutung sein soll. Was? Hier wird mir dann",
+    "tags": [
+      "reflection_of_ai: confused_by_ai"
+    ],
+    "rationale": "An expression of surprise and confusion/irritation regarding the AI's detection.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 42
+    },
+    "model": "google/gemini-3.8-flash",
+    "provider": "Google",
+    "configuration_name": "gemini-3-8-flash-260902"
+  },
+  {
+    "phrase": "Hier wird mir dann von AI gezeigt, dass wäre eine Blutung",
+    "context": "soll. Was? Hier wird mir dann von AI gezeigt, dass wäre eine Blutung, das hätte ich auf",
+    "tags": [
+      "ai_report: ich"
+    ],
+    "rationale": "The participant verbalizes that the AI has detected/indicated a hemorrhage.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 42
+    },
+    "model": "google/gemini-3.8-flash",
+    "provider": "Google",
+    "configuration_name": "gemini-3-8-flash-260902"
+  },
+  {
+    "phrase": "das hätte ich auf keinen Fall erkannt.",
+    "context": "wäre eine Blutung, das hätte ich auf keinen Fall erkannt.",
+    "tags": [
+      "reflection_of_ai: ich_not_recognized_without_ai"
+    ],
+    "rationale": "The person explicitly states that they would not have recognized the hemorrhage without the AI.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 42
+    },
+    "model": "google/gemini-3.8-flash",
+    "provider": "Google",
+    "configuration_name": "gemini-3-8-flash-260902"
+  },
+  {
+    "phrase": "Probier ich auch selber erstmal zu gucken",
+    "context": "Probier ich auch selber erstmal zu gucken und seh das die,",
+    "tags": [
+      "control: make_own_judgement"
+    ],
+    "rationale": "The participant explicitly decides to inspect the scan independently first without looking at the AI.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 39
+    },
+    "model": "google/gemini-3.8-flash",
+    "provider": "Google",
+    "configuration_name": "gemini-3-8-flash-260902"
+  },
+  {
+    "phrase": "sieht so aus, alswäre die Mittellinie verschoben",
+    "context": "seh das die, sieht so aus, alswäre die Mittellinie verschoben, aber … ich finde",
+    "tags": [
+      "indicator: anomaly_detected"
+    ],
+    "rationale": "The participant detects a specific abnormal feature (midline shift).",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 39
+    },
+    "model": "google/gemini-3.8-flash",
+    "provider": "Google",
+    "configuration_name": "gemini-3-8-flash-260902"
+  },
+  {
+    "phrase": "ich finde der ventrikel sieht auch nicht so ähm weiß ich nicht, gleich aus",
+    "context": "verschoben, aber … ich finde der ventrikel sieht auch nicht so ähm weiß ich nicht, gleich aus. Ich hätte die",
+    "tags": [
+      "indicator: anomaly_detected"
+    ],
+    "rationale": "The participant notes an asymmetry/abnormality regarding the ventricles.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 39
+    },
+    "model": "google/gemini-3.8-flash",
+    "provider": "Google",
+    "configuration_name": "gemini-3-8-flash-260902"
+  },
+  {
+    "phrase": "ähm",
+    "context": "auch nicht so ähm weiß ich nicht,",
+    "tags": [
+      "paused_in_process"
+    ],
+    "rationale": "A non-lexical vocalization/filler sound.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 39
+    },
+    "model": "google/gemini-3.8-flash",
+    "provider": "Google",
+    "configuration_name": "gemini-3-8-flash-260902"
+  },
+  {
+    "phrase": "Ich hätte die Blutung nicht gefunden",
+    "context": "nicht, gleich aus. Ich hätte die Blutung nicht gefunden, gucke ich auf",
+    "tags": [
+      "reflection_of_ai: ich_not_recognized_without_ai"
+    ],
+    "rationale": "Counterfactual statement that the participant would not have found the hemorrhage on their own.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 39
+    },
+    "model": "google/gemini-3.8-flash",
+    "provider": "Google",
+    "configuration_name": "gemini-3-8-flash-260902"
+  },
+  {
+    "phrase": "gucke ich auf der AI Siete",
+    "context": "die Blutung nicht gefunden, gucke ich auf der AI Siete und da wird mir",
+    "tags": [
+      "visual_search: triggered_by_ai"
+    ],
+    "rationale": "The participant shifts their gaze and attention to the AI output.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 39
+    },
+    "model": "google/gemini-3.8-flash",
+    "provider": "Google",
+    "configuration_name": "gemini-3-8-flash-260902"
+  },
+  {
+    "phrase": "da wird mir das hier angezeigt",
+    "context": "der AI Siete und da wird mir das hier angezeigt, das hätte ich",
+    "tags": [
+      "ai_report: ich_localization"
+    ],
+    "rationale": "The participant describes where the AI indicated the hemorrhage.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 39
+    },
+    "model": "google/gemini-3.8-flash",
+    "provider": "Google",
+    "configuration_name": "gemini-3-8-flash-260902"
+  },
+  {
+    "phrase": "das hätte ich jetzt nicht gesehen",
+    "context": "das hier angezeigt, das hätte ich jetzt nicht gesehen, deswegen",
+    "tags": [
+      "reflection_of_ai: ich_not_recognized_without_ai"
+    ],
+    "rationale": "The participant states counterfactually that they would not have noticed this finding without the AI.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 39
+    },
+    "model": "google/gemini-3.8-flash",
+    "provider": "Google",
+    "configuration_name": "gemini-3-8-flash-260902"
+  },
+  {
+    "phrase": "hier sieht man schon einen Unterschied zu der Gegenseite",
+    "context": "So hier sieht man schon einen Unterschied zu der Gegenseite, ich schau mal weiter",
+    "tags": [
+      "indicator: anomaly_detected"
+    ],
+    "rationale": "The participant detects an asymmetry/abnormality compared to the contralateral side at a specific location.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 41
+    },
+    "model": "google/gemini-3.8-flash",
+    "provider": "Google",
+    "configuration_name": "gemini-3-8-flash-260902"
+  },
+  {
+    "phrase": "ich schau mal weiter, ob das irgendwie sonst wonaders irgendwas auffälliges aussieht",
+    "context": "Unterschied zu der Gegenseite, ich schau mal weiter, ob das irgendwie sonst wonaders irgendwas auffälliges aussieht … Ne, ich gucke mal",
+    "tags": [
+      "visual_search: description_of_own_approach_without_external_help"
+    ],
+    "rationale": "The participant explicitly comments on their own search procedure to check other areas for abnormalities.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 41
+    },
+    "model": "google/gemini-3.8-flash",
+    "provider": "Google",
+    "configuration_name": "gemini-3-8-flash-260902"
+  },
+  {
+    "phrase": "Ne",
+    "context": "irgendwas auffälliges aussieht … Ne, ich gucke mal jetzt",
+    "tags": [
+      "paused_in_process"
+    ],
+    "rationale": "A brief utterance/pause bridging the transition in the thought process.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 41
+    },
+    "model": "google/gemini-3.8-flash",
+    "provider": "Google",
+    "configuration_name": "gemini-3-8-flash-260902"
+  },
+  {
+    "phrase": "ich gucke mal jetzt auf der AI Seite",
+    "context": "aussieht … Ne, ich gucke mal jetzt auf der AI Seite, das wird mir hier",
+    "tags": [
+      "visual_search: triggered_by_ai"
+    ],
+    "rationale": "The participant directs their visual inspection to the AI-evaluated image.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 41
+    },
+    "model": "google/gemini-3.8-flash",
+    "provider": "Google",
+    "configuration_name": "gemini-3-8-flash-260902"
+  },
+  {
+    "phrase": "das wird mir hier auch angezeigt",
+    "context": "auf der AI Seite, das wird mir hier auch angezeigt",
+    "tags": [
+      "ai_report: ich_localization"
+    ],
+    "rationale": "The participant describes where the AI is displaying the finding ('hier').",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 41
+    },
+    "model": "google/gemini-3.8-flash",
+    "provider": "Google",
+    "configuration_name": "gemini-3-8-flash-260902"
+  },
+  {
+    "phrase": "auch",
+    "context": "das wird mir hier auch angezeigt",
+    "tags": [
+      "decision_with_ai: implicitly_agreeing_with_ai"
+    ],
+    "rationale": "Implicit agreement with the AI indicated by the single word 'auch'.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 41
+    },
+    "model": "google/gemini-3.8-flash",
+    "provider": "Google",
+    "configuration_name": "gemini-3-8-flash-260902"
+  },
+  {
+    "phrase": "help wie geht das nochmal? Nein. EXPERIMENTER: Du kannst in das, genau jetzt hast dus gefunden. VPN: Ja, danke, ist ein bisschen besser",
+    "context": "??? Mal wieder, help wie geht das nochmal? Nein. EXPERIMENTER: Du kannst in das, genau jetzt hast dus gefunden. VPN: Ja, danke, ist ein bisschen besser, aber naja es",
+    "tags": [
+      "technical_conversation"
+    ],
+    "rationale": "The participant and experimenter discuss technical difficulties and operation of the viewing tool.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 43
+    },
+    "model": "google/gemini-3.8-flash",
+    "provider": "Google",
+    "configuration_name": "gemini-3-8-flash-260902"
+  },
+  {
+    "phrase": "es ist sowieso hier schon die Blutung zu sehen",
+    "context": "ist ein bisschen besser, aber naja es ist sowieso hier schon die Blutung zu sehen. Ist jetzt egal, aber",
+    "tags": [
+      "interpretation: bleeding"
+    ],
+    "rationale": "The participant states that a hemorrhage is visible here.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 43
+    },
+    "model": "google/gemini-3.8-flash",
+    "provider": "Google",
+    "configuration_name": "gemini-3-8-flash-260902"
+  },
+  {
+    "phrase": "da ist ein Saum",
+    "context": "Ist jetzt egal, aber da ist ein Saum, irgendwie kann grieg ich",
+    "tags": [
+      "indicator: anomaly_detected"
+    ],
+    "rationale": "The participant notices an abnormal feature (a rim/margin) at a specific location.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 43
+    },
+    "model": "google/gemini-3.8-flash",
+    "provider": "Google",
+    "configuration_name": "gemini-3-8-flash-260902"
+  },
+  {
+    "phrase": "irgendwie kann grieg ich das nicht so super gut eingestellt",
+    "context": "aber da ist ein Saum, irgendwie kann grieg ich das nicht so super gut eingestellt, aber das war da",
+    "tags": [
+      "technical_conversation"
+    ],
+    "rationale": "The participant expresses difficulty handling/adjusting the display settings of the tool.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 43
+    },
+    "model": "google/gemini-3.8-flash",
+    "provider": "Google",
+    "configuration_name": "gemini-3-8-flash-260902"
+  },
+  {
+    "phrase": "Sehe wieder auf meine Seite alleine",
+    "context": "Sehe wieder auf meine Seite alleine … Und hier soll",
+    "tags": [
+      "control: make_own_judgement"
+    ],
+    "rationale": "The participant explicitly states they are looking at their own side first without AI assistance.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 33
+    },
+    "model": "google/gemini-3.8-flash",
+    "provider": "Google",
+    "configuration_name": "gemini-3-8-flash-260902"
+  },
+  {
+    "phrase": "hier soll eine Blutung sein",
+    "context": "Seite alleine … Und hier soll eine Blutung sein … Ich hab die",
+    "tags": [
+      "ai_report: ich"
+    ],
+    "rationale": "The participant verbalizes that the AI detected a hemorrhage ('soll eine Blutung sein').",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 33
+    },
+    "model": "google/gemini-3.8-flash",
+    "provider": "Google",
+    "configuration_name": "gemini-3-8-flash-260902"
+  },
+  {
+    "phrase": "schau ich jetzt auf der anderen Seite, auf der AI Seite wo das sein soll",
+    "context": "nicht so bemerkt, deswegen schau ich jetzt auf der anderen Seite, auf der AI Seite wo das sein soll. Ah, da oben,",
+    "tags": [
+      "visual_search: triggered_by_ai"
+    ],
+    "rationale": "The participant directs their visual search to the AI side to see where the AI located the suspected hemorrhage.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 33
+    },
+    "model": "google/gemini-3.8-flash",
+    "provider": "Google",
+    "configuration_name": "gemini-3-8-flash-260902"
+  },
+  {
+    "phrase": "da oben",
+    "context": "wo das sein soll. Ah, da oben, eigentlich ist das",
+    "tags": [
+      "ai_report: ich_localization"
+    ],
+    "rationale": "The participant describes where the AI placed the finding ('da oben').",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 33
+    },
+    "model": "google/gemini-3.8-flash",
+    "provider": "Google",
+    "configuration_name": "gemini-3-8-flash-260902"
+  },
+  {
+    "phrase": "eigentlich",
+    "context": "Ah, da oben, eigentlich ist das eindeutig.",
+    "tags": [
+      "confidence_low: secondary"
+    ],
+    "rationale": "The word 'eigentlich' implicitly expresses restricted certainty/qualification.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 33
+    },
+    "model": "google/gemini-3.8-flash",
+    "provider": "Google",
+    "configuration_name": "gemini-3-8-flash-260902"
+  },
+  {
+    "phrase": "eindeutig",
+    "context": "oben, eigentlich ist das eindeutig. Ah, ja eigentlich",
+    "tags": [
+      "confidence_high: secondary"
+    ],
+    "rationale": "The adverb 'eindeutig' implicitly signals high certainty.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 33
+    },
+    "model": "google/gemini-3.8-flash",
+    "provider": "Google",
+    "configuration_name": "gemini-3-8-flash-260902"
+  },
+  {
+    "phrase": "ja",
+    "context": "ist das eindeutig. Ah, ja eigentlich eindeutig, ich habe",
+    "tags": [
+      "decision_with_ai: implicitly_agreeing_with_ai"
+    ],
+    "rationale": "The word 'ja' expresses implicit agreement with the AI finding.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 33
+    },
+    "model": "google/gemini-3.8-flash",
+    "provider": "Google",
+    "configuration_name": "gemini-3-8-flash-260902"
+  },
+  {
+    "phrase": "eigentlich",
+    "context": "eindeutig. Ah, ja eigentlich eindeutig, ich habe mehr",
+    "tags": [
+      "confidence_low: secondary"
+    ],
+    "rationale": "The adverb 'eigentlich' implicitly reflects qualification or low certainty.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 33
+    },
+    "model": "google/gemini-3.8-flash",
+    "provider": "Google",
+    "configuration_name": "gemini-3-8-flash-260902"
+  },
+  {
+    "phrase": "eindeutig",
+    "context": "Ah, ja eigentlich eindeutig, ich habe mehr auf",
+    "tags": [
+      "confidence_high: secondary"
+    ],
+    "rationale": "The adverb 'eindeutig' implicitly conveys high diagnostic certainty.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 33
+    },
+    "model": "google/gemini-3.8-flash",
+    "provider": "Google",
+    "configuration_name": "gemini-3-8-flash-260902"
+  },
+  {
+    "phrase": "Das hat jetzt geholfen",
+    "context": "jetzt nicht gesehen. Das hat jetzt geholfen",
+    "tags": [
+      "reflection_of_ai: helpful"
+    ],
+    "rationale": "The participant explicitly evaluates the AI as having been helpful in this case.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 33
+    },
+    "model": "google/gemini-3.8-flash",
+    "provider": "Google",
+    "configuration_name": "gemini-3-8-flash-260902"
+  },
+  {
+    "phrase": "ich guck erstmal wieder auf meine Seite, ohne AI erstmal und ob mir irgendwas auffällt",
+    "context": "So ich guck erstmal wieder auf meine Seite, ohne AI erstmal und ob mir irgendwas auffällt. Beidseiten …",
+    "tags": [
+      "control: make_own_judgement"
+    ],
+    "rationale": "The person explicitly decides to first inspect the scan on their own without AI assistance.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 47
+    },
+    "model": "google/gemini-3.8-flash",
+    "provider": "Google",
+    "configuration_name": "gemini-3-8-flash-260902"
+  },
+  {
+    "phrase": "Vielleicht",
+    "context": "Das war es noch nicht … Vielleicht das hier … Ich guck mal",
+    "tags": [
+      "confidence_low: secondary"
+    ],
+    "rationale": "The adverb 'Vielleicht' implicitly expresses uncertainty regarding the noted area.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 47
+    },
+    "model": "google/gemini-3.8-flash",
+    "provider": "Google",
+    "configuration_name": "gemini-3-8-flash-260902"
+  },
+  {
+    "phrase": "Vielleicht das hier",
+    "context": "Das war es noch nicht … Vielleicht das hier … Ich guck mal",
+    "tags": [
+      "indicator: anomaly_detected"
+    ],
+    "rationale": "The participant points out a specific suspicious spot ('das hier') that might represent an abnormality.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 47
+    },
+    "model": "google/gemini-3.8-flash",
+    "provider": "Google",
+    "configuration_name": "gemini-3-8-flash-260902"
+  },
+  {
+    "phrase": "Ist bei der AI einfach nicht",
+    "context": "mit angezeigt wird … Ist bei der AI einfach nicht, ah da ja, dass könnte",
+    "tags": [
+      "ai_report: no_ich"
+    ],
+    "rationale": "The person initially reports that the AI has not detected or marked a hemorrhage at that location.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 47
+    },
+    "model": "google/gemini-3.8-flash",
+    "provider": "Google",
+    "configuration_name": "gemini-3-8-flash-260902"
+  },
+  {
+    "phrase": "So",
+    "context": "So, hier ist alles",
+    "tags": [
+      "paused_in_process"
+    ],
+    "rationale": "Filler word at the beginning of the evaluation.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 45
+    },
+    "model": "google/gemini-3.8-flash",
+    "provider": "Google",
+    "configuration_name": "gemini-3-8-flash-260902"
+  },
+  {
+    "phrase": "hier ist alles anscheined auch unaufällig",
+    "context": "So, hier ist alles anscheined auch unaufällig und ich sehe",
+    "tags": [
+      "interpretation: no_bleeding"
+    ],
+    "rationale": "Overarching assessment of the scan as unremarkable/no hemorrhage.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 45
+    },
+    "model": "google/gemini-3.8-flash",
+    "provider": "Google",
+    "configuration_name": "gemini-3-8-flash-260902"
+  },
+  {
+    "phrase": "anscheined",
+    "context": "alles anscheined auch",
+    "tags": [
+      "confidence_low: secondary"
+    ],
+    "rationale": "The adverb 'anscheinend' (misspelled 'anscheined') indicates secondary low confidence/uncertainty.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 45
+    },
+    "model": "google/gemini-3.8-flash",
+    "provider": "Google",
+    "configuration_name": "gemini-3-8-flash-260902"
+  },
+  {
+    "phrase": "ich sehe auch nichts",
+    "context": "unaufällig und ich sehe auch nichts und AI",
+    "tags": [
+      "interpretation: no_bleeding"
+    ],
+    "rationale": "The participant states that they do not see any pathological findings/hemorrhage.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 45
+    },
+    "model": "google/gemini-3.8-flash",
+    "provider": "Google",
+    "configuration_name": "gemini-3-8-flash-260902"
+  },
+  {
+    "phrase": "AI sagt auch ist nichts",
+    "context": "nichts und AI sagt auch ist nichts und ich",
+    "tags": [
+      "ai_report: no_ich"
+    ],
+    "rationale": "Verbalization of the AI's negative finding (no hemorrhage).",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 45
+    },
+    "model": "google/gemini-3.8-flash",
+    "provider": "Google",
+    "configuration_name": "gemini-3-8-flash-260902"
+  },
+  {
+    "phrase": "ich fühle mich da bestätigt",
+    "context": "ist nichts und ich fühle mich da bestätigt",
+    "tags": [
+      "reflection_of_ai: confirmed_by_ai"
+    ],
+    "rationale": "The participant feels confirmed in their own prior assessment by the AI's result.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 45
+    },
+    "model": "google/gemini-3.8-flash",
+    "provider": "Google",
+    "configuration_name": "gemini-3-8-flash-260902"
+  },
+  {
+    "phrase": "Hier soll nichts sein.",
+    "context": "Hier soll nichts sein. Gucke auf meine Seite",
+    "tags": [
+      "ai_report: no_ich"
+    ],
+    "rationale": "The person verbalizes the AI's negative assessment that no hemorrhage was detected ('soll nichts sein').",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 38
+    },
+    "model": "google/gemini-3.8-flash",
+    "provider": "Google",
+    "configuration_name": "gemini-3-8-flash-260902"
+  },
+  {
+    "phrase": "Gucke auf meine Seite und dann auf die AI Siete",
+    "context": "Hier soll nichts sein. Gucke auf meine Seite und dann auf die AI Siete und kann weiter machen",
+    "tags": [
+      "control: make_own_judgement"
+    ],
+    "rationale": "The person describes their strategy of viewing and evaluating the image on their own side first before looking at the AI side.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 38
+    },
+    "model": "google/gemini-3.8-flash",
+    "provider": "Google",
+    "configuration_name": "gemini-3-8-flash-260902"
+  },
+  {
+    "phrase": "kann weiter machen",
+    "context": "auf die AI Siete und kann weiter machen",
+    "tags": [
+      "paused_in_process"
+    ],
+    "rationale": "The utterance marks the conclusion of the case and the transition to continue to the next task.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 38
+    },
+    "model": "google/gemini-3.8-flash",
+    "provider": "Google",
+    "configuration_name": "gemini-3-8-flash-260902"
+  },
+  {
+    "phrase": "hier soll auch nichts sein",
+    "context": "Und hier soll auch nichts sein, schau auf meine Seite",
+    "tags": [
+      "ai_report: no_ich"
+    ],
+    "rationale": "The speaker verbalizes that the AI report indicates no hemorrhage ('soll auch nichts sein').",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 48
+    },
+    "model": "google/gemini-3.8-flash",
+    "provider": "Google",
+    "configuration_name": "gemini-3-8-flash-260902"
+  },
+  {
+    "phrase": "schau auf meine Seite ohne AI an",
+    "context": "nichts sein, schau auf meine Seite ohne AI an, ich seh auch",
+    "tags": [
+      "control: make_own_judgement"
+    ],
+    "rationale": "The speaker explicitly states looking at the scan independently without AI support.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 48
+    },
+    "model": "google/gemini-3.8-flash",
+    "provider": "Google",
+    "configuration_name": "gemini-3-8-flash-260902"
+  },
+  {
+    "phrase": "ich seh auch keine Asymetrien, Unterschiede",
+    "context": "ohne AI an, ich seh auch keine Asymetrien, Unterschiede und dann",
+    "tags": [
+      "indicator: no_bleeding"
+    ],
+    "rationale": "The speaker evaluates the scan/structures as symmetrical and unremarkable without asymmetries.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 48
+    },
+    "model": "google/gemini-3.8-flash",
+    "provider": "Google",
+    "configuration_name": "gemini-3-8-flash-260902"
+  },
+  {
+    "phrase": "auch",
+    "context": "ich seh auch keine Asymetrien",
+    "tags": [
+      "decision_with_ai: implicitly_agreeing_with_ai"
+    ],
+    "rationale": "The particle 'auch' implicitly signals agreement with the AI's negative finding.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 48
+    },
+    "model": "google/gemini-3.8-flash",
+    "provider": "Google",
+    "configuration_name": "gemini-3-8-flash-260902"
+  },
+  {
+    "phrase": "und dann",
+    "context": "Asymetrien, Unterschiede und dann",
+    "tags": [
+      "paused_in_process"
+    ],
+    "rationale": "Trailing filler phrase / pause in thought.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 48
+    },
+    "model": "google/gemini-3.8-flash",
+    "provider": "Google",
+    "configuration_name": "gemini-3-8-flash-260902"
+  },
+  {
+    "phrase": "Ja",
+    "context": "Ja und hier … Ich",
+    "tags": [
+      "paused_in_process"
+    ],
+    "rationale": "Filler word at the beginning of the thought process.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 46
+    },
+    "model": "google/gemini-3.8-flash",
+    "provider": "Google",
+    "configuration_name": "gemini-3-8-flash-260902"
+  },
+  {
+    "phrase": "Ich weiß nicht",
+    "context": "und hier … Ich weiß nicht, was dieser Unterschied",
+    "tags": [
+      "confidence_low: concrete"
+    ],
+    "rationale": "Explicit expression of uncertainty.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 46
+    },
+    "model": "google/gemini-3.8-flash",
+    "provider": "Google",
+    "configuration_name": "gemini-3-8-flash-260902"
+  },
+  {
+    "phrase": "was dieser Unterschied zu der anderen Seiten mit den Ventrikeln ist",
+    "context": "Ich weiß nicht, was dieser Unterschied zu der anderen Seiten mit den Ventrikeln ist, AI sagt, dass",
+    "tags": [
+      "reflection: diagnostic_uncertainty"
+    ],
+    "rationale": "The speaker is uncertain about how to classify or interpret the observed ventricular difference.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 46
+    },
+    "model": "google/gemini-3.8-flash",
+    "provider": "Google",
+    "configuration_name": "gemini-3-8-flash-260902"
+  },
+  {
+    "phrase": "AI sagt, dass ist keine Blutung",
+    "context": "Ventrikeln ist, AI sagt, dass ist keine Blutung, ich weiß es",
+    "tags": [
+      "ai_report: no_ich"
+    ],
+    "rationale": "Verbalizing that the AI detected no hemorrhage.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 46
+    },
+    "model": "google/gemini-3.8-flash",
+    "provider": "Google",
+    "configuration_name": "gemini-3-8-flash-260902"
+  },
+  {
+    "phrase": "ich weiß es nicht",
+    "context": "ist keine Blutung, ich weiß es nicht. Ich sag mal",
+    "tags": [
+      "confidence_low: concrete"
+    ],
+    "rationale": "Explicit statement expressing low diagnostic certainty.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 46
+    },
+    "model": "google/gemini-3.8-flash",
+    "provider": "Google",
+    "configuration_name": "gemini-3-8-flash-260902"
+  },
+  {
+    "phrase": "Ich sag mal keine Blutung",
+    "context": "ich weiß es nicht. Ich sag mal keine Blutung, aber ich bin",
+    "tags": [
+      "interpretation: no_bleeding"
+    ],
+    "rationale": "The speaker concludes that there is no hemorrhage.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 46
+    },
+    "model": "google/gemini-3.8-flash",
+    "provider": "Google",
+    "configuration_name": "gemini-3-8-flash-260902"
+  },
+  {
+    "phrase": "ich bin mir nicht so sicher",
+    "context": "keine Blutung, aber ich bin mir nicht so sicher",
+    "tags": [
+      "confidence_low: concrete"
+    ],
+    "rationale": "Explicit statement expressing low certainty regarding the diagnostic decision.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 46
+    },
+    "model": "google/gemini-3.8-flash",
+    "provider": "Google",
+    "configuration_name": "gemini-3-8-flash-260902"
+  },
+  {
+    "phrase": "Hier sieht man schon ein Ventrikel",
+    "context": "Hier sieht man schon ein Ventrikel und überhaupt hier",
+    "tags": [
+      "visual_search: description_of_medical_image_features"
+    ],
+    "rationale": "The participant names the anatomical structure (ventricle) they are currently observing.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 49
+    },
+    "model": "google/gemini-3.8-flash",
+    "provider": "Google",
+    "configuration_name": "gemini-3-8-flash-260902"
+  },
+  {
+    "phrase": "hier eine große Blutung",
+    "context": "ein Ventrikel und überhaupt hier eine große Blutung, ich bräuchte jetzt",
+    "tags": [
+      "interpretation: bleeding"
+    ],
+    "rationale": "The participant interprets the observed abnormality as a large hemorrhage.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 49
+    },
+    "model": "google/gemini-3.8-flash",
+    "provider": "Google",
+    "configuration_name": "gemini-3-8-flash-260902"
+  },
+  {
+    "phrase": "muss schau trotzdem von vorne an",
+    "context": "ich bräuchte jetzt, muss schau trotzdem von vorne an, mal das der",
+    "tags": [
+      "visual_search: description_of_own_approach_without_external_help"
+    ],
+    "rationale": "The participant comments on their own viewing strategy/procedure without external guidance.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 49
+    },
+    "model": "google/gemini-3.8-flash",
+    "provider": "Google",
+    "configuration_name": "gemini-3-8-flash-260902"
+  },
+  {
+    "phrase": "der Ventrikel da auffällig aussieht, also da eineengt",
+    "context": "von vorne an, mal das der Ventrikel da auffällig aussieht, also da eineengt und die Blutung",
+    "tags": [
+      "indicator: anomaly_detected"
+    ],
+    "rationale": "The participant detects an abnormality in a specific location (the narrowed/compressed ventricle).",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 49
+    },
+    "model": "google/gemini-3.8-flash",
+    "provider": "Google",
+    "configuration_name": "gemini-3-8-flash-260902"
+  },
+  {
+    "phrase": "die Blutung hat man hier gesehen",
+    "context": "also da eineengt und die Blutung hat man hier gesehen. Ich hab das",
+    "tags": [
+      "interpretation: bleeding"
+    ],
+    "rationale": "The participant notes that a hemorrhage is visible at this location.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 49
+    },
+    "model": "google/gemini-3.8-flash",
+    "provider": "Google",
+    "configuration_name": "gemini-3-8-flash-260902"
+  },
+  {
+    "phrase": "Ich hab das jetzt nicht gebraucht",
+    "context": "hier gesehen. Ich hab das jetzt nicht gebraucht und fertig.",
+    "tags": [
+      "reflection_of_ai: ich_recognized_without_ai"
+    ],
+    "rationale": "The participant notes that AI assistance was not needed to identify this obvious finding.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 49
+    },
+    "model": "google/gemini-3.8-flash",
+    "provider": "Google",
+    "configuration_name": "gemini-3-8-flash-260902"
+  },
+  {
+    "phrase": "hier fange ich auch wieder von vorne an",
+    "context": "So, hier fange ich auch wieder von vorne an. Sieht bis jetzt",
+    "tags": [
+      "visual_search: description_of_own_approach_without_external_help"
+    ],
+    "rationale": "The participant describes their own systematic visual search procedure (starting from the beginning/cranial slices).",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 3
+    },
+    "model": "google/gemini-3.8-flash",
+    "provider": "Google AI Studio",
+    "configuration_name": "gemini-3-8-flash-260902"
+  },
+  {
+    "phrase": "Sieht bis jetzt alles symmetrisch aus",
+    "context": "von vorne an. Sieht bis jetzt alles symmetrisch aus und ich sehe",
+    "tags": [
+      "indicator: no_bleeding"
+    ],
+    "rationale": "The participant assesses the viewed image sections as symmetrical and unremarkable.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 3
+    },
+    "model": "google/gemini-3.8-flash",
+    "provider": "Google AI Studio",
+    "configuration_name": "gemini-3-8-flash-260902"
+  },
+  {
+    "phrase": "ich sehe noch keine Blutung",
+    "context": "symmetrisch aus und ich sehe noch keine Blutung. Hier wird mir",
+    "tags": [
+      "interpretation: no_bleeding"
+    ],
+    "rationale": "The participant explicitly verbalizes that they see no hemorrhage so far, without referring to a specific anatomical structure.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 3
+    },
+    "model": "google/gemini-3.8-flash",
+    "provider": "Google AI Studio",
+    "configuration_name": "gemini-3-8-flash-260902"
+  },
+  {
+    "phrase": "Hier wird mir, ach ja, diese Punkte angezeigt",
+    "context": "noch keine Blutung. Hier wird mir, ach ja, diese Punkte angezeigt, diese Aufhellung",
+    "tags": [
+      "ai_report: ich"
+    ],
+    "rationale": "The participant verbalizes the AI's detection output (that points/markers are displayed).",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 3
+    },
+    "model": "google/gemini-3.8-flash",
+    "provider": "Google AI Studio",
+    "configuration_name": "gemini-3-8-flash-260902"
+  },
+  {
+    "phrase": "ach ja",
+    "context": "Hier wird mir, ach ja, diese Punkte angezeigt",
+    "tags": [
+      "paused_in_process"
+    ],
+    "rationale": "Filler utterance bridging a pause in thought.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 3
+    },
+    "model": "google/gemini-3.8-flash",
+    "provider": "Google AI Studio",
+    "configuration_name": "gemini-3-8-flash-260902"
+  },
+  {
+    "phrase": "diese Aufhellung",
+    "context": "diese Punkte angezeigt, diese Aufhellung. Das, es",
+    "tags": [
+      "indicator: anomaly_detected"
+    ],
+    "rationale": "The participant identifies a hyperdense area/bright spot (Aufhellung) as an abnormality.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 3
+    },
+    "model": "google/gemini-3.8-flash",
+    "provider": "Google AI Studio",
+    "configuration_name": "gemini-3-8-flash-260902"
+  },
+  {
+    "phrase": "Das, es verschwindet danach",
+    "context": "diese Aufhellung. Das, es verschwindet danach aber auf der",
+    "tags": [
+      "interpretation: no_bleeding_explanation"
+    ],
+    "rationale": "The participant notes that the abnormality disappears on the next slice, providing a justification regarding distribution/extent for why it might not be a hemorrhage.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 3
+    },
+    "model": "google/gemini-3.8-flash",
+    "provider": "Google AI Studio",
+    "configuration_name": "gemini-3-8-flash-260902"
+  },
+  {
+    "phrase": "auf der anderen Seite ist auch nichts",
+    "context": "danach aber auf der anderen Seite ist auch nichts, ja.",
+    "tags": [
+      "indicator: no_bleeding"
+    ],
+    "rationale": "The participant explicitly classifies a specific region (the contralateral side) as unremarkable ('ist auch nichts').",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 3
+    },
+    "model": "google/gemini-3.8-flash",
+    "provider": "Google AI Studio",
+    "configuration_name": "gemini-3-8-flash-260902"
+  },
+  {
+    "phrase": "ja",
+    "context": "ist auch nichts, ja.",
+    "tags": [
+      "paused_in_process"
+    ],
+    "rationale": "Trailing filler particle bridging a pause.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 3
+    },
+    "model": "google/gemini-3.8-flash",
+    "provider": "Google AI Studio",
+    "configuration_name": "gemini-3-8-flash-260902"
+  }
+]

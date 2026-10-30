@@ -1,0 +1,3336 @@
+[
+  {
+    "phrase": "Dann scrolle ich wieder und schaue ob ich immer beidseitig irgendwelche Unterschiede merke.",
+    "context": "Okay, ja, danke, gut. Dann scrolle ich wieder und schaue ob ich immer beidseitig irgendwelche Unterschiede merke. Mit ähm, schauen wir immer auf die Symmetrie",
+    "tags": [
+      "visual_search: description_of_own_approach_without_external_help"
+    ],
+    "rationale": "Person explicitly comments on their own search procedure, describing how they scroll and look for differences on both sides.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 0
+    },
+    "model": "mistralai/mistral-large-4-0",
+    "provider": "Mistral",
+    "configuration_name": "mistral-large-4-0-261006"
+  },
+  {
+    "phrase": "Mit ähm, schauen wir immer auf die Symmetrie und auf der Mittellinie, ob es eine Verschiebung da ist oder nicht.",
+    "context": "Dann scrolle ich wieder und schaue ob ich immer beidseitig irgendwelche Unterschiede merke. Mit ähm, schauen wir immer auf die Symmetrie und auf der Mittellinie, ob es eine Verschiebung da ist oder nicht. Ähm!",
+    "tags": [
+      "visual_search: description_of_own_approach_without_external_help"
+    ],
+    "rationale": "Person describes their visual search approach, specifically checking symmetry and the midline for shifts.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 0
+    },
+    "model": "mistralai/mistral-large-4-0",
+    "provider": "Mistral",
+    "configuration_name": "mistral-large-4-0-261006"
+  },
+  {
+    "phrase": "Ähm! Ich hätte jetzt persönlich nicht erkannt,",
+    "context": "ob es eine Verschiebung da ist oder nicht. Ähm! Ich hätte jetzt persönlich nicht erkannt, dass es jetzt unbedingt eine Blutung da ist, weil auf der anderen Seite",
+    "tags": [
+      "confidence_low: concrete"
+    ],
+    "rationale": "Person explicitly expresses low certainty regarding the diagnostic process by stating they personally would not have recognized the finding.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 0
+    },
+    "model": "mistralai/mistral-large-4-0",
+    "provider": "Mistral",
+    "configuration_name": "mistral-large-4-0-261006"
+  },
+  {
+    "phrase": "dass es jetzt unbedingt eine Blutung da ist,",
+    "context": "Ähm! Ich hätte jetzt persönlich nicht erkannt, dass es jetzt unbedingt eine Blutung da ist, weil auf der anderen Seite sieht es also von der Hemisphäre sieht es auch so ähnlich aus",
+    "tags": [
+      "interpretation: no_bleeding"
+    ],
+    "rationale": "Person interprets the finding as not being a hemorrhage, stating they did not recognize that there is definitely a hemorrhage there.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 0
+    },
+    "model": "mistralai/mistral-large-4-0",
+    "provider": "Mistral",
+    "configuration_name": "mistral-large-4-0-261006"
+  },
+  {
+    "phrase": "weil auf der anderen Seite sieht es also von der Hemisphäre sieht es auch so ähnlich aus",
+    "context": "dass es jetzt unbedingt eine Blutung da ist, weil auf der anderen Seite sieht es also von der Hemisphäre sieht es auch so ähnlich aus und es wurde halt von der AI nicht erkannt.",
+    "tags": [
+      "reasoning: conclusion_findings"
+    ],
+    "rationale": "Person draws a conclusion from the found indicator (similarity of the other hemisphere) to support their interpretation.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 0
+    },
+    "model": "mistralai/mistral-large-4-0",
+    "provider": "Mistral",
+    "configuration_name": "mistral-large-4-0-261006"
+  },
+  {
+    "phrase": "und es wurde halt von der AI nicht erkannt.",
+    "context": "weil auf der anderen Seite sieht es also von der Hemisphäre sieht es auch so ähnlich aus und es wurde halt von der AI nicht erkannt. Ich habe da nicht so Erfahrung mit,",
+    "tags": [
+      "ai_report: no_ich"
+    ],
+    "rationale": "Person verbalizes that the AI has not found a hemorrhage ('von der AI nicht erkannt').",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 0
+    },
+    "model": "mistralai/mistral-large-4-0",
+    "provider": "Mistral",
+    "configuration_name": "mistral-large-4-0-261006"
+  },
+  {
+    "phrase": "Ich habe da nicht so Erfahrung mit,",
+    "context": "und es wurde halt von der AI nicht erkannt. Ich habe da nicht so Erfahrung mit, aber ich hätte gedacht, vielleicht ist es irgendwie normal, wenn es irgendwie beidseitig ist.",
+    "tags": [
+      "reflection: experience_limitation"
+    ],
+    "rationale": "Person refers to their own limits of experience or knowledge ('nicht so Erfahrung mit').",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 0
+    },
+    "model": "mistralai/mistral-large-4-0",
+    "provider": "Mistral",
+    "configuration_name": "mistral-large-4-0-261006"
+  },
+  {
+    "phrase": "aber ich hätte gedacht, vielleicht ist es irgendwie normal,",
+    "context": "Ich habe da nicht so Erfahrung mit, aber ich hätte gedacht, vielleicht ist es irgendwie normal, wenn es irgendwie beidseitig ist. Deswegen...",
+    "tags": [
+      "interpretation: no_bleeding"
+    ],
+    "rationale": "Person interprets the finding as normal anatomy, implying no hemorrhage is present.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 0
+    },
+    "model": "mistralai/mistral-large-4-0",
+    "provider": "Mistral",
+    "configuration_name": "mistral-large-4-0-261006"
+  },
+  {
+    "phrase": "wenn es irgendwie beidseitig ist.",
+    "context": "aber ich hätte gedacht, vielleicht ist es irgendwie normal, wenn es irgendwie beidseitig ist. Deswegen... Ich muss trotzdem selber erkennen, ob das also das ist, jetzt nicht.",
+    "tags": [
+      "reasoning: conclusion_findings"
+    ],
+    "rationale": "Person draws a conclusion from the bilateral symmetry of the finding to support the interpretation of no bleeding.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 0
+    },
+    "model": "mistralai/mistral-large-4-0",
+    "provider": "Mistral",
+    "configuration_name": "mistral-large-4-0-261006"
+  },
+  {
+    "phrase": "Deswegen... Ich muss trotzdem selber erkennen,",
+    "context": "wenn es irgendwie beidseitig ist. Deswegen... Ich muss trotzdem selber erkennen, ob das also das ist, jetzt nicht. Wenn das AI sagt, dass es, dass es eine Blutung da ist, muss es nicht unbedingt sein, oder?",
+    "tags": [
+      "control: make_own_judgement"
+    ],
+    "rationale": "Person states they must make their own decision ('selber erkennen') without relying on the AI.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 0
+    },
+    "model": "mistralai/mistral-large-4-0",
+    "provider": "Mistral",
+    "configuration_name": "mistral-large-4-0-261006"
+  },
+  {
+    "phrase": "ob das also das ist, jetzt nicht.",
+    "context": "Deswegen... Ich muss trotzdem selber erkennen, ob das also das ist, jetzt nicht. Wenn das AI sagt, dass es, dass es eine Blutung da ist, muss es nicht unbedingt sein, oder?",
+    "tags": [
+      "interpretation: no_bleeding"
+    ],
+    "rationale": "Person concludes that the finding is not a hemorrhage ('jetzt nicht').",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 0
+    },
+    "model": "mistralai/mistral-large-4-0",
+    "provider": "Mistral",
+    "configuration_name": "mistral-large-4-0-261006"
+  },
+  {
+    "phrase": "Wenn das AI sagt, dass es, dass es eine Blutung da ist, muss es nicht unbedingt sein, oder?",
+    "context": "ob das also das ist, jetzt nicht. Wenn das AI sagt, dass es, dass es eine Blutung da ist, muss es nicht unbedingt sein, oder? Also, ich kenn, ich hab die Studie nicht selbst desgigned.",
+    "tags": [
+      "reflection_of_ai: distrust_in_ai"
+    ],
+    "rationale": "Person expresses distrust in the AI by questioning whether the AI's detection must necessarily be correct.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 0
+    },
+    "model": "mistralai/mistral-large-4-0",
+    "provider": "Mistral",
+    "configuration_name": "mistral-large-4-0-261006"
+  },
+  {
+    "phrase": "Also, ich kenn, ich hab die Studie nicht selbst desgigned. Ich kann dir nicht garantieren, dass es stimmt. Ich weiß es leider nicht.",
+    "context": "muss es nicht unbedingt sein, oder? Also, ich kenn, ich hab die Studie nicht selbst desgigned. Ich kann dir nicht garantieren, dass es stimmt. Ich weiß es leider nicht. Okay, ich gehe schon davon aus, dass es ist.",
+    "tags": [
+      "technical_conversation"
+    ],
+    "rationale": "Experimenter discusses technical aspects of the study design with the participant.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 0
+    },
+    "model": "mistralai/mistral-large-4-0",
+    "provider": "Mistral",
+    "configuration_name": "mistral-large-4-0-261006"
+  },
+  {
+    "phrase": "Okay, ich gehe schon davon aus, dass es ist.",
+    "context": "Ich weiß es leider nicht. Okay, ich gehe schon davon aus, dass es ist. Hm! Ja, aber gut, ich sage einfach ja, und ich bin nicht so kompetent,",
+    "tags": [
+      "decision_with_ai: implicitly_agreeing_with_ai"
+    ],
+    "rationale": "Person implicitly agrees with the AI assessment by assuming the AI is correct ('gehe davon aus, dass es ist').",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 0
+    },
+    "model": "mistralai/mistral-large-4-0",
+    "provider": "Mistral",
+    "configuration_name": "mistral-large-4-0-261006"
+  },
+  {
+    "phrase": "Hm! Ja, aber gut, ich sage einfach ja, und ich bin nicht so kompetent,",
+    "context": "Okay, ich gehe schon davon aus, dass es ist. Hm! Ja, aber gut, ich sage einfach ja, und ich bin nicht so kompetent, eben weil die andere Seite nicht detektiert wurde, und das sieht sehr ähnlich aus.",
+    "tags": [
+      "decision_with_ai: implicitly_agreeing_with_ai",
+      "confidence_low: concrete"
+    ],
+    "rationale": "Person implicitly agrees with the AI by deciding to say 'yes' ('sage einfach ja'), while explicitly expressing low certainty/competence ('nicht so kompetent').",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 0
+    },
+    "model": "mistralai/mistral-large-4-0",
+    "provider": "Mistral",
+    "configuration_name": "mistral-large-4-0-261006"
+  },
+  {
+    "phrase": "eben weil die andere Seite nicht detektiert wurde,",
+    "context": "ich sage einfach ja, und ich bin nicht so kompetent, eben weil die andere Seite nicht detektiert wurde, und das sieht sehr ähnlich aus. Aber keine Ahnung. Ja.",
+    "tags": [
+      "ai_report: no_ich"
+    ],
+    "rationale": "Person reports that the AI did not detect the finding on the other side ('andere Seite nicht detektiert wurde').",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 0
+    },
+    "model": "mistralai/mistral-large-4-0",
+    "provider": "Mistral",
+    "configuration_name": "mistral-large-4-0-261006"
+  },
+  {
+    "phrase": "und das sieht sehr ähnlich aus.",
+    "context": "eben weil die andere Seite nicht detektiert wurde, und das sieht sehr ähnlich aus. Aber keine Ahnung. Ja.",
+    "tags": [
+      "reasoning: conclusion_findings"
+    ],
+    "rationale": "Person draws a conclusion from the visual similarity of the finding to the other side.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 0
+    },
+    "model": "mistralai/mistral-large-4-0",
+    "provider": "Mistral",
+    "configuration_name": "mistral-large-4-0-261006"
+  },
+  {
+    "phrase": "Aber keine Ahnung.",
+    "context": "und das sieht sehr ähnlich aus. Aber keine Ahnung. Ja.",
+    "tags": [
+      "confidence_low: concrete"
+    ],
+    "rationale": "Person explicitly expresses low certainty ('keine Ahnung').",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 0
+    },
+    "model": "mistralai/mistral-large-4-0",
+    "provider": "Mistral",
+    "configuration_name": "mistral-large-4-0-261006"
+  },
+  {
+    "phrase": "Ja.",
+    "context": "Aber keine Ahnung. Ja.",
+    "tags": [
+      "decision_with_ai: implicitly_agreeing_with_ai"
+    ],
+    "rationale": "Person confirms their decision to agree with the AI by answering 'Ja' (yes, there is a hemorrhage).",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 0
+    },
+    "model": "mistralai/mistral-large-4-0",
+    "provider": "Mistral",
+    "configuration_name": "mistral-large-4-0-261006"
+  },
+  {
+    "phrase": "Achso ich muss das immer so machen dann",
+    "context": "VPN: Achso ich muss das immer so machen dann. EXPERIMENTER: Ja du kannst das leider nicht übernehmen",
+    "tags": [
+      "technical_conversation"
+    ],
+    "rationale": "Person reacts to the experimenter's instruction about adjusting settings for each case, indicating a discussion about the task/tool.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 1
+    },
+    "model": "mistralai/mistral-large-4-0",
+    "provider": "Mistral",
+    "configuration_name": "mistral-large-4-0-261006"
+  },
+  {
+    "phrase": "Mhm alles gut",
+    "context": "EXPERIMENTER: Ja du kannst das leider nicht übernehmen, also du musst bei jedem Fall das neu einstellen. VPN: Mhm alles gut, scroll ich jetzt",
+    "tags": [
+      "paused_in_process"
+    ],
+    "rationale": "Person utters filler words acknowledging the experimenter's instruction.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 1
+    },
+    "model": "mistralai/mistral-large-4-0",
+    "provider": "Mistral",
+    "configuration_name": "mistral-large-4-0-261006"
+  },
+  {
+    "phrase": "scroll ich jetzt systematsich von oben nach untern oder unten nach oben und gucke immer auf beiden Seiten auf Knochen, auf irgenwelche Defekte da sind, die dann wo. ich dann eine Blutung vermuten könnte.",
+    "context": "VPN: Mhm alles gut, scroll ich jetzt systematsich von oben nach untern oder unten nach oben und gucke immer auf beiden Seiten auf Knochen, auf irgenwelche Defekte da sind, die dann wo. ich dann eine Blutung vermuten könnte. Aber hier sieht das alles",
+    "tags": [
+      "visual_search: description_of_own_approach_without_external_help"
+    ],
+    "rationale": "Person explicitly describes their systematic search procedure (scrolling from top to bottom or vice versa) and what they are looking for.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 1
+    },
+    "model": "mistralai/mistral-large-4-0",
+    "provider": "Mistral",
+    "configuration_name": "mistral-large-4-0-261006"
+  },
+  {
+    "phrase": "Aber hier sieht das alles, alles symetrisch und keine Aufhellung oder so",
+    "context": "ich dann eine Blutung vermuten könnte. Aber hier sieht das alles, alles symetrisch und keine Aufhellung oder so, deswegen mhm das hilft mir wirklich",
+    "tags": [
+      "visual_search: description_of_medical_image_features"
+    ],
+    "rationale": "Person verbalizes image characteristics they are currently observing (symmetry, absence of brightening/Aufhellung).",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 1
+    },
+    "model": "mistralai/mistral-large-4-0",
+    "provider": "Mistral",
+    "configuration_name": "mistral-large-4-0-261006"
+  },
+  {
+    "phrase": "deswegen mhm das hilft mir wirklich zu sagen, das das wirklich keiner ist",
+    "context": "keine Aufhellung oder so, deswegen mhm das hilft mir wirklich zu sagen, das das wirklich keiner ist Ich würde schneller einfach durchgehen.",
+    "tags": [
+      "reflection_of_ai: helpful",
+      "confidence_high: secondary"
+    ],
+    "rationale": "Person states the AI helps them ('hilft mir wirklich') to conclude there is no hemorrhage. High certainty is implicitly shown through the adverb 'wirklich' (really).",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 1
+    },
+    "model": "mistralai/mistral-large-4-0",
+    "provider": "Mistral",
+    "configuration_name": "mistral-large-4-0-261006"
+  },
+  {
+    "phrase": "Ich würde schneller einfach durchgehen.",
+    "context": "das das wirklich keiner ist Ich würde schneller einfach durchgehen.",
+    "tags": [
+      "reflection_of_ai: helpful"
+    ],
+    "rationale": "Person indicates the AI enables them to work faster, perceiving the AI as helpful for efficiency.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 1
+    },
+    "model": "mistralai/mistral-large-4-0",
+    "provider": "Mistral",
+    "configuration_name": "mistral-large-4-0-261006"
+  },
+  {
+    "phrase": "Mhm, ja normal fange ich immer irgwendwie von oben oder von untern an, dass ich nichts verpasse.",
+    "context": "Mhm, ja normal fange ich immer irgwendwie von oben oder von untern an, dass ich nichts verpasse. Mhm Mittellinie ist in der Mitte",
+    "tags": [
+      "visual_search: description_of_own_approach_without_external_help"
+    ],
+    "rationale": "Person explicitly comments on their own search procedure, stating they usually start from the top or bottom to not miss anything.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 2
+    },
+    "model": "mistralai/mistral-large-4-0",
+    "provider": "Mistral",
+    "configuration_name": "mistral-large-4-0-261006"
+  },
+  {
+    "phrase": "Mhm Mittellinie ist in der Mitte, sehe keine Knochen ähm Brüche,",
+    "context": "dass ich nichts verpasse. Mhm Mittellinie ist in der Mitte, sehe keine Knochen ähm Brüche, mhm hier zeigt der mir",
+    "tags": [
+      "visual_search: description_of_medical_image_features"
+    ],
+    "rationale": "Person verbalizes which anatomical structures they are currently looking at (midline, bones) and what they observe (no fractures).",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 2
+    },
+    "model": "mistralai/mistral-large-4-0",
+    "provider": "Mistral",
+    "configuration_name": "mistral-large-4-0-261006"
+  },
+  {
+    "phrase": "mhm hier zeigt der mir gerade ne Blutung in dem Bereich,",
+    "context": "sehe keine Knochen ähm Brüche, mhm hier zeigt der mir gerade ne Blutung in dem Bereich, das ist sehr sehr dezent",
+    "tags": [
+      "ai_report: ich",
+      "ai_report: ich_localization"
+    ],
+    "rationale": "Person verbalizes that the AI has found a hemorrhage ('zeigt der mir... ne Blutung') and describes the location ('in dem Bereich').",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 2
+    },
+    "model": "mistralai/mistral-large-4-0",
+    "provider": "Mistral",
+    "configuration_name": "mistral-large-4-0-261006"
+  },
+  {
+    "phrase": "das ist sehr sehr dezent,",
+    "context": "in dem Bereich, das ist sehr sehr dezent, zumindest in meinem Bildschirm hätte ich das auf jeden Fall nicht erkannt sonnst",
+    "tags": [
+      "interpretation: description_bleeding"
+    ],
+    "rationale": "Person describes the identified hemorrhage in more detail, characterizing it as very subtle.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 2
+    },
+    "model": "mistralai/mistral-large-4-0",
+    "provider": "Mistral",
+    "configuration_name": "mistral-large-4-0-261006"
+  },
+  {
+    "phrase": "zumindest in meinem Bildschirm hätte ich das auf jeden Fall nicht erkannt sonnst,",
+    "context": "das ist sehr sehr dezent, zumindest in meinem Bildschirm hätte ich das auf jeden Fall nicht erkannt sonnst, deswegen",
+    "tags": [
+      "reflection_of_ai: ich_not_recognized_without_ai"
+    ],
+    "rationale": "Person states they would not have recognized the hemorrhage without the AI.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 2
+    },
+    "model": "mistralai/mistral-large-4-0",
+    "provider": "Mistral",
+    "configuration_name": "mistral-large-4-0-261006"
+  },
+  {
+    "phrase": "wo war das nochmal? ... Da angeblich,",
+    "context": "nicht erkannt sonnst, deswegen, ist nicht, wo war das nochmal? ... Da angeblich, ja ich hätte das nicht gesehen",
+    "tags": [
+      "visual_search: triggered_by_ai"
+    ],
+    "rationale": "Person searches for the hemorrhage location indicated by the AI ('wo war das nochmal' = where was that again).",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 2
+    },
+    "model": "mistralai/mistral-large-4-0",
+    "provider": "Mistral",
+    "configuration_name": "mistral-large-4-0-261006"
+  },
+  {
+    "phrase": "ja ich hätte das nicht gesehen.",
+    "context": "Da angeblich, ja ich hätte das nicht gesehen.",
+    "tags": [
+      "reflection_of_ai: ich_not_recognized_without_ai"
+    ],
+    "rationale": "Person reiterates that they would not have seen the hemorrhage without the AI.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 2
+    },
+    "model": "mistralai/mistral-large-4-0",
+    "provider": "Mistral",
+    "configuration_name": "mistral-large-4-0-261006"
+  },
+  {
+    "phrase": "So, hier fange ich auch wieder von vorne an.",
+    "context": "So, hier fange ich auch wieder von vorne an. Sieht bis jetzt alles symmetrisch aus und ich sehe noch keine Blutung.",
+    "tags": [
+      "control: control_repeat"
+    ],
+    "rationale": "Person indicates they are starting the visual search over from the beginning ('wieder von vorne an'), returning to a previously viewed area.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 3
+    },
+    "model": "mistralai/mistral-large-4-0",
+    "provider": "Mistral",
+    "configuration_name": "mistral-large-4-0-261006"
+  },
+  {
+    "phrase": "Sieht bis jetzt alles symmetrisch aus",
+    "context": "hier fange ich auch wieder von vorne an. Sieht bis jetzt alles symmetrisch aus und ich sehe noch keine Blutung. Hier wird mir",
+    "tags": [
+      "visual_search: description_of_medical_image_features"
+    ],
+    "rationale": "Person verbalizes which anatomical structures or image characteristics they are currently looking at (symmetry of the image).",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 3
+    },
+    "model": "mistralai/mistral-large-4-0",
+    "provider": "Mistral",
+    "configuration_name": "mistral-large-4-0-261006"
+  },
+  {
+    "phrase": "und ich sehe noch keine Blutung",
+    "context": "Sieht bis jetzt alles symmetrisch aus und ich sehe noch keine Blutung. Hier wird mir, ach ja, diese Punkte angezeigt",
+    "tags": [
+      "interpretation: no_bleeding"
+    ],
+    "rationale": "Person interprets the current findings as showing no hemorrhage ('keine Blutung').",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 3
+    },
+    "model": "mistralai/mistral-large-4-0",
+    "provider": "Mistral",
+    "configuration_name": "mistral-large-4-0-261006"
+  },
+  {
+    "phrase": "Hier wird mir, ach ja, diese Punkte angezeigt, diese Aufhellung.",
+    "context": "ich sehe noch keine Blutung. Hier wird mir, ach ja, diese Punkte angezeigt, diese Aufhellung. Das, es verschwindet danach",
+    "tags": [
+      "ai_report: ich_localization"
+    ],
+    "rationale": "Person describes where the AI locates the hemorrhage by mentioning that points ('Punkte') and a brightening ('Aufhellung') are being shown to them at a specific location ('Hier').",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 3
+    },
+    "model": "mistralai/mistral-large-4-0",
+    "provider": "Mistral",
+    "configuration_name": "mistral-large-4-0-261006"
+  },
+  {
+    "phrase": "auf der anderen Seite ist auch nichts",
+    "context": "diese Aufhellung. Das, es verschwindet danach aber auf der anderen Seite ist auch nichts, ja.",
+    "tags": [
+      "interpretation: no_bleeding"
+    ],
+    "rationale": "Person interprets the contralateral side as also showing no hemorrhage ('auf der anderen Seite ist auch nichts').",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 3
+    },
+    "model": "mistralai/mistral-large-4-0",
+    "provider": "Mistral",
+    "configuration_name": "mistral-large-4-0-261006"
+  },
+  {
+    "phrase": "Fang ich wieder so an",
+    "context": "Fang ich wieder so an, Mittellinien ist in der Mitte, es sind keine Verschiebungen",
+    "tags": [
+      "control: control_repeat"
+    ],
+    "rationale": "The phrase 'wieder so an' (again like this) indicates the person is returning to a previously viewed image area or restarting their systematic search approach.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 4
+    },
+    "model": "mistralai/mistral-large-4-0",
+    "provider": "Mistral",
+    "configuration_name": "mistral-large-4-0-261006"
+  },
+  {
+    "phrase": "Mittellinien ist in der Mitte, es sind keine Verschiebungen, Ventrikel sehen auch gleich aus",
+    "context": "Fang ich wieder so an, Mittellinien ist in der Mitte, es sind keine Verschiebungen, Ventrikel sehen auch gleich aus … äh ja",
+    "tags": [
+      "visual_search: description_of_medical_image_features"
+    ],
+    "rationale": "The person describes checking specific anatomical structures (midline position, absence of mass effect/shifts, ventricular symmetry) and their appearance.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 4
+    },
+    "model": "mistralai/mistral-large-4-0",
+    "provider": "Mistral",
+    "configuration_name": "mistral-large-4-0-261006"
+  },
+  {
+    "phrase": "äh ja",
+    "context": "Ventrikel sehen auch gleich aus … äh ja, hier sieht man das schon deutlich",
+    "tags": [
+      "paused_in_process"
+    ],
+    "rationale": "Filler words indicating a pause in the diagnostic process.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 4
+    },
+    "model": "mistralai/mistral-large-4-0",
+    "provider": "Mistral",
+    "configuration_name": "mistral-large-4-0-261006"
+  },
+  {
+    "phrase": "hier sieht man das schon deutlich da an der Aufhellung im Vergleich zu dem anderen Seite ist eher nichts auch",
+    "context": "äh ja, hier sieht man das schon deutlich da an der Aufhellung im Vergleich zu dem anderen Seite ist eher nichts auch. Mhm …",
+    "tags": [
+      "indicator: anomaly_detected"
+    ],
+    "rationale": "The person notices an abnormality (Aufhellung/hyperdensity) that is clearly visible and asymmetric when compared to the contralateral side.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 4
+    },
+    "model": "mistralai/mistral-large-4-0",
+    "provider": "Mistral",
+    "configuration_name": "mistral-large-4-0-261006"
+  },
+  {
+    "phrase": "Mhm …",
+    "context": "ist eher nichts auch. Mhm …",
+    "tags": [
+      "paused_in_process"
+    ],
+    "rationale": "Filler word indicating a pause or acknowledgment in the thought process.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 4
+    },
+    "model": "mistralai/mistral-large-4-0",
+    "provider": "Mistral",
+    "configuration_name": "mistral-large-4-0-261006"
+  },
+  {
+    "phrase": "So, Mittellienie mitte wir habe hir alles symetrich und keine Signalverstärkung, ja",
+    "context": "So, Mittellienie mitte wir habe hir alles symetrich und keine Signalverstärkung, ja",
+    "tags": [
+      "visual_search: description_of_medical_image_features"
+    ],
+    "rationale": "The person verbalizes anatomical structures (midline/center) and image characteristics (symmetric, no signal enhancement) they are currently examining.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 5
+    },
+    "model": "mistralai/mistral-large-4-0",
+    "provider": "Mistral",
+    "configuration_name": "mistral-large-4-0-261006"
+  },
+  {
+    "phrase": "Ja schau ich wieder auf die Mittellinie und auf den Schädelknochen",
+    "context": "… Ja schau ich wieder auf die Mittellinie und auf den Schädelknochen … ich guck mir schon auf der anderen Seite vom AI an",
+    "tags": [
+      "visual_search: description_of_medical_image_features"
+    ],
+    "rationale": "Person verbalizes which anatomical structures (midline, skull bone) they are currently looking at or checking.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 6
+    },
+    "model": "mistralai/mistral-large-4-0",
+    "provider": "Mistral",
+    "configuration_name": "mistral-large-4-0-261006"
+  },
+  {
+    "phrase": "ich guck mir schon auf der anderen Seite vom AI an",
+    "context": "… ich guck mir schon auf der anderen Seite vom AI an, ob ich irgendwas verpasst hab. Aber hier wird mir nicht angezeigt",
+    "tags": [
+      "visual_search: triggered_by_ai"
+    ],
+    "rationale": "Person aligns their visual approach with the AI information by looking at the side indicated by the AI.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 6
+    },
+    "model": "mistralai/mistral-large-4-0",
+    "provider": "Mistral",
+    "configuration_name": "mistral-large-4-0-261006"
+  },
+  {
+    "phrase": "ob ich irgendwas verpasst hab",
+    "context": "… auf der anderen Seite vom AI an, ob ich irgendwas verpasst hab. Aber hier wird mir nicht angezeigt",
+    "tags": [
+      "control: relying_on_ai"
+    ],
+    "rationale": "Person relies on the AI during the visual search to check if they missed something.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 6
+    },
+    "model": "mistralai/mistral-large-4-0",
+    "provider": "Mistral",
+    "configuration_name": "mistral-large-4-0-261006"
+  },
+  {
+    "phrase": "Aber hier wird mir nicht angezeigt, wo das ist ha? Also dieses Viereck ist jetzt nicht da.",
+    "context": "… ob ich irgendwas verpasst hab. Aber hier wird mir nicht angezeigt, wo das ist ha? Also dieses Viereck ist jetzt nicht da. Wo die Blutung sein sollte",
+    "tags": [
+      "reflection_of_ai: confused_by_ai"
+    ],
+    "rationale": "Person is confused by the AI because the expected localization box (Viereck) is not displayed where expected.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 6
+    },
+    "model": "mistralai/mistral-large-4-0",
+    "provider": "Mistral",
+    "configuration_name": "mistral-large-4-0-261006"
+  },
+  {
+    "phrase": "Wo die Blutung sein sollte, jetzt als Frage.",
+    "context": "… Also dieses Viereck ist jetzt nicht da. Wo die Blutung sein sollte, jetzt als Frage. Tschuldigung.",
+    "tags": [
+      "interpretation: bleeding_localization_unclear"
+    ],
+    "rationale": "Person considers a hemorrhage likely but cannot find the exact location, expressing this as a question.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 6
+    },
+    "model": "mistralai/mistral-large-4-0",
+    "provider": "Mistral",
+    "configuration_name": "mistral-large-4-0-261006"
+  },
+  {
+    "phrase": "Achso, ja also bei diesem Bild zeigt mir das jetzt nicht an, wo das ist, ist das richtig? Ist das nur manchmal, oder?",
+    "context": "Tschuldigung. EXPERIMENTER: Ja bitte VPN: Achso, ja also bei diesem Bild zeigt mir das jetzt nicht an, wo das ist, ist das richtig? Ist das nur manchmal, oder? EXPERIMENTER:",
+    "tags": [
+      "technical_conversation"
+    ],
+    "rationale": "Person discusses technical difficulties with the display tool (AI not showing the location) with the experimenter.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 6
+    },
+    "model": "mistralai/mistral-large-4-0",
+    "provider": "Mistral",
+    "configuration_name": "mistral-large-4-0-261006"
+  },
+  {
+    "phrase": "Ah da, ja dankeschön, aber auch das hätte ich gar nicht gesehen.",
+    "context": "… ganz klein oben. VPN: Ah da, ja dankeschön, aber auch das hätte ich gar nicht gesehen. Mhm ohne AI",
+    "tags": [
+      "reflection_of_ai: ich_not_recognized_without_ai"
+    ],
+    "rationale": "Person states they would not have recognized the hemorrhage without the AI.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 6
+    },
+    "model": "mistralai/mistral-large-4-0",
+    "provider": "Mistral",
+    "configuration_name": "mistral-large-4-0-261006"
+  },
+  {
+    "phrase": "Mhm ohne AI hätte ich gedacht, dass ist irgendwie einen Artefakt",
+    "context": "… aber auch das hätte ich gar nicht gesehen. Mhm ohne AI hätte ich gedacht, dass ist irgendwie einen Artefakt, hätte ich nicht gesehen",
+    "tags": [
+      "reasoning: artifact"
+    ],
+    "rationale": "Person refers to the abnormality as an artifact (what they would have thought without the AI).",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 6
+    },
+    "model": "mistralai/mistral-large-4-0",
+    "provider": "Mistral",
+    "configuration_name": "mistral-large-4-0-261006"
+  },
+  {
+    "phrase": "hätte ich nicht gesehen",
+    "context": "… dass ist irgendwie einen Artefakt, hätte ich nicht gesehen, finde es immernich schwer",
+    "tags": [
+      "reflection_of_ai: ich_not_recognized_without_ai"
+    ],
+    "rationale": "Person reiterates that they would not have seen/recognized the hemorrhage without the AI.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 6
+    },
+    "model": "mistralai/mistral-large-4-0",
+    "provider": "Mistral",
+    "configuration_name": "mistral-large-4-0-261006"
+  },
+  {
+    "phrase": "finde es immernich schwer",
+    "context": "… hätte ich nicht gesehen, finde es immernich schwer, so es sieht so aus",
+    "tags": [
+      "awareness_of_task: difficult"
+    ],
+    "rationale": "Person perceives the current task as difficult.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 6
+    },
+    "model": "mistralai/mistral-large-4-0",
+    "provider": "Mistral",
+    "configuration_name": "mistral-large-4-0-261006"
+  },
+  {
+    "phrase": "so es sieht so aus, wie ein Artefakt irgendwie",
+    "context": "… finde es immernich schwer, so es sieht so aus, wie ein Artefakt irgendwie",
+    "tags": [
+      "reasoning: artifact"
+    ],
+    "rationale": "Person refers to the abnormality as looking like an artifact.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 6
+    },
+    "model": "mistralai/mistral-large-4-0",
+    "provider": "Mistral",
+    "configuration_name": "mistral-large-4-0-261006"
+  },
+  {
+    "phrase": "So, fangen wir wieder oben an …",
+    "context": "So, fangen wir wieder oben an … und hier sieht man auch erstmal, mhm keine Veränderung.",
+    "tags": [
+      "control: control_repeat"
+    ],
+    "rationale": "The person indicates returning to a previously viewed area ('wieder oben an' = start again at the top).",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 7
+    },
+    "model": "mistralai/mistral-large-4-0",
+    "provider": "Mistral",
+    "configuration_name": "mistral-large-4-0-261006"
+  },
+  {
+    "phrase": "und hier sieht man auch erstmal, mhm keine Veränderung",
+    "context": "So, fangen wir wieder oben an … und hier sieht man auch erstmal, mhm keine Veränderung. Ich gucke mal, beidseitig",
+    "tags": [
+      "indicator: no_bleeding"
+    ],
+    "rationale": "The person classifies the specific image area as unremarkable ('keine Veränderung' = no change).",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 7
+    },
+    "model": "mistralai/mistral-large-4-0",
+    "provider": "Mistral",
+    "configuration_name": "mistral-large-4-0-261006"
+  },
+  {
+    "phrase": "Ich gucke mal, beidseitig",
+    "context": "und hier sieht man auch erstmal, mhm keine Veränderung. Ich gucke mal, beidseitig, aber … ah ja",
+    "tags": [
+      "visual_search: description_of_own_approach_without_external_help"
+    ],
+    "rationale": "The person explicitly comments on their own search procedure (looking on both sides).",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 7
+    },
+    "model": "mistralai/mistral-large-4-0",
+    "provider": "Mistral",
+    "configuration_name": "mistral-large-4-0-261006"
+  },
+  {
+    "phrase": "aber … ah ja, da ist der, auf der Seite ist ein Saum",
+    "context": "Ich gucke mal, beidseitig, aber … ah ja, da ist der, auf der Seite ist ein Saum, was auf eine Blutung hindeuten könnte",
+    "tags": [
+      "indicator: anomaly_detected"
+    ],
+    "rationale": "The person notices an abnormality ('ein Saum' = a seam/edge) atypical for a healthy skull.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 7
+    },
+    "model": "mistralai/mistral-large-4-0",
+    "provider": "Mistral",
+    "configuration_name": "mistral-large-4-0-261006"
+  },
+  {
+    "phrase": "was auf eine Blutung hindeuten könnte, oder bestimmt hindeutet",
+    "context": "auf der Seite ist ein Saum, was auf eine Blutung hindeuten könnte, oder bestimmt hindeutet.",
+    "tags": [
+      "interpretation: bleeding",
+      "confidence_high: secondary"
+    ],
+    "rationale": "The person interprets the abnormality as a hemorrhage ('auf eine Blutung hindeuten') and expresses high certainty with 'bestimmt' (definitely).",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 7
+    },
+    "model": "mistralai/mistral-large-4-0",
+    "provider": "Mistral",
+    "configuration_name": "mistral-large-4-0-261006"
+  },
+  {
+    "phrase": "Fang ich wieder von vorne an",
+    "context": "Fang ich wieder von vorne an und schau auf die Mittellinie.",
+    "tags": [
+      "control: control_repeat"
+    ],
+    "rationale": "The person states they are starting over from the beginning ('wieder von vorne an'), indicating a return to a previously viewed image area or restarting the visual search from the start.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 8
+    },
+    "model": "mistralai/mistral-large-4-0",
+    "provider": "Mistral",
+    "configuration_name": "mistral-large-4-0-261006"
+  },
+  {
+    "phrase": "und schau auf die Mittellinie",
+    "context": "Fang ich wieder von vorne an und schau auf die Mittellinie.",
+    "tags": [
+      "visual_search: description_of_medical_image_features"
+    ],
+    "rationale": "The person verbalizes looking at the midline ('Mittellinie'), which is an anatomical structure of the medical image.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 8
+    },
+    "model": "mistralai/mistral-large-4-0",
+    "provider": "Mistral",
+    "configuration_name": "mistral-large-4-0-261006"
+  },
+  {
+    "phrase": "Und auf die Ränder vom Knochen",
+    "context": "und schau auf die Mittellinie. Und auf die Ränder vom Knochen, es sind aber keine Unterschiede zu sehen.",
+    "tags": [
+      "visual_search: description_of_medical_image_features"
+    ],
+    "rationale": "The person verbalizes looking at the edges of the bone ('Ränder vom Knochen'), describing anatomical structures of the medical image.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 8
+    },
+    "model": "mistralai/mistral-large-4-0",
+    "provider": "Mistral",
+    "configuration_name": "mistral-large-4-0-261006"
+  },
+  {
+    "phrase": "es sind aber keine Unterschiede zu sehen",
+    "context": "Und auf die Ränder vom Knochen, es sind aber keine Unterschiede zu sehen.",
+    "tags": [
+      "indicator: no_bleeding"
+    ],
+    "rationale": "The person classifies the examined areas (midline and bone edges) as unremarkable by stating there are no differences visible, indicating no abnormality or bleeding in these specific image areas.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 8
+    },
+    "model": "mistralai/mistral-large-4-0",
+    "provider": "Mistral",
+    "configuration_name": "mistral-large-4-0-261006"
+  },
+  {
+    "phrase": "Auch hier ist es symetrisch … und …",
+    "context": "Auch hier ist es symetrisch … und …",
+    "tags": [
+      "visual_search: description_of_medical_image_features"
+    ],
+    "rationale": "The person verbalizes an image characteristic (symmetry) they are currently observing in the medical image, which matches the definition of describing anatomical structures or image characteristics they are looking at or checking.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 9
+    },
+    "model": "mistralai/mistral-large-4-0",
+    "provider": "Mistral",
+    "configuration_name": "mistral-large-4-0-261006"
+  },
+  {
+    "phrase": "Man sieht hier auch keine Knochen, ähm Defekt …",
+    "context": "Man sieht hier auch keine Knochen, ähm Defekt … Kein Zeichen für eine Blutung.",
+    "tags": [
+      "visual_search: description_of_medical_image_features"
+    ],
+    "rationale": "The person verbalizes which anatomical structures (bones) and image characteristics they are currently examining.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 10
+    },
+    "model": "mistralai/mistral-large-4-0",
+    "provider": "Mistral",
+    "configuration_name": "mistral-large-4-0-261006"
+  },
+  {
+    "phrase": "Kein Zeichen für eine Blutung.",
+    "context": "Man sieht hier auch keine Knochen, ähm Defekt … Kein Zeichen für eine Blutung.",
+    "tags": [
+      "interpretation: no_bleeding"
+    ],
+    "rationale": "The person explicitly interprets the findings as showing no sign of a hemorrhage.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 10
+    },
+    "model": "mistralai/mistral-large-4-0",
+    "provider": "Mistral",
+    "configuration_name": "mistral-large-4-0-261006"
+  },
+  {
+    "phrase": "Das hilft einem sowohl beim Ausschluss, das man ein bisschen eher auf der sicheren Seite, dass man nichts verpasst hat, auf jeden Fall schneller vorbei hier.",
+    "context": "Das hilft einem sowohl beim Ausschluss, das man ein bisschen eher auf der sicheren Seite, dass man nichts verpasst hat, auf jeden Fall schneller vorbei hier. Ja wann da was dabei ist, dass man ein bisschen besser drauf achtet.",
+    "tags": [
+      "reflection_of_ai: helpful",
+      "confidence_high: increased_through_ai"
+    ],
+    "rationale": "The person explicitly states that the AI helps ('Das hilft einem') with exclusion and being on the safe side ('auf der sicheren Seite'), which indicates the AI increases their diagnostic certainty and ensures they don't miss anything.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 11
+    },
+    "model": "mistralai/mistral-large-4-0",
+    "provider": "Mistral",
+    "configuration_name": "mistral-large-4-0-261006"
+  },
+  {
+    "phrase": "Ja wann da was dabei ist, dass man ein bisschen besser drauf achtet.",
+    "context": "auf jeden Fall schneller vorbei hier. Ja wann da was dabei ist, dass man ein bisschen besser drauf achtet.",
+    "tags": [
+      "visual_search: triggered_by_ai"
+    ],
+    "rationale": "The person describes aligning their visual attention ('besser drauf achtet') with the AI's indication ('wann da was dabei ist'), showing their visual search is triggered by the AI information.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 11
+    },
+    "model": "mistralai/mistral-large-4-0",
+    "provider": "Mistral",
+    "configuration_name": "mistral-large-4-0-261006"
+  },
+  {
+    "phrase": "Oh, oh no … mhm …",
+    "context": "Oh, oh no … mhm … oben in der Mittellinie sieht man ein Aufhellung.",
+    "tags": [
+      "paused_in_process"
+    ],
+    "rationale": "Pure filler words and hesitation sounds without semantic content.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 12
+    },
+    "model": "mistralai/mistral-large-4-0",
+    "provider": "Mistral",
+    "configuration_name": "mistral-large-4-0-261006"
+  },
+  {
+    "phrase": "oben in der Mittellinie sieht man ein Aufhellung",
+    "context": "Oh, oh no … mhm … oben in der Mittellinie sieht man ein Aufhellung. ??? Oben ist aber schon nichts mehr",
+    "tags": [
+      "visual_search: description_of_medical_image_features"
+    ],
+    "rationale": "Person verbalizes a specific image characteristic (brightening/hyperdensity) at a specific anatomical location (top midline).",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 12
+    },
+    "model": "mistralai/mistral-large-4-0",
+    "provider": "Mistral",
+    "configuration_name": "mistral-large-4-0-261006"
+  },
+  {
+    "phrase": "da ist was auffälliges dran",
+    "context": "??? Oben ist aber schon nichts mehr, aber da ist was auffälliges dran",
+    "tags": [
+      "indicator: anomaly_detected"
+    ],
+    "rationale": "Person explicitly identifies something as conspicuous/abnormal ('auffällig'), indicating detection of an anomaly atypical for a healthy skull.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 12
+    },
+    "model": "mistralai/mistral-large-4-0",
+    "provider": "Mistral",
+    "configuration_name": "mistral-large-4-0-261006"
+  },
+  {
+    "phrase": "So, ich probiere auf der Siete ohne AI erstmal nach was zu schauen.",
+    "context": "… So, ich probiere auf der Siete ohne AI erstmal nach was zu schauen. Und auf symetrie schauen, auf Knochendefekte und dann auf der AI Seite…",
+    "tags": [
+      "visual_search: description_of_own_approach_without_external_help"
+    ],
+    "rationale": "The person explicitly comments on their own search procedure on the side without AI.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 13
+    },
+    "model": "mistralai/mistral-large-4-0",
+    "provider": "Mistral",
+    "configuration_name": "mistral-large-4-0-261006"
+  },
+  {
+    "phrase": "Und auf symetrie schauen, auf Knochendefekte",
+    "context": "…ich probiere auf der Siete ohne AI erstmal nach was zu schauen. Und auf symetrie schauen, auf Knochendefekte und dann auf der AI Seite…",
+    "tags": [
+      "visual_search: description_of_medical_image_features"
+    ],
+    "rationale": "The person verbalizes which anatomical structures or image characteristics (symmetry, bone defects) they are currently looking at.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 13
+    },
+    "model": "mistralai/mistral-large-4-0",
+    "provider": "Mistral",
+    "configuration_name": "mistral-large-4-0-261006"
+  },
+  {
+    "phrase": "und dann auf der AI Seite, ob ich irgendwas verpasst habe, sieht nicht so aus",
+    "context": "…auf Knochendefekte und dann auf der AI Seite, ob ich irgendwas verpasst habe, sieht nicht so aus",
+    "tags": [
+      "control: relying_on_ai"
+    ],
+    "rationale": "The person describes checking the AI side to verify if they missed any findings, indicating reliance on the AI during the visual search.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 13
+    },
+    "model": "mistralai/mistral-large-4-0",
+    "provider": "Mistral",
+    "configuration_name": "mistral-large-4-0-261006"
+  },
+  {
+    "phrase": "Ich fange so an, dass ich das alles einmal gesehen habe und schue mir die Ventrikel und die Mittellinie an, Schädelknochen und direkt dadrunter [?] Konvex oder konkav.",
+    "context": "Ich fange so an, dass ich das alles einmal gesehen habe und schue mir die Ventrikel und die Mittellinie an, Schädelknochen und direkt dadrunter [?] Konvex oder konkav. Hier, hätte ich das verpasst, ich habe erst mal auf der nicht AI Seite gesehen, und jetzt hier wird mir aber was angezeigt. Ja, das hätte ich nicht ohne AI gemerkt.",
+    "tags": [
+      "visual_search: description_of_medical_image_features"
+    ],
+    "rationale": "The person verbalizes which anatomical structures (ventricles, midline, skull bone) and image characteristics (convex/concave) they are currently looking at or checking during the visual search.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 14
+    },
+    "model": "mistralai/mistral-large-4-0",
+    "provider": "Mistral",
+    "configuration_name": "mistral-large-4-0-261006"
+  },
+  {
+    "phrase": "Hier, hätte ich das verpasst, ich habe erst mal auf der nicht AI Seite gesehen, und jetzt hier wird mir aber was angezeigt. Ja, das hätte ich nicht ohne AI gemerkt.",
+    "context": "Ich fange so an, dass ich das alles einmal gesehen habe und schue mir die Ventrikel und die Mittellinie an, Schädelknochen und direkt dadrunter [?] Konvex oder konkav. Hier, hätte ich das verpasst, ich habe erst mal auf der nicht AI Seite gesehen, und jetzt hier wird mir aber was angezeigt. Ja, das hätte ich nicht ohne AI gemerkt.",
+    "tags": [
+      "reflection_of_ai: ich_not_recognized_without_ai"
+    ],
+    "rationale": "The person explicitly states they would have missed the finding without the AI ('hätte ich das verpasst', 'das hätte ich nicht ohne AI gemerkt'), indicating they would not have recognized the hemorrhage without AI assistance.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 14
+    },
+    "model": "mistralai/mistral-large-4-0",
+    "provider": "Mistral",
+    "configuration_name": "mistral-large-4-0-261006"
+  },
+  {
+    "phrase": "ich will ja wissen, dass ich nichts verpasst habe",
+    "context": "Hier kann ich aber, ich will ja wissen, dass ich nichts verpasst habe.",
+    "tags": [
+      "reflection: self-monitoring"
+    ],
+    "rationale": "The person explicitly comments on their own diagnostic process by stating their intention to verify that they have not missed anything, which constitutes monitoring their own search completeness.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 15
+    },
+    "model": "mistralai/mistral-large-4-0",
+    "provider": "Mistral",
+    "configuration_name": "mistral-large-4-0-261006"
+  },
+  {
+    "phrase": "das habe ich auch, in dem Teil ist es so ein bisschen deutlicher zu sehen und auf der anderen Seite sehe ich das",
+    "context": "… So … das habe ich auch, in dem Teil ist es so ein bisschen deutlicher zu sehen und auf der anderen Seite sehe ich das, eigentlich zeigt mir das das gleiche. …",
+    "tags": [
+      "visual_search: description_of_medical_image_features"
+    ],
+    "rationale": "The person describes image characteristics, noting a finding visible on both sides with varying clarity.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 16
+    },
+    "model": "mistralai/mistral-large-4-0",
+    "provider": "Mistral",
+    "configuration_name": "mistral-large-4-0-261006"
+  },
+  {
+    "phrase": "eigentlich zeigt mir das das gleiche",
+    "context": "… auf der anderen Seite sehe ich das, eigentlich zeigt mir das das gleiche. … Ja, gut",
+    "tags": [
+      "ai_report: ich",
+      "decision_with_ai: implicitly_agreeing_with_ai"
+    ],
+    "rationale": "The person verbalizes that the AI shows them the same hemorrhage finding, implicitly agreeing with the AI's assessment.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 16
+    },
+    "model": "mistralai/mistral-large-4-0",
+    "provider": "Mistral",
+    "configuration_name": "mistral-large-4-0-261006"
+  },
+  {
+    "phrase": "Ja, gut",
+    "context": "… eigentlich zeigt mir das das gleiche. … Ja, gut",
+    "tags": [
+      "paused_in_process"
+    ],
+    "rationale": "Filler words indicating acknowledgment.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 16
+    },
+    "model": "mistralai/mistral-large-4-0",
+    "provider": "Mistral",
+    "configuration_name": "mistral-large-4-0-261006"
+  },
+  {
+    "phrase": "Ja. Genaue, erst mal auf der Seite ohne AI, auf Unterschiede beidseitig bei den Hemisphären",
+    "context": "Ja. Genaue, erst mal auf der Seite ohne AI, auf Unterschiede beidseitig bei den Hemisphären, und hier hab ich nichts direkt gesehen",
+    "tags": [
+      "visual_search: description_of_own_approach_without_external_help"
+    ],
+    "rationale": "The person explicitly comments on their own search procedure on the side without AI, describing how they looked for differences between the hemispheres.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 17
+    },
+    "model": "mistralai/mistral-large-4-0",
+    "provider": "Mistral",
+    "configuration_name": "mistral-large-4-0-261006"
+  },
+  {
+    "phrase": "und hier hab ich nichts direkt gesehen",
+    "context": "auf Unterschiede beidseitig bei den Hemisphären, und hier hab ich nichts direkt gesehen und auf der Seite mir aber was angezeigt",
+    "tags": [
+      "indicator: no_bleeding"
+    ],
+    "rationale": "The person classifies the specific image area on the side without AI as unremarkable by stating they did not see anything directly there.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 17
+    },
+    "model": "mistralai/mistral-large-4-0",
+    "provider": "Mistral",
+    "configuration_name": "mistral-large-4-0-261006"
+  },
+  {
+    "phrase": "und auf der Seite mir aber was angezeigt",
+    "context": "hier hab ich nichts direkt gesehen und auf der Seite mir aber was angezeigt. Das hätte ich ohne so ohne so große Erfahrung nicht gemerkt",
+    "tags": [
+      "ai_report: ich"
+    ],
+    "rationale": "The person verbalizes that on the side with AI, something was shown/displayed to them, indicating the AI has found a hemorrhage.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 17
+    },
+    "model": "mistralai/mistral-large-4-0",
+    "provider": "Mistral",
+    "configuration_name": "mistral-large-4-0-261006"
+  },
+  {
+    "phrase": "Das hätte ich ohne so ohne so große Erfahrung nicht gemerkt.",
+    "context": "was angezeigt. Das hätte ich ohne so ohne so große Erfahrung nicht gemerkt. Aber wenn man das weiß, dann sieht man es da auch doch.",
+    "tags": [
+      "reflection_of_ai: ich_not_recognized_without_ai"
+    ],
+    "rationale": "The person states they would not have noticed the finding without the AI (and without such great experience), indicating they would not have recognized the hemorrhage without the AI.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 17
+    },
+    "model": "mistralai/mistral-large-4-0",
+    "provider": "Mistral",
+    "configuration_name": "mistral-large-4-0-261006"
+  },
+  {
+    "phrase": "Aber wenn man das weiß, dann sieht man es da auch doch.",
+    "context": "nicht gemerkt. Aber wenn man das weiß, dann sieht man es da auch doch.",
+    "tags": [
+      "visual_search: triggered_by_ai"
+    ],
+    "rationale": "The person indicates that knowing the AI's finding (where it is) allows them to see the hemorrhage, aligning their visual approach with the AI information.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 17
+    },
+    "model": "mistralai/mistral-large-4-0",
+    "provider": "Mistral",
+    "configuration_name": "mistral-large-4-0-261006"
+  },
+  {
+    "phrase": "Ja hier, sieht man nichts",
+    "context": "Ja hier, sieht man nichts und AI sagt auch es ist nichts da",
+    "tags": [
+      "indicator: no_bleeding"
+    ],
+    "rationale": "Person classifies a specific image area ('hier') as unremarkable by stating that nothing can be seen there.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 18
+    },
+    "model": "mistralai/mistral-large-4-0",
+    "provider": "Mistral",
+    "configuration_name": "mistral-large-4-0-261006"
+  },
+  {
+    "phrase": "und AI sagt auch es ist nichts da",
+    "context": "Ja hier, sieht man nichts und AI sagt auch es ist nichts da",
+    "tags": [
+      "ai_report: no_ich"
+    ],
+    "rationale": "Person verbalizes that the AI has not found a hemorrhage, reporting that the AI also states there is nothing there.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 18
+    },
+    "model": "mistralai/mistral-large-4-0",
+    "provider": "Mistral",
+    "configuration_name": "mistral-large-4-0-261006"
+  },
+  {
+    "phrase": "… Mhm da …",
+    "context": "… Mhm da … Bis jetzt auch alles symetrisch und Mittellinie ist nicht verschoben …",
+    "tags": [
+      "paused_in_process"
+    ],
+    "rationale": "Pure filler words indicating a pause in the thought process.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 19
+    },
+    "model": "mistralai/mistral-large-4-0",
+    "provider": "Mistral",
+    "configuration_name": "mistral-large-4-0-261006"
+  },
+  {
+    "phrase": "Bis jetzt auch alles symetrisch und Mittellinie ist nicht verschoben",
+    "context": "… Mhm da … Bis jetzt auch alles symetrisch und Mittellinie ist nicht verschoben … Ist mir so noch nicht so direkt mhm ja, das wär ja, …",
+    "tags": [
+      "visual_search: description_of_medical_image_features"
+    ],
+    "rationale": "Person verbalizes which anatomical structures (symmetry, midline) they are currently checking in the medical image.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 19
+    },
+    "model": "mistralai/mistral-large-4-0",
+    "provider": "Mistral",
+    "configuration_name": "mistral-large-4-0-261006"
+  },
+  {
+    "phrase": "Ist mir so noch nicht so direkt mhm ja, das wär ja, …",
+    "context": "… Bis jetzt auch alles symetrisch und Mittellinie ist nicht verschoben … Ist mir so noch nicht so direkt mhm ja, das wär ja, … auf der Seite sieht das irgendwie die Gyri ander aus als auf dieser Seite …",
+    "tags": [
+      "paused_in_process"
+    ],
+    "rationale": "Filler words and hesitation markers indicating the person is thinking or processing information.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 19
+    },
+    "model": "mistralai/mistral-large-4-0",
+    "provider": "Mistral",
+    "configuration_name": "mistral-large-4-0-261006"
+  },
+  {
+    "phrase": "auf der Seite sieht das irgendwie die Gyri ander aus als auf dieser Seite",
+    "context": "… Ist mir so noch nicht so direkt mhm ja, das wär ja, … auf der Seite sieht das irgendwie die Gyri ander aus als auf dieser Seite und auf der AI Seite zeigt, wird mir auch angezeigt, dass hier was ist, ja",
+    "tags": [
+      "indicator: anomaly_detected"
+    ],
+    "rationale": "Person notices an abnormality atypical for a healthy skull: the gyri (brain folds) appear different/asymmetric on one side compared to the other.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 19
+    },
+    "model": "mistralai/mistral-large-4-0",
+    "provider": "Mistral",
+    "configuration_name": "mistral-large-4-0-261006"
+  },
+  {
+    "phrase": "und auf der AI Seite zeigt, wird mir auch angezeigt, dass hier was ist, ja",
+    "context": "… auf der Seite sieht das irgendwie die Gyri ander aus als auf dieser Seite und auf der AI Seite zeigt, wird mir auch angezeigt, dass hier was ist, ja",
+    "tags": [
+      "ai_report: ich"
+    ],
+    "rationale": "Person verbalizes that the AI has found a hemorrhage (indicated as 'something' in the context of ICH detection) at the specified location.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 19
+    },
+    "model": "mistralai/mistral-large-4-0",
+    "provider": "Mistral",
+    "configuration_name": "mistral-large-4-0-261006"
+  },
+  {
+    "phrase": "Ok mhm …",
+    "context": "Ok mhm … Hier soll nichts sein und ich sehe auch nichts",
+    "tags": [
+      "paused_in_process"
+    ],
+    "rationale": "Pure filler words and pauses indicating hesitation or thinking.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 20
+    },
+    "model": "mistralai/mistral-large-4-0",
+    "provider": "Mistral",
+    "configuration_name": "mistral-large-4-0-261006"
+  },
+  {
+    "phrase": "Hier soll nichts sein und ich sehe auch nichts",
+    "context": "Ok mhm … Hier soll nichts sein und ich sehe auch nichts  und ist beides symetrisch",
+    "tags": [
+      "indicator: no_bleeding"
+    ],
+    "rationale": "Person classifies a specific image area as unremarkable, stating that nothing should be there and nothing is seen.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 20
+    },
+    "model": "mistralai/mistral-large-4-0",
+    "provider": "Mistral",
+    "configuration_name": "mistral-large-4-0-261006"
+  },
+  {
+    "phrase": "und ist beides symetrisch und Ventrikel frei",
+    "context": "ich sehe auch nichts  und ist beides symetrisch und Ventrikel frei. Unterhalb des Schädelknochen",
+    "tags": [
+      "visual_search: description_of_medical_image_features"
+    ],
+    "rationale": "Person verbalizes anatomical structures (symmetry, ventricles) and their characteristics (clear/free) that they are currently examining.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 20
+    },
+    "model": "mistralai/mistral-large-4-0",
+    "provider": "Mistral",
+    "configuration_name": "mistral-large-4-0-261006"
+  },
+  {
+    "phrase": "Unterhalb des Schädelknochen ist alles frei",
+    "context": "Ventrikel frei. Unterhalb des Schädelknochen ist alles frei",
+    "tags": [
+      "indicator: no_bleeding"
+    ],
+    "rationale": "Person classifies the area below the skull bone as unremarkable/free of abnormalities.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 20
+    },
+    "model": "mistralai/mistral-large-4-0",
+    "provider": "Mistral",
+    "configuration_name": "mistral-large-4-0-261006"
+  },
+  {
+    "phrase": "So ich guck erstmal ohne AI.",
+    "context": "So ich guck erstmal ohne AI. Ich schau auf Mittellinie und auf Knochendefekte.",
+    "tags": [
+      "control: make_own_judgement"
+    ],
+    "rationale": "Person explicitly states they are examining the image without the AI first, making an independent judgement without considering the AI's assessment.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 21
+    },
+    "model": "mistralai/mistral-large-4-0",
+    "provider": "Mistral",
+    "configuration_name": "mistral-large-4-0-261006"
+  },
+  {
+    "phrase": "Ich schau auf Mittellinie und auf Knochendefekte.",
+    "context": "So ich guck erstmal ohne AI. Ich schau auf Mittellinie und auf Knochendefekte. … Auf Unterschiede auf beiden Seiten",
+    "tags": [
+      "visual_search: description_of_medical_image_features"
+    ],
+    "rationale": "Person verbalizes which anatomical structures (midline, bone defects) they are currently looking at or checking.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 21
+    },
+    "model": "mistralai/mistral-large-4-0",
+    "provider": "Mistral",
+    "configuration_name": "mistral-large-4-0-261006"
+  },
+  {
+    "phrase": "Auf Unterschiede auf beiden Seiten, ist mir nichts aufgefallen, aber sollte da was sein?",
+    "context": "Ich schau auf Mittellinie und auf Knochendefekte. … Auf Unterschiede auf beiden Seiten, ist mir nichts aufgefallen, aber sollte da was sein? Ich guck jetzt auf der AI Seite",
+    "tags": [
+      "reflection: diagnostic_uncertainty"
+    ],
+    "rationale": "Person reflects on not having noticed any differences but questions whether there should be a finding, indicating uncertainty about classifying the case.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 21
+    },
+    "model": "mistralai/mistral-large-4-0",
+    "provider": "Mistral",
+    "configuration_name": "mistral-large-4-0-261006"
+  },
+  {
+    "phrase": "Ich guck jetzt auf der AI Seite,",
+    "context": "aber sollte da was sein? Ich guck jetzt auf der AI Seite, da ist schon ah",
+    "tags": [
+      "visual_search: triggered_by_ai"
+    ],
+    "rationale": "Person aligns their visual approach with the AI information by looking at the side indicated by the AI.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 21
+    },
+    "model": "mistralai/mistral-large-4-0",
+    "provider": "Mistral",
+    "configuration_name": "mistral-large-4-0-261006"
+  },
+  {
+    "phrase": "da ist schon angeblich unter deer Schädelkalotte was",
+    "context": "Ich guck jetzt auf der AI Seite, da ist schon ah, da ist schon angeblich unter deer Schädelkalotte was was ich nicht gesehen hätte unbedingt.",
+    "tags": [
+      "ai_report: ich_localization"
+    ],
+    "rationale": "Person describes where the AI locates the hemorrhage (under the skull cap/Schädelkalotte).",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 21
+    },
+    "model": "mistralai/mistral-large-4-0",
+    "provider": "Mistral",
+    "configuration_name": "mistral-large-4-0-261006"
+  },
+  {
+    "phrase": "was ich nicht gesehen hätte unbedingt.",
+    "context": "da ist schon angeblich unter deer Schädelkalotte was was ich nicht gesehen hätte unbedingt.",
+    "tags": [
+      "reflection_of_ai: ich_not_recognized_without_ai"
+    ],
+    "rationale": "Person states they would definitely not have recognized the hemorrhage without the AI.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 21
+    },
+    "model": "mistralai/mistral-large-4-0",
+    "provider": "Mistral",
+    "configuration_name": "mistral-large-4-0-261006"
+  },
+  {
+    "phrase": "Hier ist jetzt alles wieder, unaufällig aus, beiden Sieten",
+    "context": "Hier ist jetzt alles wieder, unaufällig aus, beiden Sieten und AI sagt auch nichts da",
+    "tags": [
+      "indicator: no_bleeding",
+      "interpretation: no_bleeding"
+    ],
+    "rationale": "Person describes the image areas on both sides as unremarkable (unaufällig), classifying the specific areas as having no bleeding and interpreting the finding as no hemorrhage.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 22
+    },
+    "model": "mistralai/mistral-large-4-0",
+    "provider": "Mistral",
+    "configuration_name": "mistral-large-4-0-261006"
+  },
+  {
+    "phrase": "und AI sagt auch nichts da",
+    "context": "Hier ist jetzt alles wieder, unaufällig aus, beiden Sieten und AI sagt auch nichts da",
+    "tags": [
+      "ai_report: no_ich"
+    ],
+    "rationale": "Person verbalizes that the AI has not found a hemorrhage (AI sagt nichts = AI says nothing/detects nothing).",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 22
+    },
+    "model": "mistralai/mistral-large-4-0",
+    "provider": "Mistral",
+    "configuration_name": "mistral-large-4-0-261006"
+  },
+  {
+    "phrase": "ich guck erstmal auf meine Seite ohne AI, ob irgendwelche Auffälligkeite",
+    "context": "Hier soll was sein, ich guck erstmal auf meine Seite ohne AI, ob irgendwelche Auffälligkeite, bis jetzt ist die Mittellinie in der Mitte nicht vershcoben",
+    "tags": [
+      "visual_search: description_of_own_approach_without_external_help"
+    ],
+    "rationale": "The person explicitly comments on their own search procedure by stating they are first looking at the image without AI to check for abnormalities.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 23
+    },
+    "model": "mistralai/mistral-large-4-0",
+    "provider": "Mistral",
+    "configuration_name": "mistral-large-4-0-261006"
+  },
+  {
+    "phrase": "bis jetzt ist die Mittellinie in der Mitte nicht vershcoben, Knochendefekte sehe ich nicht, Unterschiede zwischen den beiden hemisphären kann ich auch auf die Schnelle nicht gesehen",
+    "context": "ich guck erstmal auf meine Seite ohne AI, ob irgendwelche Auffälligkeite, bis jetzt ist die Mittellinie in der Mitte nicht vershcoben, Knochendefekte sehe ich nicht, Unterschiede zwischen den beiden hemisphären kann ich auch auf die Schnelle nicht gesehen. Geh nochmal durch",
+    "tags": [
+      "visual_search: description_of_medical_image_features"
+    ],
+    "rationale": "The person verbalizes specific anatomical structures (midline, bone defects, hemispheres) they are currently examining and checking for abnormalities.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 23
+    },
+    "model": "mistralai/mistral-large-4-0",
+    "provider": "Mistral",
+    "configuration_name": "mistral-large-4-0-261006"
+  },
+  {
+    "phrase": "Geh nochmal durch nochmal",
+    "context": "Unterschiede zwischen den beiden hemisphären kann ich auch auf die Schnelle nicht gesehen. Geh nochmal durch nochmal ... ja da ist was",
+    "tags": [
+      "control: control_repeat"
+    ],
+    "rationale": "The person instructs themselves to go through the image again, indicating a return to previously viewed areas to repeat the visual search.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 23
+    },
+    "model": "mistralai/mistral-large-4-0",
+    "provider": "Mistral",
+    "configuration_name": "mistral-large-4-0-261006"
+  },
+  {
+    "phrase": "ja da ist was, da war was helles da",
+    "context": "Geh nochmal durch nochmal ... ja da ist was, da war was helles da und bekomm ich auch gesagt von der AI, dass da was ist.",
+    "tags": [
+      "indicator: anomaly_detected"
+    ],
+    "rationale": "The person notices an abnormality ('something bright') that is atypical for a healthy skull.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 23
+    },
+    "model": "mistralai/mistral-large-4-0",
+    "provider": "Mistral",
+    "configuration_name": "mistral-large-4-0-261006"
+  },
+  {
+    "phrase": "und bekomm ich auch gesagt von der AI, dass da was ist",
+    "context": "ja da ist was, da war was helles da und bekomm ich auch gesagt von der AI, dass da was ist.",
+    "tags": [
+      "ai_report: ich"
+    ],
+    "rationale": "The person verbalizes that the AI has found a hemorrhage by reporting that the AI told them there is something there.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 23
+    },
+    "model": "mistralai/mistral-large-4-0",
+    "provider": "Mistral",
+    "configuration_name": "mistral-large-4-0-261006"
+  },
+  {
+    "phrase": "weil ich gesagt bekomme, dass da nichts da ist",
+    "context": "Okay. Jetzt wieder schneller, weil ich gesagt bekomme, dass da nichts da ist, und mir fällt auch nichts auf.",
+    "tags": [
+      "ai_report: no_ich"
+    ],
+    "rationale": "The person verbalizes that they were told (by the AI) that there is nothing there, indicating the AI has not found a hemorrhage.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 24
+    },
+    "model": "mistralai/mistral-large-4-0",
+    "provider": "Mistral",
+    "configuration_name": "mistral-large-4-0-261006"
+  },
+  {
+    "phrase": "und mir fällt auch nichts auf",
+    "context": "weil ich gesagt bekomme, dass da nichts da ist, und mir fällt auch nichts auf.",
+    "tags": [
+      "decision_with_ai: implicitly_agreeing_with_ai",
+      "interpretation: no_bleeding"
+    ],
+    "rationale": "The person states they also notice nothing ('auch' implies agreement with the AI's assessment), interpreting the image as having no hemorrhage.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 24
+    },
+    "model": "mistralai/mistral-large-4-0",
+    "provider": "Mistral",
+    "configuration_name": "mistral-large-4-0-261006"
+  },
+  {
+    "phrase": "Schau erstmal wieder auf meine Seite",
+    "context": "… Schau erstmal wieder auf meine Seite … Ich seh keine Unterschied",
+    "tags": [
+      "control: control_repeat"
+    ],
+    "rationale": "The person uses 'wieder' (again) to indicate returning to a previously viewed image area ('meine Seite').",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 25
+    },
+    "model": "mistralai/mistral-large-4-0",
+    "provider": "Mistral",
+    "configuration_name": "mistral-large-4-0-261006"
+  },
+  {
+    "phrase": "Ich seh keine Unterschied",
+    "context": "… Schau erstmal wieder auf meine Seite … Ich seh keine Unterschied",
+    "tags": [
+      "indicator: no_bleeding"
+    ],
+    "rationale": "The person states they see no difference, which in the context of brain CT examination implies the area appears normal/unremarkable (no hemorrhage).",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 25
+    },
+    "model": "mistralai/mistral-large-4-0",
+    "provider": "Mistral",
+    "configuration_name": "mistral-large-4-0-261006"
+  },
+  {
+    "phrase": "Mhm",
+    "context": "Mhm hier wieder Mittelinie und Schädelkalotte und da drunter auch kein Saum, ist alles ok",
+    "tags": [
+      "paused_in_process"
+    ],
+    "rationale": "Filler word/acknowledgment at the beginning of the utterance.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 26
+    },
+    "model": "mistralai/mistral-large-4-0",
+    "provider": "Mistral",
+    "configuration_name": "mistral-large-4-0-261006"
+  },
+  {
+    "phrase": "hier wieder Mittelinie und Schädelkalotte",
+    "context": "Mhm hier wieder Mittelinie und Schädelkalotte und da drunter auch kein Saum, ist alles ok",
+    "tags": [
+      "visual_search: description_of_medical_image_features"
+    ],
+    "rationale": "Person verbalizes anatomical structures (midline and skull cap/calvaria) they are currently examining.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 26
+    },
+    "model": "mistralai/mistral-large-4-0",
+    "provider": "Mistral",
+    "configuration_name": "mistral-large-4-0-261006"
+  },
+  {
+    "phrase": "und da drunter auch kein Saum, ist alles ok",
+    "context": "hier wieder Mittelinie und Schädelkalotte und da drunter auch kein Saum, ist alles ok",
+    "tags": [
+      "indicator: no_bleeding",
+      "interpretation: no_bleeding"
+    ],
+    "rationale": "Person classifies the specific area as unremarkable (no hemorrhage line/seam 'Saum') and interprets the finding as no hemorrhage ('alles ok').",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 26
+    },
+    "model": "mistralai/mistral-large-4-0",
+    "provider": "Mistral",
+    "configuration_name": "mistral-large-4-0-261006"
+  },
+  {
+    "phrase": "mhm",
+    "context": "Genau so hier mhm nichts was auffällig aussieht",
+    "tags": [
+      "paused_in_process"
+    ],
+    "rationale": "The interjection 'mhm' is a pure filler word indicating a pause in the thought process.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 27
+    },
+    "model": "mistralai/mistral-large-4-0",
+    "provider": "Mistral",
+    "configuration_name": "mistral-large-4-0-261006"
+  },
+  {
+    "phrase": "nichts was auffällig aussieht",
+    "context": "Genau so hier mhm nichts was auffällig aussieht",
+    "tags": [
+      "indicator: no_bleeding"
+    ],
+    "rationale": "The person explicitly classifies the specific image area as unremarkable by stating that nothing looks conspicuous or abnormal ('auffällig').",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 27
+    },
+    "model": "mistralai/mistral-large-4-0",
+    "provider": "Mistral",
+    "configuration_name": "mistral-large-4-0-261006"
+  },
+  {
+    "phrase": "Jetzt wird mir schon angezeigt, dass eine Blutung da ist",
+    "context": "Jetzt wird mir schon angezeigt, dass eine Blutung da ist und mir erstmal selber zu schauen. Die Mittellinie ist nicht verschoben",
+    "tags": [
+      "ai_report: ich"
+    ],
+    "rationale": "Person verbalizes that the AI has found a hemorrhage.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 28
+    },
+    "model": "mistralai/mistral-large-4-0",
+    "provider": "Mistral",
+    "configuration_name": "mistral-large-4-0-261006"
+  },
+  {
+    "phrase": "und mir erstmal selber zu schauen",
+    "context": "Jetzt wird mir schon angezeigt, dass eine Blutung da ist und mir erstmal selber zu schauen. Die Mittellinie ist nicht verschoben",
+    "tags": [
+      "visual_search: description_of_own_approach_without_external_help"
+    ],
+    "rationale": "Person explicitly comments on their own search procedure by stating they want to look at the finding themselves first.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 28
+    },
+    "model": "mistralai/mistral-large-4-0",
+    "provider": "Mistral",
+    "configuration_name": "mistral-large-4-0-261006"
+  },
+  {
+    "phrase": "Die Mittellinie ist nicht verschoben,",
+    "context": "und mir erstmal selber zu schauen. Die Mittellinie ist nicht verschoben, aber jetzt sieht man aber direkt hier schon einen Saun un dem Knochen …",
+    "tags": [
+      "visual_search: description_of_medical_image_features"
+    ],
+    "rationale": "Person verbalizes which anatomical structure (midline) they are currently checking.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 28
+    },
+    "model": "mistralai/mistral-large-4-0",
+    "provider": "Mistral",
+    "configuration_name": "mistral-large-4-0-261006"
+  },
+  {
+    "phrase": "aber jetzt sieht man aber direkt hier schon einen Saun un dem Knochen …",
+    "context": "Die Mittellinie ist nicht verschoben, aber jetzt sieht man aber direkt hier schon einen Saun un dem Knochen … Das ist dann schon eindeutiger",
+    "tags": [
+      "indicator: anomaly_detected"
+    ],
+    "rationale": "Person notices an abnormality (described as 'Saun' [likely shadow/seam] in the bone) atypical for a healthy skull.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 28
+    },
+    "model": "mistralai/mistral-large-4-0",
+    "provider": "Mistral",
+    "configuration_name": "mistral-large-4-0-261006"
+  },
+  {
+    "phrase": "Das ist dann schon eindeutiger",
+    "context": "aber jetzt sieht man aber direkt hier schon einen Saun un dem Knochen … Das ist dann schon eindeutiger",
+    "tags": [
+      "confidence_high: secondary"
+    ],
+    "rationale": "High certainty is implicitly shown through the expression 'eindeutiger' (clearer/more definitive), indicating confidence in the finding.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 28
+    },
+    "model": "mistralai/mistral-large-4-0",
+    "provider": "Mistral",
+    "configuration_name": "mistral-large-4-0-261006"
+  },
+  {
+    "phrase": "ich guck trotzdem von oben nach untern",
+    "context": "Und hier sieht man schon auch, ich guck trotzdem von oben nach untern und hier ist der Saum schon zu sehen",
+    "tags": [
+      "visual_search: description_of_own_approach_without_external_help"
+    ],
+    "rationale": "Person explicitly comments on their own search procedure, stating they look from top to bottom.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 29
+    },
+    "model": "mistralai/mistral-large-4-0",
+    "provider": "Mistral",
+    "configuration_name": "mistral-large-4-0-261006"
+  },
+  {
+    "phrase": "hier ist der Saum schon zu sehen",
+    "context": "ich guck trotzdem von oben nach untern und hier ist der Saum schon zu sehen, also AI zeigt mir das erst später",
+    "tags": [
+      "visual_search: description_of_medical_image_features"
+    ],
+    "rationale": "Person verbalizes which image characteristic (the seam/edge) they are currently looking at.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 29
+    },
+    "model": "mistralai/mistral-large-4-0",
+    "provider": "Mistral",
+    "configuration_name": "mistral-large-4-0-261006"
+  },
+  {
+    "phrase": "also AI zeigt mir das erst später",
+    "context": "hier ist der Saum schon zu sehen, also AI zeigt mir das erst später, aber man sieht schon ne Blutung",
+    "tags": [
+      "reflection_of_ai: ich_recognized_without_ai"
+    ],
+    "rationale": "Person notes that the AI shows the finding later, implying they recognized it before the AI did.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 29
+    },
+    "model": "mistralai/mistral-large-4-0",
+    "provider": "Mistral",
+    "configuration_name": "mistral-large-4-0-261006"
+  },
+  {
+    "phrase": "aber man sieht schon ne Blutung",
+    "context": "also AI zeigt mir das erst später, aber man sieht schon ne Blutung und da brauchte ich jetzt das nicht so",
+    "tags": [
+      "interpretation: bleeding"
+    ],
+    "rationale": "Person interprets the finding as a hemorrhage (bleeding).",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 29
+    },
+    "model": "mistralai/mistral-large-4-0",
+    "provider": "Mistral",
+    "configuration_name": "mistral-large-4-0-261006"
+  },
+  {
+    "phrase": "und da brauchte ich jetzt das nicht so",
+    "context": "aber man sieht schon ne Blutung und da brauchte ich jetzt das nicht so",
+    "tags": [
+      "reflection_of_ai: ich_recognized_without_ai"
+    ],
+    "rationale": "Person explicitly states they did not need the AI (so much) because they already saw the hemorrhage.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 29
+    },
+    "model": "mistralai/mistral-large-4-0",
+    "provider": "Mistral",
+    "configuration_name": "mistral-large-4-0-261006"
+  },
+  {
+    "phrase": "dass AI sagt, dass da nichts ist",
+    "context": "So, hier ist wieder ne extra Sicherheit da, dass AI sagt, dass da nichts ist. Deswegen kann ich ein bisschen schneller gehen, das hilf mir schon.",
+    "tags": [
+      "ai_report: no_ich"
+    ],
+    "rationale": "The person explicitly verbalizes that the AI reports no hemorrhage ('dass da nichts ist').",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 30
+    },
+    "model": "mistralai/mistral-large-4-0",
+    "provider": "Mistral",
+    "configuration_name": "mistral-large-4-0-261006"
+  },
+  {
+    "phrase": "hier ist wieder ne extra Sicherheit da",
+    "context": "So, hier ist wieder ne extra Sicherheit da, dass AI sagt, dass da nichts ist. Deswegen kann ich ein bisschen schneller gehen, das hilf mir schon.",
+    "tags": [
+      "confidence_high: increased_through_ai"
+    ],
+    "rationale": "The person reports that the AI provides additional security/confidence ('extra Sicherheit'), indicating increased diagnostic certainty through the AI.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 30
+    },
+    "model": "mistralai/mistral-large-4-0",
+    "provider": "Mistral",
+    "configuration_name": "mistral-large-4-0-261006"
+  },
+  {
+    "phrase": "das hilf mir schon",
+    "context": "So, hier ist wieder ne extra Sicherheit da, dass AI sagt, dass da nichts ist. Deswegen kann ich ein bisschen schneller gehen, das hilf mir schon.",
+    "tags": [
+      "reflection_of_ai: helpful"
+    ],
+    "rationale": "The person explicitly states that the AI is helpful ('das hilf mir schon').",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 30
+    },
+    "model": "mistralai/mistral-large-4-0",
+    "provider": "Mistral",
+    "configuration_name": "mistral-large-4-0-261006"
+  },
+  {
+    "phrase": "Und ich geh von oben und guck allein erstmal",
+    "context": "Und ich geh von oben und guck allein erstmal, noch sehe keine Unterschied mhm … Ich bin noch nicht so viel was aufgefallen",
+    "tags": [
+      "visual_search: description_of_own_approach_without_external_help"
+    ],
+    "rationale": "Person explicitly describes their own search procedure (going from top, looking alone first) without external help.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 31
+    },
+    "model": "mistralai/mistral-large-4-0",
+    "provider": "Mistral",
+    "configuration_name": "mistral-large-4-0-261006"
+  },
+  {
+    "phrase": "noch sehe keine Unterschied mhm … Ich bin noch nicht so viel was aufgefallen",
+    "context": "Und ich geh von oben und guck allein erstmal, noch sehe keine Unterschied mhm … Ich bin noch nicht so viel was aufgefallen, vielleicht gucke ich auf der AI Seite erstmal.",
+    "tags": [
+      "indicator: no_bleeding"
+    ],
+    "rationale": "Person states they do not see any differences or abnormalities, classifying the examined areas as unremarkable.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 31
+    },
+    "model": "mistralai/mistral-large-4-0",
+    "provider": "Mistral",
+    "configuration_name": "mistral-large-4-0-261006"
+  },
+  {
+    "phrase": "vielleicht gucke ich auf der AI Seite erstmal",
+    "context": "Ich bin noch nicht so viel was aufgefallen, vielleicht gucke ich auf der AI Seite erstmal. Ah, je das hatte ich nicht gesehn.",
+    "tags": [
+      "control: relying_on_ai"
+    ],
+    "rationale": "Person decides to rely on the AI by looking at the AI side first after not finding anything on their own.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 31
+    },
+    "model": "mistralai/mistral-large-4-0",
+    "provider": "Mistral",
+    "configuration_name": "mistral-large-4-0-261006"
+  },
+  {
+    "phrase": "Ah, je das hatte ich nicht gesehn. Aber wenn mans weis, dann ja.",
+    "context": "vielleicht gucke ich auf der AI Seite erstmal. Ah, je das hatte ich nicht gesehn. Aber wenn mans weis, dann ja. Das hilft da",
+    "tags": [
+      "reflection_of_ai: ich_not_recognized_without_ai"
+    ],
+    "rationale": "Person admits they did not see/recognize the hemorrhage without the AI's help, acknowledging that knowing the location enabled recognition.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 31
+    },
+    "model": "mistralai/mistral-large-4-0",
+    "provider": "Mistral",
+    "configuration_name": "mistral-large-4-0-261006"
+  },
+  {
+    "phrase": "Das hilft da",
+    "context": "Aber wenn mans weis, dann ja. Das hilft da",
+    "tags": [
+      "reflection_of_ai: helpful"
+    ],
+    "rationale": "Person explicitly states that the AI is helpful.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 31
+    },
+    "model": "mistralai/mistral-large-4-0",
+    "provider": "Mistral",
+    "configuration_name": "mistral-large-4-0-261006"
+  },
+  {
+    "phrase": "Mhm hier ist wieder angeblich keine Blutung",
+    "context": "Mhm hier ist wieder angeblich keine Blutung und ich kann ein bisschen schneller scrollen.",
+    "tags": [
+      "ai_report: no_ich"
+    ],
+    "rationale": "The person verbalizes that the AI has not found a hemorrhage ('angeblich keine Blutung').",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 32
+    },
+    "model": "mistralai/mistral-large-4-0",
+    "provider": "Mistral",
+    "configuration_name": "mistral-large-4-0-261006"
+  },
+  {
+    "phrase": "und ich kann ein bisschen schneller scrollen",
+    "context": "angeblich keine Blutung und ich kann ein bisschen schneller scrollen. Und sehe dass ich keine Unterschied merke",
+    "tags": [
+      "visual_search: description_of_own_approach_without_external_help"
+    ],
+    "rationale": "The person explicitly comments on their own search procedure (scrolling faster).",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 32
+    },
+    "model": "mistralai/mistral-large-4-0",
+    "provider": "Mistral",
+    "configuration_name": "mistral-large-4-0-261006"
+  },
+  {
+    "phrase": "Und sehe dass ich keine Unterschied merke",
+    "context": "ich kann ein bisschen schneller scrollen. Und sehe dass ich keine Unterschied merke und auf der anderen Seite",
+    "tags": [
+      "interpretation: no_bleeding"
+    ],
+    "rationale": "The person interprets the lack of visible difference as indicating no hemorrhage.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 32
+    },
+    "model": "mistralai/mistral-large-4-0",
+    "provider": "Mistral",
+    "configuration_name": "mistral-large-4-0-261006"
+  },
+  {
+    "phrase": "und auf der anderen Seite wird auch keine Blututng angezeigt",
+    "context": "Und sehe dass ich keine Unterschied merke und auf der anderen Seite wird auch keine Blututng angezeigt.",
+    "tags": [
+      "ai_report: no_ich"
+    ],
+    "rationale": "The person verbalizes that the AI has not found a hemorrhage on the other side ('keine Blutung angezeigt').",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 32
+    },
+    "model": "mistralai/mistral-large-4-0",
+    "provider": "Mistral",
+    "configuration_name": "mistral-large-4-0-261006"
+  },
+  {
+    "phrase": "Sehe wieder auf meine Seite alleine …",
+    "context": "Sehe wieder auf meine Seite alleine … Und hier soll eine Blutung sein …",
+    "tags": [
+      "visual_search: description_of_own_approach_without_external_help"
+    ],
+    "rationale": "Person explicitly comments on their own search procedure by stating they are looking at their own side alone (without AI).",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 33
+    },
+    "model": "mistralai/mistral-large-4-0",
+    "provider": "Mistral",
+    "configuration_name": "mistral-large-4-0-261006"
+  },
+  {
+    "phrase": "Und hier soll eine Blutung sein …",
+    "context": "Sehe wieder auf meine Seite alleine … Und hier soll eine Blutung sein … Ich hab die jetzt nicht so bemerkt",
+    "tags": [
+      "ai_report: ich_localization"
+    ],
+    "rationale": "Person describes where the AI locates the hemorrhage by stating 'hier' (here) there should be a hemorrhage, verbalizing the AI's localization.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 33
+    },
+    "model": "mistralai/mistral-large-4-0",
+    "provider": "Mistral",
+    "configuration_name": "mistral-large-4-0-261006"
+  },
+  {
+    "phrase": "Ich hab die jetzt nicht so bemerkt,",
+    "context": "Und hier soll eine Blutung sein … Ich hab die jetzt nicht so bemerkt, deswegen schau ich jetzt auf der anderen Seite",
+    "tags": [
+      "reflection: perceptual_doubt"
+    ],
+    "rationale": "Person doubts their own perception by explicitly stating they did not notice the hemorrhage ('nicht so bemerkt').",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 33
+    },
+    "model": "mistralai/mistral-large-4-0",
+    "provider": "Mistral",
+    "configuration_name": "mistral-large-4-0-261006"
+  },
+  {
+    "phrase": "deswegen schau ich jetzt auf der anderen Seite, auf der AI Seite wo das sein soll.",
+    "context": "Ich hab die jetzt nicht so bemerkt, deswegen schau ich jetzt auf der anderen Seite, auf der AI Seite wo das sein soll. Ah, da oben",
+    "tags": [
+      "visual_search: triggered_by_ai",
+      "ai_report: ich_localization"
+    ],
+    "rationale": "Person aligns their visual approach with the AI information by looking at the AI side ('auf der AI Seite'), and describes the AI's localization ('wo das sein soll' - where it should be).",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 33
+    },
+    "model": "mistralai/mistral-large-4-0",
+    "provider": "Mistral",
+    "configuration_name": "mistral-large-4-0-261006"
+  },
+  {
+    "phrase": "Ah, da oben, eigentlich ist das eindeutig.",
+    "context": "auf der AI Seite wo das sein soll. Ah, da oben, eigentlich ist das eindeutig. Ah, ja eigentlich eindeutig",
+    "tags": [
+      "interpretation: bleeding",
+      "confidence_high: secondary"
+    ],
+    "rationale": "Person interprets the abnormality as a hemorrhage and expresses high certainty implicitly through the word 'eindeutig' (clear/obvious).",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 33
+    },
+    "model": "mistralai/mistral-large-4-0",
+    "provider": "Mistral",
+    "configuration_name": "mistral-large-4-0-261006"
+  },
+  {
+    "phrase": "Ah, ja eigentlich eindeutig, ich habe mehr auf die Mitte geguckt und jetzt nicht gesehen.",
+    "context": "eigentlich ist das eindeutig. Ah, ja eigentlich eindeutig, ich habe mehr auf die Mitte geguckt und jetzt nicht gesehen. Das hat jetzt geholfen",
+    "tags": [
+      "visual_search: description_of_own_approach_without_external_help",
+      "confidence_high: secondary"
+    ],
+    "rationale": "Person explicitly comments on their own search procedure ('ich habe mehr auf die Mitte geguckt' - I looked more at the middle) and expresses high certainty implicitly through 'eindeutig'.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 33
+    },
+    "model": "mistralai/mistral-large-4-0",
+    "provider": "Mistral",
+    "configuration_name": "mistral-large-4-0-261006"
+  },
+  {
+    "phrase": "Das hat jetzt geholfen",
+    "context": "ich habe mehr auf die Mitte geguckt und jetzt nicht gesehen. Das hat jetzt geholfen",
+    "tags": [
+      "reflection_of_ai: helpful"
+    ],
+    "rationale": "Person perceives the AI as helpful by stating 'Das hat jetzt geholfen' (That helped now).",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 33
+    },
+    "model": "mistralai/mistral-large-4-0",
+    "provider": "Mistral",
+    "configuration_name": "mistral-large-4-0-261006"
+  },
+  {
+    "phrase": "So, soll aber auch was da sein, schau auf meine Seite erstmal.",
+    "context": "So, soll aber auch was da sein, schau auf meine Seite erstmal. Und bis jetzt ist mir nichts aufgefallen.",
+    "tags": [
+      "visual_search: description_of_own_approach_without_external_help"
+    ],
+    "rationale": "The person explicitly comments on their own search procedure by stating they will look at their side first ('schau auf meine Seite erstmal'), while expressing an expectation to find something.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 34
+    },
+    "model": "mistralai/mistral-large-4-0",
+    "provider": "Mistral",
+    "configuration_name": "mistral-large-4-0-261006"
+  },
+  {
+    "phrase": "Und bis jetzt ist mir nichts aufgefallen.",
+    "context": "schau auf meine Seite erstmal. Und bis jetzt ist mir nichts aufgefallen. Aber das sieht so ein bisschen auffällig aus",
+    "tags": [
+      "reflection: self-monitoring"
+    ],
+    "rationale": "The person explicitly observes and comments on their own diagnostic process as it unfolds by noting that nothing has been noticed so far ('bis jetzt ist mir nichts aufgefallen').",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 34
+    },
+    "model": "mistralai/mistral-large-4-0",
+    "provider": "Mistral",
+    "configuration_name": "mistral-large-4-0-261006"
+  },
+  {
+    "phrase": "Aber das sieht so ein bisschen auffällig aus, überhaupt mhm das alles so gefüllt ist.",
+    "context": "Und bis jetzt ist mir nichts aufgefallen. Aber das sieht so ein bisschen auffällig aus, überhaupt mhm das alles so gefüllt ist.",
+    "tags": [
+      "indicator: anomaly_detected"
+    ],
+    "rationale": "The person notices an abnormality atypical for a healthy skull, describing it as conspicuous ('auffällig') and noting that the area appears filled ('das alles so gefüllt ist').",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 34
+    },
+    "model": "mistralai/mistral-large-4-0",
+    "provider": "Mistral",
+    "configuration_name": "mistral-large-4-0-261006"
+  },
+  {
+    "phrase": "Hier ist wieder keine Blutung",
+    "context": "Hier ist wieder keine Blutung, ich gucke alleine und dann auf der anderen Seite, der AI Seite.",
+    "tags": [
+      "interpretation: no_bleeding"
+    ],
+    "rationale": "The person explicitly interprets the finding as no hemorrhage ('keine Blutung').",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 35
+    },
+    "model": "mistralai/mistral-large-4-0",
+    "provider": "Mistral",
+    "configuration_name": "mistral-large-4-0-261006"
+  },
+  {
+    "phrase": "ich gucke alleine und dann auf der anderen Seite, der AI Seite",
+    "context": "Hier ist wieder keine Blutung, ich gucke alleine und dann auf der anderen Seite, der AI Seite. Es wird nichts angezeigt",
+    "tags": [
+      "visual_search: description_of_own_approach_without_external_help"
+    ],
+    "rationale": "The person explicitly comments on their own search procedure, describing the sequence of looking alone first and then at the AI side.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 35
+    },
+    "model": "mistralai/mistral-large-4-0",
+    "provider": "Mistral",
+    "configuration_name": "mistral-large-4-0-261006"
+  },
+  {
+    "phrase": "Es wird nichts angezeigt",
+    "context": "der AI Seite. Es wird nichts angezeigt, und ich kann weiter machen.",
+    "tags": [
+      "ai_report: no_ich"
+    ],
+    "rationale": "The person verbalizes that the AI is not displaying any detection, indicating the AI has not found a hemorrhage.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 35
+    },
+    "model": "mistralai/mistral-large-4-0",
+    "provider": "Mistral",
+    "configuration_name": "mistral-large-4-0-261006"
+  },
+  {
+    "phrase": "Hier sieht man schon eine Raumforderung",
+    "context": "Mhm. Hier sieht man schon eine Raumforderung, weiß jetzt nicht",
+    "tags": [
+      "indicator: anomaly_detected"
+    ],
+    "rationale": "The person identifies a 'Raumforderung' (space-occupying lesion), which is an abnormality atypical for a healthy skull.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 36
+    },
+    "model": "mistralai/mistral-large-4-0",
+    "provider": "Mistral",
+    "configuration_name": "mistral-large-4-0-261006"
+  },
+  {
+    "phrase": "weiß jetzt nicht, ob es deswegen dann...",
+    "context": "Raumforderung, weiß jetzt nicht, ob es deswegen dann... Also",
+    "tags": [
+      "reflection: diagnostic_uncertainty"
+    ],
+    "rationale": "The person expresses uncertainty ('weiß nicht') about the classification or implications of the finding.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 36
+    },
+    "model": "mistralai/mistral-large-4-0",
+    "provider": "Mistral",
+    "configuration_name": "mistral-large-4-0-261006"
+  },
+  {
+    "phrase": "Also jetzt wird keine Blutung angezeigt.",
+    "context": "dann... Also jetzt wird keine Blutung angezeigt. Ich bin mir",
+    "tags": [
+      "ai_report: no_ich"
+    ],
+    "rationale": "The person verbalizes that the AI is not showing/displaying a hemorrhage ('keine Blutung angezeigt').",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 36
+    },
+    "model": "mistralai/mistral-large-4-0",
+    "provider": "Mistral",
+    "configuration_name": "mistral-large-4-0-261006"
+  },
+  {
+    "phrase": "Ich bin mir einfach unsicher, ob es einfach nur eine Raumforderung ist, die nicht blutet",
+    "context": "angezeigt. Ich bin mir einfach unsicher, ob es einfach nur eine Raumforderung ist, die nicht blutet und deswegen",
+    "tags": [
+      "confidence_low: concrete"
+    ],
+    "rationale": "The person explicitly expresses low certainty ('Ich bin mir einfach unsicher') regarding the diagnostic process.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 36
+    },
+    "model": "mistralai/mistral-large-4-0",
+    "provider": "Mistral",
+    "configuration_name": "mistral-large-4-0-261006"
+  },
+  {
+    "phrase": "und deswegen denke ich, wahrscheinlich dann also das wahrscheinlich dann eher ein Tumor.",
+    "context": "nicht blutet und deswegen denke ich, wahrscheinlich dann also das wahrscheinlich dann eher ein Tumor. Das ist",
+    "tags": [
+      "reasoning: alternative_medical_cause",
+      "confidence_low: secondary"
+    ],
+    "rationale": "The person names a tumor as an alternative medical explanation for the finding, using 'wahrscheinlich' (probably) to indicate implicit low certainty.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 36
+    },
+    "model": "mistralai/mistral-large-4-0",
+    "provider": "Mistral",
+    "configuration_name": "mistral-large-4-0-261006"
+  },
+  {
+    "phrase": "Das ist auch ein inhomogen.",
+    "context": "eher ein Tumor. Das ist auch ein inhomogen. Ja, gehen wir",
+    "tags": [
+      "visual_search: description_of_medical_image_features"
+    ],
+    "rationale": "The person verbalizes an image characteristic ('inhomogen'/inhomogeneous) of the lesion they are examining.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 36
+    },
+    "model": "mistralai/mistral-large-4-0",
+    "provider": "Mistral",
+    "configuration_name": "mistral-large-4-0-261006"
+  },
+  {
+    "phrase": "Ja, gehen wir davon aus, dass deswegen das nicht als Blutung gezeigt wird.",
+    "context": "inhomogen. Ja, gehen wir davon aus, dass deswegen das nicht als Blutung gezeigt wird.",
+    "tags": [
+      "interpretation: no_bleeding",
+      "decision_with_ai: implicitly_agreeing_with_ai"
+    ],
+    "rationale": "The person interprets the case as having no hemorrhage ('nicht als Blutung') and implicitly agrees with the AI's assessment of no bleeding.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 36
+    },
+    "model": "mistralai/mistral-large-4-0",
+    "provider": "Mistral",
+    "configuration_name": "mistral-large-4-0-261006"
+  },
+  {
+    "phrase": "Wieder auf meiner nicht AI Seite, kuck mir das alleine an",
+    "context": "Wieder auf meiner nicht AI Seite, kuck mir das alleine an, Mittellinie, Schädelknochen, Unterschiede und merke alleine nichts.",
+    "tags": [
+      "control: make_own_judgement"
+    ],
+    "rationale": "Person explicitly states they are examining the image alone without the AI ('kuck mir das alleine an').",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 37
+    },
+    "model": "mistralai/mistral-large-4-0",
+    "provider": "Mistral",
+    "configuration_name": "mistral-large-4-0-261006"
+  },
+  {
+    "phrase": "Mittellinie, Schädelknochen, Unterschiede",
+    "context": "Wieder auf meiner nicht AI Seite, kuck mir das alleine an, Mittellinie, Schädelknochen, Unterschiede und merke alleine nichts.",
+    "tags": [
+      "visual_search: description_of_medical_image_features"
+    ],
+    "rationale": "Person verbalizes the anatomical structures (midline, skull bone) they are currently examining.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 37
+    },
+    "model": "mistralai/mistral-large-4-0",
+    "provider": "Mistral",
+    "configuration_name": "mistral-large-4-0-261006"
+  },
+  {
+    "phrase": "und merke alleine nichts",
+    "context": "Wieder auf meiner nicht AI Seite, kuck mir das alleine an, Mittellinie, Schädelknochen, Unterschiede und merke alleine nichts. Ich gucke auf der AI Seite...",
+    "tags": [
+      "indicator: no_bleeding"
+    ],
+    "rationale": "Person classifies the examined image area as unremarkable by stating they notice nothing ('merke nichts').",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 37
+    },
+    "model": "mistralai/mistral-large-4-0",
+    "provider": "Mistral",
+    "configuration_name": "mistral-large-4-0-261006"
+  },
+  {
+    "phrase": "Ich gucke auf der AI Seite",
+    "context": "...und merke alleine nichts. Ich gucke auf der AI Seite und da wird mir was angezeigt, was ich nicht gesehen hatte...",
+    "tags": [
+      "visual_search: triggered_by_ai"
+    ],
+    "rationale": "Person aligns their visual search with the AI by looking at the AI side.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 37
+    },
+    "model": "mistralai/mistral-large-4-0",
+    "provider": "Mistral",
+    "configuration_name": "mistral-large-4-0-261006"
+  },
+  {
+    "phrase": "da wird mir was angezeigt",
+    "context": "...Ich gucke auf der AI Seite und da wird mir was angezeigt, was ich nicht gesehen hatte...",
+    "tags": [
+      "ai_report: ich"
+    ],
+    "rationale": "Person verbalizes that the AI has found a hemorrhage and is displaying it ('da wird mir was angezeigt').",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 37
+    },
+    "model": "mistralai/mistral-large-4-0",
+    "provider": "Mistral",
+    "configuration_name": "mistral-large-4-0-261006"
+  },
+  {
+    "phrase": "was ich nicht gesehen hatte",
+    "context": "...und da wird mir was angezeigt, was ich nicht gesehen hatte, deswegen hat mir das auf jeden Fall sehr geholfen",
+    "tags": [
+      "reflection_of_ai: ich_not_recognized_without_ai"
+    ],
+    "rationale": "Person indicates they would not have recognized the hemorrhage without the AI ('was ich nicht gesehen hatte').",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 37
+    },
+    "model": "mistralai/mistral-large-4-0",
+    "provider": "Mistral",
+    "configuration_name": "mistral-large-4-0-261006"
+  },
+  {
+    "phrase": "deswegen hat mir das auf jeden Fall sehr geholfen",
+    "context": "...was ich nicht gesehen hatte, deswegen hat mir das auf jeden Fall sehr geholfen",
+    "tags": [
+      "reflection_of_ai: helpful"
+    ],
+    "rationale": "Person explicitly states that the AI was very helpful ('hat mir das auf jeden Fall sehr geholfen').",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 37
+    },
+    "model": "mistralai/mistral-large-4-0",
+    "provider": "Mistral",
+    "configuration_name": "mistral-large-4-0-261006"
+  },
+  {
+    "phrase": "Hier soll nichts sein.",
+    "context": "Hier soll nichts sein. Gucke auf meine Seite und dann auf die AI Siete und kann weiter machen",
+    "tags": [
+      "indicator: no_bleeding"
+    ],
+    "rationale": "Person classifies a specific image area as unremarkable ('there should be nothing here').",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 38
+    },
+    "model": "mistralai/mistral-large-4-0",
+    "provider": "Mistral",
+    "configuration_name": "mistral-large-4-0-261006"
+  },
+  {
+    "phrase": "Gucke auf meine Seite und dann auf die AI Siete und kann weiter machen",
+    "context": "Hier soll nichts sein. Gucke auf meine Seite und dann auf die AI Siete und kann weiter machen",
+    "tags": [
+      "visual_search: description_of_own_approach_without_external_help"
+    ],
+    "rationale": "Person explicitly comments on their own search procedure of comparing their side with the AI side before continuing.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 38
+    },
+    "model": "mistralai/mistral-large-4-0",
+    "provider": "Mistral",
+    "configuration_name": "mistral-large-4-0-261006"
+  },
+  {
+    "phrase": "Probier ich auch selber erstmal zu gucken",
+    "context": "Probier ich auch selber erstmal zu gucken und seh das die, sieht so aus, alswäre die Mittellinie verschoben",
+    "tags": [
+      "visual_search: description_of_own_approach_without_external_help"
+    ],
+    "rationale": "The person explicitly comments on their own search procedure by stating they want to look themselves first before considering the AI.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 39
+    },
+    "model": "mistralai/mistral-large-4-0",
+    "provider": "Mistral",
+    "configuration_name": "mistral-large-4-0-261006"
+  },
+  {
+    "phrase": "und seh das die, sieht so aus, alswäre die Mittellinie verschoben",
+    "context": "Probier ich auch selber erstmal zu gucken und seh das die, sieht so aus, alswäre die Mittellinie verschoben, aber … ich finde der ventrikel sieht auch nicht so",
+    "tags": [
+      "indicator: anomaly_detected"
+    ],
+    "rationale": "The person notices an abnormality (shifted midline) that is atypical for a healthy skull.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 39
+    },
+    "model": "mistralai/mistral-large-4-0",
+    "provider": "Mistral",
+    "configuration_name": "mistral-large-4-0-261006"
+  },
+  {
+    "phrase": "aber … ich finde der ventrikel sieht auch nicht so ähm weiß ich nicht, gleich aus",
+    "context": "alswäre die Mittellinie verschoben, aber … ich finde der ventrikel sieht auch nicht so ähm weiß ich nicht, gleich aus. Ich hätte die Blutung nicht gefunden",
+    "tags": [
+      "reflection: diagnostic_uncertainty"
+    ],
+    "rationale": "The person expresses uncertainty ('weiß ich nicht') while assessing whether the ventricle appears abnormal or asymmetrical.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 39
+    },
+    "model": "mistralai/mistral-large-4-0",
+    "provider": "Mistral",
+    "configuration_name": "mistral-large-4-0-261006"
+  },
+  {
+    "phrase": "Ich hätte die Blutung nicht gefunden",
+    "context": "gleich aus. Ich hätte die Blutung nicht gefunden, gucke ich auf der AI Siete und da wird mir das hier angezeigt",
+    "tags": [
+      "reflection_of_ai: ich_not_recognized_without_ai"
+    ],
+    "rationale": "The person explicitly states they would not have recognized the hemorrhage without the AI's assistance.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 39
+    },
+    "model": "mistralai/mistral-large-4-0",
+    "provider": "Mistral",
+    "configuration_name": "mistral-large-4-0-261006"
+  },
+  {
+    "phrase": "gucke ich auf der AI Siete und da wird mir das hier angezeigt",
+    "context": "Ich hätte die Blutung nicht gefunden, gucke ich auf der AI Siete und da wird mir das hier angezeigt, das hätte ich jetzt nicht gesehen",
+    "tags": [
+      "ai_report: ich"
+    ],
+    "rationale": "The person verbalizes that the AI has found and is showing the hemorrhage ('wird mir das hier angezeigt').",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 39
+    },
+    "model": "mistralai/mistral-large-4-0",
+    "provider": "Mistral",
+    "configuration_name": "mistral-large-4-0-261006"
+  },
+  {
+    "phrase": "das hätte ich jetzt nicht gesehen",
+    "context": "und da wird mir das hier angezeigt, das hätte ich jetzt nicht gesehen, deswegen",
+    "tags": [
+      "reflection_of_ai: ich_not_recognized_without_ai"
+    ],
+    "rationale": "The person reiterates that they would not have seen the finding without the AI.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 39
+    },
+    "model": "mistralai/mistral-large-4-0",
+    "provider": "Mistral",
+    "configuration_name": "mistral-large-4-0-261006"
+  },
+  {
+    "phrase": "Hier sollte nichts sein",
+    "context": "Hier sollte nichts sein, ich finde es sehr schwer, dieses Bild zu interpretieren",
+    "tags": [
+      "interpretation: no_bleeding"
+    ],
+    "rationale": "Person interprets the area as having no hemorrhage, stating that nothing should be present.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 40
+    },
+    "model": "mistralai/mistral-large-4-0",
+    "provider": "Mistral",
+    "configuration_name": "mistral-large-4-0-261006"
+  },
+  {
+    "phrase": "ich finde es sehr schwer, dieses Bild zu interpretieren",
+    "context": "Hier sollte nichts sein, ich finde es sehr schwer, dieses Bild zu interpretieren, aber deswegen hoffentlich",
+    "tags": [
+      "awareness_of_task: difficult"
+    ],
+    "rationale": "Person explicitly states that interpreting the image is very difficult.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 40
+    },
+    "model": "mistralai/mistral-large-4-0",
+    "provider": "Mistral",
+    "configuration_name": "mistral-large-4-0-261006"
+  },
+  {
+    "phrase": "aber deswegen hoffentlich mit der AI die richtige Entscheidung getroffen",
+    "context": "ich finde es sehr schwer, dieses Bild zu interpretieren, aber deswegen hoffentlich mit der AI die richtige Entscheidung getroffen",
+    "tags": [
+      "confidence_high: increased_through_ai"
+    ],
+    "rationale": "Person expresses hope that the AI helped them make the correct decision, implying the AI increased their diagnostic certainty despite the task difficulty.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 40
+    },
+    "model": "mistralai/mistral-large-4-0",
+    "provider": "Mistral",
+    "configuration_name": "mistral-large-4-0-261006"
+  },
+  {
+    "phrase": "So hier sieht man schon einen Unterschied zu der Gegenseite",
+    "context": "So hier sieht man schon einen Unterschied zu der Gegenseite, ich schau mal weiter, ob das irgendwie sonst wonaders irgendwas auffälliges aussieht …",
+    "tags": [
+      "visual_search: description_of_medical_image_features"
+    ],
+    "rationale": "The person verbalizes observing a difference between the two sides of the skull, describing a specific medical image characteristic they are currently checking.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 41
+    },
+    "model": "mistralai/mistral-large-4-0",
+    "provider": "Mistral",
+    "configuration_name": "mistral-large-4-0-261006"
+  },
+  {
+    "phrase": "ich schau mal weiter, ob das irgendwie sonst wonaders irgendwas auffälliges aussieht",
+    "context": "So hier sieht man schon einen Unterschied zu der Gegenseite, ich schau mal weiter, ob das irgendwie sonst wonaders irgendwas auffälliges aussieht … Ne, ich gucke mal jetzt auf der AI Seite",
+    "tags": [
+      "visual_search: description_of_own_approach_without_external_help"
+    ],
+    "rationale": "The person explicitly comments on their own search procedure, stating their intention to look further in other areas for conspicuous findings.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 41
+    },
+    "model": "mistralai/mistral-large-4-0",
+    "provider": "Mistral",
+    "configuration_name": "mistral-large-4-0-261006"
+  },
+  {
+    "phrase": "Ne, ich gucke mal jetzt auf der AI Seite, das wird mir hier auch angezeigt",
+    "context": "… Ne, ich gucke mal jetzt auf der AI Seite, das wird mir hier auch angezeigt",
+    "tags": [
+      "visual_search: triggered_by_ai"
+    ],
+    "rationale": "The person decides to look at the AI side, indicating their visual search approach is now triggered by the AI, and notes that a finding is displayed there.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 41
+    },
+    "model": "mistralai/mistral-large-4-0",
+    "provider": "Mistral",
+    "configuration_name": "mistral-large-4-0-261006"
+  },
+  {
+    "phrase": "Gucke ich erst mal auf meine Seite.",
+    "context": "Gucke ich erst mal auf meine Seite. Habe noch nichts gemerkt, wo eine Blutung sein soll.",
+    "tags": [
+      "visual_search: description_of_own_approach_without_external_help"
+    ],
+    "rationale": "Person explicitly comments on their own search procedure by stating they first look at their side.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 42
+    },
+    "model": "mistralai/mistral-large-4-0",
+    "provider": "Mistral",
+    "configuration_name": "mistral-large-4-0-261006"
+  },
+  {
+    "phrase": "Habe noch nichts gemerkt, wo eine Blutung sein soll.",
+    "context": "Gucke ich erst mal auf meine Seite. Habe noch nichts gemerkt, wo eine Blutung sein soll. Was?",
+    "tags": [
+      "interpretation: no_bleeding"
+    ],
+    "rationale": "Person interprets the image as having no hemorrhage, stating they have not noticed anything where a hemorrhage should be.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 42
+    },
+    "model": "mistralai/mistral-large-4-0",
+    "provider": "Mistral",
+    "configuration_name": "mistral-large-4-0-261006"
+  },
+  {
+    "phrase": "Was?",
+    "context": "Habe noch nichts gemerkt, wo eine Blutung sein soll. Was? Hier wird mir dann von AI gezeigt, dass wäre eine Blutung,",
+    "tags": [
+      "paused_in_process"
+    ],
+    "rationale": "Pure filler word expressing surprise.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 42
+    },
+    "model": "mistralai/mistral-large-4-0",
+    "provider": "Mistral",
+    "configuration_name": "mistral-large-4-0-261006"
+  },
+  {
+    "phrase": "Hier wird mir dann von AI gezeigt, dass wäre eine Blutung,",
+    "context": "Was? Hier wird mir dann von AI gezeigt, dass wäre eine Blutung, das hätte ich auf keinen Fall erkannt.",
+    "tags": [
+      "ai_report: ich",
+      "ai_report: ich_localization"
+    ],
+    "rationale": "Person verbalizes that the AI has found a hemorrhage ('dass wäre eine Blutung') and describes where the AI locates it ('Hier').",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 42
+    },
+    "model": "mistralai/mistral-large-4-0",
+    "provider": "Mistral",
+    "configuration_name": "mistral-large-4-0-261006"
+  },
+  {
+    "phrase": "das hätte ich auf keinen Fall erkannt.",
+    "context": "Hier wird mir dann von AI gezeigt, dass wäre eine Blutung, das hätte ich auf keinen Fall erkannt.",
+    "tags": [
+      "reflection_of_ai: ich_not_recognized_without_ai"
+    ],
+    "rationale": "Person explicitly states they would not have recognized the hemorrhage without the AI.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 42
+    },
+    "model": "mistralai/mistral-large-4-0",
+    "provider": "Mistral",
+    "configuration_name": "mistral-large-4-0-261006"
+  },
+  {
+    "phrase": "??? Mal wieder, help wie geht das nochmal? Nein.",
+    "context": "VPN: ??? Mal wieder, help wie geht das nochmal? Nein. EXPERIMENTER: Du kannst in das, genau jetzt hast dus gefunden.",
+    "tags": [
+      "technical_conversation"
+    ],
+    "rationale": "The participant asks for help with a technical issue (VPN/tool usage) and interacts with the experimenter about how to proceed.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 43
+    },
+    "model": "mistralai/mistral-large-4-0",
+    "provider": "Mistral",
+    "configuration_name": "mistral-large-4-0-261006"
+  },
+  {
+    "phrase": "Ja, danke, ist ein bisschen besser",
+    "context": "EXPERIMENTER: Du kannst in das, genau jetzt hast dus gefunden. VPN: Ja, danke, ist ein bisschen besser, aber naja es ist sowieso hier schon die Blutung zu sehen.",
+    "tags": [
+      "technical_conversation"
+    ],
+    "rationale": "The participant acknowledges the experimenter's technical assistance and comments on the improvement of the display/tool functionality.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 43
+    },
+    "model": "mistralai/mistral-large-4-0",
+    "provider": "Mistral",
+    "configuration_name": "mistral-large-4-0-261006"
+  },
+  {
+    "phrase": "aber naja es ist sowieso hier schon die Blutung zu sehen",
+    "context": "VPN: Ja, danke, ist ein bisschen besser, aber naja es ist sowieso hier schon die Blutung zu sehen. Ist jetzt egal, aber da ist ein Saum...",
+    "tags": [
+      "interpretation: bleeding",
+      "confidence_high: secondary"
+    ],
+    "rationale": "The participant explicitly interprets the finding as a hemorrhage ('Blutung') and expresses high certainty through adverbial expressions like 'sowieso' (anyway) and 'schon' (already).",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 43
+    },
+    "model": "mistralai/mistral-large-4-0",
+    "provider": "Mistral",
+    "configuration_name": "mistral-large-4-0-261006"
+  },
+  {
+    "phrase": "Ist jetzt egal",
+    "context": "...Blutung zu sehen. Ist jetzt egal, aber da ist ein Saum, irgendwie kann grieg ich das nicht so super gut eingestellt...",
+    "tags": [
+      "reflection: self-affirmation"
+    ],
+    "rationale": "The participant reaffirms their diagnostic finding by stating that the preceding technical issue is irrelevant ('egal') because the hemorrhage is already visible.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 43
+    },
+    "model": "mistralai/mistral-large-4-0",
+    "provider": "Mistral",
+    "configuration_name": "mistral-large-4-0-261006"
+  },
+  {
+    "phrase": "aber da ist ein Saum",
+    "context": "...Ist jetzt egal, aber da ist ein Saum, irgendwie kann grieg ich das nicht so super gut eingestellt, aber das war da zu sehen",
+    "tags": [
+      "visual_search: description_of_medical_image_features"
+    ],
+    "rationale": "The participant verbalizes an image characteristic or anatomical structure they are currently observing ('Saum' - seam/margin).",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 43
+    },
+    "model": "mistralai/mistral-large-4-0",
+    "provider": "Mistral",
+    "configuration_name": "mistral-large-4-0-261006"
+  },
+  {
+    "phrase": "irgendwie kann grieg ich das nicht so super gut eingestellt",
+    "context": "...aber da ist ein Saum, irgendwie kann grieg ich das nicht so super gut eingestellt, aber das war da zu sehen",
+    "tags": [
+      "technical_conversation"
+    ],
+    "rationale": "The participant complains about technical difficulties with adjusting the image display settings ('eingestellt'), indicating a problem with the tool.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 43
+    },
+    "model": "mistralai/mistral-large-4-0",
+    "provider": "Mistral",
+    "configuration_name": "mistral-large-4-0-261006"
+  },
+  {
+    "phrase": "aber das war da zu sehen",
+    "context": "...irgendwie kann grieg ich das nicht so super gut eingestellt, aber das war da zu sehen",
+    "tags": [
+      "reflection: self-affirmation"
+    ],
+    "rationale": "The participant reaffirms their capability by confirming that the abnormality was visible despite the technical adjustment difficulties.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 43
+    },
+    "model": "mistralai/mistral-large-4-0",
+    "provider": "Mistral",
+    "configuration_name": "mistral-large-4-0-261006"
+  },
+  {
+    "phrase": "hier soll keine Blutung sein",
+    "context": "So, fangen wieder von vorne an und hier soll keine Blutung sein. Guck direkt schon mit der AI Seite und es wird mir nichts angezeigt, sieht auch unauffällig aus.",
+    "tags": [
+      "interpretation: no_bleeding"
+    ],
+    "rationale": "The person interprets the current image area as having no hemorrhage, stating that there should be no bleeding here.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 44
+    },
+    "model": "mistralai/mistral-large-4-0",
+    "provider": "Mistral",
+    "configuration_name": "mistral-large-4-0-261006"
+  },
+  {
+    "phrase": "Guck direkt schon mit der AI Seite",
+    "context": "So, fangen wieder von vorne an und hier soll keine Blutung sein. Guck direkt schon mit der AI Seite und es wird mir nichts angezeigt, sieht auch unauffällig aus.",
+    "tags": [
+      "visual_search: triggered_by_ai"
+    ],
+    "rationale": "The person aligns their visual approach with the AI by looking at the AI side first, indicating their search is triggered by the AI information.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 44
+    },
+    "model": "mistralai/mistral-large-4-0",
+    "provider": "Mistral",
+    "configuration_name": "mistral-large-4-0-261006"
+  },
+  {
+    "phrase": "es wird mir nichts angezeigt",
+    "context": "So, fangen wieder von vorne an und hier soll keine Blutung sein. Guck direkt schon mit der AI Seite und es wird mir nichts angezeigt, sieht auch unauffällig aus.",
+    "tags": [
+      "ai_report: no_ich"
+    ],
+    "rationale": "The person verbalizes that the AI has not found a hemorrhage, as nothing is displayed to them.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 44
+    },
+    "model": "mistralai/mistral-large-4-0",
+    "provider": "Mistral",
+    "configuration_name": "mistral-large-4-0-261006"
+  },
+  {
+    "phrase": "sieht auch unauffällig aus",
+    "context": "So, fangen wieder von vorne an und hier soll keine Blutung sein. Guck direkt schon mit der AI Seite und es wird mir nichts angezeigt, sieht auch unauffällig aus.",
+    "tags": [
+      "indicator: no_bleeding"
+    ],
+    "rationale": "The person classifies the specific image area as unremarkable, indicating no bleeding is present.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 44
+    },
+    "model": "mistralai/mistral-large-4-0",
+    "provider": "Mistral",
+    "configuration_name": "mistral-large-4-0-261006"
+  },
+  {
+    "phrase": "hier ist alles anscheined auch unaufällig",
+    "context": "So, hier ist alles anscheined auch unaufällig und ich sehe auch nichts",
+    "tags": [
+      "indicator: no_bleeding"
+    ],
+    "rationale": "Person classifies the specific image area as unremarkable ('unaufällig').",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 45
+    },
+    "model": "mistralai/mistral-large-4-0",
+    "provider": "Mistral",
+    "configuration_name": "mistral-large-4-0-261006"
+  },
+  {
+    "phrase": "ich sehe auch nichts",
+    "context": "hier ist alles anscheined auch unaufällig und ich sehe auch nichts und AI sagt auch ist nichts",
+    "tags": [
+      "interpretation: no_bleeding"
+    ],
+    "rationale": "Person interprets the lack of findings as 'no hemorrhage' by stating they see nothing.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 45
+    },
+    "model": "mistralai/mistral-large-4-0",
+    "provider": "Mistral",
+    "configuration_name": "mistral-large-4-0-261006"
+  },
+  {
+    "phrase": "AI sagt auch ist nichts",
+    "context": "ich sehe auch nichts und AI sagt auch ist nichts und ich fühle mich da bestätigt",
+    "tags": [
+      "ai_report: no_ich"
+    ],
+    "rationale": "Person verbalizes that the AI has not found a hemorrhage ('AI sagt auch ist nichts').",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 45
+    },
+    "model": "mistralai/mistral-large-4-0",
+    "provider": "Mistral",
+    "configuration_name": "mistral-large-4-0-261006"
+  },
+  {
+    "phrase": "ich fühle mich da bestätigt",
+    "context": "AI sagt auch ist nichts und ich fühle mich da bestätigt",
+    "tags": [
+      "reflection_of_ai: confirmed_by_ai"
+    ],
+    "rationale": "Person feels confirmed in their assessment by the AI ('ich fühle mich da bestätigt').",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 45
+    },
+    "model": "mistralai/mistral-large-4-0",
+    "provider": "Mistral",
+    "configuration_name": "mistral-large-4-0-261006"
+  },
+  {
+    "phrase": "Ja und hier …",
+    "context": "Ja und hier … Ich weiß nicht, was dieser Unterschied zu der anderen Seiten mit den Ventrikeln ist",
+    "tags": [
+      "paused_in_process"
+    ],
+    "rationale": "Filler words and pause indicating hesitation before continuing the diagnostic thought process.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 46
+    },
+    "model": "mistralai/mistral-large-4-0",
+    "provider": "Mistral",
+    "configuration_name": "mistral-large-4-0-261006"
+  },
+  {
+    "phrase": "Ich weiß nicht, was dieser Unterschied zu der anderen Seiten mit den Ventrikeln ist",
+    "context": "Ja und hier … Ich weiß nicht, was dieser Unterschied zu der anderen Seiten mit den Ventrikeln ist, AI sagt, dass ist keine Blutung",
+    "tags": [
+      "reflection: diagnostic_uncertainty"
+    ],
+    "rationale": "Person expresses uncertainty about classifying the observed difference compared to the ventricles on other sides.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 46
+    },
+    "model": "mistralai/mistral-large-4-0",
+    "provider": "Mistral",
+    "configuration_name": "mistral-large-4-0-261006"
+  },
+  {
+    "phrase": "AI sagt, dass ist keine Blutung",
+    "context": "Ich weiß nicht, was dieser Unterschied zu der anderen Seiten mit den Ventrikeln ist, AI sagt, dass ist keine Blutung, ich weiß es nicht.",
+    "tags": [
+      "ai_report: no_ich"
+    ],
+    "rationale": "Person verbalizes that the AI has assessed the finding as not being a hemorrhage.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 46
+    },
+    "model": "mistralai/mistral-large-4-0",
+    "provider": "Mistral",
+    "configuration_name": "mistral-large-4-0-261006"
+  },
+  {
+    "phrase": "ich weiß es nicht",
+    "context": "AI sagt, dass ist keine Blutung, ich weiß es nicht. Ich sag mal keine Blutung",
+    "tags": [
+      "confidence_low: concrete"
+    ],
+    "rationale": "Person explicitly expresses low certainty and uncertainty regarding the diagnostic assessment.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 46
+    },
+    "model": "mistralai/mistral-large-4-0",
+    "provider": "Mistral",
+    "configuration_name": "mistral-large-4-0-261006"
+  },
+  {
+    "phrase": "Ich sag mal keine Blutung",
+    "context": "ich weiß es nicht. Ich sag mal keine Blutung, aber ich bin mir nicht so sicher",
+    "tags": [
+      "interpretation: no_bleeding",
+      "confidence_low: secondary"
+    ],
+    "rationale": "Person tentatively interprets the finding as no hemorrhage, with implicit low certainty indicated by the modal particle 'mal'.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 46
+    },
+    "model": "mistralai/mistral-large-4-0",
+    "provider": "Mistral",
+    "configuration_name": "mistral-large-4-0-261006"
+  },
+  {
+    "phrase": "aber ich bin mir nicht so sicher",
+    "context": "Ich sag mal keine Blutung, aber ich bin mir nicht so sicher",
+    "tags": [
+      "confidence_low: concrete"
+    ],
+    "rationale": "Person explicitly states they are not very certain about their assessment.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 46
+    },
+    "model": "mistralai/mistral-large-4-0",
+    "provider": "Mistral",
+    "configuration_name": "mistral-large-4-0-261006"
+  },
+  {
+    "phrase": "So ich guck erstmal wieder auf meine Seite, ohne AI erstmal und ob mir irgendwas auffällt.",
+    "context": "So ich guck erstmal wieder auf meine Seite, ohne AI erstmal und ob mir irgendwas auffällt. Beidseiten …",
+    "tags": [
+      "visual_search: description_of_own_approach_without_external_help"
+    ],
+    "rationale": "The person explicitly describes their own search procedure, stating they will first look at their side without the AI to see if they notice anything.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 47
+    },
+    "model": "mistralai/mistral-large-4-0",
+    "provider": "Mistral",
+    "configuration_name": "mistral-large-4-0-261006"
+  },
+  {
+    "phrase": "Beidseiten … Das war es noch nicht …",
+    "context": "ob mir irgendwas auffällt. Beidseiten … Das war es noch nicht … Vielleicht das hier …",
+    "tags": [
+      "visual_search: description_of_medical_image_features"
+    ],
+    "rationale": "The person verbalizes looking at both sides (anatomical structures) of the image and notes that nothing was found there yet.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 47
+    },
+    "model": "mistralai/mistral-large-4-0",
+    "provider": "Mistral",
+    "configuration_name": "mistral-large-4-0-261006"
+  },
+  {
+    "phrase": "Vielleicht das hier …",
+    "context": "Das war es noch nicht … Vielleicht das hier … Ich guck mal auf der AI Seite",
+    "tags": [
+      "reflection: diagnostic_uncertainty",
+      "confidence_low: secondary"
+    ],
+    "rationale": "The word 'Vielleicht' (perhaps) indicates implicit low certainty, and the person expresses uncertainty about whether the indicated area is a finding.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 47
+    },
+    "model": "mistralai/mistral-large-4-0",
+    "provider": "Mistral",
+    "configuration_name": "mistral-large-4-0-261006"
+  },
+  {
+    "phrase": "Ich guck mal auf der AI Seite, ob mir das hier mit angezeigt wird …",
+    "context": "Vielleicht das hier … Ich guck mal auf der AI Seite, ob mir das hier mit angezeigt wird … Ist bei der AI einfach nicht",
+    "tags": [
+      "control: relying_on_ai"
+    ],
+    "rationale": "The person relies on the AI during the visual search by checking the AI side to see if the suspected finding is displayed there.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 47
+    },
+    "model": "mistralai/mistral-large-4-0",
+    "provider": "Mistral",
+    "configuration_name": "mistral-large-4-0-261006"
+  },
+  {
+    "phrase": "Ist bei der AI einfach nicht",
+    "context": "ob mir das hier mit angezeigt wird … Ist bei der AI einfach nicht, ah da ja",
+    "tags": [
+      "ai_report: no_ich"
+    ],
+    "rationale": "The person verbalizes that the AI does not show a hemorrhage (or any finding) at the location in question.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 47
+    },
+    "model": "mistralai/mistral-large-4-0",
+    "provider": "Mistral",
+    "configuration_name": "mistral-large-4-0-261006"
+  },
+  {
+    "phrase": "ah da ja, dass könnte fast",
+    "context": "Ist bei der AI einfach nicht, ah da ja, dass könnte fast",
+    "tags": [
+      "indicator: anomaly_detected",
+      "confidence_low: secondary"
+    ],
+    "rationale": "The exclamation 'ah da ja' indicates the person notices an abnormality, while 'könnte fast' (could almost) expresses implicit low certainty about the classification.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 47
+    },
+    "model": "mistralai/mistral-large-4-0",
+    "provider": "Mistral",
+    "configuration_name": "mistral-large-4-0-261006"
+  },
+  {
+    "phrase": "Und hier soll auch nichts sein",
+    "context": "Und hier soll auch nichts sein, schau auf meine Seite ohne AI an, ich seh auch keine Asymetrien, Unterschiede und dann",
+    "tags": [
+      "interpretation: no_bleeding"
+    ],
+    "rationale": "Person interprets the area as having no hemorrhage by stating 'nichts sein' (nothing there).",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 48
+    },
+    "model": "mistralai/mistral-large-4-0",
+    "provider": "Mistral",
+    "configuration_name": "mistral-large-4-0-261006"
+  },
+  {
+    "phrase": "schau auf meine Seite ohne AI an",
+    "context": "Und hier soll auch nichts sein, schau auf meine Seite ohne AI an, ich seh auch keine Asymetrien, Unterschiede und dann",
+    "tags": [
+      "control: make_own_judgement"
+    ],
+    "rationale": "Person explicitly refers to examining the side without AI, indicating they are making their own assessment independent of the AI's input.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 48
+    },
+    "model": "mistralai/mistral-large-4-0",
+    "provider": "Mistral",
+    "configuration_name": "mistral-large-4-0-261006"
+  },
+  {
+    "phrase": "ich seh auch keine Asymetrien, Unterschiede",
+    "context": "Und hier soll auch nichts sein, schau auf meine Seite ohne AI an, ich seh auch keine Asymetrien, Unterschiede und dann",
+    "tags": [
+      "indicator: no_bleeding"
+    ],
+    "rationale": "Person classifies the specific image area as unremarkable by noting the absence of asymmetries and differences.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 48
+    },
+    "model": "mistralai/mistral-large-4-0",
+    "provider": "Mistral",
+    "configuration_name": "mistral-large-4-0-261006"
+  },
+  {
+    "phrase": "und dann",
+    "context": "Und hier soll auch nichts sein, schau auf meine Seite ohne AI an, ich seh auch keine Asymetrien, Unterschiede und dann",
+    "tags": [
+      "paused_in_process"
+    ],
+    "rationale": "Filler words indicating a pause in the diagnostic process.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 48
+    },
+    "model": "mistralai/mistral-large-4-0",
+    "provider": "Mistral",
+    "configuration_name": "mistral-large-4-0-261006"
+  },
+  {
+    "phrase": "Hier sieht man schon ein Ventrikel und überhaupt hier eine große Blutung",
+    "context": "Hier sieht man schon ein Ventrikel und überhaupt hier eine große Blutung, ich bräuchte jetzt, muss schau trotzdem von vorne an",
+    "tags": [
+      "interpretation: bleeding"
+    ],
+    "rationale": "Person explicitly identifies and interprets the abnormality as a large hemorrhage (Blutung).",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 49
+    },
+    "model": "mistralai/mistral-large-4-0",
+    "provider": "Mistral",
+    "configuration_name": "mistral-large-4-0-261006"
+  },
+  {
+    "phrase": "ich bräuchte jetzt, muss schau trotzdem von vorne an",
+    "context": "eine große Blutung, ich bräuchte jetzt, muss schau trotzdem von vorne an, mal das der Ventrikel da auffällig aussieht",
+    "tags": [
+      "visual_search: description_of_own_approach_without_external_help"
+    ],
+    "rationale": "Person describes their own search procedure, stating they need to look from the front again.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 49
+    },
+    "model": "mistralai/mistral-large-4-0",
+    "provider": "Mistral",
+    "configuration_name": "mistral-large-4-0-261006"
+  },
+  {
+    "phrase": "mal das der Ventrikel da auffällig aussieht, also da eineengt und die Blutung hat man hier gesehen",
+    "context": "von vorne an, mal das der Ventrikel da auffällig aussieht, also da eineengt und die Blutung hat man hier gesehen. Ich hab das jetzt",
+    "tags": [
+      "interpretation: description_bleeding"
+    ],
+    "rationale": "Person describes the hemorrhage in detail, noting the ventricle appears conspicuous and narrowed, and confirms the hemorrhage was seen at this location.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 49
+    },
+    "model": "mistralai/mistral-large-4-0",
+    "provider": "Mistral",
+    "configuration_name": "mistral-large-4-0-261006"
+  },
+  {
+    "phrase": "Ich hab das jetzt nicht gebraucht und fertig.",
+    "context": "die Blutung hat man hier gesehen. Ich hab das jetzt nicht gebraucht und fertig.",
+    "tags": [
+      "reflection_of_ai: ich_recognized_without_ai"
+    ],
+    "rationale": "Person indicates they did not need the AI assistance to recognize the hemorrhage, implying they would have found it without the AI.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 49
+    },
+    "model": "mistralai/mistral-large-4-0",
+    "provider": "Mistral",
+    "configuration_name": "mistral-large-4-0-261006"
+  }
+]

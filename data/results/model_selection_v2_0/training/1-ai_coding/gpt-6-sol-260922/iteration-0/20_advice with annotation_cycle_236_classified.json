@@ -1,0 +1,3327 @@
+[
+  {
+    "phrase": "Auch hier ist es symetrisch",
+    "context": "Auch hier ist es symetrisch … und …",
+    "tags": [
+      "visual_search: description_of_medical_image_features"
+    ],
+    "rationale": "The speaker describes symmetry as a feature of the image they are examining.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 9
+    },
+    "model": "openai/gpt-6-sol",
+    "provider": "OpenAI",
+    "configuration_name": "gpt-6-sol-260922"
+  },
+  {
+    "phrase": "Mittellienie mitte",
+    "context": "So, Mittellienie mitte wir habe hir alles symetrich",
+    "tags": [
+      "visual_search: description_of_medical_image_features"
+    ],
+    "rationale": "The speaker describes the position of the midline in the image.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 5
+    },
+    "model": "openai/gpt-6-sol",
+    "provider": "OpenAI",
+    "configuration_name": "gpt-6-sol-260922"
+  },
+  {
+    "phrase": "wir habe hir alles symetrich und keine Signalverstärkung",
+    "context": "Mittellienie mitte wir habe hir alles symetrich und keine Signalverstärkung, ja",
+    "tags": [
+      "indicator: no_bleeding"
+    ],
+    "rationale": "The speaker describes the area as symmetric and without an abnormal signal.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 5
+    },
+    "model": "openai/gpt-6-sol",
+    "provider": "OpenAI",
+    "configuration_name": "gpt-6-sol-260922"
+  },
+  {
+    "phrase": "Fang ich wieder von vorne an",
+    "context": "Fang ich wieder von vorne an und schau auf die Mittellinie.",
+    "tags": [
+      "control: control_repeat"
+    ],
+    "rationale": "The speaker says they are starting the inspection over.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 8
+    },
+    "model": "openai/gpt-6-sol",
+    "provider": "OpenAI",
+    "configuration_name": "gpt-6-sol-260922"
+  },
+  {
+    "phrase": "schau auf die Mittellinie. Und auf die Ränder vom Knochen",
+    "context": "und schau auf die Mittellinie. Und auf die Ränder vom Knochen, es sind aber keine Unterschiede zu sehen.",
+    "tags": [
+      "visual_search: description_of_medical_image_features"
+    ],
+    "rationale": "The speaker names the anatomical features they are checking.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 8
+    },
+    "model": "openai/gpt-6-sol",
+    "provider": "OpenAI",
+    "configuration_name": "gpt-6-sol-260922"
+  },
+  {
+    "phrase": "es sind aber keine Unterschiede zu sehen",
+    "context": "Und auf die Ränder vom Knochen, es sind aber keine Unterschiede zu sehen.",
+    "tags": [
+      "indicator: no_bleeding"
+    ],
+    "rationale": "The speaker reports no visible abnormality in the area being examined.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 8
+    },
+    "model": "openai/gpt-6-sol",
+    "provider": "OpenAI",
+    "configuration_name": "gpt-6-sol-260922"
+  },
+  {
+    "phrase": "Fang ich wieder so an",
+    "context": "Fang ich wieder so an, Mittellinien ist in der Mitte",
+    "tags": [
+      "visual_search: description_of_own_approach_without_external_help"
+    ],
+    "rationale": "The speaker introduces their own examination approach.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 4
+    },
+    "model": "openai/gpt-6-sol",
+    "provider": "OpenAI",
+    "configuration_name": "gpt-6-sol-260922"
+  },
+  {
+    "phrase": "Mittellinien ist in der Mitte, es sind keine Verschiebungen, Ventrikel sehen auch gleich aus",
+    "context": "Fang ich wieder so an, Mittellinien ist in der Mitte, es sind keine Verschiebungen, Ventrikel sehen auch gleich aus … äh ja",
+    "tags": [
+      "visual_search: description_of_medical_image_features"
+    ],
+    "rationale": "The speaker describes the midline and ventricles while reviewing the image.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 4
+    },
+    "model": "openai/gpt-6-sol",
+    "provider": "OpenAI",
+    "configuration_name": "gpt-6-sol-260922"
+  },
+  {
+    "phrase": "hier sieht man das schon deutlich da an der Aufhellung",
+    "context": "Ventrikel sehen auch gleich aus … äh ja, hier sieht man das schon deutlich da an der Aufhellung im Vergleich zu dem anderen Seite",
+    "tags": [
+      "indicator: anomaly_detected"
+    ],
+    "rationale": "The speaker points out a conspicuous area of altered brightness without identifying it as a hemorrhage.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 4
+    },
+    "model": "openai/gpt-6-sol",
+    "provider": "OpenAI",
+    "configuration_name": "gpt-6-sol-260922"
+  },
+  {
+    "phrase": "im Vergleich zu dem anderen Seite ist eher nichts auch",
+    "context": "hier sieht man das schon deutlich da an der Aufhellung im Vergleich zu dem anderen Seite ist eher nichts auch. Mhm",
+    "tags": [
+      "indicator: no_bleeding"
+    ],
+    "rationale": "The speaker describes the corresponding area on the other side as showing no comparable finding.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 4
+    },
+    "model": "openai/gpt-6-sol",
+    "provider": "OpenAI",
+    "configuration_name": "gpt-6-sol-260922"
+  },
+  {
+    "phrase": "So, fangen wir wieder oben an",
+    "context": "So, fangen wir wieder oben an … und hier sieht man auch erstmal",
+    "tags": [
+      "control: control_repeat"
+    ],
+    "rationale": "The speaker returns to the top of the image to examine it again.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 7
+    },
+    "model": "openai/gpt-6-sol",
+    "provider": "OpenAI",
+    "configuration_name": "gpt-6-sol-260922"
+  },
+  {
+    "phrase": "hier sieht man auch erstmal, mhm keine Veränderung",
+    "context": "fangen wir wieder oben an … und hier sieht man auch erstmal, mhm keine Veränderung. Ich gucke mal",
+    "tags": [
+      "indicator: no_bleeding"
+    ],
+    "rationale": "The speaker describes the area currently viewed as unremarkable.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 7
+    },
+    "model": "openai/gpt-6-sol",
+    "provider": "OpenAI",
+    "configuration_name": "gpt-6-sol-260922"
+  },
+  {
+    "phrase": "Ich gucke mal, beidseitig",
+    "context": "keine Veränderung. Ich gucke mal, beidseitig, aber … ah ja",
+    "tags": [
+      "visual_search: description_of_own_approach_without_external_help"
+    ],
+    "rationale": "The speaker states that they are checking both sides.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 7
+    },
+    "model": "openai/gpt-6-sol",
+    "provider": "OpenAI",
+    "configuration_name": "gpt-6-sol-260922"
+  },
+  {
+    "phrase": "auf der Seite ist ein Saum",
+    "context": "ah ja, da ist der, auf der Seite ist ein Saum, was auf eine Blutung hindeuten könnte",
+    "tags": [
+      "indicator: anomaly_detected"
+    ],
+    "rationale": "The speaker notices a rim-like finding on one side.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 7
+    },
+    "model": "openai/gpt-6-sol",
+    "provider": "OpenAI",
+    "configuration_name": "gpt-6-sol-260922"
+  },
+  {
+    "phrase": "was auf eine Blutung hindeuten könnte",
+    "context": "auf der Seite ist ein Saum, was auf eine Blutung hindeuten könnte, oder bestimmt hindeutet",
+    "tags": [
+      "interpretation: bleeding",
+      "confidence_low: secondary"
+    ],
+    "rationale": "The speaker interprets the finding as a possible hemorrhage, using tentative wording.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 7
+    },
+    "model": "openai/gpt-6-sol",
+    "provider": "OpenAI",
+    "configuration_name": "gpt-6-sol-260922"
+  },
+  {
+    "phrase": "oder bestimmt hindeutet",
+    "context": "was auf eine Blutung hindeuten könnte, oder bestimmt hindeutet.",
+    "tags": [
+      "reflection: self-correction",
+      "confidence_high: secondary"
+    ],
+    "rationale": "The speaker revises the tentative assessment to a more certain one.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 7
+    },
+    "model": "openai/gpt-6-sol",
+    "provider": "OpenAI",
+    "configuration_name": "gpt-6-sol-260922"
+  },
+  {
+    "phrase": "So, hier fange ich auch wieder von vorne an.",
+    "context": "So, hier fange ich auch wieder von vorne an. Sieht bis jetzt alles symmetrisch aus",
+    "tags": [
+      "visual_search: description_of_own_approach_without_external_help"
+    ],
+    "rationale": "The speaker describes restarting their examination of the images.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 3
+    },
+    "model": "openai/gpt-6-sol",
+    "provider": "OpenAI",
+    "configuration_name": "gpt-6-sol-260922"
+  },
+  {
+    "phrase": "Sieht bis jetzt alles symmetrisch aus",
+    "context": "hier fange ich auch wieder von vorne an. Sieht bis jetzt alles symmetrisch aus und ich sehe noch keine Blutung.",
+    "tags": [
+      "visual_search: description_of_medical_image_features"
+    ],
+    "rationale": "The speaker describes the symmetry of the images being examined.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 3
+    },
+    "model": "openai/gpt-6-sol",
+    "provider": "OpenAI",
+    "configuration_name": "gpt-6-sol-260922"
+  },
+  {
+    "phrase": "ich sehe noch keine Blutung",
+    "context": "Sieht bis jetzt alles symmetrisch aus und ich sehe noch keine Blutung. Hier wird mir",
+    "tags": [
+      "interpretation: no_bleeding"
+    ],
+    "rationale": "The speaker says they have not identified a hemorrhage so far.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 3
+    },
+    "model": "openai/gpt-6-sol",
+    "provider": "OpenAI",
+    "configuration_name": "gpt-6-sol-260922"
+  },
+  {
+    "phrase": "Hier wird mir, ach ja, diese Punkte angezeigt, diese Aufhellung.",
+    "context": "ich sehe noch keine Blutung. Hier wird mir, ach ja, diese Punkte angezeigt, diese Aufhellung. Das, es verschwindet",
+    "tags": [
+      "visual_search: triggered_by_ai"
+    ],
+    "rationale": "The speaker turns to marked points shown to them and examines the highlighted area.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 3
+    },
+    "model": "openai/gpt-6-sol",
+    "provider": "OpenAI",
+    "configuration_name": "gpt-6-sol-260922"
+  },
+  {
+    "phrase": "Das, es verschwindet danach",
+    "context": "diese Punkte angezeigt, diese Aufhellung. Das, es verschwindet danach aber auf der anderen Seite ist auch nichts, ja.",
+    "tags": [
+      "visual_search: triggered_by_finding"
+    ],
+    "rationale": "The speaker follows the highlighted finding and observes that it disappears.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 3
+    },
+    "model": "openai/gpt-6-sol",
+    "provider": "OpenAI",
+    "configuration_name": "gpt-6-sol-260922"
+  },
+  {
+    "phrase": "auf der anderen Seite ist auch nichts",
+    "context": "Das, es verschwindet danach aber auf der anderen Seite ist auch nichts, ja.",
+    "tags": [
+      "indicator: no_bleeding"
+    ],
+    "rationale": "The speaker describes the other side as unremarkable.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 3
+    },
+    "model": "openai/gpt-6-sol",
+    "provider": "OpenAI",
+    "configuration_name": "gpt-6-sol-260922"
+  },
+  {
+    "phrase": "Man sieht hier auch keine Knochen, ähm Defekt",
+    "context": "Man sieht hier auch keine Knochen, ähm Defekt … Kein Zeichen für eine Blutung.",
+    "tags": [
+      "visual_search: description_of_medical_image_features"
+    ],
+    "rationale": "The speaker describes what they see when checking the bone in the image.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 10
+    },
+    "model": "openai/gpt-6-sol",
+    "provider": "OpenAI",
+    "configuration_name": "gpt-6-sol-260922"
+  },
+  {
+    "phrase": "Kein Zeichen für eine Blutung.",
+    "context": "Man sieht hier auch keine Knochen, ähm Defekt … Kein Zeichen für eine Blutung.",
+    "tags": [
+      "interpretation: no_bleeding"
+    ],
+    "rationale": "The speaker concludes that there is no sign of hemorrhage.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 10
+    },
+    "model": "openai/gpt-6-sol",
+    "provider": "OpenAI",
+    "configuration_name": "gpt-6-sol-260922"
+  },
+  {
+    "phrase": "Achso ich muss das immer so machen dann.",
+    "context": "VPN: Achso ich muss das immer so machen dann. EXPERIMENTER: Ja du kannst das leider nicht übernehmen",
+    "tags": [
+      "technical_conversation"
+    ],
+    "rationale": "The speaker discusses having to repeat a display-setting step.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 1
+    },
+    "model": "openai/gpt-6-sol",
+    "provider": "OpenAI",
+    "configuration_name": "gpt-6-sol-260922"
+  },
+  {
+    "phrase": "scroll ich jetzt systematsich von oben nach untern oder unten nach oben",
+    "context": "VPN: Mhm alles gut, scroll ich jetzt systematsich von oben nach untern oder unten nach oben und gucke immer auf beiden Seiten",
+    "tags": [
+      "visual_search: description_of_own_approach_without_external_help"
+    ],
+    "rationale": "The speaker describes their systematic scrolling procedure.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 1
+    },
+    "model": "openai/gpt-6-sol",
+    "provider": "OpenAI",
+    "configuration_name": "gpt-6-sol-260922"
+  },
+  {
+    "phrase": "gucke immer auf beiden Seiten auf Knochen, auf irgenwelche Defekte",
+    "context": "oben nach untern oder unten nach oben und gucke immer auf beiden Seiten auf Knochen, auf irgenwelche Defekte da sind, die dann wo.",
+    "tags": [
+      "visual_search: description_of_medical_image_features"
+    ],
+    "rationale": "The speaker identifies the bones and possible defects as features they are checking.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 1
+    },
+    "model": "openai/gpt-6-sol",
+    "provider": "OpenAI",
+    "configuration_name": "gpt-6-sol-260922"
+  },
+  {
+    "phrase": "Aber hier sieht das alles, alles symetrisch und keine Aufhellung oder so",
+    "context": "ich dann eine Blutung vermuten könnte. Aber hier sieht das alles, alles symetrisch und keine Aufhellung oder so, deswegen mhm",
+    "tags": [
+      "indicator: no_bleeding"
+    ],
+    "rationale": "The speaker describes the inspected area as symmetrical and without a suspicious brightening.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 1
+    },
+    "model": "openai/gpt-6-sol",
+    "provider": "OpenAI",
+    "configuration_name": "gpt-6-sol-260922"
+  },
+  {
+    "phrase": "deswegen mhm das hilft mir wirklich zu sagen, das das wirklich keiner ist",
+    "context": "alles symetrisch und keine Aufhellung oder so, deswegen mhm das hilft mir wirklich zu sagen, das das wirklich keiner ist Ich würde schneller einfach durchgehen.",
+    "tags": [
+      "interpretation: no_bleeding"
+    ],
+    "rationale": "Referring back to the suspected hemorrhage, the speaker concludes that there is none.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 1
+    },
+    "model": "openai/gpt-6-sol",
+    "provider": "OpenAI",
+    "configuration_name": "gpt-6-sol-260922"
+  },
+  {
+    "phrase": "Ich würde schneller einfach durchgehen.",
+    "context": "das das wirklich keiner ist Ich würde schneller einfach durchgehen.",
+    "tags": [
+      "visual_search: description_of_own_approach_without_external_help"
+    ],
+    "rationale": "The speaker describes how they would proceed with the image review.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 1
+    },
+    "model": "openai/gpt-6-sol",
+    "provider": "OpenAI",
+    "configuration_name": "gpt-6-sol-260922"
+  },
+  {
+    "phrase": "normal fange ich immer irgwendwie von oben oder von untern an, dass ich nichts verpasse.",
+    "context": "Mhm, ja normal fange ich immer irgwendwie von oben oder von untern an, dass ich nichts verpasse. Mhm Mittellinie",
+    "tags": [
+      "visual_search: description_of_own_approach_without_external_help"
+    ],
+    "rationale": "The speaker describes their usual systematic way of searching the image.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 2
+    },
+    "model": "openai/gpt-6-sol",
+    "provider": "OpenAI",
+    "configuration_name": "gpt-6-sol-260922"
+  },
+  {
+    "phrase": "Mittellinie ist in der Mitte, sehe keine Knochen ähm Brüche",
+    "context": "dass ich nichts verpasse. Mhm Mittellinie ist in der Mitte, sehe keine Knochen ähm Brüche, mhm hier zeigt",
+    "tags": [
+      "visual_search: description_of_medical_image_features"
+    ],
+    "rationale": "The speaker describes the anatomical features they are checking.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 2
+    },
+    "model": "openai/gpt-6-sol",
+    "provider": "OpenAI",
+    "configuration_name": "gpt-6-sol-260922"
+  },
+  {
+    "phrase": "hier zeigt der mir gerade ne Blutung",
+    "context": "keine Knochen ähm Brüche, mhm hier zeigt der mir gerade ne Blutung in dem Bereich, das ist",
+    "tags": [
+      "ai_report: ich"
+    ],
+    "rationale": "The speaker says the AI is showing a hemorrhage.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 2
+    },
+    "model": "openai/gpt-6-sol",
+    "provider": "OpenAI",
+    "configuration_name": "gpt-6-sol-260922"
+  },
+  {
+    "phrase": "in dem Bereich",
+    "context": "hier zeigt der mir gerade ne Blutung in dem Bereich, das ist sehr sehr dezent",
+    "tags": [
+      "ai_report: ich_localization"
+    ],
+    "rationale": "The speaker indicates the area where the AI shows the hemorrhage.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 2
+    },
+    "model": "openai/gpt-6-sol",
+    "provider": "OpenAI",
+    "configuration_name": "gpt-6-sol-260922"
+  },
+  {
+    "phrase": "das ist sehr sehr dezent",
+    "context": "ne Blutung in dem Bereich, das ist sehr sehr dezent, zumindest in meinem Bildschirm",
+    "tags": [
+      "interpretation: description_bleeding"
+    ],
+    "rationale": "The speaker describes the indicated hemorrhage as very subtle.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 2
+    },
+    "model": "openai/gpt-6-sol",
+    "provider": "OpenAI",
+    "configuration_name": "gpt-6-sol-260922"
+  },
+  {
+    "phrase": "hätte ich das auf jeden Fall nicht erkannt sonnst",
+    "context": "zumindest in meinem Bildschirm hätte ich das auf jeden Fall nicht erkannt sonnst, deswegen, ist nicht",
+    "tags": [
+      "reflection_of_ai: ich_not_recognized_without_ai"
+    ],
+    "rationale": "The speaker says they would not have recognized the finding without the AI.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 2
+    },
+    "model": "openai/gpt-6-sol",
+    "provider": "OpenAI",
+    "configuration_name": "gpt-6-sol-260922"
+  },
+  {
+    "phrase": "wo war das nochmal? ... Da angeblich",
+    "context": "deswegen, ist nicht, wo war das nochmal? ... Da angeblich, ja ich hätte",
+    "tags": [
+      "visual_search: triggered_by_ai"
+    ],
+    "rationale": "The speaker tries to locate the area indicated by the AI.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 2
+    },
+    "model": "openai/gpt-6-sol",
+    "provider": "OpenAI",
+    "configuration_name": "gpt-6-sol-260922"
+  },
+  {
+    "phrase": "ja ich hätte das nicht gesehen.",
+    "context": "wo war das nochmal? ... Da angeblich, ja ich hätte das nicht gesehen.",
+    "tags": [
+      "reflection_of_ai: ich_not_recognized_without_ai"
+    ],
+    "rationale": "The speaker reiterates that they would not have seen the finding without the AI.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 2
+    },
+    "model": "openai/gpt-6-sol",
+    "provider": "OpenAI",
+    "configuration_name": "gpt-6-sol-260922"
+  },
+  {
+    "phrase": "Das hilft einem sowohl beim Ausschluss",
+    "context": "Das hilft einem sowohl beim Ausschluss, das man ein bisschen eher auf der sichern Seite",
+    "tags": [
+      "reflection_of_ai: helpful"
+    ],
+    "rationale": "The speaker says the AI helps when ruling out a finding.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 11
+    },
+    "model": "openai/gpt-6-sol",
+    "provider": "OpenAI",
+    "configuration_name": "gpt-6-sol-260922"
+  },
+  {
+    "phrase": "das man ein bisschen eher auf der sichern Seite, dass man nichts verpasst hat",
+    "context": "beim Ausschluss, das man ein bisschen eher auf der sichern Seite, dass man nichts verpasst hat, auf jeden Fall schneller",
+    "tags": [
+      "confidence_high: increased_through_ai"
+    ],
+    "rationale": "The speaker says the assistance makes them feel more assured that they have not missed anything.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 11
+    },
+    "model": "openai/gpt-6-sol",
+    "provider": "OpenAI",
+    "configuration_name": "gpt-6-sol-260922"
+  },
+  {
+    "phrase": "auf jeden Fall schneller vorbei hier",
+    "context": "dass man nichts verpasst hat, auf jeden Fall schneller vorbei hier. Ja wann da was dabei ist",
+    "tags": [
+      "reflection_of_ai: helpful"
+    ],
+    "rationale": "The speaker describes the assistance as making the process faster.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 11
+    },
+    "model": "openai/gpt-6-sol",
+    "provider": "OpenAI",
+    "configuration_name": "gpt-6-sol-260922"
+  },
+  {
+    "phrase": "Ja wann da was dabei ist, dass man ein bisschen besser drauf achtet.",
+    "context": "auf jeden Fall schneller vorbei hier. Ja wann da was dabei ist, dass man ein bisschen besser drauf achtet.",
+    "tags": [
+      "visual_search: triggered_by_ai"
+    ],
+    "rationale": "The speaker says that when the AI indicates something, they look at it more closely.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 11
+    },
+    "model": "openai/gpt-6-sol",
+    "provider": "OpenAI",
+    "configuration_name": "gpt-6-sol-260922"
+  },
+  {
+    "phrase": "Ja schau ich wieder auf die Mittellinie und auf den Schädelknochen",
+    "context": "VPN: … Ja schau ich wieder auf die Mittellinie und auf den Schädelknochen … ich guck mir",
+    "tags": [
+      "visual_search: description_of_medical_image_features"
+    ],
+    "rationale": "The speaker identifies the anatomical features they are inspecting.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 6
+    },
+    "model": "openai/gpt-6-sol",
+    "provider": "OpenAI",
+    "configuration_name": "gpt-6-sol-260922"
+  },
+  {
+    "phrase": "ich guck mir schon auf der anderen Seite vom AI an, ob ich irgendwas verpasst hab",
+    "context": "auf den Schädelknochen … ich guck mir schon auf der anderen Seite vom AI an, ob ich irgendwas verpasst hab. Aber hier",
+    "tags": [
+      "visual_search: triggered_by_ai"
+    ],
+    "rationale": "The speaker uses the AI information to check whether they missed a finding.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 6
+    },
+    "model": "openai/gpt-6-sol",
+    "provider": "OpenAI",
+    "configuration_name": "gpt-6-sol-260922"
+  },
+  {
+    "phrase": "Aber hier wird mir nicht angezeigt, wo das ist ha? Also dieses Viereck ist jetzt nicht da. Wo die Blutung sein sollte, jetzt als Frage.",
+    "context": "ob ich irgendwas verpasst hab. Aber hier wird mir nicht angezeigt, wo das ist ha? Also dieses Viereck ist jetzt nicht da. Wo die Blutung sein sollte, jetzt als Frage. Tschuldigung. EXPERIMENTER:",
+    "tags": [
+      "technical_conversation"
+    ],
+    "rationale": "The speaker asks about a seemingly missing location marker in the display.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 6
+    },
+    "model": "openai/gpt-6-sol",
+    "provider": "OpenAI",
+    "configuration_name": "gpt-6-sol-260922"
+  },
+  {
+    "phrase": "bei diesem Bild zeigt mir das jetzt nicht an, wo das ist, ist das richtig? Ist das nur manchmal, oder?",
+    "context": "VPN: Achso, ja also bei diesem Bild zeigt mir das jetzt nicht an, wo das ist, ist das richtig? Ist das nur manchmal, oder? EXPERIMENTER: Äh",
+    "tags": [
+      "technical_conversation"
+    ],
+    "rationale": "The speaker asks the experimenter how the location indicator works.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 6
+    },
+    "model": "openai/gpt-6-sol",
+    "provider": "OpenAI",
+    "configuration_name": "gpt-6-sol-260922"
+  },
+  {
+    "phrase": "aber auch das hätte ich gar nicht gesehen",
+    "context": "VPN: Ah da, ja dankeschön, aber auch das hätte ich gar nicht gesehen. Mhm ohne AI",
+    "tags": [
+      "reflection_of_ai: ich_not_recognized_without_ai"
+    ],
+    "rationale": "After being shown the indicated finding, the speaker says they would not have seen it.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 6
+    },
+    "model": "openai/gpt-6-sol",
+    "provider": "OpenAI",
+    "configuration_name": "gpt-6-sol-260922"
+  },
+  {
+    "phrase": "ohne AI hätte ich gedacht, dass ist irgendwie einen Artefakt",
+    "context": "gar nicht gesehen. Mhm ohne AI hätte ich gedacht, dass ist irgendwie einen Artefakt, hätte ich nicht gesehen",
+    "tags": [
+      "reasoning: artifact"
+    ],
+    "rationale": "The speaker says they would have interpreted the finding as an artifact.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 6
+    },
+    "model": "openai/gpt-6-sol",
+    "provider": "OpenAI",
+    "configuration_name": "gpt-6-sol-260922"
+  },
+  {
+    "phrase": "hätte ich nicht gesehen",
+    "context": "dass ist irgendwie einen Artefakt, hätte ich nicht gesehen, finde es immernich schwer",
+    "tags": [
+      "reflection_of_ai: ich_not_recognized_without_ai"
+    ],
+    "rationale": "The speaker reiterates that they would not have detected the finding without AI.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 6
+    },
+    "model": "openai/gpt-6-sol",
+    "provider": "OpenAI",
+    "configuration_name": "gpt-6-sol-260922"
+  },
+  {
+    "phrase": "finde es immernich schwer",
+    "context": "hätte ich nicht gesehen, finde es immernich schwer, so es sieht",
+    "tags": [
+      "awareness_of_task: difficult"
+    ],
+    "rationale": "The speaker explicitly describes the task as difficult.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 6
+    },
+    "model": "openai/gpt-6-sol",
+    "provider": "OpenAI",
+    "configuration_name": "gpt-6-sol-260922"
+  },
+  {
+    "phrase": "so es sieht so aus, wie ein Artefakt irgendwie",
+    "context": "finde es immernich schwer, so es sieht so aus, wie ein Artefakt irgendwie",
+    "tags": [
+      "reasoning: artifact"
+    ],
+    "rationale": "The speaker says the finding looks like an artifact.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 6
+    },
+    "model": "openai/gpt-6-sol",
+    "provider": "OpenAI",
+    "configuration_name": "gpt-6-sol-260922"
+  },
+  {
+    "phrase": "ich will ja wissen, dass ich nichts verpasst habe.",
+    "context": "Hier kann ich aber, ich will ja wissen, dass ich nichts verpasst habe.",
+    "tags": [
+      "reflection: self-monitoring"
+    ],
+    "rationale": "The speaker comments on checking their own diagnostic process to ensure they have not missed anything.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 15
+    },
+    "model": "openai/gpt-6-sol",
+    "provider": "OpenAI",
+    "configuration_name": "gpt-6-sol-260922"
+  },
+  {
+    "phrase": "mhm",
+    "context": "Oh, oh no … mhm … oben in der Mittellinie",
+    "tags": [
+      "paused_in_process"
+    ],
+    "rationale": "A filler sound without diagnostic content.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 12
+    },
+    "model": "openai/gpt-6-sol",
+    "provider": "OpenAI",
+    "configuration_name": "gpt-6-sol-260922"
+  },
+  {
+    "phrase": "oben in der Mittellinie sieht man ein Aufhellung",
+    "context": "mhm … oben in der Mittellinie sieht man ein Aufhellung. ??? Oben ist",
+    "tags": [
+      "indicator: anomaly_detected"
+    ],
+    "rationale": "The speaker notices a bright area in the upper midline.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 12
+    },
+    "model": "openai/gpt-6-sol",
+    "provider": "OpenAI",
+    "configuration_name": "gpt-6-sol-260922"
+  },
+  {
+    "phrase": "Oben ist aber schon nichts mehr",
+    "context": "Aufhellung. ??? Oben ist aber schon nichts mehr, aber da ist was auffälliges dran",
+    "tags": [
+      "visual_search: description_of_medical_image_features"
+    ],
+    "rationale": "The speaker describes what is visible in the upper part of the image without explicitly ruling out bleeding.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 12
+    },
+    "model": "openai/gpt-6-sol",
+    "provider": "OpenAI",
+    "configuration_name": "gpt-6-sol-260922"
+  },
+  {
+    "phrase": "aber da ist was auffälliges dran",
+    "context": "Oben ist aber schon nichts mehr, aber da ist was auffälliges dran",
+    "tags": [
+      "indicator: anomaly_detected"
+    ],
+    "rationale": "The speaker identifies something there as conspicuous or abnormal.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 12
+    },
+    "model": "openai/gpt-6-sol",
+    "provider": "OpenAI",
+    "configuration_name": "gpt-6-sol-260922"
+  },
+  {
+    "phrase": "ich probiere auf der Siete ohne AI erstmal nach was zu schauen.",
+    "context": "… So, ich probiere auf der Siete ohne AI erstmal nach was zu schauen. Und auf symetrie schauen",
+    "tags": [
+      "visual_search: description_of_own_approach_without_external_help"
+    ],
+    "rationale": "The person describes starting their own visual search without AI.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 13
+    },
+    "model": "openai/gpt-6-sol",
+    "provider": "OpenAI",
+    "configuration_name": "gpt-6-sol-260922"
+  },
+  {
+    "phrase": "Und auf symetrie schauen, auf Knochendefekte",
+    "context": "nach was zu schauen. Und auf symetrie schauen, auf Knochendefekte und dann auf der AI Seite",
+    "tags": [
+      "visual_search: description_of_medical_image_features"
+    ],
+    "rationale": "The person names the image features they are checking.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 13
+    },
+    "model": "openai/gpt-6-sol",
+    "provider": "OpenAI",
+    "configuration_name": "gpt-6-sol-260922"
+  },
+  {
+    "phrase": "und dann auf der AI Seite, ob ich irgendwas verpasst habe",
+    "context": "auf Knochendefekte und dann auf der AI Seite, ob ich irgendwas verpasst habe, sieht nicht so aus",
+    "tags": [
+      "visual_search: triggered_by_ai"
+    ],
+    "rationale": "The person plans to check the AI side for anything missed during their initial search.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 13
+    },
+    "model": "openai/gpt-6-sol",
+    "provider": "OpenAI",
+    "configuration_name": "gpt-6-sol-260922"
+  },
+  {
+    "phrase": "sieht nicht so aus",
+    "context": "ob ich irgendwas verpasst habe, sieht nicht so aus",
+    "tags": [
+      "reflection: self-monitoring"
+    ],
+    "rationale": "The person assesses whether their own search missed anything.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 13
+    },
+    "model": "openai/gpt-6-sol",
+    "provider": "OpenAI",
+    "configuration_name": "gpt-6-sol-260922"
+  },
+  {
+    "phrase": "das habe ich auch, in dem Teil ist es so ein bisschen deutlicher zu sehen und auf der anderen Seite sehe ich das, eigentlich zeigt mir das das gleiche.",
+    "context": "… So … das habe ich auch, in dem Teil ist es so ein bisschen deutlicher zu sehen und auf der anderen Seite sehe ich das, eigentlich zeigt mir das das gleiche. … Ja, gut",
+    "tags": [
+      "visual_search: description_of_medical_image_features"
+    ],
+    "rationale": "The speaker compares how clearly a feature appears in two parts of the image, without identifying it as a hemorrhage or another abnormality.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 16
+    },
+    "model": "openai/gpt-6-sol",
+    "provider": "OpenAI",
+    "configuration_name": "gpt-6-sol-260922"
+  },
+  {
+    "phrase": "Ja hier, sieht man nichts",
+    "context": "Ja hier, sieht man nichts und AI sagt auch es ist nichts da",
+    "tags": [
+      "indicator: no_bleeding"
+    ],
+    "rationale": "The speaker describes the area they are viewing as unremarkable.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 18
+    },
+    "model": "openai/gpt-6-sol",
+    "provider": "OpenAI",
+    "configuration_name": "gpt-6-sol-260922"
+  },
+  {
+    "phrase": "AI sagt auch es ist nichts da",
+    "context": "Ja hier, sieht man nichts und AI sagt auch es ist nichts da",
+    "tags": [
+      "ai_report: no_ich",
+      "decision_with_ai: implicitly_agreeing_with_ai"
+    ],
+    "rationale": "The speaker reports that the AI found nothing, consistent with their own assessment.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 18
+    },
+    "model": "openai/gpt-6-sol",
+    "provider": "OpenAI",
+    "configuration_name": "gpt-6-sol-260922"
+  },
+  {
+    "phrase": "Ich fange so an, dass ich das alles einmal gesehen habe",
+    "context": "Ich fange so an, dass ich das alles einmal gesehen habe und schue mir die Ventrikel",
+    "tags": [
+      "visual_search: description_of_own_approach_without_external_help"
+    ],
+    "rationale": "The speaker describes their initial search procedure.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 14
+    },
+    "model": "openai/gpt-6-sol",
+    "provider": "OpenAI",
+    "configuration_name": "gpt-6-sol-260922"
+  },
+  {
+    "phrase": "schue mir die Ventrikel und die Mittellinie an, Schädelknochen und direkt dadrunter [?] Konvex oder konkav",
+    "context": "und schue mir die Ventrikel und die Mittellinie an, Schädelknochen und direkt dadrunter [?] Konvex oder konkav. Hier, hätte",
+    "tags": [
+      "visual_search: description_of_medical_image_features"
+    ],
+    "rationale": "The speaker names the anatomical features they are examining.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 14
+    },
+    "model": "openai/gpt-6-sol",
+    "provider": "OpenAI",
+    "configuration_name": "gpt-6-sol-260922"
+  },
+  {
+    "phrase": "ich habe erst mal auf der nicht AI Seite gesehen",
+    "context": "Hier, hätte ich das verpasst, ich habe erst mal auf der nicht AI Seite gesehen, und jetzt hier wird mir aber was angezeigt.",
+    "tags": [
+      "reflection: self-monitoring"
+    ],
+    "rationale": "The speaker comments on the order in which they reviewed the case.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 14
+    },
+    "model": "openai/gpt-6-sol",
+    "provider": "OpenAI",
+    "configuration_name": "gpt-6-sol-260922"
+  },
+  {
+    "phrase": "Ja, das hätte ich nicht ohne AI gemerkt.",
+    "context": "und jetzt hier wird mir aber was angezeigt. Ja, das hätte ich nicht ohne AI gemerkt.",
+    "tags": [
+      "reflection_of_ai: ich_not_recognized_without_ai"
+    ],
+    "rationale": "The speaker says they would not have noticed the finding without AI.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 14
+    },
+    "model": "openai/gpt-6-sol",
+    "provider": "OpenAI",
+    "configuration_name": "gpt-6-sol-260922"
+  },
+  {
+    "phrase": "Ok mhm",
+    "context": "Ok mhm … Hier soll nichts sein",
+    "tags": [
+      "paused_in_process"
+    ],
+    "rationale": "Brief filler words before the assessment.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 20
+    },
+    "model": "openai/gpt-6-sol",
+    "provider": "OpenAI",
+    "configuration_name": "gpt-6-sol-260922"
+  },
+  {
+    "phrase": "Hier soll nichts sein",
+    "context": "Ok mhm … Hier soll nichts sein und ich sehe auch nichts",
+    "tags": [
+      "ai_report: no_ich"
+    ],
+    "rationale": "The speaker relays that no finding is expected at this location.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 20
+    },
+    "model": "openai/gpt-6-sol",
+    "provider": "OpenAI",
+    "configuration_name": "gpt-6-sol-260922"
+  },
+  {
+    "phrase": "und ich sehe auch nichts",
+    "context": "Hier soll nichts sein und ich sehe auch nichts  und ist beides symetrisch",
+    "tags": [
+      "decision_with_ai: explicitly_agreeing_with_ai"
+    ],
+    "rationale": "The speaker explicitly says their own observation matches the reported absence of a finding.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 20
+    },
+    "model": "openai/gpt-6-sol",
+    "provider": "OpenAI",
+    "configuration_name": "gpt-6-sol-260922"
+  },
+  {
+    "phrase": "ist beides symetrisch",
+    "context": "und ich sehe auch nichts  und ist beides symetrisch und Ventrikel frei",
+    "tags": [
+      "indicator: no_bleeding"
+    ],
+    "rationale": "The speaker describes the examined areas as symmetric and unremarkable.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 20
+    },
+    "model": "openai/gpt-6-sol",
+    "provider": "OpenAI",
+    "configuration_name": "gpt-6-sol-260922"
+  },
+  {
+    "phrase": "Ventrikel frei",
+    "context": "ist beides symetrisch und Ventrikel frei. Unterhalb des Schädelknochen",
+    "tags": [
+      "indicator: no_bleeding"
+    ],
+    "rationale": "The speaker classifies the ventricles as free of an abnormal finding.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 20
+    },
+    "model": "openai/gpt-6-sol",
+    "provider": "OpenAI",
+    "configuration_name": "gpt-6-sol-260922"
+  },
+  {
+    "phrase": "Unterhalb des Schädelknochen ist alles frei",
+    "context": "Ventrikel frei. Unterhalb des Schädelknochen ist alles frei",
+    "tags": [
+      "indicator: no_bleeding"
+    ],
+    "rationale": "The speaker classifies the area beneath the skull bone as unremarkable.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 20
+    },
+    "model": "openai/gpt-6-sol",
+    "provider": "OpenAI",
+    "configuration_name": "gpt-6-sol-260922"
+  },
+  {
+    "phrase": "Hier ist jetzt alles wieder, unaufällig aus, beiden Sieten",
+    "context": "Hier ist jetzt alles wieder, unaufällig aus, beiden Sieten und AI sagt auch nichts da",
+    "tags": [
+      "indicator: no_bleeding"
+    ],
+    "rationale": "The speaker describes both sides as unremarkable.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 22
+    },
+    "model": "openai/gpt-6-sol",
+    "provider": "OpenAI",
+    "configuration_name": "gpt-6-sol-260922"
+  },
+  {
+    "phrase": "AI sagt auch nichts da",
+    "context": "unaufällig aus, beiden Sieten und AI sagt auch nichts da",
+    "tags": [
+      "ai_report: no_ich"
+    ],
+    "rationale": "The speaker says the AI does not indicate a hemorrhage there.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 22
+    },
+    "model": "openai/gpt-6-sol",
+    "provider": "OpenAI",
+    "configuration_name": "gpt-6-sol-260922"
+  },
+  {
+    "phrase": "erst mal auf der Seite ohne AI, auf Unterschiede beidseitig bei den Hemisphären",
+    "context": "Ja. Genaue, erst mal auf der Seite ohne AI, auf Unterschiede beidseitig bei den Hemisphären, und hier hab ich nichts direkt gesehen",
+    "tags": [
+      "visual_search: description_of_own_approach_without_external_help"
+    ],
+    "rationale": "The speaker describes initially comparing the hemispheres without AI assistance.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 17
+    },
+    "model": "openai/gpt-6-sol",
+    "provider": "OpenAI",
+    "configuration_name": "gpt-6-sol-260922"
+  },
+  {
+    "phrase": "hier hab ich nichts direkt gesehen",
+    "context": "bei den Hemisphären, und hier hab ich nichts direkt gesehen und auf der Seite mir aber was angezeigt",
+    "tags": [
+      "reflection: self-monitoring"
+    ],
+    "rationale": "The speaker comments on what they did not notice during their initial inspection, without explicitly concluding that there was no hemorrhage.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 17
+    },
+    "model": "openai/gpt-6-sol",
+    "provider": "OpenAI",
+    "configuration_name": "gpt-6-sol-260922"
+  },
+  {
+    "phrase": "Das hätte ich ohne so ohne so große Erfahrung nicht gemerkt.",
+    "context": "auf der Seite mir aber was angezeigt. Das hätte ich ohne so ohne so große Erfahrung nicht gemerkt. Aber wenn man das weiß",
+    "tags": [
+      "reflection: experience_limitation"
+    ],
+    "rationale": "The speaker attributes their failure to notice the finding independently to limited experience.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 17
+    },
+    "model": "openai/gpt-6-sol",
+    "provider": "OpenAI",
+    "configuration_name": "gpt-6-sol-260922"
+  },
+  {
+    "phrase": "Aber wenn man das weiß, dann sieht man es da auch doch.",
+    "context": "nicht gemerkt. Aber wenn man das weiß, dann sieht man es da auch doch.",
+    "tags": [
+      "decision_with_ai: implicitly_agreeing_with_ai"
+    ],
+    "rationale": "After being shown the finding, the speaker says they can see it too, implicitly accepting what was indicated.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 17
+    },
+    "model": "openai/gpt-6-sol",
+    "provider": "OpenAI",
+    "configuration_name": "gpt-6-sol-260922"
+  },
+  {
+    "phrase": "hier wieder Mittelinie und Schädelkalotte",
+    "context": "Mhm hier wieder Mittelinie und Schädelkalotte und da drunter auch kein Saum, ist alles ok",
+    "tags": [
+      "visual_search: description_of_medical_image_features"
+    ],
+    "rationale": "The speaker names the anatomical structures they are examining.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 26
+    },
+    "model": "openai/gpt-6-sol",
+    "provider": "OpenAI",
+    "configuration_name": "gpt-6-sol-260922"
+  },
+  {
+    "phrase": "da drunter auch kein Saum, ist alles ok",
+    "context": "Mhm hier wieder Mittelinie und Schädelkalotte und da drunter auch kein Saum, ist alles ok",
+    "tags": [
+      "indicator: no_bleeding"
+    ],
+    "rationale": "The speaker finds no concerning rim beneath the skull and classifies that area as unremarkable.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 26
+    },
+    "model": "openai/gpt-6-sol",
+    "provider": "OpenAI",
+    "configuration_name": "gpt-6-sol-260922"
+  },
+  {
+    "phrase": "Bis jetzt auch alles symetrisch und Mittellinie ist nicht verschoben",
+    "context": "… Mhm da … Bis jetzt auch alles symetrisch und Mittellinie ist nicht verschoben … Ist mir so noch nicht so direkt",
+    "tags": [
+      "indicator: no_bleeding"
+    ],
+    "rationale": "The speaker describes the symmetry and midline as unremarkable.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 19
+    },
+    "model": "openai/gpt-6-sol",
+    "provider": "OpenAI",
+    "configuration_name": "gpt-6-sol-260922"
+  },
+  {
+    "phrase": "Ist mir so noch nicht so direkt",
+    "context": "Mittellinie ist nicht verschoben … Ist mir so noch nicht so direkt mhm ja, das wär ja",
+    "tags": [
+      "reflection: self-monitoring"
+    ],
+    "rationale": "The speaker comments on what they have noticed so far.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 19
+    },
+    "model": "openai/gpt-6-sol",
+    "provider": "OpenAI",
+    "configuration_name": "gpt-6-sol-260922"
+  },
+  {
+    "phrase": "auf der Seite sieht das irgendwie die Gyri ander aus als auf dieser Seite",
+    "context": "das wär ja, … auf der Seite sieht das irgendwie die Gyri ander aus als auf dieser Seite und auf der AI Seite zeigt",
+    "tags": [
+      "indicator: anomaly_detected"
+    ],
+    "rationale": "The speaker notices that the gyri look different on one side.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 19
+    },
+    "model": "openai/gpt-6-sol",
+    "provider": "OpenAI",
+    "configuration_name": "gpt-6-sol-260922"
+  },
+  {
+    "phrase": "auf der AI Seite zeigt, wird mir auch angezeigt, dass hier was ist",
+    "context": "ander aus als auf dieser Seite und auf der AI Seite zeigt, wird mir auch angezeigt, dass hier was ist, ja",
+    "tags": [
+      "ai_report: ich_localization"
+    ],
+    "rationale": "The speaker says the AI indicates a finding at the location they are discussing.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 19
+    },
+    "model": "openai/gpt-6-sol",
+    "provider": "OpenAI",
+    "configuration_name": "gpt-6-sol-260922"
+  },
+  {
+    "phrase": "Schau erstmal wieder auf meine Seite",
+    "context": "… Schau erstmal wieder auf meine Seite … Ich seh keine Unterschied",
+    "tags": [
+      "visual_search: description_of_own_approach_without_external_help"
+    ],
+    "rationale": "The person describes returning to their own view to continue looking.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 25
+    },
+    "model": "openai/gpt-6-sol",
+    "provider": "OpenAI",
+    "configuration_name": "gpt-6-sol-260922"
+  },
+  {
+    "phrase": "Ich seh keine Unterschied",
+    "context": "Schau erstmal wieder auf meine Seite … Ich seh keine Unterschied",
+    "tags": [
+      "other"
+    ],
+    "rationale": "The person sees no difference, but the text does not establish what is being compared or whether this concerns hemorrhage.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 25
+    },
+    "model": "openai/gpt-6-sol",
+    "provider": "OpenAI",
+    "configuration_name": "gpt-6-sol-260922"
+  },
+  {
+    "phrase": "Okay.",
+    "context": "Okay. Jetzt wieder schneller, weil ich gesagt bekomme, dass da nichts da ist, und mir fällt auch nichts auf.",
+    "tags": [
+      "paused_in_process"
+    ],
+    "rationale": "A brief filler utterance.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 24
+    },
+    "model": "openai/gpt-6-sol",
+    "provider": "OpenAI",
+    "configuration_name": "gpt-6-sol-260922"
+  },
+  {
+    "phrase": "Jetzt wieder schneller",
+    "context": "Okay. Jetzt wieder schneller, weil ich gesagt bekomme, dass da nichts da ist, und mir fällt auch nichts auf.",
+    "tags": [
+      "control: relying_on_ai"
+    ],
+    "rationale": "The person speeds up their review because of the assessment they have been given.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 24
+    },
+    "model": "openai/gpt-6-sol",
+    "provider": "OpenAI",
+    "configuration_name": "gpt-6-sol-260922"
+  },
+  {
+    "phrase": "weil ich gesagt bekomme, dass da nichts da ist",
+    "context": "Okay. Jetzt wieder schneller, weil ich gesagt bekomme, dass da nichts da ist, und mir fällt auch nichts auf.",
+    "tags": [
+      "ai_report: no_ich"
+    ],
+    "rationale": "The person reports being told that no hemorrhage is present.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 24
+    },
+    "model": "openai/gpt-6-sol",
+    "provider": "OpenAI",
+    "configuration_name": "gpt-6-sol-260922"
+  },
+  {
+    "phrase": "und mir fällt auch nichts auf",
+    "context": "Okay. Jetzt wieder schneller, weil ich gesagt bekomme, dass da nichts da ist, und mir fällt auch nichts auf.",
+    "tags": [
+      "interpretation: no_bleeding"
+    ],
+    "rationale": "The person says they do not see a finding themselves.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 24
+    },
+    "model": "openai/gpt-6-sol",
+    "provider": "OpenAI",
+    "configuration_name": "gpt-6-sol-260922"
+  },
+  {
+    "phrase": "mhm",
+    "context": "Genau so hier mhm nichts was auffällig aussieht",
+    "tags": [
+      "paused_in_process"
+    ],
+    "rationale": "A filler sound during the assessment.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 27
+    },
+    "model": "openai/gpt-6-sol",
+    "provider": "OpenAI",
+    "configuration_name": "gpt-6-sol-260922"
+  },
+  {
+    "phrase": "nichts was auffällig aussieht",
+    "context": "Genau so hier mhm nichts was auffällig aussieht",
+    "tags": [
+      "indicator: no_bleeding"
+    ],
+    "rationale": "The person describes the area they are viewing as having nothing visibly abnormal.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 27
+    },
+    "model": "openai/gpt-6-sol",
+    "provider": "OpenAI",
+    "configuration_name": "gpt-6-sol-260922"
+  },
+  {
+    "phrase": "So ich guck erstmal ohne AI.",
+    "context": "So ich guck erstmal ohne AI. Ich schau auf Mittellinie",
+    "tags": [
+      "visual_search: description_of_own_approach_without_external_help"
+    ],
+    "rationale": "The speaker states that they will examine the image independently before consulting the AI.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 21
+    },
+    "model": "openai/gpt-6-sol",
+    "provider": "OpenAI",
+    "configuration_name": "gpt-6-sol-260922"
+  },
+  {
+    "phrase": "Ich schau auf Mittellinie und auf Knochendefekte.",
+    "context": "ohne AI. Ich schau auf Mittellinie und auf Knochendefekte. … Auf Unterschiede",
+    "tags": [
+      "visual_search: description_of_medical_image_features"
+    ],
+    "rationale": "The speaker names the image features they are checking.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 21
+    },
+    "model": "openai/gpt-6-sol",
+    "provider": "OpenAI",
+    "configuration_name": "gpt-6-sol-260922"
+  },
+  {
+    "phrase": "Auf Unterschiede auf beiden Seiten",
+    "context": "Knochendefekte. … Auf Unterschiede auf beiden Seiten, ist mir nichts aufgefallen",
+    "tags": [
+      "visual_search: description_of_medical_image_features"
+    ],
+    "rationale": "The speaker describes comparing the two sides of the image.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 21
+    },
+    "model": "openai/gpt-6-sol",
+    "provider": "OpenAI",
+    "configuration_name": "gpt-6-sol-260922"
+  },
+  {
+    "phrase": "ist mir nichts aufgefallen, aber sollte da was sein?",
+    "context": "Auf Unterschiede auf beiden Seiten, ist mir nichts aufgefallen, aber sollte da was sein? Ich guck jetzt",
+    "tags": [
+      "control: reflective_question"
+    ],
+    "rationale": "After finding nothing noticeable, the speaker questions whether they may have missed something.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 21
+    },
+    "model": "openai/gpt-6-sol",
+    "provider": "OpenAI",
+    "configuration_name": "gpt-6-sol-260922"
+  },
+  {
+    "phrase": "Ich guck jetzt auf der AI Seite",
+    "context": "aber sollte da was sein? Ich guck jetzt auf der AI Seite, da ist schon ah",
+    "tags": [
+      "visual_search: triggered_by_ai"
+    ],
+    "rationale": "The speaker shifts their inspection to the AI-presented view.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 21
+    },
+    "model": "openai/gpt-6-sol",
+    "provider": "OpenAI",
+    "configuration_name": "gpt-6-sol-260922"
+  },
+  {
+    "phrase": "da ist schon angeblich unter deer Schädelkalotte was",
+    "context": "da ist schon ah, da ist schon angeblich unter deer Schädelkalotte was was ich nicht gesehen",
+    "tags": [
+      "ai_report: ich_localization"
+    ],
+    "rationale": "The speaker reports that the AI indicates a finding beneath the skullcap.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 21
+    },
+    "model": "openai/gpt-6-sol",
+    "provider": "OpenAI",
+    "configuration_name": "gpt-6-sol-260922"
+  },
+  {
+    "phrase": "was ich nicht gesehen hätte unbedingt",
+    "context": "unter deer Schädelkalotte was was ich nicht gesehen hätte unbedingt.",
+    "tags": [
+      "reflection_of_ai: ich_not_recognized_without_ai"
+    ],
+    "rationale": "The speaker says they might not have noticed the AI-indicated finding on their own.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 21
+    },
+    "model": "openai/gpt-6-sol",
+    "provider": "OpenAI",
+    "configuration_name": "gpt-6-sol-260922"
+  },
+  {
+    "phrase": "ich guck erstmal auf meine Seite ohne AI",
+    "context": "Hier soll was sein, ich guck erstmal auf meine Seite ohne AI, ob irgendwelche Auffälligkeite",
+    "tags": [
+      "visual_search: description_of_own_approach_without_external_help"
+    ],
+    "rationale": "The speaker says they will inspect the image independently before using the AI.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 23
+    },
+    "model": "openai/gpt-6-sol",
+    "provider": "OpenAI",
+    "configuration_name": "gpt-6-sol-260922"
+  },
+  {
+    "phrase": "bis jetzt ist die Mittellinie in der Mitte nicht vershcoben",
+    "context": "ob irgendwelche Auffälligkeite, bis jetzt ist die Mittellinie in der Mitte nicht vershcoben, Knochendefekte",
+    "tags": [
+      "visual_search: description_of_medical_image_features"
+    ],
+    "rationale": "The speaker describes the midline feature they are checking.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 23
+    },
+    "model": "openai/gpt-6-sol",
+    "provider": "OpenAI",
+    "configuration_name": "gpt-6-sol-260922"
+  },
+  {
+    "phrase": "Knochendefekte sehe ich nicht",
+    "context": "nicht vershcoben, Knochendefekte sehe ich nicht, Unterschiede zwischen",
+    "tags": [
+      "visual_search: description_of_medical_image_features"
+    ],
+    "rationale": "The speaker reports checking the skull for bone defects.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 23
+    },
+    "model": "openai/gpt-6-sol",
+    "provider": "OpenAI",
+    "configuration_name": "gpt-6-sol-260922"
+  },
+  {
+    "phrase": "Unterschiede zwischen den beiden hemisphären kann ich auch auf die Schnelle nicht gesehen",
+    "context": "Knochendefekte sehe ich nicht, Unterschiede zwischen den beiden hemisphären kann ich auch auf die Schnelle nicht gesehen. Geh nochmal",
+    "tags": [
+      "visual_search: description_of_medical_image_features"
+    ],
+    "rationale": "The speaker describes comparing the two hemispheres during the initial inspection.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 23
+    },
+    "model": "openai/gpt-6-sol",
+    "provider": "OpenAI",
+    "configuration_name": "gpt-6-sol-260922"
+  },
+  {
+    "phrase": "Geh nochmal durch nochmal",
+    "context": "nicht gesehen. Geh nochmal durch nochmal ... ja da ist was",
+    "tags": [
+      "control: control_repeat"
+    ],
+    "rationale": "The speaker says they are going through the image again.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 23
+    },
+    "model": "openai/gpt-6-sol",
+    "provider": "OpenAI",
+    "configuration_name": "gpt-6-sol-260922"
+  },
+  {
+    "phrase": "ja da ist was, da war was helles da",
+    "context": "Geh nochmal durch nochmal ... ja da ist was, da war was helles da und bekomm ich",
+    "tags": [
+      "indicator: anomaly_detected"
+    ],
+    "rationale": "The speaker notices a bright finding that stands out.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 23
+    },
+    "model": "openai/gpt-6-sol",
+    "provider": "OpenAI",
+    "configuration_name": "gpt-6-sol-260922"
+  },
+  {
+    "phrase": "und bekomm ich auch gesagt von der AI, dass da was ist",
+    "context": "da war was helles da und bekomm ich auch gesagt von der AI, dass da was ist.",
+    "tags": [
+      "reflection_of_ai: confirmed_by_ai"
+    ],
+    "rationale": "The speaker says the AI also indicates a finding where they noticed one.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 23
+    },
+    "model": "openai/gpt-6-sol",
+    "provider": "OpenAI",
+    "configuration_name": "gpt-6-sol-260922"
+  },
+  {
+    "phrase": "Der Linke, also das linke, CT ist das roh CT, das rechte CT ist mit Anmerkungen der künstlichen Intelligenz.",
+    "context": "Okay, du hast heute pro Fall zwei CT. Der Linke, also das linke, CT ist das roh CT, das rechte CT ist mit Anmerkungen der künstlichen Intelligenz. Falls eine Blutung erkannt wurde",
+    "tags": [
+      "technical_conversation"
+    ],
+    "rationale": "The speaker explains the display setup to the participant.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 0
+    },
+    "model": "openai/gpt-6-sol",
+    "provider": "OpenAI",
+    "configuration_name": "gpt-6-sol-260922"
+  },
+  {
+    "phrase": "Dann scrolle ich wieder und schaue ob ich immer beidseitig irgendwelche Unterschiede merke.",
+    "context": "Okay, ja, danke, gut. Dann scrolle ich wieder und schaue ob ich immer beidseitig irgendwelche Unterschiede merke. Mit ähm, schauen wir immer",
+    "tags": [
+      "visual_search: description_of_own_approach_without_external_help"
+    ],
+    "rationale": "The participant describes their own search procedure.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 0
+    },
+    "model": "openai/gpt-6-sol",
+    "provider": "OpenAI",
+    "configuration_name": "gpt-6-sol-260922"
+  },
+  {
+    "phrase": "schauen wir immer auf die Symmetrie und auf der Mittellinie, ob es eine Verschiebung da ist oder nicht.",
+    "context": "Mit ähm, schauen wir immer auf die Symmetrie und auf der Mittellinie, ob es eine Verschiebung da ist oder nicht. Ähm! Ich hätte jetzt persönlich",
+    "tags": [
+      "visual_search: description_of_medical_image_features"
+    ],
+    "rationale": "The participant names the image features they are checking.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 0
+    },
+    "model": "openai/gpt-6-sol",
+    "provider": "OpenAI",
+    "configuration_name": "gpt-6-sol-260922"
+  },
+  {
+    "phrase": "Ich hätte jetzt persönlich nicht erkannt, dass es jetzt unbedingt eine Blutung da ist",
+    "context": "Ähm! Ich hätte jetzt persönlich nicht erkannt, dass es jetzt unbedingt eine Blutung da ist, weil auf der anderen Seite",
+    "tags": [
+      "reflection_of_ai: ich_not_recognized_without_ai"
+    ],
+    "rationale": "The participant says they would not personally have recognized the hemorrhage.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 0
+    },
+    "model": "openai/gpt-6-sol",
+    "provider": "OpenAI",
+    "configuration_name": "gpt-6-sol-260922"
+  },
+  {
+    "phrase": "weil auf der anderen Seite sieht es also von der Hemisphäre sieht es auch so ähnlich aus",
+    "context": "dass es jetzt unbedingt eine Blutung da ist, weil auf der anderen Seite sieht es also von der Hemisphäre sieht es auch so ähnlich aus und es wurde halt",
+    "tags": [
+      "reasoning: conclusion_findings"
+    ],
+    "rationale": "The participant uses the similar appearance of the other hemisphere to explain their doubt.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 0
+    },
+    "model": "openai/gpt-6-sol",
+    "provider": "OpenAI",
+    "configuration_name": "gpt-6-sol-260922"
+  },
+  {
+    "phrase": "und es wurde halt von der AI nicht erkannt.",
+    "context": "sieht es auch so ähnlich aus und es wurde halt von der AI nicht erkannt. Ich habe da nicht so Erfahrung",
+    "tags": [
+      "ai_report: no_ich"
+    ],
+    "rationale": "The participant says the AI did not detect the finding being discussed on the other side.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 0
+    },
+    "model": "openai/gpt-6-sol",
+    "provider": "OpenAI",
+    "configuration_name": "gpt-6-sol-260922"
+  },
+  {
+    "phrase": "Ich habe da nicht so Erfahrung mit",
+    "context": "und es wurde halt von der AI nicht erkannt. Ich habe da nicht so Erfahrung mit, aber ich hätte gedacht",
+    "tags": [
+      "reflection: experience_limitation"
+    ],
+    "rationale": "The participant refers to their limited experience.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 0
+    },
+    "model": "openai/gpt-6-sol",
+    "provider": "OpenAI",
+    "configuration_name": "gpt-6-sol-260922"
+  },
+  {
+    "phrase": "aber ich hätte gedacht, vielleicht ist es irgendwie normal, wenn es irgendwie beidseitig ist.",
+    "context": "Ich habe da nicht so Erfahrung mit, aber ich hätte gedacht, vielleicht ist es irgendwie normal, wenn es irgendwie beidseitig ist. Deswegen...",
+    "tags": [
+      "reflection: diagnostic_uncertainty",
+      "confidence_low: secondary"
+    ],
+    "rationale": "The participant tentatively considers whether the bilateral appearance is normal.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 0
+    },
+    "model": "openai/gpt-6-sol",
+    "provider": "OpenAI",
+    "configuration_name": "gpt-6-sol-260922"
+  },
+  {
+    "phrase": "Ich muss trotzdem selber erkennen, ob das also das ist, jetzt nicht.",
+    "context": "Deswegen... Ich muss trotzdem selber erkennen, ob das also das ist, jetzt nicht. Wenn das AI sagt",
+    "tags": [
+      "control: make_own_judgement"
+    ],
+    "rationale": "The participant says they still need to assess the finding themselves.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 0
+    },
+    "model": "openai/gpt-6-sol",
+    "provider": "OpenAI",
+    "configuration_name": "gpt-6-sol-260922"
+  },
+  {
+    "phrase": "Wenn das AI sagt, dass es, dass es eine Blutung da ist, muss es nicht unbedingt sein, oder?",
+    "context": "ob das also das ist, jetzt nicht. Wenn das AI sagt, dass es, dass es eine Blutung da ist, muss es nicht unbedingt sein, oder? Also, ich kenn",
+    "tags": [
+      "ai_report: ich",
+      "reflection_of_ai: distrust_in_ai"
+    ],
+    "rationale": "The participant refers to an AI indication of hemorrhage while questioning whether it must be correct.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 0
+    },
+    "model": "openai/gpt-6-sol",
+    "provider": "OpenAI",
+    "configuration_name": "gpt-6-sol-260922"
+  },
+  {
+    "phrase": "Ich kann dir nicht garantieren, dass es stimmt. Ich weiß es leider nicht.",
+    "context": "Ich hab die Studie nicht selbst desgigned. Ich kann dir nicht garantieren, dass es stimmt. Ich weiß es leider nicht. Okay, ich gehe",
+    "tags": [
+      "technical_conversation"
+    ],
+    "rationale": "The other speaker responds to the participant's question about the task and the AI result.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 0
+    },
+    "model": "openai/gpt-6-sol",
+    "provider": "OpenAI",
+    "configuration_name": "gpt-6-sol-260922"
+  },
+  {
+    "phrase": "Okay, ich gehe schon davon aus, dass es ist.",
+    "context": "Ich weiß es leider nicht. Okay, ich gehe schon davon aus, dass es ist. Hm! Ja, aber gut",
+    "tags": [
+      "interpretation: bleeding"
+    ],
+    "rationale": "In context, the participant says they assume a hemorrhage is present.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 0
+    },
+    "model": "openai/gpt-6-sol",
+    "provider": "OpenAI",
+    "configuration_name": "gpt-6-sol-260922"
+  },
+  {
+    "phrase": "Ja, aber gut, ich sage einfach ja",
+    "context": "Hm! Ja, aber gut, ich sage einfach ja, und ich bin nicht so kompetent",
+    "tags": [
+      "interpretation: bleeding"
+    ],
+    "rationale": "The participant states their affirmative decision about whether a hemorrhage is present.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 0
+    },
+    "model": "openai/gpt-6-sol",
+    "provider": "OpenAI",
+    "configuration_name": "gpt-6-sol-260922"
+  },
+  {
+    "phrase": "ich bin nicht so kompetent",
+    "context": "ich sage einfach ja, und ich bin nicht so kompetent, eben weil die andere Seite",
+    "tags": [
+      "reflection: experience_limitation"
+    ],
+    "rationale": "The participant explicitly questions their own competence.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 0
+    },
+    "model": "openai/gpt-6-sol",
+    "provider": "OpenAI",
+    "configuration_name": "gpt-6-sol-260922"
+  },
+  {
+    "phrase": "eben weil die andere Seite nicht detektiert wurde, und das sieht sehr ähnlich aus. Aber keine Ahnung.",
+    "context": "ich bin nicht so kompetent, eben weil die andere Seite nicht detektiert wurde, und das sieht sehr ähnlich aus. Aber keine Ahnung. Ja.",
+    "tags": [
+      "reflection: diagnostic_uncertainty"
+    ],
+    "rationale": "The participant remains uncertain because the similar-looking other side was not detected.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 0
+    },
+    "model": "openai/gpt-6-sol",
+    "provider": "OpenAI",
+    "configuration_name": "gpt-6-sol-260922"
+  },
+  {
+    "phrase": "Jetzt wird mir schon angezeigt, dass eine Blutung da ist",
+    "context": "Jetzt wird mir schon angezeigt, dass eine Blutung da ist und mir erstmal selber zu schauen.",
+    "tags": [
+      "ai_report: ich"
+    ],
+    "rationale": "The speaker says the display indicates a hemorrhage.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 28
+    },
+    "model": "openai/gpt-6-sol",
+    "provider": "OpenAI",
+    "configuration_name": "gpt-6-sol-260922"
+  },
+  {
+    "phrase": "Die Mittellinie ist nicht verschoben",
+    "context": "Die Mittellinie ist nicht verschoben, aber jetzt sieht man aber direkt hier schon",
+    "tags": [
+      "visual_search: description_of_medical_image_features"
+    ],
+    "rationale": "The speaker describes an image feature they are checking.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 28
+    },
+    "model": "openai/gpt-6-sol",
+    "provider": "OpenAI",
+    "configuration_name": "gpt-6-sol-260922"
+  },
+  {
+    "phrase": "jetzt sieht man aber direkt hier schon einen Saun un dem Knochen",
+    "context": "aber jetzt sieht man aber direkt hier schon einen Saun un dem Knochen … Das ist dann schon eindeutiger",
+    "tags": [
+      "indicator: anomaly_detected"
+    ],
+    "rationale": "The speaker points out a visible finding near the bone.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 28
+    },
+    "model": "openai/gpt-6-sol",
+    "provider": "OpenAI",
+    "configuration_name": "gpt-6-sol-260922"
+  },
+  {
+    "phrase": "Das ist dann schon eindeutiger",
+    "context": "einen Saun un dem Knochen … Das ist dann schon eindeutiger",
+    "tags": [
+      "confidence_high: secondary"
+    ],
+    "rationale": "The speaker indicates that the finding now appears clearer.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 28
+    },
+    "model": "openai/gpt-6-sol",
+    "provider": "OpenAI",
+    "configuration_name": "gpt-6-sol-260922"
+  },
+  {
+    "phrase": "hier ist wieder ne extra Sicherheit da",
+    "context": "So, hier ist wieder ne extra Sicherheit da, dass AI sagt, dass da nichts ist.",
+    "tags": [
+      "confidence_high: increased_through_ai"
+    ],
+    "rationale": "The speaker says the AI provides additional certainty.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 30
+    },
+    "model": "openai/gpt-6-sol",
+    "provider": "OpenAI",
+    "configuration_name": "gpt-6-sol-260922"
+  },
+  {
+    "phrase": "AI sagt, dass da nichts ist",
+    "context": "hier ist wieder ne extra Sicherheit da, dass AI sagt, dass da nichts ist.",
+    "tags": [
+      "ai_report: no_ich"
+    ],
+    "rationale": "The speaker reports that the AI found no hemorrhage.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 30
+    },
+    "model": "openai/gpt-6-sol",
+    "provider": "OpenAI",
+    "configuration_name": "gpt-6-sol-260922"
+  },
+  {
+    "phrase": "Deswegen kann ich ein bisschen schneller gehen",
+    "context": "dass AI sagt, dass da nichts ist. Deswegen kann ich ein bisschen schneller gehen, das hilf mir schon.",
+    "tags": [
+      "control: relying_on_ai"
+    ],
+    "rationale": "The speaker says the AI's assessment lets them proceed faster.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 30
+    },
+    "model": "openai/gpt-6-sol",
+    "provider": "OpenAI",
+    "configuration_name": "gpt-6-sol-260922"
+  },
+  {
+    "phrase": "das hilf mir schon",
+    "context": "Deswegen kann ich ein bisschen schneller gehen, das hilf mir schon.",
+    "tags": [
+      "reflection_of_ai: helpful"
+    ],
+    "rationale": "The speaker explicitly says the AI helps them.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 30
+    },
+    "model": "openai/gpt-6-sol",
+    "provider": "OpenAI",
+    "configuration_name": "gpt-6-sol-260922"
+  },
+  {
+    "phrase": "hier ist wieder angeblich keine Blutung",
+    "context": "Mhm hier ist wieder angeblich keine Blutung und ich kann ein bisschen schneller scrollen.",
+    "tags": [
+      "ai_report: no_ich"
+    ],
+    "rationale": "The speaker says that no hemorrhage is reportedly indicated here.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 32
+    },
+    "model": "openai/gpt-6-sol",
+    "provider": "OpenAI",
+    "configuration_name": "gpt-6-sol-260922"
+  },
+  {
+    "phrase": "ich kann ein bisschen schneller scrollen",
+    "context": "angeblich keine Blutung und ich kann ein bisschen schneller scrollen. Und sehe",
+    "tags": [
+      "visual_search: description_of_own_approach_without_external_help"
+    ],
+    "rationale": "The speaker describes how they are proceeding through the images.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 32
+    },
+    "model": "openai/gpt-6-sol",
+    "provider": "OpenAI",
+    "configuration_name": "gpt-6-sol-260922"
+  },
+  {
+    "phrase": "ich keine Unterschied merke",
+    "context": "Und sehe dass ich keine Unterschied merke und auf der anderen Seite",
+    "tags": [
+      "indicator: no_bleeding"
+    ],
+    "rationale": "The speaker reports noticing no difference in the area being examined.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 32
+    },
+    "model": "openai/gpt-6-sol",
+    "provider": "OpenAI",
+    "configuration_name": "gpt-6-sol-260922"
+  },
+  {
+    "phrase": "auf der anderen Seite wird auch keine Blututng angezeigt",
+    "context": "keine Unterschied merke und auf der anderen Seite wird auch keine Blututng angezeigt.",
+    "tags": [
+      "ai_report: no_ich"
+    ],
+    "rationale": "The speaker says no hemorrhage is indicated on the other side either.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 32
+    },
+    "model": "openai/gpt-6-sol",
+    "provider": "OpenAI",
+    "configuration_name": "gpt-6-sol-260922"
+  },
+  {
+    "phrase": "ich guck trotzdem von oben nach untern",
+    "context": "Und hier sieht man schon auch, ich guck trotzdem von oben nach untern und hier ist der Saum schon zu sehen",
+    "tags": [
+      "visual_search: description_of_own_approach_without_external_help"
+    ],
+    "rationale": "The speaker describes their own top-to-bottom search procedure.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 29
+    },
+    "model": "openai/gpt-6-sol",
+    "provider": "OpenAI",
+    "configuration_name": "gpt-6-sol-260922"
+  },
+  {
+    "phrase": "hier ist der Saum schon zu sehen",
+    "context": "ich guck trotzdem von oben nach untern und hier ist der Saum schon zu sehen, also AI zeigt mir das erst später",
+    "tags": [
+      "indicator: anomaly_detected"
+    ],
+    "rationale": "The speaker points out a visible finding before identifying it as a hemorrhage.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 29
+    },
+    "model": "openai/gpt-6-sol",
+    "provider": "OpenAI",
+    "configuration_name": "gpt-6-sol-260922"
+  },
+  {
+    "phrase": "also AI zeigt mir das erst später",
+    "context": "hier ist der Saum schon zu sehen, also AI zeigt mir das erst später, aber man sieht schon ne Blutung",
+    "tags": [
+      "reflection_of_ai: ich_recognized_without_ai"
+    ],
+    "rationale": "The speaker says they saw the finding before the AI showed it.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 29
+    },
+    "model": "openai/gpt-6-sol",
+    "provider": "OpenAI",
+    "configuration_name": "gpt-6-sol-260922"
+  },
+  {
+    "phrase": "aber man sieht schon ne Blutung",
+    "context": "also AI zeigt mir das erst später, aber man sieht schon ne Blutung und da brauchte ich jetzt das nicht so",
+    "tags": [
+      "interpretation: bleeding"
+    ],
+    "rationale": "The speaker identifies the visible finding as a hemorrhage.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 29
+    },
+    "model": "openai/gpt-6-sol",
+    "provider": "OpenAI",
+    "configuration_name": "gpt-6-sol-260922"
+  },
+  {
+    "phrase": "und da brauchte ich jetzt das nicht so",
+    "context": "aber man sieht schon ne Blutung und da brauchte ich jetzt das nicht so.",
+    "tags": [
+      "reflection_of_ai: unhelpful/unnecessary"
+    ],
+    "rationale": "The speaker says they did not particularly need the AI for this finding.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 29
+    },
+    "model": "openai/gpt-6-sol",
+    "provider": "OpenAI",
+    "configuration_name": "gpt-6-sol-260922"
+  },
+  {
+    "phrase": "Hier ist wieder keine Blutung",
+    "context": "Hier ist wieder keine Blutung, ich gucke alleine und dann auf der anderen Seite, der AI Seite.",
+    "tags": [
+      "interpretation: no_bleeding"
+    ],
+    "rationale": "The speaker concludes that there is no hemorrhage.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 35
+    },
+    "model": "openai/gpt-6-sol",
+    "provider": "OpenAI",
+    "configuration_name": "gpt-6-sol-260922"
+  },
+  {
+    "phrase": "ich gucke alleine und dann auf der anderen Seite, der AI Seite",
+    "context": "Hier ist wieder keine Blutung, ich gucke alleine und dann auf der anderen Seite, der AI Seite. Es wird nichts angezeigt",
+    "tags": [
+      "visual_search: description_of_own_approach_without_external_help"
+    ],
+    "rationale": "The speaker describes looking independently before checking the AI side.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 35
+    },
+    "model": "openai/gpt-6-sol",
+    "provider": "OpenAI",
+    "configuration_name": "gpt-6-sol-260922"
+  },
+  {
+    "phrase": "Es wird nichts angezeigt",
+    "context": "der AI Seite. Es wird nichts angezeigt, und ich kann weiter machen.",
+    "tags": [
+      "ai_report: no_ich"
+    ],
+    "rationale": "In the context of checking the AI side, the speaker reports that it shows no hemorrhage finding.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 35
+    },
+    "model": "openai/gpt-6-sol",
+    "provider": "OpenAI",
+    "configuration_name": "gpt-6-sol-260922"
+  },
+  {
+    "phrase": "schau auf meine Seite erstmal",
+    "context": "So, soll aber auch was da sein, schau auf meine Seite erstmal. Und bis jetzt",
+    "tags": [
+      "visual_search: description_of_own_approach_without_external_help"
+    ],
+    "rationale": "The speaker states that they will look at their own side first.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 34
+    },
+    "model": "openai/gpt-6-sol",
+    "provider": "OpenAI",
+    "configuration_name": "gpt-6-sol-260922"
+  },
+  {
+    "phrase": "Und bis jetzt ist mir nichts aufgefallen.",
+    "context": "schau auf meine Seite erstmal. Und bis jetzt ist mir nichts aufgefallen. Aber das sieht",
+    "tags": [
+      "reflection: self-monitoring"
+    ],
+    "rationale": "The speaker comments on what they have noticed so far in their examination.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 34
+    },
+    "model": "openai/gpt-6-sol",
+    "provider": "OpenAI",
+    "configuration_name": "gpt-6-sol-260922"
+  },
+  {
+    "phrase": "Aber das sieht so ein bisschen auffällig aus, überhaupt mhm das alles so gefüllt ist.",
+    "context": "Und bis jetzt ist mir nichts aufgefallen. Aber das sieht so ein bisschen auffällig aus, überhaupt mhm das alles so gefüllt ist.",
+    "tags": [
+      "indicator: anomaly_detected"
+    ],
+    "rationale": "The speaker notices something that looks unusual and describes its appearance.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 34
+    },
+    "model": "openai/gpt-6-sol",
+    "provider": "OpenAI",
+    "configuration_name": "gpt-6-sol-260922"
+  },
+  {
+    "phrase": "Und ich geh von oben und guck allein erstmal",
+    "context": "Und ich geh von oben und guck allein erstmal, noch sehe keine Unterschied",
+    "tags": [
+      "visual_search: description_of_own_approach_without_external_help"
+    ],
+    "rationale": "The speaker describes starting their own search at the top of the image.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 31
+    },
+    "model": "openai/gpt-6-sol",
+    "provider": "OpenAI",
+    "configuration_name": "gpt-6-sol-260922"
+  },
+  {
+    "phrase": "noch sehe keine Unterschied",
+    "context": "guck allein erstmal, noch sehe keine Unterschied mhm … Ich bin noch nicht so viel was aufgefallen",
+    "tags": [
+      "reflection: self-monitoring"
+    ],
+    "rationale": "The speaker comments on what they have perceived so far during the search.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 31
+    },
+    "model": "openai/gpt-6-sol",
+    "provider": "OpenAI",
+    "configuration_name": "gpt-6-sol-260922"
+  },
+  {
+    "phrase": "vielleicht gucke ich auf der AI Seite erstmal",
+    "context": "Ich bin noch nicht so viel was aufgefallen, vielleicht gucke ich auf der AI Seite erstmal. Ah, je",
+    "tags": [
+      "control: relying_on_ai",
+      "confidence_low: secondary"
+    ],
+    "rationale": "The speaker turns to the AI after noticing little independently; 'vielleicht' makes the decision tentative.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 31
+    },
+    "model": "openai/gpt-6-sol",
+    "provider": "OpenAI",
+    "configuration_name": "gpt-6-sol-260922"
+  },
+  {
+    "phrase": "Ah, je das hatte ich nicht gesehn",
+    "context": "AI Seite erstmal. Ah, je das hatte ich nicht gesehn. Aber wenn mans weis",
+    "tags": [
+      "reflection: perceptual_doubt"
+    ],
+    "rationale": "The speaker acknowledges having missed something visible after consulting the AI. The text does not specify that it is a hemorrhage.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 31
+    },
+    "model": "openai/gpt-6-sol",
+    "provider": "OpenAI",
+    "configuration_name": "gpt-6-sol-260922"
+  },
+  {
+    "phrase": "Aber wenn mans weis, dann ja",
+    "context": "das hatte ich nicht gesehn. Aber wenn mans weis, dann ja. Das hilft da",
+    "tags": [
+      "decision_with_ai: implicitly_agreeing_with_ai"
+    ],
+    "rationale": "The speaker indicates that the finding makes sense once pointed out, without explicitly stating agreement.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 31
+    },
+    "model": "openai/gpt-6-sol",
+    "provider": "OpenAI",
+    "configuration_name": "gpt-6-sol-260922"
+  },
+  {
+    "phrase": "Das hilft da",
+    "context": "Aber wenn mans weis, dann ja. Das hilft da",
+    "tags": [
+      "reflection_of_ai: helpful"
+    ],
+    "rationale": "The speaker says the AI information helps.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 31
+    },
+    "model": "openai/gpt-6-sol",
+    "provider": "OpenAI",
+    "configuration_name": "gpt-6-sol-260922"
+  },
+  {
+    "phrase": "Hier soll nichts sein.",
+    "context": "Hier soll nichts sein. Gucke auf meine Seite",
+    "tags": [
+      "interpretation: no_bleeding"
+    ],
+    "rationale": "The speaker indicates that there is no finding in this area.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 38
+    },
+    "model": "openai/gpt-6-sol",
+    "provider": "OpenAI",
+    "configuration_name": "gpt-6-sol-260922"
+  },
+  {
+    "phrase": "Gucke auf meine Seite und dann auf die AI Siete und kann weiter machen",
+    "context": "Hier soll nichts sein. Gucke auf meine Seite und dann auf die AI Siete und kann weiter machen",
+    "tags": [
+      "control: relying_on_ai"
+    ],
+    "rationale": "The speaker checks the AI view after their own view before continuing.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 38
+    },
+    "model": "openai/gpt-6-sol",
+    "provider": "OpenAI",
+    "configuration_name": "gpt-6-sol-260922"
+  },
+  {
+    "phrase": "Hier sollte nichts sein",
+    "context": "Hier sollte nichts sein, ich finde es sehr schwer",
+    "tags": [
+      "indicator: no_bleeding"
+    ],
+    "rationale": "The speaker describes the area they are looking at as having no apparent finding.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 40
+    },
+    "model": "openai/gpt-6-sol",
+    "provider": "OpenAI",
+    "configuration_name": "gpt-6-sol-260922"
+  },
+  {
+    "phrase": "ich finde es sehr schwer, dieses Bild zu interpretieren",
+    "context": "Hier sollte nichts sein, ich finde es sehr schwer, dieses Bild zu interpretieren, aber deswegen",
+    "tags": [
+      "awareness_of_task: difficult"
+    ],
+    "rationale": "The speaker explicitly says that interpreting the image is very difficult.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 40
+    },
+    "model": "openai/gpt-6-sol",
+    "provider": "OpenAI",
+    "configuration_name": "gpt-6-sol-260922"
+  },
+  {
+    "phrase": "hoffentlich mit der AI die richtige Entscheidung getroffen",
+    "context": "aber deswegen hoffentlich mit der AI die richtige Entscheidung getroffen",
+    "tags": [
+      "confidence_low: secondary"
+    ],
+    "rationale": "‘Hoffentlich’ conveys uncertainty about whether the decision made with the AI was correct.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 40
+    },
+    "model": "openai/gpt-6-sol",
+    "provider": "OpenAI",
+    "configuration_name": "gpt-6-sol-260922"
+  },
+  {
+    "phrase": "Sehe wieder auf meine Seite alleine",
+    "context": "Sehe wieder auf meine Seite alleine … Und hier soll eine Blutung sein",
+    "tags": [
+      "control: control_repeat"
+    ],
+    "rationale": "The speaker returns to the image view they were examining independently.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 33
+    },
+    "model": "openai/gpt-6-sol",
+    "provider": "OpenAI",
+    "configuration_name": "gpt-6-sol-260922"
+  },
+  {
+    "phrase": "Und hier soll eine Blutung sein",
+    "context": "Sehe wieder auf meine Seite alleine … Und hier soll eine Blutung sein … Ich hab die jetzt nicht so bemerkt",
+    "tags": [
+      "ai_report: ich"
+    ],
+    "rationale": "In the context of subsequently checking the AI view, the speaker reports that a hemorrhage is indicated.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 33
+    },
+    "model": "openai/gpt-6-sol",
+    "provider": "OpenAI",
+    "configuration_name": "gpt-6-sol-260922"
+  },
+  {
+    "phrase": "Ich hab die jetzt nicht so bemerkt",
+    "context": "Und hier soll eine Blutung sein … Ich hab die jetzt nicht so bemerkt, deswegen schau ich jetzt",
+    "tags": [
+      "reflection: self-monitoring"
+    ],
+    "rationale": "The speaker comments on having missed the indicated finding during their own examination.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 33
+    },
+    "model": "openai/gpt-6-sol",
+    "provider": "OpenAI",
+    "configuration_name": "gpt-6-sol-260922"
+  },
+  {
+    "phrase": "deswegen schau ich jetzt auf der anderen Seite, auf der AI Seite wo das sein soll",
+    "context": "Ich hab die jetzt nicht so bemerkt, deswegen schau ich jetzt auf der anderen Seite, auf der AI Seite wo das sein soll. Ah, da oben",
+    "tags": [
+      "visual_search: triggered_by_ai"
+    ],
+    "rationale": "The speaker turns to the AI view to look for the indicated hemorrhage.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 33
+    },
+    "model": "openai/gpt-6-sol",
+    "provider": "OpenAI",
+    "configuration_name": "gpt-6-sol-260922"
+  },
+  {
+    "phrase": "Ah, da oben, eigentlich ist das eindeutig",
+    "context": "auf der AI Seite wo das sein soll. Ah, da oben, eigentlich ist das eindeutig. Ah, ja",
+    "tags": [
+      "interpretation: bleeding",
+      "confidence_high: secondary"
+    ],
+    "rationale": "The speaker locates the indicated hemorrhage and describes it as clear.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 33
+    },
+    "model": "openai/gpt-6-sol",
+    "provider": "OpenAI",
+    "configuration_name": "gpt-6-sol-260922"
+  },
+  {
+    "phrase": "Ah, ja eigentlich eindeutig",
+    "context": "eigentlich ist das eindeutig. Ah, ja eigentlich eindeutig, ich habe mehr auf die Mitte geguckt",
+    "tags": [
+      "reflection: self-affirmation"
+    ],
+    "rationale": "The speaker reiterates their assessment that the finding is clear.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 33
+    },
+    "model": "openai/gpt-6-sol",
+    "provider": "OpenAI",
+    "configuration_name": "gpt-6-sol-260922"
+  },
+  {
+    "phrase": "ich habe mehr auf die Mitte geguckt und jetzt nicht gesehen",
+    "context": "Ah, ja eigentlich eindeutig, ich habe mehr auf die Mitte geguckt und jetzt nicht gesehen. Das hat jetzt geholfen",
+    "tags": [
+      "reflection: self-monitoring"
+    ],
+    "rationale": "The speaker explains how their earlier viewing focus led them to miss the finding.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 33
+    },
+    "model": "openai/gpt-6-sol",
+    "provider": "OpenAI",
+    "configuration_name": "gpt-6-sol-260922"
+  },
+  {
+    "phrase": "Das hat jetzt geholfen",
+    "context": "ich habe mehr auf die Mitte geguckt und jetzt nicht gesehen. Das hat jetzt geholfen",
+    "tags": [
+      "reflection_of_ai: helpful"
+    ],
+    "rationale": "The speaker says the AI-assisted view helped them identify the finding.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 33
+    },
+    "model": "openai/gpt-6-sol",
+    "provider": "OpenAI",
+    "configuration_name": "gpt-6-sol-260922"
+  },
+  {
+    "phrase": "Hier sieht man schon eine Raumforderung",
+    "context": "Mhm. Hier sieht man schon eine Raumforderung, weiß jetzt nicht, ob es deswegen dann...",
+    "tags": [
+      "indicator: anomaly_detected"
+    ],
+    "rationale": "The speaker identifies a mass as an abnormal finding.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 36
+    },
+    "model": "openai/gpt-6-sol",
+    "provider": "OpenAI",
+    "configuration_name": "gpt-6-sol-260922"
+  },
+  {
+    "phrase": "weiß jetzt nicht, ob es deswegen dann...",
+    "context": "Hier sieht man schon eine Raumforderung, weiß jetzt nicht, ob es deswegen dann... Also jetzt wird keine Blutung angezeigt.",
+    "tags": [
+      "reflection: diagnostic_uncertainty"
+    ],
+    "rationale": "The speaker is unsure how to interpret the finding.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 36
+    },
+    "model": "openai/gpt-6-sol",
+    "provider": "OpenAI",
+    "configuration_name": "gpt-6-sol-260922"
+  },
+  {
+    "phrase": "Also jetzt wird keine Blutung angezeigt.",
+    "context": "weiß jetzt nicht, ob es deswegen dann... Also jetzt wird keine Blutung angezeigt. Ich bin mir einfach unsicher",
+    "tags": [
+      "ai_report: no_ich"
+    ],
+    "rationale": "The speaker states that the AI does not indicate a hemorrhage.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 36
+    },
+    "model": "openai/gpt-6-sol",
+    "provider": "OpenAI",
+    "configuration_name": "gpt-6-sol-260922"
+  },
+  {
+    "phrase": "Ich bin mir einfach unsicher",
+    "context": "Also jetzt wird keine Blutung angezeigt. Ich bin mir einfach unsicher, ob es einfach nur eine Raumforderung ist",
+    "tags": [
+      "confidence_low: concrete"
+    ],
+    "rationale": "The speaker explicitly expresses uncertainty.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 36
+    },
+    "model": "openai/gpt-6-sol",
+    "provider": "OpenAI",
+    "configuration_name": "gpt-6-sol-260922"
+  },
+  {
+    "phrase": "ob es einfach nur eine Raumforderung ist, die nicht blutet",
+    "context": "Ich bin mir einfach unsicher, ob es einfach nur eine Raumforderung ist, die nicht blutet und deswegen denke ich",
+    "tags": [
+      "reflection: diagnostic_uncertainty"
+    ],
+    "rationale": "The speaker considers, without settling on, whether the mass is non-bleeding.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 36
+    },
+    "model": "openai/gpt-6-sol",
+    "provider": "OpenAI",
+    "configuration_name": "gpt-6-sol-260922"
+  },
+  {
+    "phrase": "wahrscheinlich dann also das wahrscheinlich dann eher ein Tumor",
+    "context": "die nicht blutet und deswegen denke ich, wahrscheinlich dann also das wahrscheinlich dann eher ein Tumor. Das ist auch ein inhomogen.",
+    "tags": [
+      "reasoning: alternative_medical_cause",
+      "confidence_high: secondary"
+    ],
+    "rationale": "The speaker proposes a tumor as an alternative explanation and describes it as probable.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 36
+    },
+    "model": "openai/gpt-6-sol",
+    "provider": "OpenAI",
+    "configuration_name": "gpt-6-sol-260922"
+  },
+  {
+    "phrase": "Das ist auch ein inhomogen.",
+    "context": "wahrscheinlich dann eher ein Tumor. Das ist auch ein inhomogen. Ja, gehen wir davon aus",
+    "tags": [
+      "visual_search: description_of_medical_image_features"
+    ],
+    "rationale": "The speaker describes the finding's appearance as inhomogeneous.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 36
+    },
+    "model": "openai/gpt-6-sol",
+    "provider": "OpenAI",
+    "configuration_name": "gpt-6-sol-260922"
+  },
+  {
+    "phrase": "Ja, gehen wir davon aus, dass deswegen das nicht als Blutung gezeigt wird.",
+    "context": "Das ist auch ein inhomogen. Ja, gehen wir davon aus, dass deswegen das nicht als Blutung gezeigt wird.",
+    "tags": [
+      "decision_with_ai: implicitly_agreeing_with_ai"
+    ],
+    "rationale": "The speaker accepts the AI's non-hemorrhage indication and relates it to their interpretation of the finding.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 36
+    },
+    "model": "openai/gpt-6-sol",
+    "provider": "OpenAI",
+    "configuration_name": "gpt-6-sol-260922"
+  },
+  {
+    "phrase": "kuck mir das alleine an",
+    "context": "Wieder auf meiner nicht AI Seite, kuck mir das alleine an, Mittellinie, Schädelknochen",
+    "tags": [
+      "visual_search: description_of_own_approach_without_external_help"
+    ],
+    "rationale": "The speaker describes examining the image independently.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 37
+    },
+    "model": "openai/gpt-6-sol",
+    "provider": "OpenAI",
+    "configuration_name": "gpt-6-sol-260922"
+  },
+  {
+    "phrase": "Mittellinie, Schädelknochen, Unterschiede",
+    "context": "kuck mir das alleine an, Mittellinie, Schädelknochen, Unterschiede und merke alleine nichts.",
+    "tags": [
+      "visual_search: description_of_medical_image_features"
+    ],
+    "rationale": "The speaker names the structures and differences they are checking.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 37
+    },
+    "model": "openai/gpt-6-sol",
+    "provider": "OpenAI",
+    "configuration_name": "gpt-6-sol-260922"
+  },
+  {
+    "phrase": "und merke alleine nichts",
+    "context": "Mittellinie, Schädelknochen, Unterschiede und merke alleine nichts. Ich gucke",
+    "tags": [
+      "reflection: self-monitoring"
+    ],
+    "rationale": "The speaker comments on what they noticed during their independent examination.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 37
+    },
+    "model": "openai/gpt-6-sol",
+    "provider": "OpenAI",
+    "configuration_name": "gpt-6-sol-260922"
+  },
+  {
+    "phrase": "Ich gucke auf der AI Seite und da wird mir was angezeigt",
+    "context": "und merke alleine nichts. Ich gucke auf der AI Seite und da wird mir was angezeigt, was ich nicht gesehen hatte",
+    "tags": [
+      "control: relying_on_ai"
+    ],
+    "rationale": "The speaker turns to the AI display after not noticing anything independently.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 37
+    },
+    "model": "openai/gpt-6-sol",
+    "provider": "OpenAI",
+    "configuration_name": "gpt-6-sol-260922"
+  },
+  {
+    "phrase": "deswegen hat mir das auf jeden Fall sehr geholfen",
+    "context": "was ich nicht gesehen hatte, deswegen hat mir das auf jeden Fall sehr geholfen",
+    "tags": [
+      "reflection_of_ai: helpful"
+    ],
+    "rationale": "The speaker explicitly says the AI was helpful.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 37
+    },
+    "model": "openai/gpt-6-sol",
+    "provider": "OpenAI",
+    "configuration_name": "gpt-6-sol-260922"
+  },
+  {
+    "phrase": "Probier ich auch selber erstmal zu gucken",
+    "context": "Probier ich auch selber erstmal zu gucken und seh das die, sieht so aus",
+    "tags": [
+      "visual_search: description_of_own_approach_without_external_help"
+    ],
+    "rationale": "The speaker says they first try to inspect the image themselves.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 39
+    },
+    "model": "openai/gpt-6-sol",
+    "provider": "OpenAI",
+    "configuration_name": "gpt-6-sol-260922"
+  },
+  {
+    "phrase": "sieht so aus, alswäre die Mittellinie verschoben",
+    "context": "und seh das die, sieht so aus, alswäre die Mittellinie verschoben, aber … ich finde",
+    "tags": [
+      "indicator: anomaly_detected"
+    ],
+    "rationale": "The speaker notices a possible midline shift.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 39
+    },
+    "model": "openai/gpt-6-sol",
+    "provider": "OpenAI",
+    "configuration_name": "gpt-6-sol-260922"
+  },
+  {
+    "phrase": "der ventrikel sieht auch nicht so ähm weiß ich nicht, gleich aus",
+    "context": "aber … ich finde der ventrikel sieht auch nicht so ähm weiß ich nicht, gleich aus. Ich hätte",
+    "tags": [
+      "reflection: diagnostic_uncertainty"
+    ],
+    "rationale": "The speaker is unsure how to assess the ventricle’s appearance.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 39
+    },
+    "model": "openai/gpt-6-sol",
+    "provider": "OpenAI",
+    "configuration_name": "gpt-6-sol-260922"
+  },
+  {
+    "phrase": "Ich hätte die Blutung nicht gefunden",
+    "context": "gleich aus. Ich hätte die Blutung nicht gefunden, gucke ich auf der AI Siete",
+    "tags": [
+      "reflection_of_ai: ich_not_recognized_without_ai"
+    ],
+    "rationale": "The speaker says they would not have found the hemorrhage on their own.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 39
+    },
+    "model": "openai/gpt-6-sol",
+    "provider": "OpenAI",
+    "configuration_name": "gpt-6-sol-260922"
+  },
+  {
+    "phrase": "gucke ich auf der AI Siete und da wird mir das hier angezeigt",
+    "context": "Ich hätte die Blutung nicht gefunden, gucke ich auf der AI Siete und da wird mir das hier angezeigt, das hätte ich",
+    "tags": [
+      "control: relying_on_ai"
+    ],
+    "rationale": "The speaker consults the AI display to find what it indicates.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 39
+    },
+    "model": "openai/gpt-6-sol",
+    "provider": "OpenAI",
+    "configuration_name": "gpt-6-sol-260922"
+  },
+  {
+    "phrase": "das hätte ich jetzt nicht gesehen",
+    "context": "da wird mir das hier angezeigt, das hätte ich jetzt nicht gesehen, deswegen",
+    "tags": [
+      "reflection_of_ai: ich_not_recognized_without_ai"
+    ],
+    "rationale": "The speaker reiterates that they would not have noticed the indicated finding without the AI.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 39
+    },
+    "model": "openai/gpt-6-sol",
+    "provider": "OpenAI",
+    "configuration_name": "gpt-6-sol-260922"
+  },
+  {
+    "phrase": "Mal wieder, help wie geht das nochmal?",
+    "context": "VPN: ??? Mal wieder, help wie geht das nochmal? Nein. EXPERIMENTER: Du kannst",
+    "tags": [
+      "technical_conversation"
+    ],
+    "rationale": "The speaker asks how to operate the display tool.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 43
+    },
+    "model": "openai/gpt-6-sol",
+    "provider": "OpenAI",
+    "configuration_name": "gpt-6-sol-260922"
+  },
+  {
+    "phrase": "Ja, danke, ist ein bisschen besser",
+    "context": "VPN: Ja, danke, ist ein bisschen besser, aber naja es ist sowieso",
+    "tags": [
+      "technical_conversation"
+    ],
+    "rationale": "The speaker responds to the experimenter's help with the display.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 43
+    },
+    "model": "openai/gpt-6-sol",
+    "provider": "OpenAI",
+    "configuration_name": "gpt-6-sol-260922"
+  },
+  {
+    "phrase": "es ist sowieso hier schon die Blutung zu sehen",
+    "context": "ist ein bisschen besser, aber naja es ist sowieso hier schon die Blutung zu sehen. Ist jetzt egal",
+    "tags": [
+      "interpretation: bleeding"
+    ],
+    "rationale": "The speaker identifies a visible hemorrhage.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 43
+    },
+    "model": "openai/gpt-6-sol",
+    "provider": "OpenAI",
+    "configuration_name": "gpt-6-sol-260922"
+  },
+  {
+    "phrase": "da ist ein Saum",
+    "context": "Ist jetzt egal, aber da ist ein Saum, irgendwie kann",
+    "tags": [
+      "interpretation: description_bleeding"
+    ],
+    "rationale": "The speaker describes a feature of the hemorrhage they just identified.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 43
+    },
+    "model": "openai/gpt-6-sol",
+    "provider": "OpenAI",
+    "configuration_name": "gpt-6-sol-260922"
+  },
+  {
+    "phrase": "irgendwie kann grieg ich das nicht so super gut eingestellt",
+    "context": "aber da ist ein Saum, irgendwie kann grieg ich das nicht so super gut eingestellt, aber das war da zu sehen",
+    "tags": [
+      "technical_conversation"
+    ],
+    "rationale": "The speaker comments on difficulty adjusting the display, rather than on image acquisition quality.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 43
+    },
+    "model": "openai/gpt-6-sol",
+    "provider": "OpenAI",
+    "configuration_name": "gpt-6-sol-260922"
+  },
+  {
+    "phrase": "So hier sieht man schon einen Unterschied zu der Gegenseite",
+    "context": "So hier sieht man schon einen Unterschied zu der Gegenseite, ich schau mal weiter",
+    "tags": [
+      "indicator: anomaly_detected"
+    ],
+    "rationale": "The speaker notices an asymmetry compared with the opposite side.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 41
+    },
+    "model": "openai/gpt-6-sol",
+    "provider": "OpenAI",
+    "configuration_name": "gpt-6-sol-260922"
+  },
+  {
+    "phrase": "ich schau mal weiter, ob das irgendwie sonst wonaders irgendwas auffälliges aussieht",
+    "context": "einen Unterschied zu der Gegenseite, ich schau mal weiter, ob das irgendwie sonst wonaders irgendwas auffälliges aussieht … Ne, ich gucke",
+    "tags": [
+      "visual_search: triggered_by_finding"
+    ],
+    "rationale": "After noticing the difference, the speaker looks for other abnormalities.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 41
+    },
+    "model": "openai/gpt-6-sol",
+    "provider": "OpenAI",
+    "configuration_name": "gpt-6-sol-260922"
+  },
+  {
+    "phrase": "ich gucke mal jetzt auf der AI Seite",
+    "context": "… Ne, ich gucke mal jetzt auf der AI Seite, das wird mir hier auch angezeigt",
+    "tags": [
+      "visual_search: triggered_by_ai"
+    ],
+    "rationale": "The speaker turns to the AI display to inspect the finding.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 41
+    },
+    "model": "openai/gpt-6-sol",
+    "provider": "OpenAI",
+    "configuration_name": "gpt-6-sol-260922"
+  },
+  {
+    "phrase": "das wird mir hier auch angezeigt",
+    "context": "ich gucke mal jetzt auf der AI Seite, das wird mir hier auch angezeigt",
+    "tags": [
+      "decision_with_ai: implicitly_agreeing_with_ai"
+    ],
+    "rationale": "The speaker notes that the AI also indicates the difference they observed.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 41
+    },
+    "model": "openai/gpt-6-sol",
+    "provider": "OpenAI",
+    "configuration_name": "gpt-6-sol-260922"
+  },
+  {
+    "phrase": "Gucke ich erst mal auf meine Seite.",
+    "context": "Gucke ich erst mal auf meine Seite. Habe noch nichts gemerkt, wo eine Blutung sein soll.",
+    "tags": [
+      "visual_search: description_of_own_approach_without_external_help"
+    ],
+    "rationale": "The speaker describes where they begin looking.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 42
+    },
+    "model": "openai/gpt-6-sol",
+    "provider": "OpenAI",
+    "configuration_name": "gpt-6-sol-260922"
+  },
+  {
+    "phrase": "Habe noch nichts gemerkt, wo eine Blutung sein soll.",
+    "context": "Gucke ich erst mal auf meine Seite. Habe noch nichts gemerkt, wo eine Blutung sein soll. Was?",
+    "tags": [
+      "reflection: self-monitoring"
+    ],
+    "rationale": "The speaker comments on what they have noticed during their search so far.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 42
+    },
+    "model": "openai/gpt-6-sol",
+    "provider": "OpenAI",
+    "configuration_name": "gpt-6-sol-260922"
+  },
+  {
+    "phrase": "Hier wird mir dann von AI gezeigt, dass wäre eine Blutung",
+    "context": "Was? Hier wird mir dann von AI gezeigt, dass wäre eine Blutung, das hätte ich auf keinen Fall erkannt.",
+    "tags": [
+      "ai_report: ich"
+    ],
+    "rationale": "The speaker says the AI indicates a hemorrhage.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 42
+    },
+    "model": "openai/gpt-6-sol",
+    "provider": "OpenAI",
+    "configuration_name": "gpt-6-sol-260922"
+  },
+  {
+    "phrase": "das hätte ich auf keinen Fall erkannt.",
+    "context": "Hier wird mir dann von AI gezeigt, dass wäre eine Blutung, das hätte ich auf keinen Fall erkannt.",
+    "tags": [
+      "reflection_of_ai: ich_not_recognized_without_ai"
+    ],
+    "rationale": "The speaker says they would not have recognized the hemorrhage without the AI.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 42
+    },
+    "model": "openai/gpt-6-sol",
+    "provider": "OpenAI",
+    "configuration_name": "gpt-6-sol-260922"
+  },
+  {
+    "phrase": "fangen wieder von vorne an",
+    "context": "So, fangen wieder von vorne an und hier soll keine Blutung sein.",
+    "tags": [
+      "control: control_repeat"
+    ],
+    "rationale": "The speaker says they are starting the review over.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 44
+    },
+    "model": "openai/gpt-6-sol",
+    "provider": "OpenAI",
+    "configuration_name": "gpt-6-sol-260922"
+  },
+  {
+    "phrase": "hier soll keine Blutung sein",
+    "context": "fangen wieder von vorne an und hier soll keine Blutung sein. Guck direkt",
+    "tags": [
+      "ai_report: no_ich"
+    ],
+    "rationale": "In the context of checking the AI view, the speaker reports that no hemorrhage is indicated.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 44
+    },
+    "model": "openai/gpt-6-sol",
+    "provider": "OpenAI",
+    "configuration_name": "gpt-6-sol-260922"
+  },
+  {
+    "phrase": "Guck direkt schon mit der AI Seite",
+    "context": "hier soll keine Blutung sein. Guck direkt schon mit der AI Seite und es wird mir nichts angezeigt",
+    "tags": [
+      "control: relying_on_ai"
+    ],
+    "rationale": "The speaker uses the AI view while examining the image.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 44
+    },
+    "model": "openai/gpt-6-sol",
+    "provider": "OpenAI",
+    "configuration_name": "gpt-6-sol-260922"
+  },
+  {
+    "phrase": "es wird mir nichts angezeigt",
+    "context": "Guck direkt schon mit der AI Seite und es wird mir nichts angezeigt, sieht auch unauffällig aus.",
+    "tags": [
+      "ai_report: no_ich"
+    ],
+    "rationale": "The speaker says the AI view displays no finding.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 44
+    },
+    "model": "openai/gpt-6-sol",
+    "provider": "OpenAI",
+    "configuration_name": "gpt-6-sol-260922"
+  },
+  {
+    "phrase": "sieht auch unauffällig aus",
+    "context": "es wird mir nichts angezeigt, sieht auch unauffällig aus.",
+    "tags": [
+      "indicator: no_bleeding",
+      "decision_with_ai: implicitly_agreeing_with_ai"
+    ],
+    "rationale": "The speaker finds the image unremarkable, consistent with the AI showing no finding.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 44
+    },
+    "model": "openai/gpt-6-sol",
+    "provider": "OpenAI",
+    "configuration_name": "gpt-6-sol-260922"
+  },
+  {
+    "phrase": "hier ist alles anscheined auch unaufällig und ich sehe auch nichts",
+    "context": "So, hier ist alles anscheined auch unaufällig und ich sehe auch nichts und AI sagt auch ist nichts",
+    "tags": [
+      "indicator: no_bleeding"
+    ],
+    "rationale": "The speaker describes the area they are viewing as unremarkable.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 45
+    },
+    "model": "openai/gpt-6-sol",
+    "provider": "OpenAI",
+    "configuration_name": "gpt-6-sol-260922"
+  },
+  {
+    "phrase": "AI sagt auch ist nichts",
+    "context": "ich sehe auch nichts und AI sagt auch ist nichts und ich fühle mich da bestätigt",
+    "tags": [
+      "ai_report: no_ich"
+    ],
+    "rationale": "The speaker reports that the AI found nothing.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 45
+    },
+    "model": "openai/gpt-6-sol",
+    "provider": "OpenAI",
+    "configuration_name": "gpt-6-sol-260922"
+  },
+  {
+    "phrase": "ich fühle mich da bestätigt",
+    "context": "AI sagt auch ist nichts und ich fühle mich da bestätigt",
+    "tags": [
+      "reflection_of_ai: confirmed_by_ai"
+    ],
+    "rationale": "The speaker says the AI's assessment confirms their own.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 45
+    },
+    "model": "openai/gpt-6-sol",
+    "provider": "OpenAI",
+    "configuration_name": "gpt-6-sol-260922"
+  },
+  {
+    "phrase": "Ich weiß nicht, was dieser Unterschied zu der anderen Seiten mit den Ventrikeln ist",
+    "context": "Ja und hier … Ich weiß nicht, was dieser Unterschied zu der anderen Seiten mit den Ventrikeln ist, AI sagt",
+    "tags": [
+      "reflection: diagnostic_uncertainty"
+    ],
+    "rationale": "The speaker is unsure how to interpret the difference they see near the ventricles.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 46
+    },
+    "model": "openai/gpt-6-sol",
+    "provider": "OpenAI",
+    "configuration_name": "gpt-6-sol-260922"
+  },
+  {
+    "phrase": "AI sagt, dass ist keine Blutung",
+    "context": "mit den Ventrikeln ist, AI sagt, dass ist keine Blutung, ich weiß es nicht.",
+    "tags": [
+      "ai_report: no_ich"
+    ],
+    "rationale": "The speaker reports that the AI found no hemorrhage.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 46
+    },
+    "model": "openai/gpt-6-sol",
+    "provider": "OpenAI",
+    "configuration_name": "gpt-6-sol-260922"
+  },
+  {
+    "phrase": "ich weiß es nicht",
+    "context": "AI sagt, dass ist keine Blutung, ich weiß es nicht. Ich sag mal",
+    "tags": [
+      "confidence_low: concrete"
+    ],
+    "rationale": "The speaker explicitly expresses uncertainty about the assessment.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 46
+    },
+    "model": "openai/gpt-6-sol",
+    "provider": "OpenAI",
+    "configuration_name": "gpt-6-sol-260922"
+  },
+  {
+    "phrase": "Ich sag mal keine Blutung",
+    "context": "ich weiß es nicht. Ich sag mal keine Blutung, aber ich bin mir",
+    "tags": [
+      "interpretation: no_bleeding",
+      "decision_with_ai: implicitly_agreeing_with_ai"
+    ],
+    "rationale": "The speaker gives a no-hemorrhage assessment, matching the AI's reported assessment without explicitly stating agreement.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 46
+    },
+    "model": "openai/gpt-6-sol",
+    "provider": "OpenAI",
+    "configuration_name": "gpt-6-sol-260922"
+  },
+  {
+    "phrase": "aber ich bin mir nicht so sicher",
+    "context": "Ich sag mal keine Blutung, aber ich bin mir nicht so sicher",
+    "tags": [
+      "confidence_low: concrete"
+    ],
+    "rationale": "The speaker explicitly says they are not very sure.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 46
+    },
+    "model": "openai/gpt-6-sol",
+    "provider": "OpenAI",
+    "configuration_name": "gpt-6-sol-260922"
+  },
+  {
+    "phrase": "Und hier soll auch nichts sein",
+    "context": "Und hier soll auch nichts sein, schau auf meine Seite ohne AI an",
+    "tags": [
+      "ai_report: no_ich"
+    ],
+    "rationale": "The speaker conveys that, according to the AI assessment, there is no finding here.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 48
+    },
+    "model": "openai/gpt-6-sol",
+    "provider": "OpenAI",
+    "configuration_name": "gpt-6-sol-260922"
+  },
+  {
+    "phrase": "schau auf meine Seite ohne AI an",
+    "context": "hier soll auch nichts sein, schau auf meine Seite ohne AI an, ich seh auch keine Asymetrien",
+    "tags": [
+      "visual_search: description_of_own_approach_without_external_help"
+    ],
+    "rationale": "The speaker describes looking at the image independently of the AI.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 48
+    },
+    "model": "openai/gpt-6-sol",
+    "provider": "OpenAI",
+    "configuration_name": "gpt-6-sol-260922"
+  },
+  {
+    "phrase": "ich seh auch keine Asymetrien, Unterschiede",
+    "context": "ohne AI an, ich seh auch keine Asymetrien, Unterschiede und dann",
+    "tags": [
+      "indicator: no_bleeding"
+    ],
+    "rationale": "The speaker reports seeing no asymmetries or other differences in the area examined.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 48
+    },
+    "model": "openai/gpt-6-sol",
+    "provider": "OpenAI",
+    "configuration_name": "gpt-6-sol-260922"
+  },
+  {
+    "phrase": "Hier sieht man schon ein Ventrikel",
+    "context": "Hier sieht man schon ein Ventrikel und überhaupt hier eine große Blutung",
+    "tags": [
+      "visual_search: description_of_medical_image_features"
+    ],
+    "rationale": "The speaker identifies an anatomical structure in the image.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 49
+    },
+    "model": "openai/gpt-6-sol",
+    "provider": "OpenAI",
+    "configuration_name": "gpt-6-sol-260922"
+  },
+  {
+    "phrase": "hier eine große Blutung",
+    "context": "ein Ventrikel und überhaupt hier eine große Blutung, ich bräuchte jetzt",
+    "tags": [
+      "interpretation: bleeding"
+    ],
+    "rationale": "The speaker identifies a large hemorrhage.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 49
+    },
+    "model": "openai/gpt-6-sol",
+    "provider": "OpenAI",
+    "configuration_name": "gpt-6-sol-260922"
+  },
+  {
+    "phrase": "muss schau trotzdem von vorne an",
+    "context": "ich bräuchte jetzt, muss schau trotzdem von vorne an, mal das der Ventrikel",
+    "tags": [
+      "control: control_repeat"
+    ],
+    "rationale": "The speaker says they will look through the image again from the beginning.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 49
+    },
+    "model": "openai/gpt-6-sol",
+    "provider": "OpenAI",
+    "configuration_name": "gpt-6-sol-260922"
+  },
+  {
+    "phrase": "der Ventrikel da auffällig aussieht, also da eineengt",
+    "context": "mal das der Ventrikel da auffällig aussieht, also da eineengt und die Blutung",
+    "tags": [
+      "indicator: anomaly_detected"
+    ],
+    "rationale": "The speaker notes that the ventricle looks abnormal and narrowed.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 49
+    },
+    "model": "openai/gpt-6-sol",
+    "provider": "OpenAI",
+    "configuration_name": "gpt-6-sol-260922"
+  },
+  {
+    "phrase": "Ich hab das jetzt nicht gebraucht",
+    "context": "die Blutung hat man hier gesehen. Ich hab das jetzt nicht gebraucht und fertig.",
+    "tags": [
+      "reflection_of_ai: unhelpful/unnecessary"
+    ],
+    "rationale": "The speaker indicates that they did not need the assistance in this case.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 49
+    },
+    "model": "openai/gpt-6-sol",
+    "provider": "OpenAI",
+    "configuration_name": "gpt-6-sol-260922"
+  },
+  {
+    "phrase": "So ich guck erstmal wieder auf meine Seite, ohne AI erstmal und ob mir irgendwas auffällt.",
+    "context": "So ich guck erstmal wieder auf meine Seite, ohne AI erstmal und ob mir irgendwas auffällt. Beidseiten",
+    "tags": [
+      "visual_search: description_of_own_approach_without_external_help"
+    ],
+    "rationale": "The speaker describes checking their own image first, without the AI.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 47
+    },
+    "model": "openai/gpt-6-sol",
+    "provider": "OpenAI",
+    "configuration_name": "gpt-6-sol-260922"
+  },
+  {
+    "phrase": "Vielleicht das hier",
+    "context": "Das war es noch nicht … Vielleicht das hier … Ich guck mal auf der AI Seite",
+    "tags": [
+      "confidence_low: secondary"
+    ],
+    "rationale": "“Vielleicht” conveys uncertainty about a possible finding.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 47
+    },
+    "model": "openai/gpt-6-sol",
+    "provider": "OpenAI",
+    "configuration_name": "gpt-6-sol-260922"
+  },
+  {
+    "phrase": "Ich guck mal auf der AI Seite, ob mir das hier mit angezeigt wird",
+    "context": "Vielleicht das hier … Ich guck mal auf der AI Seite, ob mir das hier mit angezeigt wird … Ist bei der AI einfach nicht",
+    "tags": [
+      "control: relying_on_ai"
+    ],
+    "rationale": "The speaker checks whether the AI also marks the area they noticed.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 47
+    },
+    "model": "openai/gpt-6-sol",
+    "provider": "OpenAI",
+    "configuration_name": "gpt-6-sol-260922"
+  },
+  {
+    "phrase": "Ist bei der AI einfach nicht, ah da ja",
+    "context": "ob mir das hier mit angezeigt wird … Ist bei der AI einfach nicht, ah da ja, dass könnte fast",
+    "tags": [
+      "reflection: self-correction"
+    ],
+    "rationale": "The speaker initially says the area is not shown by the AI, then immediately corrects that impression.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 47
+    },
+    "model": "openai/gpt-6-sol",
+    "provider": "OpenAI",
+    "configuration_name": "gpt-6-sol-260922"
+  }
+]

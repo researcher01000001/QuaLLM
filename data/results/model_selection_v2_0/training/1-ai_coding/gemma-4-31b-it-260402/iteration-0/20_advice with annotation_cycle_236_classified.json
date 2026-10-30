@@ -1,0 +1,3097 @@
+[
+  {
+    "phrase": "So, Mittellienie mitte wir habe hir alles symetrich und keine Signalverstärkung, ja",
+    "context": "So, Mittellienie mitte wir habe hir alles symetrich und keine Signalverstärkung, ja",
+    "tags": [
+      "visual_search: description_of_medical_image_features"
+    ],
+    "rationale": "The person is describing the anatomical structures (midline) and image characteristics (symmetry, signal enhancement) they are currently checking.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 5
+    },
+    "model": "google/gemma-4-31b-it",
+    "provider": "CoreWeave",
+    "configuration_name": "gemma-4-31b-it-260402"
+  },
+  {
+    "phrase": "Fang ich wieder so an, Mittellinien ist in der Mitte, es sind keine Verschiebungen, Ventrikel sehen auch gleich aus",
+    "context": "Fang ich wieder so an, Mittellinien ist in der Mitte, es sind keine Verschiebungen, Ventrikel sehen auch gleich aus … äh ja",
+    "tags": [
+      "visual_search: description_of_medical_image_features"
+    ],
+    "rationale": "The person is describing the anatomical structures (midline, ventricles) they are currently checking.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 4
+    },
+    "model": "google/gemma-4-31b-it",
+    "provider": "CoreWeave",
+    "configuration_name": "gemma-4-31b-it-260402"
+  },
+  {
+    "phrase": "äh ja",
+    "context": "Ventrikel sehen auch gleich aus … äh ja, hier sieht man das schon deutlich",
+    "tags": [
+      "paused_in_process"
+    ],
+    "rationale": "Filler words used during the process.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 4
+    },
+    "model": "google/gemma-4-31b-it",
+    "provider": "CoreWeave",
+    "configuration_name": "gemma-4-31b-it-260402"
+  },
+  {
+    "phrase": "hier sieht man das schon deutlich da an der Aufhellung im Vergleich zu dem anderen Seite ist eher nichts auch",
+    "context": "äh ja, hier sieht man das schon deutlich da an der Aufhellung im Vergleich zu dem anderen Seite ist eher nichts auch. Mhm …",
+    "tags": [
+      "indicator: anomaly_detected"
+    ],
+    "rationale": "The person notices a clear abnormality (hyperdensity/Aufhellung) compared to the other side.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 4
+    },
+    "model": "google/gemma-4-31b-it",
+    "provider": "CoreWeave",
+    "configuration_name": "gemma-4-31b-it-260402"
+  },
+  {
+    "phrase": "Mhm …",
+    "context": "anderen Seite ist eher nichts auch. Mhm …",
+    "tags": [
+      "paused_in_process"
+    ],
+    "rationale": "Filler word/vocalization.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 4
+    },
+    "model": "google/gemma-4-31b-it",
+    "provider": "CoreWeave",
+    "configuration_name": "gemma-4-31b-it-260402"
+  },
+  {
+    "phrase": "So, hier fange ich auch wieder von vorne an.",
+    "context": "So, hier fange ich auch wieder von vorne an. Sieht bis jetzt alles symmetrisch aus",
+    "tags": [
+      "control: control_repeat"
+    ],
+    "rationale": "The person states they are starting from the beginning again, indicating a return to a previously viewed area.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 3
+    },
+    "model": "google/gemma-4-31b-it",
+    "provider": "CoreWeave",
+    "configuration_name": "gemma-4-31b-it-260402"
+  },
+  {
+    "phrase": "Sieht bis jetzt alles symmetrisch aus und ich sehe noch keine Blutung.",
+    "context": "von vorne an. Sieht bis jetzt alles symmetrisch aus und ich sehe noch keine Blutung. Hier wird mir",
+    "tags": [
+      "interpretation: no_bleeding"
+    ],
+    "rationale": "The person explicitly states that they do not see a hemorrhage at this point in the search.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 3
+    },
+    "model": "google/gemma-4-31b-it",
+    "provider": "CoreWeave",
+    "configuration_name": "gemma-4-31b-it-260402"
+  },
+  {
+    "phrase": "Hier wird mir, ach ja, diese Punkte angezeigt, diese Aufhellung.",
+    "context": "sehe noch keine Blutung. Hier wird mir, ach ja, diese Punkte angezeigt, diese Aufhellung. Das, es verschwindet",
+    "tags": [
+      "ai_report: ich"
+    ],
+    "rationale": "The person acknowledges that the AI is displaying points/highlights, indicating the AI has found a potential hemorrhage.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 3
+    },
+    "model": "google/gemma-4-31b-it",
+    "provider": "CoreWeave",
+    "configuration_name": "gemma-4-31b-it-260402"
+  },
+  {
+    "phrase": "Das, es verschwindet danach aber auf der anderen Seite ist auch nichts, ja.",
+    "context": "diese Aufhellung. Das, es verschwindet danach aber auf der anderen Seite ist auch nichts, ja.",
+    "tags": [
+      "indicator: no_bleeding"
+    ],
+    "rationale": "The person classifies the other side of the image as unremarkable/empty.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 3
+    },
+    "model": "google/gemma-4-31b-it",
+    "provider": "CoreWeave",
+    "configuration_name": "gemma-4-31b-it-260402"
+  },
+  {
+    "phrase": "Man sieht hier auch keine Knochen, ähm Defekt …",
+    "context": "Man sieht hier auch keine Knochen, ähm Defekt … Kein Zeichen für eine Blutung.",
+    "tags": [
+      "indicator: no_bleeding"
+    ],
+    "rationale": "The person is classifying a specific image area (bone structure) as unremarkable/without defect.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 10
+    },
+    "model": "google/gemma-4-31b-it",
+    "provider": "CoreWeave",
+    "configuration_name": "gemma-4-31b-it-260402"
+  },
+  {
+    "phrase": "Kein Zeichen für eine Blutung.",
+    "context": "Man sieht hier auch keine Knochen, ähm Defekt … Kein Zeichen für eine Blutung.",
+    "tags": [
+      "interpretation: no_bleeding"
+    ],
+    "rationale": "The person explicitly interprets the findings as 'no hemorrhage'.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 10
+    },
+    "model": "google/gemma-4-31b-it",
+    "provider": "CoreWeave",
+    "configuration_name": "gemma-4-31b-it-260402"
+  },
+  {
+    "phrase": "Achso ich muss das immer so machen dann.",
+    "context": "VPN: Achso ich muss das immer so machen dann. EXPERIMENTER: Ja du kannst das leider nicht übernehmen",
+    "tags": [
+      "technical_conversation"
+    ],
+    "rationale": "The person is discussing the technical handling of the display tool/settings with the experimenter.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 1
+    },
+    "model": "google/gemma-4-31b-it",
+    "provider": "CoreWeave",
+    "configuration_name": "gemma-4-31b-it-260402"
+  },
+  {
+    "phrase": "Mhm",
+    "context": "VPN: Mhm alles gut, scroll ich jetzt systematsich",
+    "tags": [
+      "paused_in_process"
+    ],
+    "rationale": "Filler word.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 1
+    },
+    "model": "google/gemma-4-31b-it",
+    "provider": "CoreWeave",
+    "configuration_name": "gemma-4-31b-it-260402"
+  },
+  {
+    "phrase": "alles gut, scroll ich jetzt systematsich von oben nach untern oder unten nach oben und gucke immer auf beiden Seiten auf Knochen, auf irgenwelche Defekte da sind, die dann wo. ich dann eine Blutung vermuten könnte.",
+    "context": "VPN: Mhm alles gut, scroll ich jetzt systematsich von oben nach untern oder unten nach oben und gucke immer auf beiden Seiten auf Knochen, auf irgenwelche Defekte da sind, die dann wo. ich dann eine Blutung vermuten könnte. Aber hier sieht das alles",
+    "tags": [
+      "visual_search: description_of_own_approach_without_external_help"
+    ],
+    "rationale": "The person explicitly describes their systematic search procedure (scrolling top to bottom/bottom to top) and what they are looking for.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 1
+    },
+    "model": "google/gemma-4-31b-it",
+    "provider": "CoreWeave",
+    "configuration_name": "gemma-4-31b-it-260402"
+  },
+  {
+    "phrase": "Aber hier sieht das alles, alles symetrisch und keine Aufhellung oder so,",
+    "context": "ich dann eine Blutung vermuten könnte. Aber hier sieht das alles, alles symetrisch und keine Aufhellung oder so, deswegen mhm das hilft mir wirklich zu sagen",
+    "tags": [
+      "indicator: no_bleeding"
+    ],
+    "rationale": "The person classifies the image area as unremarkable by noting symmetry and lack of hyperdensity (Aufhellung).",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 1
+    },
+    "model": "google/gemma-4-31b-it",
+    "provider": "CoreWeave",
+    "configuration_name": "gemma-4-31b-it-260402"
+  },
+  {
+    "phrase": "mhm",
+    "context": "deswegen mhm das hilft mir wirklich zu sagen",
+    "tags": [
+      "paused_in_process"
+    ],
+    "rationale": "Filler word.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 1
+    },
+    "model": "google/gemma-4-31b-it",
+    "provider": "CoreWeave",
+    "configuration_name": "gemma-4-31b-it-260402"
+  },
+  {
+    "phrase": "das hilft mir wirklich zu sagen, das das wirklich keiner ist",
+    "context": "deswegen mhm das hilft mir wirklich zu sagen, das das wirklich keiner ist Ich würde schneller einfach durchgehen.",
+    "tags": [
+      "interpretation: no_bleeding"
+    ],
+    "rationale": "The person concludes that there is no hemorrhage ('keiner ist' referring to the bleeding).",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 1
+    },
+    "model": "google/gemma-4-31b-it",
+    "provider": "CoreWeave",
+    "configuration_name": "gemma-4-31b-it-260402"
+  },
+  {
+    "phrase": "Ich würde schneller einfach durchgehen.",
+    "context": "das das wirklich keiner ist Ich würde schneller einfach durchgehen.",
+    "tags": [
+      "awareness_of_task: easy"
+    ],
+    "rationale": "The person perceives the task as easy or straightforward enough to speed through.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 1
+    },
+    "model": "google/gemma-4-31b-it",
+    "provider": "CoreWeave",
+    "configuration_name": "gemma-4-31b-it-260402"
+  },
+  {
+    "phrase": "Das hilft einem sowohl beim Ausschluss, das man ein bisschen eher auf der sichern Seite, dass man nichts verpasst hat, auf jeden Fall schneller vorbei hier.",
+    "context": "Das hilft einem sowohl beim Ausschluss, das man ein bisschen eher auf der sichern Seite, dass man nichts verpasst hat, auf jeden Fall schneller vorbei hier. Ja wann da was dabei ist, dass man ein bisschen besser drauf achtet.",
+    "tags": [
+      "reflection_of_ai: helpful"
+    ],
+    "rationale": "The speaker describes how the AI helps them be on the safe side and ensures they don't miss anything, indicating they perceive the AI as helpful.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 11
+    },
+    "model": "google/gemma-4-31b-it",
+    "provider": "CoreWeave",
+    "configuration_name": "gemma-4-31b-it-260402"
+  },
+  {
+    "phrase": "Ja wann da was dabei ist, dass man ein bisschen besser drauf achtet.",
+    "context": "Das hilft einem sowohl beim Ausschluss, das man ein bisschen eher auf der sichern Seite, dass man nichts verpasst hat, auf jeden Fall schneller vorbei hier. Ja wann da was dabei ist, dass man ein bisschen besser drauf achtet.",
+    "tags": [
+      "reflection_of_ai: helpful"
+    ],
+    "rationale": "The speaker continues to explain the benefit of the AI in making them pay better attention to potential findings.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 11
+    },
+    "model": "google/gemma-4-31b-it",
+    "provider": "CoreWeave",
+    "configuration_name": "gemma-4-31b-it-260402"
+  },
+  {
+    "phrase": "Fang ich wieder von vorne an und schau auf die Mittellinie.",
+    "context": "Fang ich wieder von vorne an und schau auf die Mittellinie. Und auf die Ränder vom Knochen, es sind aber keine Unterschiede zu sehen.",
+    "tags": [
+      "control: control_repeat"
+    ],
+    "rationale": "The person explicitly states they are starting over ('Fang ich wieder von vorne an'), indicating a return to a previously viewed area or a restart of the search process.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 8
+    },
+    "model": "google/gemma-4-31b-it",
+    "provider": "DeepInfra",
+    "configuration_name": "gemma-4-31b-it-260402"
+  },
+  {
+    "phrase": "Und auf die Ränder vom Knochen, es sind aber keine Unterschiede zu sehen.",
+    "context": "Fang ich wieder von vorne an und schau auf die Mittellinie. Und auf die Ränder vom Knochen, es sind aber keine Unterschiede zu sehen.",
+    "tags": [
+      "visual_search: description_of_medical_image_features"
+    ],
+    "rationale": "The person describes the specific anatomical structures they are currently examining ('Ränder vom Knochen').",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 8
+    },
+    "model": "google/gemma-4-31b-it",
+    "provider": "DeepInfra",
+    "configuration_name": "gemma-4-31b-it-260402"
+  },
+  {
+    "phrase": "Oh, oh no … mhm …",
+    "context": "Oh, oh no … mhm … oben in der Mittellinie sieht man ein Aufhellung.",
+    "tags": [
+      "paused_in_process"
+    ],
+    "rationale": "The person is using filler words and hesitations.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 12
+    },
+    "model": "google/gemma-4-31b-it",
+    "provider": "CoreWeave",
+    "configuration_name": "gemma-4-31b-it-260402"
+  },
+  {
+    "phrase": "oben in der Mittellinie sieht man ein Aufhellung",
+    "context": "mhm … oben in der Mittellinie sieht man ein Aufhellung. ???",
+    "tags": [
+      "indicator: anomaly_detected"
+    ],
+    "rationale": "The person notices a hyperdensity ('Aufhellung') which is an abnormality in the context of a CT scan.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 12
+    },
+    "model": "google/gemma-4-31b-it",
+    "provider": "CoreWeave",
+    "configuration_name": "gemma-4-31b-it-260402"
+  },
+  {
+    "phrase": "Oben ist aber schon nichts mehr, aber da ist was auffälliges dran",
+    "context": "??? Oben ist aber schon nichts mehr, aber da ist was auffälliges dran",
+    "tags": [
+      "reflection: diagnostic_uncertainty"
+    ],
+    "rationale": "The person is assessing whether the finding is actually abnormal or not, expressing uncertainty about the observation.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 12
+    },
+    "model": "google/gemma-4-31b-it",
+    "provider": "CoreWeave",
+    "configuration_name": "gemma-4-31b-it-260402"
+  },
+  {
+    "phrase": "normal fange ich immer irgwendwie von oben oder von untern an, dass ich nichts verpasse.",
+    "context": "Mhm, ja normal fange ich immer irgwendwie von oben oder von untern an, dass ich nichts verpasse. Mhm Mittellinie ist in der Mitte",
+    "tags": [
+      "visual_search: description_of_own_approach_without_external_help"
+    ],
+    "rationale": "The person is explicitly describing their systematic search procedure (starting from top or bottom) to ensure nothing is missed.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 2
+    },
+    "model": "google/gemma-4-31b-it",
+    "provider": "CoreWeave",
+    "configuration_name": "gemma-4-31b-it-260402"
+  },
+  {
+    "phrase": "Mittellinie ist in der Mitte, sehe keine Knochen ähm Brüche",
+    "context": "nichts verpasse. Mhm Mittellinie ist in der Mitte, sehe keine Knochen ähm Brüche, mhm hier zeigt der mir gerade",
+    "tags": [
+      "visual_search: description_of_medical_image_features"
+    ],
+    "rationale": "The person is verbalizing the anatomical structures they are currently checking (midline, bones).",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 2
+    },
+    "model": "google/gemma-4-31b-it",
+    "provider": "CoreWeave",
+    "configuration_name": "gemma-4-31b-it-260402"
+  },
+  {
+    "phrase": "hier zeigt der mir gerade ne Blutung in dem Bereich",
+    "context": "sehe keine Knochen ähm Brüche, mhm hier zeigt der mir gerade ne Blutung in dem Bereich, das ist sehr sehr dezent",
+    "tags": [
+      "ai_report: ich"
+    ],
+    "rationale": "The person verbalizes that the AI is indicating a hemorrhage.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 2
+    },
+    "model": "google/gemma-4-31b-it",
+    "provider": "CoreWeave",
+    "configuration_name": "gemma-4-31b-it-260402"
+  },
+  {
+    "phrase": "das ist sehr sehr dezent",
+    "context": "hier zeigt der mir gerade ne Blutung in dem Bereich, das ist sehr sehr dezent, zumindest in meinem Bildschirm",
+    "tags": [
+      "interpretation: description_bleeding"
+    ],
+    "rationale": "The person describes the identified hemorrhage as being 'very subtle' (dezent).",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 2
+    },
+    "model": "google/gemma-4-31b-it",
+    "provider": "CoreWeave",
+    "configuration_name": "gemma-4-31b-it-260402"
+  },
+  {
+    "phrase": "zumindest in meinem Bildschirm hätte ich das auf jeden Fall nicht erkannt sonnst",
+    "context": "das ist sehr sehr dezent, zumindest in meinem Bildschirm hätte ich das auf jeden Fall nicht erkannt sonnst, deswegen, ist nicht",
+    "tags": [
+      "reflection_of_ai: ich_not_recognized_without_ai"
+    ],
+    "rationale": "The person explicitly states that they would not have recognized the hemorrhage without the AI's help.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 2
+    },
+    "model": "google/gemma-4-31b-it",
+    "provider": "CoreWeave",
+    "configuration_name": "gemma-4-31b-it-260402"
+  },
+  {
+    "phrase": "wo war das nochmal?",
+    "context": "deswegen, ist nicht, wo war das nochmal? ... Da angeblich",
+    "tags": [
+      "control: control_repeat"
+    ],
+    "rationale": "The person is trying to return to the specific image area previously indicated.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 2
+    },
+    "model": "google/gemma-4-31b-it",
+    "provider": "CoreWeave",
+    "configuration_name": "gemma-4-31b-it-260402"
+  },
+  {
+    "phrase": "ja ich hätte das nicht gesehen.",
+    "context": "Da angeblich, ja ich hätte das nicht gesehen.",
+    "tags": [
+      "reflection_of_ai: ich_not_recognized_without_ai"
+    ],
+    "rationale": "The person reaffirms that they would not have seen the hemorrhage on their own.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 2
+    },
+    "model": "google/gemma-4-31b-it",
+    "provider": "CoreWeave",
+    "configuration_name": "gemma-4-31b-it-260402"
+  },
+  {
+    "phrase": "ich will ja wissen, dass ich nichts verpasst habe",
+    "context": "Hier kann ich aber, ich will ja wissen, dass ich nichts verpasst habe.",
+    "tags": [
+      "reflection: self-monitoring"
+    ],
+    "rationale": "The person is explicitly commenting on their own diagnostic process and the goal of ensuring no findings were missed.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 15
+    },
+    "model": "google/gemma-4-31b-it",
+    "provider": "DeepInfra",
+    "configuration_name": "gemma-4-31b-it-260402"
+  },
+  {
+    "phrase": "So, fangen wir wieder oben an …",
+    "context": "So, fangen wir wieder oben an … und hier sieht man auch erstmal",
+    "tags": [
+      "control: control_repeat"
+    ],
+    "rationale": "The person indicates they are starting over from the top, returning to a previously viewed area.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 7
+    },
+    "model": "google/gemma-4-31b-it",
+    "provider": "DeepInfra",
+    "configuration_name": "gemma-4-31b-it-260402"
+  },
+  {
+    "phrase": "und hier sieht man auch erstmal, mhm keine Veränderung.",
+    "context": "fangen wir wieder oben an … und hier sieht man auch erstmal, mhm keine Veränderung. Ich gucke mal",
+    "tags": [
+      "indicator: no_bleeding"
+    ],
+    "rationale": "The person classifies the current image area as having no changes/unremarkable.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 7
+    },
+    "model": "google/gemma-4-31b-it",
+    "provider": "DeepInfra",
+    "configuration_name": "gemma-4-31b-it-260402"
+  },
+  {
+    "phrase": "Ich gucke mal, beidseitig, aber …",
+    "context": "keine Veränderung. Ich gucke mal, beidseitig, aber … ah ja, da ist der",
+    "tags": [
+      "visual_search: description_of_medical_image_features"
+    ],
+    "rationale": "The person describes their current visual search process of checking both sides.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 7
+    },
+    "model": "google/gemma-4-31b-it",
+    "provider": "DeepInfra",
+    "configuration_name": "gemma-4-31b-it-260402"
+  },
+  {
+    "phrase": "ah ja, da ist der, auf der Seite ist ein Saum, was auf eine Blutung hindeuten könnte, oder bestimmt hindeutet.",
+    "context": "beidseitig, aber … ah ja, da ist der, auf der Seite ist ein Saum, was auf eine Blutung hindeuten könnte, oder bestimmt hindeutet.",
+    "tags": [
+      "interpretation: bleeding",
+      "confidence_high: secondary"
+    ],
+    "rationale": "The person interprets the 'Saum' (rim/edge) as a hemorrhage and uses the word 'bestimmt' (definitely), indicating high secondary confidence.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 7
+    },
+    "model": "google/gemma-4-31b-it",
+    "provider": "DeepInfra",
+    "configuration_name": "gemma-4-31b-it-260402"
+  },
+  {
+    "phrase": "Auch hier ist es symetrisch … und …",
+    "context": "Auch hier ist es symetrisch … und …",
+    "tags": [
+      "visual_search: description_of_medical_image_features",
+      "paused_in_process"
+    ],
+    "rationale": "The speaker is describing a characteristic of the image (symmetry) while performing a visual search, and the trailing 'und ...' indicates a pause or filler in the process.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 9
+    },
+    "model": "google/gemma-4-31b-it",
+    "provider": "DeepInfra",
+    "configuration_name": "gemma-4-31b-it-260402"
+  },
+  {
+    "phrase": "Ja hier, sieht man nichts",
+    "context": "Ja hier, sieht man nichts und AI sagt auch es ist nichts da",
+    "tags": [
+      "indicator: no_bleeding"
+    ],
+    "rationale": "The person classifies the specific image area they are looking at as unremarkable ('sieht man nichts').",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 18
+    },
+    "model": "google/gemma-4-31b-it",
+    "provider": "CoreWeave",
+    "configuration_name": "gemma-4-31b-it-260402"
+  },
+  {
+    "phrase": "AI sagt auch es ist nichts da",
+    "context": "Ja hier, sieht man nichts und AI sagt auch es ist nichts da",
+    "tags": [
+      "ai_report: no_ich"
+    ],
+    "rationale": "The person verbalizes that the AI has not found a hemorrhage in the current area.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 18
+    },
+    "model": "google/gemma-4-31b-it",
+    "provider": "CoreWeave",
+    "configuration_name": "gemma-4-31b-it-260402"
+  },
+  {
+    "phrase": "So, ich probiere auf der Siete ohne AI erstmal nach was zu schauen.",
+    "context": "… So, ich probiere auf der Siete ohne AI erstmal nach was zu schauen. Und auf symetrie schauen",
+    "tags": [
+      "visual_search: description_of_own_approach_without_external_help"
+    ],
+    "rationale": "The person is explicitly describing their strategy of searching the image without AI assistance first.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 13
+    },
+    "model": "google/gemma-4-31b-it",
+    "provider": "DeepInfra",
+    "configuration_name": "gemma-4-31b-it-260402"
+  },
+  {
+    "phrase": "Und auf symetrie schauen, auf Knochendefekte",
+    "context": "nach was zu schauen. Und auf symetrie schauen, auf Knochendefekte und dann auf der AI Seite",
+    "tags": [
+      "visual_search: description_of_medical_image_features"
+    ],
+    "rationale": "The person specifies the anatomical features and characteristics (symmetry, bone defects) they are currently checking.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 13
+    },
+    "model": "google/gemma-4-31b-it",
+    "provider": "DeepInfra",
+    "configuration_name": "gemma-4-31b-it-260402"
+  },
+  {
+    "phrase": "und dann auf der AI Seite, ob ich irgendwas verpasst habe",
+    "context": "auf Knochendefekte und dann auf der AI Seite, ob ich irgendwas verpasst habe, sieht nicht so aus",
+    "tags": [
+      "control: relying_on_ai"
+    ],
+    "rationale": "The person intends to use the AI as a safety check to ensure no findings were missed.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 13
+    },
+    "model": "google/gemma-4-31b-it",
+    "provider": "DeepInfra",
+    "configuration_name": "gemma-4-31b-it-260402"
+  },
+  {
+    "phrase": "sieht nicht so aus",
+    "context": "ob ich irgendwas verpasst habe, sieht nicht so aus",
+    "tags": [
+      "interpretation: no_bleeding"
+    ],
+    "rationale": "The person concludes that there is no hemorrhage based on their current observation.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 13
+    },
+    "model": "google/gemma-4-31b-it",
+    "provider": "DeepInfra",
+    "configuration_name": "gemma-4-31b-it-260402"
+  },
+  {
+    "phrase": "Ja. Genaue, erst mal auf der Seite ohne AI, auf Unterschiede beidseitig bei den Hemisphären, und hier hab ich nichts direkt gesehen",
+    "context": "Ja. Genaue, erst mal auf der Seite ohne AI, auf Unterschiede beidseitig bei den Hemisphären, und hier hab ich nichts direkt gesehen und auf der Seite mir aber was angezeigt.",
+    "tags": [
+      "visual_search: description_of_own_approach_without_external_help"
+    ],
+    "rationale": "The person describes their initial search strategy of comparing hemispheres without AI assistance.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 17
+    },
+    "model": "google/gemma-4-31b-it",
+    "provider": "CoreWeave",
+    "configuration_name": "gemma-4-31b-it-260402"
+  },
+  {
+    "phrase": "und auf der Seite mir aber was angezeigt",
+    "context": "und hier hab ich nichts direkt gesehen und auf der Seite mir aber was angezeigt. Das hätte ich ohne so ohne so große Erfahrung nicht gemerkt.",
+    "tags": [
+      "ai_report: ich"
+    ],
+    "rationale": "The person acknowledges that the AI has indicated/displayed something (a finding/hemorrhage).",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 17
+    },
+    "model": "google/gemma-4-31b-it",
+    "provider": "CoreWeave",
+    "configuration_name": "gemma-4-31b-it-260402"
+  },
+  {
+    "phrase": "Das hätte ich ohne so ohne so große Erfahrung nicht gemerkt.",
+    "context": "und auf der Seite mir aber was angezeigt. Das hätte ich ohne so ohne so große Erfahrung nicht gemerkt. Aber wenn man das weiß, dann sieht man es da auch doch.",
+    "tags": [
+      "reflection: experience_limitation"
+    ],
+    "rationale": "The person explicitly refers to their lack of experience as the reason they would not have noticed the finding.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 17
+    },
+    "model": "google/gemma-4-31b-it",
+    "provider": "CoreWeave",
+    "configuration_name": "gemma-4-31b-it-260402"
+  },
+  {
+    "phrase": "Aber wenn man das weiß, dann sieht man es da auch doch.",
+    "context": "Das hätte ich ohne so ohne so große Erfahrung nicht gemerkt. Aber wenn man das weiß, dann sieht man es da auch doch.",
+    "tags": [
+      "reflection: self-affirmation"
+    ],
+    "rationale": "The person reaffirms that the finding is visible once it is known, validating their current perception.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 17
+    },
+    "model": "google/gemma-4-31b-it",
+    "provider": "CoreWeave",
+    "configuration_name": "gemma-4-31b-it-260402"
+  },
+  {
+    "phrase": "Hier ist jetzt alles wieder, unaufällig aus, beiden Sieten",
+    "context": "Hier ist jetzt alles wieder, unaufällig aus, beiden Sieten und AI sagt auch nichts da",
+    "tags": [
+      "indicator: no_bleeding"
+    ],
+    "rationale": "The person classifies the image areas on both sides as unremarkable ('unaufällig').",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 22
+    },
+    "model": "google/gemma-4-31b-it",
+    "provider": "CoreWeave",
+    "configuration_name": "gemma-4-31b-it-260402"
+  },
+  {
+    "phrase": "AI sagt auch nichts da",
+    "context": "Hier ist jetzt alles wieder, unaufällig aus, beiden Sieten und AI sagt auch nichts da",
+    "tags": [
+      "ai_report: no_ich"
+    ],
+    "rationale": "The person verbalizes that the AI has not found a hemorrhage in the current area.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 22
+    },
+    "model": "google/gemma-4-31b-it",
+    "provider": "CoreWeave",
+    "configuration_name": "gemma-4-31b-it-260402"
+  },
+  {
+    "phrase": "Ok mhm …",
+    "context": "Ok mhm … Hier soll nichts sein",
+    "tags": [
+      "paused_in_process"
+    ],
+    "rationale": "The phrase consists of filler words.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 20
+    },
+    "model": "google/gemma-4-31b-it",
+    "provider": "CoreWeave",
+    "configuration_name": "gemma-4-31b-it-260402"
+  },
+  {
+    "phrase": "Hier soll nichts sein und ich sehe auch nichts",
+    "context": "Ok mhm … Hier soll nichts sein und ich sehe auch nichts und ist beides symetrisch",
+    "tags": [
+      "indicator: no_bleeding"
+    ],
+    "rationale": "The person classifies the current image area as unremarkable/empty.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 20
+    },
+    "model": "google/gemma-4-31b-it",
+    "provider": "CoreWeave",
+    "configuration_name": "gemma-4-31b-it-260402"
+  },
+  {
+    "phrase": "und ist beides symetrisch und Ventrikel frei.",
+    "context": "ich sehe auch nichts und ist beides symetrisch und Ventrikel frei. Unterhalb des Schädelknochen",
+    "tags": [
+      "visual_search: description_of_medical_image_features"
+    ],
+    "rationale": "The person is describing specific anatomical structures (symmetry, ventricles) they are checking.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 20
+    },
+    "model": "google/gemma-4-31b-it",
+    "provider": "CoreWeave",
+    "configuration_name": "gemma-4-31b-it-260402"
+  },
+  {
+    "phrase": "Unterhalb des Schädelknochen ist alles frei",
+    "context": "Ventrikel frei. Unterhalb des Schädelknochen ist alles frei",
+    "tags": [
+      "indicator: no_bleeding"
+    ],
+    "rationale": "The person classifies the area below the skull bone as unremarkable.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 20
+    },
+    "model": "google/gemma-4-31b-it",
+    "provider": "CoreWeave",
+    "configuration_name": "gemma-4-31b-it-260402"
+  },
+  {
+    "phrase": "Ja schau ich wieder auf die Mittellinie und auf den Schädelknochen",
+    "context": "VPN: … Ja schau ich wieder auf die Mittellinie und auf den Schädelknochen … ich guck mir schon auf der anderen Seite",
+    "tags": [
+      "visual_search: description_of_medical_image_features"
+    ],
+    "rationale": "The person is verbalizing the specific anatomical structures (midline and skull bone) they are currently examining.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 6
+    },
+    "model": "google/gemma-4-31b-it",
+    "provider": "CoreWeave",
+    "configuration_name": "gemma-4-31b-it-260402"
+  },
+  {
+    "phrase": "ich guck mir schon auf der anderen Seite vom AI an, ob ich irgendwas verpasst hab",
+    "context": "auf den Schädelknochen … ich guck mir schon auf der anderen Seite vom AI an, ob ich irgendwas verpasst hab. Aber hier wird mir nicht angezeigt",
+    "tags": [
+      "control: relying_on_ai"
+    ],
+    "rationale": "The person is using the AI's output to check if they missed any findings during their search.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 6
+    },
+    "model": "google/gemma-4-31b-it",
+    "provider": "CoreWeave",
+    "configuration_name": "gemma-4-31b-it-260402"
+  },
+  {
+    "phrase": "Aber hier wird mir nicht angezeigt, wo das ist ha? Also dieses Viereck ist jetzt nicht da.",
+    "context": "ob ich irgendwas verpasst hab. Aber hier wird mir nicht angezeigt, wo das ist ha? Also dieses Viereck ist jetzt nicht da. Wo die Blutung sein sollte",
+    "tags": [
+      "technical_conversation"
+    ],
+    "rationale": "The person is discussing a technical issue regarding the display of the AI's bounding box (the square) with the experimenter.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 6
+    },
+    "model": "google/gemma-4-31b-it",
+    "provider": "CoreWeave",
+    "configuration_name": "gemma-4-31b-it-260402"
+  },
+  {
+    "phrase": "Wo die Blutung sein sollte, jetzt als Frage.",
+    "context": "Also dieses Viereck ist jetzt nicht da. Wo die Blutung sein sollte, jetzt als Frage. Tschuldigung.",
+    "tags": [
+      "ai_report: ich"
+    ],
+    "rationale": "The person acknowledges that the AI has indicated a hemorrhage (bleeding) exists, even though they are questioning its location.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 6
+    },
+    "model": "google/gemma-4-31b-it",
+    "provider": "CoreWeave",
+    "configuration_name": "gemma-4-31b-it-260402"
+  },
+  {
+    "phrase": "Achso, ja also bei diesem Bild zeigt mir das jetzt nicht an, wo das ist, ist das richtig? Ist das nur manchmal, oder?",
+    "context": "Tschuldigung. EXPERIMENTER: Ja bitte VPN: Achso, ja also bei diesem Bild zeigt mir das jetzt nicht an, wo das ist, ist das richtig? Ist das nur manchmal, oder? EXPERIMENTER: Äh, ne",
+    "tags": [
+      "technical_conversation"
+    ],
+    "rationale": "Continued discussion with the experimenter about the technical behavior of the AI markers.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 6
+    },
+    "model": "google/gemma-4-31b-it",
+    "provider": "CoreWeave",
+    "configuration_name": "gemma-4-31b-it-260402"
+  },
+  {
+    "phrase": "Ah da, ja dankeschön",
+    "context": "ganz klein oben. VPN: Ah da, ja dankeschön, aber auch das hätte ich gar nicht gesehen.",
+    "tags": [
+      "visual_search: triggered_by_ai"
+    ],
+    "rationale": "The person finds the area of interest after the experimenter points out where the AI marker is located.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 6
+    },
+    "model": "google/gemma-4-31b-it",
+    "provider": "CoreWeave",
+    "configuration_name": "gemma-4-31b-it-260402"
+  },
+  {
+    "phrase": "aber auch das hätte ich gar nicht gesehen.",
+    "context": "Ah da, ja dankeschön, aber auch das hätte ich gar nicht gesehen. Mhm ohne AI hätte ich gedacht",
+    "tags": [
+      "reflection_of_ai: ich_not_recognized_without_ai"
+    ],
+    "rationale": "The person explicitly states that they would not have seen the finding without the assistance of the AI.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 6
+    },
+    "model": "google/gemma-4-31b-it",
+    "provider": "CoreWeave",
+    "configuration_name": "gemma-4-31b-it-260402"
+  },
+  {
+    "phrase": "Mhm ohne AI hätte ich gedacht, dass ist irgendwie einen Artefakt, hätte ich nicht gesehen",
+    "context": "aber auch das hätte ich gar nicht gesehen. Mhm ohne AI hätte ich gedacht, dass ist irgendwie einen Artefakt, hätte ich nicht gesehen, finde es immernich schwer",
+    "tags": [
+      "reasoning: artifact"
+    ],
+    "rationale": "The person explains that without the AI, they would have interpreted the finding as an artifact.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 6
+    },
+    "model": "google/gemma-4-31b-it",
+    "provider": "CoreWeave",
+    "configuration_name": "gemma-4-31b-it-260402"
+  },
+  {
+    "phrase": "finde es immernich schwer",
+    "context": "hätte ich nicht gesehen, finde es immernich schwer, so es sieht so aus, wie ein Artefakt irgendwie",
+    "tags": [
+      "awareness_of_task: difficult"
+    ],
+    "rationale": "The person explicitly expresses that they find the current task difficult.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 6
+    },
+    "model": "google/gemma-4-31b-it",
+    "provider": "CoreWeave",
+    "configuration_name": "gemma-4-31b-it-260402"
+  },
+  {
+    "phrase": "so es sieht so aus, wie ein Artefakt irgendwie",
+    "context": "finde es immernich schwer, so es sieht so aus, wie ein Artefakt irgendwie",
+    "tags": [
+      "reasoning: artifact"
+    ],
+    "rationale": "The person attributes the visual appearance of the finding to an artifact.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 6
+    },
+    "model": "google/gemma-4-31b-it",
+    "provider": "CoreWeave",
+    "configuration_name": "gemma-4-31b-it-260402"
+  },
+  {
+    "phrase": "das habe ich auch, in dem Teil ist es so ein bisschen deutlicher zu sehen und auf der anderen Seite sehe ich das, eigentlich zeigt mir das das gleiche",
+    "context": "… So … das habe ich auch, in dem Teil ist es so ein bisschen deutlicher zu sehen und auf der anderen Seite sehe ich das, eigentlich zeigt mir das das gleiche. … Ja, gut",
+    "tags": [
+      "visual_search: triggered_by_finding"
+    ],
+    "rationale": "The person is comparing different parts of the image and noting that they see the same thing in different areas, indicating they are aligning their visual search based on a finding they have already noticed.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 16
+    },
+    "model": "google/gemma-4-31b-it",
+    "provider": "DeepInfra",
+    "configuration_name": "gemma-4-31b-it-260402"
+  },
+  {
+    "phrase": "… So …",
+    "context": "… So … das habe ich auch",
+    "tags": [
+      "paused_in_process"
+    ],
+    "rationale": "Filler words.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 16
+    },
+    "model": "google/gemma-4-31b-it",
+    "provider": "DeepInfra",
+    "configuration_name": "gemma-4-31b-it-260402"
+  },
+  {
+    "phrase": "… Ja, gut",
+    "context": "eigentlich zeigt mir das das gleiche. … Ja, gut",
+    "tags": [
+      "paused_in_process"
+    ],
+    "rationale": "Filler words/phrases.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 16
+    },
+    "model": "google/gemma-4-31b-it",
+    "provider": "DeepInfra",
+    "configuration_name": "gemma-4-31b-it-260402"
+  },
+  {
+    "phrase": "Ich fange so an, dass ich das alles einmal gesehen habe und schue mir die Ventrikel und die Mittellinie an, Schädelknochen und direkt dadrunter [?] Konvex oder konkav.",
+    "context": "Ich fange so an, dass ich das alles einmal gesehen habe und schue mir die Ventrikel und die Mittellinie an, Schädelknochen und direkt dadrunter [?] Konvex oder konkav. Hier, hätte ich das verpasst",
+    "tags": [
+      "visual_search: description_of_medical_image_features"
+    ],
+    "rationale": "The person is describing the specific anatomical structures (ventricles, midline, skull bone) they are currently checking.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 14
+    },
+    "model": "google/gemma-4-31b-it",
+    "provider": "DeepInfra",
+    "configuration_name": "gemma-4-31b-it-260402"
+  },
+  {
+    "phrase": "Hier, hätte ich das verpasst, ich habe erst mal auf der nicht AI Seite gesehen, und jetzt hier wird mir aber was angezeigt.",
+    "context": "Konvex oder konkav. Hier, hätte ich das verpasst, ich habe erst mal auf der nicht AI Seite gesehen, und jetzt hier wird mir aber was angezeigt. Ja, das hätte ich nicht ohne AI gemerkt.",
+    "tags": [
+      "ai_report: ich"
+    ],
+    "rationale": "The person acknowledges that the AI is displaying/indicating a finding ('wird mir aber was angezeigt') that they had previously missed.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 14
+    },
+    "model": "google/gemma-4-31b-it",
+    "provider": "DeepInfra",
+    "configuration_name": "gemma-4-31b-it-260402"
+  },
+  {
+    "phrase": "Ja, das hätte ich nicht ohne AI gemerkt.",
+    "context": "und jetzt hier wird mir aber was angezeigt. Ja, das hätte ich nicht ohne AI gemerkt.",
+    "tags": [
+      "reflection_of_ai: ich_not_recognized_without_ai"
+    ],
+    "rationale": "The person explicitly states that they would not have noticed the hemorrhage/finding without the assistance of the AI.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 14
+    },
+    "model": "google/gemma-4-31b-it",
+    "provider": "DeepInfra",
+    "configuration_name": "gemma-4-31b-it-260402"
+  },
+  {
+    "phrase": "Bis jetzt auch alles symetrisch und Mittellinie ist nicht verschoben",
+    "context": "Mhm da … Bis jetzt auch alles symetrisch und Mittellinie ist nicht verschoben … Ist mir so noch nicht so direkt",
+    "tags": [
+      "visual_search: description_of_medical_image_features"
+    ],
+    "rationale": "The person is describing the anatomical features they are checking (symmetry and midline shift) during the visual search.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 19
+    },
+    "model": "google/gemma-4-31b-it",
+    "provider": "DeepInfra",
+    "configuration_name": "gemma-4-31b-it-260402"
+  },
+  {
+    "phrase": "Ist mir so noch nicht so direkt mhm ja, das wär ja, …",
+    "context": "Mittellinie ist nicht verschoben … Ist mir so noch nicht so direkt mhm ja, das wär ja, … auf der Seite sieht das irgendwie",
+    "tags": [
+      "paused_in_process"
+    ],
+    "rationale": "The phrase consists of filler words and fragmented speech indicating a pause in the thought process.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 19
+    },
+    "model": "google/gemma-4-31b-it",
+    "provider": "DeepInfra",
+    "configuration_name": "gemma-4-31b-it-260402"
+  },
+  {
+    "phrase": "auf der Seite sieht das irgendwie die Gyri ander aus als auf dieser Seite",
+    "context": "das wär ja, … auf der Seite sieht das irgendwie die Gyri ander aus als auf dieser Seite und auf der AI Seite zeigt",
+    "tags": [
+      "indicator: anomaly_detected"
+    ],
+    "rationale": "The person notices that the gyri look different on one side compared to the other, indicating an abnormality.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 19
+    },
+    "model": "google/gemma-4-31b-it",
+    "provider": "DeepInfra",
+    "configuration_name": "gemma-4-31b-it-260402"
+  },
+  {
+    "phrase": "auf der AI Seite zeigt, wird mir auch angezeigt, dass hier was ist, ja",
+    "context": "als auf dieser Seite und auf der AI Seite zeigt, wird mir auch angezeigt, dass hier was ist, ja",
+    "tags": [
+      "ai_report: ich"
+    ],
+    "rationale": "The person verbalizes that the AI is indicating the presence of a finding (hemorrhage) in a specific area.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 19
+    },
+    "model": "google/gemma-4-31b-it",
+    "provider": "DeepInfra",
+    "configuration_name": "gemma-4-31b-it-260402"
+  },
+  {
+    "phrase": "Mhm hier wieder Mittelinie und Schädelkalotte",
+    "context": "Mhm hier wieder Mittelinie und Schädelkalotte und da drunter auch kein Saum, ist alles ok",
+    "tags": [
+      "visual_search: description_of_medical_image_features"
+    ],
+    "rationale": "The person is describing the anatomical structures (midline and skull calotte) they are currently examining.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 26
+    },
+    "model": "google/gemma-4-31b-it",
+    "provider": "DeepInfra",
+    "configuration_name": "gemma-4-31b-it-260402"
+  },
+  {
+    "phrase": "und da drunter auch kein Saum, ist alles ok",
+    "context": "Mhm hier wieder Mittelinie und Schädelkalotte und da drunter auch kein Saum, ist alles ok",
+    "tags": [
+      "indicator: no_bleeding"
+    ],
+    "rationale": "The person classifies the specific area as unremarkable ('kein Saum', 'alles ok').",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 26
+    },
+    "model": "google/gemma-4-31b-it",
+    "provider": "DeepInfra",
+    "configuration_name": "gemma-4-31b-it-260402"
+  },
+  {
+    "phrase": "Okay.",
+    "context": "Okay. Jetzt wieder schneller, weil ich gesagt bekomme, dass da nichts da ist, und mir fällt auch nichts auf.",
+    "tags": [
+      "paused_in_process"
+    ],
+    "rationale": "The word 'Okay' serves as a filler word to initiate the sentence.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 24
+    },
+    "model": "google/gemma-4-31b-it",
+    "provider": "DeepInfra",
+    "configuration_name": "gemma-4-31b-it-260402"
+  },
+  {
+    "phrase": "weil ich gesagt bekomme, dass da nichts da ist",
+    "context": "Jetzt wieder schneller, weil ich gesagt bekomme, dass da nichts da ist, und mir fällt auch nichts auf.",
+    "tags": [
+      "ai_report: no_ich"
+    ],
+    "rationale": "The person verbalizes that the AI (the source of the information they are 'told') has not found a hemorrhage.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 24
+    },
+    "model": "google/gemma-4-31b-it",
+    "provider": "DeepInfra",
+    "configuration_name": "gemma-4-31b-it-260402"
+  },
+  {
+    "phrase": "und mir fällt auch nichts auf",
+    "context": "Jetzt wieder schneller, weil ich gesagt bekomme, dass da nichts da ist, und mir fällt auch nichts auf.",
+    "tags": [
+      "interpretation: no_bleeding"
+    ],
+    "rationale": "The person interprets the image as having no hemorrhage based on their own observation.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 24
+    },
+    "model": "google/gemma-4-31b-it",
+    "provider": "DeepInfra",
+    "configuration_name": "gemma-4-31b-it-260402"
+  },
+  {
+    "phrase": "Schau erstmal wieder auf meine Seite",
+    "context": "… Schau erstmal wieder auf meine Seite … Ich seh keine Unterschied",
+    "tags": [
+      "control: control_repeat"
+    ],
+    "rationale": "The person is returning to a previously viewed area or side of the image.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 25
+    },
+    "model": "google/gemma-4-31b-it",
+    "provider": "CoreWeave",
+    "configuration_name": "gemma-4-31b-it-260402"
+  },
+  {
+    "phrase": "Ich seh keine Unterschied",
+    "context": "… Schau erstmal wieder auf meine Seite … Ich seh keine Unterschied",
+    "tags": [
+      "indicator: no_bleeding"
+    ],
+    "rationale": "The person classifies the current image area as unremarkable or seeing no difference/abnormality.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 25
+    },
+    "model": "google/gemma-4-31b-it",
+    "provider": "CoreWeave",
+    "configuration_name": "gemma-4-31b-it-260402"
+  },
+  {
+    "phrase": "Ich hätte jetzt persönlich nicht erkannt, dass es jetzt unbedingt eine Blutung da ist",
+    "context": "ob es eine Verschiebung da ist oder nicht. Ähm! Ich hätte jetzt persönlich nicht erkannt, dass es jetzt unbedingt eine Blutung da ist, weil auf der anderen Seite",
+    "tags": [
+      "interpretation: no_bleeding"
+    ],
+    "rationale": "The person expresses that they would not have identified the area as a hemorrhage.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 0
+    },
+    "model": "google/gemma-4-31b-it",
+    "provider": "DeepInfra",
+    "configuration_name": "gemma-4-31b-it-260402"
+  },
+  {
+    "phrase": "weil auf der anderen Seite sieht es also von der Hemisphäre sieht es auch so ähnlich aus",
+    "context": "unbedingt eine Blutung da ist, weil auf der anderen Seite sieht es also von der Hemisphäre sieht es auch so ähnlich aus und es wurde halt",
+    "tags": [
+      "reasoning: conclusion_findings"
+    ],
+    "rationale": "The person uses the symmetry of the hemispheres to justify why they don't see a hemorrhage.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 0
+    },
+    "model": "google/gemma-4-31b-it",
+    "provider": "DeepInfra",
+    "configuration_name": "gemma-4-31b-it-260402"
+  },
+  {
+    "phrase": "und es wurde halt von der AI nicht erkannt.",
+    "context": "von der Hemisphäre sieht es auch so ähnlich aus und es wurde halt von der AI nicht erkannt. Ich habe da nicht so Erfahrung mit",
+    "tags": [
+      "ai_report: no_ich"
+    ],
+    "rationale": "The person verbalizes that the AI did not find a hemorrhage.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 0
+    },
+    "model": "google/gemma-4-31b-it",
+    "provider": "DeepInfra",
+    "configuration_name": "gemma-4-31b-it-260402"
+  },
+  {
+    "phrase": "Ich habe da nicht so Erfahrung mit",
+    "context": "von der AI nicht erkannt. Ich habe da nicht so Erfahrung mit, aber ich hätte gedacht",
+    "tags": [
+      "reflection: experience_limitation"
+    ],
+    "rationale": "The person explicitly refers to their own lack of experience/knowledge.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 0
+    },
+    "model": "google/gemma-4-31b-it",
+    "provider": "DeepInfra",
+    "configuration_name": "gemma-4-31b-it-260402"
+  },
+  {
+    "phrase": "vielleicht ist es irgendwie normal, wenn es irgendwie beidseitig ist.",
+    "context": "Ich habe da nicht so Erfahrung mit, aber ich hätte gedacht, vielleicht ist es irgendwie normal, wenn es irgendwie beidseitig ist. Deswegen...",
+    "tags": [
+      "confidence_low: secondary",
+      "reasoning: alternative_medical_structure"
+    ],
+    "rationale": "The use of 'vielleicht' indicates low certainty, and they suggest the finding might be a normal anatomical structure.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 0
+    },
+    "model": "google/gemma-4-31b-it",
+    "provider": "DeepInfra",
+    "configuration_name": "gemma-4-31b-it-260402"
+  },
+  {
+    "phrase": "Ich muss trotzdem selber erkennen, ob das also das ist, jetzt nicht.",
+    "context": "wenn es irgendwie beidseitig ist. Deswegen... Ich muss trotzdem selber erkennen, ob das also das ist, jetzt nicht. Wenn das AI sagt",
+    "tags": [
+      "control: make_own_judgement"
+    ],
+    "rationale": "The person emphasizes the need to make their own decision regardless of the AI.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 0
+    },
+    "model": "google/gemma-4-31b-it",
+    "provider": "DeepInfra",
+    "configuration_name": "gemma-4-31b-it-260402"
+  },
+  {
+    "phrase": "Wenn das AI sagt, dass es, dass es eine Blutung da ist, muss es nicht unbedingt sein, oder?",
+    "context": "Ich muss trotzdem selber erkennen, ob das also das ist, jetzt nicht. Wenn das AI sagt, dass es, dass es eine Blutung da ist, muss es nicht unbedingt sein, oder? Also, ich kenn",
+    "tags": [
+      "reflection_of_ai: distrust_in_ai"
+    ],
+    "rationale": "The person questions the reliability of the AI's assessment.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 0
+    },
+    "model": "google/gemma-4-31b-it",
+    "provider": "DeepInfra",
+    "configuration_name": "gemma-4-31b-it-260402"
+  },
+  {
+    "phrase": "Okay, ich gehe schon davon aus, dass es ist.",
+    "context": "Ich weiß es leider nicht. Okay, ich gehe schon davon aus, dass es ist. Hm! Ja, aber gut",
+    "tags": [
+      "interpretation: bleeding",
+      "confidence_high: secondary"
+    ],
+    "rationale": "The person concludes it is a hemorrhage, and 'gehe schon davon aus' implies a level of certainty.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 0
+    },
+    "model": "google/gemma-4-31b-it",
+    "provider": "DeepInfra",
+    "configuration_name": "gemma-4-31b-it-260402"
+  },
+  {
+    "phrase": "ich sage einfach ja",
+    "context": "Hm! Ja, aber gut, ich sage einfach ja, und ich bin nicht so kompetent",
+    "tags": [
+      "decision_with_ai: implicitly_agreeing_with_ai"
+    ],
+    "rationale": "The person decides to agree with the AI's finding despite their own doubts.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 0
+    },
+    "model": "google/gemma-4-31b-it",
+    "provider": "DeepInfra",
+    "configuration_name": "gemma-4-31b-it-260402"
+  },
+  {
+    "phrase": "ich bin nicht so kompetent, eben weil die andere Seite nicht detektiert wurde, und das sieht sehr ähnlich aus.",
+    "context": "ich sage einfach ja, und ich bin nicht so kompetent, eben weil die andere Seite nicht detektiert wurde, und das sieht sehr ähnlich aus. Aber keine Ahnung.",
+    "tags": [
+      "confidence_low: concrete"
+    ],
+    "rationale": "The person explicitly states they are not competent/certain in this specific instance.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 0
+    },
+    "model": "google/gemma-4-31b-it",
+    "provider": "DeepInfra",
+    "configuration_name": "gemma-4-31b-it-260402"
+  },
+  {
+    "phrase": "Aber keine Ahnung.",
+    "context": "und das sieht sehr ähnlich aus. Aber keine Ahnung. Ja.",
+    "tags": [
+      "confidence_low: concrete"
+    ],
+    "rationale": "Explicit expression of total uncertainty.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 0
+    },
+    "model": "google/gemma-4-31b-it",
+    "provider": "DeepInfra",
+    "configuration_name": "gemma-4-31b-it-260402"
+  },
+  {
+    "phrase": "nichts was auffällig aussieht",
+    "context": "Genau so hier mhm nichts was auffällig aussieht",
+    "tags": [
+      "indicator: no_bleeding"
+    ],
+    "rationale": "The person is classifying the current image area as unremarkable/not showing any abnormalities.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 27
+    },
+    "model": "google/gemma-4-31b-it",
+    "provider": "CoreWeave",
+    "configuration_name": "gemma-4-31b-it-260402"
+  },
+  {
+    "phrase": "Genau so hier mhm",
+    "context": "Genau so hier mhm nichts was auffällig aussieht",
+    "tags": [
+      "paused_in_process"
+    ],
+    "rationale": "The phrase contains filler words and non-lexical sounds ('mhm') while the person is processing the image.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 27
+    },
+    "model": "google/gemma-4-31b-it",
+    "provider": "CoreWeave",
+    "configuration_name": "gemma-4-31b-it-260402"
+  },
+  {
+    "phrase": "So ich guck erstmal ohne AI.",
+    "context": "So ich guck erstmal ohne AI. Ich schau auf Mittellinie und auf Knochendefekte.",
+    "tags": [
+      "visual_search: description_of_own_approach_without_external_help"
+    ],
+    "rationale": "The person explicitly describes their search strategy of starting without the AI.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 21
+    },
+    "model": "google/gemma-4-31b-it",
+    "provider": "DeepInfra",
+    "configuration_name": "gemma-4-31b-it-260402"
+  },
+  {
+    "phrase": "Ich schau auf Mittellinie und auf Knochendefekte.",
+    "context": "So ich guck erstmal ohne AI. Ich schau auf Mittellinie und auf Knochendefekte. … Auf Unterschiede auf beiden Seiten",
+    "tags": [
+      "visual_search: description_of_medical_image_features"
+    ],
+    "rationale": "The person specifies the anatomical structures (midline and bone defects) they are currently checking.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 21
+    },
+    "model": "google/gemma-4-31b-it",
+    "provider": "DeepInfra",
+    "configuration_name": "gemma-4-31b-it-260402"
+  },
+  {
+    "phrase": "Auf Unterschiede auf beiden Seiten, ist mir nichts aufgefallen, aber sollte da was sein?",
+    "context": "Ich schau auf Mittellinie und auf Knochendefekte. … Auf Unterschiede auf beiden Seiten, ist mir nichts aufgefallen, aber sollte da was sein? Ich guck jetzt auf der AI Seite",
+    "tags": [
+      "control: reflective_question"
+    ],
+    "rationale": "The person asks themselves a question to verify their own observation process.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 21
+    },
+    "model": "google/gemma-4-31b-it",
+    "provider": "DeepInfra",
+    "configuration_name": "gemma-4-31b-it-260402"
+  },
+  {
+    "phrase": "Ich guck jetzt auf der AI Seite",
+    "context": "aber sollte da was sein? Ich guck jetzt auf der AI Seite, da ist schon ah",
+    "tags": [
+      "visual_search: triggered_by_ai"
+    ],
+    "rationale": "The person switches their visual search to the AI-provided information.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 21
+    },
+    "model": "google/gemma-4-31b-it",
+    "provider": "DeepInfra",
+    "configuration_name": "gemma-4-31b-it-260402"
+  },
+  {
+    "phrase": "da ist schon ah, da ist schon angeblich unter deer Schädelkalotte was was ich nicht gesehen hätte unbedingt.",
+    "context": "Ich guck jetzt auf der AI Seite, da ist schon ah, da ist schon angeblich unter deer Schädelkalotte was was ich nicht gesehen hätte unbedingt.",
+    "tags": [
+      "ai_report: ich_localization"
+    ],
+    "rationale": "The person describes where the AI has located a finding (under the skull cap/Schädelkalotte).",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 21
+    },
+    "model": "google/gemma-4-31b-it",
+    "provider": "DeepInfra",
+    "configuration_name": "gemma-4-31b-it-260402"
+  },
+  {
+    "phrase": "Hier soll was sein",
+    "context": "Hier soll was sein, ich guck erstmal auf meine Seite ohne AI",
+    "tags": [
+      "control: relying_on_ai"
+    ],
+    "rationale": "The person acknowledges that something is supposed to be there, likely based on the AI's initial indication, before starting their own check.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 23
+    },
+    "model": "google/gemma-4-31b-it",
+    "provider": "CoreWeave",
+    "configuration_name": "gemma-4-31b-it-260402"
+  },
+  {
+    "phrase": "ich guck erstmal auf meine Seite ohne AI",
+    "context": "Hier soll was sein, ich guck erstmal auf meine Seite ohne AI, ob irgendwelche Auffälligkeite",
+    "tags": [
+      "visual_search: description_of_own_approach_without_external_help"
+    ],
+    "rationale": "The person explicitly describes their search strategy of checking the image without AI assistance first.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 23
+    },
+    "model": "google/gemma-4-31b-it",
+    "provider": "CoreWeave",
+    "configuration_name": "gemma-4-31b-it-260402"
+  },
+  {
+    "phrase": "ob irgendwelche Auffälligkeite, bis jetzt ist die Mittellinie in der Mitte nicht vershcoben, Knochendefekte sehe ich nicht, Unterschiede zwischen den beiden hemisphären kann ich auch auf die Schnelle nicht gesehen.",
+    "context": "ich guck erstmal auf meine Seite ohne AI, ob irgendwelche Auffälligkeite, bis jetzt ist die Mittellinie in der Mitte nicht vershcoben, Knochendefekte sehe ich nicht, Unterschiede zwischen den beiden hemisphären kann ich auch auf die Schnelle nicht gesehen.",
+    "tags": [
+      "visual_search: description_of_medical_image_features"
+    ],
+    "rationale": "The person is verbalizing the specific anatomical structures and image characteristics (midline, bone defects, hemispheres) they are checking.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 23
+    },
+    "model": "google/gemma-4-31b-it",
+    "provider": "CoreWeave",
+    "configuration_name": "gemma-4-31b-it-260402"
+  },
+  {
+    "phrase": "Geh nochmal durch nochmal",
+    "context": "kann ich auch auf die Schnelle nicht gesehen. Geh nochmal durch nochmal ... ja da ist was",
+    "tags": [
+      "control: control_repeat"
+    ],
+    "rationale": "The person indicates they are returning to review the image area again.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 23
+    },
+    "model": "google/gemma-4-31b-it",
+    "provider": "CoreWeave",
+    "configuration_name": "gemma-4-31b-it-260402"
+  },
+  {
+    "phrase": "ja da ist was, da war was helles da",
+    "context": "Geh nochmal durch nochmal ... ja da ist was, da war was helles da und bekomm ich auch gesagt von der AI",
+    "tags": [
+      "indicator: anomaly_detected"
+    ],
+    "rationale": "The person notices a bright area, which is an abnormality atypical for a healthy skull/brain.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 23
+    },
+    "model": "google/gemma-4-31b-it",
+    "provider": "CoreWeave",
+    "configuration_name": "gemma-4-31b-it-260402"
+  },
+  {
+    "phrase": "bekomm ich auch gesagt von der AI, dass da was ist.",
+    "context": "ja da ist was, da war was helles da und bekomm ich auch gesagt von der AI, dass da was ist.",
+    "tags": [
+      "ai_report: ich"
+    ],
+    "rationale": "The person verbalizes that the AI has found/reported a hemorrhage (something being there).",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 23
+    },
+    "model": "google/gemma-4-31b-it",
+    "provider": "CoreWeave",
+    "configuration_name": "gemma-4-31b-it-260402"
+  },
+  {
+    "phrase": "hier ist wieder ne extra Sicherheit da, dass AI sagt, dass da nichts ist.",
+    "context": "So, hier ist wieder ne extra Sicherheit da, dass AI sagt, dass da nichts ist. Deswegen kann ich ein bisschen schneller gehen, das hilf mir schon.",
+    "tags": [
+      "ai_report: no_ich"
+    ],
+    "rationale": "The speaker explicitly mentions that the AI says there is nothing (no hemorrhage) in the current area.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 30
+    },
+    "model": "google/gemma-4-31b-it",
+    "provider": "DeepInfra",
+    "configuration_name": "gemma-4-31b-it-260402"
+  },
+  {
+    "phrase": "Deswegen kann ich ein bisschen schneller gehen, das hilf mir schon.",
+    "context": "So, hier ist wieder ne extra Sicherheit da, dass AI sagt, dass da nichts ist. Deswegen kann ich ein bisschen schneller gehen, das hilf mir schon.",
+    "tags": [
+      "reflection_of_ai: helpful"
+    ],
+    "rationale": "The speaker states that the AI's report helps them and allows them to proceed faster, indicating the AI is perceived as helpful.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 30
+    },
+    "model": "google/gemma-4-31b-it",
+    "provider": "DeepInfra",
+    "configuration_name": "gemma-4-31b-it-260402"
+  },
+  {
+    "phrase": "Hier ist wieder keine Blutung",
+    "context": "Hier ist wieder keine Blutung, ich gucke alleine und dann auf der anderen Seite",
+    "tags": [
+      "interpretation: no_bleeding"
+    ],
+    "rationale": "The person explicitly interprets the current image area as having no hemorrhage.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 35
+    },
+    "model": "google/gemma-4-31b-it",
+    "provider": "CoreWeave",
+    "configuration_name": "gemma-4-31b-it-260402"
+  },
+  {
+    "phrase": "ich gucke alleine und dann auf der anderen Seite, der AI Seite",
+    "context": "Hier ist wieder keine Blutung, ich gucke alleine und dann auf der anderen Seite, der AI Seite. Es wird nichts angezeigt",
+    "tags": [
+      "visual_search: description_of_own_approach_without_external_help"
+    ],
+    "rationale": "The person is describing their specific search procedure (looking alone first, then checking the AI side).",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 35
+    },
+    "model": "google/gemma-4-31b-it",
+    "provider": "CoreWeave",
+    "configuration_name": "gemma-4-31b-it-260402"
+  },
+  {
+    "phrase": "Es wird nichts angezeigt",
+    "context": "der AI Seite. Es wird nichts angezeigt, und ich kann weiter machen.",
+    "tags": [
+      "ai_report: no_ich"
+    ],
+    "rationale": "The person verbalizes that the AI has not found/indicated a hemorrhage.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 35
+    },
+    "model": "google/gemma-4-31b-it",
+    "provider": "CoreWeave",
+    "configuration_name": "gemma-4-31b-it-260402"
+  },
+  {
+    "phrase": "und ich kann weiter machen",
+    "context": "Es wird nichts angezeigt, und ich kann weiter machen.",
+    "tags": [
+      "other"
+    ],
+    "rationale": "This is a general statement about proceeding with the task that does not fit into the specific diagnostic or reflective categories.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 35
+    },
+    "model": "google/gemma-4-31b-it",
+    "provider": "CoreWeave",
+    "configuration_name": "gemma-4-31b-it-260402"
+  },
+  {
+    "phrase": "ich guck trotzdem von oben nach untern",
+    "context": "Und hier sieht man schon auch, ich guck trotzdem von oben nach untern und hier ist der Saum schon zu sehen",
+    "tags": [
+      "visual_search: description_of_own_approach_without_external_help"
+    ],
+    "rationale": "The person explicitly describes their search procedure (looking from top to bottom).",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 29
+    },
+    "model": "google/gemma-4-31b-it",
+    "provider": "DeepInfra",
+    "configuration_name": "gemma-4-31b-it-260402"
+  },
+  {
+    "phrase": "hier ist der Saum schon zu sehen",
+    "context": "ich guck trotzdem von oben nach untern und hier ist der Saum schon zu sehen, also AI zeigt mir das erst später",
+    "tags": [
+      "indicator: anomaly_detected"
+    ],
+    "rationale": "The person notices an abnormality ('Saum') atypical for a healthy skull.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 29
+    },
+    "model": "google/gemma-4-31b-it",
+    "provider": "DeepInfra",
+    "configuration_name": "gemma-4-31b-it-260402"
+  },
+  {
+    "phrase": "AI zeigt mir das erst später",
+    "context": "hier ist der Saum schon zu sehen, also AI zeigt mir das erst später, aber man sieht schon ne Blutung",
+    "tags": [
+      "ai_report: ich"
+    ],
+    "rationale": "The person acknowledges that the AI has identified a hemorrhage, though it happened later in their process.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 29
+    },
+    "model": "google/gemma-4-31b-it",
+    "provider": "DeepInfra",
+    "configuration_name": "gemma-4-31b-it-260402"
+  },
+  {
+    "phrase": "man sieht schon ne Blutung",
+    "context": "AI zeigt mir das erst später, aber man sieht schon ne Blutung und da brauchte ich jetzt das nicht so.",
+    "tags": [
+      "interpretation: bleeding"
+    ],
+    "rationale": "The person interprets the finding as a bleeding/hemorrhage.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 29
+    },
+    "model": "google/gemma-4-31b-it",
+    "provider": "DeepInfra",
+    "configuration_name": "gemma-4-31b-it-260402"
+  },
+  {
+    "phrase": "da brauchte ich jetzt das nicht so",
+    "context": "aber man sieht schon ne Blutung und da brauchte ich jetzt das nicht so.",
+    "tags": [
+      "reflection_of_ai: unhelpful/unnecessary"
+    ],
+    "rationale": "The person expresses that the AI's assistance was unnecessary in this instance because they found the bleeding themselves.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 29
+    },
+    "model": "google/gemma-4-31b-it",
+    "provider": "DeepInfra",
+    "configuration_name": "gemma-4-31b-it-260402"
+  },
+  {
+    "phrase": "schau auf meine Seite erstmal",
+    "context": "So, soll aber auch was da sein, schau auf meine Seite erstmal. Und bis jetzt ist mir nichts aufgefallen.",
+    "tags": [
+      "visual_search"
+    ],
+    "rationale": "The person is describing their current action of looking at a specific part of the image.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 34
+    },
+    "model": "google/gemma-4-31b-it",
+    "provider": "DeepInfra",
+    "configuration_name": "gemma-4-31b-it-260402"
+  },
+  {
+    "phrase": "Und bis jetzt ist mir nichts aufgefallen.",
+    "context": "schau auf meine Seite erstmal. Und bis jetzt ist mir nichts aufgefallen. Aber das sieht so ein bisschen auffällig aus",
+    "tags": [
+      "indicator: no_bleeding"
+    ],
+    "rationale": "The person states that they have not noticed any abnormalities in the area they are currently viewing.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 34
+    },
+    "model": "google/gemma-4-31b-it",
+    "provider": "DeepInfra",
+    "configuration_name": "gemma-4-31b-it-260402"
+  },
+  {
+    "phrase": "Aber das sieht so ein bisschen auffällig aus, überhaupt mhm das alles so gefüllt ist.",
+    "context": "Und bis jetzt ist mir nichts aufgefallen. Aber das sieht so ein bisschen auffällig aus, überhaupt mhm das alles so gefüllt ist.",
+    "tags": [
+      "indicator: anomaly_detected"
+    ],
+    "rationale": "The person notices something that looks 'auffällig' (conspicuous/striking) and describes the area as 'gefüllt' (filled), indicating an abnormality.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 34
+    },
+    "model": "google/gemma-4-31b-it",
+    "provider": "DeepInfra",
+    "configuration_name": "gemma-4-31b-it-260402"
+  },
+  {
+    "phrase": "Hier soll nichts sein.",
+    "context": "Hier soll nichts sein. Gucke auf meine Seite und dann auf die AI Siete und kann weiter machen",
+    "tags": [
+      "indicator: no_bleeding"
+    ],
+    "rationale": "The person classifies a specific image area as unremarkable ('nothing should be here').",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 38
+    },
+    "model": "google/gemma-4-31b-it",
+    "provider": "CoreWeave",
+    "configuration_name": "gemma-4-31b-it-260402"
+  },
+  {
+    "phrase": "Gucke auf meine Seite und dann auf die AI Siete und kann weiter machen",
+    "context": "Hier soll nichts sein. Gucke auf meine Seite und dann auf die AI Siete und kann weiter machen",
+    "tags": [
+      "reflection: self-monitoring"
+    ],
+    "rationale": "The person is explicitly commenting on their own diagnostic process and workflow as it unfolds.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 38
+    },
+    "model": "google/gemma-4-31b-it",
+    "provider": "CoreWeave",
+    "configuration_name": "gemma-4-31b-it-260402"
+  },
+  {
+    "phrase": "Jetzt wird mir schon angezeigt, dass eine Blutung da ist",
+    "context": "Jetzt wird mir schon angezeigt, dass eine Blutung da ist und mir erstmal selber zu schauen.",
+    "tags": [
+      "ai_report: ich"
+    ],
+    "rationale": "The person states that the AI is indicating the presence of a hemorrhage.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 28
+    },
+    "model": "google/gemma-4-31b-it",
+    "provider": "DeepInfra",
+    "configuration_name": "gemma-4-31b-it-260402"
+  },
+  {
+    "phrase": "und mir erstmal selber zu schauen",
+    "context": "Jetzt wird mir schon angezeigt, dass eine Blutung da ist und mir erstmal selber zu schauen.",
+    "tags": [
+      "visual_search: description_of_own_approach_without_external_help"
+    ],
+    "rationale": "The person describes their intention to perform their own visual search/assessment.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 28
+    },
+    "model": "google/gemma-4-31b-it",
+    "provider": "DeepInfra",
+    "configuration_name": "gemma-4-31b-it-260402"
+  },
+  {
+    "phrase": "Die Mittellinie ist nicht verschoben",
+    "context": "und mir erstmal selber zu schauen. Die Mittellinie ist nicht verschoben, aber jetzt sieht man aber direkt hier schon einen Saun un dem Knochen",
+    "tags": [
+      "visual_search: description_of_medical_image_features"
+    ],
+    "rationale": "The person is describing a specific anatomical feature (the midline) they are checking on the image.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 28
+    },
+    "model": "google/gemma-4-31b-it",
+    "provider": "DeepInfra",
+    "configuration_name": "gemma-4-31b-it-260402"
+  },
+  {
+    "phrase": "aber jetzt sieht man aber direkt hier schon einen Saun un dem Knochen",
+    "context": "Die Mittellinie ist nicht verschoben, aber jetzt sieht man aber direkt hier schon einen Saun un dem Knochen … Das ist dann schon eindeutiger",
+    "tags": [
+      "indicator: anomaly_detected"
+    ],
+    "rationale": "The person notices an abnormality (a 'rim' or 'halo' around the bone) that is atypical.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 28
+    },
+    "model": "google/gemma-4-31b-it",
+    "provider": "DeepInfra",
+    "configuration_name": "gemma-4-31b-it-260402"
+  },
+  {
+    "phrase": "Das ist dann schon eindeutiger",
+    "context": "aber jetzt sieht man aber direkt hier schon einen Saun un dem Knochen … Das ist dann schon eindeutiger",
+    "tags": [
+      "confidence_high: secondary"
+    ],
+    "rationale": "The phrase 'eindeutiger' (clearer/more unambiguous) implies an increase in certainty regarding the finding.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 28
+    },
+    "model": "google/gemma-4-31b-it",
+    "provider": "DeepInfra",
+    "configuration_name": "gemma-4-31b-it-260402"
+  },
+  {
+    "phrase": "Mhm",
+    "context": "Mhm hier ist wieder angeblich keine Blutung",
+    "tags": [
+      "paused_in_process"
+    ],
+    "rationale": "The word 'Mhm' is a filler word.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 32
+    },
+    "model": "google/gemma-4-31b-it",
+    "provider": "DeepInfra",
+    "configuration_name": "gemma-4-31b-it-260402"
+  },
+  {
+    "phrase": "hier ist wieder angeblich keine Blutung",
+    "context": "Mhm hier ist wieder angeblich keine Blutung und ich kann ein bisschen schneller scrollen.",
+    "tags": [
+      "ai_report: no_ich"
+    ],
+    "rationale": "The person verbalizes that the AI has not found a hemorrhage ('keine Blutung').",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 32
+    },
+    "model": "google/gemma-4-31b-it",
+    "provider": "DeepInfra",
+    "configuration_name": "gemma-4-31b-it-260402"
+  },
+  {
+    "phrase": "ich kann ein bisschen schneller scrollen",
+    "context": "und ich kann ein bisschen schneller scrollen. Und sehe dass ich keine Unterschied merke",
+    "tags": [
+      "visual_search: description_of_own_approach_without_external_help"
+    ],
+    "rationale": "The person is commenting on their own search procedure (scrolling speed).",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 32
+    },
+    "model": "google/gemma-4-31b-it",
+    "provider": "DeepInfra",
+    "configuration_name": "gemma-4-31b-it-260402"
+  },
+  {
+    "phrase": "Und sehe dass ich keine Unterschied merke",
+    "context": "Und sehe dass ich keine Unterschied merke und auf der anderen Seite wird auch keine Blututng angezeigt.",
+    "tags": [
+      "indicator: no_bleeding"
+    ],
+    "rationale": "The person classifies the image area as unremarkable/no difference noticed.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 32
+    },
+    "model": "google/gemma-4-31b-it",
+    "provider": "DeepInfra",
+    "configuration_name": "gemma-4-31b-it-260402"
+  },
+  {
+    "phrase": "auf der anderen Seite wird auch keine Blututng angezeigt",
+    "context": "Und sehe dass ich keine Unterschied merke und auf der anderen Seite wird auch keine Blututng angezeigt.",
+    "tags": [
+      "ai_report: no_ich"
+    ],
+    "rationale": "The person verbalizes that the AI is not showing a hemorrhage on the other side.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 32
+    },
+    "model": "google/gemma-4-31b-it",
+    "provider": "DeepInfra",
+    "configuration_name": "gemma-4-31b-it-260402"
+  },
+  {
+    "phrase": "Wieder auf meiner nicht AI Seite, kuck mir das alleine an",
+    "context": "Wieder auf meiner nicht AI Seite, kuck mir das alleine an, Mittellinie, Schädelknochen, Unterschiede und merke alleine nichts.",
+    "tags": [
+      "control: control_repeat"
+    ],
+    "rationale": "The person returns to the non-AI view to re-examine the image.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 37
+    },
+    "model": "google/gemma-4-31b-it",
+    "provider": "CoreWeave",
+    "configuration_name": "gemma-4-31b-it-260402"
+  },
+  {
+    "phrase": "Mittellinie, Schädelknochen, Unterschiede",
+    "context": "Wieder auf meiner nicht AI Seite, kuck mir das alleine an, Mittellinie, Schädelknochen, Unterschiede und merke alleine nichts.",
+    "tags": [
+      "visual_search: description_of_medical_image_features"
+    ],
+    "rationale": "The person is verbalizing the specific anatomical structures (midline, skull bone) they are checking.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 37
+    },
+    "model": "google/gemma-4-31b-it",
+    "provider": "CoreWeave",
+    "configuration_name": "gemma-4-31b-it-260402"
+  },
+  {
+    "phrase": "und merke alleine nichts",
+    "context": "Wieder auf meiner nicht AI Seite, kuck mir das alleine an, Mittellinie, Schädelknochen, Unterschiede und merke alleine nichts.",
+    "tags": [
+      "interpretation: no_bleeding"
+    ],
+    "rationale": "The person concludes that they cannot find any abnormality/hemorrhage on their own.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 37
+    },
+    "model": "google/gemma-4-31b-it",
+    "provider": "CoreWeave",
+    "configuration_name": "gemma-4-31b-it-260402"
+  },
+  {
+    "phrase": "Ich gucke auf der AI Seite und da wird mir was angezeigt, was ich nicht gesehen hatte",
+    "context": "und merke alleine nichts. Ich gucke auf der AI Seite und da wird mir was angezeigt, was ich nicht gesehen hatte, deswegen hat mir das auf jeden Fall sehr geholfen",
+    "tags": [
+      "ai_report: ich"
+    ],
+    "rationale": "The person acknowledges that the AI has detected something (a hemorrhage) that they missed.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 37
+    },
+    "model": "google/gemma-4-31b-it",
+    "provider": "CoreWeave",
+    "configuration_name": "gemma-4-31b-it-260402"
+  },
+  {
+    "phrase": "deswegen hat mir das auf jeden Fall sehr geholfen",
+    "context": "Ich gucke auf der AI Seite und da wird mir was angezeigt, was ich nicht gesehen hatte, deswegen hat mir das auf jeden Fall sehr geholfen",
+    "tags": [
+      "reflection_of_ai: helpful"
+    ],
+    "rationale": "The person explicitly states that the AI was helpful in the diagnostic process.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 37
+    },
+    "model": "google/gemma-4-31b-it",
+    "provider": "CoreWeave",
+    "configuration_name": "gemma-4-31b-it-260402"
+  },
+  {
+    "phrase": "Gucke ich erst mal auf meine Seite.",
+    "context": "Gucke ich erst mal auf meine Seite. Habe noch nichts gemerkt, wo eine Blutung sein soll.",
+    "tags": [
+      "visual_search: description_of_own_approach_without_external_help"
+    ],
+    "rationale": "The person is describing their own initial search procedure/approach.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 42
+    },
+    "model": "google/gemma-4-31b-it",
+    "provider": "CoreWeave",
+    "configuration_name": "gemma-4-31b-it-260402"
+  },
+  {
+    "phrase": "Habe noch nichts gemerkt, wo eine Blutung sein soll.",
+    "context": "Gucke ich erst mal auf meine Seite. Habe noch nichts gemerkt, wo eine Blutung sein soll. Was?",
+    "tags": [
+      "interpretation: no_bleeding"
+    ],
+    "rationale": "The person interprets the current state of their search as having found no hemorrhage.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 42
+    },
+    "model": "google/gemma-4-31b-it",
+    "provider": "CoreWeave",
+    "configuration_name": "gemma-4-31b-it-260402"
+  },
+  {
+    "phrase": "Hier wird mir dann von AI gezeigt, dass wäre eine Blutung",
+    "context": "Was? Hier wird mir dann von AI gezeigt, dass wäre eine Blutung, das hätte ich auf keinen Fall erkannt.",
+    "tags": [
+      "ai_report: ich"
+    ],
+    "rationale": "The person verbalizes that the AI has identified a hemorrhage.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 42
+    },
+    "model": "google/gemma-4-31b-it",
+    "provider": "CoreWeave",
+    "configuration_name": "gemma-4-31b-it-260402"
+  },
+  {
+    "phrase": "das hätte ich auf keinen Fall erkannt.",
+    "context": "Hier wird mir dann von AI gezeigt, dass wäre eine Blutung, das hätte ich auf keinen Fall erkannt.",
+    "tags": [
+      "reflection_of_ai: ich_not_recognized_without_ai"
+    ],
+    "rationale": "The person explicitly states that they would not have recognized the hemorrhage without the AI's assistance.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 42
+    },
+    "model": "google/gemma-4-31b-it",
+    "provider": "CoreWeave",
+    "configuration_name": "gemma-4-31b-it-260402"
+  },
+  {
+    "phrase": "Sehe wieder auf meine Seite alleine …",
+    "context": "Sehe wieder auf meine Seite alleine … Und hier soll eine Blutung sein …",
+    "tags": [
+      "control: control_repeat"
+    ],
+    "rationale": "The person is returning to their own side/view of the image to re-examine it.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 33
+    },
+    "model": "google/gemma-4-31b-it",
+    "provider": "CoreWeave",
+    "configuration_name": "gemma-4-31b-it-260402"
+  },
+  {
+    "phrase": "Und hier soll eine Blutung sein …",
+    "context": "Sehe wieder auf meine Seite alleine … Und hier soll eine Blutung sein … Ich hab die jetzt nicht so bemerkt",
+    "tags": [
+      "ai_report: ich"
+    ],
+    "rationale": "The person acknowledges that the AI has reported a hemorrhage in this area.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 33
+    },
+    "model": "google/gemma-4-31b-it",
+    "provider": "CoreWeave",
+    "configuration_name": "gemma-4-31b-it-260402"
+  },
+  {
+    "phrase": "Ich hab die jetzt nicht so bemerkt",
+    "context": "Und hier soll eine Blutung sein … Ich hab die jetzt nicht so bemerkt, deswegen schau ich jetzt auf der anderen Seite",
+    "tags": [
+      "reflection: perceptual_doubt"
+    ],
+    "rationale": "The person expresses that they did not perceive the finding themselves.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 33
+    },
+    "model": "google/gemma-4-31b-it",
+    "provider": "CoreWeave",
+    "configuration_name": "gemma-4-31b-it-260402"
+  },
+  {
+    "phrase": "deswegen schau ich jetzt auf der anderen Seite, auf der AI Seite wo das sein soll.",
+    "context": "Ich hab die jetzt nicht so bemerkt, deswegen schau ich jetzt auf der anderen Seite, auf der AI Seite wo das sein soll. Ah, da oben",
+    "tags": [
+      "visual_search: triggered_by_ai"
+    ],
+    "rationale": "The person is specifically looking at the area indicated by the AI.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 33
+    },
+    "model": "google/gemma-4-31b-it",
+    "provider": "CoreWeave",
+    "configuration_name": "gemma-4-31b-it-260402"
+  },
+  {
+    "phrase": "Ah, da oben, eigentlich ist das eindeutig.",
+    "context": "auf der AI Seite wo das sein soll. Ah, da oben, eigentlich ist das eindeutig. Ah, ja eigentlich eindeutig",
+    "tags": [
+      "indicator: anomaly_detected"
+    ],
+    "rationale": "The person notices the abnormality and describes it as clear/obvious.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 33
+    },
+    "model": "google/gemma-4-31b-it",
+    "provider": "CoreWeave",
+    "configuration_name": "gemma-4-31b-it-260402"
+  },
+  {
+    "phrase": "Ah, ja eigentlich eindeutig",
+    "context": "eigentlich ist das eindeutig. Ah, ja eigentlich eindeutig, ich habe mehr auf die Mitte geguckt",
+    "tags": [
+      "confidence_high: secondary"
+    ],
+    "rationale": "The use of 'eindeutig' (clear/obvious) indicates high certainty.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 33
+    },
+    "model": "google/gemma-4-31b-it",
+    "provider": "CoreWeave",
+    "configuration_name": "gemma-4-31b-it-260402"
+  },
+  {
+    "phrase": "ich habe mehr auf die Mitte geguckt und jetzt nicht gesehen.",
+    "context": "Ah, ja eigentlich eindeutig, ich habe mehr auf die Mitte geguckt und jetzt nicht gesehen. Das hat jetzt geholfen",
+    "tags": [
+      "reflection: self-monitoring"
+    ],
+    "rationale": "The person comments on their own diagnostic process, explaining why they missed the finding (looking at the center).",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 33
+    },
+    "model": "google/gemma-4-31b-it",
+    "provider": "CoreWeave",
+    "configuration_name": "gemma-4-31b-it-260402"
+  },
+  {
+    "phrase": "Das hat jetzt geholfen",
+    "context": "ich habe mehr auf die Mitte geguckt und jetzt nicht gesehen. Das hat jetzt geholfen",
+    "tags": [
+      "reflection_of_ai: helpful"
+    ],
+    "rationale": "The person explicitly states that the AI's assistance was helpful.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 33
+    },
+    "model": "google/gemma-4-31b-it",
+    "provider": "CoreWeave",
+    "configuration_name": "gemma-4-31b-it-260402"
+  },
+  {
+    "phrase": "Hier sollte nichts sein",
+    "context": "Hier sollte nichts sein, ich finde es sehr schwer, dieses Bild zu interpretieren",
+    "tags": [
+      "interpretation: no_bleeding"
+    ],
+    "rationale": "The person interprets the current image area as having no hemorrhage.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 40
+    },
+    "model": "google/gemma-4-31b-it",
+    "provider": "CoreWeave",
+    "configuration_name": "gemma-4-31b-it-260402"
+  },
+  {
+    "phrase": "ich finde es sehr schwer, dieses Bild zu interpretieren",
+    "context": "Hier sollte nichts sein, ich finde es sehr schwer, dieses Bild zu interpretieren, aber deswegen",
+    "tags": [
+      "awareness_of_task: difficult"
+    ],
+    "rationale": "The person explicitly states that they find the task of interpreting the image very difficult.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 40
+    },
+    "model": "google/gemma-4-31b-it",
+    "provider": "CoreWeave",
+    "configuration_name": "gemma-4-31b-it-260402"
+  },
+  {
+    "phrase": "hoffentlich mit der AI die richtige Entscheidung getroffen",
+    "context": "dieses Bild zu interpretieren, aber deswegen hoffentlich mit der AI die richtige Entscheidung getroffen",
+    "tags": [
+      "decision_with_ai: implicitly_agreeing_with_ai"
+    ],
+    "rationale": "The person expresses hope that they reached the correct decision by using the AI, implying they followed the AI's assessment.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 40
+    },
+    "model": "google/gemma-4-31b-it",
+    "provider": "CoreWeave",
+    "configuration_name": "gemma-4-31b-it-260402"
+  },
+  {
+    "phrase": "hier ist alles anscheined auch unaufällig und ich sehe auch nichts",
+    "context": "So, hier ist alles anscheined auch unaufällig und ich sehe auch nichts und AI sagt auch ist nichts und ich fühle mich da bestätigt",
+    "tags": [
+      "interpretation: no_bleeding"
+    ],
+    "rationale": "The person interprets the image area as unremarkable and sees nothing, which corresponds to an interpretation of no hemorrhage.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 45
+    },
+    "model": "google/gemma-4-31b-it",
+    "provider": "CoreWeave",
+    "configuration_name": "gemma-4-31b-it-260402"
+  },
+  {
+    "phrase": "AI sagt auch ist nichts",
+    "context": "hier ist alles anscheined auch unaufällig und ich sehe auch nichts und AI sagt auch ist nichts und ich fühle mich da bestätigt",
+    "tags": [
+      "ai_report: no_ich"
+    ],
+    "rationale": "The person verbalizes that the AI has not found a hemorrhage.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 45
+    },
+    "model": "google/gemma-4-31b-it",
+    "provider": "CoreWeave",
+    "configuration_name": "gemma-4-31b-it-260402"
+  },
+  {
+    "phrase": "ich fühle mich da bestätigt",
+    "context": "AI sagt auch ist nichts und ich fühle mich da bestätigt",
+    "tags": [
+      "reflection_of_ai: confirmed_by_ai"
+    ],
+    "rationale": "The person explicitly states they feel confirmed in their assessment by the AI's result.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 45
+    },
+    "model": "google/gemma-4-31b-it",
+    "provider": "CoreWeave",
+    "configuration_name": "gemma-4-31b-it-260402"
+  },
+  {
+    "phrase": "Ich weiß nicht, was dieser Unterschied zu der anderen Seiten mit den Ventrikeln ist",
+    "context": "Ja und hier … Ich weiß nicht, was dieser Unterschied zu der anderen Seiten mit den Ventrikeln ist, AI sagt, dass ist keine Blutung",
+    "tags": [
+      "visual_search: description_of_medical_image_features"
+    ],
+    "rationale": "The person is describing specific anatomical structures (ventricles) and comparing sides of the image.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 46
+    },
+    "model": "google/gemma-4-31b-it",
+    "provider": "CoreWeave",
+    "configuration_name": "gemma-4-31b-it-260402"
+  },
+  {
+    "phrase": "AI sagt, dass ist keine Blutung",
+    "context": "mit den Ventrikeln ist, AI sagt, dass ist keine Blutung, ich weiß es nicht.",
+    "tags": [
+      "ai_report: no_ich"
+    ],
+    "rationale": "The person explicitly states that the AI has not found a hemorrhage.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 46
+    },
+    "model": "google/gemma-4-31b-it",
+    "provider": "CoreWeave",
+    "configuration_name": "gemma-4-31b-it-260402"
+  },
+  {
+    "phrase": "ich weiß es nicht",
+    "context": "AI sagt, dass ist keine Blutung, ich weiß es nicht. Ich sag mal keine Blutung",
+    "tags": [
+      "reflection: diagnostic_uncertainty"
+    ],
+    "rationale": "The person expresses uncertainty about whether the finding is normal or abnormal.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 46
+    },
+    "model": "google/gemma-4-31b-it",
+    "provider": "CoreWeave",
+    "configuration_name": "gemma-4-31b-it-260402"
+  },
+  {
+    "phrase": "Ich sag mal keine Blutung",
+    "context": "ich weiß es nicht. Ich sag mal keine Blutung, aber ich bin mir nicht so sicher",
+    "tags": [
+      "interpretation: no_bleeding"
+    ],
+    "rationale": "The person interprets the finding as 'no hemorrhage'.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 46
+    },
+    "model": "google/gemma-4-31b-it",
+    "provider": "CoreWeave",
+    "configuration_name": "gemma-4-31b-it-260402"
+  },
+  {
+    "phrase": "aber ich bin mir nicht so sicher",
+    "context": "Ich sag mal keine Blutung, aber ich bin mir nicht so sicher",
+    "tags": [
+      "confidence_low: concrete"
+    ],
+    "rationale": "The person explicitly expresses low certainty regarding their diagnostic decision.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 46
+    },
+    "model": "google/gemma-4-31b-it",
+    "provider": "CoreWeave",
+    "configuration_name": "gemma-4-31b-it-260402"
+  },
+  {
+    "phrase": "Und hier soll auch nichts sein",
+    "context": "Und hier soll auch nichts sein, schau auf meine Seite ohne AI an",
+    "tags": [
+      "indicator: no_bleeding"
+    ],
+    "rationale": "The person classifies the current image area as unremarkable/empty.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 48
+    },
+    "model": "google/gemma-4-31b-it",
+    "provider": "CoreWeave",
+    "configuration_name": "gemma-4-31b-it-260402"
+  },
+  {
+    "phrase": "schau auf meine Seite ohne AI an",
+    "context": "Und hier soll auch nichts sein, schau auf meine Seite ohne AI an, ich seh auch keine Asymetrien",
+    "tags": [
+      "control: make_own_judgement"
+    ],
+    "rationale": "The person explicitly decides to look at the image without the AI's assistance to form their own opinion.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 48
+    },
+    "model": "google/gemma-4-31b-it",
+    "provider": "CoreWeave",
+    "configuration_name": "gemma-4-31b-it-260402"
+  },
+  {
+    "phrase": "ich seh auch keine Asymetrien, Unterschiede",
+    "context": "schau auf meine Seite ohne AI an, ich seh auch keine Asymetrien, Unterschiede und dann",
+    "tags": [
+      "interpretation: no_bleeding"
+    ],
+    "rationale": "The person interprets the lack of asymmetries or differences as an absence of hemorrhage/abnormality.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 48
+    },
+    "model": "google/gemma-4-31b-it",
+    "provider": "CoreWeave",
+    "configuration_name": "gemma-4-31b-it-260402"
+  },
+  {
+    "phrase": "So hier sieht man schon einen Unterschied zu der Gegenseite",
+    "context": "So hier sieht man schon einen Unterschied zu der Gegenseite, ich schau mal weiter",
+    "tags": [
+      "indicator: anomaly_detected"
+    ],
+    "rationale": "The person notices a difference compared to the opposite side, which indicates the detection of an abnormality.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 41
+    },
+    "model": "google/gemma-4-31b-it",
+    "provider": "DeepInfra",
+    "configuration_name": "gemma-4-31b-it-260402"
+  },
+  {
+    "phrase": "ich schau mal weiter, ob das irgendwie sonst wonaders irgendwas auffälliges aussieht",
+    "context": "Unterschied zu der Gegenseite, ich schau mal weiter, ob das irgendwie sonst wonaders irgendwas auffälliges aussieht … Ne",
+    "tags": [
+      "visual_search"
+    ],
+    "rationale": "The person is actively searching the image for further abnormalities.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 41
+    },
+    "model": "google/gemma-4-31b-it",
+    "provider": "DeepInfra",
+    "configuration_name": "gemma-4-31b-it-260402"
+  },
+  {
+    "phrase": "Ne",
+    "context": "auffälliges aussieht … Ne, ich gucke mal jetzt auf der AI Seite",
+    "tags": [
+      "paused_in_process"
+    ],
+    "rationale": "The word 'Ne' (No) acts as a filler or a brief transition in the thought process.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 41
+    },
+    "model": "google/gemma-4-31b-it",
+    "provider": "DeepInfra",
+    "configuration_name": "gemma-4-31b-it-260402"
+  },
+  {
+    "phrase": "ich gucke mal jetzt auf der AI Seite, das wird mir hier auch angezeigt",
+    "context": "Ne, ich gucke mal jetzt auf der AI Seite, das wird mir hier auch angezeigt",
+    "tags": [
+      "visual_search: triggered_by_ai"
+    ],
+    "rationale": "The person explicitly switches their attention to the AI's findings/side to align their search with the AI information.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 41
+    },
+    "model": "google/gemma-4-31b-it",
+    "provider": "DeepInfra",
+    "configuration_name": "gemma-4-31b-it-260402"
+  },
+  {
+    "phrase": "So, fangen wieder von vorne an",
+    "context": "So, fangen wieder von vorne an und hier soll keine Blutung sein.",
+    "tags": [
+      "control: control_repeat"
+    ],
+    "rationale": "The person indicates they are starting over, which implies returning to the beginning of the image sequence or a previous state.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 44
+    },
+    "model": "google/gemma-4-31b-it",
+    "provider": "DeepInfra",
+    "configuration_name": "gemma-4-31b-it-260402"
+  },
+  {
+    "phrase": "und hier soll keine Blutung sein.",
+    "context": "So, fangen wieder von vorne an und hier soll keine Blutung sein. Guck direkt schon mit der AI Seite",
+    "tags": [
+      "interpretation: no_bleeding"
+    ],
+    "rationale": "The person interprets the current view as having no hemorrhage.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 44
+    },
+    "model": "google/gemma-4-31b-it",
+    "provider": "DeepInfra",
+    "configuration_name": "gemma-4-31b-it-260402"
+  },
+  {
+    "phrase": "Guck direkt schon mit der AI Seite und es wird mir nichts angezeigt",
+    "context": "und hier soll keine Blutung sein. Guck direkt schon mit der AI Seite und es wird mir nichts angezeigt, sieht auch unauffällig aus.",
+    "tags": [
+      "ai_report: no_ich"
+    ],
+    "rationale": "The person verbalizes that the AI is not showing/finding any hemorrhage.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 44
+    },
+    "model": "google/gemma-4-31b-it",
+    "provider": "DeepInfra",
+    "configuration_name": "gemma-4-31b-it-260402"
+  },
+  {
+    "phrase": "sieht auch unauffällig aus.",
+    "context": "es wird mir nichts angezeigt, sieht auch unauffällig aus.",
+    "tags": [
+      "indicator: no_bleeding"
+    ],
+    "rationale": "The person classifies the image area as unremarkable/unauffällig.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 44
+    },
+    "model": "google/gemma-4-31b-it",
+    "provider": "DeepInfra",
+    "configuration_name": "gemma-4-31b-it-260402"
+  },
+  {
+    "phrase": "Probier ich auch selber erstmal zu gucken",
+    "context": "Probier ich auch selber erstmal zu gucken und seh das die",
+    "tags": [
+      "visual_search: description_of_own_approach_without_external_help"
+    ],
+    "rationale": "The person is explicitly commenting on their own search procedure by stating they are trying to look for themselves first.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 39
+    },
+    "model": "google/gemma-4-31b-it",
+    "provider": "DeepInfra",
+    "configuration_name": "gemma-4-31b-it-260402"
+  },
+  {
+    "phrase": "seh das die, sieht so aus, alswäre die Mittellinie verschoben",
+    "context": "Probier ich auch selber erstmal zu gucken und seh das die, sieht so aus, alswäre die Mittellinie verschoben, aber …",
+    "tags": [
+      "indicator: anomaly_detected"
+    ],
+    "rationale": "The person notices a shift in the midline, which is an abnormality atypical for a healthy skull.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 39
+    },
+    "model": "google/gemma-4-31b-it",
+    "provider": "DeepInfra",
+    "configuration_name": "gemma-4-31b-it-260402"
+  },
+  {
+    "phrase": "ich finde der ventrikel sieht auch nicht so ähm weiß ich nicht, gleich aus",
+    "context": "aber … ich finde der ventrikel sieht auch nicht so ähm weiß ich nicht, gleich aus. Ich hätte die Blutung nicht gefunden",
+    "tags": [
+      "reflection: diagnostic_uncertainty"
+    ],
+    "rationale": "The person is assessing whether the ventricle looks normal or abnormal and expresses uncertainty ('weiß ich nicht').",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 39
+    },
+    "model": "google/gemma-4-31b-it",
+    "provider": "DeepInfra",
+    "configuration_name": "gemma-4-31b-it-260402"
+  },
+  {
+    "phrase": "Ich hätte die Blutung nicht gefunden",
+    "context": "gleich aus. Ich hätte die Blutung nicht gefunden, gucke ich auf der AI Siete",
+    "tags": [
+      "reflection_of_ai: ich_not_recognized_without_ai"
+    ],
+    "rationale": "The person explicitly states that they would not have found the hemorrhage without the assistance of the AI.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 39
+    },
+    "model": "google/gemma-4-31b-it",
+    "provider": "DeepInfra",
+    "configuration_name": "gemma-4-31b-it-260402"
+  },
+  {
+    "phrase": "gucke ich auf der AI Siete und da wird mir das hier angezeigt",
+    "context": "Ich hätte die Blutung nicht gefunden, gucke ich auf der AI Siete und da wird mir das hier angezeigt, das hätte ich jetzt nicht gesehen",
+    "tags": [
+      "ai_report: ich"
+    ],
+    "rationale": "The person verbalizes that the AI has found/indicated a hemorrhage.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 39
+    },
+    "model": "google/gemma-4-31b-it",
+    "provider": "DeepInfra",
+    "configuration_name": "gemma-4-31b-it-260402"
+  },
+  {
+    "phrase": "das hätte ich jetzt nicht gesehen, deswegen",
+    "context": "da wird mir das hier angezeigt, das hätte ich jetzt nicht gesehen, deswegen",
+    "tags": [
+      "reflection_of_ai: ich_not_recognized_without_ai"
+    ],
+    "rationale": "The person reaffirms that they would have missed the finding without the AI's report.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 39
+    },
+    "model": "google/gemma-4-31b-it",
+    "provider": "DeepInfra",
+    "configuration_name": "gemma-4-31b-it-260402"
+  },
+  {
+    "phrase": "Hier sieht man schon ein Ventrikel",
+    "context": "Hier sieht man schon ein Ventrikel und überhaupt hier eine große Blutung",
+    "tags": [
+      "visual_search: description_of_medical_image_features"
+    ],
+    "rationale": "The person is verbalizing the anatomical structure (ventricle) they are currently looking at.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 49
+    },
+    "model": "google/gemma-4-31b-it",
+    "provider": "CoreWeave",
+    "configuration_name": "gemma-4-31b-it-260402"
+  },
+  {
+    "phrase": "überhaupt hier eine große Blutung",
+    "context": "Hier sieht man schon ein Ventrikel und überhaupt hier eine große Blutung, ich bräuchte jetzt",
+    "tags": [
+      "interpretation: bleeding"
+    ],
+    "rationale": "The person explicitly interprets the finding as a hemorrhage ('Blutung').",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 49
+    },
+    "model": "google/gemma-4-31b-it",
+    "provider": "CoreWeave",
+    "configuration_name": "gemma-4-31b-it-260402"
+  },
+  {
+    "phrase": "muss schau trotzdem von vorne an",
+    "context": "ich bräuchte jetzt, muss schau trotzdem von vorne an, mal das der Ventrikel",
+    "tags": [
+      "control: control_repeat"
+    ],
+    "rationale": "The person indicates a need to return to a previous view or start the search from the beginning.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 49
+    },
+    "model": "google/gemma-4-31b-it",
+    "provider": "CoreWeave",
+    "configuration_name": "gemma-4-31b-it-260402"
+  },
+  {
+    "phrase": "mal das der Ventrikel da auffällig aussieht, also da eineengt",
+    "context": "muss schau trotzdem von vorne an, mal das der Ventrikel da auffällig aussieht, also da eineengt und die Blutung",
+    "tags": [
+      "indicator: anomaly_detected"
+    ],
+    "rationale": "The person notices an abnormality (narrowing/conspicuous appearance) of the ventricle.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 49
+    },
+    "model": "google/gemma-4-31b-it",
+    "provider": "CoreWeave",
+    "configuration_name": "gemma-4-31b-it-260402"
+  },
+  {
+    "phrase": "die Blutung hat man hier gesehen",
+    "context": "also da eineengt und die Blutung hat man hier gesehen. Ich hab das jetzt nicht gebraucht",
+    "tags": [
+      "interpretation: description_bleeding"
+    ],
+    "rationale": "The person refers back to the already identified hemorrhage to describe its presence in the image.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 49
+    },
+    "model": "google/gemma-4-31b-it",
+    "provider": "CoreWeave",
+    "configuration_name": "gemma-4-31b-it-260402"
+  },
+  {
+    "phrase": "Ich hab das jetzt nicht gebraucht und fertig.",
+    "context": "die Blutung hat man hier gesehen. Ich hab das jetzt nicht gebraucht und fertig.",
+    "tags": [
+      "reflection_of_ai: unhelpful/unnecessary"
+    ],
+    "rationale": "The person explicitly states that they did not need the AI assistance for this case.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 49
+    },
+    "model": "google/gemma-4-31b-it",
+    "provider": "CoreWeave",
+    "configuration_name": "gemma-4-31b-it-260402"
+  },
+  {
+    "phrase": "So ich guck erstmal wieder auf meine Seite, ohne AI erstmal und ob mir irgendwas auffällt.",
+    "context": "So ich guck erstmal wieder auf meine Seite, ohne AI erstmal und ob mir irgendwas auffällt. Beidseiten …",
+    "tags": [
+      "visual_search: description_of_own_approach_without_external_help"
+    ],
+    "rationale": "The person explicitly describes their search procedure of looking at their own side without AI first.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 47
+    },
+    "model": "google/gemma-4-31b-it",
+    "provider": "DeepInfra",
+    "configuration_name": "gemma-4-31b-it-260402"
+  },
+  {
+    "phrase": "Beidseiten …",
+    "context": "ohne AI erstmal und ob mir irgendwas auffällt. Beidseiten … Das war es noch nicht",
+    "tags": [
+      "visual_search: description_of_medical_image_features"
+    ],
+    "rationale": "The person is verbalizing which anatomical area (both sides) they are currently checking.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 47
+    },
+    "model": "google/gemma-4-31b-it",
+    "provider": "DeepInfra",
+    "configuration_name": "gemma-4-31b-it-260402"
+  },
+  {
+    "phrase": "Das war es noch nicht …",
+    "context": "Beidseiten … Das war es noch nicht … Vielleicht das hier",
+    "tags": [
+      "indicator: no_bleeding"
+    ],
+    "rationale": "The person classifies the currently viewed area as unremarkable/not containing the finding.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 47
+    },
+    "model": "google/gemma-4-31b-it",
+    "provider": "DeepInfra",
+    "configuration_name": "gemma-4-31b-it-260402"
+  },
+  {
+    "phrase": "Vielleicht das hier …",
+    "context": "Das war es noch nicht … Vielleicht das hier … Ich guck mal auf der AI Seite",
+    "tags": [
+      "confidence_low: secondary"
+    ],
+    "rationale": "The use of 'vielleicht' (perhaps) indicates implicit low certainty regarding the finding.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 47
+    },
+    "model": "google/gemma-4-31b-it",
+    "provider": "DeepInfra",
+    "configuration_name": "gemma-4-31b-it-260402"
+  },
+  {
+    "phrase": "Ich guck mal auf der AI Seite, ob mir das hier mit angezeigt wird …",
+    "context": "Vielleicht das hier … Ich guck mal auf der AI Seite, ob mir das hier mit angezeigt wird … Ist bei der AI einfach nicht",
+    "tags": [
+      "control: relying_on_ai"
+    ],
+    "rationale": "The person is checking the AI's assessment to verify their own observation.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 47
+    },
+    "model": "google/gemma-4-31b-it",
+    "provider": "DeepInfra",
+    "configuration_name": "gemma-4-31b-it-260402"
+  },
+  {
+    "phrase": "Ist bei der AI einfach nicht,",
+    "context": "ob mir das hier mit angezeigt wird … Ist bei der AI einfach nicht, ah da ja",
+    "tags": [
+      "ai_report: no_ich"
+    ],
+    "rationale": "The person verbalizes that the AI has not found/indicated a hemorrhage in that specific area.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 47
+    },
+    "model": "google/gemma-4-31b-it",
+    "provider": "DeepInfra",
+    "configuration_name": "gemma-4-31b-it-260402"
+  },
+  {
+    "phrase": "ah da ja, dass könnte fast",
+    "context": "Ist bei der AI einfach nicht, ah da ja, dass könnte fast",
+    "tags": [
+      "confidence_low: secondary"
+    ],
+    "rationale": "The phrase 'könnte fast' (could almost) indicates implicit uncertainty.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 47
+    },
+    "model": "google/gemma-4-31b-it",
+    "provider": "DeepInfra",
+    "configuration_name": "gemma-4-31b-it-260402"
+  },
+  {
+    "phrase": "??? Mal wieder, help wie geht das nochmal?",
+    "context": "VPN: ??? Mal wieder, help wie geht das nochmal? Nein.",
+    "tags": [
+      "technical_conversation"
+    ],
+    "rationale": "The person is asking for help on how to use the tool/interface.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 43
+    },
+    "model": "google/gemma-4-31b-it",
+    "provider": "DeepInfra",
+    "configuration_name": "gemma-4-31b-it-260402"
+  },
+  {
+    "phrase": "Ja, danke, ist ein bisschen besser",
+    "context": "EXPERIMENTER: Du kannst in das, genau jetzt hast dus gefunden. VPN: Ja, danke, ist ein bisschen besser, aber naja",
+    "tags": [
+      "other"
+    ],
+    "rationale": "General conversational response to the experimenter's help.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 43
+    },
+    "model": "google/gemma-4-31b-it",
+    "provider": "DeepInfra",
+    "configuration_name": "gemma-4-31b-it-260402"
+  },
+  {
+    "phrase": "es ist sowieso hier schon die Blutung zu sehen",
+    "context": "ist ein bisschen besser, aber naja es ist sowieso hier schon die Blutung zu sehen. Ist jetzt egal",
+    "tags": [
+      "interpretation: bleeding"
+    ],
+    "rationale": "The person explicitly identifies the presence of a hemorrhage ('Blutung').",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 43
+    },
+    "model": "google/gemma-4-31b-it",
+    "provider": "DeepInfra",
+    "configuration_name": "gemma-4-31b-it-260402"
+  },
+  {
+    "phrase": "da ist ein Saum",
+    "context": "Ist jetzt egal, aber da ist ein Saum, irgendwie kann grieg ich das nicht so super gut eingestellt",
+    "tags": [
+      "interpretation: description_bleeding"
+    ],
+    "rationale": "The person describes the appearance of the identified hemorrhage (mentioning a 'Saum' or rim/edge).",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 43
+    },
+    "model": "google/gemma-4-31b-it",
+    "provider": "DeepInfra",
+    "configuration_name": "gemma-4-31b-it-260402"
+  },
+  {
+    "phrase": "irgendwie kann grieg ich das nicht so super gut eingestellt",
+    "context": "aber da ist ein Saum, irgendwie kann grieg ich das nicht so super gut eingestellt, aber das war da zu sehen",
+    "tags": [
+      "technical_conversation"
+    ],
+    "rationale": "The person is complaining about the settings/adjustment of the display tool.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 43
+    },
+    "model": "google/gemma-4-31b-it",
+    "provider": "DeepInfra",
+    "configuration_name": "gemma-4-31b-it-260402"
+  },
+  {
+    "phrase": "Und ich geh von oben und guck allein erstmal",
+    "context": "Und ich geh von oben und guck allein erstmal, noch sehe keine Unterschied mhm",
+    "tags": [
+      "visual_search: description_of_own_approach_without_external_help"
+    ],
+    "rationale": "The person is explicitly describing their own search procedure (starting from the top and looking alone).",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 31
+    },
+    "model": "google/gemma-4-31b-it",
+    "provider": "CoreWeave",
+    "configuration_name": "gemma-4-31b-it-260402"
+  },
+  {
+    "phrase": "noch sehe keine Unterschied mhm",
+    "context": "Und ich geh von oben und guck allein erstmal, noch sehe keine Unterschied mhm … Ich bin noch nicht so viel was aufgefallen",
+    "tags": [
+      "indicator: no_bleeding"
+    ],
+    "rationale": "The person classifies the current image area as unremarkable/no difference found.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 31
+    },
+    "model": "google/gemma-4-31b-it",
+    "provider": "CoreWeave",
+    "configuration_name": "gemma-4-31b-it-260402"
+  },
+  {
+    "phrase": "Ich bin noch nicht so viel was aufgefallen",
+    "context": "noch sehe keine Unterschied mhm … Ich bin noch nicht so viel was aufgefallen, vielleicht gucke ich auf der AI Seite erstmal.",
+    "tags": [
+      "indicator: no_bleeding"
+    ],
+    "rationale": "The person indicates that nothing abnormal has been noticed yet.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 31
+    },
+    "model": "google/gemma-4-31b-it",
+    "provider": "CoreWeave",
+    "configuration_name": "gemma-4-31b-it-260402"
+  },
+  {
+    "phrase": "vielleicht gucke ich auf der AI Seite erstmal",
+    "context": "Ich bin noch nicht so viel was aufgefallen, vielleicht gucke ich auf der AI Seite erstmal. Ah, je das hatte ich nicht gesehn.",
+    "tags": [
+      "control: relying_on_ai"
+    ],
+    "rationale": "The person decides to switch to the AI's assessment to aid their search.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 31
+    },
+    "model": "google/gemma-4-31b-it",
+    "provider": "CoreWeave",
+    "configuration_name": "gemma-4-31b-it-260402"
+  },
+  {
+    "phrase": "Ah, je das hatte ich nicht gesehn.",
+    "context": "vielleicht gucke ich auf der AI Seite erstmal. Ah, je das hatte ich nicht gesehn. Aber wenn mans weis, dann ja.",
+    "tags": [
+      "visual_search: triggered_by_ai"
+    ],
+    "rationale": "The person notices something only after looking at the AI's information.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 31
+    },
+    "model": "google/gemma-4-31b-it",
+    "provider": "CoreWeave",
+    "configuration_name": "gemma-4-31b-it-260402"
+  },
+  {
+    "phrase": "Das hilft da",
+    "context": "Aber wenn mans weis, dann ja. Das hilft da",
+    "tags": [
+      "reflection_of_ai: helpful"
+    ],
+    "rationale": "The person explicitly perceives the AI as helpful in this instance.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 31
+    },
+    "model": "google/gemma-4-31b-it",
+    "provider": "CoreWeave",
+    "configuration_name": "gemma-4-31b-it-260402"
+  },
+  {
+    "phrase": "Hier sieht man schon eine Raumforderung",
+    "context": "Mhm. Hier sieht man schon eine Raumforderung, weiß jetzt nicht, ob es deswegen dann...",
+    "tags": [
+      "indicator: anomaly_detected"
+    ],
+    "rationale": "The person identifies a 'Raumforderung' (mass effect/space-occupying lesion), which is an abnormality atypical for a healthy skull.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 36
+    },
+    "model": "google/gemma-4-31b-it",
+    "provider": "CoreWeave",
+    "configuration_name": "gemma-4-31b-it-260402"
+  },
+  {
+    "phrase": "Also jetzt wird keine Blutung angezeigt.",
+    "context": "weiß jetzt nicht, ob es deswegen dann... Also jetzt wird keine Blutung angezeigt. Ich bin mir einfach unsicher",
+    "tags": [
+      "ai_report: no_ich"
+    ],
+    "rationale": "The person explicitly states that the AI is not indicating/showing a hemorrhage.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 36
+    },
+    "model": "google/gemma-4-31b-it",
+    "provider": "CoreWeave",
+    "configuration_name": "gemma-4-31b-it-260402"
+  },
+  {
+    "phrase": "Ich bin mir einfach unsicher, ob es einfach nur eine Raumforderung ist, die nicht blutet",
+    "context": "Also jetzt wird keine Blutung angezeigt. Ich bin mir einfach unsicher, ob es einfach nur eine Raumforderung ist, die nicht blutet und deswegen denke ich",
+    "tags": [
+      "reflection: diagnostic_uncertainty"
+    ],
+    "rationale": "The person expresses uncertainty about whether the finding is a non-bleeding mass.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 36
+    },
+    "model": "google/gemma-4-31b-it",
+    "provider": "CoreWeave",
+    "configuration_name": "gemma-4-31b-it-260402"
+  },
+  {
+    "phrase": "wahrscheinlich dann also das wahrscheinlich dann eher ein Tumor.",
+    "context": "die nicht blutet und deswegen denke ich, wahrscheinlich dann also das wahrscheinlich dann eher ein Tumor. Das ist auch ein inhomogen.",
+    "tags": [
+      "reasoning: alternative_medical_cause",
+      "confidence_high: secondary"
+    ],
+    "rationale": "The person suggests a tumor as an alternative cause for the abnormality. The use of 'wahrscheinlich' (probably) indicates secondary high certainty/likelihood.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 36
+    },
+    "model": "google/gemma-4-31b-it",
+    "provider": "CoreWeave",
+    "configuration_name": "gemma-4-31b-it-260402"
+  },
+  {
+    "phrase": "Das ist auch ein inhomogen.",
+    "context": "wahrscheinlich dann also das wahrscheinlich dann eher ein Tumor. Das ist auch ein inhomogen. Ja, gehen wir davon aus",
+    "tags": [
+      "interpretation: description_bleeding"
+    ],
+    "rationale": "The person describes the characteristics (inhomogeneous) of the identified abnormality.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 36
+    },
+    "model": "google/gemma-4-31b-it",
+    "provider": "CoreWeave",
+    "configuration_name": "gemma-4-31b-it-260402"
+  },
+  {
+    "phrase": "Ja, gehen wir davon aus, dass deswegen das nicht als Blutung gezeigt wird.",
+    "context": "Das ist auch ein inhomogen. Ja, gehen wir davon aus, dass deswegen das nicht als Blutung gezeigt wird.",
+    "tags": [
+      "decision_with_ai: implicitly_agreeing_with_ai"
+    ],
+    "rationale": "The person concludes that the AI's lack of a hemorrhage report is correct because the finding is likely a tumor.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 36
+    },
+    "model": "google/gemma-4-31b-it",
+    "provider": "CoreWeave",
+    "configuration_name": "gemma-4-31b-it-260402"
+  }
+]

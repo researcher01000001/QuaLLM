@@ -1,0 +1,2904 @@
+[
+  {
+    "phrase": "Auch hier ist es symetrisch … und …",
+    "context": "Auch hier ist es symetrisch … und …",
+    "tags": [
+      "visual_search: description_of_medical_image_features"
+    ],
+    "rationale": "The speaker describes an image characteristic: symmetry.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 9
+    },
+    "model": "openai/gpt-6-luna",
+    "provider": "OpenAI",
+    "configuration_name": "gpt-6-luna-260922"
+  },
+  {
+    "phrase": "Mittellienie mitte wir habe hir alles symetrich und keine Signalverstärkung",
+    "context": "So, Mittellienie mitte wir habe hir alles symetrich und keine Signalverstärkung, ja",
+    "tags": [
+      "visual_search: description_of_medical_image_features"
+    ],
+    "rationale": "The speaker describes the midline, symmetry, and signal characteristics being observed in the image.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 5
+    },
+    "model": "openai/gpt-6-luna",
+    "provider": "OpenAI",
+    "configuration_name": "gpt-6-luna-260922"
+  },
+  {
+    "phrase": "Fang ich wieder von vorne an",
+    "context": "Fang ich wieder von vorne an und schau auf die Mittellinie. Und auf die Ränder vom Knochen, es sind aber keine Unterschiede zu sehen.",
+    "tags": [
+      "control: control_repeat"
+    ],
+    "rationale": "The person says they are starting over, indicating a return to an earlier part of the visual search.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 8
+    },
+    "model": "openai/gpt-6-luna",
+    "provider": "OpenAI",
+    "configuration_name": "gpt-6-luna-260922"
+  },
+  {
+    "phrase": "schau auf die Mittellinie. Und auf die Ränder vom Knochen",
+    "context": "Fang ich wieder von vorne an und schau auf die Mittellinie. Und auf die Ränder vom Knochen, es sind aber keine Unterschiede zu sehen.",
+    "tags": [
+      "visual_search: description_of_medical_image_features"
+    ],
+    "rationale": "The person names the anatomical structures they are looking at.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 8
+    },
+    "model": "openai/gpt-6-luna",
+    "provider": "OpenAI",
+    "configuration_name": "gpt-6-luna-260922"
+  },
+  {
+    "phrase": "es sind aber keine Unterschiede zu sehen",
+    "context": "Fang ich wieder von vorne an und schau auf die Mittellinie. Und auf die Ränder vom Knochen, es sind aber keine Unterschiede zu sehen.",
+    "tags": [
+      "indicator: no_bleeding"
+    ],
+    "rationale": "The person describes the areas they have checked as showing no differences or visible abnormality.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 8
+    },
+    "model": "openai/gpt-6-luna",
+    "provider": "OpenAI",
+    "configuration_name": "gpt-6-luna-260922"
+  },
+  {
+    "phrase": "Mittellinien ist in der Mitte, es sind keine Verschiebungen, Ventrikel sehen auch gleich aus",
+    "context": "Fang ich wieder so an, Mittellinien ist in der Mitte, es sind keine Verschiebungen, Ventrikel sehen auch gleich aus … äh ja, hier sieht man das schon deutlich da an der Aufhellung im Vergleich zu dem anderen Seite ist eher nichts auch. Mhm …",
+    "tags": [
+      "visual_search: description_of_medical_image_features"
+    ],
+    "rationale": "The speaker describes checking the midline, shifts, and ventricles.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 4
+    },
+    "model": "openai/gpt-6-luna",
+    "provider": "OpenAI",
+    "configuration_name": "gpt-6-luna-260922"
+  },
+  {
+    "phrase": "hier sieht man das schon deutlich da an der Aufhellung",
+    "context": "Ventrikel sehen auch gleich aus … äh ja, hier sieht man das schon deutlich da an der Aufhellung im Vergleich zu dem anderen Seite ist eher nichts auch.",
+    "tags": [
+      "indicator: anomaly_detected"
+    ],
+    "rationale": "The speaker points out a visible bright area as a finding, but does not explicitly identify it as a hemorrhage.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 4
+    },
+    "model": "openai/gpt-6-luna",
+    "provider": "OpenAI",
+    "configuration_name": "gpt-6-luna-260922"
+  },
+  {
+    "phrase": "im Vergleich zu dem anderen Seite ist eher nichts auch",
+    "context": "hier sieht man das schon deutlich da an der Aufhellung im Vergleich zu dem anderen Seite ist eher nichts auch. Mhm …",
+    "tags": [
+      "indicator: no_bleeding",
+      "confidence_low: secondary"
+    ],
+    "rationale": "The speaker describes the comparison side as having probably nothing, classifying it as unremarkable with some qualification.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 4
+    },
+    "model": "openai/gpt-6-luna",
+    "provider": "OpenAI",
+    "configuration_name": "gpt-6-luna-260922"
+  },
+  {
+    "phrase": "Kein Zeichen für eine Blutung.",
+    "context": "Man sieht hier auch keine Knochen, ähm Defekt … Kein Zeichen für eine Blutung.",
+    "tags": [
+      "interpretation: no_bleeding"
+    ],
+    "rationale": "The speaker explicitly states that there is no sign of hemorrhage.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 10
+    },
+    "model": "openai/gpt-6-luna",
+    "provider": "OpenAI",
+    "configuration_name": "gpt-6-luna-260922"
+  },
+  {
+    "phrase": "fangen wir wieder oben an",
+    "context": "So, fangen wir wieder oben an … und hier sieht man auch erstmal, mhm keine Veränderung.",
+    "tags": [
+      "control: control_repeat",
+      "visual_search: description_of_own_approach_without_external_help"
+    ],
+    "rationale": "The speaker says they are starting again at the top, indicating a return to a previously viewed area and describing their own search procedure.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 7
+    },
+    "model": "openai/gpt-6-luna",
+    "provider": "OpenAI",
+    "configuration_name": "gpt-6-luna-260922"
+  },
+  {
+    "phrase": "Ich gucke mal, beidseitig",
+    "context": "Ich gucke mal, beidseitig, aber … ah ja, da ist der, auf der Seite ist ein Saum",
+    "tags": [
+      "visual_search: description_of_medical_image_features"
+    ],
+    "rationale": "The speaker describes checking both sides of the image.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 7
+    },
+    "model": "openai/gpt-6-luna",
+    "provider": "OpenAI",
+    "configuration_name": "gpt-6-luna-260922"
+  },
+  {
+    "phrase": "auf der Seite ist ein Saum",
+    "context": "… ah ja, da ist der, auf der Seite ist ein Saum, was auf eine Blutung hindeuten könnte, oder bestimmt hindeutet.",
+    "tags": [
+      "indicator: anomaly_detected"
+    ],
+    "rationale": "The speaker notices a rim or band on one side as an abnormal image finding.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 7
+    },
+    "model": "openai/gpt-6-luna",
+    "provider": "OpenAI",
+    "configuration_name": "gpt-6-luna-260922"
+  },
+  {
+    "phrase": "was auf eine Blutung hindeuten könnte, oder bestimmt hindeutet",
+    "context": "… auf der Seite ist ein Saum, was auf eine Blutung hindeuten könnte, oder bestimmt hindeutet.",
+    "tags": [
+      "interpretation: bleeding",
+      "confidence_high: secondary",
+      "reflection: self-correction"
+    ],
+    "rationale": "The speaker interprets the finding as indicating bleeding, then revises a tentative statement to a more certain one.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 7
+    },
+    "model": "openai/gpt-6-luna",
+    "provider": "OpenAI",
+    "configuration_name": "gpt-6-luna-260922"
+  },
+  {
+    "phrase": "hier fange ich auch wieder von vorne an.",
+    "context": "So, hier fange ich auch wieder von vorne an. Sieht bis jetzt alles symmetrisch aus",
+    "tags": [
+      "control: control_repeat"
+    ],
+    "rationale": "The speaker says they are starting over, indicating a return to the image review.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 3
+    },
+    "model": "openai/gpt-6-luna",
+    "provider": "OpenAI",
+    "configuration_name": "gpt-6-luna-260922"
+  },
+  {
+    "phrase": "ich sehe noch keine Blutung.",
+    "context": "Sieht bis jetzt alles symmetrisch aus und ich sehe noch keine Blutung. Hier wird mir, ach ja, diese Punkte angezeigt",
+    "tags": [
+      "interpretation: no_bleeding"
+    ],
+    "rationale": "The speaker explicitly says they do not yet see a hemorrhage.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 3
+    },
+    "model": "openai/gpt-6-luna",
+    "provider": "OpenAI",
+    "configuration_name": "gpt-6-luna-260922"
+  },
+  {
+    "phrase": "diese Punkte angezeigt, diese Aufhellung.",
+    "context": "Hier wird mir, ach ja, diese Punkte angezeigt, diese Aufhellung. Das, es verschwindet danach aber auf der anderen Seite ist auch nichts",
+    "tags": [
+      "indicator: anomaly_detected"
+    ],
+    "rationale": "The speaker identifies displayed spots and a bright area as a finding.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 3
+    },
+    "model": "openai/gpt-6-luna",
+    "provider": "OpenAI",
+    "configuration_name": "gpt-6-luna-260922"
+  },
+  {
+    "phrase": "auf der anderen Seite ist auch nichts",
+    "context": "diese Aufhellung. Das, es verschwindet danach aber auf der anderen Seite ist auch nichts, ja.",
+    "tags": [
+      "indicator: no_bleeding"
+    ],
+    "rationale": "The speaker describes the other side as having nothing abnormal.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 3
+    },
+    "model": "openai/gpt-6-luna",
+    "provider": "OpenAI",
+    "configuration_name": "gpt-6-luna-260922"
+  },
+  {
+    "phrase": "Achso ich muss das immer so machen dann.",
+    "context": "VPN: Achso ich muss das immer so machen dann. EXPERIMENTER: Ja du kannst das leider nicht übernehmen, also du musst bei jedem Fall das neu einstellen. VPN: Mhm alles gut",
+    "tags": [
+      "technical_conversation"
+    ],
+    "rationale": "The speaker discusses having to reset the display/tool for each case.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 1
+    },
+    "model": "openai/gpt-6-luna",
+    "provider": "OpenAI",
+    "configuration_name": "gpt-6-luna-260922"
+  },
+  {
+    "phrase": "scroll ich jetzt systematsich von oben nach untern oder unten nach oben",
+    "context": "VPN: Mhm alles gut, scroll ich jetzt systematsich von oben nach untern oder unten nach oben und gucke immer auf beiden Seiten auf Knochen, auf irgenwelche Defekte da sind",
+    "tags": [
+      "visual_search: description_of_own_approach_without_external_help"
+    ],
+    "rationale": "The speaker describes their own systematic search procedure.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 1
+    },
+    "model": "openai/gpt-6-luna",
+    "provider": "OpenAI",
+    "configuration_name": "gpt-6-luna-260922"
+  },
+  {
+    "phrase": "gucke immer auf beiden Seiten auf Knochen, auf irgenwelche Defekte da sind, die dann wo. ich dann eine Blutung vermuten könnte.",
+    "context": "scroll ich jetzt systematsich von oben nach untern oder unten nach oben und gucke immer auf beiden Seiten auf Knochen, auf irgenwelche Defekte da sind, die dann wo. ich dann eine Blutung vermuten könnte. Aber hier sieht das alles, alles symetrisch",
+    "tags": [
+      "visual_search: description_of_medical_image_features"
+    ],
+    "rationale": "The speaker says they are checking the bones on both sides for defects that could indicate a bleed.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 1
+    },
+    "model": "openai/gpt-6-luna",
+    "provider": "OpenAI",
+    "configuration_name": "gpt-6-luna-260922"
+  },
+  {
+    "phrase": "Aber hier sieht das alles, alles symetrisch und keine Aufhellung oder so",
+    "context": "ich dann eine Blutung vermuten könnte. Aber hier sieht das alles, alles symetrisch und keine Aufhellung oder so, deswegen mhm das hilft mir wirklich zu sagen",
+    "tags": [
+      "indicator: no_bleeding"
+    ],
+    "rationale": "The speaker describes the image as symmetric and without an abnormal bright area.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 1
+    },
+    "model": "openai/gpt-6-luna",
+    "provider": "OpenAI",
+    "configuration_name": "gpt-6-luna-260922"
+  },
+  {
+    "phrase": "das wirklich keiner ist",
+    "context": "keine Aufhellung oder so, deswegen mhm das hilft mir wirklich zu sagen, das das wirklich keiner ist Ich würde schneller einfach durchgehen.",
+    "tags": [
+      "interpretation: no_bleeding",
+      "confidence_high: secondary"
+    ],
+    "rationale": "The speaker concludes there is no bleed and uses “wirklich” to convey strong certainty.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 1
+    },
+    "model": "openai/gpt-6-luna",
+    "provider": "OpenAI",
+    "configuration_name": "gpt-6-luna-260922"
+  },
+  {
+    "phrase": "normal fange ich immer irgwendwie von oben oder von untern an, dass ich nichts verpasse.",
+    "context": "Mhm, ja normal fange ich immer irgwendwie von oben oder von untern an, dass ich nichts verpasse. Mhm Mittellinie ist in der Mitte",
+    "tags": [
+      "visual_search: description_of_own_approach_without_external_help"
+    ],
+    "rationale": "The speaker describes their usual image-search procedure.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 2
+    },
+    "model": "openai/gpt-6-luna",
+    "provider": "OpenAI",
+    "configuration_name": "gpt-6-luna-260922"
+  },
+  {
+    "phrase": "Mittellinie ist in der Mitte, sehe keine Knochen ähm Brüche",
+    "context": "Mhm Mittellinie ist in der Mitte, sehe keine Knochen ähm Brüche, mhm hier zeigt der mir gerade ne Blutung",
+    "tags": [
+      "visual_search: description_of_medical_image_features"
+    ],
+    "rationale": "The speaker reports checking the midline and bones in the image.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 2
+    },
+    "model": "openai/gpt-6-luna",
+    "provider": "OpenAI",
+    "configuration_name": "gpt-6-luna-260922"
+  },
+  {
+    "phrase": "hier zeigt der mir gerade ne Blutung",
+    "context": "sehe keine Knochen ähm Brüche, mhm hier zeigt der mir gerade ne Blutung in dem Bereich, das ist sehr sehr dezent",
+    "tags": [
+      "ai_report: ich"
+    ],
+    "rationale": "The speaker says the AI is showing a hemorrhage.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 2
+    },
+    "model": "openai/gpt-6-luna",
+    "provider": "OpenAI",
+    "configuration_name": "gpt-6-luna-260922"
+  },
+  {
+    "phrase": "in dem Bereich",
+    "context": "hier zeigt der mir gerade ne Blutung in dem Bereich, das ist sehr sehr dezent",
+    "tags": [
+      "ai_report: ich_localization"
+    ],
+    "rationale": "The speaker specifies the area where the AI indicates the hemorrhage.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 2
+    },
+    "model": "openai/gpt-6-luna",
+    "provider": "OpenAI",
+    "configuration_name": "gpt-6-luna-260922"
+  },
+  {
+    "phrase": "das ist sehr sehr dezent",
+    "context": "hier zeigt der mir gerade ne Blutung in dem Bereich, das ist sehr sehr dezent, zumindest in meinem Bildschirm hätte ich das auf jeden Fall nicht erkannt sonnst",
+    "tags": [
+      "interpretation: description_bleeding"
+    ],
+    "rationale": "The speaker describes the indicated hemorrhage as very subtle.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 2
+    },
+    "model": "openai/gpt-6-luna",
+    "provider": "OpenAI",
+    "configuration_name": "gpt-6-luna-260922"
+  },
+  {
+    "phrase": "zumindest in meinem Bildschirm hätte ich das auf jeden Fall nicht erkannt sonnst",
+    "context": "das ist sehr sehr dezent, zumindest in meinem Bildschirm hätte ich das auf jeden Fall nicht erkannt sonnst, deswegen, ist nicht, wo war das nochmal?",
+    "tags": [
+      "reflection_of_ai: ich_not_recognized_without_ai"
+    ],
+    "rationale": "The speaker says they would not have recognized the hemorrhage without the AI.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 2
+    },
+    "model": "openai/gpt-6-luna",
+    "provider": "OpenAI",
+    "configuration_name": "gpt-6-luna-260922"
+  },
+  {
+    "phrase": "wo war das nochmal?",
+    "context": "deswegen, ist nicht, wo war das nochmal? ... Da angeblich, ja ich hätte das nicht gesehen.",
+    "tags": [
+      "control: reflective_question"
+    ],
+    "rationale": "The speaker asks themselves where the indicated finding was, apparently to check or recover its location.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 2
+    },
+    "model": "openai/gpt-6-luna",
+    "provider": "OpenAI",
+    "configuration_name": "gpt-6-luna-260922"
+  },
+  {
+    "phrase": "ja ich hätte das nicht gesehen",
+    "context": "Da angeblich, ja ich hätte das nicht gesehen.",
+    "tags": [
+      "reflection_of_ai: ich_not_recognized_without_ai"
+    ],
+    "rationale": "The speaker reiterates that they would not have noticed the hemorrhage without the AI.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 2
+    },
+    "model": "openai/gpt-6-luna",
+    "provider": "OpenAI",
+    "configuration_name": "gpt-6-luna-260922"
+  },
+  {
+    "phrase": "oben in der Mittellinie sieht man ein Aufhellung.",
+    "context": "Oh, oh no … mhm … oben in der Mittellinie sieht man ein Aufhellung. ??? Oben ist aber schon nichts mehr, aber da ist was auffälliges dran",
+    "tags": [
+      "visual_search: description_of_medical_image_features"
+    ],
+    "rationale": "The speaker describes an image feature and its location in the midline.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 12
+    },
+    "model": "openai/gpt-6-luna",
+    "provider": "OpenAI",
+    "configuration_name": "gpt-6-luna-260922"
+  },
+  {
+    "phrase": "da ist was auffälliges dran",
+    "context": "Oben ist aber schon nichts mehr, aber da ist was auffälliges dran",
+    "tags": [
+      "indicator: anomaly_detected"
+    ],
+    "rationale": "The speaker explicitly notes that something looks abnormal.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 12
+    },
+    "model": "openai/gpt-6-luna",
+    "provider": "OpenAI",
+    "configuration_name": "gpt-6-luna-260922"
+  },
+  {
+    "phrase": "ich will ja wissen, dass ich nichts verpasst habe.",
+    "context": "Hier kann ich aber, ich will ja wissen, dass ich nichts verpasst habe.",
+    "tags": [
+      "reflection: diagnostic_uncertainty"
+    ],
+    "rationale": "The speaker expresses uncertainty about whether anything has been overlooked.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 15
+    },
+    "model": "openai/gpt-6-luna",
+    "provider": "OpenAI",
+    "configuration_name": "gpt-6-luna-260922"
+  },
+  {
+    "phrase": "ich probiere auf der Siete ohne AI erstmal nach was zu schauen",
+    "context": "So, ich probiere auf der Siete ohne AI erstmal nach was zu schauen. Und auf symetrie schauen, auf Knochendefekte",
+    "tags": [
+      "visual_search: description_of_own_approach_without_external_help"
+    ],
+    "rationale": "The speaker explicitly describes beginning their own visual search without AI.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 13
+    },
+    "model": "openai/gpt-6-luna",
+    "provider": "OpenAI",
+    "configuration_name": "gpt-6-luna-260922"
+  },
+  {
+    "phrase": "Und auf symetrie schauen, auf Knochendefekte",
+    "context": "ich probiere auf der Siete ohne AI erstmal nach was zu schauen. Und auf symetrie schauen, auf Knochendefekte und dann auf der AI Seite",
+    "tags": [
+      "visual_search: description_of_medical_image_features"
+    ],
+    "rationale": "The speaker names image features they are checking: symmetry and bone defects.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 13
+    },
+    "model": "openai/gpt-6-luna",
+    "provider": "OpenAI",
+    "configuration_name": "gpt-6-luna-260922"
+  },
+  {
+    "phrase": "und dann auf der AI Seite, ob ich irgendwas verpasst habe",
+    "context": "Und auf symetrie schauen, auf Knochendefekte und dann auf der AI Seite, ob ich irgendwas verpasst habe, sieht nicht so aus",
+    "tags": [
+      "visual_search: triggered_by_ai"
+    ],
+    "rationale": "The speaker checks the AI side to see whether they missed anything, aligning their search with the AI information.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 13
+    },
+    "model": "openai/gpt-6-luna",
+    "provider": "OpenAI",
+    "configuration_name": "gpt-6-luna-260922"
+  },
+  {
+    "phrase": "Das hilft einem sowohl beim Ausschluss",
+    "context": "Das hilft einem sowohl beim Ausschluss, das man ein bisschen eher auf der sichern Seite, dass man nichts verpasst hat, auf jeden Fall schneller vorbei hier.",
+    "tags": [
+      "reflection_of_ai: helpful"
+    ],
+    "rationale": "The speaker says the AI helps with ruling out a finding.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 11
+    },
+    "model": "openai/gpt-6-luna",
+    "provider": "OpenAI",
+    "configuration_name": "gpt-6-luna-260922"
+  },
+  {
+    "phrase": "das man ein bisschen eher auf der sichern Seite, dass man nichts verpasst hat",
+    "context": "Das hilft einem sowohl beim Ausschluss, das man ein bisschen eher auf der sichern Seite, dass man nichts verpasst hat, auf jeden Fall schneller vorbei hier.",
+    "tags": [
+      "confidence_high: increased_through_ai"
+    ],
+    "rationale": "The speaker says the AI leaves them more reassured that they have not missed anything.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 11
+    },
+    "model": "openai/gpt-6-luna",
+    "provider": "OpenAI",
+    "configuration_name": "gpt-6-luna-260922"
+  },
+  {
+    "phrase": "Ja wann da was dabei ist, dass man ein bisschen besser drauf achtet.",
+    "context": "Ja wann da was dabei ist, dass man ein bisschen besser drauf achtet.",
+    "tags": [
+      "visual_search: triggered_by_ai"
+    ],
+    "rationale": "The speaker describes paying closer attention when the AI indicates that something may be present.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 11
+    },
+    "model": "openai/gpt-6-luna",
+    "provider": "OpenAI",
+    "configuration_name": "gpt-6-luna-260922"
+  },
+  {
+    "phrase": "wieder auf die Mittellinie",
+    "context": "Ja schau ich wieder auf die Mittellinie und auf den Schädelknochen",
+    "tags": [
+      "control: control_repeat"
+    ],
+    "rationale": "The speaker explicitly says they are looking at the midline again, returning to a previously viewed area.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 6
+    },
+    "model": "openai/gpt-6-luna",
+    "provider": "OpenAI",
+    "configuration_name": "gpt-6-luna-260922"
+  },
+  {
+    "phrase": "auf den Schädelknochen",
+    "context": "wieder auf die Mittellinie und auf den Schädelknochen … ich guck mir schon auf der anderen Seite vom AI an",
+    "tags": [
+      "visual_search: description_of_medical_image_features"
+    ],
+    "rationale": "The speaker names an anatomical structure they are currently examining.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 6
+    },
+    "model": "openai/gpt-6-luna",
+    "provider": "OpenAI",
+    "configuration_name": "gpt-6-luna-260922"
+  },
+  {
+    "phrase": "ich guck mir schon auf der anderen Seite vom AI an, ob ich irgendwas verpasst hab.",
+    "context": "… ich guck mir schon auf der anderen Seite vom AI an, ob ich irgendwas verpasst hab. Aber hier wird mir nicht angezeigt, wo das ist ha?",
+    "tags": [
+      "visual_search: triggered_by_ai"
+    ],
+    "rationale": "The speaker describes searching in relation to the AI-indicated side, checking the other side for anything they may have missed.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 6
+    },
+    "model": "openai/gpt-6-luna",
+    "provider": "OpenAI",
+    "configuration_name": "gpt-6-luna-260922"
+  },
+  {
+    "phrase": "Aber hier wird mir nicht angezeigt, wo das ist ha? Also dieses Viereck ist jetzt nicht da.",
+    "context": "… ob ich irgendwas verpasst hab. Aber hier wird mir nicht angezeigt, wo das ist ha? Also dieses Viereck ist jetzt nicht da. Wo die Blutung sein sollte, jetzt als Frage.",
+    "tags": [
+      "technical_conversation"
+    ],
+    "rationale": "The speaker discusses the absence of the on-screen square with the experimenter, raising an issue about how the display tool is showing the image.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 6
+    },
+    "model": "openai/gpt-6-luna",
+    "provider": "OpenAI",
+    "configuration_name": "gpt-6-luna-260922"
+  },
+  {
+    "phrase": "Wo die Blutung sein sollte, jetzt als Frage.",
+    "context": "Also dieses Viereck ist jetzt nicht da. Wo die Blutung sein sollte, jetzt als Frage. Tschuldigung.",
+    "tags": [
+      "technical_conversation"
+    ],
+    "rationale": "The speaker clarifies that the expected indicator for the hemorrhage is not visible, as part of discussing the display.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 6
+    },
+    "model": "openai/gpt-6-luna",
+    "provider": "OpenAI",
+    "configuration_name": "gpt-6-luna-260922"
+  },
+  {
+    "phrase": "bei diesem Bild zeigt mir das jetzt nicht an, wo das ist, ist das richtig? Ist das nur manchmal, oder?",
+    "context": "Achso, ja also bei diesem Bild zeigt mir das jetzt nicht an, wo das ist, ist das richtig? Ist das nur manchmal, oder? EXPERIMENTER: Äh, ne da müsste auch ein Quadrat sein.",
+    "tags": [
+      "technical_conversation"
+    ],
+    "rationale": "The speaker asks the experimenter how the AI indicator is supposed to appear on this image.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 6
+    },
+    "model": "openai/gpt-6-luna",
+    "provider": "OpenAI",
+    "configuration_name": "gpt-6-luna-260922"
+  },
+  {
+    "phrase": "aber auch das hätte ich gar nicht gesehen.",
+    "context": "VPN: Ah da, ja dankeschön, aber auch das hätte ich gar nicht gesehen. Mhm ohne AI hätte ich gedacht",
+    "tags": [
+      "reflection_of_ai: ich_not_recognized_without_ai"
+    ],
+    "rationale": "The speaker says they would not have noticed the finding without the AI.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 6
+    },
+    "model": "openai/gpt-6-luna",
+    "provider": "OpenAI",
+    "configuration_name": "gpt-6-luna-260922"
+  },
+  {
+    "phrase": "ohne AI hätte ich gedacht, dass ist irgendwie einen Artefakt",
+    "context": "… aber auch das hätte ich gar nicht gesehen. Mhm ohne AI hätte ich gedacht, dass ist irgendwie einen Artefakt, hätte ich nicht gesehen",
+    "tags": [
+      "reasoning: artifact",
+      "confidence_low: secondary"
+    ],
+    "rationale": "The speaker says they would have interpreted the finding as an artifact without the AI, using “irgendwie” to express uncertainty.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 6
+    },
+    "model": "openai/gpt-6-luna",
+    "provider": "OpenAI",
+    "configuration_name": "gpt-6-luna-260922"
+  },
+  {
+    "phrase": "finde es immernich schwer",
+    "context": "… hätte ich nicht gesehen, finde es immernich schwer, so es sieht so aus, wie ein Artefakt irgendwie",
+    "tags": [
+      "awareness_of_task: difficult"
+    ],
+    "rationale": "The speaker explicitly describes the task as difficult.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 6
+    },
+    "model": "openai/gpt-6-luna",
+    "provider": "OpenAI",
+    "configuration_name": "gpt-6-luna-260922"
+  },
+  {
+    "phrase": "es sieht so aus, wie ein Artefakt irgendwie",
+    "context": "finde es immernich schwer, so es sieht so aus, wie ein Artefakt irgendwie",
+    "tags": [
+      "reasoning: artifact",
+      "confidence_low: secondary"
+    ],
+    "rationale": "The speaker describes the finding as resembling an artifact and expresses tentativeness with “irgendwie.”",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 6
+    },
+    "model": "openai/gpt-6-luna",
+    "provider": "OpenAI",
+    "configuration_name": "gpt-6-luna-260922"
+  },
+  {
+    "phrase": "hier, sieht man nichts",
+    "context": "Ja hier, sieht man nichts und AI sagt auch es ist nichts da",
+    "tags": [
+      "indicator: no_bleeding",
+      "interpretation: no_bleeding"
+    ],
+    "rationale": "The speaker says the viewed area shows nothing, classifying it as unremarkable and indicating no hemorrhage.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 18
+    },
+    "model": "openai/gpt-6-luna",
+    "provider": "OpenAI",
+    "configuration_name": "gpt-6-luna-260922"
+  },
+  {
+    "phrase": "AI sagt auch es ist nichts da",
+    "context": "Ja hier, sieht man nichts und AI sagt auch es ist nichts da",
+    "tags": [
+      "ai_report: no_ich",
+      "decision_with_ai: implicitly_agreeing_with_ai"
+    ],
+    "rationale": "The speaker reports that the AI found nothing and implicitly agrees by noting that this matches their own observation.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 18
+    },
+    "model": "openai/gpt-6-luna",
+    "provider": "OpenAI",
+    "configuration_name": "gpt-6-luna-260922"
+  },
+  {
+    "phrase": "So",
+    "context": "… So … das habe ich auch, in dem Teil ist es so ein bisschen deutlicher zu sehen und auf der anderen Seite sehe ich das, eigentlich zeigt mir das das gleiche. … Ja, gut.",
+    "tags": [
+      "paused_in_process"
+    ],
+    "rationale": "A standalone filler word.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 16
+    },
+    "model": "openai/gpt-6-luna",
+    "provider": "OpenAI",
+    "configuration_name": "gpt-6-luna-260922"
+  },
+  {
+    "phrase": "in dem Teil ist es so ein bisschen deutlicher zu sehen und auf der anderen Seite sehe ich das, eigentlich zeigt mir das das gleiche.",
+    "context": "… So … das habe ich auch, in dem Teil ist es so ein bisschen deutlicher zu sehen und auf der anderen Seite sehe ich das, eigentlich zeigt mir das das gleiche. … Ja, gut.",
+    "tags": [
+      "visual_search: description_of_medical_image_features"
+    ],
+    "rationale": "The speaker describes how a feature appears in one part of the image compared with the other side.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 16
+    },
+    "model": "openai/gpt-6-luna",
+    "provider": "OpenAI",
+    "configuration_name": "gpt-6-luna-260922"
+  },
+  {
+    "phrase": "Ja, gut.",
+    "context": "… So … das habe ich auch, in dem Teil ist es so ein bisschen deutlicher zu sehen und auf der anderen Seite sehe ich das, eigentlich zeigt mir das das gleiche. … Ja, gut.",
+    "tags": [
+      "paused_in_process"
+    ],
+    "rationale": "A brief filler-like closing utterance.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 16
+    },
+    "model": "openai/gpt-6-luna",
+    "provider": "OpenAI",
+    "configuration_name": "gpt-6-luna-260922"
+  },
+  {
+    "phrase": "Ich fange so an, dass ich das alles einmal gesehen habe",
+    "context": "Ich fange so an, dass ich das alles einmal gesehen habe und schue mir die Ventrikel und die Mittellinie an, Schädelknochen und direkt dadrunter [?] Konvex oder konkav.",
+    "tags": [
+      "visual_search: description_of_own_approach_without_external_help"
+    ],
+    "rationale": "The speaker describes how they begin their own visual search.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 14
+    },
+    "model": "openai/gpt-6-luna",
+    "provider": "OpenAI",
+    "configuration_name": "gpt-6-luna-260922"
+  },
+  {
+    "phrase": "schue mir die Ventrikel und die Mittellinie an, Schädelknochen und direkt dadrunter [?] Konvex oder konkav",
+    "context": "Ich fange so an, dass ich das alles einmal gesehen habe und schue mir die Ventrikel und die Mittellinie an, Schädelknochen und direkt dadrunter [?] Konvex oder konkav. Hier, hätte ich das verpasst, ich habe erst mal auf der nicht AI Seite gesehen, und jetzt hier wird mir aber was angezeigt.",
+    "tags": [
+      "visual_search: description_of_medical_image_features"
+    ],
+    "rationale": "The speaker names anatomical structures and image features they are examining.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 14
+    },
+    "model": "openai/gpt-6-luna",
+    "provider": "OpenAI",
+    "configuration_name": "gpt-6-luna-260922"
+  },
+  {
+    "phrase": "Hier, hätte ich das verpasst",
+    "context": "Schädelknochen und direkt dadrunter [?] Konvex oder konkav. Hier, hätte ich das verpasst, ich habe erst mal auf der nicht AI Seite gesehen, und jetzt hier wird mir aber was angezeigt. Ja, das hätte ich nicht ohne AI gemerkt.",
+    "tags": [
+      "control: reflective_question"
+    ],
+    "rationale": "The speaker poses a self-directed question to check whether they would have missed the finding.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 14
+    },
+    "model": "openai/gpt-6-luna",
+    "provider": "OpenAI",
+    "configuration_name": "gpt-6-luna-260922"
+  },
+  {
+    "phrase": "Ja, das hätte ich nicht ohne AI gemerkt.",
+    "context": "Hier, hätte ich das verpasst, ich habe erst mal auf der nicht AI Seite gesehen, und jetzt hier wird mir aber was angezeigt. Ja, das hätte ich nicht ohne AI gemerkt.",
+    "tags": [
+      "reflection_of_ai: ich_not_recognized_without_ai"
+    ],
+    "rationale": "The speaker explicitly says they would not have noticed the finding without the AI.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 14
+    },
+    "model": "openai/gpt-6-luna",
+    "provider": "OpenAI",
+    "configuration_name": "gpt-6-luna-260922"
+  },
+  {
+    "phrase": "unaufällig aus, beiden Sieten",
+    "context": "Hier ist jetzt alles wieder, unaufällig aus, beiden Sieten und AI sagt auch nichts da",
+    "tags": [
+      "indicator: no_bleeding",
+      "interpretation: no_bleeding"
+    ],
+    "rationale": "The person describes both sides as unremarkable, implying no hemorrhage is present.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 22
+    },
+    "model": "openai/gpt-6-luna",
+    "provider": "OpenAI",
+    "configuration_name": "gpt-6-luna-260922"
+  },
+  {
+    "phrase": "AI sagt auch nichts da",
+    "context": "Hier ist jetzt alles wieder, unaufällig aus, beiden Sieten und AI sagt auch nichts da",
+    "tags": [
+      "ai_report: no_ich"
+    ],
+    "rationale": "The person reports that the AI indicates no finding there.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 22
+    },
+    "model": "openai/gpt-6-luna",
+    "provider": "OpenAI",
+    "configuration_name": "gpt-6-luna-260922"
+  },
+  {
+    "phrase": "Ok mhm …",
+    "context": "Ok mhm … Hier soll nichts sein",
+    "tags": [
+      "paused_in_process"
+    ],
+    "rationale": "This is a brief filler utterance.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 20
+    },
+    "model": "openai/gpt-6-luna",
+    "provider": "OpenAI",
+    "configuration_name": "gpt-6-luna-260922"
+  },
+  {
+    "phrase": "Hier soll nichts sein und ich sehe auch nichts",
+    "context": "Ok mhm … Hier soll nichts sein und ich sehe auch nichts und ist beides symetrisch",
+    "tags": [
+      "interpretation: no_bleeding"
+    ],
+    "rationale": "The speaker says they see nothing where they expect nothing, expressing a negative interpretation.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 20
+    },
+    "model": "openai/gpt-6-luna",
+    "provider": "OpenAI",
+    "configuration_name": "gpt-6-luna-260922"
+  },
+  {
+    "phrase": "und ist beides symetrisch und Ventrikel frei",
+    "context": "ich sehe auch nichts und ist beides symetrisch und Ventrikel frei. Unterhalb",
+    "tags": [
+      "visual_search: description_of_medical_image_features"
+    ],
+    "rationale": "The speaker describes image features they are checking, including symmetry and the ventricles.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 20
+    },
+    "model": "openai/gpt-6-luna",
+    "provider": "OpenAI",
+    "configuration_name": "gpt-6-luna-260922"
+  },
+  {
+    "phrase": "Unterhalb des Schädelknochen ist alles frei",
+    "context": "Ventrikel frei. Unterhalb des Schädelknochen ist alles frei",
+    "tags": [
+      "indicator: no_bleeding"
+    ],
+    "rationale": "The speaker describes a specific area as clear and unremarkable.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 20
+    },
+    "model": "openai/gpt-6-luna",
+    "provider": "OpenAI",
+    "configuration_name": "gpt-6-luna-260922"
+  },
+  {
+    "phrase": "So ich guck erstmal ohne AI.",
+    "context": "So ich guck erstmal ohne AI. Ich schau auf Mittellinie und auf Knochendefekte.",
+    "tags": [
+      "visual_search: description_of_own_approach_without_external_help"
+    ],
+    "rationale": "The speaker explicitly describes beginning the search without AI assistance.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 21
+    },
+    "model": "openai/gpt-6-luna",
+    "provider": "OpenAI",
+    "configuration_name": "gpt-6-luna-260922"
+  },
+  {
+    "phrase": "Ich schau auf Mittellinie und auf Knochendefekte.",
+    "context": "So ich guck erstmal ohne AI. Ich schau auf Mittellinie und auf Knochendefekte. … Auf Unterschiede auf beiden Seiten, ist mir nichts aufgefallen",
+    "tags": [
+      "visual_search: description_of_medical_image_features"
+    ],
+    "rationale": "The speaker names the anatomical features they are examining.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 21
+    },
+    "model": "openai/gpt-6-luna",
+    "provider": "OpenAI",
+    "configuration_name": "gpt-6-luna-260922"
+  },
+  {
+    "phrase": "ist mir nichts aufgefallen, aber sollte da was sein?",
+    "context": "… Auf Unterschiede auf beiden Seiten, ist mir nichts aufgefallen, aber sollte da was sein? Ich guck jetzt auf der AI Seite",
+    "tags": [
+      "reflection: diagnostic_uncertainty",
+      "control: reflective_question"
+    ],
+    "rationale": "The speaker is unsure whether there should be a finding and asks a self-directed question to check their assessment.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 21
+    },
+    "model": "openai/gpt-6-luna",
+    "provider": "OpenAI",
+    "configuration_name": "gpt-6-luna-260922"
+  },
+  {
+    "phrase": "Ich guck jetzt auf der AI Seite",
+    "context": "aber sollte da was sein? Ich guck jetzt auf der AI Seite, da ist schon ah, da ist schon angeblich unter deer Schädelkalotte",
+    "tags": [
+      "visual_search: triggered_by_ai"
+    ],
+    "rationale": "The speaker shifts their visual search to the AI side.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 21
+    },
+    "model": "openai/gpt-6-luna",
+    "provider": "OpenAI",
+    "configuration_name": "gpt-6-luna-260922"
+  },
+  {
+    "phrase": "da ist schon angeblich unter deer Schädelkalotte was",
+    "context": "Ich guck jetzt auf der AI Seite, da ist schon ah, da ist schon angeblich unter deer Schädelkalotte was was ich nicht gesehen hätte unbedingt.",
+    "tags": [
+      "ai_report: ich_localization"
+    ],
+    "rationale": "The speaker reports that the AI indicates something beneath the skullcap, specifying its location.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 21
+    },
+    "model": "openai/gpt-6-luna",
+    "provider": "OpenAI",
+    "configuration_name": "gpt-6-luna-260922"
+  },
+  {
+    "phrase": "was was ich nicht gesehen hätte unbedingt",
+    "context": "da ist schon angeblich unter deer Schädelkalotte was was ich nicht gesehen hätte unbedingt.",
+    "tags": [
+      "reflection_of_ai: ich_not_recognized_without_ai"
+    ],
+    "rationale": "The speaker indicates they likely would not have noticed the finding without the AI.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 21
+    },
+    "model": "openai/gpt-6-luna",
+    "provider": "OpenAI",
+    "configuration_name": "gpt-6-luna-260922"
+  },
+  {
+    "phrase": "Schau erstmal wieder auf meine Seite … Ich seh keine Unterschied",
+    "context": "… Schau erstmal wieder auf meine Seite … Ich seh keine Unterschied",
+    "tags": [
+      "technical_conversation"
+    ],
+    "rationale": "The speaker asks to return to their page or view and comments that they see no difference, suggesting discussion of the display or task interface.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 25
+    },
+    "model": "openai/gpt-6-luna",
+    "provider": "OpenAI",
+    "configuration_name": "gpt-6-luna-260922"
+  },
+  {
+    "phrase": "Mhm",
+    "context": "Mhm hier wieder Mittelinie und Schädelkalotte und da drunter auch kein Saum, ist alles ok",
+    "tags": [
+      "paused_in_process"
+    ],
+    "rationale": "A standalone acknowledgment/filler.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 26
+    },
+    "model": "openai/gpt-6-luna",
+    "provider": "OpenAI",
+    "configuration_name": "gpt-6-luna-260922"
+  },
+  {
+    "phrase": "hier wieder Mittelinie und Schädelkalotte",
+    "context": "Mhm hier wieder Mittelinie und Schädelkalotte und da drunter auch kein Saum, ist alles ok",
+    "tags": [
+      "visual_search: description_of_medical_image_features"
+    ],
+    "rationale": "The speaker names the anatomical structures they are examining.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 26
+    },
+    "model": "openai/gpt-6-luna",
+    "provider": "OpenAI",
+    "configuration_name": "gpt-6-luna-260922"
+  },
+  {
+    "phrase": "da drunter auch kein Saum, ist alles ok",
+    "context": "Mhm hier wieder Mittelinie und Schädelkalotte und da drunter auch kein Saum, ist alles ok",
+    "tags": [
+      "indicator: no_bleeding"
+    ],
+    "rationale": "The speaker describes the area beneath the structures as unremarkable.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 26
+    },
+    "model": "openai/gpt-6-luna",
+    "provider": "OpenAI",
+    "configuration_name": "gpt-6-luna-260922"
+  },
+  {
+    "phrase": "weil ich gesagt bekomme, dass da nichts da ist",
+    "context": "Okay. Jetzt wieder schneller, weil ich gesagt bekomme, dass da nichts da ist, und mir fällt auch nichts auf.",
+    "tags": [
+      "ai_report: no_ich"
+    ],
+    "rationale": "The speaker reports that the AI indicated there was nothing present.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 24
+    },
+    "model": "openai/gpt-6-luna",
+    "provider": "OpenAI",
+    "configuration_name": "gpt-6-luna-260922"
+  },
+  {
+    "phrase": "Jetzt wieder schneller, weil ich gesagt bekomme, dass da nichts da ist",
+    "context": "Okay. Jetzt wieder schneller, weil ich gesagt bekomme, dass da nichts da ist, und mir fällt auch nichts auf.",
+    "tags": [
+      "control: relying_on_ai"
+    ],
+    "rationale": "The speaker says the AI's negative assessment leads them to move through the image faster.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 24
+    },
+    "model": "openai/gpt-6-luna",
+    "provider": "OpenAI",
+    "configuration_name": "gpt-6-luna-260922"
+  },
+  {
+    "phrase": "und mir fällt auch nichts auf",
+    "context": "Okay. Jetzt wieder schneller, weil ich gesagt bekomme, dass da nichts da ist, und mir fällt auch nichts auf.",
+    "tags": [
+      "decision_with_ai: implicitly_agreeing_with_ai"
+    ],
+    "rationale": "The speaker reports seeing nothing themselves, implicitly agreeing with the AI's negative assessment.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 24
+    },
+    "model": "openai/gpt-6-luna",
+    "provider": "OpenAI",
+    "configuration_name": "gpt-6-luna-260922"
+  },
+  {
+    "phrase": "erst mal auf der Seite ohne AI, auf Unterschiede beidseitig bei den Hemisphären",
+    "context": "Genaue, erst mal auf der Seite ohne AI, auf Unterschiede beidseitig bei den Hemisphären, und hier hab ich nichts direkt gesehen",
+    "tags": [
+      "visual_search: description_of_own_approach_without_external_help"
+    ],
+    "rationale": "The speaker describes their search approach, including looking without AI and comparing the hemispheres.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 17
+    },
+    "model": "openai/gpt-6-luna",
+    "provider": "OpenAI",
+    "configuration_name": "gpt-6-luna-260922"
+  },
+  {
+    "phrase": "Das hätte ich ohne so ohne so große Erfahrung nicht gemerkt.",
+    "context": "auf der Seite mir aber was angezeigt. Das hätte ich ohne so ohne so große Erfahrung nicht gemerkt. Aber wenn man das weiß",
+    "tags": [
+      "reflection: experience_limitation"
+    ],
+    "rationale": "The speaker says they would not have noticed the finding without substantial experience.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 17
+    },
+    "model": "openai/gpt-6-luna",
+    "provider": "OpenAI",
+    "configuration_name": "gpt-6-luna-260922"
+  },
+  {
+    "phrase": "Aber wenn man das weiß, dann sieht man es da auch doch.",
+    "context": "Das hätte ich ohne so ohne so große Erfahrung nicht gemerkt. Aber wenn man das weiß, dann sieht man es da auch doch.",
+    "tags": [
+      "visual_search: triggered_by_ai"
+    ],
+    "rationale": "In context, the speaker says the finding becomes visible once they know about it, following the AI indication.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 17
+    },
+    "model": "openai/gpt-6-luna",
+    "provider": "OpenAI",
+    "configuration_name": "gpt-6-luna-260922"
+  },
+  {
+    "phrase": "nichts was auffällig aussieht",
+    "context": "Genau so hier mhm nichts was auffällig aussieht",
+    "tags": [
+      "indicator: no_bleeding"
+    ],
+    "rationale": "The speaker classifies the area being viewed as having nothing visibly abnormal.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 27
+    },
+    "model": "openai/gpt-6-luna",
+    "provider": "OpenAI",
+    "configuration_name": "gpt-6-luna-260922"
+  },
+  {
+    "phrase": "Bis jetzt auch alles symetrisch und Mittellinie ist nicht verschoben",
+    "context": "… Mhm da … Bis jetzt auch alles symetrisch und Mittellinie ist nicht verschoben … Ist mir so noch nicht so direkt",
+    "tags": [
+      "indicator: no_bleeding"
+    ],
+    "rationale": "The person describes the symmetry and midline as unremarkable.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 19
+    },
+    "model": "openai/gpt-6-luna",
+    "provider": "OpenAI",
+    "configuration_name": "gpt-6-luna-260922"
+  },
+  {
+    "phrase": "auf der Seite sieht das irgendwie die Gyri ander aus als auf dieser Seite",
+    "context": "… das wär ja, … auf der Seite sieht das irgendwie die Gyri ander aus als auf dieser Seite und auf der AI Seite zeigt",
+    "tags": [
+      "indicator: anomaly_detected",
+      "visual_search: description_of_medical_image_features",
+      "reflection: diagnostic_uncertainty"
+    ],
+    "rationale": "The person notes a difference in the gyri between sides, describes the image feature being examined, and hedges the observation with “irgendwie.”",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 19
+    },
+    "model": "openai/gpt-6-luna",
+    "provider": "OpenAI",
+    "configuration_name": "gpt-6-luna-260922"
+  },
+  {
+    "phrase": "auf der AI Seite zeigt, wird mir auch angezeigt, dass hier was ist",
+    "context": "… als auf dieser Seite und auf der AI Seite zeigt, wird mir auch angezeigt, dass hier was ist, ja",
+    "tags": [],
+    "rationale": "The person says the AI indicates something at this location, but does not specify that the AI found a hemorrhage or otherwise clearly state agreement, reliance, or a search prompted by the AI.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 19
+    },
+    "model": "openai/gpt-6-luna",
+    "provider": "OpenAI",
+    "configuration_name": "gpt-6-luna-260922"
+  },
+  {
+    "phrase": "Jetzt wird mir schon angezeigt, dass eine Blutung da ist",
+    "context": "Jetzt wird mir schon angezeigt, dass eine Blutung da ist und mir erstmal selber zu schauen. Die Mittellinie ist nicht verschoben, aber jetzt sieht man aber direkt hier schon einen Saun un dem Knochen … Das ist dann schon eindeutiger",
+    "tags": [
+      "ai_report: ich"
+    ],
+    "rationale": "The speaker says that a hemorrhage is being shown to them, referring to the AI assessment.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 28
+    },
+    "model": "openai/gpt-6-luna",
+    "provider": "OpenAI",
+    "configuration_name": "gpt-6-luna-260922"
+  },
+  {
+    "phrase": "und mir erstmal selber zu schauen",
+    "context": "Jetzt wird mir schon angezeigt, dass eine Blutung da ist und mir erstmal selber zu schauen. Die Mittellinie ist nicht verschoben, aber jetzt sieht man aber direkt hier schon einen Saun un dem Knochen … Das ist dann schon eindeutiger",
+    "tags": [
+      "visual_search: triggered_by_ai"
+    ],
+    "rationale": "After the displayed AI finding, the speaker says they will look at the image themselves.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 28
+    },
+    "model": "openai/gpt-6-luna",
+    "provider": "OpenAI",
+    "configuration_name": "gpt-6-luna-260922"
+  },
+  {
+    "phrase": "Die Mittellinie ist nicht verschoben",
+    "context": "Jetzt wird mir schon angezeigt, dass eine Blutung da ist und mir erstmal selber zu schauen. Die Mittellinie ist nicht verschoben, aber jetzt sieht man aber direkt hier schon einen Saun un dem Knochen … Das ist dann schon eindeutiger",
+    "tags": [
+      "visual_search: description_of_medical_image_features"
+    ],
+    "rationale": "The speaker describes an anatomical feature they are checking in the image.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 28
+    },
+    "model": "openai/gpt-6-luna",
+    "provider": "OpenAI",
+    "configuration_name": "gpt-6-luna-260922"
+  },
+  {
+    "phrase": "aber jetzt sieht man aber direkt hier schon einen Saun un dem Knochen …",
+    "context": "Jetzt wird mir schon angezeigt, dass eine Blutung da ist und mir erstmal selber zu schauen. Die Mittellinie ist nicht verschoben, aber jetzt sieht man aber direkt hier schon einen Saun un dem Knochen … Das ist dann schon eindeutiger",
+    "tags": [
+      "indicator: anomaly_detected",
+      "interpretation: description_bleeding"
+    ],
+    "rationale": "In the context of the stated hemorrhage, the speaker points out a visible abnormality beneath the bone.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 28
+    },
+    "model": "openai/gpt-6-luna",
+    "provider": "OpenAI",
+    "configuration_name": "gpt-6-luna-260922"
+  },
+  {
+    "phrase": "Das ist dann schon eindeutiger",
+    "context": "Die Mittellinie ist nicht verschoben, aber jetzt sieht man aber direkt hier schon einen Saun un dem Knochen … Das ist dann schon eindeutiger",
+    "tags": [
+      "confidence_high: secondary",
+      "decision_with_ai: implicitly_agreeing_with_ai"
+    ],
+    "rationale": "Calling the finding more evident conveys increased certainty and implicitly aligns with the AI's hemorrhage assessment.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 28
+    },
+    "model": "openai/gpt-6-luna",
+    "provider": "OpenAI",
+    "configuration_name": "gpt-6-luna-260922"
+  },
+  {
+    "phrase": "AI sagt, dass da nichts ist.",
+    "context": "So, hier ist wieder ne extra Sicherheit da, dass AI sagt, dass da nichts ist. Deswegen kann ich ein bisschen schneller gehen, das hilf mir schon.",
+    "tags": [
+      "ai_report: no_ich"
+    ],
+    "rationale": "The speaker reports that the AI found no hemorrhage.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 30
+    },
+    "model": "openai/gpt-6-luna",
+    "provider": "OpenAI",
+    "configuration_name": "gpt-6-luna-260922"
+  },
+  {
+    "phrase": "hier ist wieder ne extra Sicherheit da",
+    "context": "So, hier ist wieder ne extra Sicherheit da, dass AI sagt, dass da nichts ist. Deswegen kann ich ein bisschen schneller gehen, das hilf mir schon.",
+    "tags": [
+      "confidence_high: increased_through_ai"
+    ],
+    "rationale": "The speaker says the AI provides additional certainty.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 30
+    },
+    "model": "openai/gpt-6-luna",
+    "provider": "OpenAI",
+    "configuration_name": "gpt-6-luna-260922"
+  },
+  {
+    "phrase": "das hilf mir schon",
+    "context": "So, hier ist wieder ne extra Sicherheit da, dass AI sagt, dass da nichts ist. Deswegen kann ich ein bisschen schneller gehen, das hilf mir schon.",
+    "tags": [
+      "reflection_of_ai: helpful"
+    ],
+    "rationale": "The speaker explicitly says the AI helps them.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 30
+    },
+    "model": "openai/gpt-6-luna",
+    "provider": "OpenAI",
+    "configuration_name": "gpt-6-luna-260922"
+  },
+  {
+    "phrase": "ich guck erstmal auf meine Seite ohne AI",
+    "context": "Hier soll was sein, ich guck erstmal auf meine Seite ohne AI, ob irgendwelche Auffälligkeite, bis jetzt ist die Mittellinie in der Mitte nicht vershcoben",
+    "tags": [
+      "control: make_own_judgement"
+    ],
+    "rationale": "The speaker explicitly says they will first assess the image independently of the AI.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 23
+    },
+    "model": "openai/gpt-6-luna",
+    "provider": "OpenAI",
+    "configuration_name": "gpt-6-luna-260922"
+  },
+  {
+    "phrase": "bis jetzt ist die Mittellinie in der Mitte nicht vershcoben, Knochendefekte sehe ich nicht, Unterschiede zwischen den beiden hemisphären kann ich auch auf die Schnelle nicht gesehen.",
+    "context": "ob irgendwelche Auffälligkeite, bis jetzt ist die Mittellinie in der Mitte nicht vershcoben, Knochendefekte sehe ich nicht, Unterschiede zwischen den beiden hemisphären kann ich auch auf die Schnelle nicht gesehen. Geh nochmal durch nochmal",
+    "tags": [
+      "visual_search: description_of_medical_image_features"
+    ],
+    "rationale": "The speaker verbalizes checking and describing image features, including the midline, bone defects, and hemispheric differences.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 23
+    },
+    "model": "openai/gpt-6-luna",
+    "provider": "OpenAI",
+    "configuration_name": "gpt-6-luna-260922"
+  },
+  {
+    "phrase": "Geh nochmal durch nochmal",
+    "context": "Unterschiede zwischen den beiden hemisphären kann ich auch auf die Schnelle nicht gesehen. Geh nochmal durch nochmal ... ja da ist was, da war was helles da",
+    "tags": [
+      "control: control_repeat"
+    ],
+    "rationale": "The speaker says they will go through the image again, indicating a return to the visual search.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 23
+    },
+    "model": "openai/gpt-6-luna",
+    "provider": "OpenAI",
+    "configuration_name": "gpt-6-luna-260922"
+  },
+  {
+    "phrase": "ja da ist was, da war was helles da",
+    "context": "Geh nochmal durch nochmal ... ja da ist was, da war was helles da und bekomm ich auch gesagt von der AI, dass da was ist.",
+    "tags": [
+      "indicator: anomaly_detected",
+      "decision_with_ai: implicitly_agreeing_with_ai"
+    ],
+    "rationale": "The speaker identifies something bright as an abnormality and then says the AI also indicates something is there, implicitly agreeing with that assessment.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 23
+    },
+    "model": "openai/gpt-6-luna",
+    "provider": "OpenAI",
+    "configuration_name": "gpt-6-luna-260922"
+  },
+  {
+    "phrase": "Okay, dann scrolle ich wieder und schaue ob ich immer beidseitig irgendwelche Unterschiede merke.",
+    "context": "Dann scrolle ich wieder und schaue ob ich immer beidseitig irgendwelche Unterschiede merke. Mit ähm, schauen wir immer auf die Symmetrie und auf der Mittellinie, ob es eine Verschiebung da ist oder nicht.",
+    "tags": [
+      "visual_search: description_of_own_approach_without_external_help"
+    ],
+    "rationale": "The speaker describes their own search procedure, comparing both sides.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 0
+    },
+    "model": "openai/gpt-6-luna",
+    "provider": "OpenAI",
+    "configuration_name": "gpt-6-luna-260922"
+  },
+  {
+    "phrase": "Mit ähm, schauen wir immer auf die Symmetrie und auf der Mittellinie, ob es eine Verschiebung da ist oder nicht.",
+    "context": "Okay, dann scrolle ich wieder und schaue ob ich immer beidseitig irgendwelche Unterschiede merke. Mit ähm, schauen wir immer auf die Symmetrie und auf der Mittellinie, ob es eine Verschiebung da ist oder nicht. Ähm!",
+    "tags": [
+      "visual_search: description_of_medical_image_features"
+    ],
+    "rationale": "The speaker names the image features and anatomical areas they are checking.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 0
+    },
+    "model": "openai/gpt-6-luna",
+    "provider": "OpenAI",
+    "configuration_name": "gpt-6-luna-260922"
+  },
+  {
+    "phrase": "Ich hätte jetzt persönlich nicht erkannt, dass es jetzt unbedingt eine Blutung da ist",
+    "context": "Ähm! Ich hätte jetzt persönlich nicht erkannt, dass es jetzt unbedingt eine Blutung da ist, weil auf der anderen Seite sieht es also von der Hemisphäre sieht es auch so ähnlich aus und es wurde halt von der AI nicht erkannt.",
+    "tags": [
+      "reflection: diagnostic_uncertainty"
+    ],
+    "rationale": "The speaker is unsure whether the finding should be classified as a hemorrhage.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 0
+    },
+    "model": "openai/gpt-6-luna",
+    "provider": "OpenAI",
+    "configuration_name": "gpt-6-luna-260922"
+  },
+  {
+    "phrase": "es wurde halt von der AI nicht erkannt",
+    "context": "Ich hätte jetzt persönlich nicht erkannt, dass es jetzt unbedingt eine Blutung da ist, weil auf der anderen Seite sieht es also von der Hemisphäre sieht es auch so ähnlich aus und es wurde halt von der AI nicht erkannt. Ich habe da nicht so Erfahrung mit",
+    "tags": [
+      "ai_report: no_ich"
+    ],
+    "rationale": "The speaker says the AI did not detect the hemorrhage.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 0
+    },
+    "model": "openai/gpt-6-luna",
+    "provider": "OpenAI",
+    "configuration_name": "gpt-6-luna-260922"
+  },
+  {
+    "phrase": "Ich habe da nicht so Erfahrung mit",
+    "context": "es wurde halt von der AI nicht erkannt. Ich habe da nicht so Erfahrung mit, aber ich hätte gedacht, vielleicht ist es irgendwie normal, wenn es irgendwie beidseitig ist.",
+    "tags": [
+      "reflection: experience_limitation"
+    ],
+    "rationale": "The speaker explicitly refers to having limited experience with this.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 0
+    },
+    "model": "openai/gpt-6-luna",
+    "provider": "OpenAI",
+    "configuration_name": "gpt-6-luna-260922"
+  },
+  {
+    "phrase": "aber ich hätte gedacht, vielleicht ist es irgendwie normal, wenn es irgendwie beidseitig ist.",
+    "context": "Ich habe da nicht so Erfahrung mit, aber ich hätte gedacht, vielleicht ist es irgendwie normal, wenn es irgendwie beidseitig ist. Deswegen...",
+    "tags": [
+      "reflection: diagnostic_uncertainty",
+      "confidence_low: secondary"
+    ],
+    "rationale": "The speaker tentatively considers whether the bilateral appearance might be normal.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 0
+    },
+    "model": "openai/gpt-6-luna",
+    "provider": "OpenAI",
+    "configuration_name": "gpt-6-luna-260922"
+  },
+  {
+    "phrase": "Ich muss trotzdem selber erkennen, ob das also das ist, jetzt nicht.",
+    "context": "Deswegen... Ich muss trotzdem selber erkennen, ob das also das ist, jetzt nicht. Wenn das AI sagt, dass es, dass es eine Blutung da ist, muss es nicht unbedingt sein, oder?",
+    "tags": [
+      "control: make_own_judgement"
+    ],
+    "rationale": "The speaker says they still need to make their own assessment.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 0
+    },
+    "model": "openai/gpt-6-luna",
+    "provider": "OpenAI",
+    "configuration_name": "gpt-6-luna-260922"
+  },
+  {
+    "phrase": "Wenn das AI sagt, dass es, dass es eine Blutung da ist",
+    "context": "Ich muss trotzdem selber erkennen, ob das also das ist, jetzt nicht. Wenn das AI sagt, dass es, dass es eine Blutung da ist, muss es nicht unbedingt sein, oder? Also, ich kenn, ich hab die Studie nicht selbst desgigned.",
+    "tags": [
+      "ai_report: ich"
+    ],
+    "rationale": "The speaker states that the AI reports a hemorrhage.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 0
+    },
+    "model": "openai/gpt-6-luna",
+    "provider": "OpenAI",
+    "configuration_name": "gpt-6-luna-260922"
+  },
+  {
+    "phrase": "muss es nicht unbedingt sein, oder?",
+    "context": "Wenn das AI sagt, dass es, dass es eine Blutung da ist, muss es nicht unbedingt sein, oder? Also, ich kenn, ich hab die Studie nicht selbst desgigned.",
+    "tags": [
+      "reflection_of_ai: distrust_in_ai",
+      "confidence_low: secondary"
+    ],
+    "rationale": "The speaker questions whether the AI's positive report is necessarily correct.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 0
+    },
+    "model": "openai/gpt-6-luna",
+    "provider": "OpenAI",
+    "configuration_name": "gpt-6-luna-260922"
+  },
+  {
+    "phrase": "Ich kann dir nicht garantieren, dass es stimmt. Ich weiß es leider nicht.",
+    "context": "Also, ich kenn, ich hab die Studie nicht selbst desgigned. Ich kann dir nicht garantieren, dass es stimmt. Ich weiß es leider nicht. Okay, ich gehe schon davon aus, dass es ist.",
+    "tags": [
+      "confidence_low: concrete"
+    ],
+    "rationale": "The speaker explicitly says they cannot guarantee the assessment is correct and do not know.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 0
+    },
+    "model": "openai/gpt-6-luna",
+    "provider": "OpenAI",
+    "configuration_name": "gpt-6-luna-260922"
+  },
+  {
+    "phrase": "Okay, ich gehe schon davon aus, dass es ist.",
+    "context": "Ich kann dir nicht garantieren, dass es stimmt. Ich weiß es leider nicht. Okay, ich gehe schon davon aus, dass es ist. Hm! Ja, aber gut, ich sage einfach ja",
+    "tags": [
+      "interpretation: bleeding",
+      "decision_with_ai: implicitly_agreeing_with_ai"
+    ],
+    "rationale": "The speaker assumes the hemorrhage is present, implicitly accepting the AI's assessment.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 0
+    },
+    "model": "openai/gpt-6-luna",
+    "provider": "OpenAI",
+    "configuration_name": "gpt-6-luna-260922"
+  },
+  {
+    "phrase": "ich bin nicht so kompetent",
+    "context": "Ja, aber gut, ich sage einfach ja, und ich bin nicht so kompetent, eben weil die andere Seite nicht detektiert wurde, und das sieht sehr ähnlich aus. Aber keine Ahnung. Ja.",
+    "tags": [
+      "reflection: experience_limitation"
+    ],
+    "rationale": "The speaker describes their own competence as limited.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 0
+    },
+    "model": "openai/gpt-6-luna",
+    "provider": "OpenAI",
+    "configuration_name": "gpt-6-luna-260922"
+  },
+  {
+    "phrase": "Aber keine Ahnung.",
+    "context": "Ja, aber gut, ich sage einfach ja, und ich bin nicht so kompetent, eben weil die andere Seite nicht detektiert wurde, und das sieht sehr ähnlich aus. Aber keine Ahnung. Ja.",
+    "tags": [
+      "confidence_low: concrete"
+    ],
+    "rationale": "The speaker explicitly expresses that they do not know.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 0
+    },
+    "model": "openai/gpt-6-luna",
+    "provider": "OpenAI",
+    "configuration_name": "gpt-6-luna-260922"
+  },
+  {
+    "phrase": "hier ist wieder angeblich keine Blutung",
+    "context": "Mhm hier ist wieder angeblich keine Blutung und ich kann ein bisschen schneller scrollen.",
+    "tags": [
+      "ai_report: no_ich"
+    ],
+    "rationale": "The speaker reports that the AI indicates no hemorrhage.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 32
+    },
+    "model": "openai/gpt-6-luna",
+    "provider": "OpenAI",
+    "configuration_name": "gpt-6-luna-260922"
+  },
+  {
+    "phrase": "auf der anderen Seite wird auch keine Blututng angezeigt.",
+    "context": "Und sehe dass ich keine Unterschied merke und auf der anderen Seite wird auch keine Blututng angezeigt.",
+    "tags": [
+      "ai_report: no_ich"
+    ],
+    "rationale": "The speaker says that no hemorrhage is displayed on the other side as well.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 32
+    },
+    "model": "openai/gpt-6-luna",
+    "provider": "OpenAI",
+    "configuration_name": "gpt-6-luna-260922"
+  },
+  {
+    "phrase": "schau auf meine Seite erstmal.",
+    "context": "So, soll aber auch was da sein, schau auf meine Seite erstmal. Und bis jetzt ist mir nichts aufgefallen.",
+    "tags": [
+      "visual_search: description_of_own_approach_without_external_help"
+    ],
+    "rationale": "The speaker directs attention to a particular side as part of their search.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 34
+    },
+    "model": "openai/gpt-6-luna",
+    "provider": "OpenAI",
+    "configuration_name": "gpt-6-luna-260922"
+  },
+  {
+    "phrase": "Und bis jetzt ist mir nichts aufgefallen.",
+    "context": "schau auf meine Seite erstmal. Und bis jetzt ist mir nichts aufgefallen. Aber das sieht so ein bisschen auffällig aus",
+    "tags": [
+      "reflection: self-monitoring"
+    ],
+    "rationale": "The speaker comments on what they have noticed so far during their ongoing assessment.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 34
+    },
+    "model": "openai/gpt-6-luna",
+    "provider": "OpenAI",
+    "configuration_name": "gpt-6-luna-260922"
+  },
+  {
+    "phrase": "Aber das sieht so ein bisschen auffällig aus, überhaupt mhm das alles so gefüllt ist.",
+    "context": "Und bis jetzt ist mir nichts aufgefallen. Aber das sieht so ein bisschen auffällig aus, überhaupt mhm das alles so gefüllt ist.",
+    "tags": [
+      "indicator: anomaly_detected",
+      "visual_search: description_of_medical_image_features"
+    ],
+    "rationale": "The speaker identifies the appearance as somewhat abnormal and describes an image feature they are observing.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 34
+    },
+    "model": "openai/gpt-6-luna",
+    "provider": "OpenAI",
+    "configuration_name": "gpt-6-luna-260922"
+  },
+  {
+    "phrase": "ich guck trotzdem von oben nach untern",
+    "context": "Und hier sieht man schon auch, ich guck trotzdem von oben nach untern und hier ist der Saum schon zu sehen",
+    "tags": [
+      "visual_search: description_of_own_approach_without_external_help"
+    ],
+    "rationale": "The speaker describes their own top-to-bottom search approach.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 29
+    },
+    "model": "openai/gpt-6-luna",
+    "provider": "OpenAI",
+    "configuration_name": "gpt-6-luna-260922"
+  },
+  {
+    "phrase": "hier ist der Saum schon zu sehen",
+    "context": "ich guck trotzdem von oben nach untern und hier ist der Saum schon zu sehen, also AI zeigt mir das erst später",
+    "tags": [
+      "interpretation: description_bleeding"
+    ],
+    "rationale": "In context, the speaker describes a visible feature of the hemorrhage.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 29
+    },
+    "model": "openai/gpt-6-luna",
+    "provider": "OpenAI",
+    "configuration_name": "gpt-6-luna-260922"
+  },
+  {
+    "phrase": "AI zeigt mir das erst später",
+    "context": "hier ist der Saum schon zu sehen, also AI zeigt mir das erst später, aber man sieht schon ne Blutung",
+    "tags": [
+      "ai_report: ich"
+    ],
+    "rationale": "The speaker says the AI shows the hemorrhage, albeit later.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 29
+    },
+    "model": "openai/gpt-6-luna",
+    "provider": "OpenAI",
+    "configuration_name": "gpt-6-luna-260922"
+  },
+  {
+    "phrase": "aber man sieht schon ne Blutung",
+    "context": "also AI zeigt mir das erst später, aber man sieht schon ne Blutung und da brauchte ich jetzt das nicht so",
+    "tags": [
+      "interpretation: bleeding",
+      "reflection_of_ai: ich_recognized_without_ai"
+    ],
+    "rationale": "The speaker identifies a hemorrhage and says it was already visible to them before the AI showed it.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 29
+    },
+    "model": "openai/gpt-6-luna",
+    "provider": "OpenAI",
+    "configuration_name": "gpt-6-luna-260922"
+  },
+  {
+    "phrase": "da brauchte ich jetzt das nicht so",
+    "context": "aber man sieht schon ne Blutung und da brauchte ich jetzt das nicht so.",
+    "tags": [
+      "reflection_of_ai: unhelpful/unnecessary"
+    ],
+    "rationale": "The speaker indicates that the AI was not really needed in this case.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 29
+    },
+    "model": "openai/gpt-6-luna",
+    "provider": "OpenAI",
+    "configuration_name": "gpt-6-luna-260922"
+  },
+  {
+    "phrase": "Hier ist wieder keine Blutung",
+    "context": "Hier ist wieder keine Blutung, ich gucke alleine und dann auf der anderen Seite, der AI Seite.",
+    "tags": [
+      "interpretation: no_bleeding"
+    ],
+    "rationale": "The speaker interprets the finding in this area as no hemorrhage.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 35
+    },
+    "model": "openai/gpt-6-luna",
+    "provider": "OpenAI",
+    "configuration_name": "gpt-6-luna-260922"
+  },
+  {
+    "phrase": "ich gucke alleine und dann auf der anderen Seite, der AI Seite",
+    "context": "Hier ist wieder keine Blutung, ich gucke alleine und dann auf der anderen Seite, der AI Seite. Es wird nichts angezeigt",
+    "tags": [
+      "visual_search: description_of_own_approach_without_external_help"
+    ],
+    "rationale": "The speaker describes their own search procedure, looking independently and then at the AI side.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 35
+    },
+    "model": "openai/gpt-6-luna",
+    "provider": "OpenAI",
+    "configuration_name": "gpt-6-luna-260922"
+  },
+  {
+    "phrase": "Es wird nichts angezeigt",
+    "context": "… der AI Seite. Es wird nichts angezeigt, und ich kann weiter machen.",
+    "tags": [
+      "ai_report: no_ich"
+    ],
+    "rationale": "In the context of the AI side, the speaker reports that the AI displays no finding.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 35
+    },
+    "model": "openai/gpt-6-luna",
+    "provider": "OpenAI",
+    "configuration_name": "gpt-6-luna-260922"
+  },
+  {
+    "phrase": "Und ich geh von oben und guck allein erstmal",
+    "context": "Und ich geh von oben und guck allein erstmal, noch sehe keine Unterschied mhm …",
+    "tags": [
+      "visual_search: description_of_own_approach_without_external_help"
+    ],
+    "rationale": "The speaker describes their own initial, independent visual search approach.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 31
+    },
+    "model": "openai/gpt-6-luna",
+    "provider": "OpenAI",
+    "configuration_name": "gpt-6-luna-260922"
+  },
+  {
+    "phrase": "vielleicht gucke ich auf der AI Seite erstmal",
+    "context": "Ich bin noch nicht so viel was aufgefallen, vielleicht gucke ich auf der AI Seite erstmal. Ah, je das hatte ich nicht gesehn.",
+    "tags": [
+      "visual_search: triggered_by_ai"
+    ],
+    "rationale": "The speaker says they will look at the AI side, aligning their visual search with the AI information.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 31
+    },
+    "model": "openai/gpt-6-luna",
+    "provider": "OpenAI",
+    "configuration_name": "gpt-6-luna-260922"
+  },
+  {
+    "phrase": "Ah, je das hatte ich nicht gesehn. Aber wenn mans weis, dann ja. Das hilft da",
+    "context": "vielleicht gucke ich auf der AI Seite erstmal. Ah, je das hatte ich nicht gesehn. Aber wenn mans weis, dann ja. Das hilft da",
+    "tags": [
+      "reflection_of_ai: ich_not_recognized_without_ai",
+      "reflection_of_ai: helpful"
+    ],
+    "rationale": "The speaker says they had not seen the finding before, but can see it once they know where to look, and explicitly says the AI information helps.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 31
+    },
+    "model": "openai/gpt-6-luna",
+    "provider": "OpenAI",
+    "configuration_name": "gpt-6-luna-260922"
+  },
+  {
+    "phrase": "Sehe wieder auf meine Seite alleine",
+    "context": "Sehe wieder auf meine Seite alleine … Und hier soll eine Blutung sein …",
+    "tags": [
+      "control: control_repeat"
+    ],
+    "rationale": "„Wieder“ indicates that the person has returned to a previously viewed area.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 33
+    },
+    "model": "openai/gpt-6-luna",
+    "provider": "OpenAI",
+    "configuration_name": "gpt-6-luna-260922"
+  },
+  {
+    "phrase": "Und hier soll eine Blutung sein",
+    "context": "Sehe wieder auf meine Seite alleine … Und hier soll eine Blutung sein … Ich hab die jetzt nicht so bemerkt",
+    "tags": [
+      "ai_report: ich",
+      "ai_report: ich_localization"
+    ],
+    "rationale": "The person reports that the AI indicates a hemorrhage and refers to its location as „hier“.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 33
+    },
+    "model": "openai/gpt-6-luna",
+    "provider": "OpenAI",
+    "configuration_name": "gpt-6-luna-260922"
+  },
+  {
+    "phrase": "Ich hab die jetzt nicht so bemerkt",
+    "context": "Und hier soll eine Blutung sein … Ich hab die jetzt nicht so bemerkt, deswegen schau ich jetzt auf der anderen Seite",
+    "tags": [
+      "reflection_of_ai: ich_not_recognized_without_ai"
+    ],
+    "rationale": "The person says they had not noticed the hemorrhage before being directed to it.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 33
+    },
+    "model": "openai/gpt-6-luna",
+    "provider": "OpenAI",
+    "configuration_name": "gpt-6-luna-260922"
+  },
+  {
+    "phrase": "deswegen schau ich jetzt auf der anderen Seite, auf der AI Seite wo das sein soll",
+    "context": "Ich hab die jetzt nicht so bemerkt, deswegen schau ich jetzt auf der anderen Seite, auf der AI Seite wo das sein soll. Ah, da oben",
+    "tags": [
+      "visual_search: triggered_by_ai"
+    ],
+    "rationale": "The person shifts their visual search to the location indicated by the AI.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 33
+    },
+    "model": "openai/gpt-6-luna",
+    "provider": "OpenAI",
+    "configuration_name": "gpt-6-luna-260922"
+  },
+  {
+    "phrase": "Ah, da oben, eigentlich ist das eindeutig",
+    "context": "… auf der AI Seite wo das sein soll. Ah, da oben, eigentlich ist das eindeutig. Ah, ja eigentlich eindeutig",
+    "tags": [
+      "interpretation: bleeding",
+      "confidence_high: secondary",
+      "decision_with_ai: implicitly_agreeing_with_ai"
+    ],
+    "rationale": "The person identifies the indicated finding as a hemorrhage, calls it clear, and implicitly agrees with the AI.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 33
+    },
+    "model": "openai/gpt-6-luna",
+    "provider": "OpenAI",
+    "configuration_name": "gpt-6-luna-260922"
+  },
+  {
+    "phrase": "ich habe mehr auf die Mitte geguckt und jetzt nicht gesehen",
+    "context": "Ah, ja eigentlich eindeutig, ich habe mehr auf die Mitte geguckt und jetzt nicht gesehen. Das hat jetzt geholfen",
+    "tags": [
+      "reflection: self-monitoring"
+    ],
+    "rationale": "The person comments on how their own visual search unfolded and why they initially missed the finding.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 33
+    },
+    "model": "openai/gpt-6-luna",
+    "provider": "OpenAI",
+    "configuration_name": "gpt-6-luna-260922"
+  },
+  {
+    "phrase": "Das hat jetzt geholfen",
+    "context": "… ich habe mehr auf die Mitte geguckt und jetzt nicht gesehen. Das hat jetzt geholfen",
+    "tags": [
+      "reflection_of_ai: helpful"
+    ],
+    "rationale": "The person explicitly says the AI's guidance helped.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 33
+    },
+    "model": "openai/gpt-6-luna",
+    "provider": "OpenAI",
+    "configuration_name": "gpt-6-luna-260922"
+  },
+  {
+    "phrase": "Wieder auf meiner nicht AI Seite",
+    "context": "Wieder auf meiner nicht AI Seite, kuck mir das alleine an, Mittellinie, Schädelknochen, Unterschiede und merke alleine nichts.",
+    "tags": [
+      "control: control_repeat"
+    ],
+    "rationale": "„Wieder“ auf der Nicht-AI-Seite deutet darauf hin, dass die Person zu einem zuvor betrachteten Bildbereich zurückkehrt.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 37
+    },
+    "model": "openai/gpt-6-luna",
+    "provider": "OpenAI",
+    "configuration_name": "gpt-6-luna-260922"
+  },
+  {
+    "phrase": "kuck mir das alleine an",
+    "context": "Wieder auf meiner nicht AI Seite, kuck mir das alleine an, Mittellinie, Schädelknochen, Unterschiede und merke alleine nichts.",
+    "tags": [
+      "visual_search: description_of_own_approach_without_external_help"
+    ],
+    "rationale": "Die Person kommentiert, dass sie sich das Bild allein und ohne AI ansieht.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 37
+    },
+    "model": "openai/gpt-6-luna",
+    "provider": "OpenAI",
+    "configuration_name": "gpt-6-luna-260922"
+  },
+  {
+    "phrase": "Mittellinie, Schädelknochen, Unterschiede",
+    "context": "Wieder auf meiner nicht AI Seite, kuck mir das alleine an, Mittellinie, Schädelknochen, Unterschiede und merke alleine nichts.",
+    "tags": [
+      "visual_search: description_of_medical_image_features"
+    ],
+    "rationale": "Die Person benennt anatomische Strukturen und Bildmerkmale, die sie betrachtet.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 37
+    },
+    "model": "openai/gpt-6-luna",
+    "provider": "OpenAI",
+    "configuration_name": "gpt-6-luna-260922"
+  },
+  {
+    "phrase": "was ich nicht gesehen hatte",
+    "context": "Ich gucke auf der AI Seite und da wird mir was angezeigt, was ich nicht gesehen hatte, deswegen hat mir das auf jeden Fall sehr geholfen.",
+    "tags": [
+      "reflection_of_ai: ich_not_recognized_without_ai"
+    ],
+    "rationale": "Die Person sagt, dass sie die von der AI angezeigte Auffälligkeit selbst nicht gesehen hatte.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 37
+    },
+    "model": "openai/gpt-6-luna",
+    "provider": "OpenAI",
+    "configuration_name": "gpt-6-luna-260922"
+  },
+  {
+    "phrase": "hat mir das auf jeden Fall sehr geholfen",
+    "context": "Ich gucke auf der AI Seite und da wird mir was angezeigt, was ich nicht gesehen hatte, deswegen hat mir das auf jeden Fall sehr geholfen.",
+    "tags": [
+      "reflection_of_ai: helpful"
+    ],
+    "rationale": "Die Person bewertet die Unterstützung durch die AI ausdrücklich als hilfreich.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 37
+    },
+    "model": "openai/gpt-6-luna",
+    "provider": "OpenAI",
+    "configuration_name": "gpt-6-luna-260922"
+  },
+  {
+    "phrase": "ich schau mal weiter, ob das irgendwie sonst wonaders irgendwas auffälliges aussieht",
+    "context": "So hier sieht man schon einen Unterschied zu der Gegenseite, ich schau mal weiter, ob das irgendwie sonst wonaders irgendwas auffälliges aussieht … Ne,",
+    "tags": [
+      "visual_search: description_of_own_approach_without_external_help"
+    ],
+    "rationale": "The person explicitly describes continuing their own visual search for other conspicuous findings.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 41
+    },
+    "model": "openai/gpt-6-luna",
+    "provider": "OpenAI",
+    "configuration_name": "gpt-6-luna-260922"
+  },
+  {
+    "phrase": "ich gucke mal jetzt auf der AI Seite, das wird mir hier auch angezeigt",
+    "context": "Ne, ich gucke mal jetzt auf der AI Seite, das wird mir hier auch angezeigt",
+    "tags": [
+      "visual_search: triggered_by_ai"
+    ],
+    "rationale": "The person says they are now looking at the AI-indicated side, aligning their search with the AI information.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 41
+    },
+    "model": "openai/gpt-6-luna",
+    "provider": "OpenAI",
+    "configuration_name": "gpt-6-luna-260922"
+  },
+  {
+    "phrase": "Hier sollte nichts sein",
+    "context": "Hier sollte nichts sein, ich finde es sehr schwer, dieses Bild zu interpretieren, aber deswegen hoffentlich mit der AI die richtige Entscheidung getroffen",
+    "tags": [
+      "interpretation: no_bleeding"
+    ],
+    "rationale": "The speaker indicates that there should be no finding in the area.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 40
+    },
+    "model": "openai/gpt-6-luna",
+    "provider": "OpenAI",
+    "configuration_name": "gpt-6-luna-260922"
+  },
+  {
+    "phrase": "ich finde es sehr schwer, dieses Bild zu interpretieren",
+    "context": "Hier sollte nichts sein, ich finde es sehr schwer, dieses Bild zu interpretieren, aber deswegen hoffentlich mit der AI die richtige Entscheidung getroffen",
+    "tags": [
+      "awareness_of_task: difficult"
+    ],
+    "rationale": "The speaker explicitly says interpreting the image is very difficult.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 40
+    },
+    "model": "openai/gpt-6-luna",
+    "provider": "OpenAI",
+    "configuration_name": "gpt-6-luna-260922"
+  },
+  {
+    "phrase": "hoffentlich mit der AI die richtige Entscheidung getroffen",
+    "context": "ich finde es sehr schwer, dieses Bild zu interpretieren, aber deswegen hoffentlich mit der AI die richtige Entscheidung getroffen",
+    "tags": [
+      "confidence_low: secondary"
+    ],
+    "rationale": "“Hoffentlich” expresses uncertainty about whether the decision was correct.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 40
+    },
+    "model": "openai/gpt-6-luna",
+    "provider": "OpenAI",
+    "configuration_name": "gpt-6-luna-260922"
+  },
+  {
+    "phrase": "Hier soll nichts sein.",
+    "context": "Hier soll nichts sein. Gucke auf meine Seite und dann auf die AI Siete und kann weiter machen",
+    "tags": [
+      "interpretation: no_bleeding"
+    ],
+    "rationale": "The speaker says there should be nothing in the area, indicating no hemorrhage.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 38
+    },
+    "model": "openai/gpt-6-luna",
+    "provider": "OpenAI",
+    "configuration_name": "gpt-6-luna-260922"
+  },
+  {
+    "phrase": "Gucke auf meine Seite und dann auf die AI Siete",
+    "context": "Hier soll nichts sein. Gucke auf meine Seite und dann auf die AI Siete und kann weiter machen",
+    "tags": [
+      "visual_search: triggered_by_ai"
+    ],
+    "rationale": "The speaker describes comparing their own view with the AI view as part of the visual search.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 38
+    },
+    "model": "openai/gpt-6-luna",
+    "provider": "OpenAI",
+    "configuration_name": "gpt-6-luna-260922"
+  },
+  {
+    "phrase": "Hier sieht man schon eine Raumforderung",
+    "context": "Mhm. Hier sieht man schon eine Raumforderung, weiß jetzt nicht, ob es deswegen dann...",
+    "tags": [
+      "indicator: anomaly_detected"
+    ],
+    "rationale": "The speaker notices a mass, an abnormality.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 36
+    },
+    "model": "openai/gpt-6-luna",
+    "provider": "OpenAI",
+    "configuration_name": "gpt-6-luna-260922"
+  },
+  {
+    "phrase": "weiß jetzt nicht, ob es deswegen dann...",
+    "context": "Hier sieht man schon eine Raumforderung, weiß jetzt nicht, ob es deswegen dann... Also jetzt wird keine Blutung angezeigt.",
+    "tags": [
+      "reflection: diagnostic_uncertainty"
+    ],
+    "rationale": "The speaker expresses uncertainty about how to interpret the finding.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 36
+    },
+    "model": "openai/gpt-6-luna",
+    "provider": "OpenAI",
+    "configuration_name": "gpt-6-luna-260922"
+  },
+  {
+    "phrase": "Also jetzt wird keine Blutung angezeigt.",
+    "context": "weiß jetzt nicht, ob es deswegen dann... Also jetzt wird keine Blutung angezeigt. Ich bin mir einfach unsicher, ob es einfach nur eine Raumforderung ist",
+    "tags": [
+      "ai_report: no_ich"
+    ],
+    "rationale": "The speaker reports that the AI is not showing a hemorrhage.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 36
+    },
+    "model": "openai/gpt-6-luna",
+    "provider": "OpenAI",
+    "configuration_name": "gpt-6-luna-260922"
+  },
+  {
+    "phrase": "Ich bin mir einfach unsicher, ob es einfach nur eine Raumforderung ist, die nicht blutet",
+    "context": "Also jetzt wird keine Blutung angezeigt. Ich bin mir einfach unsicher, ob es einfach nur eine Raumforderung ist, die nicht blutet und deswegen denke ich, wahrscheinlich dann also das wahrscheinlich dann eher ein Tumor.",
+    "tags": [
+      "reflection: diagnostic_uncertainty"
+    ],
+    "rationale": "The speaker explicitly says they are unsure how to classify the mass.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 36
+    },
+    "model": "openai/gpt-6-luna",
+    "provider": "OpenAI",
+    "configuration_name": "gpt-6-luna-260922"
+  },
+  {
+    "phrase": "wahrscheinlich dann eher ein Tumor",
+    "context": "die nicht blutet und deswegen denke ich, wahrscheinlich dann also das wahrscheinlich dann eher ein Tumor. Das ist auch ein inhomogen.",
+    "tags": [
+      "reasoning: alternative_medical_cause",
+      "confidence_high: secondary"
+    ],
+    "rationale": "The speaker proposes a tumor as an alternative explanation and uses “wahrscheinlich” to express a likely conclusion.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 36
+    },
+    "model": "openai/gpt-6-luna",
+    "provider": "OpenAI",
+    "configuration_name": "gpt-6-luna-260922"
+  },
+  {
+    "phrase": "Das ist auch ein inhomogen.",
+    "context": "wahrscheinlich dann also das wahrscheinlich dann eher ein Tumor. Das ist auch ein inhomogen. Ja, gehen wir davon aus, dass deswegen das nicht als Blutung gezeigt wird.",
+    "tags": [
+      "visual_search: description_of_medical_image_features"
+    ],
+    "rationale": "The speaker describes an image characteristic of the finding.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 36
+    },
+    "model": "openai/gpt-6-luna",
+    "provider": "OpenAI",
+    "configuration_name": "gpt-6-luna-260922"
+  },
+  {
+    "phrase": "Ja, gehen wir davon aus, dass deswegen das nicht als Blutung gezeigt wird.",
+    "context": "Das ist auch ein inhomogen. Ja, gehen wir davon aus, dass deswegen das nicht als Blutung gezeigt wird.",
+    "tags": [
+      "ai_report: no_ich"
+    ],
+    "rationale": "The speaker again states that the AI is not showing the finding as a hemorrhage.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 36
+    },
+    "model": "openai/gpt-6-luna",
+    "provider": "OpenAI",
+    "configuration_name": "gpt-6-luna-260922"
+  },
+  {
+    "phrase": "hier ist alles anscheined auch unaufällig",
+    "context": "So, hier ist alles anscheined auch unaufällig und ich sehe auch nichts und AI sagt auch ist nichts und ich fühle mich da bestätigt",
+    "tags": [
+      "indicator: no_bleeding",
+      "interpretation: no_bleeding"
+    ],
+    "rationale": "The speaker describes the image as unremarkable and interprets it as showing no hemorrhage.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 45
+    },
+    "model": "openai/gpt-6-luna",
+    "provider": "OpenAI",
+    "configuration_name": "gpt-6-luna-260922"
+  },
+  {
+    "phrase": "ich sehe auch nichts",
+    "context": "So, hier ist alles anscheined auch unaufällig und ich sehe auch nichts und AI sagt auch ist nichts und ich fühle mich da bestätigt",
+    "tags": [
+      "interpretation: no_bleeding"
+    ],
+    "rationale": "The speaker reports seeing no finding, consistent with an interpretation of no hemorrhage.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 45
+    },
+    "model": "openai/gpt-6-luna",
+    "provider": "OpenAI",
+    "configuration_name": "gpt-6-luna-260922"
+  },
+  {
+    "phrase": "AI sagt auch ist nichts",
+    "context": "So, hier ist alles anscheined auch unaufällig und ich sehe auch nichts und AI sagt auch ist nichts und ich fühle mich da bestätigt",
+    "tags": [
+      "ai_report: no_ich"
+    ],
+    "rationale": "The speaker says the AI reports that there is nothing.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 45
+    },
+    "model": "openai/gpt-6-luna",
+    "provider": "OpenAI",
+    "configuration_name": "gpt-6-luna-260922"
+  },
+  {
+    "phrase": "ich fühle mich da bestätigt",
+    "context": "So, hier ist alles anscheined auch unaufällig und ich sehe auch nichts und AI sagt auch ist nichts und ich fühle mich da bestätigt",
+    "tags": [
+      "reflection_of_ai: confirmed_by_ai"
+    ],
+    "rationale": "The speaker says the AI's assessment confirms their own assessment.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 45
+    },
+    "model": "openai/gpt-6-luna",
+    "provider": "OpenAI",
+    "configuration_name": "gpt-6-luna-260922"
+  },
+  {
+    "phrase": "Mal wieder, help wie geht das nochmal?",
+    "context": "VPN: ??? Mal wieder, help wie geht das nochmal? Nein. EXPERIMENTER: Du kannst in das, genau jetzt hast dus gefunden.",
+    "tags": [
+      "technical_conversation"
+    ],
+    "rationale": "The speaker asks how to use the tool again, indicating a technical difficulty during the task.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 43
+    },
+    "model": "openai/gpt-6-luna",
+    "provider": "OpenAI",
+    "configuration_name": "gpt-6-luna-260922"
+  },
+  {
+    "phrase": "es ist sowieso hier schon die Blutung zu sehen",
+    "context": "Ja, danke, ist ein bisschen besser, aber naja es ist sowieso hier schon die Blutung zu sehen. Ist jetzt egal, aber da ist ein Saum",
+    "tags": [
+      "interpretation: bleeding"
+    ],
+    "rationale": "The speaker identifies a visible finding as a hemorrhage.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 43
+    },
+    "model": "openai/gpt-6-luna",
+    "provider": "OpenAI",
+    "configuration_name": "gpt-6-luna-260922"
+  },
+  {
+    "phrase": "da ist ein Saum",
+    "context": "es ist sowieso hier schon die Blutung zu sehen. Ist jetzt egal, aber da ist ein Saum, irgendwie kann grieg ich das nicht so super gut eingestellt",
+    "tags": [
+      "interpretation: description_bleeding"
+    ],
+    "rationale": "The speaker describes a feature of the hemorrhage already identified in the same context.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 43
+    },
+    "model": "openai/gpt-6-luna",
+    "provider": "OpenAI",
+    "configuration_name": "gpt-6-luna-260922"
+  },
+  {
+    "phrase": "irgendwie kann grieg ich das nicht so super gut eingestellt",
+    "context": "aber da ist ein Saum, irgendwie kann grieg ich das nicht so super gut eingestellt, aber das war da zu sehen",
+    "tags": [
+      "technical_conversation"
+    ],
+    "rationale": "The speaker reports difficulty adjusting the display or tool.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 43
+    },
+    "model": "openai/gpt-6-luna",
+    "provider": "OpenAI",
+    "configuration_name": "gpt-6-luna-260922"
+  },
+  {
+    "phrase": "Gucke ich erst mal auf meine Seite.",
+    "context": "Gucke ich erst mal auf meine Seite. Habe noch nichts gemerkt, wo eine Blutung sein soll.",
+    "tags": [
+      "visual_search: description_of_own_approach_without_external_help"
+    ],
+    "rationale": "The person describes beginning their own visual search before considering the AI.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 42
+    },
+    "model": "openai/gpt-6-luna",
+    "provider": "OpenAI",
+    "configuration_name": "gpt-6-luna-260922"
+  },
+  {
+    "phrase": "Hier wird mir dann von AI gezeigt",
+    "context": "Was? Hier wird mir dann von AI gezeigt, dass wäre eine Blutung, das hätte ich auf keinen Fall erkannt.",
+    "tags": [
+      "ai_report: ich_localization"
+    ],
+    "rationale": "“Hier” indicates the location where the AI is showing the finding.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 42
+    },
+    "model": "openai/gpt-6-luna",
+    "provider": "OpenAI",
+    "configuration_name": "gpt-6-luna-260922"
+  },
+  {
+    "phrase": "dass wäre eine Blutung",
+    "context": "Was? Hier wird mir dann von AI gezeigt, dass wäre eine Blutung, das hätte ich auf keinen Fall erkannt.",
+    "tags": [
+      "ai_report: ich"
+    ],
+    "rationale": "The person says the AI indicates that there is a hemorrhage.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 42
+    },
+    "model": "openai/gpt-6-luna",
+    "provider": "OpenAI",
+    "configuration_name": "gpt-6-luna-260922"
+  },
+  {
+    "phrase": "das hätte ich auf keinen Fall erkannt.",
+    "context": "Hier wird mir dann von AI gezeigt, dass wäre eine Blutung, das hätte ich auf keinen Fall erkannt.",
+    "tags": [
+      "reflection_of_ai: ich_not_recognized_without_ai"
+    ],
+    "rationale": "The person says they would not have recognized the hemorrhage without the AI.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 42
+    },
+    "model": "openai/gpt-6-luna",
+    "provider": "OpenAI",
+    "configuration_name": "gpt-6-luna-260922"
+  },
+  {
+    "phrase": "Probier ich auch selber erstmal zu gucken",
+    "context": "Probier ich auch selber erstmal zu gucken und seh das die, sieht so aus, alswäre die Mittellinie verschoben",
+    "tags": [
+      "visual_search: description_of_own_approach_without_external_help"
+    ],
+    "rationale": "The speaker describes starting by looking at the scan independently.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 39
+    },
+    "model": "openai/gpt-6-luna",
+    "provider": "OpenAI",
+    "configuration_name": "gpt-6-luna-260922"
+  },
+  {
+    "phrase": "sieht so aus, alswäre die Mittellinie verschoben",
+    "context": "Probier ich auch selber erstmal zu gucken und seh das die, sieht so aus, alswäre die Mittellinie verschoben, aber",
+    "tags": [
+      "indicator: anomaly_detected",
+      "visual_search: description_of_medical_image_features",
+      "confidence_low: secondary"
+    ],
+    "rationale": "The speaker identifies a possible midline shift, describes an image feature, and hedges the observation with “sieht so aus”.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 39
+    },
+    "model": "openai/gpt-6-luna",
+    "provider": "OpenAI",
+    "configuration_name": "gpt-6-luna-260922"
+  },
+  {
+    "phrase": "ich finde der ventrikel sieht auch nicht so ähm weiß ich nicht, gleich aus",
+    "context": "sieht so aus, alswäre die Mittellinie verschoben, aber … ich finde der ventrikel sieht auch nicht so ähm weiß ich nicht, gleich aus.",
+    "tags": [
+      "indicator: anomaly_detected",
+      "reflection: diagnostic_uncertainty",
+      "visual_search: description_of_medical_image_features"
+    ],
+    "rationale": "The speaker notices that the ventricles look unequal, describes an image feature, and expresses uncertainty about the assessment.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 39
+    },
+    "model": "openai/gpt-6-luna",
+    "provider": "OpenAI",
+    "configuration_name": "gpt-6-luna-260922"
+  },
+  {
+    "phrase": "Ich hätte die Blutung nicht gefunden",
+    "context": "Ich hätte die Blutung nicht gefunden, gucke ich auf der AI Siete und da wird mir das hier angezeigt, das hätte ich jetzt nicht gesehen, deswegen",
+    "tags": [
+      "reflection_of_ai: ich_not_recognized_without_ai"
+    ],
+    "rationale": "The speaker explicitly says they would not have found the hemorrhage without the AI.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 39
+    },
+    "model": "openai/gpt-6-luna",
+    "provider": "OpenAI",
+    "configuration_name": "gpt-6-luna-260922"
+  },
+  {
+    "phrase": "gucke ich auf der AI Siete und da wird mir das hier angezeigt",
+    "context": "Ich hätte die Blutung nicht gefunden, gucke ich auf der AI Siete und da wird mir das hier angezeigt, das hätte ich jetzt nicht gesehen, deswegen",
+    "tags": [
+      "ai_report: ich",
+      "visual_search: triggered_by_ai"
+    ],
+    "rationale": "The speaker says the AI displays the hemorrhage and describes attending to the displayed AI indication.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 39
+    },
+    "model": "openai/gpt-6-luna",
+    "provider": "OpenAI",
+    "configuration_name": "gpt-6-luna-260922"
+  },
+  {
+    "phrase": "das hätte ich jetzt nicht gesehen",
+    "context": "Ich hätte die Blutung nicht gefunden, gucke ich auf der AI Siete und da wird mir das hier angezeigt, das hätte ich jetzt nicht gesehen, deswegen",
+    "tags": [
+      "reflection_of_ai: ich_not_recognized_without_ai"
+    ],
+    "rationale": "The speaker reiterates that they would not have noticed the finding without the AI.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 39
+    },
+    "model": "openai/gpt-6-luna",
+    "provider": "OpenAI",
+    "configuration_name": "gpt-6-luna-260922"
+  },
+  {
+    "phrase": "Und hier soll auch nichts sein",
+    "context": "Und hier soll auch nichts sein, schau auf meine Seite ohne AI an, ich seh auch keine Asymetrien, Unterschiede und dann",
+    "tags": [
+      "interpretation: no_bleeding"
+    ],
+    "rationale": "The speaker says that nothing should be present here, indicating no hemorrhage.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 48
+    },
+    "model": "openai/gpt-6-luna",
+    "provider": "OpenAI",
+    "configuration_name": "gpt-6-luna-260922"
+  },
+  {
+    "phrase": "schau auf meine Seite ohne AI an",
+    "context": "Und hier soll auch nichts sein, schau auf meine Seite ohne AI an, ich seh auch keine Asymetrien, Unterschiede und dann",
+    "tags": [
+      "control: make_own_judgement"
+    ],
+    "rationale": "The speaker directs attention to their own assessment without AI.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 48
+    },
+    "model": "openai/gpt-6-luna",
+    "provider": "OpenAI",
+    "configuration_name": "gpt-6-luna-260922"
+  },
+  {
+    "phrase": "ich seh auch keine Asymetrien, Unterschiede",
+    "context": "Und hier soll auch nichts sein, schau auf meine Seite ohne AI an, ich seh auch keine Asymetrien, Unterschiede und dann",
+    "tags": [
+      "indicator: no_bleeding"
+    ],
+    "rationale": "The speaker describes the area as lacking visible abnormalities.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 48
+    },
+    "model": "openai/gpt-6-luna",
+    "provider": "OpenAI",
+    "configuration_name": "gpt-6-luna-260922"
+  },
+  {
+    "phrase": "fangen wieder von vorne an",
+    "context": "So, fangen wieder von vorne an und hier soll keine Blutung sein.",
+    "tags": [
+      "reference: past_trial"
+    ],
+    "rationale": "Starting over again refers to a previous run or trial.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 44
+    },
+    "model": "openai/gpt-6-luna",
+    "provider": "OpenAI",
+    "configuration_name": "gpt-6-luna-260922"
+  },
+  {
+    "phrase": "hier soll keine Blutung sein",
+    "context": "So, fangen wieder von vorne an und hier soll keine Blutung sein. Guck direkt schon mit der AI Seite",
+    "tags": [
+      "interpretation: no_bleeding"
+    ],
+    "rationale": "The speaker states that there should be no hemorrhage in this case.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 44
+    },
+    "model": "openai/gpt-6-luna",
+    "provider": "OpenAI",
+    "configuration_name": "gpt-6-luna-260922"
+  },
+  {
+    "phrase": "Guck direkt schon mit der AI Seite",
+    "context": "hier soll keine Blutung sein. Guck direkt schon mit der AI Seite und es wird mir nichts angezeigt, sieht auch unauffällig aus.",
+    "tags": [
+      "control: relying_on_ai"
+    ],
+    "rationale": "The speaker consults the AI view while assessing the image.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 44
+    },
+    "model": "openai/gpt-6-luna",
+    "provider": "OpenAI",
+    "configuration_name": "gpt-6-luna-260922"
+  },
+  {
+    "phrase": "es wird mir nichts angezeigt",
+    "context": "Guck direkt schon mit der AI Seite und es wird mir nichts angezeigt, sieht auch unauffällig aus.",
+    "tags": [
+      "ai_report: no_ich"
+    ],
+    "rationale": "The speaker reports that the AI view displays no finding.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 44
+    },
+    "model": "openai/gpt-6-luna",
+    "provider": "OpenAI",
+    "configuration_name": "gpt-6-luna-260922"
+  },
+  {
+    "phrase": "sieht auch unauffällig aus",
+    "context": "Guck direkt schon mit der AI Seite und es wird mir nichts angezeigt, sieht auch unauffällig aus.",
+    "tags": [
+      "indicator: no_bleeding",
+      "interpretation: no_bleeding"
+    ],
+    "rationale": "The speaker describes the image as unremarkable and interprets it as showing no hemorrhage.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 44
+    },
+    "model": "openai/gpt-6-luna",
+    "provider": "OpenAI",
+    "configuration_name": "gpt-6-luna-260922"
+  },
+  {
+    "phrase": "Hier sieht man schon ein Ventrikel",
+    "context": "Hier sieht man schon ein Ventrikel und überhaupt hier eine große Blutung, ich bräuchte jetzt, muss schau trotzdem von vorne an, mal das der Ventrikel da auffällig aussieht, also da eineengt und die Blutung hat man hier gesehen.",
+    "tags": [
+      "visual_search: description_of_medical_image_features"
+    ],
+    "rationale": "The speaker identifies an anatomical structure they are viewing.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 49
+    },
+    "model": "openai/gpt-6-luna",
+    "provider": "OpenAI",
+    "configuration_name": "gpt-6-luna-260922"
+  },
+  {
+    "phrase": "und überhaupt hier eine große Blutung",
+    "context": "Hier sieht man schon ein Ventrikel und überhaupt hier eine große Blutung, ich bräuchte jetzt, muss schau trotzdem von vorne an, mal das der Ventrikel da auffällig aussieht, also da eineengt und die Blutung hat man hier gesehen.",
+    "tags": [
+      "interpretation: bleeding",
+      "interpretation: description_bleeding"
+    ],
+    "rationale": "The speaker identifies a hemorrhage and describes it as large.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 49
+    },
+    "model": "openai/gpt-6-luna",
+    "provider": "OpenAI",
+    "configuration_name": "gpt-6-luna-260922"
+  },
+  {
+    "phrase": "muss schau trotzdem von vorne an",
+    "context": "Hier sieht man schon ein Ventrikel und überhaupt hier eine große Blutung, ich bräuchte jetzt, muss schau trotzdem von vorne an, mal das der Ventrikel da auffällig aussieht, also da eineengt und die Blutung hat man hier gesehen.",
+    "tags": [
+      "visual_search: description_of_own_approach_without_external_help"
+    ],
+    "rationale": "The speaker describes their approach to examining the image.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 49
+    },
+    "model": "openai/gpt-6-luna",
+    "provider": "OpenAI",
+    "configuration_name": "gpt-6-luna-260922"
+  },
+  {
+    "phrase": "mal das der Ventrikel da auffällig aussieht, also da eineengt",
+    "context": "Hier sieht man schon ein Ventrikel und überhaupt hier eine große Blutung, ich bräuchte jetzt, muss schau trotzdem von vorne an, mal das der Ventrikel da auffällig aussieht, also da eineengt und die Blutung hat man hier gesehen.",
+    "tags": [
+      "indicator: anomaly_detected",
+      "visual_search: description_of_medical_image_features"
+    ],
+    "rationale": "The speaker notes that the ventricle looks abnormal and describes it as narrowed.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 49
+    },
+    "model": "openai/gpt-6-luna",
+    "provider": "OpenAI",
+    "configuration_name": "gpt-6-luna-260922"
+  },
+  {
+    "phrase": "und die Blutung hat man hier gesehen",
+    "context": "Hier sieht man schon ein Ventrikel und überhaupt hier eine große Blutung, ich bräuchte jetzt, muss schau trotzdem von vorne an, mal das der Ventrikel da auffällig aussieht, also da eineengt und die Blutung hat man hier gesehen. Ich hab das jetzt nicht gebraucht und fertig.",
+    "tags": [
+      "interpretation: bleeding"
+    ],
+    "rationale": "The speaker refers to the hemorrhage as having been seen in this image.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 49
+    },
+    "model": "openai/gpt-6-luna",
+    "provider": "OpenAI",
+    "configuration_name": "gpt-6-luna-260922"
+  },
+  {
+    "phrase": "Ich weiß nicht, was dieser Unterschied zu der anderen Seiten mit den Ventrikeln ist",
+    "context": "Ja und hier … Ich weiß nicht, was dieser Unterschied zu der anderen Seiten mit den Ventrikeln ist, AI sagt, dass ist keine Blutung",
+    "tags": [
+      "reflection: diagnostic_uncertainty"
+    ],
+    "rationale": "The speaker is unsure how to interpret the difference involving the ventricles.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 46
+    },
+    "model": "openai/gpt-6-luna",
+    "provider": "OpenAI",
+    "configuration_name": "gpt-6-luna-260922"
+  },
+  {
+    "phrase": "AI sagt, dass ist keine Blutung",
+    "context": "… mit den Ventrikeln ist, AI sagt, dass ist keine Blutung, ich weiß es nicht.",
+    "tags": [
+      "ai_report: no_ich"
+    ],
+    "rationale": "The speaker reports that the AI found no hemorrhage.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 46
+    },
+    "model": "openai/gpt-6-luna",
+    "provider": "OpenAI",
+    "configuration_name": "gpt-6-luna-260922"
+  },
+  {
+    "phrase": "ich weiß es nicht",
+    "context": "AI sagt, dass ist keine Blutung, ich weiß es nicht. Ich sag mal keine Blutung",
+    "tags": [
+      "reflection: diagnostic_uncertainty"
+    ],
+    "rationale": "The speaker explicitly indicates uncertainty about the assessment.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 46
+    },
+    "model": "openai/gpt-6-luna",
+    "provider": "OpenAI",
+    "configuration_name": "gpt-6-luna-260922"
+  },
+  {
+    "phrase": "Ich sag mal keine Blutung",
+    "context": "… ich weiß es nicht. Ich sag mal keine Blutung, aber ich bin mir nicht so sicher",
+    "tags": [
+      "interpretation: no_bleeding",
+      "decision_with_ai: implicitly_agreeing_with_ai"
+    ],
+    "rationale": "The speaker gives a no-hemorrhage interpretation, which matches the AI's reported assessment.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 46
+    },
+    "model": "openai/gpt-6-luna",
+    "provider": "OpenAI",
+    "configuration_name": "gpt-6-luna-260922"
+  },
+  {
+    "phrase": "aber ich bin mir nicht so sicher",
+    "context": "Ich sag mal keine Blutung, aber ich bin mir nicht so sicher",
+    "tags": [
+      "confidence_low: concrete"
+    ],
+    "rationale": "The speaker explicitly says they are not very certain.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 46
+    },
+    "model": "openai/gpt-6-luna",
+    "provider": "OpenAI",
+    "configuration_name": "gpt-6-luna-260922"
+  },
+  {
+    "phrase": "So ich guck erstmal wieder auf meine Seite, ohne AI erstmal und ob mir irgendwas auffällt.",
+    "context": "So ich guck erstmal wieder auf meine Seite, ohne AI erstmal und ob mir irgendwas auffällt. Beidseiten … Das war es noch nicht …",
+    "tags": [
+      "visual_search: description_of_own_approach_without_external_help",
+      "control: make_own_judgement"
+    ],
+    "rationale": "The person describes checking their own view first, before using AI, to see whether anything stands out.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 47
+    },
+    "model": "openai/gpt-6-luna",
+    "provider": "OpenAI",
+    "configuration_name": "gpt-6-luna-260922"
+  },
+  {
+    "phrase": "Das war es noch nicht … Vielleicht das hier …",
+    "context": "Beidseiten … Das war es noch nicht … Vielleicht das hier … Ich guck mal auf der AI Seite",
+    "tags": [
+      "reflection: diagnostic_uncertainty",
+      "confidence_low: secondary"
+    ],
+    "rationale": "“Vielleicht das hier” expresses uncertainty about whether the area is the relevant finding.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 47
+    },
+    "model": "openai/gpt-6-luna",
+    "provider": "OpenAI",
+    "configuration_name": "gpt-6-luna-260922"
+  },
+  {
+    "phrase": "Ich guck mal auf der AI Seite, ob mir das hier mit angezeigt wird",
+    "context": "Vielleicht das hier … Ich guck mal auf der AI Seite, ob mir das hier mit angezeigt wird … Ist bei der AI einfach nicht",
+    "tags": [
+      "visual_search: triggered_by_finding"
+    ],
+    "rationale": "The person checks the AI view at the location of something they have just noticed.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 47
+    },
+    "model": "openai/gpt-6-luna",
+    "provider": "OpenAI",
+    "configuration_name": "gpt-6-luna-260922"
+  },
+  {
+    "phrase": "Ist bei der AI einfach nicht, ah da ja, dass könnte fast",
+    "context": "Ich guck mal auf der AI Seite, ob mir das hier mit angezeigt wird … Ist bei der AI einfach nicht, ah da ja, dass könnte fast",
+    "tags": [
+      "reflection: self-correction",
+      "confidence_low: secondary"
+    ],
+    "rationale": "The speaker revises their observation from not seeing it on the AI view to seeing it, then trails off with the uncertain “könnte fast.”",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 47
+    },
+    "model": "openai/gpt-6-luna",
+    "provider": "OpenAI",
+    "configuration_name": "gpt-6-luna-260922"
+  }
+]

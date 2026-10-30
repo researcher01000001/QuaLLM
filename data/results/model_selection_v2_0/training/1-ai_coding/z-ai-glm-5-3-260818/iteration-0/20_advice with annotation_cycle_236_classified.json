@@ -1,0 +1,2813 @@
+[
+  {
+    "phrase": "wir habe hir alles symetrich und keine Signalverstärkung",
+    "context": "So, Mittellienie mitte wir habe hir alles symetrich und keine Signalverstärkung, ja",
+    "tags": [
+      "indicator: no_bleeding",
+      "visual_search: description_of_medical_image_features"
+    ],
+    "rationale": "The person describes checking the midline and symmetry (anatomical structures/image features) and classifies the area as unremarkable with no signal enhancement (no bleeding).",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 5
+    },
+    "model": "z-ai/glm-5.3",
+    "provider": "Wafer",
+    "configuration_name": "z-ai-glm-5-3-260818"
+  },
+  {
+    "phrase": "Auch hier ist es symetrisch …",
+    "context": "Auch hier ist es symetrisch … und …",
+    "tags": [
+      "visual_search: description_of_medical_image_features"
+    ],
+    "rationale": "The person verbalizes which image characteristics (symmetry of anatomical structures) they are currently checking.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 9
+    },
+    "model": "z-ai/glm-5.3",
+    "provider": "Wafer",
+    "configuration_name": "z-ai-glm-5-3-260818"
+  },
+  {
+    "phrase": "Man sieht hier auch keine Knochen, ähm Defekt …",
+    "context": "Man sieht hier auch keine Knochen, ähm Defekt … Kein Zeichen für eine Blutung.",
+    "tags": [
+      "indicator: no_bleeding"
+    ],
+    "rationale": "The person classifies the viewed image area as unremarkable, noting no bone defect.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 10
+    },
+    "model": "z-ai/glm-5.3",
+    "provider": "Wafer",
+    "configuration_name": "z-ai-glm-5-3-260818"
+  },
+  {
+    "phrase": "Kein Zeichen für eine Blutung.",
+    "context": "Man sieht hier auch keine Knochen, ähm Defekt … Kein Zeichen für eine Blutung.",
+    "tags": [
+      "interpretation: no_bleeding"
+    ],
+    "rationale": "The person interprets the absence of findings as no hemorrhage.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 10
+    },
+    "model": "z-ai/glm-5.3",
+    "provider": "Wafer",
+    "configuration_name": "z-ai-glm-5-3-260818"
+  },
+  {
+    "phrase": "So, hier fange ich auch wieder von vorne an.",
+    "context": "So, hier fange ich auch wieder von vorne an. Sieht bis jetzt alles symmetrisch aus und ich sehe noch keine Blutung.",
+    "tags": [
+      "control: control_repeat",
+      "reference: past_trial"
+    ],
+    "rationale": "Person restarts the search from the beginning, referring back to a previous run ('auch wieder').",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 3
+    },
+    "model": "z-ai/glm-5.3",
+    "provider": "Wafer",
+    "configuration_name": "z-ai-glm-5-3-260818"
+  },
+  {
+    "phrase": "Sieht bis jetzt alles symmetrisch aus und ich sehe noch keine Blutung.",
+    "context": "So, hier fange ich auch wieder von vorne an. Sieht bis jetzt alles symmetrisch aus und ich sehe noch keine Blutung. Hier wird mir, ach ja, diese Punkte angezeigt, diese Aufhellung.",
+    "tags": [
+      "interpretation: no_bleeding",
+      "visual_search: description_of_medical_image_features"
+    ],
+    "rationale": "Person interprets the current image as showing no hemorrhage and describes checking symmetry as an image feature.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 3
+    },
+    "model": "z-ai/glm-5.3",
+    "provider": "Wafer",
+    "configuration_name": "z-ai-glm-5-3-260818"
+  },
+  {
+    "phrase": "Hier wird mir, ach ja, diese Punkte angezeigt, diese Aufhellung.",
+    "context": "Sieht bis jetzt alles symmetrisch aus und ich sehe noch keine Blutung. Hier wird mir, ach ja, diese Punkte angezeigt, diese Aufhellung. Das, es verschwindet danach aber auf der anderen Seite ist auch nichts, ja.",
+    "tags": [
+      "ai_report: ich_localization",
+      "indicator: anomaly_detected"
+    ],
+    "rationale": "Person describes where the AI locates/points out a finding (the bright spots/Aufhellung), and notices an abnormality.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 3
+    },
+    "model": "z-ai/glm-5.3",
+    "provider": "Wafer",
+    "configuration_name": "z-ai-glm-5-3-260818"
+  },
+  {
+    "phrase": "Das, es verschwindet danach aber auf der anderen Seite ist auch nichts, ja.",
+    "context": "Hier wird mir, ach ja, diese Punkte angezeigt, diese Aufhellung. Das, es verschwindet danach aber auf der anderen Seite ist auch nichts, ja.",
+    "tags": [
+      "indicator: no_bleeding"
+    ],
+    "rationale": "Person classifies the corresponding area on the other side as unremarkable, using symmetry comparison.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 3
+    },
+    "model": "z-ai/glm-5.3",
+    "provider": "Wafer",
+    "configuration_name": "z-ai-glm-5-3-260818"
+  },
+  {
+    "phrase": "Achso ich muss das immer so machen dann.",
+    "context": "VPN: Achso ich muss das immer so machen dann. EXPERIMENTER: Ja du kannst das leider nicht übernehmen, also du musst bei jedem Fall das neu einstellen.",
+    "tags": [
+      "technical_conversation"
+    ],
+    "rationale": "The participant discusses handling of the display tool with the experimenter.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 1
+    },
+    "model": "z-ai/glm-5.3",
+    "provider": "Wafer",
+    "configuration_name": "z-ai-glm-5-3-260818"
+  },
+  {
+    "phrase": "scroll ich jetzt systematsich von oben nach untern oder unten nach oben und gucke immer auf beiden Seiten auf Knochen, auf irgenwelche Defekte da sind",
+    "context": "Mhm alles gut, scroll ich jetzt systematsich von oben nach untern oder unten nach oben und gucke immer auf beiden Seiten auf Knochen, auf irgenwelche Defekte da sind, die dann wo.",
+    "tags": [
+      "visual_search: description_of_own_approach_without_external_help"
+    ],
+    "rationale": "The participant explicitly describes their systematic search procedure.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 1
+    },
+    "model": "z-ai/glm-5.3",
+    "provider": "Wafer",
+    "configuration_name": "z-ai-glm-5-3-260818"
+  },
+  {
+    "phrase": "Aber hier sieht das alles, alles symetrisch und keine Aufhellung oder so",
+    "context": "die dann wo. ich dann eine Blutung vermuten könnte. Aber hier sieht das alles, alles symetrisch und keine Aufhellung oder so, deswegen mhm das hilft mir wirklich zu sagen, das das wirklich keiner ist",
+    "tags": [
+      "indicator: no_bleeding"
+    ],
+    "rationale": "The participant classifies the image as symmetric and unremarkable, with no signs of bleeding.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 1
+    },
+    "model": "z-ai/glm-5.3",
+    "provider": "Wafer",
+    "configuration_name": "z-ai-glm-5-3-260818"
+  },
+  {
+    "phrase": "das hilft mir wirklich zu sagen, das das wirklich keiner ist",
+    "context": "keine Aufhellung oder so, deswegen mhm das hilft mir wirklich zu sagen, das das wirklich keiner ist Ich würde schneller einfach durchgehen.",
+    "tags": [
+      "interpretation: no_bleeding"
+    ],
+    "rationale": "The participant concludes there is no hemorrhage.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 1
+    },
+    "model": "z-ai/glm-5.3",
+    "provider": "Wafer",
+    "configuration_name": "z-ai-glm-5-3-260818"
+  },
+  {
+    "phrase": "Ich würde schneller einfach durchgehen.",
+    "context": "das das wirklich keiner ist Ich würde schneller einfach durchgehen.",
+    "tags": [
+      "awareness_of_task: easy"
+    ],
+    "rationale": "The participant indicates they would proceed faster, implying the task is easy.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 1
+    },
+    "model": "z-ai/glm-5.3",
+    "provider": "Wafer",
+    "configuration_name": "z-ai-glm-5-3-260818"
+  },
+  {
+    "phrase": "So, fangen wir wieder oben an",
+    "context": "So, fangen wir wieder oben an … und hier sieht man auch erstmal, mhm keine Veränderung.",
+    "tags": [
+      "control: control_repeat",
+      "visual_search: description_of_own_approach_without_external_help"
+    ],
+    "rationale": "Person returns to a previously viewed image area (top) and comments on their own search procedure.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 7
+    },
+    "model": "z-ai/glm-5.3",
+    "provider": "Wafer",
+    "configuration_name": "z-ai-glm-5-3-260818"
+  },
+  {
+    "phrase": "hier sieht man auch erstmal, mhm keine Veränderung",
+    "context": "fangen wir wieder oben an … und hier sieht man auch erstmal, mhm keine Veränderung. Ich gucke mal, beidseitig",
+    "tags": [
+      "indicator: no_bleeding"
+    ],
+    "rationale": "Person classifies this image area as unremarkable, no changes.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 7
+    },
+    "model": "z-ai/glm-5.3",
+    "provider": "Wafer",
+    "configuration_name": "z-ai-glm-5-3-260818"
+  },
+  {
+    "phrase": "Ich gucke mal, beidseitig",
+    "context": "keine Veränderung. Ich gucke mal, beidseitig, aber … ah ja, da ist der, auf der Seite ist ein Saum",
+    "tags": [
+      "visual_search: description_of_medical_image_features"
+    ],
+    "rationale": "Person verbalizes which structures they are currently checking (both sides).",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 7
+    },
+    "model": "z-ai/glm-5.3",
+    "provider": "Wafer",
+    "configuration_name": "z-ai-glm-5-3-260818"
+  },
+  {
+    "phrase": "ah ja, da ist der, auf der Seite ist ein Saum",
+    "context": "Ich gucke mal, beidseitig, aber … ah ja, da ist der, auf der Seite ist ein Saum, was auf eine Blutung hindeuten könnte",
+    "tags": [
+      "indicator: anomaly_detected"
+    ],
+    "rationale": "Person notices an abnormality (a rim/margin) atypical for a healthy skull.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 7
+    },
+    "model": "z-ai/glm-5.3",
+    "provider": "Wafer",
+    "configuration_name": "z-ai-glm-5-3-260818"
+  },
+  {
+    "phrase": "was auf eine Blutung hindeuten könnte, oder bestimmt hindeutet",
+    "context": "da ist der, auf der Seite ist ein Saum, was auf eine Blutung hindeuten könnte, oder bestimmt hindeutet.",
+    "tags": [
+      "interpretation: bleeding",
+      "confidence_high: secondary",
+      "reflection: self-correction"
+    ],
+    "rationale": "Person interprets the abnormality as a hemorrhage; 'bestimmt' implicitly expresses high certainty; the correction from 'könnte' to 'bestimmt' is a self-correction.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 7
+    },
+    "model": "z-ai/glm-5.3",
+    "provider": "Wafer",
+    "configuration_name": "z-ai-glm-5-3-260818"
+  },
+  {
+    "phrase": "Das hilft einem sowohl beim Ausschluss, dass man nichts verpasst hat",
+    "context": "Das hilft einem sowohl beim Ausschluss, das man ein bisschen eher auf der sichern Seite, dass man nichts verpasst hat, auf jeden Fall schneller vorbei hier.",
+    "tags": [
+      "reflection_of_ai: helpful"
+    ],
+    "rationale": "The person describes the AI as helpful for excluding findings and not missing anything.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 11
+    },
+    "model": "z-ai/glm-5.3",
+    "provider": "Wafer",
+    "configuration_name": "z-ai-glm-5-3-260818"
+  },
+  {
+    "phrase": "dass man ein bisschen eher auf der sichern Seite",
+    "context": "Das hilft einem sowohl beim Ausschluss, das man ein bisschen eher auf der sichern Seite, dass man nichts verpasst hat, auf jeden Fall schneller vorbei hier.",
+    "tags": [
+      "confidence_high: increased_through_ai"
+    ],
+    "rationale": "The person indicates that the AI puts them more on the safe side, i.e., increases their diagnostic certainty.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 11
+    },
+    "model": "z-ai/glm-5.3",
+    "provider": "Wafer",
+    "configuration_name": "z-ai-glm-5-3-260818"
+  },
+  {
+    "phrase": "dass man ein bisschen besser drauf achtet",
+    "context": "Ja wann da was dabei ist, dass man ein bisschen besser drauf achtet.",
+    "tags": [
+      "visual_search: triggered_by_ai"
+    ],
+    "rationale": "The person describes paying closer attention to findings because of the AI's input, aligning their visual search with the AI information.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 11
+    },
+    "model": "z-ai/glm-5.3",
+    "provider": "Wafer",
+    "configuration_name": "z-ai-glm-5-3-260818"
+  },
+  {
+    "phrase": "normal fange ich immer irgwendwie von oben oder von untern an, dass ich nichts verpasse.",
+    "context": "Mhm, ja normal fange ich immer irgwendwie von oben oder von untern an, dass ich nichts verpasse.",
+    "tags": [
+      "visual_search: description_of_own_approach_without_external_help"
+    ],
+    "rationale": "Person describes their habitual search procedure (starting top/bottom to not miss anything).",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 2
+    },
+    "model": "z-ai/glm-5.3",
+    "provider": "Wafer",
+    "configuration_name": "z-ai-glm-5-3-260818"
+  },
+  {
+    "phrase": "Mittellinie ist in der Mitte, sehe keine Knochen ähm Brüche",
+    "context": "Mittellinie ist in der Mitte, sehe keine Knochen ähm Brüche, mhm hier zeigt der mir gerade ne Blutung in dem Bereich",
+    "tags": [
+      "visual_search: description_of_medical_image_features",
+      "indicator: no_bleeding"
+    ],
+    "rationale": "Person verbalizes anatomical structures being checked (midline, bones) and classifies them as unremarkable.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 2
+    },
+    "model": "z-ai/glm-5.3",
+    "provider": "Wafer",
+    "configuration_name": "z-ai-glm-5-3-260818"
+  },
+  {
+    "phrase": "hier zeigt der mir gerade ne Blutung in dem Bereich",
+    "context": "sehe keine Knochen ähm Brüche, mhm hier zeigt der mir gerade ne Blutung in dem Bereich, das ist sehr sehr dezent",
+    "tags": [
+      "ai_report: ich"
+    ],
+    "rationale": "Person verbalizes that the AI has found a hemorrhage.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 2
+    },
+    "model": "z-ai/glm-5.3",
+    "provider": "Wafer",
+    "configuration_name": "z-ai-glm-5-3-260818"
+  },
+  {
+    "phrase": "zumindest in meinem Bildschirm hätte ich das auf jeden Fall nicht erkannt sonnst",
+    "context": "das ist sehr sehr dezent, zumindest in meinem Bildschirm hätte ich das auf jeden Fall nicht erkannt sonnst, deswegen",
+    "tags": [
+      "reflection_of_ai: ich_not_recognized_without_ai"
+    ],
+    "rationale": "Person states they would not have recognized the hemorrhage without the AI.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 2
+    },
+    "model": "z-ai/glm-5.3",
+    "provider": "Wafer",
+    "configuration_name": "z-ai-glm-5-3-260818"
+  },
+  {
+    "phrase": "wo war das nochmal?",
+    "context": "hätte ich das auf jeden Fall nicht erkannt sonnst, deswegen, ist nicht, wo war das nochmal?",
+    "tags": [
+      "control: control_repeat",
+      "visual_search: triggered_by_ai"
+    ],
+    "rationale": "Person returns to the AI-indicated area to re-locate the hemorrhage, aligning their search with the AI information.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 2
+    },
+    "model": "z-ai/glm-5.3",
+    "provider": "Wafer",
+    "configuration_name": "z-ai-glm-5-3-260818"
+  },
+  {
+    "phrase": "ja ich hätte das nicht gesehen.",
+    "context": "Da angeblich, ja ich hätte das nicht gesehen.",
+    "tags": [
+      "reflection_of_ai: ich_not_recognized_without_ai"
+    ],
+    "rationale": "Person reiterates that they would not have seen the hemorrhage without the AI.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 2
+    },
+    "model": "z-ai/glm-5.3",
+    "provider": "Wafer",
+    "configuration_name": "z-ai-glm-5-3-260818"
+  },
+  {
+    "phrase": "Oh, oh no … mhm",
+    "context": "Oh, oh no … mhm … oben in der Mittellinie sieht man ein Aufhellung.",
+    "tags": [
+      "paused_in_process"
+    ],
+    "rationale": "Pure filler words/sounds without diagnostic content.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 12
+    },
+    "model": "z-ai/glm-5.3",
+    "provider": "Wafer",
+    "configuration_name": "z-ai-glm-5-3-260818"
+  },
+  {
+    "phrase": "oben in der Mittellinie sieht man ein Aufhellung",
+    "context": "mhm … oben in der Mittellinie sieht man ein Aufhellung. ??? Oben ist aber schon nichts mehr",
+    "tags": [
+      "indicator: anomaly_detected"
+    ],
+    "rationale": "Person notices an abnormality (Aufhellung) atypical for a healthy skull.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 12
+    },
+    "model": "z-ai/glm-5.3",
+    "provider": "Wafer",
+    "configuration_name": "z-ai-glm-5-3-260818"
+  },
+  {
+    "phrase": "Oben ist aber schon nichts mehr, aber da ist was auffälliges dran",
+    "context": "oben in der Mittellinie sieht man ein Aufhellung. ??? Oben ist aber schon nichts mehr, aber da ist was auffälliges dran",
+    "tags": [
+      "indicator: anomaly_detected"
+    ],
+    "rationale": "Person explicitly states there is something conspicuous ('was auffälliges') in that area.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 12
+    },
+    "model": "z-ai/glm-5.3",
+    "provider": "Wafer",
+    "configuration_name": "z-ai-glm-5-3-260818"
+  },
+  {
+    "phrase": "das habe ich auch, in dem Teil ist es so ein bisschen deutlicher zu sehen",
+    "context": "… So … das habe ich auch, in dem Teil ist es so ein bisschen deutlicher zu sehen und auf der anderen Seite sehe ich das, eigentlich zeigt mir das das gleiche.",
+    "tags": [
+      "control: control_repeat"
+    ],
+    "rationale": "The person returns to a previously viewed image area, noting it appears somewhat clearer in that part.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 16
+    },
+    "model": "z-ai/glm-5.3",
+    "provider": "Wafer",
+    "configuration_name": "z-ai-glm-5-3-260818"
+  },
+  {
+    "phrase": "auf der anderen Seite sehe ich das, eigentlich zeigt mir das das gleiche",
+    "context": "in dem Teil ist es so ein bisschen deutlicher zu sehen und auf der anderen Seite sehe ich das, eigentlich zeigt mir das das gleiche. … Ja, gut",
+    "tags": [
+      "other"
+    ],
+    "rationale": "The person compares both sides and states they show the same thing, but without more information it remains unclear whether this is a normal finding, an abnormality, or a hemorrhage; no clear code can be assigned.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 16
+    },
+    "model": "z-ai/glm-5.3",
+    "provider": "Wafer",
+    "configuration_name": "z-ai-glm-5-3-260818"
+  },
+  {
+    "phrase": "So, ich probiere auf der Siete ohne AI erstmal nach was zu schauen.",
+    "context": "So, ich probiere auf der Siete ohne AI erstmal nach was zu schauen. Und auf symetrie schauen, auf Knochendefekte",
+    "tags": [
+      "visual_search: description_of_own_approach_without_external_help"
+    ],
+    "rationale": "Person explicitly describes their own search procedure on the side without AI.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 13
+    },
+    "model": "z-ai/glm-5.3",
+    "provider": "Wafer",
+    "configuration_name": "z-ai-glm-5-3-260818"
+  },
+  {
+    "phrase": "Und auf symetrie schauen, auf Knochendefekte",
+    "context": "ich probiere auf der Siete ohne AI erstmal nach was zu schauen. Und auf symetrie schauen, auf Knochendefekte und dann auf der AI Seite, ob ich irgendwas verpasst habe",
+    "tags": [
+      "visual_search: description_of_medical_image_features"
+    ],
+    "rationale": "Person verbalizes which image characteristics (symmetry, bone defects) they are currently checking.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 13
+    },
+    "model": "z-ai/glm-5.3",
+    "provider": "Wafer",
+    "configuration_name": "z-ai-glm-5-3-260818"
+  },
+  {
+    "phrase": "und dann auf der AI Seite, ob ich irgendwas verpasst habe",
+    "context": "Und auf symetrie schauen, auf Knochendefekte und dann auf der AI Seite, ob ich irgendwas verpasst habe, sieht nicht so aus",
+    "tags": [
+      "control: relying_on_ai"
+    ],
+    "rationale": "Person uses the AI side to check whether they missed anything, relying on the AI as a control.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 13
+    },
+    "model": "z-ai/glm-5.3",
+    "provider": "Wafer",
+    "configuration_name": "z-ai-glm-5-3-260818"
+  },
+  {
+    "phrase": "ob ich irgendwas verpasst habe, sieht nicht so aus",
+    "context": "und dann auf der AI Seite, ob ich irgendwas verpasst habe, sieht nicht so aus",
+    "tags": [
+      "ai_report: no_ich"
+    ],
+    "rationale": "Person verbalizes that the AI has not found a hemorrhage (nothing missed on the AI side).",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 13
+    },
+    "model": "z-ai/glm-5.3",
+    "provider": "Wafer",
+    "configuration_name": "z-ai-glm-5-3-260818"
+  },
+  {
+    "phrase": "erst mal auf der Seite ohne AI, auf Unterschiede beidseitig bei den Hemisphären",
+    "context": "Ja. Genaue, erst mal auf der Seite ohne AI, auf Unterschiede beidseitig bei den Hemisphären, und hier hab ich nichts direkt gesehen",
+    "tags": [
+      "visual_search: description_of_own_approach_without_external_help"
+    ],
+    "rationale": "Person describes their own search procedure (comparing hemispheres) before using the AI.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 17
+    },
+    "model": "z-ai/glm-5.3",
+    "provider": "Wafer",
+    "configuration_name": "z-ai-glm-5-3-260818"
+  },
+  {
+    "phrase": "und hier hab ich nichts direkt gesehen",
+    "context": "auf Unterschiede beidseitig bei den Hemisphären, und hier hab ich nichts direkt gesehen und auf der Seite mir aber was angezeigt.",
+    "tags": [
+      "indicator: no_bleeding"
+    ],
+    "rationale": "Person classifies the image area as unremarkable; they did not see anything directly.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 17
+    },
+    "model": "z-ai/glm-5.3",
+    "provider": "Wafer",
+    "configuration_name": "z-ai-glm-5-3-260818"
+  },
+  {
+    "phrase": "Das hätte ich ohne so ohne so große Erfahrung nicht gemerkt.",
+    "context": "und hier hab ich nichts direkt gesehen und auf der Seite mir aber was angezeigt. Das hätte ich ohne so ohne so große Erfahrung nicht gemerkt.",
+    "tags": [
+      "reflection_of_ai: ich_not_recognized_without_ai"
+    ],
+    "rationale": "Person states they would not have noticed the hemorrhage without the AI.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 17
+    },
+    "model": "z-ai/glm-5.3",
+    "provider": "Wafer",
+    "configuration_name": "z-ai-glm-5-3-260818"
+  },
+  {
+    "phrase": "Aber wenn man das weiß, dann sieht man es da auch doch.",
+    "context": "Das hätte ich ohne so ohne so große Erfahrung nicht gemerkt. Aber wenn man das weiß, dann sieht man es da auch doch.",
+    "tags": [
+      "visual_search: triggered_by_ai"
+    ],
+    "rationale": "After the AI indicated the location, the person can now see the finding there, aligning their visual search with the AI information.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 17
+    },
+    "model": "z-ai/glm-5.3",
+    "provider": "Wafer",
+    "configuration_name": "z-ai-glm-5-3-260818"
+  },
+  {
+    "phrase": "Ich fange so an, dass ich das alles einmal gesehen habe und schue mir die Ventrikel und die Mittellinie an, Schädelknochen und direkt dadrunter",
+    "context": "Ich fange so an, dass ich das alles einmal gesehen habe und schue mir die Ventrikel und die Mittellinie an, Schädelknochen und direkt dadrunter [?] Konvex oder konkav.",
+    "tags": [
+      "visual_search: description_of_own_approach_without_external_help"
+    ],
+    "rationale": "The person explicitly describes their own systematic search procedure (looking at ventricles, midline, skull bones).",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 14
+    },
+    "model": "z-ai/glm-5.3",
+    "provider": "Wafer",
+    "configuration_name": "z-ai-glm-5-3-260818"
+  },
+  {
+    "phrase": "schue mir die Ventrikel und die Mittellinie an, Schädelknochen",
+    "context": "dass ich das alles einmal gesehen habe und schue mir die Ventrikel und die Mittellinie an, Schädelknochen und direkt dadrunter [?] Konvex oder konkav.",
+    "tags": [
+      "visual_search: description_of_medical_image_features"
+    ],
+    "rationale": "The person verbalizes which anatomical structures they are currently checking.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 14
+    },
+    "model": "z-ai/glm-5.3",
+    "provider": "Wafer",
+    "configuration_name": "z-ai-glm-5-3-260818"
+  },
+  {
+    "phrase": "ich habe erst mal auf der nicht AI Seite gesehen, und jetzt hier wird mir aber was angezeigt.",
+    "context": "Hier, hätte ich das verpasst, ich habe erst mal auf der nicht AI Seite gesehen, und jetzt hier wird mir aber was angezeigt.",
+    "tags": [
+      "ai_report: ich"
+    ],
+    "rationale": "The person verbalizes that the AI is now displaying/finding a hemorrhage.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 14
+    },
+    "model": "z-ai/glm-5.3",
+    "provider": "Wafer",
+    "configuration_name": "z-ai-glm-5-3-260818"
+  },
+  {
+    "phrase": "Ja, das hätte ich nicht ohne AI gemerkt.",
+    "context": "und jetzt hier wird mir aber was angezeigt. Ja, das hätte ich nicht ohne AI gemerkt.",
+    "tags": [
+      "reflection_of_ai: ich_not_recognized_without_ai"
+    ],
+    "rationale": "The person states they would not have noticed the hemorrhage without the AI.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 14
+    },
+    "model": "z-ai/glm-5.3",
+    "provider": "Wafer",
+    "configuration_name": "z-ai-glm-5-3-260818"
+  },
+  {
+    "phrase": "Dann scrolle ich wieder und schaue ob ich immer beidseitig irgendwelche Unterschiede merke.",
+    "context": "Okay, ja, danke, gut. Dann scrolle ich wieder und schaue ob ich immer beidseitig irgendwelche Unterschiede merke. Mit ähm, schauen wir immer auf die Symmetrie und auf der Mittellinie, ob es eine Verschiebung da ist oder nicht.",
+    "tags": [
+      "visual_search: description_of_own_approach_without_external_help"
+    ],
+    "rationale": "Person explicitly describes their own search procedure (comparing both sides for differences).",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 0
+    },
+    "model": "z-ai/glm-5.3",
+    "provider": "Wafer",
+    "configuration_name": "z-ai-glm-5-3-260818"
+  },
+  {
+    "phrase": "schauen wir immer auf die Symmetrie und auf der Mittellinie, ob es eine Verschiebung da ist oder nicht",
+    "context": "Dann scrolle ich wieder und schaue ob ich immer beidseitig irgendwelche Unterschiede merke. Mit ähm, schauen wir immer auf die Symmetrie und auf der Mittellinie, ob es eine Verschiebung da ist oder nicht. Ähm!",
+    "tags": [
+      "visual_search: description_of_medical_image_features"
+    ],
+    "rationale": "Person verbalizes which image features (symmetry, midline shift) they are checking.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 0
+    },
+    "model": "z-ai/glm-5.3",
+    "provider": "Wafer",
+    "configuration_name": "z-ai-glm-5-3-260818"
+  },
+  {
+    "phrase": "Ich hätte jetzt persönlich nicht erkannt, dass es jetzt unbedingt eine Blutung da ist",
+    "context": "Ähm! Ich hätte jetzt persönlich nicht erkannt, dass es jetzt unbedingt eine Blutung da ist, weil auf der anderen Seite sieht es also von der Hemisphäre sieht es auch so ähnlich aus und es wurde halt von der AI nicht erkannt.",
+    "tags": [
+      "reflection_of_ai: ich_not_recognized_without_ai"
+    ],
+    "rationale": "Person states they personally would not have recognized the hemorrhage without the AI.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 0
+    },
+    "model": "z-ai/glm-5.3",
+    "provider": "Wafer",
+    "configuration_name": "z-ai-glm-5-3-260818"
+  },
+  {
+    "phrase": "weil auf der anderen Seite sieht es also von der Hemisphäre sieht es auch so ähnlich aus und es wurde halt von der AI nicht erkannt",
+    "context": "Ich hätte jetzt persönlich nicht erkannt, dass es jetzt unbedingt eine Blutung da ist, weil auf der anderen Seite sieht es also von der Hemisphäre sieht es auch so ähnlich aus und es wurde halt von der AI nicht erkannt. Ich habe da nicht so Erfahrung mit, aber ich hätte gedacht, vielleicht ist es irgendwie normal, wenn es irgendwie beidseitig ist.",
+    "tags": [
+      "reasoning: alternative_medical_structure",
+      "confidence_low: secondary"
+    ],
+    "rationale": "Person attributes the similar appearance on both hemispheres to normal anatomy ('vielleicht ist es irgendwie normal, wenn es irgendwie beidseitig ist'), and implicitly expresses low certainty.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 0
+    },
+    "model": "z-ai/glm-5.3",
+    "provider": "Wafer",
+    "configuration_name": "z-ai-glm-5-3-260818"
+  },
+  {
+    "phrase": "Ich habe da nicht so Erfahrung mit",
+    "context": "es wurde halt von der AI nicht erkannt. Ich habe da nicht so Erfahrung mit, aber ich hätte gedacht, vielleicht ist es irgendwie normal, wenn es irgendwie beidseitig ist. Deswegen...",
+    "tags": [
+      "reflection: experience_limitation"
+    ],
+    "rationale": "Person refers to their own limits of experience.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 0
+    },
+    "model": "z-ai/glm-5.3",
+    "provider": "Wafer",
+    "configuration_name": "z-ai-glm-5-3-260818"
+  },
+  {
+    "phrase": "Ich muss trotzdem selber erkennen, ob das also das ist, jetzt nicht.",
+    "context": "Deswegen... Ich muss trotzdem selber erkennen, ob das also das ist, jetzt nicht. Wenn das AI sagt, dass es, dass es eine Blutung da ist, muss es nicht unbedingt sein, oder?",
+    "tags": [
+      "control: make_own_judgement"
+    ],
+    "rationale": "Person emphasizes making their own decision regardless of the AI's assessment.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 0
+    },
+    "model": "z-ai/glm-5.3",
+    "provider": "Wafer",
+    "configuration_name": "z-ai-glm-5-3-260818"
+  },
+  {
+    "phrase": "Wenn das AI sagt, dass es, dass es eine Blutung da ist, muss es nicht unbedingt sein, oder?",
+    "context": "Ich muss trotzdem selber erkennen, ob das also das ist, jetzt nicht. Wenn das AI sagt, dass es, dass es eine Blutung da ist, muss es nicht unbedingt sein, oder? Also, ich kenn, ich hab die Studie nicht selbst desgigned. Ich kann dir nicht garantieren, dass es stimmt.",
+    "tags": [
+      "reflection_of_ai: distrust_in_ai"
+    ],
+    "rationale": "Person questions the reliability of the AI's assessment.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 0
+    },
+    "model": "z-ai/glm-5.3",
+    "provider": "Wafer",
+    "configuration_name": "z-ai-glm-5-3-260818"
+  },
+  {
+    "phrase": "Ich weiß es leider nicht.",
+    "context": "Ich kann dir nicht garantieren, dass es stimmt. Ich weiß es leider nicht. Okay, ich gehe schon davon aus, dass es ist.",
+    "tags": [
+      "confidence_low: concrete"
+    ],
+    "rationale": "Person explicitly expresses uncertainty about the case.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 0
+    },
+    "model": "z-ai/glm-5.3",
+    "provider": "Wafer",
+    "configuration_name": "z-ai-glm-5-3-260818"
+  },
+  {
+    "phrase": "aber ich sage einfach ja, und ich bin nicht so kompetent, eben weil die andere Seite nicht detektiert wurde, und das sieht sehr ähnlich aus. Aber keine Ahnung.",
+    "context": "Ja, aber gut, ich sage einfach ja, und ich bin nicht so kompetent, eben weil die andere Seite nicht detektiert wurde, und das sieht sehr ähnlich aus. Aber keine Ahnung. Ja.",
+    "tags": [
+      "decision_with_ai: implicitly_agreeing_with_ai",
+      "confidence_low: secondary",
+      "reflection: experience_limitation"
+    ],
+    "rationale": "Person implicitly agrees with the AI ('ich sage einfach ja'), implicitly expresses low certainty ('keine Ahnung'), and refers to their own limited competence.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 0
+    },
+    "model": "z-ai/glm-5.3",
+    "provider": "Wafer",
+    "configuration_name": "z-ai-glm-5-3-260818"
+  },
+  {
+    "phrase": "sieht man nichts",
+    "context": "Ja hier, sieht man nichts und AI sagt auch es ist nichts da",
+    "tags": [
+      "indicator: no_bleeding"
+    ],
+    "rationale": "The person classifies the viewed image area as unremarkable, stating that nothing can be seen there.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 18
+    },
+    "model": "z-ai/glm-5.3",
+    "provider": "Relace",
+    "configuration_name": "z-ai-glm-5-3-260818"
+  },
+  {
+    "phrase": "AI sagt auch es ist nichts da",
+    "context": "Ja hier, sieht man nichts und AI sagt auch es ist nichts da",
+    "tags": [
+      "ai_report: no_ich",
+      "decision_with_ai: implicitly_agreeing_with_ai",
+      "reflection_of_ai: confirmed_by_ai"
+    ],
+    "rationale": "The person verbalizes that the AI has not found a hemorrhage. The word 'auch' (also) indicates that the AI's assessment matches their own finding, which constitutes an implicit agreement with the AI and expresses that they feel confirmed in their assessment by the AI.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 18
+    },
+    "model": "z-ai/glm-5.3",
+    "provider": "Relace",
+    "configuration_name": "z-ai-glm-5-3-260818"
+  },
+  {
+    "phrase": "Bis jetzt auch alles symetrisch und Mittellinie ist nicht verschoben",
+    "context": "Mhm da … Bis jetzt auch alles symetrisch und Mittellinie ist nicht verschoben … Ist mir so noch nicht so direkt",
+    "tags": [
+      "indicator: no_bleeding",
+      "visual_search: description_of_medical_image_features"
+    ],
+    "rationale": "Person classifies the midline and symmetry as unremarkable while verbalizing which image features they are checking.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 19
+    },
+    "model": "z-ai/glm-5.3",
+    "provider": "Wafer",
+    "configuration_name": "z-ai-glm-5-3-260818"
+  },
+  {
+    "phrase": "auf der Seite sieht das irgendwie die Gyri ander aus als auf dieser Seite",
+    "context": "das wär ja, … auf der Seite sieht das irgendwie die Gyri ander aus als auf dieser Seite",
+    "tags": [
+      "indicator: anomaly_detected"
+    ],
+    "rationale": "Person notices an asymmetry of the Gyri, an abnormality atypical for a healthy skull.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 19
+    },
+    "model": "z-ai/glm-5.3",
+    "provider": "Wafer",
+    "configuration_name": "z-ai-glm-5-3-260818"
+  },
+  {
+    "phrase": "auf der AI Seite zeigt, wird mir auch angezeigt, dass hier was ist",
+    "context": "auf der Seite sieht das irgendwie die Gyri ander aus als auf dieser Seite und auf der AI Seite zeigt, wird mir auch angezeigt, dass hier was ist, ja",
+    "tags": [
+      "ai_report: ich",
+      "visual_search: triggered_by_ai"
+    ],
+    "rationale": "Person verbalizes that the AI displays a finding (hemorrhage) and aligns their visual search with the AI's indication.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 19
+    },
+    "model": "z-ai/glm-5.3",
+    "provider": "Wafer",
+    "configuration_name": "z-ai-glm-5-3-260818"
+  },
+  {
+    "phrase": "Hier soll nichts sein und ich sehe auch nichts",
+    "context": "Ok mhm … Hier soll nichts sein und ich sehe auch nichts und ist beides symetrisch und Ventrikel frei.",
+    "tags": [
+      "ai_report: no_ich",
+      "indicator: no_bleeding"
+    ],
+    "rationale": "Person notes the AI reports no hemorrhage and confirms they also see nothing abnormal.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 20
+    },
+    "model": "z-ai/glm-5.3",
+    "provider": "Wafer",
+    "configuration_name": "z-ai-glm-5-3-260818"
+  },
+  {
+    "phrase": "ist beides symetrisch und Ventrikel frei",
+    "context": "Hier soll nichts sein und ich sehe auch nichts und ist beides symetrisch und Ventrikel frei. Unterhalb des Schädelknochen ist alles frei",
+    "tags": [
+      "visual_search: description_of_medical_image_features"
+    ],
+    "rationale": "Person verbalizes the anatomical structures they are checking (symmetry, ventricles).",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 20
+    },
+    "model": "z-ai/glm-5.3",
+    "provider": "Wafer",
+    "configuration_name": "z-ai-glm-5-3-260818"
+  },
+  {
+    "phrase": "Unterhalb des Schädelknochen ist alles frei",
+    "context": "ist beides symetrisch und Ventrikel frei. Unterhalb des Schädelknochen ist alles frei",
+    "tags": [
+      "indicator: no_bleeding"
+    ],
+    "rationale": "Person classifies the area below the skull bone as unremarkable/free of findings.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 20
+    },
+    "model": "z-ai/glm-5.3",
+    "provider": "Wafer",
+    "configuration_name": "z-ai-glm-5-3-260818"
+  },
+  {
+    "phrase": "So ich guck erstmal ohne AI.",
+    "context": "So ich guck erstmal ohne AI. Ich schau auf Mittellinie und auf Knochendefekte.",
+    "tags": [
+      "visual_search: description_of_own_approach_without_external_help"
+    ],
+    "rationale": "Person explicitly comments on their own search procedure (first without AI).",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 21
+    },
+    "model": "z-ai/glm-5.3",
+    "provider": "Wafer",
+    "configuration_name": "z-ai-glm-5-3-260818"
+  },
+  {
+    "phrase": "Ich schau auf Mittellinie und auf Knochendefekte.",
+    "context": "So ich guck erstmal ohne AI. Ich schau auf Mittellinie und auf Knochendefekte. … Auf Unterschiede auf beiden Seiten,",
+    "tags": [
+      "visual_search: description_of_medical_image_features"
+    ],
+    "rationale": "Person verbalizes which anatomical structures they are currently checking.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 21
+    },
+    "model": "z-ai/glm-5.3",
+    "provider": "Wafer",
+    "configuration_name": "z-ai-glm-5-3-260818"
+  },
+  {
+    "phrase": "ist mir nichts aufgefallen, aber sollte da was sein?",
+    "context": "Auf Unterschiede auf beiden Seiten, ist mir nichts aufgefallen, aber sollte da was sein? Ich guck jetzt auf der AI Seite,",
+    "tags": [
+      "indicator: no_bleeding",
+      "control: reflective_question"
+    ],
+    "rationale": "Person classifies the image as unremarkable so far and asks themselves a verifying question about whether something should be there.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 21
+    },
+    "model": "z-ai/glm-5.3",
+    "provider": "Wafer",
+    "configuration_name": "z-ai-glm-5-3-260818"
+  },
+  {
+    "phrase": "Ich guck jetzt auf der AI Seite, da ist schon ah, da ist schon angeblich unter deer Schädelkalotte was",
+    "context": "Ich guck jetzt auf der AI Seite, da ist schon ah, da ist schon angeblich unter deer Schädelkalotte was was ich nicht gesehen hätte unbedingt.",
+    "tags": [
+      "ai_report: ich_localization",
+      "visual_search: triggered_by_ai"
+    ],
+    "rationale": "Person describes where the AI locates the hemorrhage (under the skull calotte) and aligns their visual search with the AI information.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 21
+    },
+    "model": "z-ai/glm-5.3",
+    "provider": "Wafer",
+    "configuration_name": "z-ai-glm-5-3-260818"
+  },
+  {
+    "phrase": "was ich nicht gesehen hätte unbedingt.",
+    "context": "da ist schon angeblich unter deer Schädelkalotte was was ich nicht gesehen hätte unbedingt.",
+    "tags": [
+      "reflection_of_ai: ich_not_recognized_without_ai"
+    ],
+    "rationale": "Person states they would not necessarily have seen the hemorrhage without the AI.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 21
+    },
+    "model": "z-ai/glm-5.3",
+    "provider": "Wafer",
+    "configuration_name": "z-ai-glm-5-3-260818"
+  },
+  {
+    "phrase": "weil ich gesagt bekomme, dass da nichts da ist",
+    "context": "Okay. Jetzt wieder schneller, weil ich gesagt bekomme, dass da nichts da ist, und mir fällt auch nichts auf.",
+    "tags": [
+      "ai_report: no_ich",
+      "control: relying_on_ai"
+    ],
+    "rationale": "The person verbalizes that the AI reports no hemorrhage and explicitly justifies their faster pace by relying on the AI's assessment.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 24
+    },
+    "model": "z-ai/glm-5.3",
+    "provider": "Wafer",
+    "configuration_name": "z-ai-glm-5-3-260818"
+  },
+  {
+    "phrase": "und mir fällt auch nichts auf",
+    "context": "Okay. Jetzt wieder schneller, weil ich gesagt bekomme, dass da nichts da ist, und mir fällt auch nichts auf.",
+    "tags": [
+      "indicator: no_bleeding"
+    ],
+    "rationale": "The person classifies the image as unremarkable, as they do not notice any abnormality themselves.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 24
+    },
+    "model": "z-ai/glm-5.3",
+    "provider": "Wafer",
+    "configuration_name": "z-ai-glm-5-3-260818"
+  },
+  {
+    "phrase": "da drunter auch kein Saum, ist alles ok",
+    "context": "Mhm hier wieder Mittelinie und Schädelkalotte und da drunter auch kein Saum, ist alles ok",
+    "tags": [
+      "indicator: no_bleeding"
+    ],
+    "rationale": "The person classifies the examined image area as unremarkable (no hyperdense rim/saum, everything ok).",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 26
+    },
+    "model": "z-ai/glm-5.3",
+    "provider": "Wafer",
+    "configuration_name": "z-ai-glm-5-3-260818"
+  },
+  {
+    "phrase": "hier wieder Mittelinie und Schädelkalotte",
+    "context": "Mhm hier wieder Mittelinie und Schädelkalotte und da drunter auch kein Saum, ist alles ok",
+    "tags": [
+      "visual_search: description_of_medical_image_features"
+    ],
+    "rationale": "The person verbalizes which anatomical structures (midline, skull calotte) they are currently checking.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 26
+    },
+    "model": "z-ai/glm-5.3",
+    "provider": "Wafer",
+    "configuration_name": "z-ai-glm-5-3-260818"
+  },
+  {
+    "phrase": "Schau erstmal wieder auf meine Seite",
+    "context": "… Schau erstmal wieder auf meine Seite … Ich seh keine Unterschied",
+    "tags": [
+      "control: control_repeat"
+    ],
+    "rationale": "The person explicitly returns to a previously viewed image area ('wieder auf meine Seite').",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 25
+    },
+    "model": "z-ai/glm-5.3",
+    "provider": "Wafer",
+    "configuration_name": "z-ai-glm-5-3-260818"
+  },
+  {
+    "phrase": "Ich seh keine Unterschied",
+    "context": "Schau erstmal wieder auf meine Seite … Ich seh keine Unterschied",
+    "tags": [
+      "indicator: no_bleeding"
+    ],
+    "rationale": "The person classifies the compared image area as unremarkable, seeing no difference (i.e., no abnormality).",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 25
+    },
+    "model": "z-ai/glm-5.3",
+    "provider": "Wafer",
+    "configuration_name": "z-ai-glm-5-3-260818"
+  },
+  {
+    "phrase": "nichts was auffällig aussieht",
+    "context": "Genau so hier mhm nichts was auffällig aussieht",
+    "tags": [
+      "indicator: no_bleeding"
+    ],
+    "rationale": "The person classifies the viewed image area as unremarkable, stating nothing looks abnormal.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 27
+    },
+    "model": "z-ai/glm-5.3",
+    "provider": "Wafer",
+    "configuration_name": "z-ai-glm-5-3-260818"
+  },
+  {
+    "phrase": "Ja schau ich wieder auf die Mittellinie und auf den Schädelknochen",
+    "context": "VPN: … Ja schau ich wieder auf die Mittellinie und auf den Schädelknochen … ich guck mir schon auf der anderen Seite vom AI an",
+    "tags": [
+      "control: control_repeat"
+    ],
+    "rationale": "The person explicitly returns ('wieder') to previously viewed image areas (midline and skull bone).",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 6
+    },
+    "model": "z-ai/glm-5.3",
+    "provider": "Relace",
+    "configuration_name": "z-ai-glm-5-3-260818"
+  },
+  {
+    "phrase": "ich guck mir schon auf der anderen Seite vom AI an, ob ich irgendwas verpasst hab",
+    "context": "und auf den Schädelknochen … ich guck mir schon auf der anderen Seite vom AI an, ob ich irgendwas verpasst hab. Aber hier wird mir nicht angezeigt",
+    "tags": [
+      "visual_search: triggered_by_ai"
+    ],
+    "rationale": "The person aligns their visual search with the AI information by checking the side indicated by the AI to see if they missed anything.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 6
+    },
+    "model": "z-ai/glm-5.3",
+    "provider": "Relace",
+    "configuration_name": "z-ai-glm-5-3-260818"
+  },
+  {
+    "phrase": "Aber hier wird mir nicht angezeigt, wo das ist ha? Also dieses Viereck ist jetzt nicht da. Wo die Blutung sein sollte, jetzt als Frage.",
+    "context": "ob ich irgendwas verpasst hab. Aber hier wird mir nicht angezeigt, wo das ist ha? Also dieses Viereck ist jetzt nicht da. Wo die Blutung sein sollte, jetzt als Frage. Tschuldigung.",
+    "tags": [
+      "reflection_of_ai: confused_by_ai",
+      "ai_report: ich"
+    ],
+    "rationale": "The person is confused because the AI's expected marker (the box) is not displayed, while simultaneously verbalizing that the AI has reported a hemorrhage ('wo die Blutung sein sollte').",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 6
+    },
+    "model": "z-ai/glm-5.3",
+    "provider": "Relace",
+    "configuration_name": "z-ai-glm-5-3-260818"
+  },
+  {
+    "phrase": "Achso, ja also bei diesem Bild zeigt mir das jetzt nicht an, wo das ist, ist das richtig? Ist das nur manchmal, oder?",
+    "context": "Tschuldigung. EXPERIMENTER: Ja bitte VPN: Achso, ja also bei diesem Bild zeigt mir das jetzt nicht an, wo das ist, ist das richtig? Ist das nur manchmal, oder? EXPERIMENTER: Äh, ne da müsste auch ein Quadrat sein.",
+    "tags": [
+      "technical_conversation"
+    ],
+    "rationale": "The person discusses a technical difficulty with the display of the AI tool directly with the experimenter, asking whether the marker is only shown sometimes.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 6
+    },
+    "model": "z-ai/glm-5.3",
+    "provider": "Relace",
+    "configuration_name": "z-ai-glm-5-3-260818"
+  },
+  {
+    "phrase": "Ah da, ja dankeschön",
+    "context": "Also du kannst Bild für Bild durchgehen, ja da oben wars, ganz klein oben. VPN: Ah da, ja dankeschön, aber auch das hätte ich gar nicht gesehen.",
+    "tags": [
+      "paused_in_process"
+    ],
+    "rationale": "A brief acknowledgment/filler response to the experimenter without substantive diagnostic content.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 6
+    },
+    "model": "z-ai/glm-5.3",
+    "provider": "Relace",
+    "configuration_name": "z-ai-glm-5-3-260818"
+  },
+  {
+    "phrase": "aber auch das hätte ich gar nicht gesehen",
+    "context": "VPN: Ah da, ja dankeschön, aber auch das hätte ich gar nicht gesehen. Mhm ohne AI hätte ich gedacht, dass ist irgendwie einen Artefakt",
+    "tags": [
+      "reflection_of_ai: ich_not_recognized_without_ai"
+    ],
+    "rationale": "The person explicitly states they would not have seen the hemorrhage without the AI.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 6
+    },
+    "model": "z-ai/glm-5.3",
+    "provider": "Relace",
+    "configuration_name": "z-ai-glm-5-3-260818"
+  },
+  {
+    "phrase": "ohne AI hätte ich gedacht, dass ist irgendwie einen Artefakt",
+    "context": "aber auch das hätte ich gar nicht gesehen. Mhm ohne AI hätte ich gedacht, dass ist irgendwie einen Artefakt, hätte ich nicht gesehen, finde es immernoch schwer",
+    "tags": [
+      "reasoning: artifact"
+    ],
+    "rationale": "The person states that without the AI they would have interpreted the finding as an artifact.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 6
+    },
+    "model": "z-ai/glm-5.3",
+    "provider": "Relace",
+    "configuration_name": "z-ai-glm-5-3-260818"
+  },
+  {
+    "phrase": "finde es immernoch schwer",
+    "context": "hätte ich gedacht, dass ist irgendwie einen Artefakt, hätte ich nicht gesehen, finde es immernoch schwer, so es sieht so aus, wie ein Artefakt irgendwie",
+    "tags": [
+      "awareness_of_task: difficult"
+    ],
+    "rationale": "The person explicitly perceives the current task/finding as still difficult.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 6
+    },
+    "model": "z-ai/glm-5.3",
+    "provider": "Relace",
+    "configuration_name": "z-ai-glm-5-3-260818"
+  },
+  {
+    "phrase": "es sieht so aus, wie ein Artefakt irgendwie",
+    "context": "finde es immernoch schwer, so es sieht so aus, wie ein Artefakt irgendwie",
+    "tags": [
+      "reasoning: artifact",
+      "confidence_low: secondary"
+    ],
+    "rationale": "The person again refers to the abnormality as looking like an artifact, and the hedging expression 'irgendwie' implicitly signals low certainty.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 6
+    },
+    "model": "z-ai/glm-5.3",
+    "provider": "Relace",
+    "configuration_name": "z-ai-glm-5-3-260818"
+  },
+  {
+    "phrase": "ich guck trotzdem von oben nach untern",
+    "context": "Und hier sieht man schon auch, ich guck trotzdem von oben nach untern und hier ist der Saum schon zu sehen",
+    "tags": [
+      "visual_search: description_of_own_approach_without_external_help"
+    ],
+    "rationale": "Person explicitly describes their own search procedure (top to bottom), independent of the AI.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 29
+    },
+    "model": "z-ai/glm-5.3",
+    "provider": "Wafer",
+    "configuration_name": "z-ai-glm-5-3-260818"
+  },
+  {
+    "phrase": "AI zeigt mir das erst später",
+    "context": "hier ist der Saum schon zu sehen, also AI zeigt mir das erst später, aber man sieht schon ne Blutung",
+    "tags": [
+      "reflection_of_ai: ich_recognized_without_ai"
+    ],
+    "rationale": "Person states they saw the hemorrhage before the AI showed it, i.e., they would have recognized it without the AI.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 29
+    },
+    "model": "z-ai/glm-5.3",
+    "provider": "Wafer",
+    "configuration_name": "z-ai-glm-5-3-260818"
+  },
+  {
+    "phrase": "man sieht schon ne Blutung",
+    "context": "aber man sieht schon ne Blutung und da brauchte ich jetzt das nicht so",
+    "tags": [
+      "interpretation: bleeding"
+    ],
+    "rationale": "Person interprets the visible finding as a hemorrhage.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 29
+    },
+    "model": "z-ai/glm-5.3",
+    "provider": "Wafer",
+    "configuration_name": "z-ai-glm-5-3-260818"
+  },
+  {
+    "phrase": "da brauchte ich jetzt das nicht so",
+    "context": "aber man sieht schon ne Blutung und da brauchte ich jetzt das nicht so.",
+    "tags": [
+      "reflection_of_ai: unhelpful/unnecessary"
+    ],
+    "rationale": "Person indicates they did not need the AI here, perceiving it as unnecessary for this finding.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 29
+    },
+    "model": "z-ai/glm-5.3",
+    "provider": "Wafer",
+    "configuration_name": "z-ai-glm-5-3-260818"
+  },
+  {
+    "phrase": "Und ich geh von oben und guck allein erstmal",
+    "context": "Und ich geh von oben und guck allein erstmal, noch sehe keine Unterschied mhm",
+    "tags": [
+      "visual_search: description_of_own_approach_without_external_help"
+    ],
+    "rationale": "Person explicitly describes their own search procedure (going from top, looking alone first).",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 31
+    },
+    "model": "z-ai/glm-5.3",
+    "provider": "Wafer",
+    "configuration_name": "z-ai-glm-5-3-260818"
+  },
+  {
+    "phrase": "noch sehe keine Unterschied",
+    "context": "guck allein erstmal, noch sehe keine Unterschied mhm … Ich Bin noch nicht so viel was aufgefallen",
+    "tags": [
+      "indicator: no_bleeding"
+    ],
+    "rationale": "Person classifies the image so far as unremarkable, no differences/abnormalities seen.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 31
+    },
+    "model": "z-ai/glm-5.3",
+    "provider": "Wafer",
+    "configuration_name": "z-ai-glm-5-3-260818"
+  },
+  {
+    "phrase": "vielleicht gucke ich auf der AI Seite erstmal",
+    "context": "Ich Bin noch nicht so viel was aufgefallen, vielleicht gucke ich auf der AI Seite erstmal.",
+    "tags": [
+      "control: relying_on_ai",
+      "confidence_low: secondary"
+    ],
+    "rationale": "Person turns to the AI side for orientation, relying on it; 'vielleicht' implicitly signals low certainty.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 31
+    },
+    "model": "z-ai/glm-5.3",
+    "provider": "Wafer",
+    "configuration_name": "z-ai-glm-5-3-260818"
+  },
+  {
+    "phrase": "Ah, je das hatte ich nicht gesehn.",
+    "context": "vielleicht gucke ich auf der AI Seite erstmal. Ah, je das hatte ich nicht gesehn. Aber wenn mans weis, dann ja.",
+    "tags": [
+      "reflection_of_ai: ich_not_recognized_without_ai",
+      "indicator: anomaly_detected"
+    ],
+    "rationale": "Person notices (via AI) an abnormality they had not seen before, implying they would not have recognized it without the AI.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 31
+    },
+    "model": "z-ai/glm-5.3",
+    "provider": "Wafer",
+    "configuration_name": "z-ai-glm-5-3-260818"
+  },
+  {
+    "phrase": "Das hilft da",
+    "context": "Aber wenn mans weis, dann ja. Das hilft da",
+    "tags": [
+      "reflection_of_ai: helpful"
+    ],
+    "rationale": "Person explicitly states the AI helps them.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 31
+    },
+    "model": "z-ai/glm-5.3",
+    "provider": "Wafer",
+    "configuration_name": "z-ai-glm-5-3-260818"
+  },
+  {
+    "phrase": "ich will ja wissen, dass ich nichts verpasst habe",
+    "context": "Hier kann ich aber, ich will ja wissen, dass ich nichts verpasst habe.",
+    "tags": [
+      "control: control_repeat"
+    ],
+    "rationale": "The person expresses the intent to re-check the image to ensure nothing was missed, indicating returning to/reviewing previously viewed image areas.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 15
+    },
+    "model": "z-ai/glm-5.3",
+    "provider": "Wafer",
+    "configuration_name": "z-ai-glm-5-3-260818"
+  },
+  {
+    "phrase": "Sehe wieder auf meine Seite alleine …",
+    "context": "Sehe wieder auf meine Seite alleine … Und hier soll eine Blutung sein …",
+    "tags": [
+      "visual_search: description_of_own_approach_without_external_help"
+    ],
+    "rationale": "Person explicitly comments on their own search procedure, looking at their own image side alone.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 33
+    },
+    "model": "z-ai/glm-5.3",
+    "provider": "Wafer",
+    "configuration_name": "z-ai-glm-5-3-260818"
+  },
+  {
+    "phrase": "Und hier soll eine Blutung sein …",
+    "context": "Sehe wieder auf meine Seite alleine … Und hier soll eine Blutung sein … Ich hab die jetzt nicht so bemerkt",
+    "tags": [
+      "ai_report: ich"
+    ],
+    "rationale": "Person verbalizes that the AI indicates a hemorrhage in this image.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 33
+    },
+    "model": "z-ai/glm-5.3",
+    "provider": "Wafer",
+    "configuration_name": "z-ai-glm-5-3-260818"
+  },
+  {
+    "phrase": "Ich hab die jetzt nicht so bemerkt, deswegen schau ich jetzt auf der anderen Seite, auf der AI Seite wo das sein soll.",
+    "context": "Und hier soll eine Blutung sein … Ich hab die jetzt nicht so bemerkt, deswegen schau ich jetzt auf der anderen Seite, auf der AI Seite wo das sein soll.",
+    "tags": [
+      "visual_search: triggered_by_ai",
+      "control: relying_on_ai"
+    ],
+    "rationale": "Person aligns their visual search with the AI's indicated location after not noticing the hemorrhage themselves.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 33
+    },
+    "model": "z-ai/glm-5.3",
+    "provider": "Wafer",
+    "configuration_name": "z-ai-glm-5-3-260818"
+  },
+  {
+    "phrase": "Ah, da oben, eigentlich ist das eindeutig.",
+    "context": "auf der AI Seite wo das sein soll. Ah, da oben, eigentlich ist das eindeutig.",
+    "tags": [
+      "indicator: anomaly_detected",
+      "confidence_high: concrete"
+    ],
+    "rationale": "Person notices the abnormality at the AI-indicated location and explicitly expresses high certainty ('eindeutig').",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 33
+    },
+    "model": "z-ai/glm-5.3",
+    "provider": "Wafer",
+    "configuration_name": "z-ai-glm-5-3-260818"
+  },
+  {
+    "phrase": "Ah, ja eigentlich eindeutig, ich habe mehr auf die Mitte geguckt und jetzt nicht gesehen.",
+    "context": "Ah, da oben, eigentlich ist das eindeutig. Ah, ja eigentlich eindeutig, ich habe mehr auf die Mitte geguckt und jetzt nicht gesehen.",
+    "tags": [
+      "reflection: self-monitoring"
+    ],
+    "rationale": "Person explicitly observes and comments on their own diagnostic process, noting they focused on the wrong region.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 33
+    },
+    "model": "z-ai/glm-5.3",
+    "provider": "Wafer",
+    "configuration_name": "z-ai-glm-5-3-260818"
+  },
+  {
+    "phrase": "Das hat jetzt geholfen",
+    "context": "ich habe mehr auf die Mitte geguckt und jetzt nicht gesehen. Das hat jetzt geholfen",
+    "tags": [
+      "reflection_of_ai: helpful",
+      "confidence_high: increased_through_ai"
+    ],
+    "rationale": "Person perceives the AI as helpful and reports that it increased their diagnostic certainty.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 33
+    },
+    "model": "z-ai/glm-5.3",
+    "provider": "Wafer",
+    "configuration_name": "z-ai-glm-5-3-260818"
+  },
+  {
+    "phrase": "Hier ist wieder keine Blutung",
+    "context": "Hier ist wieder keine Blutung, ich gucke alleine und dann auf der anderen Seite, der AI Seite.",
+    "tags": [
+      "interpretation: no_bleeding"
+    ],
+    "rationale": "Person interprets the finding as no hemorrhage.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 35
+    },
+    "model": "z-ai/glm-5.3",
+    "provider": "Wafer",
+    "configuration_name": "z-ai-glm-5-3-260818"
+  },
+  {
+    "phrase": "Es wird nichts angezeigt",
+    "context": "der AI Seite. Es wird nichts angezeigt, und ich kann weiter machen.",
+    "tags": [
+      "ai_report: no_ich"
+    ],
+    "rationale": "Person verbalizes that the AI has not found a hemorrhage.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 35
+    },
+    "model": "z-ai/glm-5.3",
+    "provider": "Wafer",
+    "configuration_name": "z-ai-glm-5-3-260818"
+  },
+  {
+    "phrase": "ich gucke alleine und dann auf der anderen Seite, der AI Seite",
+    "context": "Hier ist wieder keine Blutung, ich gucke alleine und dann auf der anderen Seite, der AI Seite.",
+    "tags": [
+      "visual_search: description_of_own_approach_without_external_help"
+    ],
+    "rationale": "Person explicitly comments on their own search procedure, first looking alone and then at the AI side.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 35
+    },
+    "model": "z-ai/glm-5.3",
+    "provider": "Wafer",
+    "configuration_name": "z-ai-glm-5-3-260818"
+  },
+  {
+    "phrase": "Hier sieht man schon eine Raumforderung",
+    "context": "Mhm. Hier sieht man schon eine Raumforderung, weiß jetzt nicht, ob es deswegen dann...",
+    "tags": [
+      "indicator: anomaly_detected"
+    ],
+    "rationale": "Person notices an abnormality (space-occupying lesion) atypical for a healthy skull.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 36
+    },
+    "model": "z-ai/glm-5.3",
+    "provider": "Wafer",
+    "configuration_name": "z-ai-glm-5-3-260818"
+  },
+  {
+    "phrase": "Also jetzt wird keine Blutung angezeigt.",
+    "context": "weiß jetzt nicht, ob es deswegen dann... Also jetzt wird keine Blutung angezeigt.",
+    "tags": [
+      "ai_report: no_ich"
+    ],
+    "rationale": "Person verbalizes that the AI has not found/detected a hemorrhage.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 36
+    },
+    "model": "z-ai/glm-5.3",
+    "provider": "Wafer",
+    "configuration_name": "z-ai-glm-5-3-260818"
+  },
+  {
+    "phrase": "Ich bin mir einfach unsicher, ob es einfach nur eine Raumforderung ist, die nicht blutet",
+    "context": "Also jetzt wird keine Blutung angezeigt. Ich bin mir einfach unsicher, ob es einfach nur eine Raumforderung ist, die nicht blutet und deswegen denke ich,",
+    "tags": [
+      "confidence_low: concrete",
+      "reflection: diagnostic_uncertainty"
+    ],
+    "rationale": "Person explicitly expresses low certainty about the diagnostic classification of the finding.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 36
+    },
+    "model": "z-ai/glm-5.3",
+    "provider": "Wafer",
+    "configuration_name": "z-ai-glm-5-3-260818"
+  },
+  {
+    "phrase": "wahrscheinlich dann also das wahrscheinlich dann eher ein Tumor",
+    "context": "die nicht blutet und deswegen denke ich, wahrscheinlich dann also das wahrscheinlich dann eher ein Tumor.",
+    "tags": [
+      "reasoning: conclusion_findings",
+      "reasoning: alternative_medical_cause",
+      "confidence_high: secondary"
+    ],
+    "rationale": "Person draws a conclusion from the findings, naming a tumor as an alternative medical cause, with 'wahrscheinlich' indicating implicit (moderate) certainty.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 36
+    },
+    "model": "z-ai/glm-5.3",
+    "provider": "Wafer",
+    "configuration_name": "z-ai-glm-5-3-260818"
+  },
+  {
+    "phrase": "Das ist auch ein inhomogen.",
+    "context": "eher ein Tumor. Das ist auch ein inhomogen. Ja, gehen wir davon aus,",
+    "tags": [
+      "interpretation: description_bleeding"
+    ],
+    "rationale": "Person describes the already identified abnormality in more detail (inhomogeneous appearance).",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 36
+    },
+    "model": "z-ai/glm-5.3",
+    "provider": "Wafer",
+    "configuration_name": "z-ai-glm-5-3-260818"
+  },
+  {
+    "phrase": "Ja, gehen wir davon aus, dass deswegen das nicht als Blutung gezeigt wird.",
+    "context": "Das ist auch ein inhomogen. Ja, gehen wir davon aus, dass deswegen das nicht als Blutung gezeigt wird.",
+    "tags": [
+      "interpretation: no_bleeding_explanation",
+      "decision_with_ai: implicitly_agreeing_with_ai"
+    ],
+    "rationale": "Person explains why the abnormality is not shown as a hemorrhage by the AI and implicitly accepts the AI's assessment.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 36
+    },
+    "model": "z-ai/glm-5.3",
+    "provider": "Wafer",
+    "configuration_name": "z-ai-glm-5-3-260818"
+  },
+  {
+    "phrase": "Wieder auf meiner nicht AI Seite, kuck mir das alleine an, Mittellinie, Schädelknochen, Unterschiede und merke alleine nichts.",
+    "context": "Wieder auf meiner nicht AI Seite, kuck mir das alleine an, Mittellinie, Schädelknochen, Unterschiede und merke alleine nichts. Ich gucke auf der AI Seite und da wird mir was angezeigt, was ich nicht gesehen hatte, deswegen hat mir das auf jeden Fall sehr geholfen",
+    "tags": [
+      "visual_search: description_of_medical_image_features",
+      "control: make_own_judgement"
+    ],
+    "rationale": "Die Person beschreibt, welche Strukturen sie prüft (Mittellinie, Schädelknochen, Unterschiede) und betrachtet das Bild bewusst ohne AI-Hilfe, um ein eigenes Urteil zu bilden.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 37
+    },
+    "model": "z-ai/glm-5.3",
+    "provider": "Wafer",
+    "configuration_name": "z-ai-glm-5-3-260818"
+  },
+  {
+    "phrase": "und merke alleine nichts.",
+    "context": "kuck mir das alleine an, Mittellinie, Schädelknochen, Unterschiede und merke alleine nichts. Ich gucke auf der AI Seite und da wird mir was angezeigt, was ich nicht gesehen hatte, deswegen hat mir das auf jeden Fall sehr geholfen",
+    "tags": [
+      "indicator: no_bleeding"
+    ],
+    "rationale": "Die Person findet alleine keine Auffälligkeit und stuft das Bild zunächst als unauffällig ein.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 37
+    },
+    "model": "z-ai/glm-5.3",
+    "provider": "Wafer",
+    "configuration_name": "z-ai-glm-5-3-260818"
+  },
+  {
+    "phrase": "Ich gucke auf der AI Seite und da wird mir was angezeigt, was ich nicht gesehen hatte, deswegen hat mir das auf jeden Fall sehr geholfen",
+    "context": "und merke alleine nichts. Ich gucke auf der AI Seite und da wird mir was angezeigt, was ich nicht gesehen hatte, deswegen hat mir das auf jeden Fall sehr geholfen",
+    "tags": [
+      "reflection_of_ai: ich_not_recognized_without_ai",
+      "reflection_of_ai: helpful"
+    ],
+    "rationale": "Die Person gibt an, den Befund ohne die AI nicht gesehen zu haben und bewertet die AI ausdrücklich als sehr hilfreich.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 37
+    },
+    "model": "z-ai/glm-5.3",
+    "provider": "Wafer",
+    "configuration_name": "z-ai-glm-5-3-260818"
+  },
+  {
+    "phrase": "Hier soll nichts sein.",
+    "context": "Hier soll nichts sein. Gucke auf meine Seite und dann auf die AI Seite und kann weiter machen",
+    "tags": [
+      "interpretation: no_bleeding"
+    ],
+    "rationale": "Person states that nothing (no hemorrhage) is present in this image area.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 38
+    },
+    "model": "z-ai/glm-5.3",
+    "provider": "Wafer",
+    "configuration_name": "z-ai-glm-5-3-260818"
+  },
+  {
+    "phrase": "Gucke auf meine Seite und dann auf die AI Seite und kann weiter machen",
+    "context": "Hier soll nichts sein. Gucke auf meine Seite und dann auf die AI Seite und kann weiter machen",
+    "tags": [
+      "visual_search: description_of_own_approach_without_external_help"
+    ],
+    "rationale": "Person explicitly comments on their own search procedure: checking their own view and then the AI view before proceeding.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 38
+    },
+    "model": "z-ai/glm-5.3",
+    "provider": "Wafer",
+    "configuration_name": "z-ai-glm-5-3-260818"
+  },
+  {
+    "phrase": "Hier sollte nichts sein",
+    "context": "Hier sollte nichts sein, ich finde es sehr schwer, dieses Bild zu interpretieren",
+    "tags": [
+      "indicator: no_bleeding"
+    ],
+    "rationale": "Person classifies a specific image area as unremarkable.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 40
+    },
+    "model": "z-ai/glm-5.3",
+    "provider": "Wafer",
+    "configuration_name": "z-ai-glm-5-3-260818"
+  },
+  {
+    "phrase": "ich finde es sehr schwer, dieses Bild zu interpretieren",
+    "context": "Hier sollte nichts sein, ich finde es sehr schwer, dieses Bild zu interpretieren, aber deswegen hoffentlich mit der AI die richtige Entscheidung getroffen",
+    "tags": [
+      "awareness_of_task: difficult",
+      "confidence_low: concrete"
+    ],
+    "rationale": "Person explicitly perceives the task as difficult and expresses low certainty about their diagnostic interpretation.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 40
+    },
+    "model": "z-ai/glm-5.3",
+    "provider": "Wafer",
+    "configuration_name": "z-ai-glm-5-3-260818"
+  },
+  {
+    "phrase": "aber deswegen hoffentlich mit der AI die richtige Entscheidung getroffen",
+    "context": "ich finde es sehr schwer, dieses Bild zu interpretieren, aber deswegen hoffentlich mit der AI die richtige Entscheidung getroffen",
+    "tags": [
+      "control: relying_on_ai",
+      "reflection_of_ai: trust_in_ai"
+    ],
+    "rationale": "Person relies on the AI to reach the correct decision and expresses trust in it.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 40
+    },
+    "model": "z-ai/glm-5.3",
+    "provider": "Wafer",
+    "configuration_name": "z-ai-glm-5-3-260818"
+  },
+  {
+    "phrase": "hier sieht man schon einen Unterschied zu der Gegenseite",
+    "context": "So hier sieht man schon einen Unterschied zu der Gegenseite, ich schau mal weiter, ob das irgendwie sonst wonaders irgendwas auffälliges aussieht",
+    "tags": [
+      "indicator: anomaly_detected"
+    ],
+    "rationale": "The person notices an abnormality (asymmetry compared to the other side) atypical for a healthy skull.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 41
+    },
+    "model": "z-ai/glm-5.3",
+    "provider": "Wafer",
+    "configuration_name": "z-ai-glm-5-3-260818"
+  },
+  {
+    "phrase": "ich schau mal weiter, ob das irgendwie sonst wonaders irgendwas auffälliges aussieht",
+    "context": "So hier sieht man schon einen Unterschied zu der Gegenseite, ich schau mal weiter, ob das irgendwie sonst wonaders irgendwas auffälliges aussieht … Ne,",
+    "tags": [
+      "visual_search: description_of_own_approach_without_external_help"
+    ],
+    "rationale": "The person explicitly comments on their own search procedure, continuing to look for further abnormalities.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 41
+    },
+    "model": "z-ai/glm-5.3",
+    "provider": "Wafer",
+    "configuration_name": "z-ai-glm-5-3-260818"
+  },
+  {
+    "phrase": "ich gucke mal jetzt auf der AI Seite, das wird mir hier auch angezeigt",
+    "context": "Ne, ich gucke mal jetzt auf der AI Seite, das wird mir hier auch angezeigt",
+    "tags": [
+      "control: relying_on_ai"
+    ],
+    "rationale": "The person turns to the AI display and relies on the AI's information during their assessment.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 41
+    },
+    "model": "z-ai/glm-5.3",
+    "provider": "Wafer",
+    "configuration_name": "z-ai-glm-5-3-260818"
+  },
+  {
+    "phrase": "Gucke ich erst mal auf meine Seite.",
+    "context": "Gucke ich erst mal auf meine Seite. Habe noch nichts gemerkt, wo eine Blutung sein soll.",
+    "tags": [
+      "visual_search: description_of_own_approach_without_external_help"
+    ],
+    "rationale": "Person explicitly comments on their own search procedure.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 42
+    },
+    "model": "z-ai/glm-5.3",
+    "provider": "Wafer",
+    "configuration_name": "z-ai-glm-5-3-260818"
+  },
+  {
+    "phrase": "Habe noch nichts gemerkt, wo eine Blutung sein soll.",
+    "context": "Gucke ich erst mal auf meine Seite. Habe noch nichts gemerkt, wo eine Blutung sein soll.",
+    "tags": [
+      "interpretation: no_bleeding"
+    ],
+    "rationale": "Person has not found any indication of a hemorrhage so far.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 42
+    },
+    "model": "z-ai/glm-5.3",
+    "provider": "Wafer",
+    "configuration_name": "z-ai-glm-5-3-260818"
+  },
+  {
+    "phrase": "Hier wird mir dann von AI gezeigt, dass wäre eine Blutung",
+    "context": "Was? Hier wird mir dann von AI gezeigt, dass wäre eine Blutung, das hätte ich auf keinen Fall erkannt.",
+    "tags": [
+      "ai_report: ich"
+    ],
+    "rationale": "Person verbalizes that the AI shows a hemorrhage.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 42
+    },
+    "model": "z-ai/glm-5.3",
+    "provider": "Wafer",
+    "configuration_name": "z-ai-glm-5-3-260818"
+  },
+  {
+    "phrase": "das hätte ich auf keinen Fall erkannt",
+    "context": "Hier wird mir dann von AI gezeigt, dass wäre eine Blutung, das hätte ich auf keinen Fall erkannt.",
+    "tags": [
+      "reflection_of_ai: ich_not_recognized_without_ai"
+    ],
+    "rationale": "Person states they would not have recognized the hemorrhage without the AI.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 42
+    },
+    "model": "z-ai/glm-5.3",
+    "provider": "Wafer",
+    "configuration_name": "z-ai-glm-5-3-260818"
+  },
+  {
+    "phrase": "Hier ist jetzt alles wieder, unaufällig aus, beiden Sieten",
+    "context": "Hier ist jetzt alles wieder, unaufällig aus, beiden Sieten und AI sagt auch nichts da",
+    "tags": [
+      "indicator: no_bleeding"
+    ],
+    "rationale": "The person classifies the currently viewed image area on both sides as unremarkable ('unauffällig'), which corresponds to labeling a specific image region as showing no bleeding.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 22
+    },
+    "model": "z-ai/glm-5.3",
+    "provider": "Decart",
+    "configuration_name": "z-ai-glm-5-3-260818"
+  },
+  {
+    "phrase": "AI sagt auch nichts da",
+    "context": "unaufällig aus, beiden Sieten und AI sagt auch nichts da",
+    "tags": [
+      "ai_report: no_ich",
+      "decision_with_ai: implicitly_agreeing_with_ai"
+    ],
+    "rationale": "The person verbalizes that the AI has not reported/detected anything, i.e., no hemorrhage was found by the AI. The word 'auch' (also) links the AI's result to their own preceding unremarkable finding, showing implicit agreement with the AI's assessment.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 22
+    },
+    "model": "z-ai/glm-5.3",
+    "provider": "Decart",
+    "configuration_name": "z-ai-glm-5-3-260818"
+  },
+  {
+    "phrase": "hier soll keine Blutung sein",
+    "context": "fangen wieder von vorne an und hier soll keine Blutung sein. Guck direkt schon mit der AI Seite",
+    "tags": [
+      "ai_report: no_ich"
+    ],
+    "rationale": "Person verbalizes that the AI reports no hemorrhage.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 44
+    },
+    "model": "z-ai/glm-5.3",
+    "provider": "Wafer",
+    "configuration_name": "z-ai-glm-5-3-260818"
+  },
+  {
+    "phrase": "Guck direkt schon mit der AI Seite",
+    "context": "hier soll keine Blutung sein. Guck direkt schon mit der AI Seite und es wird mir nichts angezeigt",
+    "tags": [
+      "control: relying_on_ai"
+    ],
+    "rationale": "Person relies on the AI during the visual search.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 44
+    },
+    "model": "z-ai/glm-5.3",
+    "provider": "Wafer",
+    "configuration_name": "z-ai-glm-5-3-260818"
+  },
+  {
+    "phrase": "es wird mir nichts angezeigt, sieht auch unauffällig aus",
+    "context": "Guck direkt schon mit der AI Seite und es wird mir nichts angezeigt, sieht auch unauffällig aus.",
+    "tags": [
+      "indicator: no_bleeding",
+      "decision_with_ai: implicitly_agreeing_with_ai"
+    ],
+    "rationale": "Person classifies the image as unremarkable and implicitly agrees with the AI's negative finding.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 44
+    },
+    "model": "z-ai/glm-5.3",
+    "provider": "Wafer",
+    "configuration_name": "z-ai-glm-5-3-260818"
+  },
+  {
+    "phrase": "help wie geht das nochmal?",
+    "context": "VPN: ??? Mal wieder, help wie geht das nochmal? Nein. EXPERIMENTER: Du kannst in das, genau jetzt hast dus gefunden.",
+    "tags": [
+      "technical_conversation"
+    ],
+    "rationale": "The participant asks the experimenter how to use the display tool, indicating a technical difficulty with the tool.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 43
+    },
+    "model": "z-ai/glm-5.3",
+    "provider": "Wafer",
+    "configuration_name": "z-ai-glm-5-3-260818"
+  },
+  {
+    "phrase": "ist sowieso hier schon die Blutung zu sehen",
+    "context": "Ja, danke, ist ein bisschen besser, aber naja es ist sowieso hier schon die Blutung zu sehen. Ist jetzt egal,",
+    "tags": [
+      "interpretation: bleeding",
+      "reflection_of_ai: ich_recognized_without_ai"
+    ],
+    "rationale": "The participant identifies a hemorrhage in the image and states it is visible anyway, implying they would have recognized it even without the AI.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 43
+    },
+    "model": "z-ai/glm-5.3",
+    "provider": "Wafer",
+    "configuration_name": "z-ai-glm-5-3-260818"
+  },
+  {
+    "phrase": "irgendwie kann ich das nicht so super gut eingestellt",
+    "context": "Ist jetzt egal, aber da ist ein Saum, irgendwie kann ich das nicht so super gut eingestellt, aber das war da zu sehen",
+    "tags": [
+      "awareness_of_task: image_quality"
+    ],
+    "rationale": "The participant complains about the image display/settings, attributing the difficulty to the image quality rather than their own competence.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 43
+    },
+    "model": "z-ai/glm-5.3",
+    "provider": "Wafer",
+    "configuration_name": "z-ai-glm-5-3-260818"
+  },
+  {
+    "phrase": "hier ist alles anscheinet auch unaufällig und ich sehe auch nichts",
+    "context": "So, hier ist alles anscheinet auch unaufällig und ich sehe auch nichts und AI sagt auch ist nichts und ich fühle mich da bestätigt",
+    "tags": [
+      "indicator: no_bleeding"
+    ],
+    "rationale": "The person classifies the image area as unremarkable and states they see nothing abnormal.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 45
+    },
+    "model": "z-ai/glm-5.3",
+    "provider": "Wafer",
+    "configuration_name": "z-ai-glm-5-3-260818"
+  },
+  {
+    "phrase": "AI sagt auch ist nichts",
+    "context": "und ich sehe auch nichts und AI sagt auch ist nichts und ich fühle mich da bestätigt",
+    "tags": [
+      "ai_report: no_ich"
+    ],
+    "rationale": "The person verbalizes that the AI has not found a hemorrhage.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 45
+    },
+    "model": "z-ai/glm-5.3",
+    "provider": "Wafer",
+    "configuration_name": "z-ai-glm-5-3-260818"
+  },
+  {
+    "phrase": "und ich fühle mich da bestätigt",
+    "context": "AI sagt auch ist nichts und ich fühle mich da bestätigt",
+    "tags": [
+      "reflection_of_ai: confirmed_by_ai"
+    ],
+    "rationale": "The person feels confirmed in their own assessment by the AI's report.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 45
+    },
+    "model": "z-ai/glm-5.3",
+    "provider": "Wafer",
+    "configuration_name": "z-ai-glm-5-3-260818"
+  },
+  {
+    "phrase": "Ich weiß nicht, was dieser Unterschied zu der anderen Seiten mit den Ventrikeln ist",
+    "context": "Ja und hier … Ich weiß nicht, was dieser Unterschied zu der anderen Seiten mit den Ventrikeln ist, AI sagt, dass ist keine Blutung, ich weiß es nicht.",
+    "tags": [
+      "indicator: anomaly_detected",
+      "reflection: diagnostic_uncertainty"
+    ],
+    "rationale": "The person notices an asymmetry/difference in the ventricles (abnormality) and explicitly expresses uncertainty about classifying this finding.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 46
+    },
+    "model": "z-ai/glm-5.3",
+    "provider": "Wafer",
+    "configuration_name": "z-ai-glm-5-3-260818"
+  },
+  {
+    "phrase": "AI sagt, dass ist keine Blutung",
+    "context": "mit den Ventrikeln ist, AI sagt, dass ist keine Blutung, ich weiß es nicht.",
+    "tags": [
+      "ai_report: no_ich"
+    ],
+    "rationale": "The person verbalizes that the AI has not found a hemorrhage.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 46
+    },
+    "model": "z-ai/glm-5.3",
+    "provider": "Wafer",
+    "configuration_name": "z-ai-glm-5-3-260818"
+  },
+  {
+    "phrase": "ich weiß es nicht",
+    "context": "AI sagt, dass ist keine Blutung, ich weiß es nicht. Ich sag mal keine Blutung, aber ich bin mir nicht so sicher",
+    "tags": [
+      "reflection: perceptual_doubt"
+    ],
+    "rationale": "The person doubts their own perception/assessment in relation to the AI's statement.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 46
+    },
+    "model": "z-ai/glm-5.3",
+    "provider": "Wafer",
+    "configuration_name": "z-ai-glm-5-3-260818"
+  },
+  {
+    "phrase": "Ich sag mal keine Blutung, aber ich bin mir nicht so sicher",
+    "context": "ich weiß es nicht. Ich sag mal keine Blutung, aber ich bin mir nicht so sicher",
+    "tags": [
+      "interpretation: no_bleeding",
+      "confidence_low: secondary"
+    ],
+    "rationale": "The person interprets the finding as 'no hemorrhage' but implicitly expresses low certainty ('mal', 'nicht so sicher').",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 46
+    },
+    "model": "z-ai/glm-5.3",
+    "provider": "Wafer",
+    "configuration_name": "z-ai-glm-5-3-260818"
+  },
+  {
+    "phrase": "Und hier soll auch nichts sein",
+    "context": "Und hier soll auch nichts sein, schau auf meine Seite ohne AI an, ich seh auch keine Asymetrien, Unterschiede und dann",
+    "tags": [
+      "ai_report: no_ich"
+    ],
+    "rationale": "Person verbalizes that the AI has not found a hemorrhage in this area ('hier soll auch nichts sein').",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 48
+    },
+    "model": "z-ai/glm-5.3",
+    "provider": "Wafer",
+    "configuration_name": "z-ai-glm-5-3-260818"
+  },
+  {
+    "phrase": "schau auf meine Seite ohne AI an, ich seh auch keine Asymetrien, Unterschiede",
+    "context": "Und hier soll auch nichts sein, schau auf meine Seite ohne AI an, ich seh auch keine Asymetrien, Unterschiede und dann",
+    "tags": [
+      "indicator: no_bleeding",
+      "reflection_of_ai: ich_recognized_without_ai"
+    ],
+    "rationale": "Person classifies the image area as unremarkable (no asymmetries/differences) and indicates they would arrive at this assessment even without the AI.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 48
+    },
+    "model": "z-ai/glm-5.3",
+    "provider": "Wafer",
+    "configuration_name": "z-ai-glm-5-3-260818"
+  },
+  {
+    "phrase": "So ich guck erstmal wieder auf meine Seite, ohne AI erstmal und ob mir irgendwas auffällt.",
+    "context": "So ich guck erstmal wieder auf meine Seite, ohne AI erstmal und ob mir irgendwas auffällt. Beidseiten …",
+    "tags": [
+      "visual_search: description_of_own_approach_without_external_help",
+      "control: make_own_judgement"
+    ],
+    "rationale": "The person explicitly describes their own search procedure and deliberately starts without the AI, making their own judgement first.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 47
+    },
+    "model": "z-ai/glm-5.3",
+    "provider": "Wafer",
+    "configuration_name": "z-ai-glm-5-3-260818"
+  },
+  {
+    "phrase": "Vielleicht das hier …",
+    "context": "Beidseiten … Das war es noch nicht … Vielleicht das hier … Ich guck mal auf der AI Seite,",
+    "tags": [
+      "indicator: anomaly_detected",
+      "confidence_low: secondary"
+    ],
+    "rationale": "The person notices a potential abnormality, but the word 'vielleicht' implicitly signals low certainty about it.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 47
+    },
+    "model": "z-ai/glm-5.3",
+    "provider": "Wafer",
+    "configuration_name": "z-ai-glm-5-3-260818"
+  },
+  {
+    "phrase": "Ich guck mal auf der AI Seite, ob mir das hier mit angezeigt wird …",
+    "context": "Vielleicht das hier … Ich guck mal auf der AI Seite, ob mir das hier mit angezeigt wird … Ist bei der AI einfach nicht,",
+    "tags": [
+      "control: relying_on_ai"
+    ],
+    "rationale": "The person consults the AI to verify their own finding, relying on the AI during the diagnostic process.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 47
+    },
+    "model": "z-ai/glm-5.3",
+    "provider": "Wafer",
+    "configuration_name": "z-ai-glm-5-3-260818"
+  },
+  {
+    "phrase": "Ist bei der AI einfach nicht, ah da ja, dass könnte fast",
+    "context": "Ich guck mal auf der AI Seite, ob mir das hier mit angezeigt wird … Ist bei der AI einfach nicht, ah da ja, dass könnte fast",
+    "tags": [
+      "reflection_of_ai: confused_by_ai"
+    ],
+    "rationale": "The AI does not display the finding the person noticed, which confuses them ('Ist bei der AI einfach nicht, ah da ja').",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 47
+    },
+    "model": "z-ai/glm-5.3",
+    "provider": "Wafer",
+    "configuration_name": "z-ai-glm-5-3-260818"
+  },
+  {
+    "phrase": "Hier sieht man schon ein Ventrikel und überhaupt hier eine große Blutung",
+    "context": "Hier sieht man schon ein Ventrikel und überhaupt hier eine große Blutung, ich bräuchte jetzt, muss schau trotzdem von vorne an",
+    "tags": [
+      "ai_report: ich",
+      "ai_report: ich_localization"
+    ],
+    "rationale": "Person verbalizes that the AI has found a hemorrhage and describes its location ('hier eine große Blutung').",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 49
+    },
+    "model": "z-ai/glm-5.3",
+    "provider": "Wafer",
+    "configuration_name": "z-ai-glm-5-3-260818"
+  },
+  {
+    "phrase": "ich bräuchte jetzt, muss schau trotzdem von vorne an",
+    "context": "eine große Blutung, ich bräuchte jetzt, muss schau trotzdem von vorne an, mal das der Ventrikel da auffällig aussieht",
+    "tags": [
+      "control: make_own_judgement",
+      "visual_search: description_of_own_approach_without_external_help"
+    ],
+    "rationale": "Person wants to form their own view by starting the search from the beginning, describing their own search procedure without relying on the AI.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 49
+    },
+    "model": "z-ai/glm-5.3",
+    "provider": "Wafer",
+    "configuration_name": "z-ai-glm-5-3-260818"
+  },
+  {
+    "phrase": "mal das der Ventrikel da auffällig aussieht, also da eineengt",
+    "context": "muss schau trotzdem von vorne an, mal das der Ventrikel da auffällig aussieht, also da eineengt und die Blutung hat man hier gesehen",
+    "tags": [
+      "indicator: anomaly_detected"
+    ],
+    "rationale": "Person notices an abnormality (the ventricle appears conspicuous/narrowed), atypical for a healthy skull.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 49
+    },
+    "model": "z-ai/glm-5.3",
+    "provider": "Wafer",
+    "configuration_name": "z-ai-glm-5-3-260818"
+  },
+  {
+    "phrase": "Ich hab das jetzt nicht gebraucht und fertig.",
+    "context": "und die Blutung hat man hier gesehen. Ich hab das jetzt nicht gebraucht und fertig.",
+    "tags": [
+      "reflection_of_ai: ich_recognized_without_ai",
+      "reflection_of_ai: unhelpful/unnecessary"
+    ],
+    "rationale": "Person states they did not need the AI's help and would have recognized the hemorrhage without it, implying the AI was unnecessary.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 49
+    },
+    "model": "z-ai/glm-5.3",
+    "provider": "Wafer",
+    "configuration_name": "z-ai-glm-5-3-260818"
+  },
+  {
+    "phrase": "Fang ich wieder von vorne an",
+    "context": "Fang ich wieder von vorne an und schau auf die Mittellinie.",
+    "tags": [
+      "control: control_repeat"
+    ],
+    "rationale": "With 'wieder von vorne' (again from the beginning), the person restarts the examination and returns to image areas (starting with the midline) that were presumably already viewed, which constitutes a repeat/control behavior.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 8
+    },
+    "model": "z-ai/glm-5.3",
+    "provider": "Decart",
+    "configuration_name": "z-ai-glm-5-3-260818"
+  },
+  {
+    "phrase": "und schau auf die Mittellinie. Und auf die Ränder vom Knochen",
+    "context": "Fang ich wieder von vorne an und schau auf die Mittellinie. Und auf die Ränder vom Knochen, es sind aber keine Unterschiede zu sehen.",
+    "tags": [
+      "visual_search: description_of_medical_image_features"
+    ],
+    "rationale": "The person verbalizes which anatomical structures they are currently checking: the midline and the edges of the bone.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 8
+    },
+    "model": "z-ai/glm-5.3",
+    "provider": "Decart",
+    "configuration_name": "z-ai-glm-5-3-260818"
+  },
+  {
+    "phrase": "es sind aber keine Unterschiede zu sehen",
+    "context": "Und auf die Ränder vom Knochen, es sind aber keine Unterschiede zu sehen.",
+    "tags": [
+      "indicator: no_bleeding"
+    ],
+    "rationale": "The person classifies the examined areas (midline, bone edges) as unremarkable, since no differences or abnormalities are visible.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 8
+    },
+    "model": "z-ai/glm-5.3",
+    "provider": "Decart",
+    "configuration_name": "z-ai-glm-5-3-260818"
+  },
+  {
+    "phrase": "So",
+    "context": "So, soll aber auch was da sein, schau auf meine Seite erstmal",
+    "tags": [
+      "paused_in_process"
+    ],
+    "rationale": "'So' is a pure filler word/discourse marker opening the utterance and carries no diagnostic content.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 34
+    },
+    "model": "z-ai/glm-5.3",
+    "provider": "InferenceNet",
+    "configuration_name": "z-ai-glm-5-3-260818"
+  },
+  {
+    "phrase": "soll aber auch was da sein",
+    "context": "So, soll aber auch was da sein, schau auf meine Seite erstmal",
+    "tags": [
+      "other"
+    ],
+    "rationale": "The person states that something is supposed to be present, but from the text alone it cannot be determined whether this expectation stems from an AI report, task instructions, or case information (no hemorrhage or AI is explicitly mentioned). Due to this high uncertainty, no clear code can be assigned.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 34
+    },
+    "model": "z-ai/glm-5.3",
+    "provider": "InferenceNet",
+    "configuration_name": "z-ai-glm-5-3-260818"
+  },
+  {
+    "phrase": "schau auf meine Seite erstmal",
+    "context": "soll aber auch was da sein, schau auf meine Seite erstmal. Und bis jetzt",
+    "tags": [
+      "visual_search: description_of_own_approach_without_external_help"
+    ],
+    "rationale": "The person explicitly comments on their own search procedure, stating that they will first look at their own side/area of the image.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 34
+    },
+    "model": "z-ai/glm-5.3",
+    "provider": "InferenceNet",
+    "configuration_name": "z-ai-glm-5-3-260818"
+  },
+  {
+    "phrase": "Und bis jetzt ist mir nichts aufgefallen",
+    "context": "schau auf meine Seite erstmal. Und bis jetzt ist mir nichts aufgefallen. Aber das",
+    "tags": [
+      "indicator: no_bleeding"
+    ],
+    "rationale": "The person reports that nothing abnormal has caught their attention so far, thereby classifying the image regions reviewed up to this point as unremarkable.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 34
+    },
+    "model": "z-ai/glm-5.3",
+    "provider": "InferenceNet",
+    "configuration_name": "z-ai-glm-5-3-260818"
+  },
+  {
+    "phrase": "Aber das sieht so ein bisschen auffällig aus, überhaupt mhm das alles so gefüllt ist",
+    "context": "Und bis jetzt ist mir nichts aufgefallen. Aber das sieht so ein bisschen auffällig aus, überhaupt mhm das alles so gefüllt ist.",
+    "tags": [
+      "indicator: anomaly_detected",
+      "confidence_low: secondary",
+      "paused_in_process"
+    ],
+    "rationale": "The person notices a conspicuous, 'filled' appearance that is atypical for a healthy skull (indicator: anomaly_detected). The hedge 'so ein bisschen' implicitly signals reduced certainty about the finding (confidence_low: secondary), and the embedded 'mhm' is a pure filler word (paused_in_process).",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 34
+    },
+    "model": "z-ai/glm-5.3",
+    "provider": "InferenceNet",
+    "configuration_name": "z-ai-glm-5-3-260818"
+  },
+  {
+    "phrase": "So",
+    "context": "So, hier ist wieder ne extra Sicherheit da",
+    "tags": [
+      "paused_in_process"
+    ],
+    "rationale": "'So' is a pure filler/discourse marker without any diagnostic content.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 30
+    },
+    "model": "z-ai/glm-5.3",
+    "provider": "InferenceNet",
+    "configuration_name": "z-ai-glm-5-3-260818"
+  },
+  {
+    "phrase": "hier ist wieder ne extra Sicherheit da",
+    "context": "So, hier ist wieder ne extra Sicherheit da, dass AI sagt",
+    "tags": [
+      "confidence_high: increased_through_ai"
+    ],
+    "rationale": "The person states that the AI provides 'extra Sicherheit' (extra certainty/security), i.e., the AI has increased their diagnostic certainty.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 30
+    },
+    "model": "z-ai/glm-5.3",
+    "provider": "InferenceNet",
+    "configuration_name": "z-ai-glm-5-3-260818"
+  },
+  {
+    "phrase": "dass AI sagt, dass da nichts ist",
+    "context": "extra Sicherheit da, dass AI sagt, dass da nichts ist. Deswegen kann ich",
+    "tags": [
+      "ai_report: no_ich"
+    ],
+    "rationale": "The person verbalizes the AI's result: the AI reports that there is nothing there, i.e., no hemorrhage was found by the AI.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 30
+    },
+    "model": "z-ai/glm-5.3",
+    "provider": "InferenceNet",
+    "configuration_name": "z-ai-glm-5-3-260818"
+  },
+  {
+    "phrase": "Deswegen kann ich ein bisschen schneller gehen",
+    "context": "dass da nichts ist. Deswegen kann ich ein bisschen schneller gehen, das hilf",
+    "tags": [
+      "control: relying_on_ai"
+    ],
+    "rationale": "Because the AI reports no finding, the person allows themselves to work through the case faster – they rely on the AI during the visual search.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 30
+    },
+    "model": "z-ai/glm-5.3",
+    "provider": "InferenceNet",
+    "configuration_name": "z-ai-glm-5-3-260818"
+  },
+  {
+    "phrase": "das hilf mir schon",
+    "context": "ein bisschen schneller gehen, das hilf mir schon.",
+    "tags": [
+      "reflection_of_ai: helpful"
+    ],
+    "rationale": "The person explicitly states that the AI support helps them, thus perceiving the AI as helpful.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 30
+    },
+    "model": "z-ai/glm-5.3",
+    "provider": "InferenceNet",
+    "configuration_name": "z-ai-glm-5-3-260818"
+  },
+  {
+    "phrase": "Mhm",
+    "context": "Mhm hier ist wieder angeblich keine Blutung und ich kann",
+    "tags": [
+      "paused_in_process"
+    ],
+    "rationale": "'Mhm' is a pure filler sound without any diagnostic content, which is exactly what this tag covers.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 32
+    },
+    "model": "z-ai/glm-5.3",
+    "provider": "Parasail",
+    "configuration_name": "z-ai-glm-5-3-260818"
+  },
+  {
+    "phrase": "hier ist wieder angeblich keine Blutung",
+    "context": "Mhm hier ist wieder angeblich keine Blutung und ich kann ein bisschen schneller scrollen.",
+    "tags": [
+      "ai_report: no_ich"
+    ],
+    "rationale": "The person verbalizes the AI's output that no hemorrhage was found ('wieder' marks it as a recurring AI report; 'angeblich' attributes the claim to the AI).",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 32
+    },
+    "model": "z-ai/glm-5.3",
+    "provider": "Parasail",
+    "configuration_name": "z-ai-glm-5-3-260818"
+  },
+  {
+    "phrase": "und ich kann ein bisschen schneller scrollen",
+    "context": "hier ist wieder angeblich keine Blutung und ich kann ein bisschen schneller scrollen. Und sehe",
+    "tags": [
+      "control: relying_on_ai"
+    ],
+    "rationale": "The person directly links their ability to scroll faster to the AI's negative report, i.e., they rely on the AI's assessment during the visual search instead of inspecting each slice carefully.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 32
+    },
+    "model": "z-ai/glm-5.3",
+    "provider": "Parasail",
+    "configuration_name": "z-ai-glm-5-3-260818"
+  },
+  {
+    "phrase": "Und sehe dass ich keine Unterschied merke",
+    "context": "schneller scrollen. Und sehe dass ich keine Unterschied merke und auf der anderen Seite",
+    "tags": [
+      "indicator: no_bleeding"
+    ],
+    "rationale": "The person states that they perceive no difference or abnormality in the images while scrolling, thereby classifying the viewed image areas as unremarkable.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 32
+    },
+    "model": "z-ai/glm-5.3",
+    "provider": "Parasail",
+    "configuration_name": "z-ai-glm-5-3-260818"
+  },
+  {
+    "phrase": "und auf der anderen Seite wird auch keine Blututng angezeigt",
+    "context": "dass ich keine Unterschied merke und auf der anderen Seite wird auch keine Blututng angezeigt.",
+    "tags": [
+      "ai_report: no_ich"
+    ],
+    "rationale": "The person verbalizes that the AI also displays/detects no hemorrhage on the other side ('wird angezeigt' refers to the AI's display output).",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 32
+    },
+    "model": "z-ai/glm-5.3",
+    "provider": "Parasail",
+    "configuration_name": "z-ai-glm-5-3-260818"
+  },
+  {
+    "phrase": "Jetzt wird mir schon angezeigt, dass eine Blutung da ist",
+    "context": "Jetzt wird mir schon angezeigt, dass eine Blutung da ist und mir erstmal selber zu schauen.",
+    "tags": [
+      "ai_report: ich"
+    ],
+    "rationale": "The person verbalizes that the display (AI) reports a hemorrhage to them ('mir wird angezeigt, dass eine Blutung da ist').",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 28
+    },
+    "model": "z-ai/glm-5.3",
+    "provider": "Crusoe",
+    "configuration_name": "z-ai-glm-5-3-260818"
+  },
+  {
+    "phrase": "und mir erstmal selber zu schauen",
+    "context": "dass eine Blutung da ist und mir erstmal selber zu schauen. Die Mittellinie ist nicht verschoben",
+    "tags": [
+      "visual_search: description_of_own_approach_without_external_help"
+    ],
+    "rationale": "The person explicitly comments on their own search procedure: despite the AI's report, they first want to inspect the images themselves, i.e., without relying on external (AI) help.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 28
+    },
+    "model": "z-ai/glm-5.3",
+    "provider": "Crusoe",
+    "configuration_name": "z-ai-glm-5-3-260818"
+  },
+  {
+    "phrase": "Die Mittellinie ist nicht verschoben",
+    "context": "und mir erstmal selber zu schauen. Die Mittellinie ist nicht verschoben, aber jetzt sieht man",
+    "tags": [
+      "indicator: no_bleeding"
+    ],
+    "rationale": "The person classifies the midline as unremarkable ('nicht verschoben'), stating a negative finding for this region.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 28
+    },
+    "model": "z-ai/glm-5.3",
+    "provider": "Crusoe",
+    "configuration_name": "z-ai-glm-5-3-260818"
+  },
+  {
+    "phrase": "jetzt sieht man aber direkt hier schon einen Saun un dem Knochen",
+    "context": "Die Mittellinie ist nicht verschoben, aber jetzt sieht man aber direkt hier schon einen Saun un dem Knochen … Das ist dann schon eindeutiger",
+    "tags": [
+      "indicator: anomaly_detected"
+    ],
+    "rationale": "The person notices a rim ('Saum') directly at the bone - an abnormality, explicitly contrasted ('aber') with the unremarkable midline.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 28
+    },
+    "model": "z-ai/glm-5.3",
+    "provider": "Crusoe",
+    "configuration_name": "z-ai-glm-5-3-260818"
+  },
+  {
+    "phrase": "Das ist dann schon eindeutiger",
+    "context": "einen Saun un dem Knochen … Das ist dann schon eindeutiger",
+    "tags": [
+      "interpretation: bleeding",
+      "confidence_high: secondary"
+    ],
+    "rationale": "In the context of verifying the AI-reported hemorrhage, the person treats the found rim as clearly identifiable ('eindeutiger'), interpreting the abnormality as the hemorrhage; the expression 'eindeutig' implicitly conveys high certainty.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 28
+    },
+    "model": "z-ai/glm-5.3",
+    "provider": "Crusoe",
+    "configuration_name": "z-ai-glm-5-3-260818"
+  },
+  {
+    "phrase": "Fang ich wieder so an",
+    "context": "Fang ich wieder so an, Mittellinien ist in der Mitte, es sind keine Verschiebungen",
+    "tags": [
+      "visual_search: description_of_own_approach_without_external_help",
+      "reference: past_trial"
+    ],
+    "rationale": "The person explicitly comments on their own search procedure, announcing that they will begin again with their usual systematic approach. The word 'wieder' (again) simultaneously refers to how they started in previous trials/runs.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 4
+    },
+    "model": "z-ai/glm-5.3",
+    "provider": "InferenceNet",
+    "configuration_name": "z-ai-glm-5-3-260818"
+  },
+  {
+    "phrase": "Mittellinien ist in der Mitte, es sind keine Verschiebungen, Ventrikel sehen auch gleich aus",
+    "context": "Mittellinien ist in der Mitte, es sind keine Verschiebungen, Ventrikel sehen auch gleich aus … äh ja, hier sieht",
+    "tags": [
+      "indicator: no_bleeding"
+    ],
+    "rationale": "While checking the midline and ventricles, the person explicitly classifies these image regions as unremarkable: the midline is centered with no shift and the ventricles appear symmetric, i.e., no pathological indicator is found there.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 4
+    },
+    "model": "z-ai/glm-5.3",
+    "provider": "InferenceNet",
+    "configuration_name": "z-ai-glm-5-3-260818"
+  },
+  {
+    "phrase": "äh ja",
+    "context": "Ventrikel sehen auch gleich aus … äh ja, hier sieht man das schon deutlich da an der Aufhellung",
+    "tags": [
+      "paused_in_process"
+    ],
+    "rationale": "Pure filler/hesitation words without any diagnostic content, marking a transition in the think-aloud process.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 4
+    },
+    "model": "z-ai/glm-5.3",
+    "provider": "InferenceNet",
+    "configuration_name": "z-ai-glm-5-3-260818"
+  },
+  {
+    "phrase": "hier sieht man das schon deutlich da an der Aufhellung im Vergleich zu dem anderen Seite",
+    "context": "äh ja, hier sieht man das schon deutlich da an der Aufhellung im Vergleich zu dem anderen Seite ist eher nichts",
+    "tags": [
+      "indicator: anomaly_detected"
+    ],
+    "rationale": "The person notices a clearly visible area of altered brightness/density ('Aufhellung') that stands out in direct comparison with the contralateral side – an abnormality that is atypical for a healthy skull. No hemorrhage terminology is used, so it is coded as a noticed anomaly rather than an interpreted bleeding.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 4
+    },
+    "model": "z-ai/glm-5.3",
+    "provider": "InferenceNet",
+    "configuration_name": "z-ai-glm-5-3-260818"
+  },
+  {
+    "phrase": "ist eher nichts auch",
+    "context": "an der Aufhellung im Vergleich zu dem anderen Seite ist eher nichts auch. Mhm …",
+    "tags": [
+      "indicator: no_bleeding",
+      "confidence_low: secondary"
+    ],
+    "rationale": "The person classifies the compared area/contralateral side as showing rather nothing, i.e., unremarkable. The hedging adverb 'eher' (rather) implicitly signals low certainty about this assessment.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 4
+    },
+    "model": "z-ai/glm-5.3",
+    "provider": "InferenceNet",
+    "configuration_name": "z-ai-glm-5-3-260818"
+  },
+  {
+    "phrase": "Mhm",
+    "context": "ist eher nichts auch. Mhm …",
+    "tags": [
+      "paused_in_process"
+    ],
+    "rationale": "Pure filler sound without any diagnostic content, indicating a pause at the end of the diagnostic process.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 4
+    },
+    "model": "z-ai/glm-5.3",
+    "provider": "InferenceNet",
+    "configuration_name": "z-ai-glm-5-3-260818"
+  },
+  {
+    "phrase": "Probier ich auch selber erstmal zu gucken",
+    "context": "Probier ich auch selber erstmal zu gucken und seh das die, sieht so aus",
+    "tags": [
+      "visual_search: description_of_own_approach_without_external_help"
+    ],
+    "rationale": "The person explicitly comments on their own search procedure, stating that they first try to inspect the image themselves before using the AI.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 39
+    },
+    "model": "z-ai/glm-5.3",
+    "provider": "InferenceNet",
+    "configuration_name": "z-ai-glm-5-3-260818"
+  },
+  {
+    "phrase": "sieht so aus, alswäre die Mittellinie verschoben",
+    "context": "und seh das die, sieht so aus, alswäre die Mittellinie verschoben, aber … ich finde der",
+    "tags": [
+      "indicator: anomaly_detected",
+      "confidence_low: secondary"
+    ],
+    "rationale": "A shifted midline is an abnormality atypical for a healthy skull, so the person notices an anomaly; the hedged phrasing 'sieht so aus, als wäre' implicitly expresses low certainty about this observation.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 39
+    },
+    "model": "z-ai/glm-5.3",
+    "provider": "InferenceNet",
+    "configuration_name": "z-ai-glm-5-3-260818"
+  },
+  {
+    "phrase": "ich finde der ventrikel sieht auch nicht so ähm weiß ich nicht, gleich aus",
+    "context": "aber … ich finde der ventrikel sieht auch nicht so ähm weiß ich nicht, gleich aus. Ich hätte die Blutung",
+    "tags": [
+      "indicator: anomaly_detected",
+      "confidence_low: secondary"
+    ],
+    "rationale": "The person notices that the ventricle appears uneven/asymmetric, another abnormality; the inserted 'weiß ich nicht' implicitly signals low certainty about this assessment.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 39
+    },
+    "model": "z-ai/glm-5.3",
+    "provider": "InferenceNet",
+    "configuration_name": "z-ai-glm-5-3-260818"
+  },
+  {
+    "phrase": "Ich hätte die Blutung nicht gefunden",
+    "context": "gleich aus. Ich hätte die Blutung nicht gefunden, gucke ich auf der AI Siete",
+    "tags": [
+      "reflection_of_ai: ich_not_recognized_without_ai",
+      "decision_with_ai: implicitly_agreeing_with_ai"
+    ],
+    "rationale": "The person states they would not have found the hemorrhage without the AI; by referring to the AI-displayed finding unqualified as 'die Blutung', they implicitly adopt the AI's assessment.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 39
+    },
+    "model": "z-ai/glm-5.3",
+    "provider": "InferenceNet",
+    "configuration_name": "z-ai-glm-5-3-260818"
+  },
+  {
+    "phrase": "gucke ich auf der AI Siete",
+    "context": "Blutung nicht gefunden, gucke ich auf der AI Siete und da wird mir das",
+    "tags": [
+      "control: relying_on_ai"
+    ],
+    "rationale": "After failing to find the hemorrhage themselves, the person turns to the AI display, relying on the AI to obtain the finding.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 39
+    },
+    "model": "z-ai/glm-5.3",
+    "provider": "InferenceNet",
+    "configuration_name": "z-ai-glm-5-3-260818"
+  },
+  {
+    "phrase": "und da wird mir das hier angezeigt",
+    "context": "gucke ich auf der AI Siete und da wird mir das hier angezeigt, das hätte",
+    "tags": [
+      "ai_report: ich"
+    ],
+    "rationale": "The person verbalizes that the AI (on the AI page) displays/shows them the hemorrhage they did not find themselves.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 39
+    },
+    "model": "z-ai/glm-5.3",
+    "provider": "InferenceNet",
+    "configuration_name": "z-ai-glm-5-3-260818"
+  },
+  {
+    "phrase": "das hätte ich jetzt nicht gesehen, deswegen",
+    "context": "da wird mir das hier angezeigt, das hätte ich jetzt nicht gesehen, deswegen",
+    "tags": [
+      "reflection_of_ai: ich_not_recognized_without_ai"
+    ],
+    "rationale": "The person reiterates that they would not have seen/detected this finding without the AI.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 39
+    },
+    "model": "z-ai/glm-5.3",
+    "provider": "InferenceNet",
+    "configuration_name": "z-ai-glm-5-3-260818"
+  },
+  {
+    "error": "JSONDecodeError",
+    "message": "Expecting value: line 1 column 1 (char 0)",
+    "raw_output": "",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\20_advice with annotation_cycle_236.txt",
+      "row": 23
+    },
+    "model": "z-ai/glm-5.3",
+    "provider": "Amazon Bedrock",
+    "configuration_name": "z-ai-glm-5-3-260818"
+  }
+]

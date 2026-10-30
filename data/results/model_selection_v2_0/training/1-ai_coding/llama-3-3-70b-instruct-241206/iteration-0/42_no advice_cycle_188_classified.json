@@ -1,0 +1,2484 @@
+[
+  {
+    "phrase": "Und da bin ich mir relativ sicher.",
+    "context": "Und ja, wenn man sich das im Seitenvergleich anguckt, ist hier auf jeden Fall Hyperdenser, als links. Deswegen würde ich sagen, dass der ocipital rechts eine Blutung hat, was auch zur Anamnese passen würde. Und da bin ich mir relativ sicher.",
+    "tags": [
+      "confidence_high: concrete"
+    ],
+    "rationale": "The speaker expresses high certainty regarding their diagnosis by stating they are 'relativ sicher' (relatively sure).",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\42_no advice_cycle_188.txt",
+      "row": 3
+    },
+    "model": "meta-llama/llama-3.3-70b-instruct",
+    "provider": "Parasail",
+    "configuration_name": "llama-3-3-70b-instruct-241206"
+  },
+  {
+    "phrase": "Deswegen würde ich sagen, dass der ocipital rechts eine Blutung hat",
+    "context": "Und ja, wenn man sich das im Seitenvergleich anguckt, ist hier auf jeden Fall Hyperdenser, als links. Deswegen würde ich sagen, dass der ocipital rechts eine Blutung hat, was auch zur Anamnese passen würde. Und da bin ich mir relativ sicher.",
+    "tags": [
+      "interpretation: bleeding"
+    ],
+    "rationale": "The speaker interprets the abnormality as a hemorrhage (Blutung) in the right occipital region.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\42_no advice_cycle_188.txt",
+      "row": 3
+    },
+    "model": "meta-llama/llama-3.3-70b-instruct",
+    "provider": "Parasail",
+    "configuration_name": "llama-3-3-70b-instruct-241206"
+  },
+  {
+    "phrase": "was auch zur Anamnese passen würde",
+    "context": "Und ja, wenn man sich das im Seitenvergleich anguckt, ist hier auf jeden Fall Hyperdenser, als links. Deswegen würde ich sagen, dass der ocipital rechts eine Blutung hat, was auch zur Anamnese passen würde. Und da bin ich mir relativ sicher.",
+    "tags": [
+      "reasoning: conclusion_contextual_information"
+    ],
+    "rationale": "The speaker connects the medical history (Anamnese) with the found indicators, drawing a conclusion that the hemorrhage would be consistent with the patient's history.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\42_no advice_cycle_188.txt",
+      "row": 3
+    },
+    "model": "meta-llama/llama-3.3-70b-instruct",
+    "provider": "Parasail",
+    "configuration_name": "llama-3-3-70b-instruct-241206"
+  },
+  {
+    "phrase": "eine Liquoransammlung, weil es Hypodens ist zum Hirngewebe, das heißt es kann eigentlich keine frische Blutung sein",
+    "context": "Ähm, hier vorne sieht man asymmetrisch, so eine leichte, ja ich würde eher sagen, eine Liquoransammlung, weil es Hypodens ist zum Hirngewebe, das heißt es kann eigentlich keine frische Blutung sein.",
+    "tags": [
+      "interpretation: no_bleeding_explanation"
+    ],
+    "rationale": "The person explains why the abnormality cannot be a hemorrhage, citing the hypodensity of the tissue and the absence of fresh bleeding.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\42_no advice_cycle_188.txt",
+      "row": 7
+    },
+    "model": "meta-llama/llama-3.3-70b-instruct",
+    "provider": "Parasail",
+    "configuration_name": "llama-3-3-70b-instruct-241206"
+  },
+  {
+    "phrase": "Und, ähm, da ich im Gewebe selber nichts erkennen kann und auch die Mittellinie nicht verlagert ist, sage ich das ist keine Blutung",
+    "context": "Und, ähm, da ich im Gewebe selber nichts erkennen kann und auch die Mittellinie nicht verlagert ist, sage ich das ist keine Blutung",
+    "tags": [
+      "interpretation: no_bleeding"
+    ],
+    "rationale": "The person interprets the finding as 'no hemorrhage', based on the absence of any recognizable abnormalities in the tissue and the midline not being displaced.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\42_no advice_cycle_188.txt",
+      "row": 7
+    },
+    "model": "meta-llama/llama-3.3-70b-instruct",
+    "provider": "Parasail",
+    "configuration_name": "llama-3-3-70b-instruct-241206"
+  },
+  {
+    "phrase": "das Gehirngewebe sieht ein bisschen atrophisch aus",
+    "context": "Deswegen, das Gehirngewebe sieht ein bisschen atrophisch aus",
+    "tags": [
+      "visual_search: description_of_medical_image_features"
+    ],
+    "rationale": "The person verbalizes their observation of the brain tissue, describing it as appearing slightly atrophic.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\42_no advice_cycle_188.txt",
+      "row": 7
+    },
+    "model": "meta-llama/llama-3.3-70b-instruct",
+    "provider": "Parasail",
+    "configuration_name": "llama-3-3-70b-instruct-241206"
+  },
+  {
+    "phrase": "die Seitenventrikel sind gut sichtbar, die Sulci sind erkennbar",
+    "context": "71-jährige Frau mit einem Fahrradunfall. Ähm, so die Seitenventrikel sind gut sichtbar, die Sulci sind erkennbar.",
+    "tags": [
+      "visual_search: description_of_medical_image_features"
+    ],
+    "rationale": "The person is describing the visibility of specific anatomical structures in the medical image, which aligns with the tag for describing medical image features.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\42_no advice_cycle_188.txt",
+      "row": 6
+    },
+    "model": "meta-llama/llama-3.3-70b-instruct",
+    "provider": "Parasail",
+    "configuration_name": "llama-3-3-70b-instruct-241206"
+  },
+  {
+    "phrase": "hier sieht es aus als wäre in den Venensulcus, äh, Venensinus",
+    "context": "Hier hatte ich, ich weiß nicht, ob das die gleichen Fälle sind, aber hier hatte ich, hier sieht es aus als wäre in den Venensulcus, äh, Venensinus.",
+    "tags": [
+      "indicator: anomaly_detected"
+    ],
+    "rationale": "The person notices an abnormality in the Venensulcus/Venensinus area, which they don't typically see, indicating the detection of an anomaly.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\42_no advice_cycle_188.txt",
+      "row": 6
+    },
+    "model": "meta-llama/llama-3.3-70b-instruct",
+    "provider": "Parasail",
+    "configuration_name": "llama-3-3-70b-instruct-241206"
+  },
+  {
+    "phrase": "das ist nicht normal, weil ich den normalerweise nicht sehen kann",
+    "context": "Der ist eben sehr gut sichtbar, deswegen würde ich da sagen, das ist nicht normal, weil ich den normalerweise nicht sehen kann.",
+    "tags": [
+      "indicator: anomaly_detected"
+    ],
+    "rationale": "The person explicitly states that what they are seeing is not normal because they usually can't see it, reinforcing the detection of an anomaly.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\42_no advice_cycle_188.txt",
+      "row": 6
+    },
+    "model": "meta-llama/llama-3.3-70b-instruct",
+    "provider": "Parasail",
+    "configuration_name": "llama-3-3-70b-instruct-241206"
+  },
+  {
+    "phrase": "Aber es passt natürlich nicht zur Anamnese",
+    "context": "Aber es passt natürlich nicht zur Anamnese. So und in dem Hirngewebe selber, sehe ich nichts.",
+    "tags": [
+      "reasoning: not_matching_contextual_information"
+    ],
+    "rationale": "The person notes that their findings do not match the provided medical history (Anamnese), which aligns with the tag for findings not matching contextual information.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\42_no advice_cycle_188.txt",
+      "row": 6
+    },
+    "model": "meta-llama/llama-3.3-70b-instruct",
+    "provider": "Parasail",
+    "configuration_name": "llama-3-3-70b-instruct-241206"
+  },
+  {
+    "phrase": "Daher könnte ich mir vorstellen, das sie hier eine Blutung, ähm, zwischen den Hirnhäuten hat",
+    "context": "Daher könnte ich mir vorstellen, das sie hier eine Blutung, ähm, zwischen den Hirnhäuten hat, und dass man das daher sehen kann.",
+    "tags": [
+      "interpretation: bleeding"
+    ],
+    "rationale": "The person interprets the abnormality as a possible hemorrhage (Blutung) between the brain membranes, which directly aligns with the tag for interpreting a finding as bleeding.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\42_no advice_cycle_188.txt",
+      "row": 6
+    },
+    "model": "meta-llama/llama-3.3-70b-instruct",
+    "provider": "Parasail",
+    "configuration_name": "llama-3-3-70b-instruct-241206"
+  },
+  {
+    "phrase": "Aber ich kann das nicht richtig identifizieren",
+    "context": "Daher könnte ich mir vorstellen, das sie hier eine Blutung, ähm, zwischen den Hirnhäuten hat, und dass man das daher sehen kann. Aber ich kann das nicht richtig identifizieren.",
+    "tags": [
+      "confidence_low: concrete"
+    ],
+    "rationale": "The person explicitly expresses low certainty regarding the identification of the hemorrhage, directly stating they cannot identify it correctly.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\42_no advice_cycle_188.txt",
+      "row": 6
+    },
+    "model": "meta-llama/llama-3.3-70b-instruct",
+    "provider": "Parasail",
+    "configuration_name": "llama-3-3-70b-instruct-241206"
+  },
+  {
+    "phrase": "Das könnte natürlich eine Subarachnoidalblutung sein.",
+    "context": "47 mit schlimmsten Kopfschmerzen. Das könnte natürlich eine Subarachnoidalblutung sein. Hm. Die ich hier allerdings nicht erkennen kann.",
+    "tags": [
+      "interpretation: bleeding"
+    ],
+    "rationale": "The person is considering the possibility of a subarachnoid hemorrhage, which is a type of bleeding in the brain.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\42_no advice_cycle_188.txt",
+      "row": 11
+    },
+    "model": "meta-llama/llama-3.3-70b-instruct",
+    "provider": "Parasail",
+    "configuration_name": "llama-3-3-70b-instruct-241206"
+  },
+  {
+    "phrase": "Ich sage, da ist keine Blutung, aber die Anamnese spricht dafür.",
+    "context": "Ich sage, da ist keine Blutung, aber die Anamnese spricht dafür.",
+    "tags": [
+      "interpretation: no_bleeding",
+      "reasoning: not_matching_contextual_information"
+    ],
+    "rationale": "The person is interpreting the findings as 'no bleeding', but also mentions that the medical history suggests otherwise, indicating a mismatch between the findings and the contextual information.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\42_no advice_cycle_188.txt",
+      "row": 11
+    },
+    "model": "meta-llama/llama-3.3-70b-instruct",
+    "provider": "Parasail",
+    "configuration_name": "llama-3-3-70b-instruct-241206"
+  },
+  {
+    "phrase": "Die ich hier allerdings nicht erkennen kann.",
+    "context": "Das könnte natürlich eine Subarachnoidalblutung sein. Hm. Die ich hier allerdings nicht erkennen kann.",
+    "tags": [
+      "reflection: diagnostic_uncertainty"
+    ],
+    "rationale": "The person is uncertain about recognizing a potential bleeding, indicating diagnostic uncertainty.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\42_no advice_cycle_188.txt",
+      "row": 11
+    },
+    "model": "meta-llama/llama-3.3-70b-instruct",
+    "provider": "Parasail",
+    "configuration_name": "llama-3-3-70b-instruct-241206"
+  },
+  {
+    "phrase": "Und er hat jetzt auch keine Anamnese von Traum oder so.",
+    "context": "Im Kleinhirn sehe ich nichts. Ähm, das ist symmetrisch. Und er hat jetzt auch keine Anamnese von Traum oder so.",
+    "tags": [
+      "reasoning: mentioning_contextual_information"
+    ],
+    "rationale": "The person is mentioning the patient's medical history, specifically the lack of trauma, as contextual information.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\42_no advice_cycle_188.txt",
+      "row": 11
+    },
+    "model": "meta-llama/llama-3.3-70b-instruct",
+    "provider": "Parasail",
+    "configuration_name": "llama-3-3-70b-instruct-241206"
+  },
+  {
+    "phrase": "als wäre hinte die Mittellinie nach rechts verlagert",
+    "context": "Ähm, hier, äh, ist das Kleinhirn, äh okay allerdings sieht es hier so aus, als wäre hinte die Mittellinie nach rechts verlagert.",
+    "tags": [
+      "indicator: anomaly_detected"
+    ],
+    "rationale": "The person notices an abnormality, specifically that the midline seems to be shifted to the right, which is atypical for a healthy skull.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\42_no advice_cycle_188.txt",
+      "row": 13
+    },
+    "model": "meta-llama/llama-3.3-70b-instruct",
+    "provider": "Parasail",
+    "configuration_name": "llama-3-3-70b-instruct-241206"
+  },
+  {
+    "phrase": "die Seitenventrikel Hinterhörner sehen ein bisschen asymmetrisch aus",
+    "context": "Ähm, hier, äh, ist das Kleinhirn, äh okay allerdings sieht es hier so aus, als wäre hinte die Mittellinie nach rechts verlagert. Ähm, und die Seitenventrikel Hinterhörner sehen ein bisschen asymmetrisch aus",
+    "tags": [
+      "indicator: anomaly_detected"
+    ],
+    "rationale": "The person detects another abnormality, this time describing the posterior horns of the lateral ventricles as slightly asymmetrical.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\42_no advice_cycle_188.txt",
+      "row": 13
+    },
+    "model": "meta-llama/llama-3.3-70b-instruct",
+    "provider": "Parasail",
+    "configuration_name": "llama-3-3-70b-instruct-241206"
+  },
+  {
+    "phrase": "aber ich sehe nichts im Gewebe, was auf eine Blutung hindeutet",
+    "context": "Ähm, hier, äh, ist das Kleinhirn, äh okay allerdings sieht es hier so aus, als wäre hinte die Mittellinie nach rechts verlagert. Ähm, und die Seitenventrikel Hinterhörner sehen ein bisschen asymmetrisch aus, aber ich sehe nichts im Gewebe, was auf eine Blutung hindeutet",
+    "tags": [
+      "interpretation: no_bleeding"
+    ],
+    "rationale": "The person explicitly states that they do not see any signs of bleeding in the tissue, leading to the interpretation that there is no hemorrhage.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\42_no advice_cycle_188.txt",
+      "row": 13
+    },
+    "model": "meta-llama/llama-3.3-70b-instruct",
+    "provider": "Parasail",
+    "configuration_name": "llama-3-3-70b-instruct-241206"
+  },
+  {
+    "phrase": "Daher sage ich hier keine Blutung",
+    "context": "Ähm, hier, äh, ist das Kleinhirn, äh okay allerdings sieht es hier so aus, als wäre hinte die Mittellinie nach rechts verlagert. Ähm, und die Seitenventrikel Hinterhörner sehen ein bisschen asymmetrisch aus, aber ich sehe nichts im Gewebe, was auf eine Blutung hindeutet. Daher sage ich hier keine Blutung",
+    "tags": [
+      "interpretation: no_bleeding"
+    ],
+    "rationale": "The person concludes that there is no bleeding, based on their previous observations and interpretations.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\42_no advice_cycle_188.txt",
+      "row": 13
+    },
+    "model": "meta-llama/llama-3.3-70b-instruct",
+    "provider": "Parasail",
+    "configuration_name": "llama-3-3-70b-instruct-241206"
+  },
+  {
+    "error": "JSONDecodeError",
+    "message": "Expecting ':' delimiter: line 1 column 975 (char 974)",
+    "raw_output": "{\"classifications\": [{\"phrase\": \"Ich sehe hier keine Mittellinienverlagerung.\", \"context\": \"Ich gehe jetzt wieder von Kranial durch. Ich sehe hier keine Mittellinienverlagerung. Ich schaue mir die Sulci am Rand an, und sehe, dass das Hirngewebe, also die beiden Hemisph\\u00e4ren recht symmetrisch sind.\", \"tags\": [\"indicator: no_bleeding\"], \"rationale\": \"The participant is checking for signs of bleeding and mentions that there is no midline shift, which is an indicator of no bleeding.\"}, {\"phrase\": \"Ich sehe hier eine leichte Hyperdense Struktur links in der Hemisph\\u00e4re, beim Mittelhirn, aber ich kann mir eventuell vorstellen, dass das eher die Epiphyse ist und gar nicht eine Blutung.\", \"context\": \"Ich sehe hier eine leichte Hyperdense Struktur links in der Hemisph\\u00e4re, beim Mittelhirn, aber ich kann mir eventuell vorstellen, dass das eher die Epiphyse ist und gar nicht eine Blutung. \\u00c4hm, ja, genau.\", \"tags: [interpretation: no_bleeding_explanation\"], \"rationale\": \"The participant sees a hyperdense structure but thinks it might be the epiphysis, not a bleeding, and provides an explanation for why it's not a bleeding.\"}, {\"phrase\": \"Wenn ich mir die beiden Temporallappen anschaue, dann sehe ich rechts, so eine leichte Hypodense Struktur, aber das w\\u00fcrde dann wennschon auf eine stattgehabte, also l\\u00e4nger stattgehabte Blutung schlie\\u00dfen.\", \"context\": \"Wenn ich mir die beiden Temporallappen anschaue, dann sehe ich rechts, so eine leichte Hypodense Struktur, aber das w\\u00fcrde dann wennschon auf eine stattgehabte, also l\\u00e4nger stattgehabte Blutung schlie\\u00dfen. Deswegen w\\u00fcrde das nicht mit dem Fall so passen.\", \"tags\": [\"reasoning: alternative_medical_cause\"], \"rationale\": \"The participant sees a hypodense structure but thinks it would indicate an older bleeding, which doesn't fit with the current case.\"}, {\"phrase\": \"Da es auch keinerlei Verlagerung sonst gibt, w\\u00fcrde ich sagen, dass keine Blutung vorliegt.\", \"context\": \"Da es auch keinerlei Verlagerung sonst gibt, w\\u00fcrde ich sagen, dass keine Blutung vorliegt. Ich bin mit temporalen Lappen aber nicht so sicher.\", \"tags: [interpretation: no_bleeding\"], \"rationale\": \"The participant concludes that there is no bleeding based on the lack of other signs of bleeding.\"}, {\"phrase\": \"Ich bin mit temporalen Lappen aber nicht so sicher.\", \"context\": \"Da es auch keinerlei Verlagerung sonst gibt, w\\u00fcrde ich sagen, dass keine Blutung vorliegt. Ich bin mit temporalen Lappen aber nicht so sicher.\", \"tags\": [\"confidence_low: concrete\"], \"rationale\": \"The participant expresses low certainty about their conclusion regarding the temporal lobe.\"}]}",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\42_no advice_cycle_188.txt",
+      "row": 0
+    },
+    "model": "meta-llama/llama-3.3-70b-instruct",
+    "provider": "Cloudflare",
+    "configuration_name": "llama-3-3-70b-instruct-241206"
+  },
+  {
+    "phrase": "Die Hemisphären sind symmetrisch.",
+    "context": "28-jähriger Mann mit Skiunfall. Die Hemisphären sind symmetrisch. Jetzt erstmal Kranial.",
+    "tags": [
+      "visual_search: description_of_medical_image_features"
+    ],
+    "rationale": "The person is describing the symmetry of the hemispheres, which is a feature of the medical image.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\42_no advice_cycle_188.txt",
+      "row": 4
+    },
+    "model": "meta-llama/llama-3.3-70b-instruct",
+    "provider": "AkashML",
+    "configuration_name": "llama-3-3-70b-instruct-241206"
+  },
+  {
+    "phrase": "die Seitenventrikel sind recht klein und man sieht den Liquor nicht so sehr",
+    "context": "Die Hemisphären sind symmetrisch. Jetzt erstmal Kranial. Ähm, die Seitenventrikel sind recht klein und man sieht den Liquor nicht so sehr",
+    "tags": [
+      "visual_search: description_of_medical_image_features"
+    ],
+    "rationale": "The person is describing the size of the ventricles and the visibility of the liquor, which are features of the medical image.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\42_no advice_cycle_188.txt",
+      "row": 4
+    },
+    "model": "meta-llama/llama-3.3-70b-instruct",
+    "provider": "AkashML",
+    "configuration_name": "llama-3-3-70b-instruct-241206"
+  },
+  {
+    "phrase": "was ich hier aber nicht sehe, ist im Gewebe, irgendwelche Hyperdensitäten",
+    "context": "Ähm, die Seitenventrikel sind recht klein und man sieht den Liquor nicht so sehr. Ähm, was ich hier aber nicht sehe, ist im Gewebe, irgendwelche Hyperdensitäten",
+    "tags": [
+      "indicator: no_bleeding"
+    ],
+    "rationale": "The person is explicitly stating that they do not see any hyperdensities in the tissue, which could be an indicator of bleeding.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\42_no advice_cycle_188.txt",
+      "row": 4
+    },
+    "model": "meta-llama/llama-3.3-70b-instruct",
+    "provider": "AkashML",
+    "configuration_name": "llama-3-3-70b-instruct-241206"
+  },
+  {
+    "phrase": "Das Kleinhirn ist auch recht symmetrisch",
+    "context": "was ich hier aber nicht sehe, ist im Gewebe, irgendwelche Hyperdensitäten. Das Kleinhirn ist auch recht symmetrisch",
+    "tags": [
+      "visual_search: description_of_medical_image_features"
+    ],
+    "rationale": "The person is describing the symmetry of the cerebellum, which is a feature of the medical image.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\42_no advice_cycle_188.txt",
+      "row": 4
+    },
+    "model": "meta-llama/llama-3.3-70b-instruct",
+    "provider": "AkashML",
+    "configuration_name": "llama-3-3-70b-instruct-241206"
+  },
+  {
+    "phrase": "ich könnte mir vorstellen, dass er aus irgendeinem Grund, Hirndruck hat",
+    "context": "Allerdings, also ich könnte mir vorstellen, dass er aus irgendeinem Grund, Hirndruck hat",
+    "tags": [
+      "reasoning: alternative_medical_cause"
+    ],
+    "rationale": "The person is considering the possibility of increased intracranial pressure as an alternative medical cause.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\42_no advice_cycle_188.txt",
+      "row": 4
+    },
+    "model": "meta-llama/llama-3.3-70b-instruct",
+    "provider": "AkashML",
+    "configuration_name": "llama-3-3-70b-instruct-241206"
+  },
+  {
+    "phrase": "Weil man die Sulci nicht sehr gut sieht und deswegen sage ich, das ist eine Blutung da",
+    "context": "ich könnte mir vorstellen, dass er aus irgendeinem Grund, Hirndruck hat. Weil man die Sulci nicht sehr gut sieht und deswegen sage ich, das ist eine Blutung da",
+    "tags": [
+      "interpretation: bleeding",
+      "reasoning: conclusion_findings"
+    ],
+    "rationale": "The person is interpreting the finding of poorly visible sulci as an indicator of a hemorrhage and drawing a conclusion based on this finding.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\42_no advice_cycle_188.txt",
+      "row": 4
+    },
+    "model": "meta-llama/llama-3.3-70b-instruct",
+    "provider": "AkashML",
+    "configuration_name": "llama-3-3-70b-instruct-241206"
+  },
+  {
+    "phrase": "Die ist allerdings, macht keine Mittellinienverlagerung",
+    "context": "Weil man die Sulci nicht sehr gut sieht und deswegen sage ich, das ist eine Blutung da. Die ist allerdings, macht keine Mittellinienverlagerung",
+    "tags": [
+      "interpretation: description_bleeding"
+    ],
+    "rationale": "The person is describing the characteristics of the hemorrhage, specifically that it does not cause a midline shift.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\42_no advice_cycle_188.txt",
+      "row": 4
+    },
+    "model": "meta-llama/llama-3.3-70b-instruct",
+    "provider": "AkashML",
+    "configuration_name": "llama-3-3-70b-instruct-241206"
+  },
+  {
+    "phrase": "auf jeden Fall hier ein Hämatom zu haben, aber es ist nicht Intrakranial",
+    "context": "Dann 22-jähriger, Fall vom Baum. Scheint auf jeden Fall hier ein Hämatom zu haben, aber es ist nicht Intrakranial.",
+    "tags": [
+      "interpretation: no_bleeding_explanation"
+    ],
+    "rationale": "The person is explaining why the abnormality is not an intracranial hemorrhage, which aligns with the interpretation: no_bleeding_explanation tag.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\42_no advice_cycle_188.txt",
+      "row": 15
+    },
+    "model": "meta-llama/llama-3.3-70b-instruct",
+    "provider": "Parasail",
+    "configuration_name": "llama-3-3-70b-instruct-241206"
+  },
+  {
+    "phrase": "ist auf jeden Fall frontal rechts eine Blutung, vielleicht eine Epidural Blutung",
+    "context": "Scheint auf jeden Fall hier ein Hämatom zu haben, aber es ist nicht Intrakranial. Ähm, hier würde ich sagen, ist auf jeden Fall frontal rechts eine Blutung, vielleicht eine Epidural Blutung",
+    "tags": [
+      "interpretation: bleeding",
+      "confidence_low: secondary"
+    ],
+    "rationale": "The person is interpreting the abnormality as a hemorrhage and specifically mentions a possible epidural hemorrhage, which aligns with the interpretation: bleeding tag. The use of 'vielleicht' (maybe) implies some uncertainty, which aligns with the confidence_low: secondary tag.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\42_no advice_cycle_188.txt",
+      "row": 15
+    },
+    "model": "meta-llama/llama-3.3-70b-instruct",
+    "provider": "Parasail",
+    "configuration_name": "llama-3-3-70b-instruct-241206"
+  },
+  {
+    "phrase": "Eindeutig Hyperdens, und deswegen frisch und da bin ich mir sehr sicher",
+    "context": "ist auf jeden Fall frontal rechts eine Blutung, vielleicht eine Epidural Blutung. Eindeutig Hyperdens, und deswegen frisch und da bin ich mir sehr sicher",
+    "tags": [
+      "confidence_high: concrete"
+    ],
+    "rationale": "The person explicitly states that they are 'sehr sicher' (very sure) about their diagnosis, which aligns with the confidence_high: concrete tag.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\42_no advice_cycle_188.txt",
+      "row": 15
+    },
+    "model": "meta-llama/llama-3.3-70b-instruct",
+    "provider": "Parasail",
+    "configuration_name": "llama-3-3-70b-instruct-241206"
+  },
+  {
+    "phrase": "ne ich würde nicht sagen, dass da eine Blutung ist",
+    "context": "52 mit einem Fall von der Leiter. Da ist die Mittellinie noch symmetrisch, also in der Mitte. Mh, man sieht auch die Sulci recht symmetrisch. Und, ähm, im Kleinhirn sieht es etwas, ne ich würde nicht sagen, dass da eine Blutung ist",
+    "tags": [
+      "interpretation: no_bleeding"
+    ],
+    "rationale": "The person explicitly states that they do not think there is a hemorrhage in the cerebellum, which aligns with the 'interpretation: no_bleeding' tag.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\42_no advice_cycle_188.txt",
+      "row": 17
+    },
+    "model": "meta-llama/llama-3.3-70b-instruct",
+    "provider": "Parasail",
+    "configuration_name": "llama-3-3-70b-instruct-241206"
+  },
+  {
+    "phrase": "Mh, man sieht auch die Sulci recht symmetrisch",
+    "context": "52 mit einem Fall von der Leiter. Da ist die Mittellinie noch symmetrisch, also in der Mitte. Mh, man sieht auch die Sulci recht symmetrisch. Und, ähm, im Kleinhirn sieht es etwas, ne ich würde nicht sagen, dass da eine Blutung ist",
+    "tags": [
+      "visual_search: description_of_medical_image_features"
+    ],
+    "rationale": "The person is describing the symmetry of the sulci, which is a feature of the medical image, aligning with the 'visual_search: description_of_medical_image_features' tag.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\42_no advice_cycle_188.txt",
+      "row": 17
+    },
+    "model": "meta-llama/llama-3.3-70b-instruct",
+    "provider": "Parasail",
+    "configuration_name": "llama-3-3-70b-instruct-241206"
+  },
+  {
+    "phrase": "Die Seitenventrikel sind offen und symmetrisch.",
+    "context": "Dann haben wir einen 24 jährigen Mann mit Fahrradunfall. Hier haben wir wieder die Mittellinie nicht verlagert.  Die Seitenventrikel sind offen und symmetrisch.",
+    "tags": [
+      "visual_search: description_of_medical_image_features"
+    ],
+    "rationale": "The person is describing the anatomical structures they are currently looking at, specifically the ventricles.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\42_no advice_cycle_188.txt",
+      "row": 2
+    },
+    "model": "meta-llama/llama-3.3-70b-instruct",
+    "provider": "DeepInfra",
+    "configuration_name": "llama-3-3-70b-instruct-241206"
+  },
+  {
+    "phrase": "Ähm, ich schaue wieder nach Hyperdensen Strukturen im Gewebe.",
+    "context": "Die Seitenventrikel sind offen und symmetrisch. Ähm, ich schaue wieder nach Hyperdensen Strukturen im Gewebe.",
+    "tags": [
+      "visual_search: description_of_own_approach_without_external_help"
+    ],
+    "rationale": "The person is explicitly commenting on their own search procedure, looking for hyperdense structures in the tissue.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\42_no advice_cycle_188.txt",
+      "row": 2
+    },
+    "model": "meta-llama/llama-3.3-70b-instruct",
+    "provider": "DeepInfra",
+    "configuration_name": "llama-3-3-70b-instruct-241206"
+  },
+  {
+    "phrase": "Kleinhirn, könnte man rechts in der Hemisphäre, so eine leichte Hypodense Struktur, lateral sehen.",
+    "context": "Im Seitenvergleich, sehe bisher aber keine Veränderungen. Kleinhirn, könnte man rechts in der Hemisphäre, so eine leichte Hypodense Struktur, lateral sehen.",
+    "tags": [
+      "indicator: anomaly_detected",
+      "confidence_low: secondary"
+    ],
+    "rationale": "The person notices an abnormality, a hypodense structure, but expresses low certainty about it, using the phrase 'könnte man'.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\42_no advice_cycle_188.txt",
+      "row": 2
+    },
+    "model": "meta-llama/llama-3.3-70b-instruct",
+    "provider": "DeepInfra",
+    "configuration_name": "llama-3-3-70b-instruct-241206"
+  },
+  {
+    "phrase": "Aber es ist eben nicht verlagert. Ähm, daher würde ich hier keine Blutung diagnostizieren.",
+    "context": "Aber es ist eben nicht verlagert. Ähm, daher würde ich hier keine Blutung diagnostizieren. Mhm, genau hier steht ja jetzt auch nichts davon, dass er irgendwie Bewusstseins eingetrübt ist.",
+    "tags": [
+      "interpretation: no_bleeding"
+    ],
+    "rationale": "The person interprets the finding as 'no hemorrhage', based on the fact that the structure is not displaced.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\42_no advice_cycle_188.txt",
+      "row": 2
+    },
+    "model": "meta-llama/llama-3.3-70b-instruct",
+    "provider": "DeepInfra",
+    "configuration_name": "llama-3-3-70b-instruct-241206"
+  },
+  {
+    "phrase": "Mhm, genau hier steht ja jetzt auch nichts davon, dass er irgendwie Bewusstseins eingetrübt ist.",
+    "context": "Aber es ist eben nicht verlagert. Ähm, daher würde ich hier keine Blutung diagnostizieren. Mhm, genau hier steht ja jetzt auch nichts davon, dass er irgendwie Bewusstseins eingetrübt ist.",
+    "tags": [
+      "reasoning: mentioning_contextual_information"
+    ],
+    "rationale": "The person mentions patient-related information, specifically the lack of impaired consciousness, to support their diagnosis.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\42_no advice_cycle_188.txt",
+      "row": 2
+    },
+    "model": "meta-llama/llama-3.3-70b-instruct",
+    "provider": "DeepInfra",
+    "configuration_name": "llama-3-3-70b-instruct-241206"
+  },
+  {
+    "phrase": "die Seitenventrikel sind offen",
+    "context": "51 mit blurry vision und Kopfschmerzen. Ähm, die Seitenventrikel sind offen.",
+    "tags": [
+      "visual_search: description_of_medical_image_features"
+    ],
+    "rationale": "The person is describing the appearance of the medical image, specifically mentioning that the lateral ventricles are open.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\42_no advice_cycle_188.txt",
+      "row": 9
+    },
+    "model": "meta-llama/llama-3.3-70b-instruct",
+    "provider": "DeepInfra",
+    "configuration_name": "llama-3-3-70b-instruct-241206"
+  },
+  {
+    "phrase": "Im Kleinhirn sehe ich nichts",
+    "context": "Ähm, die Seitenventrikel sind offen. Im Kleinhirn sehe ich nichts.",
+    "tags": [
+      "indicator: no_bleeding"
+    ],
+    "rationale": "The person is indicating that they do not see any abnormalities in the cerebellum.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\42_no advice_cycle_188.txt",
+      "row": 9
+    },
+    "model": "meta-llama/llama-3.3-70b-instruct",
+    "provider": "DeepInfra",
+    "configuration_name": "llama-3-3-70b-instruct-241206"
+  },
+  {
+    "phrase": "würde jetzt hier eher, entweder an so hypophysen Regionen oder ocipitale Regionen denken",
+    "context": "Ähm, die Seitenventrikel sind offen. Im Kleinhirn sehe ich nichts. Ähm, würde jetzt hier eher, entweder an so hypophysen Regionen oder ocipitale Regionen denken",
+    "tags": [
+      "reasoning: conclusion_contextual_information"
+    ],
+    "rationale": "The person is using the patient's symptoms to inform their search for potential abnormalities in the image.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\42_no advice_cycle_188.txt",
+      "row": 9
+    },
+    "model": "meta-llama/llama-3.3-70b-instruct",
+    "provider": "DeepInfra",
+    "configuration_name": "llama-3-3-70b-instruct-241206"
+  },
+  {
+    "phrase": "Aber auch da kann ich keine Blutung sehen",
+    "context": "würde jetzt hier eher, entweder an so hypophysen Regionen oder ocipitale Regionen denken, wenn sie verschwommenes Sehen hat. Aber auch da kann ich keine Blutung sehen",
+    "tags": [
+      "indicator: no_bleeding"
+    ],
+    "rationale": "The person is indicating that they do not see any signs of bleeding in the regions they are examining.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\42_no advice_cycle_188.txt",
+      "row": 9
+    },
+    "model": "meta-llama/llama-3.3-70b-instruct",
+    "provider": "DeepInfra",
+    "configuration_name": "llama-3-3-70b-instruct-241206"
+  },
+  {
+    "phrase": "Ich gucke jetzt gerade den Circulus an, als wäre da eine Subarachnoidalblutung",
+    "context": "Aber auch da kann ich keine Blutung sehen. Ich gucke jetzt gerade den Circulus an, als wäre da eine Subarachnoidalblutung",
+    "tags": [
+      "visual_search: triggered_by_finding"
+    ],
+    "rationale": "The person is examining a specific area of the image because they suspect a potential abnormality, in this case a subarachnoidal hemorrhage.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\42_no advice_cycle_188.txt",
+      "row": 9
+    },
+    "model": "meta-llama/llama-3.3-70b-instruct",
+    "provider": "DeepInfra",
+    "configuration_name": "llama-3-3-70b-instruct-241206"
+  },
+  {
+    "phrase": "hier ist so eine leichte Aufhellung, aber das könnte auch einfach die Arterie sein",
+    "context": "Ich gucke jetzt gerade den Circulus an, als wäre da eine Subarachnoidalblutung, hier ist so eine leichte Aufhellung, aber das könnte auch einfach die Arterie sein",
+    "tags": [
+      "reflection: diagnostic_uncertainty",
+      "reasoning: alternative_medical_structure"
+    ],
+    "rationale": "The person is uncertain about the diagnosis and is considering alternative explanations for the observed abnormality, in this case that it could be an artery rather than a hemorrhage.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\42_no advice_cycle_188.txt",
+      "row": 9
+    },
+    "model": "meta-llama/llama-3.3-70b-instruct",
+    "provider": "DeepInfra",
+    "configuration_name": "llama-3-3-70b-instruct-241206"
+  },
+  {
+    "phrase": "Hier ist die Mittellinie auch nicht verlagert.",
+    "context": "7-jähriger Fall? Hier ist die Mittellinie auch nicht verlagert.  Ähm, das Kleinhirn ist, da gibt es keine Auffälligkeiten.",
+    "tags": [
+      "indicator: no_bleeding"
+    ],
+    "rationale": "The speaker mentions that the midline is not shifted, which is an indicator that there is no bleeding.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\42_no advice_cycle_188.txt",
+      "row": 12
+    },
+    "model": "meta-llama/llama-3.3-70b-instruct",
+    "provider": "DeepInfra",
+    "configuration_name": "llama-3-3-70b-instruct-241206"
+  },
+  {
+    "phrase": "da gibt es keine Auffälligkeiten",
+    "context": "Ähm, das Kleinhirn ist, da gibt es keine Auffälligkeiten. Und sonst im Hirngewebe, ähm, sehe ich auch nichts.",
+    "tags": [
+      "indicator: no_bleeding"
+    ],
+    "rationale": "The speaker states that there are no abnormalities in the cerebellum, which suggests that there is no bleeding.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\42_no advice_cycle_188.txt",
+      "row": 12
+    },
+    "model": "meta-llama/llama-3.3-70b-instruct",
+    "provider": "DeepInfra",
+    "configuration_name": "llama-3-3-70b-instruct-241206"
+  },
+  {
+    "phrase": "Was ich hier sehe ist, dass hier der untere Hemisphären Abstand ein bisschen größer ist, aber es könnte auch sein, dass er einfach noch sehr jung ist",
+    "context": "Was ich hier sehe ist, dass hier der untere Hemisphären Abstand ein bisschen größer ist, aber es könnte auch sein, dass er einfach noch sehr jung ist. Deswegen sage ich, das ist keine Blutung",
+    "tags": [
+      "interpretation: no_bleeding_explanation"
+    ],
+    "rationale": "The speaker explains that the increased distance between the hemispheres could be due to the patient's young age, which is why they conclude that it is not a bleeding.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\42_no advice_cycle_188.txt",
+      "row": 12
+    },
+    "model": "meta-llama/llama-3.3-70b-instruct",
+    "provider": "DeepInfra",
+    "configuration_name": "llama-3-3-70b-instruct-241206"
+  },
+  {
+    "phrase": "Deswegen sage ich, das ist keine Blutung",
+    "context": "Was ich hier sehe ist, dass hier der untere Hemisphären Abstand ein bisschen größer ist, aber es könnte auch sein, dass er einfach noch sehr jung ist. Deswegen sage ich, das ist keine Blutung",
+    "tags": [
+      "interpretation: no_bleeding"
+    ],
+    "rationale": "The speaker explicitly states that they do not think it is a bleeding.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\42_no advice_cycle_188.txt",
+      "row": 12
+    },
+    "model": "meta-llama/llama-3.3-70b-instruct",
+    "provider": "DeepInfra",
+    "configuration_name": "llama-3-3-70b-instruct-241206"
+  },
+  {
+    "phrase": "Ich bin mir hier vorne nicht sicher, deswegen",
+    "context": "Ich bin mir hier vorne nicht sicher, deswegen",
+    "tags": [
+      "confidence_low: concrete"
+    ],
+    "rationale": "The speaker expresses uncertainty about their conclusion.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\42_no advice_cycle_188.txt",
+      "row": 12
+    },
+    "model": "meta-llama/llama-3.3-70b-instruct",
+    "provider": "DeepInfra",
+    "configuration_name": "llama-3-3-70b-instruct-241206"
+  },
+  {
+    "error": "JSONDecodeError",
+    "message": "Expecting ':' delimiter: line 1 column 429 (char 428)",
+    "raw_output": "{\"classifications\": [{\"phrase\": \"das ist eher vom Knochen, also keine Blutung\", \"context\": \"Ähm, Migräne mit Clusterattack. Mittellinie ist in der Mitte. Ähm, das Kleinhirn hat keine Aufhellungen und frontal finde ich auch keine. Hier temporal sind so leichte Aufhellungen, aber die sind recht symmetrisch, deswegen würde ich sagen, das ist eher vom Knochen, also keine Blutung\", \"tags: [interpretation: no_bleeding_explanation\", \"reasoning: alternative_medical_structure\"], \"rationale\": \"The speaker explains why they think the abnormality is not a hemorrhage, attributing it to a healthy anatomical structure (the bone).\"}]}",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\42_no advice_cycle_188.txt",
+      "row": 20
+    },
+    "model": "meta-llama/llama-3.3-70b-instruct",
+    "provider": "Cloudflare",
+    "configuration_name": "llama-3-3-70b-instruct-241206"
+  },
+  {
+    "phrase": "Temporal sieht mir hier der Sulcus auf der linken Seite größer als auf der rechten Seite, aber es ist eben sehr Hypodens, das heißt, ja, könnte entweder atrophisch sein oder es ist wirklich eine Blutung, die aber dann wahrscheinlich schon etwas länger zurückliegt.",
+    "context": "Dann Leiterfall. ? Bisschen verschwommen. Ähm, einmal durchgescrollt, das Kleinhirn sieht in Ordnung aus. Temporal sieht mir hier der Sulcus auf der linken Seite größer als auf der rechten Seite, aber es ist eben sehr Hypodens, das heißt, ja, könnte entweder atrophisch sein oder es ist wirklich eine Blutung, die aber dann wahrscheinlich schon etwas länger zurückliegt. Da bin ich mir nicht sicher.",
+    "tags": [
+      "interpretation: bleeding",
+      "confidence_low: concrete"
+    ],
+    "rationale": "The phrase mentions a potential bleeding, but the speaker is uncertain about it, indicating low confidence in their diagnosis.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\42_no advice_cycle_188.txt",
+      "row": 19
+    },
+    "model": "meta-llama/llama-3.3-70b-instruct",
+    "provider": "AkashML",
+    "configuration_name": "llama-3-3-70b-instruct-241206"
+  },
+  {
+    "phrase": "Da bin ich mir nicht sicher.",
+    "context": "Dann Leiterfall. ? Bisschen verschwommen. Ähm, einmal durchgescrollt, das Kleinhirn sieht in Ordnung aus. Temporal sieht mir hier der Sulcus auf der linken Seite größer als auf der rechten Seite, aber es ist eben sehr Hypodens, das heißt, ja, könnte entweder atrophisch sein oder es ist wirklich eine Blutung, die aber dann wahrscheinlich schon etwas länger zurückliegt. Da bin ich mir nicht sicher.",
+    "tags": [
+      "confidence_low: concrete"
+    ],
+    "rationale": "The speaker explicitly states that they are not sure, indicating low confidence in their diagnosis.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\42_no advice_cycle_188.txt",
+      "row": 19
+    },
+    "model": "meta-llama/llama-3.3-70b-instruct",
+    "provider": "AkashML",
+    "configuration_name": "llama-3-3-70b-instruct-241206"
+  },
+  {
+    "phrase": "Bisschen verschwommen.",
+    "context": "Dann Leiterfall. ? Bisschen verschwommen. Ähm, einmal durchgescrollt, das Kleinhirn sieht in Ordnung aus. Temporal sieht mir hier der Sulcus auf der linken Seite größer als auf der rechten Seite, aber es ist eben sehr Hypodens, das heißt, ja, könnte entweder atrophisch sein oder es ist wirklich eine Blutung, die aber dann wahrscheinlich schon etwas länger zurückliegt. Da bin ich mir nicht sicher.",
+    "tags": [
+      "awareness_of_task: image_quality"
+    ],
+    "rationale": "The speaker mentions that the image is a bit blurry, indicating awareness of potential issues with image quality.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\42_no advice_cycle_188.txt",
+      "row": 19
+    },
+    "model": "meta-llama/llama-3.3-70b-instruct",
+    "provider": "AkashML",
+    "configuration_name": "llama-3-3-70b-instruct-241206"
+  },
+  {
+    "phrase": "die Sulci recht gut erkennbar sind, temporal.",
+    "context": "60-jährige Frau mit Kopfschmerzen. Ähm, so dann, hier sieht man, dass auf der, äh also links von ihr, die Sulci recht gut erkennbar sind, temporal.",
+    "tags": [
+      "visual_search: description_of_medical_image_features"
+    ],
+    "rationale": "The person is describing the visibility of the sulci, which is a feature of the medical image.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\42_no advice_cycle_188.txt",
+      "row": 14
+    },
+    "model": "meta-llama/llama-3.3-70b-instruct",
+    "provider": "DeepInfra",
+    "configuration_name": "llama-3-3-70b-instruct-241206"
+  },
+  {
+    "phrase": "Aber rechts eigentlich nicht.",
+    "context": "60-jährige Frau mit Kopfschmerzen. Ähm, so dann, hier sieht man, dass auf der, äh also links von ihr, die Sulci recht gut erkennbar sind, temporal. Aber rechts eigentlich nicht.",
+    "tags": [
+      "indicator: anomaly_detected"
+    ],
+    "rationale": "The person notices an abnormality on the right side, where the sulci are not as visible as on the left side.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\42_no advice_cycle_188.txt",
+      "row": 14
+    },
+    "model": "meta-llama/llama-3.3-70b-instruct",
+    "provider": "DeepInfra",
+    "configuration_name": "llama-3-3-70b-instruct-241206"
+  },
+  {
+    "phrase": "ich könnte mir vorstellen, dass die Blutung vielleicht schon etwas länger her ist, weil es eher Hypodens als Hyperdens hier wäre.",
+    "context": "Ähm, ich könnte mir vorstellen, dass die Blutung vielleicht schon etwas länger her ist, weil es eher Hypodens als Hyperdens hier wäre. Ähm, man sieht zwar keine Mittellinienverlagerung, aber ich finde auf der rechten Seite temporal ist auf jeden Fall was.",
+    "tags": [
+      "interpretation: bleeding",
+      "reasoning: conclusion_findings"
+    ],
+    "rationale": "The person is interpreting the findings and considering the possibility of a bleeding, and also drawing conclusions from the density of the image.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\42_no advice_cycle_188.txt",
+      "row": 14
+    },
+    "model": "meta-llama/llama-3.3-70b-instruct",
+    "provider": "DeepInfra",
+    "configuration_name": "llama-3-3-70b-instruct-241206"
+  },
+  {
+    "phrase": "ich finde auf der rechten Seite temporal ist auf jeden Fall was.",
+    "context": "Ähm, ich könnte mir vorstellen, dass die Blutung vielleicht schon etwas länger her ist, weil es eher Hypodens als Hyperdens hier wäre. Ähm, man sieht zwar keine Mittellinienverlagerung, aber ich finde auf der rechten Seite temporal ist auf jeden Fall was.",
+    "tags": [
+      "indicator: anomaly_detected"
+    ],
+    "rationale": "The person is indicating that they have found something abnormal on the right side, temporal region.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\42_no advice_cycle_188.txt",
+      "row": 14
+    },
+    "model": "meta-llama/llama-3.3-70b-instruct",
+    "provider": "DeepInfra",
+    "configuration_name": "llama-3-3-70b-instruct-241206"
+  },
+  {
+    "phrase": "Ähm, auch hier sind die Symmetrisch, also die Mittellinie ist in der Mitte, die Seitenventrikel sind gut sichtbar.",
+    "context": "Dann eine 63-jährige, Autounfall. Ähm, auch hier sind die Symmetrisch, also die Mittellinie ist in der Mitte, die Seitenventrikel sind gut sichtbar. Ähm, schaue ich mir den Thalamus an, ist recht in Ordnung.",
+    "tags": [
+      "visual_search: description_of_medical_image_features"
+    ],
+    "rationale": "The person is describing the anatomical structures they are currently looking at, specifically the symmetry and visibility of the ventricles.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\42_no advice_cycle_188.txt",
+      "row": 5
+    },
+    "model": "meta-llama/llama-3.3-70b-instruct",
+    "provider": "DeepInfra",
+    "configuration_name": "llama-3-3-70b-instruct-241206"
+  },
+  {
+    "phrase": "Und ich würde jetzt bei einem Unfall, eher davon ausgehen, dass natürlich von außen die Kraft eingewirkt hat.",
+    "context": "Ähm, schaue ich mir den Thalamus an, ist recht in Ordnung. Und ich würde jetzt bei einem Unfall, eher davon ausgehen, dass natürlich von außen die Kraft eingewirkt hat.",
+    "tags": [
+      "reasoning: mentioning_contextual_information"
+    ],
+    "rationale": "The person is considering the medical history (the accident) and how it might relate to the findings.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\42_no advice_cycle_188.txt",
+      "row": 5
+    },
+    "model": "meta-llama/llama-3.3-70b-instruct",
+    "provider": "DeepInfra",
+    "configuration_name": "llama-3-3-70b-instruct-241206"
+  },
+  {
+    "phrase": "Das heißt ich würde eher nach, ja, so Subdural- oder Epiduralblutungen schauen.",
+    "context": "Und ich würde jetzt bei einem Unfall, eher davon ausgehen, dass natürlich von außen die Kraft eingewirkt hat. Das heißt ich würde eher nach, ja, so Subdural- oder Epiduralblutungen schauen.",
+    "tags": [
+      "reasoning: conclusion_contextual_information"
+    ],
+    "rationale": "The person is drawing conclusions from the medical history and considering possible causes (subdural or epidural bleeding).",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\42_no advice_cycle_188.txt",
+      "row": 5
+    },
+    "model": "meta-llama/llama-3.3-70b-instruct",
+    "provider": "DeepInfra",
+    "configuration_name": "llama-3-3-70b-instruct-241206"
+  },
+  {
+    "phrase": "Ähm, und ich sehe hier aber auch keine Verlagerung des Hirngewebes.",
+    "context": "Ähm, und ich sehe hier aber auch keine Verlagerung des Hirngewebes. Mh, daher würde ich hier, keine Blutung anklicken.",
+    "tags": [
+      "visual_search: description_of_medical_image_features"
+    ],
+    "rationale": "The person is describing what they see (or don't see) in the image, specifically the lack of displacement of brain tissue.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\42_no advice_cycle_188.txt",
+      "row": 5
+    },
+    "model": "meta-llama/llama-3.3-70b-instruct",
+    "provider": "DeepInfra",
+    "configuration_name": "llama-3-3-70b-instruct-241206"
+  },
+  {
+    "phrase": "Mh, daher würde ich hier, keine Blutung anklicken.",
+    "context": "Ähm, und ich sehe hier aber auch keine Verlagerung des Hirngewebes. Mh, daher würde ich hier, keine Blutung anklicken.",
+    "tags": [
+      "interpretation: no_bleeding"
+    ],
+    "rationale": "The person is interpreting the findings and deciding that there is no bleeding.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\42_no advice_cycle_188.txt",
+      "row": 5
+    },
+    "model": "meta-llama/llama-3.3-70b-instruct",
+    "provider": "DeepInfra",
+    "configuration_name": "llama-3-3-70b-instruct-241206"
+  },
+  {
+    "phrase": "hier im Bereich der Basalganglien, wenn man es mit der rechten Seite vergeleicht, links so eine Hyperdense Struktur, die eindeutig nicht auf der anderen Seite ist",
+    "context": "56 Jähriger, Autounfall. Hm, hier im Bereich der Basalganglien, wenn man es mit der rechten Seite vergeleicht, links so eine Hyperdense Struktur, die eindeutig nicht auf der anderen Seite ist, und auch hier.",
+    "tags": [
+      "indicator: anomaly_detected"
+    ],
+    "rationale": "The speaker notices an abnormality in the brain scan, specifically a hyperdense structure on the left side that is not present on the right side, indicating a potential anomaly.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\42_no advice_cycle_188.txt",
+      "row": 22
+    },
+    "model": "meta-llama/llama-3.3-70b-instruct",
+    "provider": "AkashML",
+    "configuration_name": "llama-3-3-70b-instruct-241206"
+  },
+  {
+    "phrase": "Ähm, es würde halt eigentlich eher für so Hypertone Blutungen sprechen, würde ich denken",
+    "context": "Ähm, es würde halt eigentlich eher für so Hypertone Blutungen sprechen, würde ich denken. Aber kann natürlich sein,  wenn da so eine Kraft draufschlägt, dass da im Bereich der Basalganglien, irgendwie was an den Gefäßen strukturiert? ist",
+    "tags": [
+      "interpretation: bleeding"
+    ],
+    "rationale": "The speaker interprets the abnormality as a potential hemorrhage, specifically a hypertensive bleeding, based on the appearance of the hyperdense structure.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\42_no advice_cycle_188.txt",
+      "row": 22
+    },
+    "model": "meta-llama/llama-3.3-70b-instruct",
+    "provider": "AkashML",
+    "configuration_name": "llama-3-3-70b-instruct-241206"
+  },
+  {
+    "phrase": "Aber kann natürlich sein,  wenn da so eine Kraft draufschlägt, dass da im Bereich der Basalganglien, irgendwie was an den Gefäßen strukturiert? ist",
+    "context": "Ähm, es würde halt eigentlich eher für so Hypertone Blutungen sprechen, würde ich denken. Aber kann natürlich sein,  wenn da so eine Kraft draufschlägt, dass da im Bereich der Basalganglien, irgendwie was an den Gefäßen strukturiert? ist",
+    "tags": [
+      "reasoning: alternative_medical_cause"
+    ],
+    "rationale": "The speaker considers an alternative explanation for the abnormality, suggesting that the force of the car accident could have caused damage to the blood vessels in the basal ganglia area.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\42_no advice_cycle_188.txt",
+      "row": 22
+    },
+    "model": "meta-llama/llama-3.3-70b-instruct",
+    "provider": "AkashML",
+    "configuration_name": "llama-3-3-70b-instruct-241206"
+  },
+  {
+    "phrase": "Ich würde sagen, da ist auf jeden Fall irgendwas",
+    "context": "56 Jähriger, Autounfall. Hm, hier im Bereich der Basalganglien, wenn man es mit der rechten Seite vergeleicht, links so eine Hyperdense Struktur, die eindeutig nicht auf der anderen Seite ist, und auch hier. Ähm, es würde halt eigentlich eher für so Hypertone Blutungen sprechen, würde ich denken. Aber kann natürlich sein,  wenn da so eine Kraft draufschlägt, dass da im Bereich der Basalganglien, irgendwie was an den Gefäßen strukturiert? ist. Ich würde sagen, da ist auf jeden Fall irgendwas",
+    "tags": [
+      "confidence_low: concrete"
+    ],
+    "rationale": "The speaker expresses low certainty about the diagnosis, stating that there is definitely something abnormal, but is unsure what it is.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\42_no advice_cycle_188.txt",
+      "row": 22
+    },
+    "model": "meta-llama/llama-3.3-70b-instruct",
+    "provider": "AkashML",
+    "configuration_name": "llama-3-3-70b-instruct-241206"
+  },
+  {
+    "phrase": "Deswegen sage ich keine Blutung.",
+    "context": "22-jährige Frau mit Sturz aus vier Metern. Hm… So, es ist wieder symmetrisch, nicht verlagert. Die Seitenventrikel sind recht eng, aber auch sichtbar. Und im Kleinhirn sehe ich keine Strukturen und es sieht alles symmetrisch, gleich dens aus. Deswegen sage ich keine Blutung.",
+    "tags": [
+      "interpretation: no_bleeding"
+    ],
+    "rationale": "The speaker explicitly states that they do not see any signs of bleeding, based on the symmetry and visibility of certain structures in the brain.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\42_no advice_cycle_188.txt",
+      "row": 8
+    },
+    "model": "meta-llama/llama-3.3-70b-instruct",
+    "provider": "DeepInfra",
+    "configuration_name": "llama-3-3-70b-instruct-241206"
+  },
+  {
+    "phrase": "Die Seitenventrikel sind recht eng, aber auch sichtbar.",
+    "context": "22-jährige Frau mit Sturz aus vier Metern. Hm… So, es ist wieder symmetrisch, nicht verlagert. Die Seitenventrikel sind recht eng, aber auch sichtbar. Und im Kleinhirn sehe ich keine Strukturen und es sieht alles symmetrisch, gleich dens aus. Deswegen sage ich keine Blutung.",
+    "tags": [
+      "visual_search: description_of_medical_image_features"
+    ],
+    "rationale": "The speaker describes specific anatomical structures (Seitenventrikel) and their appearance, indicating a focused visual search.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\42_no advice_cycle_188.txt",
+      "row": 8
+    },
+    "model": "meta-llama/llama-3.3-70b-instruct",
+    "provider": "DeepInfra",
+    "configuration_name": "llama-3-3-70b-instruct-241206"
+  },
+  {
+    "phrase": "Und im Kleinhirn sehe ich keine Strukturen",
+    "context": "22-jährige Frau mit Sturz aus vier Metern. Hm… So, es ist wieder symmetrisch, nicht verlagert. Die Seitenventrikel sind recht eng, aber auch sichtbar. Und im Kleinhirn sehe ich keine Strukturen und es sieht alles symmetrisch, gleich dens aus. Deswegen sage ich keine Blutung.",
+    "tags": [
+      "visual_search: description_of_medical_image_features"
+    ],
+    "rationale": "The speaker continues to describe specific anatomical structures (Kleinhirn) and their appearance, indicating a focused visual search.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\42_no advice_cycle_188.txt",
+      "row": 8
+    },
+    "model": "meta-llama/llama-3.3-70b-instruct",
+    "provider": "DeepInfra",
+    "configuration_name": "llama-3-3-70b-instruct-241206"
+  },
+  {
+    "phrase": "es ist wieder symmetrisch, nicht verlagert.",
+    "context": "22-jährige Frau mit Sturz aus vier Metern. Hm… So, es ist wieder symmetrisch, nicht verlagert. Die Seitenventrikel sind recht eng, aber auch sichtbar. Und im Kleinhirn sehe ich keine Strukturen und es sieht alles symmetrisch, gleich dens aus. Deswegen sage ich keine Blutung.",
+    "tags": [
+      "indicator: no_bleeding"
+    ],
+    "rationale": "The speaker notes the symmetry of the brain, which suggests that there is no abnormality or bleeding.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\42_no advice_cycle_188.txt",
+      "row": 8
+    },
+    "model": "meta-llama/llama-3.3-70b-instruct",
+    "provider": "DeepInfra",
+    "configuration_name": "llama-3-3-70b-instruct-241206"
+  },
+  {
+    "phrase": "Es könnte natürlich jetzt sein, dass sie gefallen ist oder dass sie schon eine Blutung hatte und deswegen gefallen ist.",
+    "context": "93-jährige Patientin, bewusstlos gefunden. Es könnte natürlich jetzt sein, dass sie gefallen ist oder dass sie schon eine Blutung hatte und deswegen gefallen ist.",
+    "tags": [
+      "reasoning: alternative_medical_cause"
+    ],
+    "rationale": "The speaker is considering alternative medical causes for the patient's condition, such as a fall or a pre-existing hemorrhage.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\42_no advice_cycle_188.txt",
+      "row": 16
+    },
+    "model": "meta-llama/llama-3.3-70b-instruct",
+    "provider": "DeepInfra",
+    "configuration_name": "llama-3-3-70b-instruct-241206"
+  },
+  {
+    "phrase": "Die hat hier ocipital auf jeden Fall, hm, sieht so aus als hätte sie eine leichte Mittellinienverlagerung.",
+    "context": "Die hat hier ocipital auf jeden Fall, hm, sieht so aus als hätte sie eine leichte Mittellinienverlagerung. Und gucke mir das Kleinhirn an.",
+    "tags": [
+      "indicator: anomaly_detected"
+    ],
+    "rationale": "The speaker notices an abnormality in the patient's brain, specifically a possible midline shift.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\42_no advice_cycle_188.txt",
+      "row": 16
+    },
+    "model": "meta-llama/llama-3.3-70b-instruct",
+    "provider": "DeepInfra",
+    "configuration_name": "llama-3-3-70b-instruct-241206"
+  },
+  {
+    "phrase": "Wenn man sich das hier im Vergleich, sieht es hier auch sehr hyperdens aus, deswegen würde ich sagen sie hat rechts ocipital eine Blutung, das würde auch mit der Mittellinie passen.",
+    "context": "Und gucke mir das Kleinhirn an. Hm, deswegen. Wenn man sich das hier im Vergleich, sieht es hier auch sehr hyperdens aus, deswegen würde ich sagen sie hat rechts ocipital eine Blutung, das würde auch mit der Mittellinie passen.",
+    "tags": [
+      "interpretation: bleeding"
+    ],
+    "rationale": "The speaker interprets the abnormality as a hemorrhage, specifically located in the right occipital region, based on the comparison and the appearance of hyperdensity.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\42_no advice_cycle_188.txt",
+      "row": 16
+    },
+    "model": "meta-llama/llama-3.3-70b-instruct",
+    "provider": "DeepInfra",
+    "configuration_name": "llama-3-3-70b-instruct-241206"
+  },
+  {
+    "phrase": "hätte Hirndruck oder eine Blutung, weil man die Sulci nicht erkennen kann",
+    "context": "46-jährige Frau. Ähm, hier sieht es mir wieder so aus, als wäre die rechte Hemisphäre, ähm, hätte Hirndruck oder eine Blutung, weil man die Sulci nicht erkennen kann, im Vergleich zur linke Hemisphäre.",
+    "tags": [
+      "interpretation: bleeding"
+    ],
+    "rationale": "The person is interpreting the abnormality as a possible hemorrhage due to the inability to recognize the sulci, which is a characteristic of a healthy brain.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\42_no advice_cycle_188.txt",
+      "row": 27
+    },
+    "model": "meta-llama/llama-3.3-70b-instruct",
+    "provider": "Together",
+    "configuration_name": "llama-3-3-70b-instruct-241206"
+  },
+  {
+    "phrase": "da bin ich mir relativ sicher",
+    "context": "Ja genau, und hier würde ich sagen, dass rechts frontal, Subdural- oder eher eine Epiduralblutung vorliegt, aber es ist eindeutig eine Blutung. Da bin ich mir relativ sicher.",
+    "tags": [
+      "confidence_high: secondary"
+    ],
+    "rationale": "The person expresses relatively high certainty about their diagnosis, implying a sense of confidence in their interpretation.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\42_no advice_cycle_188.txt",
+      "row": 27
+    },
+    "model": "meta-llama/llama-3.3-70b-instruct",
+    "provider": "Together",
+    "configuration_name": "llama-3-3-70b-instruct-241206"
+  },
+  {
+    "phrase": "eine Blutung",
+    "context": "Ja genau, und hier würde ich sagen, dass rechts frontal, Subdural- oder eher eine Epiduralblutung vorliegt, aber es ist eindeutig eine Blutung.",
+    "tags": [
+      "interpretation: bleeding"
+    ],
+    "rationale": "The person explicitly states that they believe a hemorrhage is present, which aligns with the interpretation: bleeding tag.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\42_no advice_cycle_188.txt",
+      "row": 27
+    },
+    "model": "meta-llama/llama-3.3-70b-instruct",
+    "provider": "Together",
+    "configuration_name": "llama-3-3-70b-instruct-241206"
+  },
+  {
+    "phrase": "Da würde ich jetzt natürlich eher so im Bereich der Basalganglien schauen, ob sie da irgendeine Blutung hat.",
+    "context": "Ähm, 47-jährige Frau mit Bluthochdruck. Da würde ich jetzt natürlich eher so im Bereich der Basalganglien schauen, ob sie da irgendeine Blutung hat.",
+    "tags": [
+      "visual_search: based_on_contextual_information"
+    ],
+    "rationale": "The person is searching for abnormalities based on the medical history of the patient, which is high blood pressure.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\42_no advice_cycle_188.txt",
+      "row": 25
+    },
+    "model": "meta-llama/llama-3.3-70b-instruct",
+    "provider": "AkashML",
+    "configuration_name": "llama-3-3-70b-instruct-241206"
+  },
+  {
+    "phrase": "Mh, ich sehe hier keine, also es ist recht symmetrisch und ich sehe nichts, was Hyperdens ist.",
+    "context": "Mh, ich sehe hier keine, also es ist recht symmetrisch und ich sehe nichts, was Hyperdens ist. Auch wenn man es im vergleicht Seiten, im Seitenvergleich.",
+    "tags": [
+      "indicator: no_bleeding"
+    ],
+    "rationale": "The person classifies a specific image area as unremarkable, indicating no signs of bleeding.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\42_no advice_cycle_188.txt",
+      "row": 25
+    },
+    "model": "meta-llama/llama-3.3-70b-instruct",
+    "provider": "AkashML",
+    "configuration_name": "llama-3-3-70b-instruct-241206"
+  },
+  {
+    "phrase": "Ähm, hier frontal, das ist glaube ich einfach nur Knochen, ja sieht so aus.",
+    "context": "Ähm, hier frontal, das ist glaube ich einfach nur Knochen, ja sieht so aus. Ich sage hier ist keine Blutung.",
+    "tags": [
+      "interpretation: no_bleeding_explanation"
+    ],
+    "rationale": "The person explains why the abnormality cannot be a hemorrhage, attributing it to a healthy anatomical structure, in this case, bone.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\42_no advice_cycle_188.txt",
+      "row": 25
+    },
+    "model": "meta-llama/llama-3.3-70b-instruct",
+    "provider": "AkashML",
+    "configuration_name": "llama-3-3-70b-instruct-241206"
+  },
+  {
+    "phrase": "Ich sage hier ist keine Blutung.",
+    "context": "Ähm, hier frontal, das ist glaube ich einfach nur Knochen, ja sieht so aus. Ich sage hier ist keine Blutung.",
+    "tags": [
+      "interpretation: no_bleeding"
+    ],
+    "rationale": "The person interprets the finding as 'no hemorrhage', indicating a conclusion based on their examination.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\42_no advice_cycle_188.txt",
+      "row": 25
+    },
+    "model": "meta-llama/llama-3.3-70b-instruct",
+    "provider": "AkashML",
+    "configuration_name": "llama-3-3-70b-instruct-241206"
+  },
+  {
+    "phrase": "als wäre auf der linke Seite, so parietal, eine Hyperdense, ja vielleicht Epiduralblutung",
+    "context": "73, männlich. Hier siehts, zumindest hier oben schon so aus, als wäre auf der linke Seite, so parietal, eine Hyperdense, ja vielleicht Epiduralblutung. Nach einem E-Bike accident.",
+    "tags": [
+      "interpretation: bleeding"
+    ],
+    "rationale": "The phrase suggests the person is interpreting a finding as a potential hemorrhage (Epiduralblutung), which aligns with the 'interpretation: bleeding' tag.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\42_no advice_cycle_188.txt",
+      "row": 18
+    },
+    "model": "meta-llama/llama-3.3-70b-instruct",
+    "provider": "DeepInfra",
+    "configuration_name": "llama-3-3-70b-instruct-241206"
+  },
+  {
+    "phrase": "Nach einem E-Bike accident",
+    "context": "73, männlich. Hier siehts, zumindest hier oben schon so aus, als wäre auf der linke Seite, so parietal, eine Hyperdense, ja vielleicht Epiduralblutung. Nach einem E-Bike accident.",
+    "tags": [
+      "reasoning: mentioning_contextual_information"
+    ],
+    "rationale": "The mention of 'Nach einem E-Bike accident' provides contextual information about the patient's medical history, which is relevant to the diagnosis.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\42_no advice_cycle_188.txt",
+      "row": 18
+    },
+    "model": "meta-llama/llama-3.3-70b-instruct",
+    "provider": "DeepInfra",
+    "configuration_name": "llama-3-3-70b-instruct-241206"
+  },
+  {
+    "phrase": "Ist zwar nicht so wahrscheinlich, dass man da oben drauf fällt, also es ist eindeutig asymmetrisch und ich würde sagen, das ist eine Blutung",
+    "context": "73, männlich. Hier siehts, zumindest hier oben schon so aus, als wäre auf der linke Seite, so parietal, eine Hyperdense, ja vielleicht Epiduralblutung. Nach einem E-Bike accident. Ist zwar nicht so wahrscheinlich, dass man da oben drauf fällt, also es ist eindeutig asymmetrisch und ich würde sagen, das ist eine Blutung",
+    "tags": [
+      "interpretation: bleeding",
+      "confidence_high: concrete"
+    ],
+    "rationale": "The person explicitly states 'das ist eine Blutung', indicating high confidence in their diagnosis of a hemorrhage.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\42_no advice_cycle_188.txt",
+      "row": 18
+    },
+    "model": "meta-llama/llama-3.3-70b-instruct",
+    "provider": "DeepInfra",
+    "configuration_name": "llama-3-3-70b-instruct-241206"
+  },
+  {
+    "phrase": "Hier sehe ich jetzt erst mal keine Asymmetrien.",
+    "context": "62 mit Kopfschmerzen, ein Mann. Hier sehe ich jetzt erst mal keine Asymmetrien. Im Kleinhirn auch nicht.",
+    "tags": [
+      "indicator: no_bleeding"
+    ],
+    "rationale": "The person states they don't see any asymmetries, which suggests they are looking for signs of a hemorrhage but don't see any indicators of one.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\42_no advice_cycle_188.txt",
+      "row": 28
+    },
+    "model": "meta-llama/llama-3.3-70b-instruct",
+    "provider": "AkashML",
+    "configuration_name": "llama-3-3-70b-instruct-241206"
+  },
+  {
+    "phrase": "Da würde ich jetzt wieder an eine Subarachnoidalblutung denken, aber ich glaube das ist nur Knochen, deswegen keine Hyperdensität.",
+    "context": "Hier sehe ich jetzt erst mal keine Asymmetrien. Im Kleinhirn auch nicht. Da würde ich jetzt wieder an eine Subarachnoidalblutung denken, aber ich glaube das ist nur Knochen, deswegen keine Hyperdensität.",
+    "tags": [
+      "interpretation: no_bleeding_explanation"
+    ],
+    "rationale": "The person considers the possibility of a subarachnoidal hemorrhage but explains why they think it's not one, attributing the appearance to bone rather than hyperdensity from blood.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\42_no advice_cycle_188.txt",
+      "row": 28
+    },
+    "model": "meta-llama/llama-3.3-70b-instruct",
+    "provider": "AkashML",
+    "configuration_name": "llama-3-3-70b-instruct-241206"
+  },
+  {
+    "phrase": "Äh, das ist alles symmetrisch, keine Mittellinienverlagerung und ich würde sagen hier ist keine Blutung.",
+    "context": "Da würde ich jetzt wieder an eine Subarachnoidalblutung denken, aber ich glaube das ist nur Knochen, deswegen keine Hyperdensität. Äh, das ist alles symmetrisch, keine Mittellinienverlagerung und ich würde sagen hier ist keine Blutung.",
+    "tags": [
+      "interpretation: no_bleeding"
+    ],
+    "rationale": "The person concludes that everything appears symmetrical, there's no midline shift, and based on this, they state there is no hemorrhage.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\42_no advice_cycle_188.txt",
+      "row": 28
+    },
+    "model": "meta-llama/llama-3.3-70b-instruct",
+    "provider": "AkashML",
+    "configuration_name": "llama-3-3-70b-instruct-241206"
+  },
+  {
+    "phrase": "Ich gehe wieder von oben durch.",
+    "context": "So, nächster Fall ist ein 24-jähriger Mann, der einen Schlag gegen den Kopf bekommen hat. Und, äh, ist das, ah, ähm. Also ich gehe wieder von oben durch.",
+    "tags": [
+      "visual_search: description_of_own_approach_without_external_help"
+    ],
+    "rationale": "The speaker is explicitly commenting on their own search procedure, indicating that they are starting from the top and working their way down.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\42_no advice_cycle_188.txt",
+      "row": 1
+    },
+    "model": "meta-llama/llama-3.3-70b-instruct",
+    "provider": "DeepInfra",
+    "configuration_name": "llama-3-3-70b-instruct-241206"
+  },
+  {
+    "phrase": "Diesen Fall hatte ich letztens schon mal so ähnlich, und da habe ich mich gefragt, was diese, warum der Knochen hier so eingeschlagen ist.",
+    "context": "Also ich gehe wieder von oben durch. Es sieht etwas schief aus, aber ich glaube das ist einfach das CT. Diesen Fall hatte ich letztens schon mal so ähnlich, und da habe ich mich gefragt, was diese, warum der Knochen hier so eingeschlagen ist.",
+    "tags": [
+      "reference: past_case"
+    ],
+    "rationale": "The speaker is referring to a previous case that was similar, indicating that they are drawing on past experience.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\42_no advice_cycle_188.txt",
+      "row": 1
+    },
+    "model": "meta-llama/llama-3.3-70b-instruct",
+    "provider": "DeepInfra",
+    "configuration_name": "llama-3-3-70b-instruct-241206"
+  },
+  {
+    "phrase": "Aber ich könnte mir vorstellen, dass das einfach ein Sinus ist.",
+    "context": "Diesen Fall hatte ich letztens schon mal so ähnlich, und da habe ich mich gefragt, was diese, warum der Knochen hier so eingeschlagen ist. Aber ich könnte mir vorstellen, dass das einfach ein Sinus ist.",
+    "tags": [
+      "reasoning: alternative_medical_structure"
+    ],
+    "rationale": "The speaker is attributing the abnormality to a healthy anatomical structure, in this case, a sinus.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\42_no advice_cycle_188.txt",
+      "row": 1
+    },
+    "model": "meta-llama/llama-3.3-70b-instruct",
+    "provider": "DeepInfra",
+    "configuration_name": "llama-3-3-70b-instruct-241206"
+  },
+  {
+    "phrase": "Hier sieht aber, sehen die Temporallapen sehr von der Schädelhaut abgelöst aus, deswegen würde ich sagen, dass hier auf jeden Fall irgendwas falsch ist, und ich könnte mir vorstellen, dass es eine Blutung ist.",
+    "context": "Aber ich könnte mir vorstellen, dass das einfach ein Sinus ist. Ähm, so und. Hier sieht aber, sehen die Temporallapen sehr von der Schädelhaut abgelöst aus, deswegen würde ich sagen, dass hier auf jeden Fall irgendwas falsch ist, und ich könnte mir vorstellen, dass es eine Blutung ist.",
+    "tags": [
+      "indicator: anomaly_detected",
+      "interpretation: bleeding"
+    ],
+    "rationale": "The speaker has noticed an abnormality and is interpreting it as a possible hemorrhage.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\42_no advice_cycle_188.txt",
+      "row": 1
+    },
+    "model": "meta-llama/llama-3.3-70b-instruct",
+    "provider": "DeepInfra",
+    "configuration_name": "llama-3-3-70b-instruct-241206"
+  },
+  {
+    "phrase": "Außerdem ist die linke Hemisphäre stark, also sind die Sulci sehr verstrichen. Deswegen würde ich sagen, das ist asymmetrisch, und würde sagen, dass da eine Blutung vorliegen würde.",
+    "context": "Hier sieht aber, sehen die Temporallapen sehr von der Schädelhaut abgelöst aus, deswegen würde ich sagen, dass hier auf jeden Fall irgendwas falsch ist, und ich könnte mir vorstellen, dass es eine Blutung ist. Außerdem ist die linke Hemisphäre stark, also sind die Sulci sehr verstrichen.",
+    "tags": [
+      "interpretation: bleeding"
+    ],
+    "rationale": "The speaker is interpreting the findings as indicative of a hemorrhage, based on the asymmetry and other characteristics.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\42_no advice_cycle_188.txt",
+      "row": 1
+    },
+    "model": "meta-llama/llama-3.3-70b-instruct",
+    "provider": "DeepInfra",
+    "configuration_name": "llama-3-3-70b-instruct-241206"
+  },
+  {
+    "phrase": "Ja, und ich bin relativ sicher, dass eine vorliegt.",
+    "context": "Außerdem ist die linke Hemisphäre stark, also sind die Sulci sehr verstrichen. Deswegen würde ich sagen, das ist asymmetrisch, und würde sagen, dass da eine Blutung vorliegen würde. Ja, und ich bin relativ sicher, dass eine vorliegt.",
+    "tags": [
+      "confidence_high: secondary"
+    ],
+    "rationale": "The speaker is expressing high certainty regarding the diagnostic process, using the phrase 'relativ sicher'.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\42_no advice_cycle_188.txt",
+      "row": 1
+    },
+    "model": "meta-llama/llama-3.3-70b-instruct",
+    "provider": "DeepInfra",
+    "configuration_name": "llama-3-3-70b-instruct-241206"
+  },
+  {
+    "phrase": "Ähm, ich kann sie aber nicht ganz einordnen, wo.",
+    "context": "Ja, und ich bin relativ sicher, dass eine vorliegt. Ähm, ich kann sie aber nicht ganz einordnen, wo.",
+    "tags": [
+      "interpretation: bleeding_localization_unclear"
+    ],
+    "rationale": "The speaker is uncertain about the exact location of the hemorrhage, despite being relatively sure that one is present.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\42_no advice_cycle_188.txt",
+      "row": 1
+    },
+    "model": "meta-llama/llama-3.3-70b-instruct",
+    "provider": "DeepInfra",
+    "configuration_name": "llama-3-3-70b-instruct-241206"
+  },
+  {
+    "phrase": "Das kann natürlich jetzt auch vom Knochen irgendwie sein",
+    "context": "Ähm, 19-jährige beim Fußball zusammengeknallt mit eine anderen Kopf. Hier sieht es … parietal links, sieht man so eine Aufhellung, wenn man es mit der rechten Seite vergleicht.  Das kann natürlich jetzt auch vom Knochen irgendwie sein, aber da es asymmetrisch ist, sage ich, dass es eine Blutung sein könnte, und dann wäre es eher so eine Subdurale Blutung.",
+    "tags": [
+      "reasoning: alternative_medical_structure"
+    ],
+    "rationale": "The speaker is considering an alternative explanation for the abnormality, attributing it to a healthy anatomical structure (the bone).",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\42_no advice_cycle_188.txt",
+      "row": 21
+    },
+    "model": "meta-llama/llama-3.3-70b-instruct",
+    "provider": "DeepInfra",
+    "configuration_name": "llama-3-3-70b-instruct-241206"
+  },
+  {
+    "phrase": "aber da es asymmetrisch ist, sage ich, dass es eine Blutung sein könnte",
+    "context": "Ähm, 19-jährige beim Fußball zusammengeknallt mit eine anderen Kopf. Hier sieht es … parietal links, sieht man so eine Aufhellung, wenn man es mit der rechten Seite vergleicht.  Das kann natürlich jetzt auch vom Knochen irgendwie sein, aber da es asymmetrisch ist, sage ich, dass es eine Blutung sein könnte, und dann wäre es eher so eine Subdurale Blutung.",
+    "tags": [
+      "interpretation: bleeding"
+    ],
+    "rationale": "The speaker is interpreting the abnormality as a possible hemorrhage, based on the asymmetry of the image.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\42_no advice_cycle_188.txt",
+      "row": 21
+    },
+    "model": "meta-llama/llama-3.3-70b-instruct",
+    "provider": "DeepInfra",
+    "configuration_name": "llama-3-3-70b-instruct-241206"
+  },
+  {
+    "phrase": "und dann wäre es eher so eine Subdurale Blutung",
+    "context": "Ähm, 19-jährige beim Fußball zusammengeknallt mit eine anderen Kopf. Hier sieht es … parietal links, sieht man so eine Aufhellung, wenn man es mit der rechten Seite vergleicht.  Das kann natürlich jetzt auch vom Knochen irgendwie sein, aber da es asymmetrisch ist, sage ich, dass es eine Blutung sein könnte, und dann wäre es eher so eine Subdurale Blutung.",
+    "tags": [
+      "interpretation: description_bleeding"
+    ],
+    "rationale": "The speaker is providing a more detailed description of the possible hemorrhage, specifying that it could be a subdural hemorrhage.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\42_no advice_cycle_188.txt",
+      "row": 21
+    },
+    "model": "meta-llama/llama-3.3-70b-instruct",
+    "provider": "DeepInfra",
+    "configuration_name": "llama-3-3-70b-instruct-241206"
+  },
+  {
+    "phrase": "Hier, sieht man keine Mittelinienverlagerung.",
+    "context": "40 mit Autounfall. Hier, sieht man keine Mittelinienverlagerung. Hm, das ist Knochen, das ist keine Blutung. Und das Kleinhirn sieht auch normal aus. Hm, sage ich jetzt keine Blutung.",
+    "tags": [
+      "indicator: no_bleeding"
+    ],
+    "rationale": "The person is indicating that there is no midline shift, which is a sign that there might not be a significant hemorrhage.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\42_no advice_cycle_188.txt",
+      "row": 10
+    },
+    "model": "meta-llama/llama-3.3-70b-instruct",
+    "provider": "DeepInfra",
+    "configuration_name": "llama-3-3-70b-instruct-241206"
+  },
+  {
+    "phrase": "Hm, das ist Knochen, das ist keine Blutung.",
+    "context": "40 mit Autounfall. Hier, sieht man keine Mittelinienverlagerung. Hm, das ist Knochen, das ist keine Blutung. Und das Kleinhirn sieht auch normal aus. Hm, sage ich jetzt keine Blutung.",
+    "tags": [
+      "interpretation: no_bleeding_explanation"
+    ],
+    "rationale": "The person is explaining why they think there is no hemorrhage, attributing the appearance to bone rather than blood.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\42_no advice_cycle_188.txt",
+      "row": 10
+    },
+    "model": "meta-llama/llama-3.3-70b-instruct",
+    "provider": "DeepInfra",
+    "configuration_name": "llama-3-3-70b-instruct-241206"
+  },
+  {
+    "phrase": "Und das Kleinhirn sieht auch normal aus.",
+    "context": "40 mit Autounfall. Hier, sieht man keine Mittelinienverlagerung. Hm, das ist Knochen, das ist keine Blutung. Und das Kleinhirn sieht auch normal aus. Hm, sage ich jetzt keine Blutung.",
+    "tags": [
+      "indicator: no_bleeding"
+    ],
+    "rationale": "The person is indicating that the cerebellum appears normal, further supporting the conclusion of no hemorrhage.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\42_no advice_cycle_188.txt",
+      "row": 10
+    },
+    "model": "meta-llama/llama-3.3-70b-instruct",
+    "provider": "DeepInfra",
+    "configuration_name": "llama-3-3-70b-instruct-241206"
+  },
+  {
+    "phrase": "Hm, sage ich jetzt keine Blutung.",
+    "context": "40 mit Autounfall. Hier, sieht man keine Mittelinienverlagerung. Hm, das ist Knochen, das ist keine Blutung. Und das Kleinhirn sieht auch normal aus. Hm, sage ich jetzt keine Blutung.",
+    "tags": [
+      "interpretation: no_bleeding"
+    ],
+    "rationale": "The person is concluding that there is no hemorrhage based on their observations.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\42_no advice_cycle_188.txt",
+      "row": 10
+    },
+    "model": "meta-llama/llama-3.3-70b-instruct",
+    "provider": "DeepInfra",
+    "configuration_name": "llama-3-3-70b-instruct-241206"
+  },
+  {
+    "phrase": "als könnte auf der linken Seite so eine Hyperdense Struktur im Vergleich zur rechten Seite sein",
+    "context": "Also im Kleinhirn sieht es hier so aus, als könnte auf der linken Seite so eine Hyperdense Struktur im Vergleich zur rechten Seite sein. An den Schädelwänden sehe ich jetzt keine Blutungen, aber ja, es wäre auch eine recht untypische Stelle, wenn er jetzt gefallen ist, dass er da die Blutung hätte, deswegen würde ich sagen hier ist keine Blutung.",
+    "tags": [
+      "indicator: anomaly_detected"
+    ],
+    "rationale": "The phrase indicates that the person has noticed an abnormality, a hyperdense structure, on the left side of the brain, which is atypical and warrants further consideration.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\42_no advice_cycle_188.txt",
+      "row": 24
+    },
+    "model": "meta-llama/llama-3.3-70b-instruct",
+    "provider": "DeepInfra",
+    "configuration_name": "llama-3-3-70b-instruct-241206"
+  },
+  {
+    "phrase": "An den Schädelwänden sehe ich jetzt keine Blutungen",
+    "context": "Also im Kleinhirn sieht es hier so aus, als könnte auf der linken Seite so eine Hyperdense Struktur im Vergleich zur rechten Seite sein. An den Schädelwänden sehe ich jetzt keine Blutungen, aber ja, es wäre auch eine recht untypische Stelle, wenn er jetzt gefallen ist, dass er da die Blutung hätte, deswegen würde ich sagen hier ist keine Blutung.",
+    "tags": [
+      "indicator: no_bleeding"
+    ],
+    "rationale": "The person explicitly states that they do not see any bleeding on the skull walls, which suggests that they have checked for signs of bleeding in this area and found none.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\42_no advice_cycle_188.txt",
+      "row": 24
+    },
+    "model": "meta-llama/llama-3.3-70b-instruct",
+    "provider": "DeepInfra",
+    "configuration_name": "llama-3-3-70b-instruct-241206"
+  },
+  {
+    "phrase": "deswegen würde ich sagen hier ist keine Blutung",
+    "context": "Also im Kleinhirn sieht es hier so aus, als könnte auf der linken Seite so eine Hyperdense Struktur im Vergleich zur rechten Seite sein. An den Schädelwänden sehe ich jetzt keine Blutungen, aber ja, es wäre auch eine recht untypische Stelle, wenn er jetzt gefallen ist, dass er da die Blutung hätte, deswegen würde ich sagen hier ist keine Blutung.",
+    "tags": [
+      "interpretation: no_bleeding"
+    ],
+    "rationale": "The person concludes that there is no bleeding, based on their analysis of the image and the context of the patient's fall.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\42_no advice_cycle_188.txt",
+      "row": 24
+    },
+    "model": "meta-llama/llama-3.3-70b-instruct",
+    "provider": "DeepInfra",
+    "configuration_name": "llama-3-3-70b-instruct-241206"
+  },
+  {
+    "phrase": "was eine Subduralblutung wäre",
+    "context": "Ähm, erstmal im Kleinhirn sehe ich nichts. Das wäre dann ja jetzt wieder eher so ein Fall, von entweder Schädelfraktur mit Sub- oder Epiduralblutung. Mhm, und das einzige, was ich hier sehen kann, ist auf der linken Seite frontal, ähm, so eine leichte Hyperdensität hier, was eine Subduralblutung wäre und darunter fängt der Sulcus erst an.",
+    "tags": [
+      "interpretation: bleeding"
+    ],
+    "rationale": "The speaker is interpreting the abnormality as a hemorrhage, specifically a subdural hemorrhage, based on the hyperdensity observed on the left side frontal area.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\42_no advice_cycle_188.txt",
+      "row": 33
+    },
+    "model": "meta-llama/llama-3.3-70b-instruct",
+    "provider": "Parasail",
+    "configuration_name": "llama-3-3-70b-instruct-241206"
+  },
+  {
+    "phrase": "eine Subduralblutung, eine kleine",
+    "context": "Ähm, erstmal im Kleinhirn sehe ich nichts. Das wäre dann ja jetzt wieder eher so ein Fall, von entweder Schädelfraktur mit Sub- oder Epiduralblutung. Mhm, und das einzige, was ich hier sehen kann, ist auf der linken Seite frontal, ähm, so eine leichte Hyperdensität hier, was eine Subduralblutung wäre und darunter fängt der Sulcus erst an. Deswegen sage ich das ist eine Subduralblutung, eine kleine.",
+    "tags": [
+      "interpretation: description_bleeding"
+    ],
+    "rationale": "The speaker is describing the identified hemorrhage in more detail, specifying that it is a small subdural hemorrhage.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\42_no advice_cycle_188.txt",
+      "row": 33
+    },
+    "model": "meta-llama/llama-3.3-70b-instruct",
+    "provider": "Parasail",
+    "configuration_name": "llama-3-3-70b-instruct-241206"
+  },
+  {
+    "phrase": "Mittellinie ist recht mittig.",
+    "context": "66-jährige mit Fahrradunfall. Mittellinie ist recht mittig. Kleinhirn sehe ich nichts und auch sonst sieht es mir nicht so aus, als wären da irgendwo Hyperdensitäten, daher sage ich hier liegt keine Blutung vor.",
+    "tags": [
+      "visual_search: description_of_medical_image_features"
+    ],
+    "rationale": "The person is describing the appearance of the brain's midline, indicating they are examining specific anatomical structures.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\42_no advice_cycle_188.txt",
+      "row": 23
+    },
+    "model": "meta-llama/llama-3.3-70b-instruct",
+    "provider": "DeepInfra",
+    "configuration_name": "llama-3-3-70b-instruct-241206"
+  },
+  {
+    "phrase": "Kleinhirn sehe ich nichts und auch sonst sieht es mir nicht so aus, als wären da irgendwo Hyperdensitäten",
+    "context": "66-jährige mit Fahrradunfall. Mittellinie ist recht mittig. Kleinhirn sehe ich nichts und auch sonst sieht es mir nicht so aus, als wären da irgendwo Hyperdensitäten, daher sage ich hier liegt keine Blutung vor.",
+    "tags": [
+      "visual_search: description_of_medical_image_features",
+      "indicator: no_bleeding"
+    ],
+    "rationale": "The person is describing what they see in the cerebellum and the rest of the image, indicating no signs of hyperdensity which could suggest bleeding, and thus classifying a specific image area as unremarkable.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\42_no advice_cycle_188.txt",
+      "row": 23
+    },
+    "model": "meta-llama/llama-3.3-70b-instruct",
+    "provider": "DeepInfra",
+    "configuration_name": "llama-3-3-70b-instruct-241206"
+  },
+  {
+    "phrase": "daher sage ich hier liegt keine Blutung vor",
+    "context": "66-jährige mit Fahrradunfall. Mittellinie ist recht mittig. Kleinhirn sehe ich nichts und auch sonst sieht es mir nicht so aus, als wären da irgendwo Hyperdensitäten, daher sage ich hier liegt keine Blutung vor.",
+    "tags": [
+      "interpretation: no_bleeding"
+    ],
+    "rationale": "The person interprets the findings as indicating no hemorrhage based on the lack of observed hyperdensities.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\42_no advice_cycle_188.txt",
+      "row": 23
+    },
+    "model": "meta-llama/llama-3.3-70b-instruct",
+    "provider": "DeepInfra",
+    "configuration_name": "llama-3-3-70b-instruct-241206"
+  },
+  {
+    "phrase": "Im Seitenvergleich sehe ich hier erstmal keine Aufhellungen.",
+    "context": "Dann, ähm, nächster Fall. 26 mit Fahrradunfall. Im Seitenvergleich sehe ich hier erstmal keine Aufhellungen.",
+    "tags": [
+      "indicator: no_bleeding"
+    ],
+    "rationale": "The person initially states that they do not see any abnormalities (Aufhellungen) in the comparison, which suggests that they are looking for signs of bleeding or other issues but do not see any at first glance.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\42_no advice_cycle_188.txt",
+      "row": 26
+    },
+    "model": "meta-llama/llama-3.3-70b-instruct",
+    "provider": "DeepInfra",
+    "configuration_name": "llama-3-3-70b-instruct-241206"
+  },
+  {
+    "phrase": "Hier ist jetzt im frontalen Temporallappen, links eindeutig was Hyperdenser als rechts",
+    "context": "Im Seitenvergleich sehe ich hier erstmal keine Aufhellungen. Hier ist jetzt im frontalen Temporallappen, links eindeutig was Hyperdenser als rechts",
+    "tags": [
+      "indicator: anomaly_detected"
+    ],
+    "rationale": "The person notices an abnormality (something hyperdense) on the left side compared to the right, indicating a potential issue.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\42_no advice_cycle_188.txt",
+      "row": 26
+    },
+    "model": "meta-llama/llama-3.3-70b-instruct",
+    "provider": "DeepInfra",
+    "configuration_name": "llama-3-3-70b-instruct-241206"
+  },
+  {
+    "phrase": "und das würde natürlich auch passen, wenn er mit dem Fahrrad aufs Gesicht gefallen ist.",
+    "context": "Hier ist jetzt im frontalen Temporallappen, links eindeutig was Hyperdenser als rechts und das würde natürlich auch passen, wenn er mit dem Fahrrad aufs Gesicht gefallen ist.",
+    "tags": [
+      "reasoning: conclusion_contextual_information"
+    ],
+    "rationale": "The person connects the medical history (the patient fell on their face) with the found indicator (the hyperdense area), suggesting that the injury could be related to the accident.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\42_no advice_cycle_188.txt",
+      "row": 26
+    },
+    "model": "meta-llama/llama-3.3-70b-instruct",
+    "provider": "DeepInfra",
+    "configuration_name": "llama-3-3-70b-instruct-241206"
+  },
+  {
+    "phrase": "Dass das da eventuell eine Verletzung ist, und da würde ich sagen, da ist eine Blutung.",
+    "context": "und das würde natürlich auch passen, wenn er mit dem Fahrrad aufs Gesicht gefallen ist. Dass das da eventuell eine Verletzung ist, und da würde ich sagen, da ist eine Blutung.",
+    "tags": [
+      "interpretation: bleeding"
+    ],
+    "rationale": "The person interprets the abnormality as a potential injury and concludes that it is likely a hemorrhage (Blutung).",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\42_no advice_cycle_188.txt",
+      "row": 26
+    },
+    "model": "meta-llama/llama-3.3-70b-instruct",
+    "provider": "DeepInfra",
+    "configuration_name": "llama-3-3-70b-instruct-241206"
+  },
+  {
+    "phrase": "Also sage ich, er hat keine Blutung.",
+    "context": "81 mit Fall. Hier sehe ich frontal auch keine Auffälligkeiten. Dann temporal, sieht mir auch recht symmetrisch aus. In den Basalganglien, auch keine Blutungen. Und, das ist glaube ich, wieder nur der Anbeginn des Knochens. An dem Kleinhirn nichts. Also sage ich, er hat keine Blutung.",
+    "tags": [
+      "interpretation: no_bleeding"
+    ],
+    "rationale": "The person explicitly states that they do not see any signs of bleeding in the brain, leading to the conclusion that there is no hemorrhage.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\42_no advice_cycle_188.txt",
+      "row": 37
+    },
+    "model": "meta-llama/llama-3.3-70b-instruct",
+    "provider": "Parasail",
+    "configuration_name": "llama-3-3-70b-instruct-241206"
+  },
+  {
+    "phrase": "Hier sehe ich frontal auch keine Auffälligkeiten.",
+    "context": "81 mit Fall. Hier sehe ich frontal auch keine Auffälligkeiten. Dann temporal, sieht mir auch recht symmetrisch aus. In den Basalganglien, auch keine Blutungen. Und, das ist glaube ich, wieder nur der Anbeginn des Knochens. An dem Kleinhirn nichts. Also sage ich, er hat keine Blutung.",
+    "tags": [
+      "indicator: no_bleeding"
+    ],
+    "rationale": "The person mentions that they do not see any abnormalities in the frontal area of the brain.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\42_no advice_cycle_188.txt",
+      "row": 37
+    },
+    "model": "meta-llama/llama-3.3-70b-instruct",
+    "provider": "Parasail",
+    "configuration_name": "llama-3-3-70b-instruct-241206"
+  },
+  {
+    "phrase": "In den Basalganglien, auch keine Blutungen.",
+    "context": "81 mit Fall. Hier sehe ich frontal auch keine Auffälligkeiten. Dann temporal, sieht mir auch recht symmetrisch aus. In den Basalganglien, auch keine Blutungen. Und, das ist glaube ich, wieder nur der Anbeginn des Knochens. An dem Kleinhirn nichts. Also sage ich, er hat keine Blutung.",
+    "tags": [
+      "indicator: no_bleeding"
+    ],
+    "rationale": "The person explicitly states that they do not see any bleeding in the basal ganglia.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\42_no advice_cycle_188.txt",
+      "row": 37
+    },
+    "model": "meta-llama/llama-3.3-70b-instruct",
+    "provider": "Parasail",
+    "configuration_name": "llama-3-3-70b-instruct-241206"
+  },
+  {
+    "phrase": "also parietal, dachte ich erst, die Mittellinie wäre ein bisschen verlagert, aber das ist glaube ich, einfach nur der Schnitt des CTs",
+    "context": "Mh, 53-jährige Frau mit Motorbike Crash. Gehe einmal durch. Also parietal, dachte ich erst, die Mittellinie wäre ein bisschen verlagert, aber das ist glaube ich, einfach nur der Schnitt des CTs.",
+    "tags": [
+      "reasoning: artifact"
+    ],
+    "rationale": "The speaker initially thinks the midline is shifted, but then attributes this to the CT scan's cut, indicating they consider an artifact as an explanation.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\42_no advice_cycle_188.txt",
+      "row": 30
+    },
+    "model": "meta-llama/llama-3.3-70b-instruct",
+    "provider": "DeepInfra",
+    "configuration_name": "llama-3-3-70b-instruct-241206"
+  },
+  {
+    "phrase": "Subarachnoidal könnte ich mir vorstellen, dass hier, ähm, vor der, also bevor der Knochen beginnt, frontal in der Mittellinie eine Hyperdensität ist",
+    "context": "Ähm, und Subarachnoidal könnte ich mir vorstellen, dass hier, ähm, vor der, also bevor der Knochen beginnt, frontal in der Mittellinie eine Hyperdensität ist. Hm, man könnte sagen, dass das vielleicht eine Blutung ist, allerdings bin ich mir da sehr unsicher.",
+    "tags": [
+      "indicator: anomaly_detected"
+    ],
+    "rationale": "The speaker mentions a potential subarachnoidal issue with a hyperdensity, indicating they've detected an anomaly.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\42_no advice_cycle_188.txt",
+      "row": 30
+    },
+    "model": "meta-llama/llama-3.3-70b-instruct",
+    "provider": "DeepInfra",
+    "configuration_name": "llama-3-3-70b-instruct-241206"
+  },
+  {
+    "phrase": "man könnte sagen, dass das vielleicht eine Blutung ist, allerdings bin ich mir da sehr unsicher",
+    "context": "Ähm, und Subarachnoidal könnte ich mir vorstellen, dass hier, ähm, vor der, also bevor der Knochen beginnt, frontal in der Mittellinie eine Hyperdensität ist. Hm, man könnte sagen, dass das vielleicht eine Blutung ist, allerdings bin ich mir da sehr unsicher.",
+    "tags": [
+      "interpretation: bleeding",
+      "confidence_low: concrete"
+    ],
+    "rationale": "The speaker suggests the possibility of a hemorrhage but expresses significant uncertainty, indicating low confidence in their interpretation.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\42_no advice_cycle_188.txt",
+      "row": 30
+    },
+    "model": "meta-llama/llama-3.3-70b-instruct",
+    "provider": "DeepInfra",
+    "configuration_name": "llama-3-3-70b-instruct-241206"
+  },
+  {
+    "phrase": "der hat hier eine Blutung",
+    "context": "81 mit Kopfschmerzen, ui. Und da würde ich eindeutig sagen, der hat hier eine Blutung, also ja, und der hat auch einen GCS von 11, das heißt es ist auch akut.",
+    "tags": [
+      "interpretation: bleeding"
+    ],
+    "rationale": "The person explicitly interprets the abnormality as a hemorrhage.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\42_no advice_cycle_188.txt",
+      "row": 35
+    },
+    "model": "meta-llama/llama-3.3-70b-instruct",
+    "provider": "AkashML",
+    "configuration_name": "llama-3-3-70b-instruct-241206"
+  },
+  {
+    "phrase": "das ist eine Epiduralblutung, links im Ocipital und da bin ich mir recht sicher",
+    "context": "81 mit Kopfschmerzen, ui. Und da würde ich eindeutig sagen, der hat hier eine Blutung, also ja, und der hat auch einen GCS von 11, das heißt es ist auch akut. Und es ist, glaube ich, kein Tumor und deswegen würde ich sagen, das ist eine Epiduralblutung, links im Ocipital und da bin ich mir recht sicher.",
+    "tags": [
+      "interpretation: bleeding",
+      "confidence_high: concrete"
+    ],
+    "rationale": "The person provides a specific diagnosis of an epidural hemorrhage and expresses high certainty about it.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\42_no advice_cycle_188.txt",
+      "row": 35
+    },
+    "model": "meta-llama/llama-3.3-70b-instruct",
+    "provider": "AkashML",
+    "configuration_name": "llama-3-3-70b-instruct-241206"
+  },
+  {
+    "error": "JSONDecodeError",
+    "message": "Expecting ':' delimiter: line 1 column 399 (char 398)",
+    "raw_output": "{\"classifications\": [{\"phrase\": \"Was hier auff\\u00e4llt, ist das vielleicht im Kleinhirn links, das Hyperdenser ist als rechts.\", \"context: 72mit GCS von13nach einem Autounfall. \\u00c4hm, hier, sehe ich keine Mittellinienverlagerung. \\u00c4hm, im Gro\\u00dfhirn sehe ich auch keine Hyperdensit\\u00e4ten. Was hier auff\\u00e4llt, ist das vielleicht im Kleinhirn links, das Hyperdenser ist als rechts.\", \"tags\": [\"indicator: anomaly_detected\"], \"rationale\": \"The person notices an abnormality, specifically a hyperdensity in the left cerebellum, which is atypical for a healthy skull.\"}, {\"phrase\": \"Das hei\\u00dft hier k\\u00f6nnte eine Blutung links im Cerebellum sein, was auch zum GCS passen w\\u00fcrde.\", \"context: 72mit GCS von13nach einem Autounfall. \\u00c4hm, hier, sehe ich keine Mittellinienverlagerung. \\u00c4hm, im Gro\\u00dfhirn sehe ich auch keine Hyperdensit\\u00e4ten. Was hier auff\\u00e4llt, ist das vielleicht im Kleinhirn links, das Hyperdenser ist als rechts. Das hei\\u00dft hier k\\u00f6nnte eine Blutung links im Cerebellum sein, was auch zum GCS passen w\\u00fcrde.\", \"tags: [interpretation: bleeding\"], \"rationale\": \"The person interprets the abnormality as a possible hemorrhage in the left cerebellum, which would be consistent with the patient's GCS score.\"}, {\"phrase\": \"sehe ich keine Mittellinienverlagerung. \\u00c4hm, im Gro\\u00dfhirn sehe ich auch keine Hyperdensit\\u00e4ten.\", \"context: 72mit GCS von13nach einem Autounfall. \\u00c4hm, hier, sehe ich keine Mittellinienverlagerung. \\u00c4hm, im Gro\\u00dfhirn sehe ich auch keine Hyperdensit\\u00e4ten. Was hier auff\\u00e4llt, ist das vielleicht im Kleinhirn links, das Hyperdenser ist als rechts.\", \"tags\": [\"indicator: no_bleeding\"], \"rationale\": \"The person classifies specific image areas as unremarkable, finding no midline shift or hyperdensities in the cerebrum.\"}]}",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\42_no advice_cycle_188.txt",
+      "row": 32
+    },
+    "model": "meta-llama/llama-3.3-70b-instruct",
+    "provider": "Cloudflare",
+    "configuration_name": "llama-3-3-70b-instruct-241206"
+  },
+  {
+    "phrase": "Heißt ich sage, da ist keine Blutung.",
+    "context": "Dann 78-jähriger Mann mit Kopfschmerzen. Hier ist auch die Mittellinie medial, dann das Kleinhirn sieht ein bisschen asymmetrisch aus, aber keine Hyperdensitäten. Also peripher sehe ich jetzt keine Asymmetrien, dann im Bereich der Basalganglien ist auch eigentlich recht symmetrisch und nicht irgendwie Hyperdens. Heißt ich sage, da ist keine Blutung.",
+    "tags": [
+      "interpretation: no_bleeding"
+    ],
+    "rationale": "The speaker explicitly states that they do not see any signs of bleeding, which aligns with the 'interpretation: no_bleeding' tag.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\42_no advice_cycle_188.txt",
+      "row": 31
+    },
+    "model": "meta-llama/llama-3.3-70b-instruct",
+    "provider": "DeepInfra",
+    "configuration_name": "llama-3-3-70b-instruct-241206"
+  },
+  {
+    "phrase": "aber keine Hyperdensitäten",
+    "context": "Dann 78-jähriger Mann mit Kopfschmerzen. Hier ist auch die Mittellinie medial, dann das Kleinhirn sieht ein bisschen asymmetrisch aus, aber keine Hyperdensitäten. Also peripher sehe ich jetzt keine Asymmetrien, dann im Bereich der Basalganglien ist auch eigentlich recht symmetrisch und nicht irgendwie Hyperdens. Heißt ich sage, da ist keine Blutung.",
+    "tags": [
+      "indicator: no_bleeding"
+    ],
+    "rationale": "The speaker mentions the absence of hyperdensities, which is an indicator that there is no bleeding.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\42_no advice_cycle_188.txt",
+      "row": 31
+    },
+    "model": "meta-llama/llama-3.3-70b-instruct",
+    "provider": "DeepInfra",
+    "configuration_name": "llama-3-3-70b-instruct-241206"
+  },
+  {
+    "phrase": "Und daher sage ich, hier liegt keine Blutung vor.",
+    "context": "Dannn 20-jähriger, Kopfschmerz mit Erbrechen. Ähm, also gucke ich mir erst das Kleinhirn an. Da sehe ich nichts. Und dann in dem Großhirn sehe ich auch keine asymmetrischen Hyperdensitäten.  Auch nicht in den Basalganglien. Und daher sage ich, hier liegt keine Blutung vor.",
+    "tags": [
+      "interpretation: no_bleeding"
+    ],
+    "rationale": "The speaker explicitly states that they do not see any signs of bleeding, which aligns with the 'interpretation: no_bleeding' tag.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\42_no advice_cycle_188.txt",
+      "row": 34
+    },
+    "model": "meta-llama/llama-3.3-70b-instruct",
+    "provider": "AkashML",
+    "configuration_name": "llama-3-3-70b-instruct-241206"
+  },
+  {
+    "phrase": "Hier ocipital, ist so ein bisschen eine Signalanhebung, aber ich würde es nicht als Blutung einordnen.",
+    "context": "Dannn 20-jähriger, Kopfschmerz mit Erbrechen. Ähm, also gucke ich mir erst das Kleinhirn an. Da sehe ich nichts. Und dann in dem Großhirn sehe ich auch keine asymmetrischen Hyperdensitäten.  Auch nicht in den Basalganglien. Und daher sage ich, hier liegt keine Blutung vor.  Hier ocipital, ist so ein bisschen eine Signalanhebung, aber ich würde es nicht als Blutung einordnen.",
+    "tags": [
+      "interpretation: no_bleeding_explanation"
+    ],
+    "rationale": "The speaker explains why they do not consider a particular finding to be a bleeding, which aligns with the 'interpretation: no_bleeding_explanation' tag.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\42_no advice_cycle_188.txt",
+      "row": 34
+    },
+    "model": "meta-llama/llama-3.3-70b-instruct",
+    "provider": "AkashML",
+    "configuration_name": "llama-3-3-70b-instruct-241206"
+  },
+  {
+    "phrase": "Ähm, also gucke ich mir erst das Kleinhirn an. Da sehe ich nichts. Und dann in dem Großhirn sehe ich auch keine asymmetrischen Hyperdensitäten.",
+    "context": "Dannn 20-jähriger, Kopfschmerz mit Erbrechen. Ähm, also gucke ich mir erst das Kleinhirn an. Da sehe ich nichts. Und dann in dem Großhirn sehe ich auch keine asymmetrischen Hyperdensitäten.  Auch nicht in den Basalganglien. Und daher sage ich, hier liegt keine Blutung vor.",
+    "tags": [
+      "visual_search: description_of_own_approach_without_external_help"
+    ],
+    "rationale": "The speaker describes their own approach to examining the brain images, which aligns with the 'visual_search: description_of_own_approach_without_external_help' tag.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\42_no advice_cycle_188.txt",
+      "row": 34
+    },
+    "model": "meta-llama/llama-3.3-70b-instruct",
+    "provider": "AkashML",
+    "configuration_name": "llama-3-3-70b-instruct-241206"
+  },
+  {
+    "phrase": "Aber hier ist eindeutig eine Spiegelbildung und deswegen würde ich sagen das ist eine Blutung.",
+    "context": "37 mit Autounfall. Also was ich hier sehen kann, ist ocipital, im Kleinhirn, ja was ist das. Gar nicht in den kleinen Hemisphären, sondern sieht mir fast aus wie irgendeine Art Blisterabzess oder so. Aber hier ist eindeutig eine Spiegelbildung und deswegen würde ich sagen das ist eine Blutung.",
+    "tags": [
+      "interpretation: bleeding"
+    ],
+    "rationale": "The person explicitly interprets the abnormality as a hemorrhage, mentioning a 'Spiegelbildung' (mirror image) and stating that it is a 'Blutung' (bleeding).",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\42_no advice_cycle_188.txt",
+      "row": 43
+    },
+    "model": "meta-llama/llama-3.3-70b-instruct",
+    "provider": "Parasail",
+    "configuration_name": "llama-3-3-70b-instruct-241206"
+  },
+  {
+    "phrase": "Die ist auch Hyperdens im Vergleich zum Gewebe und geht auch ins Großhirn mit rein.",
+    "context": "37 mit Autounfall. Also was ich hier sehen kann, ist ocipital, im Kleinhirn, ja was ist das. Gar nicht in den kleinen Hemisphären, sondern sieht mir fast aus wie irgendeine Art Blisterabzess oder so. Aber hier ist eindeutig eine Spiegelbildung und deswegen würde ich sagen das ist eine Blutung. Die ist auch Hyperdens im Vergleich zum Gewebe und geht auch ins Großhirn mit rein.",
+    "tags": [
+      "interpretation: description_bleeding"
+    ],
+    "rationale": "The person describes the already identified hemorrhage in more detail, mentioning its hyperdensity compared to the surrounding tissue and its extension into the large brain.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\42_no advice_cycle_188.txt",
+      "row": 43
+    },
+    "model": "meta-llama/llama-3.3-70b-instruct",
+    "provider": "Parasail",
+    "configuration_name": "llama-3-3-70b-instruct-241206"
+  },
+  {
+    "phrase": "Also was ich hier sehen kann, ist ocipital, im Kleinhirn, ja was ist das.",
+    "context": "37 mit Autounfall. Also was ich hier sehen kann, ist ocipital, im Kleinhirn, ja was ist das. Gar nicht in den kleinen Hemisphären, sondern sieht mir fast aus wie irgendeine Art Blisterabzess oder so.",
+    "tags": [
+      "visual_search: description_of_medical_image_features"
+    ],
+    "rationale": "The person verbalizes which anatomical structures they are currently looking at, mentioning the 'ocipital' region and the 'Kleinhirn' (cerebellum).",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\42_no advice_cycle_188.txt",
+      "row": 43
+    },
+    "model": "meta-llama/llama-3.3-70b-instruct",
+    "provider": "Parasail",
+    "configuration_name": "llama-3-3-70b-instruct-241206"
+  },
+  {
+    "phrase": "Ich sage hier keine Blutung.",
+    "context": "17-jähriger mit Faustkampf. Die hat eine Mittellinienverlagerung. Ähm, da wäre es dann eher logisch, wenn da temporal oder frontal was wäre. Frontal sehe ich nichts. Temporal sieht es mir auch recht symmetrisch aus. Ich sage hier keine Blutung.",
+    "tags": [
+      "interpretation: no_bleeding"
+    ],
+    "rationale": "The person explicitly states that they do not see any bleeding in the specified area, which aligns with the 'interpretation: no_bleeding' tag.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\42_no advice_cycle_188.txt",
+      "row": 45
+    },
+    "model": "meta-llama/llama-3.3-70b-instruct",
+    "provider": "Parasail",
+    "configuration_name": "llama-3-3-70b-instruct-241206"
+  },
+  {
+    "phrase": "Ich weiß nicht, ob das hier nur ein Artefakt ist in dem Interhemisphärenspalt",
+    "context": "Ähm, 45 mit Autounfall. Ich weiß nicht, ob das hier nur ein Artefakt ist in dem Interhemisphärenspalt, ähm, sonst würde ich sagen, dass da eventuell eine Blutung liegt.",
+    "tags": [
+      "reasoning: artifact",
+      "confidence_low: secondary"
+    ],
+    "rationale": "The person is unsure if the finding is an artifact, indicating low certainty and considering an alternative explanation for the abnormality.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\42_no advice_cycle_188.txt",
+      "row": 46
+    },
+    "model": "meta-llama/llama-3.3-70b-instruct",
+    "provider": "Parasail",
+    "configuration_name": "llama-3-3-70b-instruct-241206"
+  },
+  {
+    "phrase": "sonst würde ich sagen, dass da eventuell eine Blutung liegt",
+    "context": "Ähm, 45 mit Autounfall. Ich weiß nicht, ob das hier nur ein Artefakt ist in dem Interhemisphärenspalt, ähm, sonst würde ich sagen, dass da eventuell eine Blutung liegt.",
+    "tags": [
+      "interpretation: bleeding",
+      "confidence_low: secondary"
+    ],
+    "rationale": "The person is considering the possibility of a hemorrhage, but uses the word 'eventuell' (possibly), indicating low certainty.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\42_no advice_cycle_188.txt",
+      "row": 46
+    },
+    "model": "meta-llama/llama-3.3-70b-instruct",
+    "provider": "Parasail",
+    "configuration_name": "llama-3-3-70b-instruct-241206"
+  },
+  {
+    "phrase": "Im Kleinhirn sehe ich nichts, in den Basalganglien auch nicht",
+    "context": "Ähm, 45 mit Autounfall. Ich weiß nicht, ob das hier nur ein Artefakt ist in dem Interhemisphärenspalt, ähm, sonst würde ich sagen, dass da eventuell eine Blutung liegt. Im Kleinhirn sehe ich nichts, in den Basalganglien auch nicht.",
+    "tags": [
+      "indicator: no_bleeding"
+    ],
+    "rationale": "The person explicitly states that they do not see any abnormalities in the cerebellum or basal ganglia, indicating no signs of bleeding in these areas.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\42_no advice_cycle_188.txt",
+      "row": 46
+    },
+    "model": "meta-llama/llama-3.3-70b-instruct",
+    "provider": "Parasail",
+    "configuration_name": "llama-3-3-70b-instruct-241206"
+  },
+  {
+    "phrase": "Also das da vorne ist mir nicht ganz geheuer, deswegen sage ich es ist eine Blutung",
+    "context": "Ähm, 45 mit Autounfall. Ich weiß nicht, ob das hier nur ein Artefakt ist in dem Interhemisphärenspalt, ähm, sonst würde ich sagen, dass da eventuell eine Blutung liegt. Im Kleinhirn sehe ich nichts, in den Basalganglien auch nicht. Also das da vorne ist mir nicht ganz geheuer, deswegen sage ich es ist eine Blutung.",
+    "tags": [
+      "interpretation: bleeding",
+      "confidence_low: secondary"
+    ],
+    "rationale": "The person is still uncertain, but decides to classify the finding as a hemorrhage, indicating low certainty and a tentative diagnosis.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\42_no advice_cycle_188.txt",
+      "row": 46
+    },
+    "model": "meta-llama/llama-3.3-70b-instruct",
+    "provider": "Parasail",
+    "configuration_name": "llama-3-3-70b-instruct-241206"
+  },
+  {
+    "phrase": "Und ich könnte mir vorstellen, dass das doch auch eine Blutung ist.",
+    "context": "Dann 70-jähriger Fall von der Treppe. Der hat, ähm, also was ich sehen kann ist, dass frontal im Interhemisphärenspalt Unregelmäßigkeiten sind. Und ich könnte mir vorstellen, dass das doch auch eine Blutung ist. Das ist auch Hyperdens, ich wüsste nicht was es sonst sein sollte.",
+    "tags": [
+      "interpretation: bleeding"
+    ],
+    "rationale": "The speaker is interpreting the abnormalities they see in the image as a possible hemorrhage.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\42_no advice_cycle_188.txt",
+      "row": 39
+    },
+    "model": "meta-llama/llama-3.3-70b-instruct",
+    "provider": "DeepInfra",
+    "configuration_name": "llama-3-3-70b-instruct-241206"
+  },
+  {
+    "phrase": "Das ist auch Hyperdens, ich wüsste nicht was es sonst sein sollte.",
+    "context": "Dann 70-jähriger Fall von der Treppe. Der hat, ähm, also was ich sehen kann ist, dass frontal im Interhemisphärenspalt Unregelmäßigkeiten sind. Und ich könnte mir vorstellen, dass das doch auch eine Blutung ist. Das ist auch Hyperdens, ich wüsste nicht was es sonst sein sollte.",
+    "tags": [
+      "interpretation: bleeding",
+      "confidence_low: secondary"
+    ],
+    "rationale": "The speaker is expressing uncertainty about the diagnosis, using the phrase 'ich wüsste nicht' to indicate that they are not entirely sure what the abnormality could be, but they are leaning towards a hemorrhage due to the hyperdensity.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\42_no advice_cycle_188.txt",
+      "row": 39
+    },
+    "model": "meta-llama/llama-3.3-70b-instruct",
+    "provider": "DeepInfra",
+    "configuration_name": "llama-3-3-70b-instruct-241206"
+  },
+  {
+    "phrase": "Der hat im Kleinhirn keine Auffälligkeit.",
+    "context": "Dann 44-jähriger Mann mit verschwommenen Sehen, dizzyness und Kopfschmerzen. Der hat im Kleinhirn keine Auffälligkeit.",
+    "tags": [
+      "indicator: no_bleeding"
+    ],
+    "rationale": "The person states that there are no abnormalities in the cerebellum, which indicates that they have checked for potential issues and found none.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\42_no advice_cycle_188.txt",
+      "row": 36
+    },
+    "model": "meta-llama/llama-3.3-70b-instruct",
+    "provider": "DeepInfra",
+    "configuration_name": "llama-3-3-70b-instruct-241206"
+  },
+  {
+    "phrase": "und im Großhirn, in den Basalganglien sehe ich keine Aufhellungen, die Mittellinie ist nicht verlagert und sowohl frontal als auch temporal als auch ocipital sehe ich keine Aufhellungen.",
+    "context": "Dann 44-jähriger Mann mit verschwommenen Sehen, dizzyness und Kopfschmerzen. Der hat im Kleinhirn keine Auffälligkeit. Ähm, und im Großhirn, in den Basalganglien sehe ich keine Aufhellungen, die Mittellinie ist nicht verlagert und sowohl frontal als auch temporal als auch ocipital sehe ich keine Aufhellungen.",
+    "tags": [
+      "indicator: no_bleeding",
+      "visual_search: description_of_medical_image_features"
+    ],
+    "rationale": "The person describes their visual search process, checking various areas of the brain and finding no abnormalities, which indicates a thorough examination of the medical image.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\42_no advice_cycle_188.txt",
+      "row": 36
+    },
+    "model": "meta-llama/llama-3.3-70b-instruct",
+    "provider": "DeepInfra",
+    "configuration_name": "llama-3-3-70b-instruct-241206"
+  },
+  {
+    "phrase": "das könnte auch, ne das ist im Hirngewebe, und deswegen sage ich die hat eine Blutung",
+    "context": "Dann der 29-jährige, die 29-jährige Frau mit skating accident. Hier könnte frontal beidseits eine Hyperdense Struktur sein, das könnte auch, ne das ist im Hirngewebe, und deswegen sage ich die hat eine Blutung.",
+    "tags": [
+      "interpretation: bleeding"
+    ],
+    "rationale": "The person is interpreting the abnormality as a hemorrhage, mentioning that it is in the brain tissue and therefore concluding that there is a bleeding.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\42_no advice_cycle_188.txt",
+      "row": 48
+    },
+    "model": "meta-llama/llama-3.3-70b-instruct",
+    "provider": "AkashML",
+    "configuration_name": "llama-3-3-70b-instruct-241206"
+  },
+  {
+    "error": "JSONDecodeError",
+    "message": "Expecting ':' delimiter: line 1 column 654 (char 653)",
+    "raw_output": "{\"classifications\": [{\"phrase\": \"Hm, vor der Pons, k\\u00f6nnte man hier sagen, das ist ein bisschen Hyperdens, aber es k\\u00f6nnte auch einfach eine Arterie sein.\", \"context\": \"22, Frau die bewusstlos ist und vielleicht gefallen ist. Hm, so also im Kleinhirn sehe ich nichts. In den Temporallappen auch nicht und frontal zun\\u00e4chst Mal auch nichts. Jetzt gucke ich mir noch die Basalganglien an. Sehe ich jetzt auch keine Hyperdense Struktur. Hm, vor der Pons, k\\u00f6nnte man hier sagen, das ist ein bisschen Hyperdens, aber es k\\u00f6nnte auch einfach eine Arterie sein.\", \"tags: [interpretation: no_bleeding_explanation, confidence_low: secondary\"], \"rationale\": \"The phrase expresses uncertainty about whether the observed hyperdensity is a hemorrhage or an artery, indicating low confidence and an attempt to explain why it may not be a hemorrhage.\"}, {\"phrase\": \"Sehe ich jetzt auch keine Hyperdense Struktur.\", \"context\": \"22, Frau die bewusstlos ist und vielleicht gefallen ist. Hm, so also im Kleinhirn sehe ich nichts. In den Temporallappen auch nicht und frontal zun\\u00e4chst Mal auch nichts. Jetzt gucke ich mir noch die Basalganglien an. Sehe ich jetzt auch keine Hyperdense Struktur. Hm, vor der Pons, k\\u00f6nnte man hier sagen, das ist ein bisschen Hyperdens, aber es k\\u00f6nnte auch einfach eine Arterie sein.\", \"tags\": [\"indicator: no_bleeding\"], \"rationale\": \"The phrase indicates that the person has not found any hyperdense structures, which are often indicative of bleeding, suggesting that they have not found any signs of hemorrhage.\"}, {\"phrase\": \"Jetzt gucke ich mir noch die Basalganglien an.\", \"context\": \"22, Frau die bewusstlos ist und vielleicht gefallen ist. Hm, so also im Kleinhirn sehe ich nichts. In den Temporallappen auch nicht und frontal zun\\u00e4chst Mal auch nichts. Jetzt gucke ich mir noch die Basalganglien an. Sehe ich jetzt auch keine Hyperdense Struktur. Hm, vor der Pons, k\\u00f6nnte man hier sagen, das ist ein bisschen Hyperdens, aber es k\\u00f6nnte auch einfach eine Arterie sein.\", \"tags\": [\"visual_search: description_of_own_approach_without_external_help\"], \"rationale\": \"The phrase describes the person's visual search approach, indicating that they are now examining the basal ganglia.\"}]}",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\42_no advice_cycle_188.txt",
+      "row": 41
+    },
+    "model": "meta-llama/llama-3.3-70b-instruct",
+    "provider": "Cloudflare",
+    "configuration_name": "llama-3-3-70b-instruct-241206"
+  },
+  {
+    "phrase": "als wäre die Mittellinie ocipital verlagert",
+    "context": "Hier sieht es mir so aus, als wäre die Mittellinie ocipital verlagert, allerdings ist der Knochenvorsprung auch nich symmetrisch, das heißt vielleicht.",
+    "tags": [
+      "indicator: anomaly_detected"
+    ],
+    "rationale": "The speaker notices an abnormality, specifically an asymmetry in the occipital region, which suggests a potential issue.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\42_no advice_cycle_188.txt",
+      "row": 38
+    },
+    "model": "meta-llama/llama-3.3-70b-instruct",
+    "provider": "DeepInfra",
+    "configuration_name": "llama-3-3-70b-instruct-241206"
+  },
+  {
+    "phrase": "ich würde auf jeden Fall sagen dass da irgendwas die Mittellinie verlagert hat",
+    "context": "Also ich würde auf jeden Fall sagen dass da irgendwas die Mittellinie verlagert hat. Und ich weiß nicht, das hier richtig einzuordnen, was ocipital und medial liegt.",
+    "tags": [
+      "interpretation: bleeding_localization_unclear"
+    ],
+    "rationale": "The speaker suspects that something has caused a shift in the midline, but is unsure of the exact location or cause.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\42_no advice_cycle_188.txt",
+      "row": 38
+    },
+    "model": "meta-llama/llama-3.3-70b-instruct",
+    "provider": "DeepInfra",
+    "configuration_name": "llama-3-3-70b-instruct-241206"
+  },
+  {
+    "phrase": "links ocipital ist eine Hyperdense Struktur im Vergleich zu rechts",
+    "context": "Ähm, und links ocipital ist eine Hyperdense Struktur im Vergleich zu rechts. Das heißt ich würde sagen, der hat eine Subdurale Blutung, die auch vielleicht in den Hemisphärenspalt geht.",
+    "tags": [
+      "indicator: anomaly_detected"
+    ],
+    "rationale": "The speaker identifies a hyperdense structure on the left occipital side, which is a potential indicator of a hemorrhage.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\42_no advice_cycle_188.txt",
+      "row": 38
+    },
+    "model": "meta-llama/llama-3.3-70b-instruct",
+    "provider": "DeepInfra",
+    "configuration_name": "llama-3-3-70b-instruct-241206"
+  },
+  {
+    "phrase": "der hat eine Subdurale Blutung, die auch vielleicht in den Hemisphärenspalt geht",
+    "context": "Ähm, und links ocipital ist eine Hyperdense Struktur im Vergleich zu rechts. Das heißt ich würde sagen, der hat eine Subdurale Blutung, die auch vielleicht in den Hemisphärenspalt geht.",
+    "tags": [
+      "interpretation: bleeding"
+    ],
+    "rationale": "The speaker interprets the hyperdense structure as a potential subdural hemorrhage, which may extend into the hemispheric fissure.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\42_no advice_cycle_188.txt",
+      "row": 38
+    },
+    "model": "meta-llama/llama-3.3-70b-instruct",
+    "provider": "DeepInfra",
+    "configuration_name": "llama-3-3-70b-instruct-241206"
+  },
+  {
+    "phrase": "Da würde ich dann jetzt natürlich einmal frontal schauen",
+    "context": "Dann 32-jährige Frau mit blauem Aue und dizzyness. Da würde ich dann jetzt natürlich einmal frontal schauen, wenn sie irgendwie aufs Gesicht geschlagen wurde oder gefallen ist.",
+    "tags": [
+      "visual_search: description_of_own_approach_without_external_help"
+    ],
+    "rationale": "The person is describing their approach to examining the medical image, specifically stating they would look at the frontal area first.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\42_no advice_cycle_188.txt",
+      "row": 29
+    },
+    "model": "meta-llama/llama-3.3-70b-instruct",
+    "provider": "DeepInfra",
+    "configuration_name": "llama-3-3-70b-instruct-241206"
+  },
+  {
+    "phrase": "Hier sehe ich in den Temporallappen erst mal nichts, im Frontallappen, wenn ich mir das im Seitenvergleich anschaue, dann sehe ich da auch nichts.",
+    "context": "Dann 32-jährige Frau mit blauem Aue und dizzyness. Da würde ich dann jetzt natürlich einmal frontal schauen, wenn sie irgendwie aufs Gesicht geschlagen wurde oder gefallen ist. Hier sehe ich in den Temporallappen erst mal nichts, im Frontallappen, wenn ich mir das im Seitenvergleich anschaue, dann sehe ich da auch nichts.",
+    "tags": [
+      "indicator: no_bleeding"
+    ],
+    "rationale": "The person is indicating that they do not see any abnormalities (specifically, no bleeding) in the temporal and frontal lobes.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\42_no advice_cycle_188.txt",
+      "row": 29
+    },
+    "model": "meta-llama/llama-3.3-70b-instruct",
+    "provider": "DeepInfra",
+    "configuration_name": "llama-3-3-70b-instruct-241206"
+  },
+  {
+    "phrase": "Jetzt gucke ich mir natürlich noch an, ob sie irgendwie durch den Aufprall irgendwo anders was hat.",
+    "context": "Dann 32-jährige Frau mit blauem Aue und dizzyness. Da würde ich dann jetzt natürlich einmal frontal schauen, wenn sie irgendwie aufs Gesicht geschlagen wurde oder gefallen ist. Hier sehe ich in den Temporallappen erst mal nichts, im Frontallappen, wenn ich mir das im Seitenvergleich anschaue, dann sehe ich da auch nichts. Jetzt gucke ich mir natürlich noch an, ob sie irgendwie durch den Aufprall irgendwo anders was hat.",
+    "tags": [
+      "visual_search: based_on_contextual_information"
+    ],
+    "rationale": "The person is continuing their visual search based on the contextual information provided (the patient's symptoms and potential cause of injury).",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\42_no advice_cycle_188.txt",
+      "row": 29
+    },
+    "model": "meta-llama/llama-3.3-70b-instruct",
+    "provider": "DeepInfra",
+    "configuration_name": "llama-3-3-70b-instruct-241206"
+  },
+  {
+    "phrase": "Im Kleinhirn sehe ich keine Hyperdensität und es ist auch nicht irgendwie die Mittellinie verlagert.",
+    "context": "Dann 32-jährige Frau mit blauem Aue und dizzyness. Da würde ich dann jetzt natürlich einmal frontal schauen, wenn sie irgendwie aufs Gesicht geschlagen wurde oder gefallen ist. Hier sehe ich in den Temporallappen erst mal nichts, im Frontallappen, wenn ich mir das im Seitenvergleich anschaue, dann sehe ich da auch nichts. Jetzt gucke ich mir natürlich noch an, ob sie irgendwie durch den Aufprall irgendwo anders was hat. Im Kleinhirn sehe ich keine Hyperdensität und es ist auch nicht irgendwie die Mittellinie verlagert.",
+    "tags": [
+      "indicator: no_bleeding"
+    ],
+    "rationale": "The person is indicating that they do not see any signs of bleeding (hyperdensity) or midline shift in the cerebellum.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\42_no advice_cycle_188.txt",
+      "row": 29
+    },
+    "model": "meta-llama/llama-3.3-70b-instruct",
+    "provider": "DeepInfra",
+    "configuration_name": "llama-3-3-70b-instruct-241206"
+  },
+  {
+    "phrase": "Deswegen sage ich, hier ist keine Blutung im Gehirn.",
+    "context": "Dann 32-jährige Frau mit blauem Aue und dizzyness. Da würde ich dann jetzt natürlich einmal frontal schauen, wenn sie irgendwie aufs Gesicht geschlagen wurde oder gefallen ist. Hier sehe ich in den Temporallappen erst mal nichts, im Frontallappen, wenn ich mir das im Seitenvergleich anschaue, dann sehe ich da auch nichts. Jetzt gucke ich mir natürlich noch an, ob sie irgendwie durch den Aufprall irgendwo anders was hat. Im Kleinhirn sehe ich keine Hyperdensität und es ist auch nicht irgendwie die Mittellinie verlagert. Deswegen sage ich, hier ist keine Blutung im Gehirn.",
+    "tags": [
+      "interpretation: no_bleeding"
+    ],
+    "rationale": "The person is interpreting the findings as indicating no bleeding in the brain.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\42_no advice_cycle_188.txt",
+      "row": 29
+    },
+    "model": "meta-llama/llama-3.3-70b-instruct",
+    "provider": "DeepInfra",
+    "configuration_name": "llama-3-3-70b-instruct-241206"
+  },
+  {
+    "phrase": "In den Temporallappen sehe ich keine Asymmetrien",
+    "context": "Ähm, das ist eher Knochen. In den Temporallappen sehe ich keine Asymmetrien und ich könnte mir auch vorstellen, dass es von der Überdosis und nicht von einer Blutung.",
+    "tags": [
+      "indicator: no_bleeding"
+    ],
+    "rationale": "The participant explicitly states that they do not see any asymmetries in the temporal lobe, which suggests that they are looking for signs of a hemorrhage and do not find any.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\42_no advice_cycle_188.txt",
+      "row": 44
+    },
+    "model": "meta-llama/llama-3.3-70b-instruct",
+    "provider": "DeepInfra",
+    "configuration_name": "llama-3-3-70b-instruct-241206"
+  },
+  {
+    "phrase": "ich könnte mir auch vorstellen, dass es von der Überdosis und nicht von einer Blutung",
+    "context": "Ähm, das ist eher Knochen. In den Temporallappen sehe ich keine Asymmetrien und ich könnte mir auch vorstellen, dass es von der Überdosis und nicht von einer Blutung.",
+    "tags": [
+      "reasoning: alternative_medical_cause"
+    ],
+    "rationale": "The participant suggests that the patient's condition might be due to an overdose rather than a hemorrhage, indicating that they are considering alternative medical causes.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\42_no advice_cycle_188.txt",
+      "row": 44
+    },
+    "model": "meta-llama/llama-3.3-70b-instruct",
+    "provider": "DeepInfra",
+    "configuration_name": "llama-3-3-70b-instruct-241206"
+  },
+  {
+    "phrase": "Im Kleinhirn sehe ich auch nichts, deswegen sage ich da liegt keine Blutung vor",
+    "context": "Im Kleinhirn sehe ich auch nichts, deswegen sage ich da liegt keine Blutung vor",
+    "tags": [
+      "interpretation: no_bleeding"
+    ],
+    "rationale": "The participant explicitly states that they do not see any signs of a hemorrhage in the cerebellum and concludes that there is no hemorrhage present.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\42_no advice_cycle_188.txt",
+      "row": 44
+    },
+    "model": "meta-llama/llama-3.3-70b-instruct",
+    "provider": "DeepInfra",
+    "configuration_name": "llama-3-3-70b-instruct-241206"
+  },
+  {
+    "phrase": "Ähm, das sind eher Knochenartefakte.",
+    "context": "50 mit Warfarin und Kopfschmerzen. Ähm, das sind eher Knochenartefakte. Ich kann hier, auch wenn das Gewebe generell sehr, ja nicht homodens?, aussieht.",
+    "tags": [
+      "reasoning: alternative_medical_structure"
+    ],
+    "rationale": "The speaker attributes the abnormality to a healthy anatomical structure, specifically bone artifacts.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\42_no advice_cycle_188.txt",
+      "row": 47
+    },
+    "model": "meta-llama/llama-3.3-70b-instruct",
+    "provider": "DeepInfra",
+    "configuration_name": "llama-3-3-70b-instruct-241206"
+  },
+  {
+    "phrase": "Ich kann hier keine direkte Blutung erkennen.",
+    "context": "Ähm, das sind eher Knochenartefakte. Ich kann hier, auch wenn das Gewebe generell sehr, ja nicht homodens?, aussieht. Ich kann hier keine direkte Blutung erkennen.",
+    "tags": [
+      "interpretation: no_bleeding"
+    ],
+    "rationale": "The speaker interprets the finding as 'no hemorrhage' based on their examination.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\42_no advice_cycle_188.txt",
+      "row": 47
+    },
+    "model": "meta-llama/llama-3.3-70b-instruct",
+    "provider": "DeepInfra",
+    "configuration_name": "llama-3-3-70b-instruct-241206"
+  },
+  {
+    "phrase": "Bin mir aber sehr unsicher.",
+    "context": "Ich kann hier keine direkte Blutung erkennen. Bin mir aber sehr unsicher.",
+    "tags": [
+      "confidence_low: concrete"
+    ],
+    "rationale": "The speaker explicitly expresses low certainty regarding their diagnostic process, indicating uncertainty about their conclusion.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\42_no advice_cycle_188.txt",
+      "row": 47
+    },
+    "model": "meta-llama/llama-3.3-70b-instruct",
+    "provider": "DeepInfra",
+    "configuration_name": "llama-3-3-70b-instruct-241206"
+  },
+  {
+    "phrase": "was auffällt ist dass, wenn man so von den Gefäßzirkel ausgeht, sowohl in den Interhemisphären als auch zwischen den Lobi, so eine Hyperdensität ist",
+    "context": "62 mit plötzlichen Kopfschmerzen. Also die Mittellinie ist in der Mitte. Ähm, was auffällt ist dass, wenn man so von den Gefäßzirkel ausgeht, sowohl in den Interhemisphären als auch zwischen den Lobi, so eine Hyperdensität ist.",
+    "tags": [
+      "indicator: anomaly_detected"
+    ],
+    "rationale": "The speaker notices an abnormality (Hyperdensität) in the brain, which is atypical for a healthy skull.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\42_no advice_cycle_188.txt",
+      "row": 40
+    },
+    "model": "meta-llama/llama-3.3-70b-instruct",
+    "provider": "DeepInfra",
+    "configuration_name": "llama-3-3-70b-instruct-241206"
+  },
+  {
+    "phrase": "Das heiß ich könnte mir vorstellen, dass das eine Subarachnoidalblutung ist, was irgendwo aus dem Circulus Willsii kommen müsste",
+    "context": "Ähm, was auffällt ist dass, wenn man so von den Gefäßzirkel ausgeht, sowohl in den Interhemisphären als auch zwischen den Lobi, so eine Hyperdensität ist. Das heiß ich könnte mir vorstellen, dass das eine Subarachnoidalblutung ist, was irgendwo aus dem Circulus Willsii kommen müsste",
+    "tags": [
+      "interpretation: bleeding"
+    ],
+    "rationale": "The speaker interprets the abnormality as a hemorrhage (Subarachnoidalblutung), which is a type of bleeding in the brain.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\42_no advice_cycle_188.txt",
+      "row": 40
+    },
+    "model": "meta-llama/llama-3.3-70b-instruct",
+    "provider": "DeepInfra",
+    "configuration_name": "llama-3-3-70b-instruct-241206"
+  },
+  {
+    "phrase": "Und hier ist dann eben noch eine Hyperdense Struktur, zwischen Frontal- und Temporallappen, und deswegen würde ich sagen, der hat eine Blutung, was auch gut zu dem plötzlichen Kopfschmerz passen würde",
+    "context": "Das heiß ich könnte mir vorstellen, dass das eine Subarachnoidalblutung ist, was irgendwo aus dem Circulus Willsii kommen müsste. Und hier ist dann eben noch eine Hyperdense Struktur, zwischen Frontal- und Temporallappen, und deswegen würde ich sagen, der hat eine Blutung, was auch gut zu dem plötzlichen Kopfschmerz passen würde",
+    "tags": [
+      "interpretation: bleeding",
+      "reasoning: conclusion_contextual_information"
+    ],
+    "rationale": "The speaker interprets another abnormality as a hemorrhage and connects it to the patient's symptoms (plötzlichen Kopfschmerz), which is an example of using contextual information to draw conclusions.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\42_no advice_cycle_188.txt",
+      "row": 40
+    },
+    "model": "meta-llama/llama-3.3-70b-instruct",
+    "provider": "DeepInfra",
+    "configuration_name": "llama-3-3-70b-instruct-241206"
+  },
+  {
+    "phrase": "würde ich sagen, das könnte eine Subduralblutung sein",
+    "context": "Ocipitallappen links, würde ich sagen, das könnte eine Subduralblutung sein, wenn man sich das im Vergleich zur Gegenseite anschaut.",
+    "tags": [
+      "interpretation: bleeding"
+    ],
+    "rationale": "The speaker is interpreting a finding as a possible subdural hemorrhage.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\42_no advice_cycle_188.txt",
+      "row": 49
+    },
+    "model": "meta-llama/llama-3.3-70b-instruct",
+    "provider": "DeepInfra",
+    "configuration_name": "llama-3-3-70b-instruct-241206"
+  },
+  {
+    "phrase": "Mittellinie ist mittig. Seitenventrikel sind symmetrisch.",
+    "context": "So, 66 mit Fahrradunfall. Mittellinie ist mittig. Seitenventrikel sind symmetrisch.",
+    "tags": [
+      "visual_search: description_of_medical_image_features"
+    ],
+    "rationale": "The speaker is describing the anatomical structures they are looking at, specifically the midline and ventricles.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\42_no advice_cycle_188.txt",
+      "row": 49
+    },
+    "model": "meta-llama/llama-3.3-70b-instruct",
+    "provider": "DeepInfra",
+    "configuration_name": "llama-3-3-70b-instruct-241206"
+  },
+  {
+    "phrase": "Kleinhirn sehe ich keine Aufhellungen und in den Temporallappen auch nicht.",
+    "context": "Kleinhirn sehe ich keine Aufhellungen und in den Temporallappen auch nicht. Frontal nicht, und ich sehe auch keine Epi-oder Subdural, ah, mh, doch Ocipitallappen links",
+    "tags": [
+      "indicator: no_bleeding"
+    ],
+    "rationale": "The speaker is indicating that they do not see any abnormalities (e.g. bleeding) in certain areas of the brain.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\42_no advice_cycle_188.txt",
+      "row": 49
+    },
+    "model": "meta-llama/llama-3.3-70b-instruct",
+    "provider": "DeepInfra",
+    "configuration_name": "llama-3-3-70b-instruct-241206"
+  },
+  {
+    "phrase": "Ocipitallappen links, würde ich sagen, das könnte eine Subduralblutung sein",
+    "context": "Frontal nicht, und ich sehe auch keine Epi-oder Subdural, ah, mh, doch Ocipitallappen links, würde ich sagen, das könnte eine Subduralblutung sein, wenn man sich das im Vergleich zur Gegenseite anschaut.",
+    "tags": [
+      "indicator: anomaly_detected"
+    ],
+    "rationale": "The speaker has detected an abnormality (possible subdural hemorrhage) in the left occipital lobe.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\42_no advice_cycle_188.txt",
+      "row": 49
+    },
+    "model": "meta-llama/llama-3.3-70b-instruct",
+    "provider": "DeepInfra",
+    "configuration_name": "llama-3-3-70b-instruct-241206"
+  },
+  {
+    "phrase": "Allerdings könnte das auch wieder eher Gefäß als Blutung sein.",
+    "context": "So, äh, das ist eine 78-jährige Frau, die auch wieder mit dem Kopf irgendwo gegen geknallt ist. Hier ist die Mittellinie nicht verlagert, äh, das Kleinhirn sieht mir in Ordnung aus. Temporal sehe ich, hm, also was ich sehen kann, das ist aber im Seitenventrikel, hier so eine Hyperdense Struktur rechts ist, hier im Hinterhorn. Allerdings könnte das auch wieder eher Gefäß als Blutung sein.",
+    "tags": [
+      "reasoning: alternative_medical_cause"
+    ],
+    "rationale": "The speaker is considering an alternative medical cause (a vessel) for the observed hyperdense structure, rather than a hemorrhage.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\42_no advice_cycle_188.txt",
+      "row": 42
+    },
+    "model": "meta-llama/llama-3.3-70b-instruct",
+    "provider": "DeepInfra",
+    "configuration_name": "llama-3-3-70b-instruct-241206"
+  },
+  {
+    "phrase": "Ich sage da ist keine Blutung. Ja. Bin mir aber nicht sicher.",
+    "context": "So, äh, das ist eine 78-jährige Frau, die auch wieder mit dem Kopf irgendwo gegen geknallt ist. Hier ist die Mittellinie nicht verlagert, äh, das Kleinhirn sieht mir in Ordnung aus. Temporal sehe ich, hm, also was ich sehen kann, das ist aber im Seitenventrikel, hier so eine Hyperdense Struktur rechts ist, hier im Hinterhorn. Allerdings könnte das auch wieder eher Gefäß als Blutung sein. Und frontal hat man hier ganz, ähm, außerhalb des Gewebes, im Sulcus so eine leicht Aufhellung. Aber das kann keine Blutung sein, sonst würde sich das auch verteilen. Ich sage da ist keine Blutung. Ja. Bin mir aber nicht sicher.",
+    "tags": [
+      "interpretation: no_bleeding",
+      "confidence_low: concrete"
+    ],
+    "rationale": "The speaker interprets the finding as 'no hemorrhage' but explicitly expresses low certainty regarding the diagnostic process.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\42_no advice_cycle_188.txt",
+      "row": 42
+    },
+    "model": "meta-llama/llama-3.3-70b-instruct",
+    "provider": "DeepInfra",
+    "configuration_name": "llama-3-3-70b-instruct-241206"
+  },
+  {
+    "phrase": "Und frontal hat man hier ganz, ähm, außerhalb des Gewebes, im Sulcus so eine leicht Aufhellung. Aber das kann keine Blutung sein, sonst würde sich das auch verteilen.",
+    "context": "So, äh, das ist eine 78-jährige Frau, die auch wieder mit dem Kopf irgendwo gegen geknallt ist. Hier ist die Mittellinie nicht verlagert, äh, das Kleinhirn sieht mir in Ordnung aus. Temporal sehe ich, hm, also was ich sehen kann, das ist aber im Seitenventrikel, hier so eine Hyperdense Struktur rechts ist, hier im Hinterhorn. Allerdings könnte das auch wieder eher Gefäß als Blutung sein. Und frontal hat man hier ganz, ähm, außerhalb des Gewebes, im Sulcus so eine leicht Aufhellung. Aber das kann keine Blutung sein, sonst würde sich das auch verteilen.",
+    "tags": [
+      "interpretation: no_bleeding_explanation"
+    ],
+    "rationale": "The speaker explains why the observed abnormality (a slight brightening) cannot be a hemorrhage, providing a justification for their interpretation.",
+    "source": {
+      "sourcefile": "data\\sources\\atlas_import\\training\\42_no advice_cycle_188.txt",
+      "row": 42
+    },
+    "model": "meta-llama/llama-3.3-70b-instruct",
+    "provider": "DeepInfra",
+    "configuration_name": "llama-3-3-70b-instruct-241206"
+  }
+]

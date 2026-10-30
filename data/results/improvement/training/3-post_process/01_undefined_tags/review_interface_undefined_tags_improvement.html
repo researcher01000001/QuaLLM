@@ -1,0 +1,3664 @@
+<!doctype html>
+<html lang="de">
+<head>
+<meta charset="utf-8">
+<title>Manual Review — improvement</title>
+<style>
+  :root {
+    --bg: #ffffff;
+    --fg: #1a1a1a;
+    --muted: #6b7280;
+    --border: #e2e2e2;
+    --panel: #f7f7f8;
+    --accent: #2563eb;
+    --danger: #dc2626;
+    --ok: #16a34a;
+  }
+  * { box-sizing: border-box; }
+  body {
+    font-family: -apple-system, "Segoe UI", Roboto, sans-serif;
+    background: var(--bg);
+    color: var(--fg);
+    margin: 0;
+    padding: 0 0 4rem 0;
+  }
+  header.toolbar {
+    position: sticky;
+    top: 0;
+    z-index: 10;
+    background: var(--bg);
+    border-bottom: 1px solid var(--border);
+    padding: 0.75rem 1.25rem;
+    display: flex;
+    align-items: center;
+    gap: 0.75rem;
+    flex-wrap: wrap;
+  }
+  header.toolbar h1 { font-size: 1rem; margin: 0; margin-right: auto; font-weight: 600; }
+  header.toolbar .sub { color: var(--muted); font-size: 0.8rem; }
+
+  /* Dropdown checkbox panels (metadata columns, per-column identity filters)
+     -- mirrors compare.html's meta-selector pattern. */
+  .dropdown-wrap { position: relative; }
+  /* Filter buttons are built dynamically (one per configured identity
+     column) into this container; display:contents makes its .dropdown-wrap
+     children behave as direct flex items of header.toolbar, same as if
+     they were still hardcoded there. */
+  #filterPanelsContainer { display: contents; }
+  .dropdown-panel {
+    display: none;
+    position: absolute;
+    top: calc(100% + 4px);
+    left: 0;
+    z-index: 20;
+    background: #fff;
+    border: 1px solid var(--border);
+    border-radius: 8px;
+    box-shadow: 0 4px 16px rgba(0,0,0,.12);
+    padding: 0.5rem;
+    min-width: 12rem;
+    max-height: 16rem;
+    overflow-y: auto;
+    font-size: 0.8rem;
+  }
+  .dropdown-panel.open { display: block; }
+  .dropdown-check-item { display: flex; align-items: center; gap: 0.4rem; padding: 0.2rem 0.3rem; border-radius: 4px; }
+  .dropdown-check-item:hover { background: var(--panel); }
+  .dropdown-check-item label { cursor: pointer; flex: 1; }
+  .dropdown-panel .empty-hint { color: var(--muted); padding: 0.2rem 0.3rem; }
+  button {
+    font: inherit;
+    cursor: pointer;
+    border: 1px solid var(--border);
+    background: #fff;
+    border-radius: 6px;
+    padding: 0.4rem 0.75rem;
+  }
+  button.primary { background: var(--accent); color: #fff; border-color: var(--accent); }
+  button.primary:hover { background: #1d4ed8; }
+  button:hover { background: var(--panel); }
+  button.danger { color: var(--danger); border-color: var(--danger); }
+  button.small { padding: 0.15rem 0.45rem; font-size: 0.75rem; }
+  button.active { background: var(--accent); color: #fff; border-color: var(--accent); }
+  button:disabled { cursor: not-allowed; opacity: 0.5; background: #fff; }
+  button:disabled:hover { background: #fff; }
+  select, input[type=text] { font: inherit; padding: 0.2rem 0.3rem; border-radius: 4px; border: 1px solid var(--border); }
+  input.tag-input { width: 11rem; }
+
+  #banner { display: none; background: #fff8e1; border-bottom: 1px solid #e6d17a; padding: 0.6rem 1.25rem; font-size: 0.85rem; }
+  #banner.show { display: flex; gap: .75rem; align-items: center; }
+
+  main { max-width: 900px; margin: 1.25rem auto; padding: 0 1.25rem; }
+
+  details.document { border: 1px solid var(--border); border-radius: 8px; margin-bottom: 1rem; overflow: visible; }
+  details.document > summary {
+    list-style: none; cursor: pointer; padding: 0.65rem 1rem; background: var(--panel);
+    display: flex; align-items: center; gap: 0.6rem; font-weight: 600;
+  }
+  details.document > summary::-webkit-details-marker { display: none; }
+  details.document > summary::before { content: "▶"; font-size: 0.7rem; color: var(--muted); transition: transform 0.1s; }
+  details.document[open] > summary::before { transform: rotate(90deg); }
+  .doc-progress { margin-left: auto; font-size: 0.78rem; font-weight: 400; color: var(--muted); }
+  .doc-progress.complete { color: var(--ok); font-weight: 600; }
+
+  .doc-body { padding: 0.9rem 1rem 1.1rem; }
+
+  .paragraph { margin-bottom: 1.3rem; padding-bottom: 1rem; border-bottom: 1px solid #f0f0f0; }
+  .paragraph:last-child { margin-bottom: 0; border-bottom: none; padding-bottom: 0; }
+
+  .para-head {
+    display: flex; align-items: center; gap: 0.5rem; margin-bottom: 0.3rem;
+    font-size: 0.75rem; color: var(--muted);
+  }
+  .para-head .pnum { font-variant-numeric: tabular-nums; }
+  .para-fold-toggle {
+    background: none;
+    border: none;
+    cursor: pointer;
+    padding: 0;
+    font-size: 0.7rem;
+    color: var(--muted);
+    flex-shrink: 0;
+    line-height: 1;
+  }
+  .para-fold-toggle::before {
+    content: "\25bc";
+    display: inline-block;
+    transition: transform 0.1s;
+  }
+  .paragraph.collapsed .para-fold-toggle::before {
+    transform: rotate(-90deg);
+  }
+  .para-head label.reviewed, .para-head label.exclude {
+    margin-left: auto; display: flex; align-items: center; gap: 0.3rem;
+    cursor: pointer; user-select: none;
+  }
+  .para-head label.exclude { margin-left: 0.75rem; }
+  .para-head label.reviewed input, .para-head label.exclude input { cursor: pointer; }
+  .para-head label.reviewed input:disabled, .para-head label.exclude input:disabled { cursor: not-allowed; }
+  .para-head.done { color: var(--ok); }
+  .para-head.excluded { color: var(--danger); }
+  .para-meta-field { display: none; white-space: nowrap; }
+  .para-meta-field.show { display: inline; }
+  .para-meta-field b { font-weight: 600; }
+
+  .ptext {
+    line-height: 1.65;
+    padding: 0.5rem 0.6rem;
+    border: 1px dashed transparent;
+    border-radius: 6px;
+    user-select: text;
+  }
+  .ptext.excluded-text { color: var(--muted); }
+  .ptext.selecting { border-color: var(--accent); background: #eff6ff; cursor: crosshair; }
+  .ptext.move-target { border-color: #ea580c; border-style: dashed; }
+
+  /* Collapsed (Reviewed or Excluded): truncate text to one line, hide
+     badges/metadata, keep the para-head (number + checkboxes) visible. */
+  .paragraph.collapsed .ptext {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    max-width: 100%;
+  }
+  .paragraph.collapsed .badges {
+    display: none;
+  }
+  .paragraph.collapsed .para-meta-field {
+    display: none;
+  }
+
+  /* Highlighted span in the text: no visible label, plain text only (no
+     nested children) so native drag-selection across/into it is never at
+     risk of being confused by hidden nested content. Hover tooltip is a
+     single shared element positioned via JS, not nested per-mark. */
+  span.quote {
+    cursor: help;
+    padding: 2px 0;
+    border-radius: 3px;
+    transition: filter 0.15s;
+  }
+  span.quote:hover { filter: brightness(0.88) saturate(1.3); }
+  span.quote.flash {
+    outline: 3px solid #f59e0b;
+    outline-offset: 1px;
+    filter: brightness(1.3) saturate(1.5);
+  }
+  #shared-tooltip {
+    display: none;
+    position: fixed;
+    z-index: 1000;
+    background: #333;
+    color: #fff;
+    border-radius: 6px;
+    padding: 4px 0;
+    box-shadow: 0 2px 8px rgba(0,0,0,.3);
+    min-width: 140px;
+    font-size: 0.78rem;
+    pointer-events: none;
+    transform: translate(-50%, -100%);
+  }
+  #shared-tooltip.show { display: block; }
+  .quote-tooltip-tag { padding: 4px 10px; display: flex; align-items: center; gap: 8px; }
+  .quote-tooltip-color { width: 12px; height: 12px; border-radius: 3px; flex-shrink: 0; }
+  .quote-tooltip-tag.undefined .quote-tooltip-color { border: 2px dashed #333; }
+  .quote-tooltip-tag.system .quote-tooltip-color { border: 2px dotted #333; }
+
+  /* Badge list under each paragraph, in text order */
+  .badges { display: flex; flex-wrap: wrap; gap: 5px; margin-top: 0.45rem; }
+  .tag-badge {
+    display: inline-flex;
+    align-items: center;
+    gap: 5px;
+    padding: 2px 10px;
+    border-radius: 12px;
+    font-size: 0.78rem;
+    color: #fff;
+    cursor: pointer;
+    border: 2px solid transparent;
+    line-height: 1.6;
+  }
+  .tag-badge.deleted { display: none; }
+  .tag-badge .status-dot { width: 7px; height: 7px; border-radius: 50%; background: rgba(255,255,255,.9); }
+  .tag-badge.open { border-color: #111; }
+  .tag-badge.locked { opacity: 0.55; cursor: not-allowed; }
+  .tag-badge.undefined { border: 2px dashed #333; }
+  .tag-badge.undefined.open { border-color: #111; }
+  .tag-badge.system { border: 2px dotted #333; }
+  .tag-badge.system.open { border-color: #111; }
+  .tag-badge.flash { outline: 3px solid #f59e0b; outline-offset: 1px; filter: brightness(1.15); }
+
+  .edit-panel {
+    margin-top: 0.5rem;
+    border: 1px solid var(--border);
+    border-radius: 8px;
+    background: var(--panel);
+    padding: 0.6rem 0.7rem;
+    font-size: 0.82rem;
+    display: flex;
+    align-items: center;
+    gap: 0.6rem;
+    flex-wrap: wrap;
+  }
+  .edit-panel .status-label {
+    font-size: 0.7rem; padding: 0.1rem 0.5rem; border-radius: 999px; color: #fff;
+  }
+  .edit-panel .pos { color: var(--muted); font-variant-numeric: tabular-nums; }
+  .edit-panel .spacer { flex: 1 1 auto; }
+
+  .add-toolbar {
+    display: none; position: sticky; top: 3.1rem; z-index: 9; background: #eff6ff;
+    border-bottom: 1px solid #bfdbfe; padding: 0.5rem 1.25rem; align-items: center; gap: 0.6rem; font-size: 0.85rem;
+  }
+  .add-toolbar.show { display: flex; }
+
+  footer.savebar {
+    position: fixed; bottom: 0; left: 0; right: 0; background: var(--bg); border-top: 1px solid var(--border);
+    padding: 0.6rem 1.25rem; display: flex; align-items: center; gap: 0.75rem; font-size: 0.8rem; color: var(--muted);
+  }
+  #toast {
+    position: fixed; bottom: 3.6rem; right: 1.25rem; background: #111827; color: #fff; padding: 0.5rem 0.9rem;
+    border-radius: 6px; font-size: 0.8rem; opacity: 0; transform: translateY(6px);
+    transition: opacity .15s, transform .15s; pointer-events: none;
+  }
+  #toast.show { opacity: 1; transform: translateY(0); }
+
+  .legend { display: flex; gap: 0.9rem; flex-wrap: wrap; font-size: 0.75rem; color: var(--muted); margin: 0 0 1rem; }
+  .legend span { display: inline-flex; align-items: center; gap: 0.3rem; }
+  .legend .dot { width: 0.6rem; height: 0.6rem; border-radius: 50%; }
+</style>
+</head>
+<body>
+
+<header class="toolbar">
+  <h1>Manual Review <span class="sub">— improvement</span></h1>
+  <button id="btnExpandAll" class="small">Expand all</button>
+  <button id="btnCollapseAll" class="small">Collapse all</button>
+  <button id="btnAddMode" disabled title="Not available in this review step">+ Add tag</button>
+  <button id="btnShowUndefined" class="small">Show undefined tags: on</button>
+  <button id="btnShowSystem" class="small">Show system tags: off</button>
+  <div class="dropdown-wrap">
+    <button id="metaSelectorBtn" class="small">Metadata ▾</button>
+    <div class="dropdown-panel" id="metaSelectorPanel"></div>
+  </div>
+  <div id="filterPanelsContainer"></div>
+  
+  <button id="btnRestrictTarget" class="small">Restrict to undefined tags: on</button>
+  
+  <button id="btnProtect" class="small">Protect file: off</button>
+  <button id="btnSave" class="primary">Save</button>
+</header>
+
+<div class="add-toolbar" id="addToolbar">
+  Add-tag mode: drag across text in any paragraph to create a new tagged span using
+  <select id="addTagSelectDefined"></select>
+  or type a new tag:
+  <input type="text" id="addTagInput" class="tag-input" list="tag-options" placeholder="Tag name">
+  <button id="btnCancelAdd" class="small">Cancel</button>
+</div>
+
+<datalist id="tag-options"></datalist>
+
+<div id="banner">
+  <span>A newer autosaved version was found in this browser's local storage.</span>
+  <button id="btnRestore" class="small">Restore</button>
+  <button id="btnDiscard" class="small">Discard</button>
+</div>
+
+<main>
+  <div class="legend" id="legend"></div>
+  <div id="docs"></div>
+</main>
+
+<footer class="savebar">
+  <span id="saveStatus">Not saved yet.</span>
+  <span style="margin-left:auto">documents shown: <span id="countDocsShown">0</span>/<span id="countDocsTotal">0</span> · tags: <span id="countTotal">0</span> · deleted: <span id="countDeleted">0</span> · Paragraph reviewed: <span id="countParaChecked">0</span>/<span id="countParaTotal">0</span> · excluded: <span id="countParaExcluded">0</span></span>
+</footer>
+
+<div id="toast"></div>
+
+<script type="application/json" id="review-data">
+{
+  "metadata": {
+    "generated_at": "2026-10-28T11:51:37",
+    "last_saved_at": null,
+    "source_file": "consensus_unmodified.json",
+    "protect_file": false,
+    "render_undefined_tags": true,
+    "show_system_tags": false,
+    "prefix": "improvement",
+    "restrict_to_target_tags": true,
+    "suggested_filename": "review_interface_undefined_tags_improvement.html"
+  },
+  "paragraph_checks": [
+    {
+      "source_name": "20_no advice_cycle_25",
+      "row": 8,
+      "checked": false,
+      "excluded": false
+    },
+    {
+      "source_name": "20_no advice_cycle_25",
+      "row": 19,
+      "checked": false,
+      "excluded": false
+    },
+    {
+      "source_name": "20_no advice_cycle_25",
+      "row": 23,
+      "checked": false,
+      "excluded": false
+    },
+    {
+      "source_name": "45_advice with annotation_cycle_224",
+      "row": 13,
+      "checked": false,
+      "excluded": false
+    },
+    {
+      "source_name": "45_advice with annotation_cycle_224",
+      "row": 19,
+      "checked": false,
+      "excluded": false
+    },
+    {
+      "source_name": "45_no advice_cycle_63",
+      "row": 18,
+      "checked": false,
+      "excluded": false
+    },
+    {
+      "source_name": "50_advice with annotation_cycle_225",
+      "row": 6,
+      "checked": false,
+      "excluded": false
+    },
+    {
+      "source_name": "50_advice with annotation_cycle_225",
+      "row": 33,
+      "checked": false,
+      "excluded": false
+    },
+    {
+      "source_name": "50_no advice_cycle_162",
+      "row": 1,
+      "checked": false,
+      "excluded": false
+    },
+    {
+      "source_name": "50_no advice_cycle_162",
+      "row": 25,
+      "checked": false,
+      "excluded": false
+    },
+    {
+      "source_name": "50_no advice_cycle_162",
+      "row": 40,
+      "checked": false,
+      "excluded": false
+    },
+    {
+      "source_name": "50_no advice_cycle_162",
+      "row": 44,
+      "checked": false,
+      "excluded": false
+    }
+  ],
+  "records": [
+    {
+      "id": "20_no advice_cycle_25::3928::3949::interpretation: no_bleeding",
+      "group_id": "20_no advice_cycle_25::3928::3949",
+      "source_name": "20_no advice_cycle_25",
+      "row": 8,
+      "phrase": "Sehe ich auch nichts.",
+      "tag": "interpretation: no_bleeding",
+      "start": 3928,
+      "end": 3949,
+      "status": "original",
+      "is_target": false,
+      "raw_tag": "interpretation: no_bleeding"
+    },
+    {
+      "id": "20_no advice_cycle_25::3952::3961::other",
+      "group_id": "20_no advice_cycle_25::3952::3961",
+      "source_name": "20_no advice_cycle_25",
+      "row": 8,
+      "phrase": "Ups nein.",
+      "tag": "other",
+      "start": 3952,
+      "end": 3961,
+      "status": "original",
+      "is_target": true,
+      "raw_tag": "other"
+    },
+    {
+      "id": "20_no advice_cycle_25::6245::6248::paused_in_process",
+      "group_id": "20_no advice_cycle_25::6245::6248",
+      "source_name": "20_no advice_cycle_25",
+      "row": 19,
+      "phrase": "Hmm",
+      "tag": "paused_in_process",
+      "start": 6245,
+      "end": 6248,
+      "status": "original",
+      "is_target": false,
+      "raw_tag": "paused_in_process"
+    },
+    {
+      "id": "20_no advice_cycle_25::6250::6275::indicator: no_bleeding",
+      "group_id": "20_no advice_cycle_25::6250::6275",
+      "source_name": "20_no advice_cycle_25",
+      "row": 19,
+      "phrase": "Hier sehe ich auch nichts",
+      "tag": "indicator: no_bleeding",
+      "start": 6250,
+      "end": 6275,
+      "status": "original",
+      "is_target": false,
+      "raw_tag": "indicator: no_bleeding"
+    },
+    {
+      "id": "20_no advice_cycle_25::6278::6324::reflection: recurring_perceptual_pattern",
+      "group_id": "20_no advice_cycle_25::6278::6324",
+      "source_name": "20_no advice_cycle_25",
+      "row": 19,
+      "phrase": "Ich habe das Gefühl, ich sehe generell nichts.",
+      "tag": "reflection: recurring_perceptual_pattern",
+      "start": 6278,
+      "end": 6324,
+      "status": "original",
+      "is_target": false,
+      "raw_tag": "reflection: recurring_perceptual_pattern"
+    },
+    {
+      "id": "20_no advice_cycle_25::6346::6348::paused_in_process",
+      "group_id": "20_no advice_cycle_25::6346::6348",
+      "source_name": "20_no advice_cycle_25",
+      "row": 19,
+      "phrase": "Hm",
+      "tag": "paused_in_process",
+      "start": 6346,
+      "end": 6348,
+      "status": "original",
+      "is_target": false,
+      "raw_tag": "paused_in_process"
+    },
+    {
+      "id": "20_no advice_cycle_25::6346::6348::position_unsure_paused_in_process",
+      "group_id": "20_no advice_cycle_25::6346::6348",
+      "source_name": "20_no advice_cycle_25",
+      "row": 19,
+      "phrase": "Hm",
+      "tag": "position_unsure_paused_in_process",
+      "start": 6346,
+      "end": 6348,
+      "status": "original",
+      "is_target": true,
+      "raw_tag": "position_unsure_paused_in_process"
+    },
+    {
+      "id": "20_no advice_cycle_25::6348::6349::paused_in_process",
+      "group_id": "20_no advice_cycle_25::6348::6349",
+      "source_name": "20_no advice_cycle_25",
+      "row": 19,
+      "phrase": "m",
+      "tag": "paused_in_process",
+      "start": 6348,
+      "end": 6349,
+      "status": "original",
+      "is_target": false,
+      "raw_tag": "paused_in_process"
+    },
+    {
+      "id": "20_no advice_cycle_25::8057::8079::other",
+      "group_id": "20_no advice_cycle_25::8057::8079",
+      "source_name": "20_no advice_cycle_25",
+      "row": 23,
+      "phrase": "Ich glaube, hier auch.",
+      "tag": "other",
+      "start": 8057,
+      "end": 8079,
+      "status": "original",
+      "is_target": true,
+      "raw_tag": "other"
+    },
+    {
+      "id": "45_advice with annotation_cycle_224::9391::9438::ai_report: no_ich",
+      "group_id": "45_advice with annotation_cycle_224::9391::9438",
+      "source_name": "45_advice with annotation_cycle_224",
+      "row": 13,
+      "phrase": "Da soll auch keine Blutung gesehen worden sein.",
+      "tag": "ai_report: no_ich",
+      "start": 9391,
+      "end": 9438,
+      "status": "original",
+      "is_target": false,
+      "raw_tag": "ai_report: no_ich"
+    },
+    {
+      "id": "45_advice with annotation_cycle_224::9472::9476::paused_in_process",
+      "group_id": "45_advice with annotation_cycle_224::9472::9476",
+      "source_name": "45_advice with annotation_cycle_224",
+      "row": 13,
+      "phrase": "Ähm.",
+      "tag": "paused_in_process",
+      "start": 9472,
+      "end": 9476,
+      "status": "original",
+      "is_target": false,
+      "raw_tag": "paused_in_process"
+    },
+    {
+      "id": "45_advice with annotation_cycle_224::9477::9521::indicator: no_bleeding",
+      "group_id": "45_advice with annotation_cycle_224::9477::9521",
+      "source_name": "45_advice with annotation_cycle_224",
+      "row": 13,
+      "phrase": "Ich sehe gerade keine auffälligen Strukturen",
+      "tag": "indicator: no_bleeding",
+      "start": 9477,
+      "end": 9521,
+      "status": "original",
+      "is_target": false,
+      "raw_tag": "indicator: no_bleeding"
+    },
+    {
+      "id": "45_advice with annotation_cycle_224::9523::9537::interpretation: no_bleeding",
+      "group_id": "45_advice with annotation_cycle_224::9523::9537",
+      "source_name": "45_advice with annotation_cycle_224",
+      "row": 13,
+      "phrase": "keine Blutung.",
+      "tag": "interpretation: no_bleeding",
+      "start": 9523,
+      "end": 9537,
+      "status": "original",
+      "is_target": false,
+      "raw_tag": "interpretation: no_bleeding"
+    },
+    {
+      "id": "45_advice with annotation_cycle_224::9538::9597::other",
+      "group_id": "45_advice with annotation_cycle_224::9538::9597",
+      "source_name": "45_advice with annotation_cycle_224",
+      "row": 13,
+      "phrase": "Soweit auf dem anderen Bild sieht das für mich ähnlich aus.",
+      "tag": "other",
+      "start": 9538,
+      "end": 9597,
+      "status": "original",
+      "is_target": true,
+      "raw_tag": "other"
+    },
+    {
+      "id": "45_advice with annotation_cycle_224::9598::9634::indicator: no_bleeding",
+      "group_id": "45_advice with annotation_cycle_224::9598::9634",
+      "source_name": "45_advice with annotation_cycle_224",
+      "row": 13,
+      "phrase": "Ich sehe auch wieder schön hier die ",
+      "tag": "indicator: no_bleeding",
+      "start": 9598,
+      "end": 9634,
+      "status": "original",
+      "is_target": false,
+      "raw_tag": "indicator: no_bleeding"
+    },
+    {
+      "id": "45_advice with annotation_cycle_224::9634::9637::indicator: no_bleeding",
+      "group_id": "45_advice with annotation_cycle_224::9634::9637",
+      "source_name": "45_advice with annotation_cycle_224",
+      "row": 13,
+      "phrase": "Ähm",
+      "tag": "indicator: no_bleeding",
+      "start": 9634,
+      "end": 9637,
+      "status": "original",
+      "is_target": false,
+      "raw_tag": "indicator: no_bleeding"
+    },
+    {
+      "id": "45_advice with annotation_cycle_224::9634::9637::paused_in_process",
+      "group_id": "45_advice with annotation_cycle_224::9634::9637",
+      "source_name": "45_advice with annotation_cycle_224",
+      "row": 13,
+      "phrase": "Ähm",
+      "tag": "paused_in_process",
+      "start": 9634,
+      "end": 9637,
+      "status": "original",
+      "is_target": false,
+      "raw_tag": "paused_in_process"
+    },
+    {
+      "id": "45_advice with annotation_cycle_224::9637::9665::indicator: no_bleeding",
+      "group_id": "45_advice with annotation_cycle_224::9637::9665",
+      "source_name": "45_advice with annotation_cycle_224",
+      "row": 13,
+      "phrase": " Seitenhörner der Ventrikel.",
+      "tag": "indicator: no_bleeding",
+      "start": 9637,
+      "end": 9665,
+      "status": "original",
+      "is_target": false,
+      "raw_tag": "indicator: no_bleeding"
+    },
+    {
+      "id": "45_advice with annotation_cycle_224::9666::9705::decision_with_ai: explicitly_agreeing_with_ai",
+      "group_id": "45_advice with annotation_cycle_224::9666::9705",
+      "source_name": "45_advice with annotation_cycle_224",
+      "row": 13,
+      "phrase": "Da würde ich mit der KI übereinstimmen.",
+      "tag": "decision_with_ai: explicitly_agreeing_with_ai",
+      "start": 9666,
+      "end": 9705,
+      "status": "original",
+      "is_target": false,
+      "raw_tag": "decision_with_ai: explicitly_agreeing_with_ai"
+    },
+    {
+      "id": "45_advice with annotation_cycle_224::9706::9732::interpretation: no_bleeding",
+      "group_id": "45_advice with annotation_cycle_224::9706::9732",
+      "source_name": "45_advice with annotation_cycle_224",
+      "row": 13,
+      "phrase": "Da sehe ich keine Blutung.",
+      "tag": "interpretation: no_bleeding",
+      "start": 9706,
+      "end": 9732,
+      "status": "original",
+      "is_target": false,
+      "raw_tag": "interpretation: no_bleeding"
+    },
+    {
+      "id": "45_advice with annotation_cycle_224::12284::12361::visual_search: triggered_by_ai",
+      "group_id": "45_advice with annotation_cycle_224::12284::12361",
+      "source_name": "45_advice with annotation_cycle_224",
+      "row": 19,
+      "phrase": "Hier schaue ich erst mal wieder durch, wo hier was entdeckt worden sein soll.",
+      "tag": "visual_search: triggered_by_ai",
+      "start": 12284,
+      "end": 12361,
+      "status": "original",
+      "is_target": false,
+      "raw_tag": "visual_search: triggered_by_ai"
+    },
+    {
+      "id": "45_advice with annotation_cycle_224::12362::12471::indicator: anomaly_detected",
+      "group_id": "45_advice with annotation_cycle_224::12362::12471",
+      "source_name": "45_advice with annotation_cycle_224",
+      "row": 19,
+      "phrase": "Hier sieht man schon mal eine ziemliche Verschiebung und auch eine Seite, also eine große Seitenverschiebung.",
+      "tag": "indicator: anomaly_detected",
+      "start": 12362,
+      "end": 12471,
+      "status": "original",
+      "is_target": false,
+      "raw_tag": "indicator: anomaly_detected"
+    },
+    {
+      "id": "45_advice with annotation_cycle_224::12472::12581::other",
+      "group_id": "45_advice with annotation_cycle_224::12472::12581",
+      "source_name": "45_advice with annotation_cycle_224",
+      "row": 19,
+      "phrase": "Ich hab die, das Kästchen jetzt gerade noch nicht gesehen, das ist ja unten immer so ein bisschen überlagert.",
+      "tag": "other",
+      "start": 12472,
+      "end": 12581,
+      "status": "original",
+      "is_target": true,
+      "raw_tag": "other"
+    },
+    {
+      "id": "45_advice with annotation_cycle_224::12586::12612::indicator: anomaly_detected",
+      "group_id": "45_advice with annotation_cycle_224::12586::12612",
+      "source_name": "45_advice with annotation_cycle_224",
+      "row": 19,
+      "phrase": "hier relativ kleine Stelle",
+      "tag": "indicator: anomaly_detected",
+      "start": 12586,
+      "end": 12612,
+      "status": "original",
+      "is_target": false,
+      "raw_tag": "indicator: anomaly_detected"
+    },
+    {
+      "id": "45_advice with annotation_cycle_224::12658::12786::indicator: anomaly_detected",
+      "group_id": "45_advice with annotation_cycle_224::12658::12786",
+      "source_name": "45_advice with annotation_cycle_224",
+      "row": 19,
+      "phrase": "das Bild schon ziemlich auffällig finde, weil ich da weniger Symmetrie drin erkenne, und auch hier die Seitenventrikel sehr groß",
+      "tag": "indicator: anomaly_detected",
+      "start": 12658,
+      "end": 12786,
+      "status": "original",
+      "is_target": false,
+      "raw_tag": "indicator: anomaly_detected"
+    },
+    {
+      "id": "45_advice with annotation_cycle_224::12827::12864::interpretation: bleeding",
+      "group_id": "45_advice with annotation_cycle_224::12827::12864",
+      "source_name": "45_advice with annotation_cycle_224",
+      "row": 19,
+      "phrase": "das könnte durchaus eine Blutung sein",
+      "tag": "interpretation: bleeding",
+      "start": 12827,
+      "end": 12864,
+      "status": "original",
+      "is_target": false,
+      "raw_tag": "interpretation: bleeding"
+    },
+    {
+      "id": "45_advice with annotation_cycle_224::12919::12942::confidence_high: concrete",
+      "group_id": "45_advice with annotation_cycle_224::12919::12942",
+      "source_name": "45_advice with annotation_cycle_224",
+      "row": 19,
+      "phrase": "Bin mir relativ sicher.",
+      "tag": "confidence_high: concrete",
+      "start": 12919,
+      "end": 12942,
+      "status": "original",
+      "is_target": false,
+      "raw_tag": "confidence_high: concrete"
+    },
+    {
+      "id": "45_no advice_cycle_63::9788::9791::paused_in_process",
+      "group_id": "45_no advice_cycle_63::9788::9791",
+      "source_name": "45_no advice_cycle_63",
+      "row": 18,
+      "phrase": "Ähm",
+      "tag": "paused_in_process",
+      "start": 9788,
+      "end": 9791,
+      "status": "original",
+      "is_target": false,
+      "raw_tag": "paused_in_process"
+    },
+    {
+      "id": "45_no advice_cycle_63::9793::9815::other",
+      "group_id": "45_no advice_cycle_63::9793::9815",
+      "source_name": "45_no advice_cycle_63",
+      "row": 18,
+      "phrase": "warum kommt das jetzt.",
+      "tag": "other",
+      "start": 9793,
+      "end": 9815,
+      "status": "original",
+      "is_target": true,
+      "raw_tag": "other"
+    },
+    {
+      "id": "45_no advice_cycle_63::9816::9825::paused_in_process",
+      "group_id": "45_no advice_cycle_63::9816::9825",
+      "source_name": "45_no advice_cycle_63",
+      "row": 18,
+      "phrase": "Ah, okay.",
+      "tag": "paused_in_process",
+      "start": 9816,
+      "end": 9825,
+      "status": "original",
+      "is_target": false,
+      "raw_tag": "paused_in_process"
+    },
+    {
+      "id": "45_no advice_cycle_63::9826::9847::paused_in_process",
+      "group_id": "45_no advice_cycle_63::9826::9847",
+      "source_name": "45_no advice_cycle_63",
+      "row": 18,
+      "phrase": "Und das nächste Bild.",
+      "tag": "paused_in_process",
+      "start": 9826,
+      "end": 9847,
+      "status": "original",
+      "is_target": false,
+      "raw_tag": "paused_in_process"
+    },
+    {
+      "id": "45_no advice_cycle_63::9848::9851::paused_in_process",
+      "group_id": "45_no advice_cycle_63::9848::9851",
+      "source_name": "45_no advice_cycle_63",
+      "row": 18,
+      "phrase": "Ähm",
+      "tag": "paused_in_process",
+      "start": 9848,
+      "end": 9851,
+      "status": "original",
+      "is_target": false,
+      "raw_tag": "paused_in_process"
+    },
+    {
+      "id": "45_no advice_cycle_63::9884::9916::indicator: no_bleeding",
+      "group_id": "45_no advice_cycle_63::9884::9916",
+      "source_name": "45_no advice_cycle_63",
+      "row": 18,
+      "phrase": "relativ homogenes Bild, für mich",
+      "tag": "indicator: no_bleeding",
+      "start": 9884,
+      "end": 9916,
+      "status": "original",
+      "is_target": false,
+      "raw_tag": "indicator: no_bleeding"
+    },
+    {
+      "id": "45_no advice_cycle_63::9927::9968::indicator: no_bleeding",
+      "group_id": "45_no advice_cycle_63::9927::9968",
+      "source_name": "45_no advice_cycle_63",
+      "row": 18,
+      "phrase": "Die Seitenventrikel sehen soweit gut aus.",
+      "tag": "indicator: no_bleeding",
+      "start": 9927,
+      "end": 9968,
+      "status": "original",
+      "is_target": false,
+      "raw_tag": "indicator: no_bleeding"
+    },
+    {
+      "id": "45_no advice_cycle_63::9969::10013::indicator: anomaly_detected",
+      "group_id": "45_no advice_cycle_63::9969::10013",
+      "source_name": "45_no advice_cycle_63",
+      "row": 18,
+      "phrase": "Aber generell recht schmale Seitenventrikel.",
+      "tag": "indicator: anomaly_detected",
+      "start": 9969,
+      "end": 10013,
+      "status": "original",
+      "is_target": false,
+      "raw_tag": "indicator: anomaly_detected"
+    },
+    {
+      "id": "45_no advice_cycle_63::10014::10053::interpretation: no_bleeding",
+      "group_id": "45_no advice_cycle_63::10014::10053",
+      "source_name": "45_no advice_cycle_63",
+      "row": 18,
+      "phrase": "Aber ich habe da keine Blutung erkannt.",
+      "tag": "interpretation: no_bleeding",
+      "start": 10014,
+      "end": 10053,
+      "status": "original",
+      "is_target": false,
+      "raw_tag": "interpretation: no_bleeding"
+    },
+    {
+      "id": "45_no advice_cycle_63::10054::10077::confidence_high: concrete",
+      "group_id": "45_no advice_cycle_63::10054::10077",
+      "source_name": "45_no advice_cycle_63",
+      "row": 18,
+      "phrase": "Bin mir relativ sicher.",
+      "tag": "confidence_high: concrete",
+      "start": 10054,
+      "end": 10077,
+      "status": "original",
+      "is_target": false,
+      "raw_tag": "confidence_high: concrete"
+    },
+    {
+      "id": "50_advice with annotation_cycle_225::3117::3136::reasoning: mentioning_contextual_information",
+      "group_id": "50_advice with annotation_cycle_225::3117::3136",
+      "source_name": "50_advice with annotation_cycle_225",
+      "row": 6,
+      "phrase": "72 weiblich, GCS 13",
+      "tag": "reasoning: mentioning_contextual_information",
+      "start": 3117,
+      "end": 3136,
+      "status": "original",
+      "is_target": false,
+      "raw_tag": "reasoning: mentioning_contextual_information"
+    },
+    {
+      "id": "50_advice with annotation_cycle_225::3174::3193::visual_search: description_of_own_approach_without_external_help",
+      "group_id": "50_advice with annotation_cycle_225::3174::3193",
+      "source_name": "50_advice with annotation_cycle_225",
+      "row": 6,
+      "phrase": "gehen wir mal durch",
+      "tag": "visual_search: description_of_own_approach_without_external_help",
+      "start": 3174,
+      "end": 3193,
+      "status": "original",
+      "is_target": false,
+      "raw_tag": "visual_search: description_of_own_approach_without_external_help"
+    },
+    {
+      "id": "50_advice with annotation_cycle_225::3195::3222::reasoning: mentioning_contextual_information",
+      "group_id": "50_advice with annotation_cycle_225::3195::3222",
+      "source_name": "50_advice with annotation_cycle_225",
+      "row": 6,
+      "phrase": "die hatte einen Autounfall.",
+      "tag": "reasoning: mentioning_contextual_information",
+      "start": 3195,
+      "end": 3222,
+      "status": "original",
+      "is_target": false,
+      "raw_tag": "reasoning: mentioning_contextual_information"
+    },
+    {
+      "id": "50_advice with annotation_cycle_225::3235::3283::visual_search: description_of_medical_image_features",
+      "group_id": "50_advice with annotation_cycle_225::3235::3283",
+      "source_name": "50_advice with annotation_cycle_225",
+      "row": 6,
+      "phrase": "ich achte wieder auf Mittellinienverschiebungen.",
+      "tag": "visual_search: description_of_medical_image_features",
+      "start": 3235,
+      "end": 3283,
+      "status": "original",
+      "is_target": false,
+      "raw_tag": "visual_search: description_of_medical_image_features"
+    },
+    {
+      "id": "50_advice with annotation_cycle_225::3284::3460::reasoning: conclusion_contextual_information",
+      "group_id": "50_advice with annotation_cycle_225::3284::3460",
+      "source_name": "50_advice with annotation_cycle_225",
+      "row": 6,
+      "phrase": "Jetzt hatte die ja ein akutes Trauma, Schleudertrauma oder was auch immer, Traume gegen den Kopf. Eher ne epidurale Sache, oder halt wegen des Alters soubarachnoidales Problem.",
+      "tag": "reasoning: conclusion_contextual_information",
+      "start": 3284,
+      "end": 3460,
+      "status": "original",
+      "is_target": false,
+      "raw_tag": "reasoning: conclusion_contextual_information"
+    },
+    {
+      "id": "50_advice with annotation_cycle_225::3461::3512::indicator: no_bleeding",
+      "group_id": "50_advice with annotation_cycle_225::3461::3512",
+      "source_name": "50_advice with annotation_cycle_225",
+      "row": 6,
+      "phrase": "Sehe ich jetzt hier keine Mittellinienverschiebung.",
+      "tag": "indicator: no_bleeding",
+      "start": 3461,
+      "end": 3512,
+      "status": "original",
+      "is_target": false,
+      "raw_tag": "indicator: no_bleeding"
+    },
+    {
+      "id": "50_advice with annotation_cycle_225::3513::3554::indicator: no_bleeding",
+      "group_id": "50_advice with annotation_cycle_225::3513::3554",
+      "source_name": "50_advice with annotation_cycle_225",
+      "row": 6,
+      "phrase": "Ich sehe nichts rund um die Stammganglien",
+      "tag": "indicator: no_bleeding",
+      "start": 3513,
+      "end": 3554,
+      "status": "original",
+      "is_target": false,
+      "raw_tag": "indicator: no_bleeding"
+    },
+    {
+      "id": "50_advice with annotation_cycle_225::3556::3580::indicator: no_bleeding",
+      "group_id": "50_advice with annotation_cycle_225::3556::3580",
+      "source_name": "50_advice with annotation_cycle_225",
+      "row": 6,
+      "phrase": "Ventrikel sehen gut aus.",
+      "tag": "indicator: no_bleeding",
+      "start": 3556,
+      "end": 3580,
+      "status": "original",
+      "is_target": false,
+      "raw_tag": "indicator: no_bleeding"
+    },
+    {
+      "id": "50_advice with annotation_cycle_225::3581::3605::indicator: anomaly_detected",
+      "group_id": "50_advice with annotation_cycle_225::3581::3605",
+      "source_name": "50_advice with annotation_cycle_225",
+      "row": 6,
+      "phrase": "Hier ist bisschen heller",
+      "tag": "indicator: anomaly_detected",
+      "start": 3581,
+      "end": 3605,
+      "status": "original",
+      "is_target": false,
+      "raw_tag": "indicator: anomaly_detected"
+    },
+    {
+      "id": "50_advice with annotation_cycle_225::3607::3623::ai_report: ich_localization",
+      "group_id": "50_advice with annotation_cycle_225::3607::3623",
+      "source_name": "50_advice with annotation_cycle_225",
+      "row": 6,
+      "phrase": "hier sagt es da ",
+      "tag": "ai_report: ich_localization",
+      "start": 3607,
+      "end": 3623,
+      "status": "original",
+      "is_target": false,
+      "raw_tag": "ai_report: ich_localization"
+    },
+    {
+      "id": "50_advice with annotation_cycle_225::3623::3627::ai_report: ich_localization",
+      "group_id": "50_advice with annotation_cycle_225::3623::3627",
+      "source_name": "50_advice with annotation_cycle_225",
+      "row": 6,
+      "phrase": "auch",
+      "tag": "ai_report: ich_localization",
+      "start": 3623,
+      "end": 3627,
+      "status": "original",
+      "is_target": false,
+      "raw_tag": "ai_report: ich_localization"
+    },
+    {
+      "id": "50_advice with annotation_cycle_225::3623::3627::position_unsure_decision_with_ai: implicitly_agreeing_with_ai",
+      "group_id": "50_advice with annotation_cycle_225::3623::3627",
+      "source_name": "50_advice with annotation_cycle_225",
+      "row": 6,
+      "phrase": "auch",
+      "tag": "position_unsure_decision_with_ai: implicitly_agreeing_with_ai",
+      "start": 3623,
+      "end": 3627,
+      "status": "original",
+      "is_target": true,
+      "raw_tag": "position_unsure_decision_with_ai: implicitly_agreeing_with_ai"
+    },
+    {
+      "id": "50_advice with annotation_cycle_225::3654::3664::confidence_low: secondary",
+      "group_id": "50_advice with annotation_cycle_225::3654::3664",
+      "source_name": "50_advice with annotation_cycle_225",
+      "row": 6,
+      "phrase": "vielleicht",
+      "tag": "confidence_low: secondary",
+      "start": 3654,
+      "end": 3664,
+      "status": "original",
+      "is_target": false,
+      "raw_tag": "confidence_low: secondary"
+    },
+    {
+      "id": "50_advice with annotation_cycle_225::3654::3664::interpretation: bleeding",
+      "group_id": "50_advice with annotation_cycle_225::3654::3664",
+      "source_name": "50_advice with annotation_cycle_225",
+      "row": 6,
+      "phrase": "vielleicht",
+      "tag": "interpretation: bleeding",
+      "start": 3654,
+      "end": 3664,
+      "status": "original",
+      "is_target": false,
+      "raw_tag": "interpretation: bleeding"
+    },
+    {
+      "id": "50_advice with annotation_cycle_225::3664::3693::interpretation: bleeding",
+      "group_id": "50_advice with annotation_cycle_225::3664::3693",
+      "source_name": "50_advice with annotation_cycle_225",
+      "row": 6,
+      "phrase": " eine kleine, kleine Blutung.",
+      "tag": "interpretation: bleeding",
+      "start": 3664,
+      "end": 3693,
+      "status": "original",
+      "is_target": false,
+      "raw_tag": "interpretation: bleeding"
+    },
+    {
+      "id": "50_advice with annotation_cycle_225::17916::17920::paused_in_process",
+      "group_id": "50_advice with annotation_cycle_225::17916::17920",
+      "source_name": "50_advice with annotation_cycle_225",
+      "row": 33,
+      "phrase": "Okay",
+      "tag": "paused_in_process",
+      "start": 17916,
+      "end": 17920,
+      "status": "original",
+      "is_target": false,
+      "raw_tag": "paused_in_process"
+    },
+    {
+      "id": "50_advice with annotation_cycle_225::17922::17986::reasoning: mentioning_contextual_information",
+      "group_id": "50_advice with annotation_cycle_225::17922::17986",
+      "source_name": "50_advice with annotation_cycle_225",
+      "row": 33,
+      "phrase": "45 Fahrrerin in einem Autounfall und GCS um 2 Punkte verringert.",
+      "tag": "reasoning: mentioning_contextual_information",
+      "start": 17922,
+      "end": 17986,
+      "status": "original",
+      "is_target": false,
+      "raw_tag": "reasoning: mentioning_contextual_information"
+    },
+    {
+      "id": "50_advice with annotation_cycle_225::17987::17991::paused_in_process",
+      "group_id": "50_advice with annotation_cycle_225::17987::17991",
+      "source_name": "50_advice with annotation_cycle_225",
+      "row": 33,
+      "phrase": "Okay",
+      "tag": "paused_in_process",
+      "start": 17987,
+      "end": 17991,
+      "status": "original",
+      "is_target": false,
+      "raw_tag": "paused_in_process"
+    },
+    {
+      "id": "50_advice with annotation_cycle_225::17992::18045::other",
+      "group_id": "50_advice with annotation_cycle_225::17992::18045",
+      "source_name": "50_advice with annotation_cycle_225",
+      "row": 33,
+      "phrase": "man wird auch schon krass gespoilert wo es sein soll.",
+      "tag": "other",
+      "start": 17992,
+      "end": 18045,
+      "status": "original",
+      "is_target": true,
+      "raw_tag": "other"
+    },
+    {
+      "id": "50_advice with annotation_cycle_225::18046::18061::interpretation: bleeding",
+      "group_id": "50_advice with annotation_cycle_225::18046::18061",
+      "source_name": "50_advice with annotation_cycle_225",
+      "row": 33,
+      "phrase": "Man sieht hier ",
+      "tag": "interpretation: bleeding",
+      "start": 18046,
+      "end": 18061,
+      "status": "original",
+      "is_target": false,
+      "raw_tag": "interpretation: bleeding"
+    },
+    {
+      "id": "50_advice with annotation_cycle_225::18061::18065::decision_with_ai: implicitly_agreeing_with_ai",
+      "group_id": "50_advice with annotation_cycle_225::18061::18065",
+      "source_name": "50_advice with annotation_cycle_225",
+      "row": 33,
+      "phrase": "auch",
+      "tag": "decision_with_ai: implicitly_agreeing_with_ai",
+      "start": 18061,
+      "end": 18065,
+      "status": "original",
+      "is_target": false,
+      "raw_tag": "decision_with_ai: implicitly_agreeing_with_ai"
+    },
+    {
+      "id": "50_advice with annotation_cycle_225::18061::18065::interpretation: bleeding",
+      "group_id": "50_advice with annotation_cycle_225::18061::18065",
+      "source_name": "50_advice with annotation_cycle_225",
+      "row": 33,
+      "phrase": "auch",
+      "tag": "interpretation: bleeding",
+      "start": 18061,
+      "end": 18065,
+      "status": "original",
+      "is_target": false,
+      "raw_tag": "interpretation: bleeding"
+    },
+    {
+      "id": "50_advice with annotation_cycle_225::18065::18095::interpretation: bleeding",
+      "group_id": "50_advice with annotation_cycle_225::18065::18095",
+      "source_name": "50_advice with annotation_cycle_225",
+      "row": 33,
+      "phrase": " die hyperdensen Einblutungen,",
+      "tag": "interpretation: bleeding",
+      "start": 18065,
+      "end": 18095,
+      "status": "original",
+      "is_target": false,
+      "raw_tag": "interpretation: bleeding"
+    },
+    {
+      "id": "50_advice with annotation_cycle_225::18096::18182::interpretation: description_bleeding",
+      "group_id": "50_advice with annotation_cycle_225::18096::18182",
+      "source_name": "50_advice with annotation_cycle_225",
+      "row": 33,
+      "phrase": "geht alles hier oben rum hier entlanglang der rechten Hemisphäre hier auch hier vorne.",
+      "tag": "interpretation: description_bleeding",
+      "start": 18096,
+      "end": 18182,
+      "status": "original",
+      "is_target": false,
+      "raw_tag": "interpretation: description_bleeding"
+    },
+    {
+      "id": "50_advice with annotation_cycle_225::18183::18185::paused_in_process",
+      "group_id": "50_advice with annotation_cycle_225::18183::18185",
+      "source_name": "50_advice with annotation_cycle_225",
+      "row": 33,
+      "phrase": "Ja",
+      "tag": "paused_in_process",
+      "start": 18183,
+      "end": 18185,
+      "status": "original",
+      "is_target": false,
+      "raw_tag": "paused_in_process"
+    },
+    {
+      "id": "50_advice with annotation_cycle_225::18186::18220::reflection_of_ai: ich_recognized_without_ai",
+      "group_id": "50_advice with annotation_cycle_225::18186::18220",
+      "source_name": "50_advice with annotation_cycle_225",
+      "row": 33,
+      "phrase": "die hätte ich jetzt auch gefunden.",
+      "tag": "reflection_of_ai: ich_recognized_without_ai",
+      "start": 18186,
+      "end": 18220,
+      "status": "original",
+      "is_target": false,
+      "raw_tag": "reflection_of_ai: ich_recognized_without_ai"
+    },
+    {
+      "id": "50_no advice_cycle_162::373::401::reasoning: mentioning_contextual_information",
+      "group_id": "50_no advice_cycle_162::373::401",
+      "source_name": "50_no advice_cycle_162",
+      "row": 1,
+      "phrase": "26, männlich, Fahrradunfall.",
+      "tag": "reasoning: mentioning_contextual_information",
+      "start": 373,
+      "end": 401,
+      "status": "original",
+      "is_target": false,
+      "raw_tag": "reasoning: mentioning_contextual_information"
+    },
+    {
+      "id": "50_no advice_cycle_162::408::604::technical_conversation",
+      "group_id": "50_no advice_cycle_162::408::604",
+      "source_name": "50_no advice_cycle_162",
+      "row": 1,
+      "phrase": "ist das immer hier in dem richtigen Preset schon drin, oder soll ich das wieder ändern, wie letztes Mal. EXPERIMENTER: Das musst du entscheiden, das kann ich dir leider gar nicht sagen. VPN: Okay.",
+      "tag": "technical_conversation",
+      "start": 408,
+      "end": 604,
+      "status": "original",
+      "is_target": false,
+      "raw_tag": "technical_conversation"
+    },
+    {
+      "id": "50_no advice_cycle_162::605::701::visual_search: based_on_contextual_information",
+      "group_id": "50_no advice_cycle_162::605::701",
+      "source_name": "50_no advice_cycle_162",
+      "row": 1,
+      "phrase": "Zuerst gucken, er hat ja einen Fahrradunfall gehabt, ob die Kortikalis irgendwo angeknackst ist.",
+      "tag": "visual_search: based_on_contextual_information",
+      "start": 605,
+      "end": 701,
+      "status": "original",
+      "is_target": false,
+      "raw_tag": "visual_search: based_on_contextual_information"
+    },
+    {
+      "id": "50_no advice_cycle_162::702::707::position_unsure_indicator: no_bleeding",
+      "group_id": "50_no advice_cycle_162::702::707",
+      "source_name": "50_no advice_cycle_162",
+      "row": 1,
+      "phrase": "Nein.",
+      "tag": "position_unsure_indicator: no_bleeding",
+      "start": 702,
+      "end": 707,
+      "status": "original",
+      "is_target": true,
+      "raw_tag": "position_unsure_indicator: no_bleeding"
+    },
+    {
+      "id": "50_no advice_cycle_162::714::765::technical_conversation",
+      "group_id": "50_no advice_cycle_162::714::765",
+      "source_name": "50_no advice_cycle_162",
+      "row": 1,
+      "phrase": "EXPERIMENTER: Gerne laut denken. VPN: Ja genau, ok.",
+      "tag": "technical_conversation",
+      "start": 714,
+      "end": 765,
+      "status": "original",
+      "is_target": false,
+      "raw_tag": "technical_conversation"
+    },
+    {
+      "id": "50_no advice_cycle_162::766::866::reasoning: conclusion_contextual_information",
+      "group_id": "50_no advice_cycle_162::766::866",
+      "source_name": "50_no advice_cycle_162",
+      "row": 1,
+      "phrase": "Dann ist es eher ein Trauma gegen den Kopf. Dann wäre es ja eher Epiduralblutung, möglich auch oder ",
+      "tag": "reasoning: conclusion_contextual_information",
+      "start": 766,
+      "end": 866,
+      "status": "original",
+      "is_target": false,
+      "raw_tag": "reasoning: conclusion_contextual_information"
+    },
+    {
+      "id": "50_no advice_cycle_162::866::880::confidence_high: secondary",
+      "group_id": "50_no advice_cycle_162::866::880",
+      "source_name": "50_no advice_cycle_162",
+      "row": 1,
+      "phrase": "wahrscheinlich",
+      "tag": "confidence_high: secondary",
+      "start": 866,
+      "end": 880,
+      "status": "original",
+      "is_target": false,
+      "raw_tag": "confidence_high: secondary"
+    },
+    {
+      "id": "50_no advice_cycle_162::866::880::reasoning: conclusion_contextual_information",
+      "group_id": "50_no advice_cycle_162::866::880",
+      "source_name": "50_no advice_cycle_162",
+      "row": 1,
+      "phrase": "wahrscheinlich",
+      "tag": "reasoning: conclusion_contextual_information",
+      "start": 866,
+      "end": 880,
+      "status": "original",
+      "is_target": false,
+      "raw_tag": "reasoning: conclusion_contextual_information"
+    },
+    {
+      "id": "50_no advice_cycle_162::880::886::reasoning: conclusion_contextual_information",
+      "group_id": "50_no advice_cycle_162::880::886",
+      "source_name": "50_no advice_cycle_162",
+      "row": 1,
+      "phrase": " eher.",
+      "tag": "reasoning: conclusion_contextual_information",
+      "start": 880,
+      "end": 886,
+      "status": "original",
+      "is_target": false,
+      "raw_tag": "reasoning: conclusion_contextual_information"
+    },
+    {
+      "id": "50_no advice_cycle_162::979::995::visual_search: description_of_medical_image_features",
+      "group_id": "50_no advice_cycle_162::979::995",
+      "source_name": "50_no advice_cycle_162",
+      "row": 1,
+      "phrase": "Hier vorne noch.",
+      "tag": "visual_search: description_of_medical_image_features",
+      "start": 979,
+      "end": 995,
+      "status": "original",
+      "is_target": false,
+      "raw_tag": "visual_search: description_of_medical_image_features"
+    },
+    {
+      "id": "50_no advice_cycle_162::996::1001::indicator: no_bleeding",
+      "group_id": "50_no advice_cycle_162::996::1001",
+      "source_name": "50_no advice_cycle_162",
+      "row": 1,
+      "phrase": "Nein.",
+      "tag": "indicator: no_bleeding",
+      "start": 996,
+      "end": 1001,
+      "status": "original",
+      "is_target": false,
+      "raw_tag": "indicator: no_bleeding"
+    },
+    {
+      "id": "50_no advice_cycle_162::1008::1042::interpretation: no_bleeding",
+      "group_id": "50_no advice_cycle_162::1008::1042",
+      "source_name": "50_no advice_cycle_162",
+      "row": 1,
+      "phrase": "sehe ich jetzt auch keine Blutung.",
+      "tag": "interpretation: no_bleeding",
+      "start": 1008,
+      "end": 1042,
+      "status": "original",
+      "is_target": false,
+      "raw_tag": "interpretation: no_bleeding"
+    },
+    {
+      "id": "50_no advice_cycle_162::11358::11362::paused_in_process",
+      "group_id": "50_no advice_cycle_162::11358::11362",
+      "source_name": "50_no advice_cycle_162",
+      "row": 25,
+      "phrase": "Okay",
+      "tag": "paused_in_process",
+      "start": 11358,
+      "end": 11362,
+      "status": "original",
+      "is_target": false,
+      "raw_tag": "paused_in_process"
+    },
+    {
+      "id": "50_no advice_cycle_162::11369::11401::reasoning: mentioning_contextual_information",
+      "group_id": "50_no advice_cycle_162::11369::11401",
+      "source_name": "50_no advice_cycle_162",
+      "row": 25,
+      "phrase": "53-weiblich, Motorrad ohne Helm.",
+      "tag": "reasoning: mentioning_contextual_information",
+      "start": 11369,
+      "end": 11401,
+      "status": "original",
+      "is_target": false,
+      "raw_tag": "reasoning: mentioning_contextual_information"
+    },
+    {
+      "id": "50_no advice_cycle_162::11402::11487::reasoning: conclusion_contextual_information",
+      "group_id": "50_no advice_cycle_162::11402::11487",
+      "source_name": "50_no advice_cycle_162",
+      "row": 25,
+      "phrase": "Das kann ja dann auch ein Hochrasanztrauma sein, wo die Schädeldecke frakturiert ist.",
+      "tag": "reasoning: conclusion_contextual_information",
+      "start": 11402,
+      "end": 11487,
+      "status": "original",
+      "is_target": false,
+      "raw_tag": "reasoning: conclusion_contextual_information"
+    },
+    {
+      "id": "50_no advice_cycle_162::11520::11601::visual_search: description_of_medical_image_features",
+      "group_id": "50_no advice_cycle_162::11520::11601",
+      "source_name": "50_no advice_cycle_162",
+      "row": 25,
+      "phrase": "ich check trotzdem mal ganz kurz im Knochenfenster, ob es hier einen Defekt gibt.",
+      "tag": "visual_search: description_of_medical_image_features",
+      "start": 11520,
+      "end": 11601,
+      "status": "original",
+      "is_target": false,
+      "raw_tag": "visual_search: description_of_medical_image_features"
+    },
+    {
+      "id": "50_no advice_cycle_162::11602::11612::confidence_low: secondary",
+      "group_id": "50_no advice_cycle_162::11602::11612",
+      "source_name": "50_no advice_cycle_162",
+      "row": 25,
+      "phrase": "Vielleicht",
+      "tag": "confidence_low: secondary",
+      "start": 11602,
+      "end": 11612,
+      "status": "original",
+      "is_target": false,
+      "raw_tag": "confidence_low: secondary"
+    },
+    {
+      "id": "50_no advice_cycle_162::11602::11612::position_unsure_confidence_low: secondary",
+      "group_id": "50_no advice_cycle_162::11602::11612",
+      "source_name": "50_no advice_cycle_162",
+      "row": 25,
+      "phrase": "Vielleicht",
+      "tag": "position_unsure_confidence_low: secondary",
+      "start": 11602,
+      "end": 11612,
+      "status": "original",
+      "is_target": true,
+      "raw_tag": "position_unsure_confidence_low: secondary"
+    },
+    {
+      "id": "50_no advice_cycle_162::11612::11613::confidence_low: secondary",
+      "group_id": "50_no advice_cycle_162::11612::11613",
+      "source_name": "50_no advice_cycle_162",
+      "row": 25,
+      "phrase": ".",
+      "tag": "confidence_low: secondary",
+      "start": 11612,
+      "end": 11613,
+      "status": "original",
+      "is_target": false,
+      "raw_tag": "confidence_low: secondary"
+    },
+    {
+      "id": "50_no advice_cycle_162::11625::11650::indicator: anomaly_detected",
+      "group_id": "50_no advice_cycle_162::11625::11650",
+      "source_name": "50_no advice_cycle_162",
+      "row": 25,
+      "phrase": "so ein bisschen parietal.",
+      "tag": "indicator: anomaly_detected",
+      "start": 11625,
+      "end": 11650,
+      "status": "original",
+      "is_target": false,
+      "raw_tag": "indicator: anomaly_detected"
+    },
+    {
+      "id": "50_no advice_cycle_162::11651::11690::visual_search: triggered_by_finding",
+      "group_id": "50_no advice_cycle_162::11651::11690",
+      "source_name": "50_no advice_cycle_162",
+      "row": 25,
+      "phrase": "Da mal gucken, ob es da Blutungen gibt.",
+      "tag": "visual_search: triggered_by_finding",
+      "start": 11651,
+      "end": 11690,
+      "status": "original",
+      "is_target": false,
+      "raw_tag": "visual_search: triggered_by_finding"
+    },
+    {
+      "id": "50_no advice_cycle_162::11695::11697::paused_in_process",
+      "group_id": "50_no advice_cycle_162::11695::11697",
+      "source_name": "50_no advice_cycle_162",
+      "row": 25,
+      "phrase": "hm",
+      "tag": "paused_in_process",
+      "start": 11695,
+      "end": 11697,
+      "status": "original",
+      "is_target": false,
+      "raw_tag": "paused_in_process"
+    },
+    {
+      "id": "50_no advice_cycle_162::11699::11752::interpretation: bleeding",
+      "group_id": "50_no advice_cycle_162::11699::11752",
+      "source_name": "50_no advice_cycle_162",
+      "row": 25,
+      "phrase": "Das wäre eher Subdural, wie das hier reingeblutet hat",
+      "tag": "interpretation: bleeding",
+      "start": 11699,
+      "end": 11752,
+      "status": "original",
+      "is_target": false,
+      "raw_tag": "interpretation: bleeding"
+    },
+    {
+      "id": "50_no advice_cycle_162::11779::11782::reasoning: mentioning_contextual_information",
+      "group_id": "50_no advice_cycle_162::11779::11782",
+      "source_name": "50_no advice_cycle_162",
+      "row": 25,
+      "phrase": "53.",
+      "tag": "reasoning: mentioning_contextual_information",
+      "start": 11779,
+      "end": 11782,
+      "status": "original",
+      "is_target": false,
+      "raw_tag": "reasoning: mentioning_contextual_information"
+    },
+    {
+      "id": "50_no advice_cycle_162::11783::11785::paused_in_process",
+      "group_id": "50_no advice_cycle_162::11783::11785",
+      "source_name": "50_no advice_cycle_162",
+      "row": 25,
+      "phrase": "Äh",
+      "tag": "paused_in_process",
+      "start": 11783,
+      "end": 11785,
+      "status": "original",
+      "is_target": false,
+      "raw_tag": "paused_in_process"
+    },
+    {
+      "id": "50_no advice_cycle_162::19382::19392::reasoning: mentioning_contextual_information",
+      "group_id": "50_no advice_cycle_162::19382::19392",
+      "source_name": "50_no advice_cycle_162",
+      "row": 40,
+      "phrase": "73, E-Bike",
+      "tag": "reasoning: mentioning_contextual_information",
+      "start": 19382,
+      "end": 19392,
+      "status": "original",
+      "is_target": false,
+      "raw_tag": "reasoning: mentioning_contextual_information"
+    },
+    {
+      "id": "50_no advice_cycle_162::19425::19440::reasoning: mentioning_contextual_information",
+      "group_id": "50_no advice_cycle_162::19425::19440",
+      "source_name": "50_no advice_cycle_162",
+      "row": 40,
+      "phrase": "Älterer Mensch.",
+      "tag": "reasoning: mentioning_contextual_information",
+      "start": 19425,
+      "end": 19440,
+      "status": "original",
+      "is_target": false,
+      "raw_tag": "reasoning: mentioning_contextual_information"
+    },
+    {
+      "id": "50_no advice_cycle_162::19441::19455::position_unsure_interpretation: no_bleeding",
+      "group_id": "50_no advice_cycle_162::19441::19455",
+      "source_name": "50_no advice_cycle_162",
+      "row": 40,
+      "phrase": "Keine Blutung.",
+      "tag": "position_unsure_interpretation: no_bleeding",
+      "start": 19441,
+      "end": 19455,
+      "status": "original",
+      "is_target": true,
+      "raw_tag": "position_unsure_interpretation: no_bleeding"
+    },
+    {
+      "id": "50_no advice_cycle_162::19456::19470::position_unsure_interpretation: no_bleeding",
+      "group_id": "50_no advice_cycle_162::19456::19470",
+      "source_name": "50_no advice_cycle_162",
+      "row": 40,
+      "phrase": "Keine Blutung.",
+      "tag": "position_unsure_interpretation: no_bleeding",
+      "start": 19456,
+      "end": 19470,
+      "status": "original",
+      "is_target": true,
+      "raw_tag": "position_unsure_interpretation: no_bleeding"
+    },
+    {
+      "id": "50_no advice_cycle_162::19486::19514::indicator: no_bleeding",
+      "group_id": "50_no advice_cycle_162::19486::19514",
+      "source_name": "50_no advice_cycle_162",
+      "row": 40,
+      "phrase": "Mittellinie nicht verschoben",
+      "tag": "indicator: no_bleeding",
+      "start": 19486,
+      "end": 19514,
+      "status": "original",
+      "is_target": false,
+      "raw_tag": "indicator: no_bleeding"
+    },
+    {
+      "id": "50_no advice_cycle_162::19516::19544::indicator: no_bleeding",
+      "group_id": "50_no advice_cycle_162::19516::19544",
+      "source_name": "50_no advice_cycle_162",
+      "row": 40,
+      "phrase": "Gyri und Sulci gut zu sehen.",
+      "tag": "indicator: no_bleeding",
+      "start": 19516,
+      "end": 19544,
+      "status": "original",
+      "is_target": false,
+      "raw_tag": "indicator: no_bleeding"
+    },
+    {
+      "id": "50_no advice_cycle_162::19545::19587::indicator: no_bleeding",
+      "group_id": "50_no advice_cycle_162::19545::19587",
+      "source_name": "50_no advice_cycle_162",
+      "row": 40,
+      "phrase": "Rundherum keine unterschiedliche Densität.",
+      "tag": "indicator: no_bleeding",
+      "start": 19545,
+      "end": 19587,
+      "status": "original",
+      "is_target": false,
+      "raw_tag": "indicator: no_bleeding"
+    },
+    {
+      "id": "50_no advice_cycle_162::19588::19590::paused_in_process",
+      "group_id": "50_no advice_cycle_162::19588::19590",
+      "source_name": "50_no advice_cycle_162",
+      "row": 40,
+      "phrase": "Hm",
+      "tag": "paused_in_process",
+      "start": 19588,
+      "end": 19590,
+      "status": "original",
+      "is_target": false,
+      "raw_tag": "paused_in_process"
+    },
+    {
+      "id": "50_no advice_cycle_162::19592::19602::confidence_low: secondary",
+      "group_id": "50_no advice_cycle_162::19592::19602",
+      "source_name": "50_no advice_cycle_162",
+      "row": 40,
+      "phrase": "vielleicht",
+      "tag": "confidence_low: secondary",
+      "start": 19592,
+      "end": 19602,
+      "status": "original",
+      "is_target": false,
+      "raw_tag": "confidence_low: secondary"
+    },
+    {
+      "id": "50_no advice_cycle_162::19592::19602::indicator: anomaly_detected",
+      "group_id": "50_no advice_cycle_162::19592::19602",
+      "source_name": "50_no advice_cycle_162",
+      "row": 40,
+      "phrase": "vielleicht",
+      "tag": "indicator: anomaly_detected",
+      "start": 19592,
+      "end": 19602,
+      "status": "original",
+      "is_target": false,
+      "raw_tag": "indicator: anomaly_detected"
+    },
+    {
+      "id": "50_no advice_cycle_162::19602::19613::indicator: anomaly_detected",
+      "group_id": "50_no advice_cycle_162::19602::19613",
+      "source_name": "50_no advice_cycle_162",
+      "row": 40,
+      "phrase": " hier vorne",
+      "tag": "indicator: anomaly_detected",
+      "start": 19602,
+      "end": 19613,
+      "status": "original",
+      "is_target": false,
+      "raw_tag": "indicator: anomaly_detected"
+    },
+    {
+      "id": "50_no advice_cycle_162::19666::19689::interpretation: no_bleeding",
+      "group_id": "50_no advice_cycle_162::19666::19689",
+      "source_name": "50_no advice_cycle_162",
+      "row": 40,
+      "phrase": "Tja, der hat das nicht.",
+      "tag": "interpretation: no_bleeding",
+      "start": 19666,
+      "end": 19689,
+      "status": "original",
+      "is_target": false,
+      "raw_tag": "interpretation: no_bleeding"
+    },
+    {
+      "id": "50_no advice_cycle_162::20987::21005::reasoning: mentioning_contextual_information",
+      "group_id": "50_no advice_cycle_162::20987::21005",
+      "source_name": "50_no advice_cycle_162",
+      "row": 44,
+      "phrase": "53, Motorradunfall",
+      "tag": "reasoning: mentioning_contextual_information",
+      "start": 20987,
+      "end": 21005,
+      "status": "original",
+      "is_target": false,
+      "raw_tag": "reasoning: mentioning_contextual_information"
+    },
+    {
+      "id": "50_no advice_cycle_162::21007::21011::paused_in_process",
+      "group_id": "50_no advice_cycle_162::21007::21011",
+      "source_name": "50_no advice_cycle_162",
+      "row": 44,
+      "phrase": "Okay",
+      "tag": "paused_in_process",
+      "start": 21007,
+      "end": 21011,
+      "status": "original",
+      "is_target": false,
+      "raw_tag": "paused_in_process"
+    },
+    {
+      "id": "50_no advice_cycle_162::21013::21135::indicator: anomaly_detected",
+      "group_id": "50_no advice_cycle_162::21013::21135",
+      "source_name": "50_no advice_cycle_162",
+      "row": 44,
+      "phrase": "Also ich finde hier sieht alles schon ein bisschen schräg aus, die Mittellinie. Als wäre die linke Seite wesentlich größer",
+      "tag": "indicator: anomaly_detected",
+      "start": 21013,
+      "end": 21135,
+      "status": "original",
+      "is_target": false,
+      "raw_tag": "indicator: anomaly_detected"
+    },
+    {
+      "id": "50_no advice_cycle_162::21137::21140::paused_in_process",
+      "group_id": "50_no advice_cycle_162::21137::21140",
+      "source_name": "50_no advice_cycle_162",
+      "row": 44,
+      "phrase": "Ähm",
+      "tag": "paused_in_process",
+      "start": 21137,
+      "end": 21140,
+      "status": "original",
+      "is_target": false,
+      "raw_tag": "paused_in_process"
+    },
+    {
+      "id": "50_no advice_cycle_162::21142::21157::visual_search: description_of_medical_image_features",
+      "group_id": "50_no advice_cycle_162::21142::21157",
+      "source_name": "50_no advice_cycle_162",
+      "row": 44,
+      "phrase": "Ventrikelebene.",
+      "tag": "visual_search: description_of_medical_image_features",
+      "start": 21142,
+      "end": 21157,
+      "status": "original",
+      "is_target": false,
+      "raw_tag": "visual_search: description_of_medical_image_features"
+    },
+    {
+      "id": "50_no advice_cycle_162::21158::21165::visual_search: description_of_medical_image_features",
+      "group_id": "50_no advice_cycle_162::21158::21165",
+      "source_name": "50_no advice_cycle_162",
+      "row": 44,
+      "phrase": "Gefäße.",
+      "tag": "visual_search: description_of_medical_image_features",
+      "start": 21158,
+      "end": 21165,
+      "status": "original",
+      "is_target": false,
+      "raw_tag": "visual_search: description_of_medical_image_features"
+    },
+    {
+      "id": "50_no advice_cycle_162::21266::21335::awareness_of_task: image_quality",
+      "group_id": "50_no advice_cycle_162::21266::21335",
+      "source_name": "50_no advice_cycle_162",
+      "row": 44,
+      "phrase": "Aber der ist auch einfach schräg im CT drin, es kommt auch das zuerst",
+      "tag": "awareness_of_task: image_quality",
+      "start": 21266,
+      "end": 21335,
+      "status": "original",
+      "is_target": false,
+      "raw_tag": "awareness_of_task: image_quality"
+    },
+    {
+      "id": "50_no advice_cycle_162::21354::21368::confidence_high: secondary",
+      "group_id": "50_no advice_cycle_162::21354::21368",
+      "source_name": "50_no advice_cycle_162",
+      "row": 44,
+      "phrase": "wahrscheinlich",
+      "tag": "confidence_high: secondary",
+      "start": 21354,
+      "end": 21368,
+      "status": "original",
+      "is_target": false,
+      "raw_tag": "confidence_high: secondary"
+    },
+    {
+      "id": "50_no advice_cycle_162::21377::21379::position_unsure_paused_in_process",
+      "group_id": "50_no advice_cycle_162::21377::21379",
+      "source_name": "50_no advice_cycle_162",
+      "row": 44,
+      "phrase": "Hm",
+      "tag": "position_unsure_paused_in_process",
+      "start": 21377,
+      "end": 21379,
+      "status": "original",
+      "is_target": true,
+      "raw_tag": "position_unsure_paused_in_process"
+    },
+    {
+      "id": "50_no advice_cycle_162::21407::21421::reasoning: mentioning_contextual_information",
+      "group_id": "50_no advice_cycle_162::21407::21421",
+      "source_name": "50_no advice_cycle_162",
+      "row": 44,
+      "phrase": "Motorradunfall",
+      "tag": "reasoning: mentioning_contextual_information",
+      "start": 21407,
+      "end": 21421,
+      "status": "original",
+      "is_target": false,
+      "raw_tag": "reasoning: mentioning_contextual_information"
+    },
+    {
+      "id": "50_no advice_cycle_162::21423::21425::paused_in_process",
+      "group_id": "50_no advice_cycle_162::21423::21425",
+      "source_name": "50_no advice_cycle_162",
+      "row": 44,
+      "phrase": "Hm",
+      "tag": "paused_in_process",
+      "start": 21423,
+      "end": 21425,
+      "status": "original",
+      "is_target": false,
+      "raw_tag": "paused_in_process"
+    },
+    {
+      "id": "50_no advice_cycle_162::21427::21433::visual_search: description_of_medical_image_features",
+      "group_id": "50_no advice_cycle_162::21427::21433",
+      "source_name": "50_no advice_cycle_162",
+      "row": 44,
+      "phrase": "Gefäße",
+      "tag": "visual_search: description_of_medical_image_features",
+      "start": 21427,
+      "end": 21433,
+      "status": "original",
+      "is_target": false,
+      "raw_tag": "visual_search: description_of_medical_image_features"
+    },
+    {
+      "id": "50_no advice_cycle_162::21435::21587::indicator: anomaly_detected",
+      "group_id": "50_no advice_cycle_162::21435::21587",
+      "source_name": "50_no advice_cycle_162",
+      "row": 44,
+      "phrase": "Ich sehe hier, das ist alles so ein bisschen verwaschen, also man Gyri und Sulic nicht gut abgrenzen. So auf einmal auf der Seite, auf der rechten Seite",
+      "tag": "indicator: anomaly_detected",
+      "start": 21435,
+      "end": 21587,
+      "status": "original",
+      "is_target": false,
+      "raw_tag": "indicator: anomaly_detected"
+    },
+    {
+      "id": "50_no advice_cycle_162::21589::21614::interpretation: no_bleeding",
+      "group_id": "50_no advice_cycle_162::21589::21614",
+      "source_name": "50_no advice_cycle_162",
+      "row": 44,
+      "phrase": "Aber ich sehe keine akute",
+      "tag": "interpretation: no_bleeding",
+      "start": 21589,
+      "end": 21614,
+      "status": "original",
+      "is_target": false,
+      "raw_tag": "interpretation: no_bleeding"
+    },
+    {
+      "id": "50_no advice_cycle_162::21616::21665::indicator: anomaly_detected",
+      "group_id": "50_no advice_cycle_162::21616::21665",
+      "source_name": "50_no advice_cycle_162",
+      "row": 44,
+      "phrase": "Aber ich finde hier, das sieht nicht so super aus",
+      "tag": "indicator: anomaly_detected",
+      "start": 21616,
+      "end": 21665,
+      "status": "original",
+      "is_target": false,
+      "raw_tag": "indicator: anomaly_detected"
+    },
+    {
+      "id": "50_no advice_cycle_162::21667::21687::confidence_low: concrete",
+      "group_id": "50_no advice_cycle_162::21667::21687",
+      "source_name": "50_no advice_cycle_162",
+      "row": 44,
+      "phrase": "Bin ich mir unsicher",
+      "tag": "confidence_low: concrete",
+      "start": 21667,
+      "end": 21687,
+      "status": "original",
+      "is_target": false,
+      "raw_tag": "confidence_low: concrete"
+    }
+  ]
+}
+</script>
+
+<script type="application/json" id="document-texts">
+{
+  "20_no advice_cycle_25": {
+    "paragraphs": [
+      {
+        "row": 8,
+        "paragraph": "9",
+        "text": "… Sehe ich auch nichts. . Ups nein.",
+        "start_position": 3926,
+        "end_position": 3961,
+        "meta": {
+          "patient_information": "53, F, Mountainbike accident, no helmet.",
+          "truth": "no ICH",
+          "diagnosis": "no ICH",
+          "performance": "accurate",
+          "self_confidence": "4",
+          "ai_report_usefulness": "0",
+          "condition": "no advice",
+          "difficulty": "1",
+          "type": "no advice",
+          "patient_uid": "01190107",
+          "cycle_type": "0",
+          "group": "1"
+        }
+      },
+      {
+        "row": 19,
+        "paragraph": "20",
+        "text": "...Hmm… Hier sehe ich auch nichts…. Ich habe das Gefühl, ich sehe generell nichts. Auch wenn, dass das… Hmm… Hm, das ist nicht.",
+        "start_position": 6242,
+        "end_position": 6369,
+        "meta": {
+          "patient_information": "47, M, Worst headache.",
+          "truth": "no ICH",
+          "diagnosis": "no ICH",
+          "performance": "accurate",
+          "self_confidence": "3",
+          "ai_report_usefulness": "0",
+          "condition": "no advice",
+          "difficulty": "1",
+          "type": "no advice",
+          "patient_uid": "01198610",
+          "cycle_type": "0",
+          "group": "1"
+        }
+      },
+      {
+        "row": 23,
+        "paragraph": "24",
+        "text": "… Ich glaube, hier auch.",
+        "start_position": 8055,
+        "end_position": 8079,
+        "meta": {
+          "patient_information": "22, M, Hit by falling tree.",
+          "truth": "ICH",
+          "diagnosis": "ICH",
+          "performance": "accurate",
+          "self_confidence": "3",
+          "ai_report_usefulness": "0",
+          "condition": "no advice",
+          "difficulty": "0",
+          "type": "no advice",
+          "patient_uid": "01978975",
+          "cycle_type": "0",
+          "group": "1"
+        }
+      }
+    ]
+  },
+  "45_advice with annotation_cycle_224": {
+    "paragraphs": [
+      {
+        "row": 13,
+        "paragraph": "14",
+        "text": "dann hier. Da soll auch keine Blutung gesehen worden sein. Bild ist relativ gut beleuchtet. Ähm. Ich sehe gerade keine auffälligen Strukturen, keine Blutung. Soweit auf dem anderen Bild sieht das für mich ähnlich aus. Ich sehe auch wieder schön hier die Ähm Seitenhörner der Ventrikel. Da würde ich mit der KI übereinstimmen. Da sehe ich keine Blutung.",
+        "start_position": 9380,
+        "end_position": 9732,
+        "meta": {
+          "patient_information": "72, F, GCS 13, car accident.",
+          "truth": "no ICH",
+          "diagnosis": "no ICH",
+          "performance": "accurate",
+          "self_confidence": "5",
+          "ai_report_usefulness": "5",
+          "condition": "advice with annotation",
+          "difficulty": "2",
+          "type": "correct",
+          "patient_uid": "02141840",
+          "cycle_type": "2",
+          "group": "1"
+        }
+      },
+      {
+        "row": 19,
+        "paragraph": "20",
+        "text": "Hier schaue ich erst mal wieder durch, wo hier was entdeckt worden sein soll. Hier sieht man schon mal eine ziemliche Verschiebung und auch eine Seite, also eine große Seitenverschiebung. Ich hab die, das Kästchen jetzt gerade noch nicht gesehen, das ist ja unten immer so ein bisschen überlagert. Ah, hier relativ kleine Stelle, aber ich muss sagen, dass ich das generell, das Bild schon ziemlich auffällig finde, weil ich da weniger Symmetrie drin erkenne, und auch hier die Seitenventrikel sehr groß und die Stelle, die die KI erkannt hat, das könnte durchaus eine Blutung sein, weil es relativ aufgehellt ist, würde ich sagen, ja. Bin mir relativ sicher.",
+        "start_position": 12284,
+        "end_position": 12942,
+        "meta": {
+          "patient_information": "24, M, Hit against head.",
+          "truth": "no ICH",
+          "diagnosis": "ICH",
+          "performance": "inaccurate",
+          "self_confidence": "4",
+          "ai_report_usefulness": "5",
+          "condition": "advice with annotation",
+          "difficulty": "2",
+          "type": "incorrect",
+          "patient_uid": "01448810",
+          "cycle_type": "2",
+          "group": "1"
+        }
+      }
+    ]
+  },
+  "45_no advice_cycle_63": {
+    "paragraphs": [
+      {
+        "row": 18,
+        "paragraph": "19",
+        "text": "Ähm, warum kommt das jetzt. Ah, okay. Und das nächste Bild. Ähm, genau ich habe hier wieder ein relativ homogenes Bild, für mich. Das, ja. Die Seitenventrikel sehen soweit gut aus. Aber generell recht schmale Seitenventrikel. Aber ich habe da keine Blutung erkannt. Bin mir relativ sicher.",
+        "start_position": 9788,
+        "end_position": 10077,
+        "meta": {
+          "patient_information": "17, F, Fistfight.",
+          "truth": "no ICH",
+          "diagnosis": "no ICH",
+          "performance": "accurate",
+          "self_confidence": "4",
+          "ai_report_usefulness": "0",
+          "condition": "no advice",
+          "difficulty": "2",
+          "type": "no advice",
+          "patient_uid": "01785374",
+          "cycle_type": "0",
+          "group": "1"
+        }
+      }
+    ]
+  },
+  "50_advice with annotation_cycle_225": {
+    "paragraphs": [
+      {
+        "row": 6,
+        "paragraph": "7",
+        "text": "Okay, 72 weiblich, GCS 13, das ist ja nicht so schlecht. Okay, gehen wir mal durch, die hatte einen Autounfall. Okay, also, ich achte wieder auf Mittellinienverschiebungen. Jetzt hatte die ja ein akutes Trauma, Schleudertrauma oder was auch immer, Traume gegen den Kopf. Eher ne epidurale Sache, oder halt wegen des Alters soubarachnoidales Problem. Sehe ich jetzt hier keine Mittellinienverschiebung. Ich sehe nichts rund um die Stammganglien, Ventrikel sehen gut aus. Hier ist bisschen heller, hier sagt es da auch, ja auch so ein bisschen, vielleicht eine kleine, kleine Blutung.",
+        "start_position": 3111,
+        "end_position": 3693,
+        "meta": {
+          "patient_information": "72, F, GCS 13, car accident.",
+          "truth": "no ICH",
+          "diagnosis": "ICH",
+          "performance": "inaccurate",
+          "self_confidence": "3",
+          "ai_report_usefulness": "3",
+          "condition": "advice with annotation",
+          "difficulty": "2",
+          "type": "incorrect",
+          "patient_uid": "02141840",
+          "cycle_type": "2",
+          "group": "3"
+        }
+      },
+      {
+        "row": 33,
+        "paragraph": "34",
+        "text": "Okay, 45 Fahrrerin in einem Autounfall und GCS um 2 Punkte verringert. Okay man wird auch schon krass gespoilert wo es sein soll. Man sieht hier auch die hyperdensen Einblutungen, geht alles hier oben rum hier entlanglang der rechten Hemisphäre hier auch hier vorne. Ja die hätte ich jetzt auch gefunden.",
+        "start_position": 17916,
+        "end_position": 18220,
+        "meta": {
+          "patient_information": "45, F, Driver in a car accident, GCS 13.",
+          "truth": "ICH",
+          "diagnosis": "ICH",
+          "performance": "accurate",
+          "self_confidence": "5",
+          "ai_report_usefulness": "3",
+          "condition": "advice with annotation",
+          "difficulty": "0",
+          "type": "correct",
+          "patient_uid": "02135525",
+          "cycle_type": "2",
+          "group": "3"
+        }
+      }
+    ]
+  },
+  "50_no advice_cycle_162": {
+    "paragraphs": [
+      {
+        "row": 1,
+        "paragraph": "2",
+        "text": "26, männlich, Fahrradunfall. Okay, ist das immer hier in dem richtigen Preset schon drin, oder soll ich das wieder ändern, wie letztes Mal. EXPERIMENTER: Das musst du entscheiden, das kann ich dir leider gar nicht sagen. VPN: Okay. Zuerst gucken, er hat ja einen Fahrradunfall gehabt, ob die Kortikalis irgendwo angeknackst ist. Nein. Nein. EXPERIMENTER: Gerne laut denken. VPN: Ja genau, ok. Dann ist es eher ein Trauma gegen den Kopf. Dann wäre es ja eher Epiduralblutung, möglich auch oder wahrscheinlich eher. Oder eine Verschiebung der Hemisphären, irgendwie einen Druck oder ein sichelförmige Sinus. Hier vorne noch. Nein. Okay, sehe ich jetzt auch keine Blutung.",
+        "start_position": 373,
+        "end_position": 1042,
+        "meta": {
+          "patient_information": "26, M, Bicycle accident.",
+          "truth": "ICH",
+          "diagnosis": "no ICH",
+          "performance": "inaccurate",
+          "self_confidence": "3",
+          "ai_report_usefulness": "0",
+          "condition": "no advice",
+          "difficulty": "0",
+          "type": "no advice",
+          "patient_uid": "02110546",
+          "cycle_type": "0",
+          "group": "3"
+        }
+      },
+      {
+        "row": 25,
+        "paragraph": "26",
+        "text": "Okay, dann 53-weiblich, Motorrad ohne Helm. Das kann ja dann auch ein Hochrasanztrauma sein, wo die Schädeldecke frakturiert ist. Das ich jetzt hier nicht denke, ich check trotzdem mal ganz kurz im Knochenfenster, ob es hier einen Defekt gibt. Vielleicht. Vielleicht so ein bisschen parietal. Da mal gucken, ob es da Blutungen gibt. Ja, hm. Das wäre eher Subdural, wie das hier reingeblutet hat, ?. Wie alt ist die denn. 53. Äh, ja das kann schon sein. Das da auch so Schleudertrauma mäßig, kann ich ausschließen.",
+        "start_position": 11358,
+        "end_position": 11871,
+        "meta": {
+          "patient_information": "53, F, Mountainbike accident, no helmet.",
+          "truth": "no ICH",
+          "diagnosis": "ICH",
+          "performance": "inaccurate",
+          "self_confidence": "2",
+          "ai_report_usefulness": "0",
+          "condition": "no advice",
+          "difficulty": "1",
+          "type": "no advice",
+          "patient_uid": "01190107",
+          "cycle_type": "0",
+          "group": "3"
+        }
+      },
+      {
+        "row": 40,
+        "paragraph": "41",
+        "text": "73, E-Bike, das kann schon schneller sein. Älterer Mensch. Keine Blutung. Keine Blutung. Keine Blutung. Mittellinie nicht verschoben, Gyri und Sulci gut zu sehen. Rundherum keine unterschiedliche Densität. Hm, vielleicht hier vorne, aber im nächsten Fenster, war es schon wieder weg. Tja, der hat das nicht.",
+        "start_position": 19382,
+        "end_position": 19689,
+        "meta": {
+          "patient_information": "73, M, E-Bike accident.",
+          "truth": "ICH",
+          "diagnosis": "no ICH",
+          "performance": "inaccurate",
+          "self_confidence": "2",
+          "ai_report_usefulness": "0",
+          "condition": "no advice",
+          "difficulty": "2",
+          "type": "no advice",
+          "patient_uid": "02064515",
+          "cycle_type": "0",
+          "group": "3"
+        }
+      },
+      {
+        "row": 44,
+        "paragraph": "45",
+        "text": "53, Motorradunfall. Okay. Also ich finde hier sieht alles schon ein bisschen schräg aus, die Mittellinie. Als wäre die linke Seite wesentlich größer. Ähm, Ventrikelebene. Gefäße. Ist alles ein bisschen schräg versetzt, also man sieht zuerst hier das Gefäß links und dann rechts. Aber der ist auch einfach schräg im CT drin, es kommt auch das zuerst. Deswegen ist das wahrscheinlich schräg. Hm, was ist nochmal passiert. Motorradunfall. Hm, Gefäße. Ich sehe hier, das ist alles so ein bisschen verwaschen, also man Gyri und Sulic nicht gut abgrenzen. So auf einmal auf der Seite, auf der rechten Seite. Aber ich sehe keine akute. Aber ich finde hier, das sieht nicht so super aus. Bin ich mir unsicher, weil das schräg ist.",
+        "start_position": 20987,
+        "end_position": 21709,
+        "meta": {
+          "patient_information": "53, F, Motorbike crash.",
+          "truth": "ICH",
+          "diagnosis": "ICH",
+          "performance": "accurate",
+          "self_confidence": "1",
+          "ai_report_usefulness": "0",
+          "condition": "no advice",
+          "difficulty": "1",
+          "type": "no advice",
+          "patient_uid": "01787301",
+          "cycle_type": "0",
+          "group": "3"
+        }
+      }
+    ]
+  }
+}
+</script>
+
+<script type="application/json" id="tag-list">
+[
+  {
+    "name": "ai_report: ich",
+    "color": "#DC0000",
+    "additional_tag": false,
+    "system": false
+  },
+  {
+    "name": "ai_report: ich_localization",
+    "color": "#FF7800",
+    "additional_tag": false,
+    "system": false
+  },
+  {
+    "name": "ai_report: no_ich",
+    "color": "#46AA00",
+    "additional_tag": false,
+    "system": false
+  },
+  {
+    "name": "awareness_of_task: difficult",
+    "color": "#FFDB27",
+    "additional_tag": false,
+    "system": false
+  },
+  {
+    "name": "awareness_of_task: easy",
+    "color": "#808080",
+    "additional_tag": false,
+    "system": false
+  },
+  {
+    "name": "awareness_of_task: image_quality",
+    "color": "#008250",
+    "additional_tag": false,
+    "system": false
+  },
+  {
+    "name": "confidence_high: concrete",
+    "color": "#46AA00",
+    "additional_tag": false,
+    "system": false
+  },
+  {
+    "name": "confidence_high: increased_through_ai",
+    "color": "#46AA00",
+    "additional_tag": false,
+    "system": false
+  },
+  {
+    "name": "confidence_high: secondary",
+    "color": "#46AA00",
+    "additional_tag": false,
+    "system": false
+  },
+  {
+    "name": "confidence_low: concrete",
+    "color": "#FF7800",
+    "additional_tag": false,
+    "system": false
+  },
+  {
+    "name": "confidence_low: decreased_through_ai",
+    "color": "#FF7800",
+    "additional_tag": false,
+    "system": false
+  },
+  {
+    "name": "confidence_low: secondary",
+    "color": "#FF7800",
+    "additional_tag": false,
+    "system": false
+  },
+  {
+    "name": "control: control_repeat",
+    "color": "#3D4DB5",
+    "additional_tag": false,
+    "system": false
+  },
+  {
+    "name": "control: control_strategies",
+    "color": "#76C8EE",
+    "additional_tag": false,
+    "system": false
+  },
+  {
+    "name": "control: make_own_judgement",
+    "color": "#808080",
+    "additional_tag": false,
+    "system": false
+  },
+  {
+    "name": "control: missing_information",
+    "color": "#008C96",
+    "additional_tag": false,
+    "system": false
+  },
+  {
+    "name": "control: reflective_question",
+    "color": "#006EFF",
+    "additional_tag": false,
+    "system": false
+  },
+  {
+    "name": "control: relying_on_ai",
+    "color": "#808080",
+    "additional_tag": false,
+    "system": false
+  },
+  {
+    "name": "decision_with_ai: explicitly_agreeing_with_ai",
+    "color": "#008250",
+    "additional_tag": false,
+    "system": false
+  },
+  {
+    "name": "decision_with_ai: explicitly_disagreeing_with_ai",
+    "color": "#DC0000",
+    "additional_tag": false,
+    "system": false
+  },
+  {
+    "name": "decision_with_ai: implicitly_agreeing_with_ai",
+    "color": "#28D9C8",
+    "additional_tag": false,
+    "system": false
+  },
+  {
+    "name": "indicator: anomaly_detected",
+    "color": "#FFBE00",
+    "additional_tag": false,
+    "system": false
+  },
+  {
+    "name": "indicator: no_bleeding",
+    "color": "#966450",
+    "additional_tag": false,
+    "system": false
+  },
+  {
+    "name": "interpretation: bleeding",
+    "color": "#F21F0D",
+    "additional_tag": false,
+    "system": false
+  },
+  {
+    "name": "interpretation: bleeding_localization_unclear",
+    "color": "#A41508",
+    "additional_tag": false,
+    "system": false
+  },
+  {
+    "name": "interpretation: description_bleeding",
+    "color": "#DC0000",
+    "additional_tag": false,
+    "system": false
+  },
+  {
+    "name": "interpretation: no_bleeding",
+    "color": "#6C6C6C",
+    "additional_tag": false,
+    "system": false
+  },
+  {
+    "name": "interpretation: no_bleeding_explanation",
+    "color": "#6E6E6E",
+    "additional_tag": false,
+    "system": false
+  },
+  {
+    "name": "other",
+    "color": "#808080",
+    "additional_tag": false,
+    "system": true
+  },
+  {
+    "name": "paused_in_process",
+    "color": "#00BBD4",
+    "additional_tag": false,
+    "system": false
+  },
+  {
+    "name": "reasoning: alternative_medical_cause",
+    "color": "#F00082",
+    "additional_tag": false,
+    "system": false
+  },
+  {
+    "name": "reasoning: alternative_medical_structure",
+    "color": "#A41A47",
+    "additional_tag": false,
+    "system": false
+  },
+  {
+    "name": "reasoning: artifact",
+    "color": "#8C32A0",
+    "additional_tag": false,
+    "system": false
+  },
+  {
+    "name": "reasoning: conclusion_contextual_information",
+    "color": "#C6A1FE",
+    "additional_tag": false,
+    "system": false
+  },
+  {
+    "name": "reasoning: conclusion_findings",
+    "color": "#A41A47",
+    "additional_tag": false,
+    "system": false
+  },
+  {
+    "name": "reasoning: mentioning_contextual_information",
+    "color": "#C6A1FE",
+    "additional_tag": false,
+    "system": false
+  },
+  {
+    "name": "reasoning: not_matching_contextual_information",
+    "color": "#C6A1FE",
+    "additional_tag": false,
+    "system": false
+  },
+  {
+    "name": "reference: past_case",
+    "color": "#6C6C6C",
+    "additional_tag": false,
+    "system": false
+  },
+  {
+    "name": "reference: past_trial",
+    "color": "#6C6C6C",
+    "additional_tag": false,
+    "system": false
+  },
+  {
+    "name": "reflection: diagnostic_uncertainty",
+    "color": "#006EFF",
+    "additional_tag": false,
+    "system": false
+  },
+  {
+    "name": "reflection: experience_limitation",
+    "color": "#006EFF",
+    "additional_tag": false,
+    "system": false
+  },
+  {
+    "name": "reflection: perceptual_doubt",
+    "color": "#006EFF",
+    "additional_tag": false,
+    "system": false
+  },
+  {
+    "name": "reflection: prior_experiences",
+    "color": "#006EFF",
+    "additional_tag": false,
+    "system": false
+  },
+  {
+    "name": "reflection: recurring_perceptual_pattern",
+    "color": "#006EFF",
+    "additional_tag": false,
+    "system": false
+  },
+  {
+    "name": "reflection: self-affirmation",
+    "color": "#006EFF",
+    "additional_tag": false,
+    "system": false
+  },
+  {
+    "name": "reflection: self-correction",
+    "color": "#006EFF",
+    "additional_tag": false,
+    "system": false
+  },
+  {
+    "name": "reflection: self-monitoring",
+    "color": "#006EFF",
+    "additional_tag": false,
+    "system": false
+  },
+  {
+    "name": "reflection_of_ai: confirmed_by_ai",
+    "color": "#808080",
+    "additional_tag": false,
+    "system": false
+  },
+  {
+    "name": "reflection_of_ai: confused_by_ai",
+    "color": "#808080",
+    "additional_tag": false,
+    "system": false
+  },
+  {
+    "name": "reflection_of_ai: distrust_in_ai",
+    "color": "#808080",
+    "additional_tag": false,
+    "system": false
+  },
+  {
+    "name": "reflection_of_ai: helpful",
+    "color": "#808080",
+    "additional_tag": false,
+    "system": false
+  },
+  {
+    "name": "reflection_of_ai: trust_in_ai",
+    "color": "#808080",
+    "additional_tag": false,
+    "system": false
+  },
+  {
+    "name": "reflection_of_ai: unhelpful/unnecessary",
+    "color": "#808080",
+    "additional_tag": false,
+    "system": false
+  },
+  {
+    "name": "reflection_of_ai: ich_not_recognized_without_ai",
+    "color": "#808080",
+    "additional_tag": false,
+    "system": false
+  },
+  {
+    "name": "reflection_of_ai: ich_recognized_without_ai",
+    "color": "#808080",
+    "additional_tag": false,
+    "system": false
+  },
+  {
+    "name": "technical_conversation",
+    "color": "#808080",
+    "additional_tag": false,
+    "system": false
+  },
+  {
+    "name": "visual_search: based_on_contextual_information",
+    "color": "#C6A1FE",
+    "additional_tag": false,
+    "system": false
+  },
+  {
+    "name": "visual_search: triggered_by_ai",
+    "color": "#FFA727",
+    "additional_tag": false,
+    "system": false
+  },
+  {
+    "name": "visual_search: triggered_by_finding",
+    "color": "#CDDC39",
+    "additional_tag": false,
+    "system": false
+  },
+  {
+    "name": "visual_search: description_of_medical_image_features",
+    "color": "#808080",
+    "additional_tag": false,
+    "system": false
+  },
+  {
+    "name": "visual_search: description_of_own_approach_without_external_help",
+    "color": "#808080",
+    "additional_tag": false,
+    "system": false
+  },
+  {
+    "name": "visual_search",
+    "color": "#808080",
+    "additional_tag": false,
+    "system": false
+  },
+  {
+    "name": "position_unsure_paused_in_process",
+    "color": "#869495",
+    "additional_tag": true,
+    "system": false
+  },
+  {
+    "name": "position_unsure_decision_with_ai: implicitly_agreeing_with_ai",
+    "color": "#864fb1",
+    "additional_tag": true,
+    "system": false
+  },
+  {
+    "name": "position_unsure_indicator: no_bleeding",
+    "color": "#24f9f1",
+    "additional_tag": true,
+    "system": false
+  },
+  {
+    "name": "position_unsure_confidence_low: secondary",
+    "color": "#09b0eb",
+    "additional_tag": true,
+    "system": false
+  },
+  {
+    "name": "position_unsure_interpretation: no_bleeding",
+    "color": "#48a00e",
+    "additional_tag": true,
+    "system": false
+  }
+]
+</script>
+
+<script type="application/json" id="meta-columns">
+[
+  {
+    "col": "patient_information",
+    "label": "Patient info"
+  },
+  {
+    "col": "truth",
+    "label": "Truth"
+  },
+  {
+    "col": "diagnosis",
+    "label": "Diagnosis"
+  },
+  {
+    "col": "performance",
+    "label": "Performance"
+  },
+  {
+    "col": "self_confidence",
+    "label": "Self-confidence"
+  },
+  {
+    "col": "ai_report_usefulness",
+    "label": "AI report usefulness"
+  },
+  {
+    "col": "condition",
+    "label": "Condition"
+  },
+  {
+    "col": "difficulty",
+    "label": "Difficulty"
+  },
+  {
+    "col": "type",
+    "label": "Type"
+  },
+  {
+    "col": "patient_uid",
+    "label": "Patient UID"
+  },
+  {
+    "col": "cycle_type",
+    "label": "Cycle type"
+  },
+  {
+    "col": "group",
+    "label": "Group"
+  }
+]
+</script>
+
+<script type="application/json" id="document-identity">
+{
+  "20_no advice_cycle_25": {
+    "think_aloud_id": 20,
+    "condition": "no advice"
+  },
+  "45_advice with annotation_cycle_224": {
+    "think_aloud_id": 45,
+    "condition": "advice with annotation"
+  },
+  "45_no advice_cycle_63": {
+    "think_aloud_id": 45,
+    "condition": "no advice"
+  },
+  "50_advice with annotation_cycle_225": {
+    "think_aloud_id": 50,
+    "condition": "advice with annotation"
+  },
+  "50_no advice_cycle_162": {
+    "think_aloud_id": 50,
+    "condition": "no advice"
+  }
+}
+</script>
+
+<script type="application/json" id="filter-columns">
+[
+  {
+    "col": "think_aloud_id",
+    "label": "think_aloud_id"
+  },
+  {
+    "col": "condition",
+    "label": "Condition"
+  }
+]
+</script>
+
+<script type="application/json" id="display-label">
+"Paragraph"
+</script>
+
+<script type="application/json" id="mode">
+"restricted"
+</script>
+
+<script>
+(function () {
+  "use strict";
+
+  const STATUS_LABELS = {
+    original: "original",
+    created: "created",
+    deleted: "deleted",
+    changed_position: "moved",
+    changed_tag: "retagged",
+    changed_position_and_tag: "moved+retagged",
+  };
+  const STATUS_COLORS = {
+    original: "#6b7280",
+    created: "#16a34a",
+    deleted: "#dc2626",
+    changed_position: "#ea580c",
+    changed_tag: "#2563eb",
+    changed_position_and_tag: "#7c3aed",
+  };
+
+  const reviewData = JSON.parse(document.getElementById("review-data").textContent);
+  const tagList = JSON.parse(document.getElementById("tag-list").textContent); // [{name, color, additional_tag, system}]
+  const tagMetaByName = {};
+  tagList.forEach((t) => {
+    tagMetaByName[t.name] = { color: t.color, additional: !!t.additional_tag, system: !!t.system };
+  });
+
+  function hashHue(tag) {
+    let h = 0;
+    for (let i = 0; i < tag.length; i++) h = (h * 31 + tag.charCodeAt(i)) >>> 0;
+    return h % 360;
+  }
+  function hexToRgba(hex, alpha) {
+    hex = (hex || "").replace("#", "");
+    if (hex.length !== 6) return `rgba(128, 128, 128, ${alpha})`;
+    const r = parseInt(hex.slice(0, 2), 16);
+    const g = parseInt(hex.slice(2, 4), 16);
+    const b = parseInt(hex.slice(4, 6), 16);
+    return `rgba(${r}, ${g}, ${b}, ${alpha})`;
+  }
+  // Looks up a tag's color/undefined-ness. Tags typed in at edit time that
+  // never appeared in the generated data (so aren't in tagMetaByName at all)
+  // are treated as undefined too, with a deterministic hash-based color.
+  function tagInfo(tag) {
+    const known = tagMetaByName[tag];
+    if (known) return known;
+    return { color: `hsl(${hashHue(tag)}, 60%, 48%)`, additional: true, system: false };
+  }
+  // Solid color for badges: the tag's real codebook color, falling back to a
+  // deterministic hash-based hue for tags without one (e.g. undefined tags).
+  function tagColor(tag) {
+    return tagInfo(tag).color;
+  }
+  // Translucent tint for text highlights, same color source as tagColor().
+  // tagInfo().color is a hex string for known tags, or a synthesized
+  // hsl(...) string for unknown ones (see tagInfo()) -- handle both.
+  function tagRgba(tag, alpha) {
+    const color = tagInfo(tag).color;
+    return color.startsWith("#")
+      ? hexToRgba(color, alpha)
+      : color.replace("hsl(", "hsla(").replace(")", `, ${alpha})`);
+  }
+  // Mirrors report/html.py's _build_background_style: a single tint for one tag,
+  // or equal-height horizontal stripes (one per tag) when several tags cover
+  // the same text segment, so overlapping tags stay visually distinguishable.
+  function buildStripeBackground(tagNames) {
+    if (tagNames.length === 0) return "transparent";
+    if (tagNames.length === 1) return tagRgba(tagNames[0], 0.35);
+    const stripeHeight = 100 / tagNames.length;
+    const parts = tagNames.map(
+      (t, i) => `${tagRgba(t, 0.35)} ${i * stripeHeight}%, ${tagRgba(t, 0.35)} ${(i + 1) * stripeHeight}%`
+    );
+    return `linear-gradient(to bottom, ${parts.join(", ")})`;
+  }
+
+  const state = {
+    metadata: reviewData.metadata,
+    paragraphChecks: reviewData.paragraph_checks,
+    records: reviewData.records,
+    documents: JSON.parse(document.getElementById("document-texts").textContent),
+    tags: tagList.map((t) => t.name), // all tags seen (defined + undefined), for autocomplete
+    definedTags: tagList.filter((t) => !t.additional_tag).map((t) => t.name), // codebook only, for the dropdowns
+  };
+  const metaColumns = JSON.parse(document.getElementById("meta-columns").textContent); // [{col, label}]
+  // docName -> {<key_column>: value, ..., condition: value}; resolved server-side
+  // by build_document_identity() in src/post_processing/review_page.py, so this page never
+  // re-derives identity from a name.
+  const documentIdentity = JSON.parse(document.getElementById("document-identity").textContent);
+  const filterColumns = JSON.parse(document.getElementById("filter-columns").textContent); // [{col, label}]
+  const displayLabel = JSON.parse(document.getElementById("display-label").textContent);
+  const MODE = JSON.parse(document.getElementById("mode").textContent); // "full" or "restricted"
+  function identityOf(docName) {
+    return documentIdentity[docName] || {};
+  }
+
+  const STORAGE_KEY = "quallm-manual-review-" + state.metadata.prefix;
+  let fileHandle = null;
+  let nextIdCounter = 1;
+  let addMode = false;
+  let moveTargetId = null;
+  let openPanelId = null; // id of the record whose edit panel is currently open
+  let manualOverride = {};
+  // Per-paragraph fold state set via the fold-toggle arrow, independent of
+  // (and overriding) the checked/excluded-derived default -- mirrors
+  // compare.html's paraCollapsedOverride. Cleared whenever Reviewed/Exclude
+  // changes so the paragraph falls back to the derived default.
+  const paraCollapsedOverride = {};
+  let activeMetaColumns = new Set(); // which metadata columns are currently shown
+  // One entry per filterColumns column; each value is a Set of allowed
+  // values for that column (empty Set = show all).
+  const activeFilters = new Map(filterColumns.map(({ col }) => [col, new Set()]));
+
+  const docsEl = document.getElementById("docs");
+  const legendEl = document.getElementById("legend");
+  const addToolbar = document.getElementById("addToolbar");
+  const addTagInput = document.getElementById("addTagInput");
+  const addTagSelectDefined = document.getElementById("addTagSelectDefined");
+  const toast = document.getElementById("toast");
+
+  // Single shared hover tooltip (not nested inside each mark) so a mark's
+  // DOM is plain text only -- never at risk of confusing native
+  // drag-selection with hidden nested content.
+  const sharedTooltip = document.createElement("div");
+  sharedTooltip.id = "shared-tooltip";
+  document.body.appendChild(sharedTooltip);
+
+  function showSharedTooltip(markEl) {
+    const tags = markEl.dataset.tags.split(",");
+    sharedTooltip.innerHTML = tags
+      .map((t) => {
+        const info = tagInfo(t);
+        const cls = (info.additional ? " undefined" : "") + (info.system ? " system" : "");
+        return `<div class="quote-tooltip-tag${cls}"><span class="quote-tooltip-color" style="background:${tagColor(t)}"></span>${escapeHtml(t)}</div>`;
+      })
+      .join("");
+    const rect = markEl.getBoundingClientRect();
+    sharedTooltip.style.left = rect.left + rect.width / 2 + "px";
+    sharedTooltip.style.top = rect.top - 6 + "px";
+    sharedTooltip.classList.add("show");
+  }
+  function hideSharedTooltip() {
+    sharedTooltip.classList.remove("show");
+  }
+
+  // Populates a <select> with defined (codebook) tags only, preselecting
+  // currentValue if it's one of them, and wires changing it to fill (and
+  // trigger the change handler of) targetInput -- the dropdown is just a
+  // shortcut for the free-text input, which remains the single source of
+  // truth and still accepts any typed name.
+  function wireDefinedTagSelect(select, targetInput, currentValue) {
+    select.innerHTML = "";
+    const placeholder = document.createElement("option");
+    placeholder.value = "";
+    placeholder.textContent = "— pick a defined tag —";
+    placeholder.disabled = true;
+    select.appendChild(placeholder);
+    let matched = false;
+    state.definedTags.forEach((t) => {
+      const opt = document.createElement("option");
+      opt.value = t;
+      opt.textContent = t;
+      if (t === currentValue) {
+        opt.selected = true;
+        matched = true;
+      }
+      select.appendChild(opt);
+    });
+    placeholder.selected = !matched;
+    select.onchange = () => {
+      if (!select.value) return;
+      targetInput.value = select.value;
+      targetInput.dispatchEvent(new Event("change", { bubbles: true }));
+    };
+  }
+
+  function showToast(msg) {
+    toast.textContent = msg;
+    toast.classList.add("show");
+    clearTimeout(showToast._t);
+    showToast._t = setTimeout(() => toast.classList.remove("show"), 2200);
+  }
+
+  function paraCheck(docName, rowNum) {
+    return state.paragraphChecks.find(
+      (p) => p.source_name === docName && p.row === rowNum
+    );
+  }
+
+  function activeRecords(docName, rowNum) {
+    return state.records
+      .filter((r) => r.source_name === docName && r.row === rowNum && r.status !== "deleted")
+      .filter((r) => state.metadata.render_undefined_tags || !tagInfo(r.tag).additional)
+      .filter((r) => state.metadata.show_system_tags || !tagInfo(r.tag).system)
+      .sort((a, b) => a.start - b.start || a.end - b.end);
+  }
+
+  function docParaChecks(docName) {
+    return state.paragraphChecks.filter((p) => p.source_name === docName);
+  }
+
+  function isDocFullyChecked(docName) {
+    const checks = docParaChecks(docName);
+    return checks.length > 0 && checks.every((p) => p.checked || p.excluded);
+  }
+
+  // Restricted-mode (Step 1 undefined-tags review) permission gating: only
+  // records flagged is_target (server-computed, see build_step1_target_records()
+  // in src/post_processing/undefined_tags.py) may be edited while the "Restrict to
+  // undefined tags" toggle is on -- everything else stays frozen alongside
+  // the existing paragraph-level (Reviewed/Exclude) lock.
+  function isTargetGatingActive() {
+    return MODE === "restricted" && !!state.metadata.restrict_to_target_tags;
+  }
+  function recordLocked(r, paraLocked) {
+    return paraLocked || (isTargetGatingActive() && !r.is_target);
+  }
+
+  function markStatusOnTagChange(r) {
+    if (r.status === "original") r.status = "changed_tag";
+    else if (r.status === "changed_position") r.status = "changed_position_and_tag";
+  }
+  function markStatusOnPositionChange(r) {
+    if (r.status === "original") r.status = "changed_position";
+    else if (r.status === "changed_tag") r.status = "changed_position_and_tag";
+  }
+
+  function persistLocal() {
+    localStorage.setItem(
+      STORAGE_KEY,
+      JSON.stringify({
+        savedAt: Date.now(),
+        metadata: state.metadata,
+        paragraph_checks: state.paragraphChecks,
+        records: state.records,
+      })
+    );
+  }
+
+  function render() {
+    legendEl.innerHTML = Object.keys(STATUS_LABELS)
+      .filter((s) => s !== "deleted")
+      .map((s) => `<span><span class="dot" style="background:${STATUS_COLORS[s]}"></span>${STATUS_LABELS[s]}</span>`)
+      .join("");
+
+    docsEl.innerHTML = "";
+    let shownCount = 0;
+    Object.keys(state.documents).forEach((docName) => {
+      const identity = identityOf(docName);
+      for (const [col, activeSet] of activeFilters) {
+        if (activeSet.size && !activeSet.has(identity[col])) return;
+      }
+      shownCount++;
+
+      const fullyChecked = isDocFullyChecked(docName);
+      const shouldOpen = docName in manualOverride ? manualOverride[docName] : !fullyChecked;
+
+      const details = document.createElement("details");
+      details.className = "document";
+      details.open = shouldOpen;
+      details.dataset.doc = docName;
+      details.addEventListener("toggle", () => { manualOverride[docName] = details.open; });
+
+      const checks = docParaChecks(docName);
+      const checkedCount = checks.filter((p) => p.checked || p.excluded).length;
+
+      const summary = document.createElement("summary");
+      summary.innerHTML = `<span>${docName}</span><span class="doc-progress ${fullyChecked ? "complete" : ""}">${checkedCount}/${checks.length} ${displayLabel} reviewed${fullyChecked ? " · fully reviewed" : ""}</span>`;
+      details.appendChild(summary);
+
+      const body = document.createElement("div");
+      body.className = "doc-body";
+      state.documents[docName].paragraphs.forEach((p) => body.appendChild(renderParagraph(docName, p)));
+      details.appendChild(body);
+      docsEl.appendChild(details);
+    });
+
+    document.getElementById("countDocsShown").textContent = shownCount;
+    document.getElementById("countDocsTotal").textContent = Object.keys(state.documents).length;
+    document.getElementById("countTotal").textContent = state.records.filter((r) => r.status !== "deleted").length;
+    document.getElementById("countDeleted").textContent = state.records.filter((r) => r.status === "deleted").length;
+    document.getElementById("countParaChecked").textContent = state.paragraphChecks.filter((p) => p.checked || p.excluded).length;
+    document.getElementById("countParaTotal").textContent = state.paragraphChecks.length;
+    document.getElementById("countParaExcluded").textContent = state.paragraphChecks.filter((p) => p.excluded).length;
+  }
+
+  function renderParagraph(docName, paragraph) {
+    const wrap = document.createElement("div");
+
+    const active = activeRecords(docName, paragraph.row);
+    const check = paraCheck(docName, paragraph.row);
+    const excluded = !!(check && check.excluded);
+    // "Reviewed" is effectively true whenever "Exclude" is checked too --
+    // this is a derived OR, not a stored fact, so it can never go stale
+    // (see the design note in the implementation plan for why mutating
+    // check.checked from the Exclude handler was rejected).
+    const locked = !!(check && (check.checked || excluded));
+    const paraKey = docName + ":" + paragraph.row;
+    const collapsed = paraKey in paraCollapsedOverride ? paraCollapsedOverride[paraKey] : locked;
+    wrap.className = "paragraph" + (collapsed ? " collapsed" : "");
+
+    // --- paragraph header: fold toggle + number + metadata fields (toggled
+    // via the Metadata dropdown) + reviewed/exclude checkboxes (both lock
+    // editing) ---
+    const head = document.createElement("div");
+    head.className = "para-head" + (locked ? " done" : "") + (excluded ? " excluded" : "");
+
+    const foldToggle = document.createElement("button");
+    foldToggle.type = "button";
+    foldToggle.className = "para-fold-toggle";
+    foldToggle.setAttribute("aria-label", "Toggle " + displayLabel);
+    foldToggle.addEventListener("click", () => {
+      paraCollapsedOverride[paraKey] = !collapsed;
+      render();
+    });
+    head.appendChild(foldToggle);
+
+    let headHtml = `<span class="pnum">${displayLabel}: ${paragraph.paragraph}</span>`;
+    const meta = paragraph.meta || {};
+    metaColumns.forEach(({ col, label: colLabel }) => {
+      const value = meta[col];
+      if (!value) return;
+      headHtml += `<span class="para-meta-field${activeMetaColumns.has(col) ? " show" : ""}" data-col="${escapeAttr(col)}"><b>${escapeHtml(colLabel)}:</b> ${escapeHtml(value)}</span>`;
+    });
+    head.insertAdjacentHTML("beforeend", headHtml);
+
+    const label = document.createElement("label");
+    label.className = "reviewed";
+    const cb = document.createElement("input");
+    cb.type = "checkbox";
+    cb.checked = locked;
+    cb.disabled = excluded;
+    cb.addEventListener("change", () => {
+      check.checked = cb.checked;
+      if (check.checked && openPanelId && active.some((r) => r.id === openPanelId)) {
+        openPanelId = null;
+      }
+      delete paraCollapsedOverride[paraKey];
+      persistLocal();
+      render();
+    });
+    label.appendChild(cb);
+    let reviewedText = "Reviewed";
+    if (excluded) reviewedText = "Reviewed (excluded)";
+    else if (locked) reviewedText = "Reviewed (locked)";
+    label.appendChild(document.createTextNode(reviewedText));
+    head.appendChild(label);
+
+    const excludeLabel = document.createElement("label");
+    excludeLabel.className = "exclude";
+    const cbExclude = document.createElement("input");
+    cbExclude.type = "checkbox";
+    cbExclude.checked = excluded;
+    cbExclude.addEventListener("change", () => {
+      check.excluded = cbExclude.checked;
+      if (check.excluded && openPanelId && active.some((r) => r.id === openPanelId)) {
+        openPanelId = null;
+      }
+      delete paraCollapsedOverride[paraKey];
+      persistLocal();
+      render();
+    });
+    excludeLabel.appendChild(cbExclude);
+    excludeLabel.appendChild(document.createTextNode(excluded ? "Excluded" : "Exclude"));
+    head.appendChild(excludeLabel);
+
+    wrap.appendChild(head);
+
+    // --- highlighted text: split into non-overlapping segments at every tag
+    // boundary (mirrors report/html.py's _render_paragraph_html), so every
+    // character of paragraph.text is emitted exactly once, even where two
+    // tags overlap only partially. A segment covered by >1 tag gets a
+    // striped background instead of picking just one tag's color. ---
+    const text = paragraph.text;
+    const base = paragraph.start_position;
+
+    const span = (r) => {
+      const s = Math.min(Math.max(r.start - base, 0), text.length);
+      const e = Math.min(Math.max(r.end - base, 0), text.length);
+      return [s, e];
+    };
+
+    const boundarySet = new Set([0, text.length]);
+    active.forEach((r) => {
+      const [s, e] = span(r);
+      if (s < e) {
+        boundarySet.add(s);
+        boundarySet.add(e);
+      }
+    });
+    const boundaries = Array.from(boundarySet).sort((a, b) => a - b);
+
+    let html = "";
+    for (let i = 0; i < boundaries.length - 1; i++) {
+      const segStart = boundaries[i];
+      const segEnd = boundaries[i + 1];
+      const segText = text.slice(segStart, segEnd);
+      const segActive = active.filter((r) => {
+        const [s, e] = span(r);
+        return s <= segStart && segEnd <= e;
+      });
+      if (segActive.length === 0) {
+        html += escapeHtml(segText);
+        continue;
+      }
+      const seenTags = new Set();
+      const segTags = [];
+      segActive.forEach((r) => {
+        if (!seenTags.has(r.tag)) {
+          seenTags.add(r.tag);
+          segTags.push(r.tag);
+        }
+      });
+      const bg = buildStripeBackground(segTags);
+      const ids = segActive.map((r) => r.id).join(",");
+      // Plain text content only (no nested tooltip element) -- see
+      // showSharedTooltip()/sharedTooltip for why the tooltip lives outside
+      // the mark instead.
+      html += `<span class="quote" data-ids="${escapeAttr(ids)}" data-tags="${escapeAttr(segTags.join(","))}" style="background:${bg}">${escapeHtml(segText)}</span>`;
+    }
+
+    const ptext = document.createElement("div");
+    ptext.className = "ptext" +
+      (moveTargetId && active.some((r) => r.id === moveTargetId) ? " move-target" : "") +
+      (excluded ? " excluded-text" : "");
+    ptext.dataset.doc = docName;
+    ptext.dataset.row = String(paragraph.row);
+    ptext.dataset.base = String(base);
+    ptext.innerHTML = html;
+    wrap.appendChild(ptext);
+
+    // hovering a highlighted span shows the shared tooltip; clicking it
+    // scrolls to + flashes the badge(s) active there
+    ptext.querySelectorAll("span.quote").forEach((m) => {
+      m.addEventListener("mouseenter", () => showSharedTooltip(m));
+      m.addEventListener("mouseleave", hideSharedTooltip);
+      m.addEventListener("click", () => {
+        const ids = m.dataset.ids.split(",");
+        badgesEl.querySelectorAll(".tag-badge").forEach((b) => {
+          if (ids.includes(b.dataset.id)) {
+            b.classList.add("flash");
+            b.scrollIntoView({ block: "nearest", behavior: "smooth" });
+            setTimeout(() => b.classList.remove("flash"), 900);
+          }
+        });
+      });
+    });
+
+    // --- ordered badge list under the paragraph, in text order ---
+    const badgesEl = document.createElement("div");
+    badgesEl.className = "badges";
+    active.forEach((r) => badgesEl.appendChild(renderBadge(r, locked, excluded)));
+    wrap.appendChild(badgesEl);
+
+    // edit panel mount point (appears directly under badges when a badge is clicked)
+    const panelMount = document.createElement("div");
+    panelMount.className = "panel-mount";
+    const openRecord = openPanelId ? active.find((r) => r.id === openPanelId) : null;
+    if (openRecord && !recordLocked(openRecord, locked)) {
+      panelMount.appendChild(renderEditPanel(openRecord, docName, paragraph));
+    }
+    wrap.appendChild(panelMount);
+
+    // drag-select handling for add / move. Move is restricted to the tag's
+    // own paragraph, and a reviewed (locked) paragraph accepts neither.
+    // Deliberately does NOT exclude mousedown on an existing span.quote --
+    // Add/Move both need to be able to start a drag from within already-
+    // highlighted text (e.g. to reposition next to/over another tag). A
+    // plain click (no drag) still resolves to a collapsed selection below
+    // and is ignored, so the mark's own click-to-flash handler is unaffected.
+    let dragging = false;
+    ptext.addEventListener("mousedown", () => {
+      if (locked) return;
+      if (addMode) {
+        dragging = true;
+        ptext.classList.add("selecting");
+        return;
+      }
+      if (moveTargetId) {
+        const target = state.records.find((r) => r.id === moveTargetId);
+        if (target && target.source_name === docName && target.row === paragraph.row) {
+          dragging = true;
+          ptext.classList.add("selecting");
+        }
+      }
+    });
+    document.addEventListener("mouseup", () => {
+      if (!dragging) return;
+      dragging = false;
+      ptext.classList.remove("selecting");
+      const sel = window.getSelection();
+      if (!sel || sel.isCollapsed || sel.rangeCount === 0) return;
+      const range = sel.getRangeAt(0);
+      if (!ptext.contains(range.commonAncestorContainer)) return;
+      const localStart = rangeOffsetWithin(ptext, range.startContainer, range.startOffset);
+      const localEnd = rangeOffsetWithin(ptext, range.endContainer, range.endOffset);
+      if (localStart == null || localEnd == null || localStart === localEnd) return;
+      const lo = Math.min(localStart, localEnd);
+      const hi = Math.max(localStart, localEnd);
+      const absStart = base + lo;
+      const absEnd = base + hi;
+      const phrase = paragraph.text.slice(lo, hi);
+      sel.removeAllRanges();
+
+      if (addMode) {
+        const tag = addTagInput.value.trim();
+        if (!tag) {
+          showToast("Enter a tag name before dragging to add it.");
+          return;
+        }
+        const gid = `${docName}-${absStart}-${absEnd}`;
+        state.records.push({
+          id: `${gid}-${tag}-${nextIdCounter++}`,
+          group_id: gid,
+          source_name: docName,
+          row: paragraph.row,
+          phrase,
+          tag,
+          start: absStart,
+          end: absEnd,
+          status: "created",
+        });
+        showToast(`Added "${tag}" on "${phrase}"`);
+        persistLocal();
+        render();
+      } else if (moveTargetId) {
+        const r = state.records.find((x) => x.id === moveTargetId);
+        if (r) {
+          r.start = absStart;
+          r.end = absEnd;
+          r.phrase = phrase;
+          markStatusOnPositionChange(r);
+          showToast(`Moved "${r.tag}" to "${phrase}"`);
+        }
+        moveTargetId = null;
+        persistLocal();
+        render();
+      }
+    });
+
+    return wrap;
+  }
+
+  function rangeOffsetWithin(container, node, offset) {
+    // Marks contain plain text only (no nested tooltip element -- see
+    // sharedTooltip), so a plain Range.toString().length is always correct.
+    const r = document.createRange();
+    r.selectNodeContents(container);
+    try {
+      r.setEnd(node, offset);
+    } catch (e) {
+      return null;
+    }
+    return r.toString().length;
+  }
+
+  function flashRecordSpans(recordId) {
+    // Opening/closing the editor rebuilds the document DOM. Resolve marks
+    // after render() so the flash applies to the visible text.
+    const marks = Array.from(docsEl.querySelectorAll("span.quote"))
+      .filter((m) => m.dataset.ids.split(",").includes(recordId));
+    marks.forEach((m) => m.classList.add("flash"));
+    if (marks.length) marks[0].scrollIntoView({ block: "nearest", behavior: "smooth" });
+    setTimeout(() => marks.forEach((m) => m.classList.remove("flash")), 900);
+  }
+
+  function renderBadge(r, paraLocked, excluded) {
+    const badge = document.createElement("span");
+    const info = tagInfo(r.tag);
+    const locked = recordLocked(r, paraLocked);
+    const unlockHint = paraLocked
+      ? (excluded ? "uncheck Exclude" : "uncheck Reviewed")
+      : "turn off 'Restrict to undefined tags'";
+    badge.className = "tag-badge" +
+      (openPanelId === r.id ? " open" : "") +
+      (locked ? " locked" : "") +
+      (info.additional ? " undefined" : "") +
+      (info.system ? " system" : "");
+    badge.dataset.id = r.id;
+    badge.style.backgroundColor = tagColor(r.tag);
+    badge.title = r.tag + " (" + STATUS_LABELS[r.status] + ")" + (locked ? ` — ${unlockHint} to edit` : "");
+    if (r.status !== "original") {
+      const dot = document.createElement("span");
+      dot.className = "status-dot";
+      dot.style.background = STATUS_COLORS[r.status];
+      badge.appendChild(dot);
+    }
+    badge.appendChild(document.createTextNode(r.tag));
+    badge.addEventListener("click", () => {
+      if (locked) {
+        showToast(`${unlockHint[0].toUpperCase()}${unlockHint.slice(1)} to edit tags in this ${displayLabel.toLowerCase()}.`);
+        flashRecordSpans(r.id);
+        return;
+      }
+      openPanelId = openPanelId === r.id ? null : r.id;
+      render();
+      flashRecordSpans(r.id);
+    });
+    return badge;
+  }
+
+  function renderEditPanel(r, docName, paragraph) {
+    const panel = document.createElement("div");
+    panel.className = "edit-panel";
+
+    const statusLabel = document.createElement("span");
+    statusLabel.className = "status-label";
+    statusLabel.style.background = STATUS_COLORS[r.status];
+    statusLabel.textContent = STATUS_LABELS[r.status];
+    panel.appendChild(statusLabel);
+
+    const pos = document.createElement("span");
+    pos.className = "pos";
+    pos.textContent = `${r.start}-${r.end}`;
+    panel.appendChild(pos);
+
+    const tagSelect = document.createElement("select");
+    panel.appendChild(tagSelect);
+
+    const tagInput = document.createElement("input");
+    tagInput.type = "text";
+    tagInput.className = "tag-input";
+    tagInput.setAttribute("list", "tag-options");
+    tagInput.value = r.tag;
+    tagInput.placeholder = "or type a new tag";
+    tagInput.addEventListener("change", () => {
+      const newTag = tagInput.value.trim();
+      if (newTag && newTag !== r.tag) {
+        r.tag = newTag;
+        markStatusOnTagChange(r);
+        persistLocal();
+        render();
+      } else {
+        tagInput.value = r.tag;
+      }
+    });
+    panel.appendChild(tagInput);
+
+    wireDefinedTagSelect(tagSelect, tagInput, r.tag);
+
+    const spacer = document.createElement("span");
+    spacer.className = "spacer";
+    panel.appendChild(spacer);
+
+    const moveBtn = document.createElement("button");
+    moveBtn.className = "small";
+    moveBtn.textContent = "⇲ Move";
+    moveBtn.title = `Drag-select the new text range within this ${displayLabel.toLowerCase()}`;
+    moveBtn.addEventListener("click", () => {
+      addMode = false;
+      addToolbar.classList.remove("show");
+      document.getElementById("btnAddMode").classList.remove("active");
+      moveTargetId = moveTargetId === r.id ? null : r.id;
+      showToast(moveTargetId ? `Drag-select a new range within ${displayLabel.toLowerCase()} ${paragraph.paragraph} of ${docName}…` : "Move cancelled.");
+      render();
+    });
+    panel.appendChild(moveBtn);
+
+    const delBtn = document.createElement("button");
+    delBtn.className = "small danger";
+    delBtn.textContent = "🗑 Delete";
+    delBtn.addEventListener("click", () => {
+      r.status = "deleted";
+      openPanelId = null;
+      showToast(`Deleted "${r.tag}"`);
+      persistLocal();
+      render();
+    });
+    panel.appendChild(delBtn);
+
+    const closeBtn = document.createElement("button");
+    closeBtn.className = "small";
+    closeBtn.textContent = "Close";
+    closeBtn.addEventListener("click", () => {
+      openPanelId = null;
+      render();
+    });
+    panel.appendChild(closeBtn);
+
+    return panel;
+  }
+
+  function escapeHtml(s) { return s.replace(/&/g, "&amp;").replace(/</g, "&lt;").replace(/>/g, "&gt;"); }
+  function escapeAttr(s) { return escapeHtml(s).replace(/"/g, "&quot;"); }
+
+  document.getElementById("btnExpandAll").addEventListener("click", () => {
+    Object.keys(state.documents).forEach((d) => (manualOverride[d] = true));
+    render();
+  });
+  document.getElementById("btnCollapseAll").addEventListener("click", () => {
+    Object.keys(state.documents).forEach((d) => (manualOverride[d] = false));
+    render();
+  });
+
+  const tagOptions = document.getElementById("tag-options");
+  state.tags.forEach((t) => {
+    const opt = document.createElement("option");
+    opt.value = t;
+    tagOptions.appendChild(opt);
+  });
+  wireDefinedTagSelect(addTagSelectDefined, addTagInput, "");
+
+  // --- generic dropdown-panel open/close (metadata + filters), mirroring
+  // compare.html's meta-selector open/close-on-outside-click behavior ---
+  function wireDropdownToggle(btnId, panelId) {
+    const btn = document.getElementById(btnId);
+    const panel = document.getElementById(panelId);
+    btn.addEventListener("click", (ev) => {
+      ev.stopPropagation();
+      const willOpen = !panel.classList.contains("open");
+      document.querySelectorAll(".dropdown-panel.open").forEach((p) => p.classList.remove("open"));
+      if (willOpen) panel.classList.add("open");
+    });
+    panel.addEventListener("click", (ev) => ev.stopPropagation());
+  }
+  document.addEventListener("click", () => {
+    document.querySelectorAll(".dropdown-panel.open").forEach((p) => p.classList.remove("open"));
+  });
+  wireDropdownToggle("metaSelectorBtn", "metaSelectorPanel");
+
+  // --- metadata column selector: toggling a checkbox just flips CSS
+  // visibility on already-rendered .para-meta-field spans (no full
+  // re-render needed), matching compare.html's applyMetaColumns(). ---
+  const metaSelectorPanel = document.getElementById("metaSelectorPanel");
+  if (metaColumns.length === 0) {
+    metaSelectorPanel.innerHTML = '<div class="empty-hint">No metadata available.</div>';
+  } else {
+    metaColumns.forEach(({ col, label: colLabel }) => {
+      const item = document.createElement("div");
+      item.className = "dropdown-check-item";
+      const inputId = "meta-col-" + col;
+      item.innerHTML = `<input type="checkbox" id="${escapeAttr(inputId)}"><label for="${escapeAttr(inputId)}">${escapeHtml(colLabel)}</label>`;
+      item.querySelector("input").addEventListener("change", (ev) => {
+        if (ev.target.checked) activeMetaColumns.add(col);
+        else activeMetaColumns.delete(col);
+        applyMetaColumns();
+      });
+      metaSelectorPanel.appendChild(item);
+    });
+  }
+  function applyMetaColumns() {
+    document.querySelectorAll(".para-meta-field").forEach((el) => {
+      el.classList.toggle("show", activeMetaColumns.has(el.dataset.col));
+    });
+  }
+
+  // --- per-column identity filters: hide non-matching whole documents, so
+  // this always goes through a full render() rather than a CSS toggle. One
+  // dropdown is built per filterColumns entry (the configured document-key
+  // columns, plus condition) -- driven entirely by documentIdentity /
+  // filterColumns embedded from the server, so this page makes no
+  // assumptions about column names or how many there are. ---
+  function refreshFilterBtnLabel(btnId, baseLabel, activeSet) {
+    const btn = document.getElementById(btnId);
+    btn.textContent = activeSet.size ? `${baseLabel} (${activeSet.size}) ▾` : `${baseLabel} ▾`;
+    btn.classList.toggle("active", !!activeSet.size);
+  }
+  function buildFilterPanel(panelEl, btnId, baseLabel, activeSet, getValue) {
+    const values = Array.from(new Set(Object.keys(state.documents).map(getValue).filter((v) => v !== undefined && v !== null && v !== "")));
+    values.sort((a, b) =>
+      typeof a === "number" && typeof b === "number" ? a - b : String(a).localeCompare(String(b))
+    );
+    if (values.length === 0) {
+      panelEl.innerHTML = '<div class="empty-hint">No documents.</div>';
+      return;
+    }
+    values.forEach((value) => {
+      const item = document.createElement("div");
+      item.className = "dropdown-check-item";
+      const inputId = "filter-" + panelEl.id + "-" + String(value).replace(/\s+/g, "_");
+      item.innerHTML = `<input type="checkbox" id="${escapeAttr(inputId)}"><label for="${escapeAttr(inputId)}">${escapeHtml(String(value))}</label>`;
+      item.querySelector("input").addEventListener("change", (ev) => {
+        if (ev.target.checked) activeSet.add(value);
+        else activeSet.delete(value);
+        refreshFilterBtnLabel(btnId, baseLabel, activeSet);
+        render();
+      });
+      panelEl.appendChild(item);
+    });
+  }
+  const filterPanelsContainer = document.getElementById("filterPanelsContainer");
+  filterColumns.forEach(({ col, label }) => {
+    const btnId = "filterBtn-" + col;
+    const panelId = "filterPanel-" + col;
+    const wrap = document.createElement("div");
+    wrap.className = "dropdown-wrap";
+    wrap.innerHTML =
+      `<button id="${escapeAttr(btnId)}" class="small">Filter ${escapeHtml(label)} ▾</button>` +
+      `<div class="dropdown-panel" id="${escapeAttr(panelId)}"></div>`;
+    filterPanelsContainer.appendChild(wrap);
+    wireDropdownToggle(btnId, panelId);
+    buildFilterPanel(
+      document.getElementById(panelId),
+      btnId,
+      "Filter " + label,
+      activeFilters.get(col),
+      (d) => identityOf(d)[col]
+    );
+  });
+
+  document.getElementById("btnAddMode").addEventListener("click", () => {
+    moveTargetId = null;
+    addMode = !addMode;
+    addToolbar.classList.toggle("show", addMode);
+    document.getElementById("btnAddMode").classList.toggle("active", addMode);
+    render();
+  });
+  document.getElementById("btnCancelAdd").addEventListener("click", () => {
+    addMode = false;
+    addToolbar.classList.remove("show");
+    document.getElementById("btnAddMode").classList.remove("active");
+  });
+
+  const btnProtect = document.getElementById("btnProtect");
+  function refreshProtectBtn() {
+    btnProtect.textContent = "Protect file: " + (state.metadata.protect_file ? "on" : "off");
+    btnProtect.classList.toggle("active", !!state.metadata.protect_file);
+  }
+  btnProtect.addEventListener("click", () => {
+    state.metadata.protect_file = !state.metadata.protect_file;
+    refreshProtectBtn();
+    persistLocal();
+    showToast(
+      state.metadata.protect_file
+        ? "Protected: re-running Step 2 will not overwrite this file."
+        : "Unprotected: Step 2 will regenerate this file on next run."
+    );
+  });
+  refreshProtectBtn();
+
+  const btnRestrictTarget = document.getElementById("btnRestrictTarget");
+  function refreshRestrictBtn() {
+    if (!btnRestrictTarget) return;
+    btnRestrictTarget.textContent =
+      "Restrict to undefined tags: " + (state.metadata.restrict_to_target_tags ? "on" : "off");
+    btnRestrictTarget.classList.toggle("active", !!state.metadata.restrict_to_target_tags);
+  }
+  if (btnRestrictTarget) {
+    btnRestrictTarget.addEventListener("click", () => {
+      state.metadata.restrict_to_target_tags = !state.metadata.restrict_to_target_tags;
+      refreshRestrictBtn();
+      persistLocal();
+      render();
+    });
+  }
+  refreshRestrictBtn();
+
+  const btnShowUndefined = document.getElementById("btnShowUndefined");
+  const undefinedTagNames = tagList.filter((t) => t.additional_tag).map((t) => t.name).sort();
+  if (undefinedTagNames.length === 0) {
+    btnShowUndefined.disabled = true;
+    btnShowUndefined.title = "No undefined tags";
+  } else {
+    btnShowUndefined.title = "Undefined tags:\n" + undefinedTagNames.join("\n");
+  }
+  function refreshShowUndefinedBtn() {
+    btnShowUndefined.textContent = "Show undefined tags: " + (state.metadata.render_undefined_tags ? "on" : "off");
+    btnShowUndefined.classList.toggle("active", !!state.metadata.render_undefined_tags);
+  }
+  btnShowUndefined.addEventListener("click", () => {
+    state.metadata.render_undefined_tags = !state.metadata.render_undefined_tags;
+    refreshShowUndefinedBtn();
+    persistLocal();
+    render();
+  });
+  refreshShowUndefinedBtn();
+
+  const btnShowSystem = document.getElementById("btnShowSystem");
+  const systemTagNames = tagList.filter((t) => t.system).map((t) => t.name).sort();
+  if (systemTagNames.length === 0) {
+    btnShowSystem.disabled = true;
+    btnShowSystem.title = "No system tags";
+  } else {
+    btnShowSystem.title = "System tags:\n" + systemTagNames.join("\n");
+  }
+  function refreshShowSystemBtn() {
+    btnShowSystem.textContent = "Show system tags: " + (state.metadata.show_system_tags ? "on" : "off");
+    btnShowSystem.classList.toggle("active", !!state.metadata.show_system_tags);
+  }
+  btnShowSystem.addEventListener("click", () => {
+    state.metadata.show_system_tags = !state.metadata.show_system_tags;
+    refreshShowSystemBtn();
+    persistLocal();
+    render();
+  });
+  refreshShowSystemBtn();
+
+  async function saveToDisk() {
+    state.metadata.last_saved_at = new Date().toISOString();
+    // Escape "<" + "/" so a literal script-closing sequence inside edited
+    // text can never prematurely close this script block when reopened.
+    document.getElementById("review-data").textContent = JSON.stringify(
+      { metadata: state.metadata, paragraph_checks: state.paragraphChecks, records: state.records },
+      null,
+      2
+    ).replace(/<\//g, "<\\/");
+    const htmlText = "<!doctype html>\n" + document.documentElement.outerHTML;
+    const suggestedName =
+      state.metadata.suggested_filename || `review_interface_general_${state.metadata.prefix}.html`;
+
+    if (window.showSaveFilePicker) {
+      try {
+        const handle =
+          fileHandle ||
+          (await window.showSaveFilePicker({
+            suggestedName,
+            types: [{ description: "HTML file", accept: { "text/html": [".html"] } }],
+          }));
+        fileHandle = handle;
+        const writable = await handle.createWritable();
+        await writable.write(htmlText);
+        await writable.close();
+        document.getElementById("saveStatus").textContent = "Saved to file at " + new Date().toLocaleTimeString();
+        showToast("Saved.");
+        return;
+      } catch (e) {
+        if (e && e.name === "AbortError") {
+          showToast("Save cancelled.");
+          return;
+        }
+        console.warn("File System Access save failed, falling back to download.", e);
+      }
+    }
+    const blob = new Blob([htmlText], { type: "text/html" });
+    const a = document.createElement("a");
+    a.href = URL.createObjectURL(blob);
+    a.download = suggestedName;
+    a.click();
+    document.getElementById("saveStatus").textContent = "Downloaded a copy — replace the original file with this download.";
+    showToast("Downloaded — replace the file manually.");
+  }
+  document.getElementById("btnSave").addEventListener("click", saveToDisk);
+
+  const banner = document.getElementById("banner");
+  const cached = localStorage.getItem(STORAGE_KEY);
+  if (cached) {
+    try {
+      const parsed = JSON.parse(cached);
+      banner.classList.add("show");
+      document.getElementById("btnRestore").addEventListener("click", () => {
+        state.metadata = parsed.metadata;
+        state.paragraphChecks = parsed.paragraph_checks;
+        state.records = parsed.records;
+        banner.classList.remove("show");
+        refreshProtectBtn();
+        render();
+        showToast("Restored autosaved changes from this browser.");
+      });
+      document.getElementById("btnDiscard").addEventListener("click", () => {
+        localStorage.removeItem(STORAGE_KEY);
+        banner.classList.remove("show");
+      });
+    } catch (e) {
+      localStorage.removeItem(STORAGE_KEY);
+    }
+  }
+
+  render();
+})();
+</script>
+</body>
+</html>
